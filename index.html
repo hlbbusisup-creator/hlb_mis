@@ -2717,12 +2717,13 @@ function updateWeekRow(i){
   var inp=document.getElementById('bulk_'+i);
   if(!inp)return;
   var dEl=document.getElementById('wk_delta_'+i);
-  // 입력값이 없으면 — 표시하고 종료
-  if(inp.value===''||inp.value===null){
+  // 입력값이 없거나 양수 누계가 아니면 — 표시하고 종료
+  var _v=inp.value.trim();
+  var newCumul=parseInt(_v);
+  if(_v===''||isNaN(newCumul)||newCumul<=0){
     if(dEl){dEl.textContent='—';dEl.style.color='var(--t3)';}
     return;
   }
-  var newCumul=parseInt(inp.value)||0;
   var prevCumul=parseInt(inp.getAttribute('data-prev'))||0;
   var delta=newCumul-prevCumul;
   // 금주 실적 미리보기
