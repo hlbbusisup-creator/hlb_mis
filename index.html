@@ -374,7 +374,7 @@ tbody tr:hover td{background:#F7F9FF;}
 
 
 
-<!-- LOGIN -->
+<!-- LOGIN v2.1 -->
 <div id="loginScreen" class="screen active">
   <div class="lbg-dots"></div>
   <div class="lbg-orb lbg-orb1"></div>
@@ -2869,6 +2869,11 @@ function renderBulkTable(){
   var mon=getWeekMonth(yrVal,wkVal);
   var h='';
   var lastCat='';
+  // 로컬 저장값 폴백: GAS에 현재 주차 데이터 없고, 로컬에 같은 주차 저장된 경우 자동 채우기
+  var localFallbackMap={};
+  if(S.lastWeek && String(S.lastWeek.year)===yrVal && String(S.lastWeek.week)===wkVal && S.perf){
+    S.perf.forEach(function(p){ if(p&&p.k&&p.a>0) localFallbackMap[p.k]=p.a; });
+  }
   PD.forEach(function(d,i){
     if(d.c!==lastCat){
       h+='<tr class="ghdr"><td colspan="7">'+d.c+'</td></tr>';
@@ -2878,7 +2883,8 @@ function renderBulkTable(){
     var pc=d.r===null?'var(--t4)':d.r>=.5?'var(--gn)':d.r>=.3?'#B7791F':'var(--rd)';
     // 전주 누계 = 직전주 GAS 데이터 (없으면 0)
     var prevCumul=(_bulkPrevData&&_bulkPrevData[d.k]>0)?_bulkPrevData[d.k]:0;
-    var savedVal=(_bulkCurrData&&_bulkCurrData[d.k]>0)?_bulkCurrData[d.k]:'';
+    // 입력값 우선순위: GAS 현재주차 > 로컬 저장값 > 빈값
+    var savedVal=(_bulkCurrData&&_bulkCurrData[d.k]>0)?_bulkCurrData[d.k]:(localFallbackMap[d.k]||'');
     var inputBg=savedVal?'#F0FFF4':'#FFFDF0';
     var inputBd=savedVal?'1.5px solid #68D391':'1.5px solid #E8D88A';
     h+='<tr>';
@@ -2894,7 +2900,8 @@ function renderBulkTable(){
   var el=document.getElementById('bulkTbody'); if(el)el.innerHTML=h;
   // 기입력값 있는 행은 즉시 delta 계산 표시
   PD.forEach(function(d,i){
-    if(_bulkCurrData&&_bulkCurrData[d.k]>0) updateWeekRow(i);
+    var inp=document.getElementById('bulk_'+i);
+    if(inp&&inp.value&&inp.value.trim()!=='') updateWeekRow(i);
   });
 }
 function updateWeekRow(i){
