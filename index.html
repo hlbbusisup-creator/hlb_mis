@@ -3365,6 +3365,23 @@ async function loadTasksFromAPI() {
     _customTasks = [];
   }
   renderTasks();
+  // 과제 전체 목록을 스프레드시트에 동기화 (백그라운드)
+  _syncTaskDefsToSheet();
+}
+
+function _syncTaskDefsToSheet() {
+  if (!HLB_API_URL) return;
+  var catMap = {global:'글로벌', ls:'HLB생명과학', pep:'HLB펩'};
+  var tasks = [];
+  Object.keys(TASK_INIT).forEach(function(cat) {
+    TASK_INIT[cat].forEach(function(t) {
+      tasks.push({code:t.code, cat:catMap[cat]||cat, name:t.name, actions:t.actions||'', owner:t.owner||'', due:t.due||''});
+    });
+  });
+  fetch(HLB_API_URL, {
+    method:'POST', headers:{'Content-Type':'text/plain;charset=utf-8'},
+    body: JSON.stringify({action:'syncTaskDefs', tasks:tasks})
+  }).catch(function(){});
 }
 
 // ── API 저장: 상태 업데이트 ──
