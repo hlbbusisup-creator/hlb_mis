@@ -713,10 +713,10 @@ tbody tr:hover td{background:#F7F9FF;}
           <div class="utit" style="margin-bottom:0">📅 주간 실적 입력</div>
           <div style="display:flex;gap:8px;align-items:center;flex-wrap:wrap">
             <label style="font-size:13px;font-weight:600;color:var(--t2)">기준 주차</label>
-            <select id="bulkYear" onchange="renderBulkTable()" style="padding:6px 10px;border:1px solid var(--bd);border-radius:4px;font-size:14px;font-family:inherit;outline:none">
+            <select id="bulkYear" onchange="loadBulkWeekData()" style="padding:6px 10px;border:1px solid var(--bd);border-radius:4px;font-size:14px;font-family:inherit;outline:none">
               <option value="2026">2026년</option>
             </select>
-            <select id="bulkWeek" onchange="renderBulkTable()" style="padding:6px 10px;border:1px solid var(--bd);border-radius:4px;font-size:14px;font-family:inherit;outline:none;min-width:160px"></select>
+            <select id="bulkWeek" onchange="loadBulkWeekData()" style="padding:6px 10px;border:1px solid var(--bd);border-radius:4px;font-size:14px;font-family:inherit;outline:none;min-width:160px"></select>
             <button class="btn btns btnsm" onclick="saveBulkAll()">✔ 전체 저장</button>
           </div>
         </div>
@@ -1191,6 +1191,7 @@ var REPORT_MONTH   = 5;       // 현재 보고 기준월 (1~12)
 var _sheetDataCache = null;   // 최신 API 응답 캐시
 var _currentWeek   = null;    // 현재 선택된 주차
 var _weekCache     = {};      // 주차별 캐시 { 'ISO-week': json } — 재선택 시 즉시 반영
+var _bulkPrevData  = {};      // 주간 실적 입력용 직전주 누계 { companyCode: cumulative }
 
 // ── 캐시된 데이터를 화면에 적용 ─────────────────────────────
 function applySheetJson(json) {
@@ -1220,6 +1221,20 @@ function applySheetJson(json) {
   showApiStatus('ok');
 }
 
+// ── 이전 ISO주차 계산 ───────────────────────────────────────
+function getPrevIsoWeekStr(isoWeek) {
+  if (!isoWeek) return null;
+  var m = isoWeek.match(/^(\d{4})-W(\d{2})$/);
+  if (!m) return null;
+  var yr = parseInt(m[1]), wk = parseInt(m[2]);
+  if (wk > 1) return yr + '-W' + String(wk - 1).padStart(2, '0');
+  // 1주차면 전년 마지막 주
+  var dec31 = new Date(yr - 1, 11, 31);
+  var day = dec31.getDay() || 7;
+  var lastWk = day >= 4 ? 53 : 52;
+  return (yr - 1) + '-W' + String(lastWk).padStart(2, '0');
+}
+
 // ── API에서 데이터 불러오기 ───────────────────────────────────
 async function loadSheetData(week) {
   if (!HLB_API_URL) return;
@@ -1228,12 +1243,12 @@ async function loadSheetData(week) {
   // 캐시에 있으면 즉시 적용 (API 호출 없음)
   if (_weekCache[cacheKey]) {
     applySheetJson(_weekCache[cacheKey]);
+    await applyPrevWeekWa(_weekCache[cacheKey]);
     return;
   }
 
   try {
     showApiStatus('loading');
-    // 배지에 로딩 표시
     var badge = document.getElementById('currentWeekBadge');
     if (badge) badge.textContent = '불러오는 중…';
 
@@ -1247,9 +1262,50 @@ async function loadSheetData(week) {
     if (json.week) _weekCache[json.week] = json; // ISO키로도 저장
 
     applySheetJson(json);
+    await applyPrevWeekWa(json);
   } catch(err) {
     showApiStatus('error', err.message);
   }
+}
+
+// ── 이전 주 데이터로 금주 실적(wa) 보정 ──────────────────────
+async function applyPrevWeekWa(json) {
+  // GAS가 wa를 반환하지 않는 경우: 이전 주 누계와의 차이로 계산
+  var anyWa = PD.some(function(d){ return d.wa > 0; });
+  if (anyWa) return; // 이미 wa 있으면 패스
+
+  var isoWeek = json.week;
+  if (!isoWeek) return;
+  var prevIso = getPrevIsoWeekStr(isoWeek);
+  if (!prevIso) return;
+
+  try {
+    var prevJson = _weekCache[prevIso];
+    if (!prevJson) {
+      var res2 = await fetch(HLB_API_URL + '?action=getWeek&week=' + encodeURIComponent(prevIso));
+      prevJson = await res2.json();
+      if (!prevJson.error) _weekCache[prevIso] = prevJson;
+    }
+    if (!prevJson || prevJson.error || !prevJson.companies) return;
+
+    // 이전 주에 실제 데이터가 있을 때만 delta 계산 (없으면 wa는 '-' 표시)
+    var prevHasData = prevJson.companies.some(function(c){ return (c.a || 0) > 0; });
+    if (!prevHasData) return;
+
+    var prevLookup = {};
+    prevJson.companies.forEach(function(c){ prevLookup[c.c] = c; });
+
+    var updated = false;
+    PD.forEach(function(d){
+      var prev = prevLookup[d.k];
+      var prevA = prev ? (prev.a || 0) : 0;
+      if (d.a > 0 && prevA > 0 && d.a > prevA) {
+        d.wa = d.a - prevA;
+        updated = true;
+      }
+    });
+    if (updated) { rDP(); rPerf('all'); }
+  } catch(e) {}
 }
 
 // ── 주차 목록 불러오기 (드롭다운용) ─────────────────────────
@@ -1699,7 +1755,7 @@ function showPortal(){
   var li=document.getElementById('hdrLogo');
   if(li){li.src=document.querySelector('.llogo img').src;}
   rDP();rPerf('all');renderIssues();rMall('all');rBiz('all');rDE();updateOvsKpi(OVS_ALL);renderOvsMap();renderOvsCountryRank2(OVS_ALL);renderOvsTbody(OVS_ALL);renderOvsCountryBar(OVS_ALL);renderOvsDeptChart(OVS_ALL);renderOvsCountryChips();
-  setTimeout(function(){bCharts();renderLibPage();updateDashWeekly();},500);setTimeout(function(){renderBulkTable();renderTrend();renderPerfBar2();},700);
+  setTimeout(function(){bCharts();renderLibPage();updateDashWeekly();},500);setTimeout(function(){loadBulkWeekData();renderTrend();renderPerfBar2();},700);
 }
 
 
@@ -2640,6 +2696,41 @@ function renderPerfBar2(){
 }
 
 /* ════ 일괄 입력 테이블 ════ */
+// 주차 선택 시 직전 주 GAS 데이터를 불러와 전주 누계를 정확히 표시
+async function loadBulkWeekData(){
+  var yr=document.getElementById('bulkYear');
+  var wk=document.getElementById('bulkWeek');
+  var yrVal=yr?parseInt(yr.value):2026;
+  var wkVal=wk?parseInt(wk.value):0;
+
+  // 일단 현재 PD로 즉시 렌더 (폴백)
+  _bulkPrevData={};
+  renderBulkTable();
+
+  if(!HLB_API_URL||!wkVal) return;
+
+  // 직전 주 ISO 계산
+  var prevWk=wkVal-1, prevYr=yrVal;
+  if(prevWk<1){prevWk=52;prevYr=yrVal-1;}
+  var prevIso=prevYr+'-W'+String(prevWk).padStart(2,'0');
+
+  try{
+    // 캐시 우선 사용
+    var json=_weekCache[prevIso];
+    if(!json){
+      var res=await fetch(HLB_API_URL+'?action=getWeek&week='+encodeURIComponent(prevIso));
+      json=await res.json();
+      if(!json.error) _weekCache[prevIso]=json;
+    }
+    _bulkPrevData={};
+    if(json&&json.companies){
+      json.companies.forEach(function(c){ _bulkPrevData[c.c]=c.a||0; });
+    }
+  }catch(e){ _bulkPrevData={}; }
+
+  renderBulkTable();
+}
+
 function getWeekLabel(){
   var yr=document.getElementById('bulkYear');
   var wk=document.getElementById('bulkWeek');
@@ -2696,8 +2787,8 @@ function renderBulkTable(){
     }
     var pct=d.r!==null?(d.r*100).toFixed(1)+'%':'-';
     var pc=d.r===null?'var(--t4)':d.r>=.5?'var(--gn)':d.r>=.3?'#B7791F':'var(--rd)';
-    // 전주 누계 = 현재 저장된 누계 (입력 전)
-    var prevCumul=d.a||0;
+    // 전주 누계 = 직전주 GAS 데이터 우선, 없으면 현재 PD 누계
+    var prevCumul=(_bulkPrevData&&_bulkPrevData[d.k]!==undefined)?_bulkPrevData[d.k]:(d.a||0);
     // 당월 누적
     var moKey='mo_'+i+'_'+yrVal+'_'+mon;
     var moAmt=(S.monthly&&S.monthly[moKey])?S.monthly[moKey]:0;
@@ -2759,6 +2850,7 @@ function saveBulkAll(){
   var isoWeek=yrVal+'-W'+String(parseInt(wkVal)||0).padStart(2,'0');
   var mon=getWeekMonth(yrVal,wkVal);
   var updated=0, totalWk=0;
+  var waMap={};  // 계열사코드 → 금주 실적(delta) 맵
   if(!S.weekly)S.weekly={};
   if(!S.monthly)S.monthly={};
   PD.forEach(function(d,i){
@@ -2767,9 +2859,11 @@ function saveBulkAll(){
       var newCumul=parseInt(inp.value);
       var prevCumul=parseInt(inp.getAttribute('data-prev'))||PD[i].a||0;
       var delta=newCumul-prevCumul;  // 금주 실적 = 새 누계 - 전주 누계
+      waMap[d.k]=delta;              // 코드 기준으로 delta 보관
       var wkKey='wk_'+i+'_'+yrVal+'_'+wkVal;
       S.weekly[wkKey]=delta;         // 금주 실적(차이값) 저장
       PD[i].a=newCumul;              // 누계를 새 값으로 교체
+      PD[i].wa=delta;                // 금주 실적 즉시 반영
       if(PD[i].g>0)PD[i].r=PD[i].a/PD[i].g;
       // 월별 집계: 기존 대비 delta만 반영
       var moKey='mo_'+i+'_'+yrVal+'_'+mon;
@@ -2797,7 +2891,8 @@ function saveBulkAll(){
             code:       d.k,
             name:       d.n,
             goal:       d.g || 0,
-            cumulative: d.a,    // 로컬 저장 후 이미 누계 반영된 값
+            cumulative: d.a,        // 로컬 저장 후 이미 누계 반영된 값
+            weekActual: waMap[d.k] || 0,  // 금주 실적 (delta)
             prevYear:   d.p || 0
           });
         }
@@ -2816,7 +2911,16 @@ function saveBulkAll(){
             // 저장 성공 후 GAS에서 최신 데이터 재로드 → 홈/대시보드 즉시 반영
             delete _weekCache['__latest__'];
             delete _weekCache[isoWeek];
-            loadSheetData(isoWeek).then(function(){ loadWeekList(); });
+            loadSheetData(isoWeek).then(function(){
+              // 로컬 계산값(delta)이 항상 우선 — GAS가 wa를 반환해도 덮어씀
+              PD.forEach(function(d){
+                if(waMap[d.k]!==undefined){
+                  d.wa=waMap[d.k];
+                }
+              });
+              rDP(); rPerf('all');
+              loadWeekList();
+            });
           } else {
             showT('⚠ 시트 저장 오류: '+(j.error||'알 수 없음'),'err');
           }
