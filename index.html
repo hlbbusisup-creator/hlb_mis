@@ -2778,15 +2778,30 @@ async function loadBulkWeekData(){
       currJson.companies.forEach(function(c){ if(c.a>0)_bulkCurrData[c.c]=c.a; });
     }
 
-    // 당월 누적 기준: 이전 달 마지막 GAS 주차 누계
-    // (이전 달 끝 누계를 빼면 이번 달에 쌓인 실적이 됨)
+    // 당월 누적 기준: 해당 월 GAS 데이터 시작 이전의 누계
+    // 같은 달 GAS 주차 중 가장 오래된 것을 찾아, 그 이전 주차를 기준으로 사용
+    // 이전 달 GAS 주차가 없으면 같은 달 첫 GAS 주차 자체를 기준으로 사용
     var currMonth = isoWeekToMonthNum(currIso) || 0;
-    var monthBaseIso = null;
-    for(var gi=_gasWeeks.length-1;gi>=0;gi--){
+    var sameMonthWeeks = [];
+    for(var gi=0;gi<_gasWeeks.length;gi++){
       var gw=_gasWeeks[gi];
-      if(gw>=currIso) continue;
-      var gwMonth=isoWeekToMonthNum(gw)||0;
-      if(gwMonth < currMonth){ monthBaseIso=gw; break; }
+      if(gw>=currIso) break;
+      if((isoWeekToMonthNum(gw)||0)===currMonth) sameMonthWeeks.push(gw);
+    }
+    var monthBaseIso = null;
+    if(sameMonthWeeks.length>0){
+      var firstSameMonth=sameMonthWeeks[0];
+      var firstIdx=_gasWeeks.indexOf(firstSameMonth);
+      if(firstIdx>0){
+        // 같은 달 첫 GAS주 이전에 다른 달 주차 존재 → 그것을 기준으로
+        monthBaseIso=_gasWeeks[firstIdx-1];
+      } else {
+        // 이전 달 GAS 데이터 없음 → 같은 달 첫 GAS주 자체를 기준으로 (전월 마지막 누계로 간주)
+        monthBaseIso=firstSameMonth;
+      }
+    } else {
+      // 같은 달 GAS 주차 없음 → 직전 GAS 주를 기준으로
+      monthBaseIso=prevIso;
     }
     _bulkMonthBase={};
     if(monthBaseIso){
@@ -2900,10 +2915,12 @@ function updateWeekRow(i){
     dEl.textContent=delta>0?'+'+delta.toLocaleString():delta!==0?delta.toLocaleString():'—';
     dEl.style.color=delta>0?'#1E40AF':delta<0?'#B91C1C':'var(--t3)';
   }
-  // 당월 누적 미리보기 = 입력 누계 - 전주 누계 (= 금주 실적, 월 첫 입력 기준)
+  // 당월 누적 미리보기 = 입력 누계 - 해당 월 첫 GAS주 누계 (월 내 금주 실적 누적합)
   var moEl=document.getElementById('mo_amt_'+i);
   if(moEl){
-    var newMo=delta>0?delta:0;
+    var pdK=PD[i]?PD[i].k:'';
+    var monthBase=(_bulkMonthBase&&pdK&&_bulkMonthBase[pdK]>0)?_bulkMonthBase[pdK]:0;
+    var newMo=monthBase>0&&newCumul>monthBase?newCumul-monthBase:delta>0?delta:0;
     moEl.textContent=newMo>0?newMo.toLocaleString():'-';
   }
 }
