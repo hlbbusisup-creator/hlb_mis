@@ -1222,6 +1222,8 @@ function applySheetJson(json) {
   updateWeekLabels(json.week);
   rDP();
   showApiStatus('ok');
+  // 주차 전환 시 해당 주차 이슈 자동 로드
+  loadIssues(json.week);
 }
 
 // ── 이전 ISO주차 계산 ───────────────────────────────────────
@@ -2233,7 +2235,12 @@ function renderIssues(){
   var items=S.issues||[];
   var el=document.getElementById('issueItems');if(!el)return;
   var dl=document.getElementById('issueDateLbl');
-  if(dl&&S.issueDate)dl.textContent='최근 수정: '+S.issueDate;
+  if(dl){
+    var lbl='';
+    if(S.issueWeek) lbl=isoWeekToKorean(S.issueWeek);
+    if(S.issueDate) lbl+=(lbl?' · ':'')+'최근 수정: '+S.issueDate;
+    if(lbl) dl.textContent=lbl;
+  }
   var btn=document.getElementById('issueEditBtn');
   if(btn){
     var canEdit=cu&&(cu.role==='admin'||cu.role==='manager');
@@ -2272,11 +2279,43 @@ function saveIssues(){
     items.push({lv:lv,txt:txt});
   }
   S.issues=items;
+  S.issueWeek=_currentWeek||null;
   var now=new Date();
   S.issueDate=now.getFullYear()+'.'+(now.getMonth()+1).toString().padStart(2,'0')+'.'+now.getDate().toString().padStart(2,'0');
   ss(S);renderIssues();
   document.getElementById('issueEditWrap').classList.remove('open');
   showT('✔ 이슈가 저장되었습니다.','suc');
+
+  // ── GAS 동기화 ──────────────────────────────────────────────
+  if(HLB_API_URL && _currentWeek){
+    fetch(HLB_API_URL,{
+      method:'POST',
+      headers:{'Content-Type':'text/plain;charset=utf-8'},
+      body:JSON.stringify({action:'saveIssues',week:_currentWeek,issues:items})
+    }).then(function(r){return r.json();})
+    .then(function(j){
+      if(j.success) showT('✔ 이슈가 구글 시트에 저장되었습니다. ('+isoWeekToKorean(_currentWeek)+')','suc');
+    }).catch(function(){});
+  }
+}
+
+// ── 이슈 GAS 로드 ────────────────────────────────────────────
+async function loadIssues(week){
+  if(!HLB_API_URL||!week) return;
+  try{
+    var res=await fetch(HLB_API_URL+'?action=getIssues&week='+encodeURIComponent(week));
+    var json=await res.json();
+    if(json.issues){
+      S.issues=json.issues;
+      S.issueWeek=week;
+      var now=new Date();
+      if(json.issues.length>0){
+        S.issueDate=now.getFullYear()+'.'+(now.getMonth()+1).toString().padStart(2,'0')+'.'+now.getDate().toString().padStart(2,'0');
+      }
+      ss(S);
+      renderIssues();
+    }
+  }catch(e){}
 }
 /* ════ 해외사업 상태 필터 ════ */
 var ovsSt='all';
