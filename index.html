@@ -2250,8 +2250,7 @@ function renderIssues(){
   var h='';
   for(var i=0;i<items.length;i++){
     var it=items[i];
-    var cls=it.lv==='긴급'?'hi':it.lv==='주의'?'md':it.lv==='완료'?'lo':'no';
-    h+='<div class="issue-row '+cls+'"><span class="issue-badge">'+it.lv+'</span><span class="issue-txt">'+it.txt+'</span></div>';
+    h+='<div class="issue-row no"><span class="issue-txt">'+it.txt+'</span></div>';
   }
   el.innerHTML=h;
 }
@@ -2262,7 +2261,7 @@ function toggleIssueEdit(){
   if(wrap.classList.contains('open')){wrap.classList.remove('open');}
   else{
     var items=S.issues||[];
-    var txt=items.map(function(it){return it.lv==='기타'?it.txt:'['+it.lv+'] '+it.txt;}).join('\n');
+    var txt=items.map(function(it){return it.txt;}).join('\n');
     document.getElementById('issueTxt').value=txt;
     wrap.classList.add('open');
   }
@@ -2273,10 +2272,7 @@ function saveIssues(){
   var items=[];
   for(var i=0;i<lines.length;i++){
     var l=lines[i].trim();if(!l)continue;
-    var lv='기타',txt=l;
-    var m=l.match(/^\[(긴급|주의|완료)\]\s*/);
-    if(m){lv=m[1];txt=l.slice(m[0].length);}
-    items.push({lv:lv,txt:txt});
+    items.push({txt:l});
   }
   S.issues=items;
   S.issueWeek=_currentWeek||null;
