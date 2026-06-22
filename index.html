@@ -2813,6 +2813,10 @@ function saveBulkAll(){
           if(j.success){
             showApiStatus('ok');
             showT('✔ 구글 시트 동기화 완료 ('+isoWeekToKorean(isoWeek)+')','suc');
+            // 저장 성공 후 GAS에서 최신 데이터 재로드 → 홈/대시보드 즉시 반영
+            delete _weekCache['__latest__'];
+            delete _weekCache[isoWeek];
+            loadSheetData(isoWeek).then(function(){ loadWeekList(); });
           } else {
             showT('⚠ 시트 저장 오류: '+(j.error||'알 수 없음'),'err');
           }
