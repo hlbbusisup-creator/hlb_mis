@@ -1160,6 +1160,8 @@ var SK='hlb_v20';
 function ls(){try{return JSON.parse(localStorage.getItem(SK))||{};}catch(e){return {};}}
 function ss(d){try{localStorage.setItem(SK,JSON.stringify(d));}catch(e){}}
 var S=ls();
+// 당월 누적을 이제 GAS 기반으로 계산 → localStorage S.monthly 불필요, 초기화
+if(S.monthly){delete S.monthly;ss(S);}
 var DEF_USERS=[
   {id:'admin',      pw:'hlb2026!',       name:'관리자',       dept:'현장지원팀(본사)', rank:'부회장', role:'admin',   status:'active',last:'-'},
   {id:'yang',       pw:'yang1234',        name:'양창훈',       dept:'현장지원팀(본사)', rank:'부장',   role:'viewer',  status:'active',last:'-'},
@@ -2720,7 +2722,8 @@ function renderPerfBar2(){
 }
 
 /* ════ 일괄 입력 테이블 ════ */
-var _bulkCurrData={};  // 현재 주차 저장된 누계 (입력 필드 자동 채우기용)
+var _bulkCurrData={};   // 현재 주차 저장된 누계 (입력 필드 자동 채우기용)
+var _bulkMonthBase={};  // 이전 달 마지막 GAS 주 누계 (당월 누적 계산 기준)
 
 // 주차 선택 시 직전/현재 주 GAS 데이터를 불러와 전주 누계·기입력값 표시
 async function loadBulkWeekData(){
@@ -2732,6 +2735,7 @@ async function loadBulkWeekData(){
   // 일단 빈 상태로 즉시 렌더
   _bulkPrevData={};
   _bulkCurrData={};
+  _bulkMonthBase={};
   renderBulkTable();
 
   if(!HLB_API_URL||!wkVal) return;
@@ -2773,7 +2777,30 @@ async function loadBulkWeekData(){
     if(currJson&&currJson.companies){
       currJson.companies.forEach(function(c){ if(c.a>0)_bulkCurrData[c.c]=c.a; });
     }
-  }catch(e){ _bulkPrevData={}; _bulkCurrData={}; }
+
+    // 당월 누적 기준: 이전 달 마지막 GAS 주차 누계
+    // (이전 달 끝 누계를 빼면 이번 달에 쌓인 실적이 됨)
+    var currMonth = isoWeekToMonthNum(currIso) || 0;
+    var monthBaseIso = null;
+    for(var gi=_gasWeeks.length-1;gi>=0;gi--){
+      var gw=_gasWeeks[gi];
+      if(gw>=currIso) continue;
+      var gwMonth=isoWeekToMonthNum(gw)||0;
+      if(gwMonth < currMonth){ monthBaseIso=gw; break; }
+    }
+    _bulkMonthBase={};
+    if(monthBaseIso){
+      var baseJson=_weekCache[monthBaseIso];
+      if(!baseJson){
+        var res3=await fetch(HLB_API_URL+'?action=getWeek&week='+encodeURIComponent(monthBaseIso));
+        baseJson=await res3.json();
+        if(!baseJson.error) _weekCache[monthBaseIso]=baseJson;
+      }
+      if(baseJson&&baseJson.companies){
+        baseJson.companies.forEach(function(c){ _bulkMonthBase[c.c]=c.a||0; });
+      }
+    }
+  }catch(e){ _bulkPrevData={}; _bulkCurrData={}; _bulkMonthBase={}; }
 
   renderBulkTable();
 }
@@ -2836,9 +2863,10 @@ function renderBulkTable(){
     var pc=d.r===null?'var(--t4)':d.r>=.5?'var(--gn)':d.r>=.3?'#B7791F':'var(--rd)';
     // 전주 누계 = 직전주 GAS 데이터 (없으면 0)
     var prevCumul=(_bulkPrevData&&_bulkPrevData[d.k]>0)?_bulkPrevData[d.k]:0;
-    // 당월 누적
-    var moKey='mo_'+i+'_'+yrVal+'_'+mon;
-    var moAmt=(S.monthly&&S.monthly[moKey])?S.monthly[moKey]:0;
+    // 당월 누적 = 이번 달에 쌓인 누계 (현재 주 저장값 - 이전 달 마지막 GAS주 누계)
+    var currSaved=(_bulkCurrData&&_bulkCurrData[d.k]>0)?_bulkCurrData[d.k]:0;
+    var monthBase=(_bulkMonthBase&&_bulkMonthBase[d.k]>0)?_bulkMonthBase[d.k]:0;
+    var moAmt=currSaved>0&&currSaved>monthBase?currSaved-monthBase:0;
     h+='<tr>';
     h+='<td style="font-weight:700;white-space:nowrap">'+d.n+'</td>';
     h+='<td class="tdr num">'+(d.g>0?d.g.toLocaleString():'-')+'</td>';
@@ -2876,16 +2904,14 @@ function updateWeekRow(i){
     dEl.textContent=delta>0?'+'+delta.toLocaleString():delta!==0?delta.toLocaleString():'—';
     dEl.style.color=delta>0?'#1E40AF':delta<0?'#B91C1C':'var(--t3)';
   }
-  // 당월 누적 미리보기
-  var yr=document.getElementById('bulkYear');
-  var wk=document.getElementById('bulkWeek');
-  var yrVal=yr?yr.value:'2026';
-  var wkV=wk?wk.value:'';
-  var mon=getWeekMonth(yrVal,wkV);
-  var moKey='mo_'+i+'_'+yrVal+'_'+mon;
-  var moBase=(S.monthly&&S.monthly[moKey])?S.monthly[moKey]:0;
+  // 당월 누적 미리보기 = 입력 누계 - 이전 달 마지막 GAS주 누계
   var moEl=document.getElementById('mo_amt_'+i);
-  if(moEl){var newMo=moBase+delta;moEl.textContent=newMo>0?newMo.toLocaleString():'-';}
+  if(moEl){
+    var pdK=PD[i]?PD[i].k:'';
+    var monthBase=(_bulkMonthBase&&pdK&&_bulkMonthBase[pdK]>0)?_bulkMonthBase[pdK]:0;
+    var newMo=newCumul-monthBase;
+    moEl.textContent=newMo>0?newMo.toLocaleString():'-';
+  }
 }
 
 function getWeekMonth(yr,wk){
