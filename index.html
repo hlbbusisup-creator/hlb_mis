@@ -2716,11 +2716,16 @@ function renderBulkTable(){
 function updateWeekRow(i){
   var inp=document.getElementById('bulk_'+i);
   if(!inp)return;
+  var dEl=document.getElementById('wk_delta_'+i);
+  // 입력값이 없으면 — 표시하고 종료
+  if(inp.value===''||inp.value===null){
+    if(dEl){dEl.textContent='—';dEl.style.color='var(--t3)';}
+    return;
+  }
   var newCumul=parseInt(inp.value)||0;
   var prevCumul=parseInt(inp.getAttribute('data-prev'))||0;
   var delta=newCumul-prevCumul;
   // 금주 실적 미리보기
-  var dEl=document.getElementById('wk_delta_'+i);
   if(dEl){
     dEl.textContent=delta>0?'+'+delta.toLocaleString():delta!==0?delta.toLocaleString():'—';
     dEl.style.color=delta>0?'#1E40AF':delta<0?'#B91C1C':'var(--t3)';
