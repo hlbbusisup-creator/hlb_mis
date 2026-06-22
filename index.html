@@ -1761,7 +1761,7 @@ function doLogin(){
   var pw=document.getElementById('lpw').value;
   var u=null,i;for(i=0;i<_users.length;i++){if(_users[i].id===id&&_users[i].pw===pw&&_users[i].status==='active'){u=_users[i];break;}}
   var now=new Date().toLocaleString('ko-KR');
-  if(u){cu=u;u.last=now;if(HLB_API_URL)fetch(HLB_API_URL,{method:'POST',headers:{'Content-Type':'application/json'},body:JSON.stringify({action:'saveUser',id:u.id,pw:u.pw,name:u.name,dept:u.dept,rank:u.rank,role:u.role,status:u.status,last:now})});S.logs.unshift({t:now,id:u.id,nm:u.name,dp:u.dept,ip:fIP(),rs:'성공'});if(S.logs.length>500)S.logs=S.logs.slice(0,500);ss(S);showPortal();}
+  if(u){cu=u;u.last=now;if(HLB_API_URL)fetch(HLB_API_URL,{method:'POST',headers:{'Content-Type':'text/plain;charset=utf-8'},body:JSON.stringify({action:'saveUser',id:u.id,pw:u.pw,name:u.name,dept:u.dept,rank:u.rank,role:u.role,status:u.status,last:now})});S.logs.unshift({t:now,id:u.id,nm:u.name,dp:u.dept,ip:fIP(),rs:'성공'});if(S.logs.length>500)S.logs=S.logs.slice(0,500);ss(S);showPortal();}
   else{S.logs.unshift({t:now,id:id,nm:'-',dp:'-',ip:fIP(),rs:'실패'});ss(S);var e=document.getElementById('lerr');e.style.display='block';setTimeout(function(){e.style.display='none';},3000);}
 }
 document.addEventListener('keydown',function(e){if(e.key==='Enter'&&document.getElementById('loginScreen').classList.contains('active'))doLogin();});
@@ -2331,11 +2331,11 @@ function saveUser(){
     }
     showT('✔ 수정되었습니다.','suc');
   }
-  if(HLB_API_URL&&uObj)fetch(HLB_API_URL,{method:'POST',headers:{'Content-Type':'application/json'},body:JSON.stringify(Object.assign({action:'saveUser'},uObj))});
+  if(HLB_API_URL&&uObj)fetch(HLB_API_URL,{method:'POST',headers:{'Content-Type':'text/plain;charset=utf-8'},body:JSON.stringify(Object.assign({action:'saveUser'},uObj))});
   rUsers();closeUM();
 }
-function togU(id){var i;for(i=0;i<_users.length;i++){if(_users[i].id===id){_users[i].status=_users[i].status==='active'?'inactive':'active';if(HLB_API_URL)fetch(HLB_API_URL,{method:'POST',headers:{'Content-Type':'application/json'},body:JSON.stringify(Object.assign({action:'saveUser'},_users[i]))});break;}}rUsers();}
-function delU(id){if(!confirm('정말 삭제하시겠습니까?'))return;_users=_users.filter(function(u){return u.id!==id;});if(HLB_API_URL)fetch(HLB_API_URL,{method:'POST',headers:{'Content-Type':'application/json'},body:JSON.stringify({action:'deleteUser',id:id})});rUsers();showT('✔ 삭제되었습니다.','suc');}
+function togU(id){var i;for(i=0;i<_users.length;i++){if(_users[i].id===id){_users[i].status=_users[i].status==='active'?'inactive':'active';if(HLB_API_URL)fetch(HLB_API_URL,{method:'POST',headers:{'Content-Type':'text/plain;charset=utf-8'},body:JSON.stringify(Object.assign({action:'saveUser'},_users[i]))});break;}}rUsers();}
+function delU(id){if(!confirm('정말 삭제하시겠습니까?'))return;_users=_users.filter(function(u){return u.id!==id;});if(HLB_API_URL)fetch(HLB_API_URL,{method:'POST',headers:{'Content-Type':'text/plain;charset=utf-8'},body:JSON.stringify({action:'deleteUser',id:id})});rUsers();showT('✔ 삭제되었습니다.','suc');}
 
 function showT(msg,tp){var t=document.getElementById('toast');if(!t)return;t.textContent=msg;t.className='toast '+(tp||'');requestAnimationFrame(function(){t.classList.add('show');});setTimeout(function(){t.classList.remove('show');},2800);}
 
@@ -2991,7 +2991,7 @@ function saveBulkAll(){
       if(sheetEntries.length>0){
         fetch(HLB_API_URL,{
           method:'POST',
-          headers:{'Content-Type':'application/json'},
+          headers:{'Content-Type':'text/plain;charset=utf-8'},
           body:JSON.stringify({action:'saveWeek',week:isoWeek,entries:sheetEntries})
         })
         .then(function(r){return r.json();})
@@ -3331,7 +3331,7 @@ function saveTaskStateToAPI(code, data) {
   renderTasks();
   if (!HLB_API_URL) { showT('✔ 저장됨 (오프라인)','suc'); return; }
   fetch(HLB_API_URL, {
-    method:'POST', headers:{'Content-Type':'application/json'},
+    method:'POST', headers:{'Content-Type':'text/plain;charset=utf-8'},
     body: JSON.stringify({action:'saveTaskState', code:code,
       status:data.status, progress:data.progress, owner:data.owner,
       note:data.note, due:data.due, updated:data.updated})
@@ -3346,7 +3346,7 @@ function addCustomTaskToAPI(task) {
   renderTasks();
   if (!HLB_API_URL) { showT('✔ 과제 추가됨 (오프라인)','suc'); return; }
   fetch(HLB_API_URL, {
-    method:'POST', headers:{'Content-Type':'application/json'},
+    method:'POST', headers:{'Content-Type':'text/plain;charset=utf-8'},
     body: JSON.stringify({action:'addCustomTask',
       code:task.code, name:task.name, cat:task.cat, actions:task.actions, due:task.due})
   }).then(function(r){return r.json();})
