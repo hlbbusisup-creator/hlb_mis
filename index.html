@@ -1192,6 +1192,7 @@ var _sheetDataCache = null;   // 최신 API 응답 캐시
 var _currentWeek   = null;    // 현재 선택된 주차
 var _weekCache     = {};      // 주차별 캐시 { 'ISO-week': json } — 재선택 시 즉시 반영
 var _bulkPrevData  = {};      // 주간 실적 입력용 직전주 누계 { companyCode: cumulative }
+var _gasWeeks      = [];      // GAS에 데이터 있는 ISO 주차 목록 (오름차순)
 
 // ── 캐시된 데이터를 화면에 적용 ─────────────────────────────
 function applySheetJson(json) {
@@ -1276,7 +1277,8 @@ async function applyPrevWeekWa(json) {
 
   var isoWeek = json.week;
   if (!isoWeek) return;
-  var prevIso = getPrevIsoWeekStr(isoWeek);
+  // 직전 주가 아닌 데이터가 있는 가장 최근 이전 주차 사용
+  var prevIso = findLatestWeekBefore(isoWeek);
   if (!prevIso) return;
 
   try {
@@ -1372,11 +1374,33 @@ function getCurrentIsoWeek() {
 
 // ── 주차 선택 드롭다운 UI 업데이트 ──────────────────────────
 function updateWeekSelector(weeks, current) {
+  // GAS 주차 목록 저장 (오름차순 정렬)
+  if (weeks && weeks.length > 0) {
+    _gasWeeks = weeks.slice().sort();
+  }
   var sel = document.getElementById('weekSelector');
   if (!sel) return;
   sel.innerHTML = weeks.map(function(w) {
     return '<option value="'+w+'"'+(w===current?' selected':'')+'>'+isoWeekToKorean(w)+'</option>';
   }).join('');
+}
+
+// ── 특정 주차 이전 중 데이터가 있는 가장 최근 주 반환 ─────────
+function findLatestWeekBefore(isoWeek) {
+  // _gasWeeks는 오름차순 정렬된 ISO 주차 배열
+  var result = null;
+  for (var i = 0; i < _gasWeeks.length; i++) {
+    if (_gasWeeks[i] < isoWeek) result = _gasWeeks[i];
+    else break;
+  }
+  // _gasWeeks가 비어있으면 _weekCache에서 직접 찾기
+  if (!result) {
+    var keys = Object.keys(_weekCache).filter(function(k){
+      return /^\d{4}-W\d{2}$/.test(k) && k < isoWeek && _weekCache[k] && _weekCache[k].companies && _weekCache[k].companies.length > 0;
+    }).sort();
+    result = keys.length > 0 ? keys[keys.length-1] : null;
+  }
+  return result;
 }
 
 function updateWeekBadge(week) {
@@ -2696,37 +2720,60 @@ function renderPerfBar2(){
 }
 
 /* ════ 일괄 입력 테이블 ════ */
-// 주차 선택 시 직전 주 GAS 데이터를 불러와 전주 누계를 정확히 표시
+var _bulkCurrData={};  // 현재 주차 저장된 누계 (입력 필드 자동 채우기용)
+
+// 주차 선택 시 직전/현재 주 GAS 데이터를 불러와 전주 누계·기입력값 표시
 async function loadBulkWeekData(){
   var yr=document.getElementById('bulkYear');
   var wk=document.getElementById('bulkWeek');
   var yrVal=yr?parseInt(yr.value):2026;
   var wkVal=wk?parseInt(wk.value):0;
 
-  // 일단 현재 PD로 즉시 렌더 (폴백)
+  // 일단 빈 상태로 즉시 렌더
   _bulkPrevData={};
+  _bulkCurrData={};
   renderBulkTable();
 
   if(!HLB_API_URL||!wkVal) return;
 
-  // 직전 주 ISO 계산
-  var prevWk=wkVal-1, prevYr=yrVal;
-  if(prevWk<1){prevWk=52;prevYr=yrVal-1;}
-  var prevIso=prevYr+'-W'+String(prevWk).padStart(2,'0');
+  var currIso=yrVal+'-W'+String(wkVal).padStart(2,'0');
+
+  // 데이터가 있는 가장 최근 이전 주차 찾기 (직전 주가 아닐 수 있음)
+  // _gasWeeks가 없으면 먼저 주차 목록 로드
+  if(_gasWeeks.length===0){
+    try{
+      var wkListRes=await fetch(HLB_API_URL+'?action=getWeeks');
+      var wkListJson=await wkListRes.json();
+      if(wkListJson.weeks) _gasWeeks=wkListJson.weeks.slice().sort();
+    }catch(e){}
+  }
+  var prevIso=findLatestWeekBefore(currIso);
 
   try{
-    // 캐시 우선 사용
-    var json=_weekCache[prevIso];
-    if(!json){
+    // 이전 주 데이터 (전주 누계용) — 직전 주가 비어 있으면 마지막 데이터 주차 사용
+    var prevJson=prevIso?_weekCache[prevIso]:null;
+    if(prevIso&&!prevJson){
       var res=await fetch(HLB_API_URL+'?action=getWeek&week='+encodeURIComponent(prevIso));
-      json=await res.json();
-      if(!json.error) _weekCache[prevIso]=json;
+      prevJson=await res.json();
+      if(!prevJson.error) _weekCache[prevIso]=prevJson;
     }
     _bulkPrevData={};
-    if(json&&json.companies){
-      json.companies.forEach(function(c){ _bulkPrevData[c.c]=c.a||0; });
+    if(prevJson&&prevJson.companies){
+      prevJson.companies.forEach(function(c){ _bulkPrevData[c.c]=c.a||0; });
     }
-  }catch(e){ _bulkPrevData={}; }
+
+    // 현재 주 데이터 (기입력값 채우기용)
+    var currJson=_weekCache[currIso];
+    if(!currJson){
+      var res2=await fetch(HLB_API_URL+'?action=getWeek&week='+encodeURIComponent(currIso));
+      currJson=await res2.json();
+      if(!currJson.error) _weekCache[currIso]=currJson;
+    }
+    _bulkCurrData={};
+    if(currJson&&currJson.companies){
+      currJson.companies.forEach(function(c){ if(c.a>0)_bulkCurrData[c.c]=c.a; });
+    }
+  }catch(e){ _bulkPrevData={}; _bulkCurrData={}; }
 
   renderBulkTable();
 }
@@ -2787,8 +2834,8 @@ function renderBulkTable(){
     }
     var pct=d.r!==null?(d.r*100).toFixed(1)+'%':'-';
     var pc=d.r===null?'var(--t4)':d.r>=.5?'var(--gn)':d.r>=.3?'#B7791F':'var(--rd)';
-    // 전주 누계 = 직전주 GAS 데이터 우선, 없으면 현재 PD 누계
-    var prevCumul=(_bulkPrevData&&_bulkPrevData[d.k]!==undefined)?_bulkPrevData[d.k]:(d.a||0);
+    // 전주 누계 = 직전주 GAS 데이터 (없으면 0)
+    var prevCumul=(_bulkPrevData&&_bulkPrevData[d.k]>0)?_bulkPrevData[d.k]:0;
     // 당월 누적
     var moKey='mo_'+i+'_'+yrVal+'_'+mon;
     var moAmt=(S.monthly&&S.monthly[moKey])?S.monthly[moKey]:0;
@@ -2796,13 +2843,20 @@ function renderBulkTable(){
     h+='<td style="font-weight:700;white-space:nowrap">'+d.n+'</td>';
     h+='<td class="tdr num">'+(d.g>0?d.g.toLocaleString():'-')+'</td>';
     h+='<td class="tdr num" style="color:var(--t3)">'+(prevCumul>0?prevCumul.toLocaleString():'-')+'</td>';
-    h+='<td style="background:#FFFDF0;text-align:right"><input type="number" id="bulk_'+i+'" placeholder="누계 입력" style="width:110px;border:1.5px solid #E8D88A;border-radius:4px;padding:6px 8px;font-size:13px;text-align:right;font-family:inherit;outline:none;background:#FFFDF0" oninput="updateWeekRow('+i+')" data-prev="'+prevCumul+'"></td>';
+    var savedVal=(_bulkCurrData&&_bulkCurrData[d.k]>0)?_bulkCurrData[d.k]:'';
+    var inputBg=savedVal?'#F0FFF4':'#FFFDF0';
+    var inputBd=savedVal?'1.5px solid #68D391':'1.5px solid #E8D88A';
+    h+='<td style="background:'+inputBg+';text-align:right"><input type="number" id="bulk_'+i+'" placeholder="누계 입력" value="'+savedVal+'" style="width:110px;border:'+inputBd+';border-radius:4px;padding:6px 8px;font-size:13px;text-align:right;font-family:inherit;outline:none;background:'+inputBg+'" oninput="updateWeekRow('+i+')" data-prev="'+prevCumul+'"></td>';
     h+='<td class="tdr num" id="wk_delta_'+i+'" style="background:#EBF4FF;color:#1E40AF;font-weight:700">—</td>';
     h+='<td class="tdr num" id="mo_amt_'+i+'" style="background:#F0FFF4;color:var(--gn);font-weight:700">'+(moAmt>0?moAmt.toLocaleString():'-')+'</td>';
     h+='<td><div class="pbw"><div class="pbt"><div class="pbf '+(d.r===null?'':d.r>=.5?'pbg':d.r>=.3?'pba':'pbr')+'" style="width:'+(d.r?Math.min(d.r*100,100):0)+'%"></div></div><span class="ppp" style="color:'+pc+'">'+pct+'</span></div></td>';
     h+='</tr>';
   });
   var el=document.getElementById('bulkTbody'); if(el)el.innerHTML=h;
+  // 기입력값 있는 행은 즉시 delta 계산 표시
+  PD.forEach(function(d,i){
+    if(_bulkCurrData&&_bulkCurrData[d.k]>0) updateWeekRow(i);
+  });
 }
 function updateWeekRow(i){
   var inp=document.getElementById('bulk_'+i);
