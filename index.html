@@ -2863,20 +2863,16 @@ function renderBulkTable(){
     var pc=d.r===null?'var(--t4)':d.r>=.5?'var(--gn)':d.r>=.3?'#B7791F':'var(--rd)';
     // 전주 누계 = 직전주 GAS 데이터 (없으면 0)
     var prevCumul=(_bulkPrevData&&_bulkPrevData[d.k]>0)?_bulkPrevData[d.k]:0;
-    // 당월 누적 = 이번 달에 쌓인 누계 (현재 주 저장값 - 이전 달 마지막 GAS주 누계)
-    var currSaved=(_bulkCurrData&&_bulkCurrData[d.k]>0)?_bulkCurrData[d.k]:0;
-    var monthBase=(_bulkMonthBase&&_bulkMonthBase[d.k]>0)?_bulkMonthBase[d.k]:0;
-    var moAmt=currSaved>0&&currSaved>monthBase?currSaved-monthBase:0;
+    var savedVal=(_bulkCurrData&&_bulkCurrData[d.k]>0)?_bulkCurrData[d.k]:'';
+    var inputBg=savedVal?'#F0FFF4':'#FFFDF0';
+    var inputBd=savedVal?'1.5px solid #68D391':'1.5px solid #E8D88A';
     h+='<tr>';
     h+='<td style="font-weight:700;white-space:nowrap">'+d.n+'</td>';
     h+='<td class="tdr num">'+(d.g>0?d.g.toLocaleString():'-')+'</td>';
     h+='<td class="tdr num" style="color:var(--t3)">'+(prevCumul>0?prevCumul.toLocaleString():'-')+'</td>';
-    var savedVal=(_bulkCurrData&&_bulkCurrData[d.k]>0)?_bulkCurrData[d.k]:'';
-    var inputBg=savedVal?'#F0FFF4':'#FFFDF0';
-    var inputBd=savedVal?'1.5px solid #68D391':'1.5px solid #E8D88A';
     h+='<td style="background:'+inputBg+';text-align:right"><input type="number" id="bulk_'+i+'" placeholder="누계 입력" value="'+savedVal+'" style="width:110px;border:'+inputBd+';border-radius:4px;padding:6px 8px;font-size:13px;text-align:right;font-family:inherit;outline:none;background:'+inputBg+'" oninput="updateWeekRow('+i+')" data-prev="'+prevCumul+'"></td>';
     h+='<td class="tdr num" id="wk_delta_'+i+'" style="background:#EBF4FF;color:#1E40AF;font-weight:700">—</td>';
-    h+='<td class="tdr num" id="mo_amt_'+i+'" style="background:#F0FFF4;color:var(--gn);font-weight:700">'+(moAmt>0?moAmt.toLocaleString():'-')+'</td>';
+    h+='<td class="tdr num" id="mo_amt_'+i+'" style="background:#F0FFF4;color:var(--gn);font-weight:700">-</td>';
     h+='<td><div class="pbw"><div class="pbt"><div class="pbf '+(d.r===null?'':d.r>=.5?'pbg':d.r>=.3?'pba':'pbr')+'" style="width:'+(d.r?Math.min(d.r*100,100):0)+'%"></div></div><span class="ppp" style="color:'+pc+'">'+pct+'</span></div></td>';
     h+='</tr>';
   });
@@ -2904,12 +2900,10 @@ function updateWeekRow(i){
     dEl.textContent=delta>0?'+'+delta.toLocaleString():delta!==0?delta.toLocaleString():'—';
     dEl.style.color=delta>0?'#1E40AF':delta<0?'#B91C1C':'var(--t3)';
   }
-  // 당월 누적 미리보기 = 입력 누계 - 이전 달 마지막 GAS주 누계
+  // 당월 누적 미리보기 = 입력 누계 - 전주 누계 (= 금주 실적, 월 첫 입력 기준)
   var moEl=document.getElementById('mo_amt_'+i);
   if(moEl){
-    var pdK=PD[i]?PD[i].k:'';
-    var monthBase=(_bulkMonthBase&&pdK&&_bulkMonthBase[pdK]>0)?_bulkMonthBase[pdK]:0;
-    var newMo=newCumul-monthBase;
+    var newMo=delta>0?delta:0;
     moEl.textContent=newMo>0?newMo.toLocaleString():'-';
   }
 }
