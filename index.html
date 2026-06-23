@@ -3395,8 +3395,8 @@ function saveTaskStateToAPI(code, data) {
       status:data.status, progress:data.progress, owner:data.owner,
       note:data.note, due:data.due, updated:data.updated})
   }).then(function(r){return r.json();})
-    .then(function(j){ showT(j.success?'✔ 구글 시트에 저장됨':'⚠ 저장 오류', j.success?'suc':'err'); })
-    .catch(function(){ showT('⚠ 서버 연결 실패','err'); });
+    .then(function(j){ showT(j.success?'✔ 구글 시트에 저장됨':'⚠ 저장 오류: '+(j.error||JSON.stringify(j)), j.success?'suc':'err'); })
+    .catch(function(e){ showT('⚠ 서버 연결 실패: '+e,'err'); });
 }
 
 // ── API 저장: 커스텀 Task 추가 ──
