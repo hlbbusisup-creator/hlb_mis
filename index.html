@@ -1217,6 +1217,7 @@ function applySheetJson(json) {
     });
   }
 
+  if(json.weeks && json.weeks.length > 0) _gasWeeks = json.weeks.slice().sort();
   updateWeekSelector(json.weeks || [], json.week);
   updateWeekBadge(json.week);
   updateWeekLabels(json.week);
@@ -2301,13 +2302,11 @@ async function loadIssues(week){
   try{
     var res=await fetch(HLB_API_URL+'?action=getIssues&week='+encodeURIComponent(week));
     var json=await res.json();
-    if(json.issues){
+    if(json.issues && json.issues.length > 0){
       S.issues=json.issues;
       S.issueWeek=week;
       var now=new Date();
-      if(json.issues.length>0){
-        S.issueDate=now.getFullYear()+'.'+(now.getMonth()+1).toString().padStart(2,'0')+'.'+now.getDate().toString().padStart(2,'0');
-      }
+      S.issueDate=now.getFullYear()+'.'+(now.getMonth()+1).toString().padStart(2,'0')+'.'+now.getDate().toString().padStart(2,'0');
       ss(S);
       renderIssues();
     }
@@ -2364,6 +2363,7 @@ function saveUser(){
         uObj=_users[i];break;
       }
     }
+    if(!uObj){showT('사용자를 찾을 수 없습니다.','err');return;}
     showT('✔ 수정되었습니다.','suc');
   }
   if(HLB_API_URL&&uObj)fetch(HLB_API_URL,{method:'POST',headers:{'Content-Type':'text/plain;charset=utf-8'},body:JSON.stringify(Object.assign({action:'saveUser'},uObj))});
@@ -2990,7 +2990,7 @@ function saveBulkAll(){
     var inp=document.getElementById('bulk_'+i);
     if(inp&&inp.value.trim()!==''&&!isNaN(inp.value)){
       var newCumul=parseInt(inp.value);
-      var prevCumul=parseInt(inp.getAttribute('data-prev'))||PD[i].a||0;
+      var prevCumul=parseInt(inp.getAttribute('data-prev'))||0;
       var delta=newCumul-prevCumul;  // 금주 실적 = 새 누계 - 전주 누계
       waMap[d.k]=delta;              // 코드 기준으로 delta 보관
       var wkKey='wk_'+i+'_'+yrVal+'_'+wkVal;
