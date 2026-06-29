@@ -368,6 +368,17 @@ tbody tr:hover td{background:#F7F9FF;}
 .task-act{font-size:12px;color:var(--t3);max-width:280px;overflow:hidden;text-overflow:ellipsis;white-space:nowrap;}
 .tpb{width:72px;height:5px;background:#E4E8EE;border-radius:3px;overflow:hidden;display:inline-block;vertical-align:middle;margin-right:5px;}
 .tpbf{display:inline-block;height:100%;border-radius:3px;transition:width .4s;}
+/* 주간 뉴스 */
+.news-list{padding:0;margin:0;}
+.news-item{display:flex;gap:12px;padding:12px 16px;border-bottom:1px solid var(--bd);text-decoration:none;color:inherit;transition:background .15s;cursor:pointer;}
+.news-item:hover{background:var(--bg2);}
+.news-item:last-child{border-bottom:none;}
+.news-tag{display:inline-block;font-size:10px;font-weight:700;padding:2px 7px;border-radius:10px;white-space:nowrap;flex-shrink:0;margin-top:2px;}
+.news-body{flex:1;min-width:0;}
+.news-title{font-size:13px;font-weight:600;color:var(--t1);line-height:1.45;margin-bottom:3px;}
+.news-foot{display:flex;gap:8px;align-items:center;font-size:11px;color:var(--t3);}
+.news-dot{color:var(--bd);}
+.news-empty{padding:30px;text-align:center;color:var(--t3);font-size:13px;}
 </style>
 </head>
 <body>
@@ -640,24 +651,17 @@ tbody tr:hover td{background:#F7F9FF;}
         <div class="tw"><table><thead><tr><th>계열사</th><th class="tdr">25년 실적</th><th class="tdr">26년 목표</th><th class="tdr week-label-col">누계</th><th class="tdr">금주 실적</th><th style="min-width:180px">달성률</th><th style="min-width:80px;text-align:center">월별추이</th></tr></thead><tbody id="dashPerf"></tbody></table></div>
       </div>
 
-      <!-- 금주 입력 내역 -->
-      <div class="card" id="dashWeeklyCard" style="display:none">
+      <!-- 주간 뉴스 -->
+      <div class="card" id="dashNewsCard">
         <div class="chdr">
-          <div><div class="ctit">금주 실적 입력 내역</div><div class="csub" id="dashWeeklySub">최근 주간 입력 기준</div></div>
+          <div>
+            <div class="ctit">HLB그룹 주간 뉴스</div>
+            <div class="csub" id="newsUpdateTime">사업·기업가치 관련 최신 뉴스</div>
+          </div>
+          <button class="btn btng btnsm" onclick="loadNewsFromAPI(true)" style="flex-shrink:0">새로고침</button>
         </div>
-        <div class="tw">
-          <table>
-            <thead><tr>
-              <th>계열사</th>
-              <th class="tdr" style="background:#FFF8E1;color:#7A5C00">금주 실적</th>
-              <th class="tdr" style="background:#EBF4FF;color:#1E40AF">당월 누적</th>
-              <th class="tdr" style="background:#F0FFF4;color:#1A6040">연 누계</th>
-              <th class="tdr">26년 목표</th>
-              <th style="min-width:140px">달성률</th>
-            </tr></thead>
-            <tbody id="dashWeeklyBody"></tbody>
-          </table>
-        </div>
+        <div id="newsLoading" style="padding:30px;text-align:center;color:var(--t3);font-size:13px">📰 뉴스 불러오는 중...</div>
+        <div class="news-list" id="newsGrid" style="display:none"></div>
       </div>
 
       <!-- 주요 이슈 메모 -->
@@ -1784,7 +1788,7 @@ function showPortal(){
   var li=document.getElementById('hdrLogo');
   if(li){li.src=document.querySelector('.llogo img').src;}
   rDP();rPerf('all');renderIssues();rMall('all');rBiz('all');rDE();updateOvsKpi(OVS_ALL);renderOvsMap();renderOvsCountryRank2(OVS_ALL);renderOvsTbody(OVS_ALL);renderOvsCountryBar(OVS_ALL);renderOvsDeptChart(OVS_ALL);renderOvsCountryChips();
-  setTimeout(function(){bCharts();renderLibPage();updateDashWeekly();},500);setTimeout(function(){loadBulkWeekData();renderTrend();renderPerfBar2();},700);
+  setTimeout(function(){bCharts();renderLibPage();updateDashWeekly();},500);setTimeout(function(){loadBulkWeekData();renderTrend();renderPerfBar2();},700);setTimeout(function(){loadNewsFromAPI();},1200);
 }
 
 
@@ -3089,48 +3093,130 @@ function updateDashWeekly(){
   if(elWkNote&&S.lastWeek)elWkNote.textContent=S.lastWeek.label;
   if(elMoNote&&S.lastWeek)elMoNote.textContent=S.lastWeek.month+'월 누적';
 
-  // 금주 입력 내역 표
-  var card=document.getElementById('dashWeeklyCard');
-  var body=document.getElementById('dashWeeklyBody');
-  var sub=document.getElementById('dashWeeklySub');
-  if(!S.lastWeek||!S.weekly){if(card)card.style.display='none';return;}
-  var wkV=S.lastWeek.week;
-  var rows=[];
-  PD.forEach(function(d,i){
-    var wkKey='wk_'+i+'_'+yr+'_'+wkV;
-    var wkAmt=(S.weekly&&S.weekly[wkKey])?S.weekly[wkKey]:0;
-    if(wkAmt>0){
-      var moKey='mo_'+i+'_'+yr+'_'+mon;
-      var moAmt=(S.monthly&&S.monthly[moKey])?S.monthly[moKey]:0;
-      rows.push({d:d,wk:wkAmt,mo:moAmt});
-    }
-  });
-  if(!rows.length){if(card)card.style.display='none';return;}
-  if(card)card.style.display='';
-  if(sub)sub.textContent=S.lastWeek.label+' · 입력된 '+rows.length+'개 계열사';
-  var h='';
-  rows.forEach(function(r){
-    var d=r.d;
-    var pct=d.r!==null?(d.r*100).toFixed(1)+'%':'-';
-    var bc=d.r===null?'':d.r>=.5?'pbg':d.r>=.3?'pba':'pbr';
-    var pc=d.r===null?'var(--t4)':d.r>=.5?'var(--gn)':d.r>=.3?'#B7791F':'var(--rd)';
-    var bp=d.r!==null?Math.min(d.r*100,100):0;
-    h+='<tr>';
-    h+='<td style="font-weight:700">'+d.n+'</td>';
-    h+='<td class="tdr num" style="background:#FFFDF0;font-weight:700;color:#7A5C00">+'+r.wk.toLocaleString()+'</td>';
-    h+='<td class="tdr num" style="background:#F5F9FF;color:#1E40AF">'+(r.mo>0?r.mo.toLocaleString():'-')+'</td>';
-    h+='<td class="tdr num" style="background:#F5FFF8;font-weight:700;color:var(--gn)">'+d.a.toLocaleString()+'</td>';
-    h+='<td class="tdr num">'+(d.g>0?d.g.toLocaleString():'-')+'</td>';
-    h+='<td><div class="pbw"><div class="pbt"><div class="pbf '+bc+'" style="width:'+bp+'%"></div></div><span class="ppp" style="color:'+pc+'">'+pct+'</span></div></td>';
-    h+='</tr>';
-  });
-  // 합계행
-  var tWk=rows.reduce(function(s,r){return s+r.wk;},0);
-  var tMo=rows.reduce(function(s,r){return s+r.mo;},0);
-  h+='<tr class="str"><td>금주 입력 합계</td><td class="tdr num" style="color:#7A5C00">+'+tWk.toLocaleString()+'</td><td class="tdr num" style="color:#1E40AF">'+tMo.toLocaleString()+'</td><td colspan="3"></td></tr>';
-  if(body)body.innerHTML=h;
 }
 
+
+/* ════ 주간 뉴스 ════ */
+var _newsLoaded = false;
+function loadNewsFromAPI(force) {
+  if (!HLB_API_URL) { renderNewsItems([],'API URL 없음'); return; }
+  if (_newsLoaded && !force) return;
+  var grid = document.getElementById('newsGrid');
+  var loading = document.getElementById('newsLoading');
+  if (loading) loading.style.display = '';
+  if (grid) grid.style.display = 'none';
+  fetch(HLB_API_URL + '?action=getNews')
+    .then(function(r){ return r.json(); })
+    .then(function(j){
+      _newsLoaded = true;
+      var items = (j.news || []).filter(function(n){
+        // 주식 관련 제외
+        var bad = ['주가','추가매수','장내매수','자사주','의결권','지분취득','주식취득',
+                   '목표주가','투자의견','증권','상장폐지','시가총액','코스닥','코스피',
+                   '공매도','매도','주주','배당','자본금'];
+        // 허용: 사업·제품 관련 뉴스는 통과
+        return !bad.some(function(kw){ return (n.title||'').indexOf(kw) >= 0; });
+      });
+      if (loading) loading.style.display = 'none';
+      if (grid) grid.style.display = '';
+      renderNewsItems(items, null);
+      var ts = j.fetchedAt ? newsRelTime(j.fetchedAt) : '방금';
+      var el = document.getElementById('newsUpdateTime');
+      if (el) el.textContent = '업데이트 ' + ts + (j.cached ? ' (캐시)' : '');
+    })
+    .catch(function(){
+      if (loading) loading.style.display = 'none';
+      renderNewsItems([], '뉴스 로드 실패');
+    });
+}
+
+function renderNewsItems(items, errMsg) {
+  var grid = document.getElementById('newsGrid');
+  if (!grid) return;
+  if (errMsg) {
+    grid.innerHTML = '<div class="news-empty">⚠ '+errMsg+'</div>';
+    grid.style.display = '';
+    return;
+  }
+  if (!items || !items.length) {
+    grid.innerHTML = '<div class="news-empty">이번 주 관련 뉴스가 없습니다</div>';
+    return;
+  }
+  var coColors = {
+    'HLB글로벌':        {bg:'#DBEAFE',fg:'#1E40AF'},
+    'HLB생명과학R&D':   {bg:'#DCFCE7',fg:'#14532D'},
+    'HLB생명과학':      {bg:'#D1FAE5',fg:'#065F46'},
+    'HLB테라퓨틱스':    {bg:'#E0E7FF',fg:'#3730A3'},
+    'HLB바이오스텝':    {bg:'#EDE9FE',fg:'#5B21B6'},
+    'HLB이노베이션':    {bg:'#FDF4FF',fg:'#6B21A8'},
+    'HLB파나진':        {bg:'#FEF3C7',fg:'#92400E'},
+    'HLB제넥스':        {bg:'#FFF7ED',fg:'#9A3412'},
+    'HLB펩':            {bg:'#FEF9C3',fg:'#713F12'},
+    'HLB이엔지':        {bg:'#CCFBF1',fg:'#0F766E'},
+    'HLB오션테크':      {bg:'#CFFAFE',fg:'#164E63'},
+    'HLB바이오코드':    {bg:'#FCE7F3',fg:'#9D174D'},
+    'HLB제약':          {bg:'#F0FFF4',fg:'#276749'},
+    'HLB생활건강':      {bg:'#FFF1F2',fg:'#9F1239'},
+    'HLB라이프케어':    {bg:'#FEE2E2',fg:'#991B1B'},
+    'HLB에프엔비':      {bg:'#FFEDD5',fg:'#7C2D12'},
+    'HLB네트웍스':      {bg:'#E0F2FE',fg:'#0C4A6E'},
+    'HLB솔루션':        {bg:'#F0F9FF',fg:'#075985'},
+    'HLB에너지':        {bg:'#FEF08A',fg:'#713F12'},
+    'HLB셀':            {bg:'#ECFDF5',fg:'#065F46'},
+    '신화어드밴스':      {bg:'#F1F5F9',fg:'#334155'},
+    '지에프퍼멘틱':      {bg:'#FFF7ED',fg:'#9A3412'},
+    '코아바이오':        {bg:'#F0FDFF',fg:'#0369A1'},
+    '프레시코':          {bg:'#F5F3FF',fg:'#7E22CE'},
+    '티니코':            {bg:'#ECFEFF',fg:'#155E75'},
+    '현대요트':          {bg:'#EFF6FF',fg:'#1E40AF'},
+    '헤일로유니버스':    {bg:'#F8FAFC',fg:'#475569'},
+    '오리지널아카이브':  {bg:'#FDF4FF',fg:'#86198F'},
+    'HLB그룹':           {bg:'#EFF6FF',fg:'#1D4ED8'},
+    'HLB':               {bg:'#EFF6FF',fg:'#1D4ED8'}
+  };
+  var h = '';
+  items.forEach(function(n){
+    var co = newsGuessCompany(n.title + ' ' + (n.query||''));
+    var clr = coColors[co] || {bg:'#F1F5F9',fg:'#475569'};
+    var ago = n.pubDate ? newsRelTime(n.pubDate) : '';
+    h += '<a class="news-item" href="'+escHtml(n.link||'#')+'" target="_blank" rel="noopener">';
+    h += '<span class="news-tag" style="background:'+clr.bg+';color:'+clr.fg+'">'+co+'</span>';
+    h += '<div class="news-body">';
+    h += '<div class="news-title">'+escHtml(n.title||'')+'</div>';
+    h += '<div class="news-foot">';
+    if (n.source) h += '<span>'+escHtml(n.source)+'</span>';
+    if (n.source && ago) h += '<span class="news-dot">·</span>';
+    if (ago) h += '<span>'+ago+'</span>';
+    h += '</div></div></a>';
+  });
+  grid.innerHTML = h;
+}
+
+function newsGuessCompany(text) {
+  // 긴 이름 먼저 (부분 일치 오작동 방지)
+  var map = [
+    'HLB생명과학R&D','HLB생명과학','HLB글로벌','HLB테라퓨틱스','HLB바이오스텝',
+    'HLB이노베이션','HLB바이오코드','HLB라이프케어','HLB에프엔비','HLB네트웍스',
+    'HLB오션테크','HLB이엔지','HLB파나진','HLB제넥스','HLB제약','HLB솔루션',
+    'HLB에너지','HLB셀','HLB생활건강','HLB펩',
+    '신화어드밴스','지에프퍼멘틱','코아바이오','프레시코','티니코',
+    '현대요트','헤일로유니버스','오리지널아카이브','HLB'
+  ];
+  for (var i=0;i<map.length;i++) { if (text.indexOf(map[i])>=0) return map[i]; }
+  return 'HLB그룹';
+}
+
+function newsRelTime(dateStr) {
+  try {
+    var diff = Date.now() - new Date(dateStr).getTime();
+    var m = Math.floor(diff/60000);
+    if (m < 1) return '방금';
+    if (m < 60) return m+'분 전';
+    var h = Math.floor(m/60);
+    if (h < 24) return h+'시간 전';
+    return Math.floor(h/24)+'일 전';
+  } catch(e){ return ''; }
+}
 
 /* ════ 콘텐츠 관리 (Admin) ════ */
 function showCM(sec){
