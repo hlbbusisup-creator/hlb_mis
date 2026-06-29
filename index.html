@@ -3166,6 +3166,10 @@ function loadNewsFromAPI(force) {
   document.head.appendChild(s);
 }
 
+function escHtml(s) {
+  return String(s||'').replace(/&/g,'&amp;').replace(/</g,'&lt;').replace(/>/g,'&gt;').replace(/"/g,'&quot;');
+}
+
 function renderNewsItems(items, errMsg) {
   var grid = document.getElementById('newsGrid');
   if (!grid) return;
