@@ -3096,52 +3096,74 @@ function updateDashWeekly(){
 }
 
 
-/* ════ 주간 뉴스 ════ */
+/* ════ 주간 뉴스 (JSONP 방식 — CORS 우회) ════ */
 var _newsLoaded = false;
 
-// 새로고침 버튼: GAS에서 뉴스 갱신 후 읽기
 function refreshNewsCache() {
   if (!HLB_API_URL) return;
   var el = document.getElementById('newsUpdateTime');
   if (el) el.textContent = '갱신 중...';
-  // 먼저 캐시 갱신 요청 (백그라운드, 응답 대기 없음)
-  fetch(HLB_API_URL + '?action=getNews').catch(function(){});
-  // 5초 후 캐시 읽기
-  setTimeout(function(){ _newsLoaded = false; loadNewsFromAPI(true); }, 5000);
+  _newsLoaded = false;
+  loadNewsFromAPI(true);
 }
 
 function loadNewsFromAPI(force) {
   if (!HLB_API_URL) { renderNewsItems([],'API URL 없음'); return; }
   if (_newsLoaded && !force) return;
-  var grid = document.getElementById('newsGrid');
+  var grid    = document.getElementById('newsGrid');
   var loading = document.getElementById('newsLoading');
   if (loading) loading.style.display = '';
   if (grid) grid.style.display = 'none';
-  fetch(HLB_API_URL + '?action=getCachedNews')
-    .then(function(r){ return r.json(); })
-    .then(function(j){
-      _newsLoaded = true;
-      var bad = ['주가','추가매수','장내매수','자사주','목표주가','투자의견',
-                 '상장폐지','공매도','보통주','우선주','지분취득','주식취득',
-                 '상한가','하한가','매수세','매도세','시가총액'];
-      var items = (j.news || []).filter(function(n){
-        return !bad.some(function(kw){ return (n.title||'').indexOf(kw) >= 0; });
-      });
-      if (loading) loading.style.display = 'none';
-      if (grid) grid.style.display = '';
-      if (j.empty) {
-        grid.innerHTML = '<div class="news-empty">뉴스를 불러오는 중입니다. 잠시 후 새로고침 해주세요.</div>';
-      } else {
-        renderNewsItems(items, null);
-        var ts = j.fetchedAt ? newsRelTime(j.fetchedAt) : '방금';
-        var el = document.getElementById('newsUpdateTime');
-        if (el) el.textContent = '업데이트 ' + ts;
-      }
-    })
-    .catch(function(err){
-      if (loading) loading.style.display = 'none';
-      renderNewsItems([], '뉴스 로드 실패: GAS URL 확인 필요');
+
+  var cbName = '__hlbNews' + Date.now();
+  var s = document.createElement('script');
+  var done = false;
+
+  var timer = setTimeout(function() {
+    if (done) return;
+    done = true;
+    delete window[cbName];
+    if (s.parentNode) s.parentNode.removeChild(s);
+    if (loading) loading.style.display = 'none';
+    if (grid) { grid.innerHTML = '<div class="news-empty">뉴스 로드 중 오류 — GAS 재배포 필요</div>'; grid.style.display = ''; }
+  }, 12000);
+
+  window[cbName] = function(j) {
+    if (done) return;
+    done = true;
+    clearTimeout(timer);
+    delete window[cbName];
+    if (s.parentNode) s.parentNode.removeChild(s);
+    _newsLoaded = true;
+    var bad = ['주가','추가매수','장내매수','자사주','목표주가','투자의견',
+               '상장폐지','공매도','보통주','우선주','지분취득','주식취득',
+               '상한가','하한가','매수세','매도세','시가총액'];
+    var items = (j.news || []).filter(function(n){
+      return !bad.some(function(kw){ return (n.title||'').indexOf(kw) >= 0; });
     });
+    if (loading) loading.style.display = 'none';
+    if (grid) grid.style.display = '';
+    if (j.empty || !items.length) {
+      grid.innerHTML = '<div class="news-empty">이번 주 관련 뉴스가 없습니다</div>';
+    } else {
+      renderNewsItems(items, null);
+      var ts = j.fetchedAt ? newsRelTime(j.fetchedAt) : '방금';
+      var elT = document.getElementById('newsUpdateTime');
+      if (elT) elT.textContent = '업데이트 ' + ts;
+    }
+  };
+
+  s.onerror = function() {
+    if (done) return;
+    done = true;
+    clearTimeout(timer);
+    delete window[cbName];
+    if (loading) loading.style.display = 'none';
+    if (grid) { grid.innerHTML = '<div class="news-empty">뉴스 로드 실패 — GAS 재배포 필요</div>'; grid.style.display = ''; }
+  };
+
+  s.src = HLB_API_URL + '?action=getCachedNews&cb=' + cbName;
+  document.head.appendChild(s);
 }
 
 function renderNewsItems(items, errMsg) {
