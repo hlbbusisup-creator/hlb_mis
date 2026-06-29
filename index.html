@@ -658,7 +658,7 @@ tbody tr:hover td{background:#F7F9FF;}
             <div class="ctit">HLB그룹 주간 뉴스</div>
             <div class="csub" id="newsUpdateTime">사업·기업가치 관련 최신 뉴스</div>
           </div>
-          <button class="btn btng btnsm" onclick="loadNewsFromAPI(true)" style="flex-shrink:0">새로고침</button>
+          <button class="btn btng btnsm" onclick="refreshNewsCache()" style="flex-shrink:0">새로고침</button>
         </div>
         <div id="newsLoading" style="padding:30px;text-align:center;color:var(--t3);font-size:13px">📰 뉴스 불러오는 중...</div>
         <div class="news-list" id="newsGrid" style="display:none"></div>
@@ -3098,6 +3098,18 @@ function updateDashWeekly(){
 
 /* ════ 주간 뉴스 ════ */
 var _newsLoaded = false;
+
+// 새로고침 버튼: GAS에서 뉴스 갱신 후 읽기
+function refreshNewsCache() {
+  if (!HLB_API_URL) return;
+  var el = document.getElementById('newsUpdateTime');
+  if (el) el.textContent = '갱신 중...';
+  // 먼저 캐시 갱신 요청 (백그라운드, 응답 대기 없음)
+  fetch(HLB_API_URL + '?action=getNews').catch(function(){});
+  // 5초 후 캐시 읽기
+  setTimeout(function(){ _newsLoaded = false; loadNewsFromAPI(true); }, 5000);
+}
+
 function loadNewsFromAPI(force) {
   if (!HLB_API_URL) { renderNewsItems([],'API URL 없음'); return; }
   if (_newsLoaded && !force) return;
@@ -3105,28 +3117,30 @@ function loadNewsFromAPI(force) {
   var loading = document.getElementById('newsLoading');
   if (loading) loading.style.display = '';
   if (grid) grid.style.display = 'none';
-  fetch(HLB_API_URL + '?action=getNews')
+  fetch(HLB_API_URL + '?action=getCachedNews')
     .then(function(r){ return r.json(); })
     .then(function(j){
       _newsLoaded = true;
+      var bad = ['주가','추가매수','장내매수','자사주','목표주가','투자의견',
+                 '상장폐지','공매도','보통주','우선주','지분취득','주식취득',
+                 '상한가','하한가','매수세','매도세','시가총액'];
       var items = (j.news || []).filter(function(n){
-        // 주식 관련 제외
-        var bad = ['주가','추가매수','장내매수','자사주','의결권','지분취득','주식취득',
-                   '목표주가','투자의견','증권','상장폐지','시가총액','코스닥','코스피',
-                   '공매도','매도','주주','배당','자본금'];
-        // 허용: 사업·제품 관련 뉴스는 통과
         return !bad.some(function(kw){ return (n.title||'').indexOf(kw) >= 0; });
       });
       if (loading) loading.style.display = 'none';
       if (grid) grid.style.display = '';
-      renderNewsItems(items, null);
-      var ts = j.fetchedAt ? newsRelTime(j.fetchedAt) : '방금';
-      var el = document.getElementById('newsUpdateTime');
-      if (el) el.textContent = '업데이트 ' + ts + (j.cached ? ' (캐시)' : '');
+      if (j.empty) {
+        grid.innerHTML = '<div class="news-empty">뉴스를 불러오는 중입니다. 잠시 후 새로고침 해주세요.</div>';
+      } else {
+        renderNewsItems(items, null);
+        var ts = j.fetchedAt ? newsRelTime(j.fetchedAt) : '방금';
+        var el = document.getElementById('newsUpdateTime');
+        if (el) el.textContent = '업데이트 ' + ts;
+      }
     })
-    .catch(function(){
+    .catch(function(err){
       if (loading) loading.style.display = 'none';
-      renderNewsItems([], '뉴스 로드 실패');
+      renderNewsItems([], '뉴스 로드 실패: GAS URL 확인 필요');
     });
 }
 
