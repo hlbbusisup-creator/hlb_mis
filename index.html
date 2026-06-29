@@ -3125,8 +3125,10 @@ function loadNewsFromAPI(force) {
     delete window[cbName];
     if (s.parentNode) s.parentNode.removeChild(s);
     if (loading) loading.style.display = 'none';
-    if (grid) { grid.innerHTML = '<div class="news-empty">뉴스 로드 중 오류 — GAS 재배포 필요</div>'; grid.style.display = ''; }
-  }, 12000);
+    var elT2 = document.getElementById('newsUpdateTime');
+    if (elT2 && elT2.textContent === '갱신 중...') elT2.textContent = '로드 실패 — 잠시 후 재시도';
+    if (grid) { grid.innerHTML = '<div class="news-empty">뉴스 로드 시간 초과 — 잠시 후 새로고침 해주세요</div>'; grid.style.display = ''; }
+  }, 25000);
 
   window[cbName] = function(j) {
     if (done) return;
@@ -3155,7 +3157,9 @@ function loadNewsFromAPI(force) {
     clearTimeout(timer);
     delete window[cbName];
     if (loading) loading.style.display = 'none';
-    if (grid) { grid.innerHTML = '<div class="news-empty">뉴스 로드 실패 — GAS 재배포 필요</div>'; grid.style.display = ''; }
+    var elT3 = document.getElementById('newsUpdateTime');
+    if (elT3 && elT3.textContent === '갱신 중...') elT3.textContent = '로드 실패 — 잠시 후 재시도';
+    if (grid) { grid.innerHTML = '<div class="news-empty">뉴스 로드 실패 — 잠시 후 새로고침 해주세요</div>'; grid.style.display = ''; }
   };
 
   s.src = HLB_API_URL + '?action=getCachedNews&cb=' + cbName;
