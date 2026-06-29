@@ -3135,12 +3135,8 @@ function loadNewsFromAPI(force) {
     delete window[cbName];
     if (s.parentNode) s.parentNode.removeChild(s);
     _newsLoaded = true;
-    var bad = ['주가','추가매수','장내매수','자사주','목표주가','투자의견',
-               '상장폐지','공매도','보통주','우선주','지분취득','주식취득',
-               '상한가','하한가','매수세','매도세','시가총액'];
-    var items = (j.news || []).filter(function(n){
-      return !bad.some(function(kw){ return (n.title||'').indexOf(kw) >= 0; });
-    });
+    // GAS에서 이미 필터링됨 — HTML 중복 필터 제거
+    var items = (j.news || []);
     if (loading) loading.style.display = 'none';
     if (grid) grid.style.display = '';
     var ts = j.fetchedAt ? newsRelTime(j.fetchedAt) : '방금';
