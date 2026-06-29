@@ -3143,13 +3143,13 @@ function loadNewsFromAPI(force) {
     });
     if (loading) loading.style.display = 'none';
     if (grid) grid.style.display = '';
+    var ts = j.fetchedAt ? newsRelTime(j.fetchedAt) : '방금';
+    var elT = document.getElementById('newsUpdateTime');
+    if (elT) elT.textContent = '업데이트 ' + ts;
     if (j.empty || !items.length) {
       grid.innerHTML = '<div class="news-empty">이번 주 관련 뉴스가 없습니다</div>';
     } else {
       renderNewsItems(items, null);
-      var ts = j.fetchedAt ? newsRelTime(j.fetchedAt) : '방금';
-      var elT = document.getElementById('newsUpdateTime');
-      if (elT) elT.textContent = '업데이트 ' + ts;
     }
   };
 
