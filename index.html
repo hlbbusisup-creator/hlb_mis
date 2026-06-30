@@ -1788,7 +1788,19 @@ function showPortal(){
   var li=document.getElementById('hdrLogo');
   if(li){li.src=document.querySelector('.llogo img').src;}
   rDP();rPerf('all');renderIssues();rMall('all');rBiz('all');rDE();updateOvsKpi(OVS_ALL);renderOvsMap();renderOvsCountryRank2(OVS_ALL);renderOvsTbody(OVS_ALL);renderOvsCountryBar(OVS_ALL);renderOvsDeptChart(OVS_ALL);renderOvsCountryChips();
-  setTimeout(function(){bCharts();renderLibPage();updateDashWeekly();},500);setTimeout(function(){loadBulkWeekData();renderTrend();renderPerfBar2();},700);setTimeout(function(){loadNewsFromAPI();},1200);
+  setTimeout(function(){bCharts();renderLibPage();updateDashWeekly();},500);setTimeout(function(){loadBulkWeekData();renderTrend();renderPerfBar2();},700);
+  // GAS 워밍업 ping 먼저 → 3초 후 실제 뉴스 로드 (콜드스타트 대비)
+  setTimeout(function(){
+    if (!HLB_API_URL) return;
+    var _cached = (function(){ try { var s=localStorage.getItem('hlb_news_cache'); if(!s) return null; var o=JSON.parse(s); return (Date.now()-o.ts<3600000)?o.data:null; } catch(e){return null;} })();
+    if (_cached) { loadNewsFromAPI(); return; } // 캐시 있으면 즉시 표시
+    // 캐시 없으면: ping으로 GAS 워밍업 후 3초 뒤 뉴스 로드
+    var ps = document.createElement('script');
+    ps.src = HLB_API_URL + '?action=ping&cb=__hlbWarmup' + Date.now();
+    window[ps.src.split('cb=')[1]] = function(){};
+    document.head.appendChild(ps);
+    setTimeout(function(){ loadNewsFromAPI(); }, 3500);
+  }, 1000);
 }
 
 
