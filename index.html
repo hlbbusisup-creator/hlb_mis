@@ -3562,6 +3562,15 @@ function getTE(code) {
 function todayStr() {
   var d=new Date(); return (d.getMonth()+1)+'/'+(d.getDate());
 }
+function fmtTaskDate(v) {
+  if (!v || v === '—') return '—';
+  var d = new Date(v);
+  if (isNaN(d.getTime())) return String(v);
+  var y = d.getFullYear();
+  var m = ('0'+(d.getMonth()+1)).slice(-2);
+  var dd = ('0'+d.getDate()).slice(-2);
+  return y+'-'+m+'-'+dd;
+}
 
 // ── API 로드 ──
 async function loadTasksFromAPI() {
@@ -3683,8 +3692,9 @@ function renderTasks() {
     html += '<td style="font-size:12px;color:var(--t2)">'+(e.owner||t.owner||'<span style="color:var(--t4)">—</span>')+'</td>';
     html += '<td style="white-space:nowrap"><span class="tpb"><span class="tpbf" style="width:'+pct+'%;background:'+pbClr+'"></span></span><span style="font-size:12px;font-weight:700">'+pct+'%</span></td>';
     html += '<td><span class="tst tst-'+e.status+'">'+e.status+'</span></td>';
-    html += '<td style="font-size:11px;color:'+(isOver?'#B91C1C':'var(--t3)')+'">'+( dueStr?dueStr.replace('2026-',''):'—')+'</td>';
-    html += '<td style="font-size:11px;color:var(--t4)">'+(e.updated||'—')+'</td>';
+    var dueFmt = fmtTaskDate(dueStr); // "2026-12-31" 형식으로 정규화
+    html += '<td style="font-size:11px;color:'+(isOver?'#B91C1C':'var(--t3)')+'">'+( dueFmt!=='—'?dueFmt.replace('2026-',''):'—')+'</td>';
+    html += '<td style="font-size:11px;color:var(--t4)">'+fmtTaskDate(e.updated)+'</td>';
     html += '</tr>';
     if (e.note) {
       html += '<tr style="background:#FFFDF5"><td colspan="8" style="padding:4px 14px 10px 14px"><div style="font-size:12px;color:#7A5C00;background:#FFFDF0;border:1px solid #E8D88A;border-radius:4px;padding:6px 10px;white-space:pre-wrap;line-height:1.5">'+e.note+'</div></td></tr>';
