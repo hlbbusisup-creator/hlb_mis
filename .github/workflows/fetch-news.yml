@@ -1,0 +1,32 @@
+name: HLB 뉴스 자동 수집
+
+on:
+  schedule:
+    - cron: '0 */2 * * *'   # 2시간마다 (UTC 기준)
+  workflow_dispatch:          # 수동 실행 버튼
+
+jobs:
+  fetch-news:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write          # news.json 커밋 권한
+
+    steps:
+      - name: 코드 체크아웃
+        uses: actions/checkout@v4
+
+      - name: Python 설정
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+
+      - name: 뉴스 수집 실행
+        run: python scripts/fetch_news.py
+
+      - name: news.json 커밋 & 푸시
+        run: |
+          git config user.name  "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add news.json
+          git diff --staged --quiet || git commit -m "chore: update HLB news [$(date -u '+%Y-%m-%d %H:%M UTC')]"
+          git push

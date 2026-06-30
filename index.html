@@ -1789,18 +1789,7 @@ function showPortal(){
   if(li){li.src=document.querySelector('.llogo img').src;}
   rDP();rPerf('all');renderIssues();rMall('all');rBiz('all');rDE();updateOvsKpi(OVS_ALL);renderOvsMap();renderOvsCountryRank2(OVS_ALL);renderOvsTbody(OVS_ALL);renderOvsCountryBar(OVS_ALL);renderOvsDeptChart(OVS_ALL);renderOvsCountryChips();
   setTimeout(function(){bCharts();renderLibPage();updateDashWeekly();},500);setTimeout(function(){loadBulkWeekData();renderTrend();renderPerfBar2();},700);
-  // GAS 워밍업 ping 먼저 → 3초 후 실제 뉴스 로드 (콜드스타트 대비)
-  setTimeout(function(){
-    if (!HLB_API_URL) return;
-    var _cached = (function(){ try { var s=localStorage.getItem('hlb_news_cache'); if(!s) return null; var o=JSON.parse(s); return (Date.now()-o.ts<3600000)?o.data:null; } catch(e){return null;} })();
-    if (_cached) { loadNewsFromAPI(); return; } // 캐시 있으면 즉시 표시
-    // 캐시 없으면: ping으로 GAS 워밍업 후 3초 뒤 뉴스 로드
-    var ps = document.createElement('script');
-    ps.src = HLB_API_URL + '?action=ping&cb=__hlbWarmup' + Date.now();
-    window[ps.src.split('cb=')[1]] = function(){};
-    document.head.appendChild(ps);
-    setTimeout(function(){ loadNewsFromAPI(); }, 3500);
-  }, 1000);
+  setTimeout(function(){ loadNewsFromAPI(); }, 1000);
 }
 
 
@@ -3108,133 +3097,51 @@ function updateDashWeekly(){
 }
 
 
-/* ════ 주간 뉴스 (JSONP 방식 — CORS 우회) ════ */
+/* ════ 주간 뉴스 (news.json 정적 파일 — Google 계정 무관) ════ */
 var _newsLoaded = false;
-var _newsRetries = 0;
-var NEWS_LS_KEY = 'hlb_news_cache';
-var NEWS_LS_TTL = 60 * 60 * 1000; // 1시간 브라우저 캐시
-
-function _saveNewsToLS(data) {
-  try { localStorage.setItem(NEWS_LS_KEY, JSON.stringify({ts: Date.now(), data: data})); } catch(e) {}
-}
-function _loadNewsFromLS() {
-  try {
-    var s = localStorage.getItem(NEWS_LS_KEY);
-    if (!s) return null;
-    var obj = JSON.parse(s);
-    if (Date.now() - obj.ts > NEWS_LS_TTL) return null;
-    return obj.data;
-  } catch(e) { return null; }
-}
 
 function refreshNewsCache() {
-  if (!HLB_API_URL) return;
   var el = document.getElementById('newsUpdateTime');
   if (el) el.textContent = '갱신 중...';
   _newsLoaded = false;
-  _newsRetries = 0;
-  try { localStorage.removeItem(NEWS_LS_KEY); } catch(e) {}
   loadNewsFromAPI(true);
 }
 
 function loadNewsFromAPI(force) {
-  if (!HLB_API_URL) { renderNewsItems([],'API URL 없음'); return; }
   if (_newsLoaded && !force) return;
-
-  // 브라우저 캐시 먼저 확인 (즉시 표시)
-  if (!force) {
-    var cached = _loadNewsFromLS();
-    if (cached) {
-      _newsLoaded = true;
-      var grid = document.getElementById('newsGrid');
-      var loading = document.getElementById('newsLoading');
-      if (loading) loading.style.display = 'none';
-      if (grid) grid.style.display = '';
-      var elT = document.getElementById('newsUpdateTime');
-      if (elT) elT.textContent = '업데이트 ' + (cached.fetchedAt ? newsRelTime(cached.fetchedAt) : '캐시');
-      if (!cached.news || !cached.news.length) {
-        grid.innerHTML = '<div class="news-empty">이번 주 관련 뉴스가 없습니다</div>';
-      } else {
-        renderNewsItems(cached.news, null);
-      }
-      // 백그라운드로 GAS 갱신 (30분 이상 된 경우)
-      try {
-        var obj = JSON.parse(localStorage.getItem(NEWS_LS_KEY)||'{}');
-        if (Date.now() - (obj.ts||0) > 30 * 60 * 1000) { setTimeout(function(){ loadNewsFromAPI(true); }, 2000); }
-      } catch(e) {}
-      return;
-    }
-  }
   var grid    = document.getElementById('newsGrid');
   var loading = document.getElementById('newsLoading');
   if (loading) loading.style.display = '';
   if (grid) grid.style.display = 'none';
 
-  var cbName = '__hlbNews' + Date.now();
-  var s = document.createElement('script');
-  var done = false;
-
-  var timer = setTimeout(function() {
-    if (done) return;
-    done = true;
-    delete window[cbName];
-    if (s.parentNode) s.parentNode.removeChild(s);
-    // 자동 재시도 (최대 2회)
-    if (_newsRetries < 2) {
-      _newsRetries++;
-      var elT2 = document.getElementById('newsUpdateTime');
-      if (elT2) elT2.textContent = '재시도 중... (' + _newsRetries + '/2)';
-      setTimeout(function() { loadNewsFromAPI(true); }, 3000);
-      return;
-    }
-    if (loading) loading.style.display = 'none';
-    var elT2 = document.getElementById('newsUpdateTime');
-    if (elT2) elT2.textContent = '로드 실패 — 새로고침 해주세요';
-    if (grid) { grid.innerHTML = '<div class="news-empty">GAS 서버 응답 없음 — 잠시 후 새로고침</div>'; grid.style.display = ''; }
-  }, 25000);
-
-  window[cbName] = function(j) {
-    if (done) return;
-    done = true;
-    clearTimeout(timer);
-    delete window[cbName];
-    if (s.parentNode) s.parentNode.removeChild(s);
-    _newsLoaded = true;
-    var items = (j.news || []);
-    // 브라우저 localStorage에 캐시 저장
-    _saveNewsToLS(j);
-    if (loading) loading.style.display = 'none';
-    if (grid) grid.style.display = '';
-    var ts = j.fetchedAt ? newsRelTime(j.fetchedAt) : '방금';
-    var elT = document.getElementById('newsUpdateTime');
-    if (elT) elT.textContent = '업데이트 ' + ts;
-    if (j.empty || !items.length) {
-      grid.innerHTML = '<div class="news-empty">이번 주 관련 뉴스가 없습니다</div>';
-    } else {
-      renderNewsItems(items, null);
-    }
-  };
-
-  s.onerror = function() {
-    if (done) return;
-    done = true;
-    clearTimeout(timer);
-    delete window[cbName];
-    if (_newsRetries < 2) {
-      _newsRetries++;
-      var elT3 = document.getElementById('newsUpdateTime');
-      if (elT3) elT3.textContent = '재시도 중... (' + _newsRetries + '/2)';
-      setTimeout(function() { loadNewsFromAPI(true); }, 3000);
-      return;
-    }
-    if (loading) loading.style.display = 'none';
-    var elT3 = document.getElementById('newsUpdateTime');
-    if (elT3) elT3.textContent = '로드 실패 — 새로고침 해주세요';
-    if (grid) { grid.innerHTML = '<div class="news-empty">GAS 서버 응답 없음 — 잠시 후 새로고침</div>'; grid.style.display = ''; }
-  };
-
-  s.src = HLB_API_URL + '?action=getCachedNews&cb=' + cbName;
-  document.head.appendChild(s);
+  // news.json: GitHub Actions가 2시간마다 갱신하는 정적 파일
+  // 같은 도메인 fetch라 Google 계정/CORS 문제 없음
+  fetch('./news.json?_=' + Date.now())
+    .then(function(r) {
+      if (!r.ok) throw new Error('HTTP ' + r.status);
+      return r.json();
+    })
+    .then(function(j) {
+      _newsLoaded = true;
+      var items = j.news || [];
+      if (loading) loading.style.display = 'none';
+      if (grid) grid.style.display = '';
+      var ts = j.fetchedAt ? newsRelTime(j.fetchedAt) : '방금';
+      var elT = document.getElementById('newsUpdateTime');
+      if (elT) elT.textContent = '업데이트 ' + ts;
+      if (!items.length) {
+        grid.innerHTML = '<div class="news-empty">이번 주 관련 뉴스가 없습니다</div>';
+      } else {
+        renderNewsItems(items, null);
+      }
+    })
+    .catch(function(err) {
+      if (loading) loading.style.display = 'none';
+      var elT = document.getElementById('newsUpdateTime');
+      if (elT) elT.textContent = '로드 실패';
+      if (grid) { grid.innerHTML = '<div class="news-empty">뉴스 파일을 불러올 수 없습니다</div>'; grid.style.display = ''; }
+      console.error('news.json load error:', err);
+    });
 }
 
 function escHtml(s) {
