@@ -3098,12 +3098,14 @@ function updateDashWeekly(){
 
 /* ════ 주간 뉴스 (JSONP 방식 — CORS 우회) ════ */
 var _newsLoaded = false;
+var _newsRetries = 0;
 
 function refreshNewsCache() {
   if (!HLB_API_URL) return;
   var el = document.getElementById('newsUpdateTime');
   if (el) el.textContent = '갱신 중...';
   _newsLoaded = false;
+  _newsRetries = 0;
   loadNewsFromAPI(true);
 }
 
@@ -3124,10 +3126,18 @@ function loadNewsFromAPI(force) {
     done = true;
     delete window[cbName];
     if (s.parentNode) s.parentNode.removeChild(s);
+    // 자동 재시도 (최대 2회)
+    if (_newsRetries < 2) {
+      _newsRetries++;
+      var elT2 = document.getElementById('newsUpdateTime');
+      if (elT2) elT2.textContent = '재시도 중... (' + _newsRetries + '/2)';
+      setTimeout(function() { loadNewsFromAPI(true); }, 3000);
+      return;
+    }
     if (loading) loading.style.display = 'none';
     var elT2 = document.getElementById('newsUpdateTime');
-    if (elT2 && elT2.textContent === '갱신 중...') elT2.textContent = '로드 실패 — 잠시 후 재시도';
-    if (grid) { grid.innerHTML = '<div class="news-empty">뉴스 로드 시간 초과 — 잠시 후 새로고침 해주세요</div>'; grid.style.display = ''; }
+    if (elT2) elT2.textContent = '로드 실패 — 새로고침 해주세요';
+    if (grid) { grid.innerHTML = '<div class="news-empty">GAS 서버 응답 없음 — 잠시 후 새로고침</div>'; grid.style.display = ''; }
   }, 25000);
 
   window[cbName] = function(j) {
@@ -3156,10 +3166,17 @@ function loadNewsFromAPI(force) {
     done = true;
     clearTimeout(timer);
     delete window[cbName];
+    if (_newsRetries < 2) {
+      _newsRetries++;
+      var elT3 = document.getElementById('newsUpdateTime');
+      if (elT3) elT3.textContent = '재시도 중... (' + _newsRetries + '/2)';
+      setTimeout(function() { loadNewsFromAPI(true); }, 3000);
+      return;
+    }
     if (loading) loading.style.display = 'none';
     var elT3 = document.getElementById('newsUpdateTime');
-    if (elT3 && elT3.textContent === '갱신 중...') elT3.textContent = '로드 실패 — 잠시 후 재시도';
-    if (grid) { grid.innerHTML = '<div class="news-empty">뉴스 로드 실패 — 잠시 후 새로고침 해주세요</div>'; grid.style.display = ''; }
+    if (elT3) elT3.textContent = '로드 실패 — 새로고침 해주세요';
+    if (grid) { grid.innerHTML = '<div class="news-empty">GAS 서버 응답 없음 — 잠시 후 새로고침</div>'; grid.style.display = ''; }
   };
 
   s.src = HLB_API_URL + '?action=getCachedNews&cb=' + cbName;
