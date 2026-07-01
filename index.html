@@ -329,6 +329,14 @@ tbody tr:hover td{background:#F7F9FF;}
 .warn-chip .wn{font-weight:700;color:var(--t1);}
 .warn-chip .wr{font-weight:700;color:var(--rd);}
 .warn-chip .wc{font-size:10px;color:var(--t3);}
+.above-section{margin-bottom:14px;}
+.above-hdr{display:flex;align-items:center;gap:8px;margin-bottom:8px;font-size:13px;font-weight:700;color:#2F7D5B;}
+.above-chips{display:flex;flex-wrap:wrap;gap:6px;}
+.above-chip{display:flex;align-items:center;gap:8px;background:#F0FFF4;border:1px solid #9AE6B4;border-radius:4px;padding:7px 14px;font-size:12px;cursor:pointer;}
+.above-chip:hover{background:#E6FFEd;}
+.above-chip .an{font-weight:700;color:var(--t1);}
+.above-chip .ar{font-weight:700;color:#2F7D5B;}
+.above-chip .ac{font-size:10px;color:var(--t3);}
 .warn-empty{font-size:13px;color:var(--gn);background:var(--gnl);border:1px solid #A7F3D0;border-radius:4px;padding:8px 14px;font-weight:600;}
 /* 홈 추이 카드 */
 .home-trend-card{background:var(--sur);border:1px solid var(--bd);border-radius:var(--ra);padding:20px;margin-bottom:14px;box-shadow:0 1px 4px rgba(0,0,0,.06);}
@@ -616,6 +624,12 @@ tbody tr:hover td{background:#F7F9FF;}
             <div class="tile-badge bgb">새탭 열기</div>
           </div>
         </div>
+      </div>
+
+      <!-- 50% 이상 달성 계열사 -->
+      <div class="above-section" id="aboveSection" style="display:none">
+        <div class="above-hdr">🏆 목표 달성권 계열사 <span id="aboveCount" style="font-size:11px;font-weight:400;color:var(--t3);margin-left:4px">달성률 50% 이상</span></div>
+        <div class="above-chips" id="aboveChips"></div>
       </div>
 
       <!-- 위험 계열사 알림 -->
@@ -1952,7 +1966,29 @@ function rDP(){
   renderWarn();
   renderHomeTrend();
 }
+function renderAbove(){
+  var chips='',cnt=0,i;
+  for(i=0;i<PD.length;i++){
+    var d=PD[i];
+    if(d.r!==null&&d.r>=0.5&&d.g>0){
+      cnt++;
+      chips+='<div class="above-chip" onclick="showP(\'performance\',null)"><span class="an">'+d.n+'</span><span class="ar">'+(d.r*100).toFixed(1)+'%</span><span class="ac">누계 '+Math.round(d.a/100)+'억</span></div>';
+    }
+  }
+  var as=document.getElementById('aboveSection');
+  var ac=document.getElementById('aboveChips');
+  var acnt=document.getElementById('aboveCount');
+  if(!as||!ac)return;
+  if(cnt===0){
+    as.style.display='none';
+  } else {
+    as.style.display='';
+    ac.innerHTML=chips;
+    if(acnt)acnt.textContent='('+cnt+'개사 · 클릭 시 상세)';
+  }
+}
 function renderWarn(){
+  renderAbove();
   var chips='',cnt=0,i;
   for(i=0;i<PD.length;i++){
     var d=PD[i];
@@ -2014,6 +2050,15 @@ function renderHomeTrend(){
     labels=[REPORT_MONTH+'월'];
     cumulVals=[Math.round(tA2/100)];
     monthlyVals=[null];
+  }
+
+  /* 누계는 단조증가여야 함 — 전 달보다 낮으면 전 달 값으로 유지 */
+  var runMax=0;
+  for(var _ci=0;_ci<cumulVals.length;_ci++){
+    if(cumulVals[_ci]!==null){
+      if(cumulVals[_ci]<runMax) cumulVals[_ci]=runMax;
+      else runMax=cumulVals[_ci];
+    }
   }
 
   dc('cHomeTrend');
