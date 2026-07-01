@@ -2010,55 +2010,49 @@ function renderWarn(){
   }
 }
 function renderHomeTrend(){
-  /* 월별 추이: 구글 시트 주간 캐시 기반 — 실제 데이터만 표시 */
+  /* 월별 추이: REPORT_MONTH ~ 현재 월까지 자동 확장 */
+  var today=new Date();
+  var curM=today.getMonth()+1; /* 현재 월 (1~12) */
+
   var cachedWeeks=Object.keys(_weekCache).filter(function(k){
     return k!=='__latest__'&&/^\d{4}-W\d{2}$/.test(k);
   }).sort();
 
+  /* 주차별로 월 누계 최대값·주간실적 집계 */
+  var mCumul={},mWa={};
+  cachedWeeks.forEach(function(wk){
+    var data=_weekCache[wk];
+    if(!data||!data.companies)return;
+    var mn=isoWeekToMonthNum(wk)||REPORT_MONTH;
+    var ml=mn+'월';
+    var tA=data.companies.reduce(function(s,c){return s+(c.a||0);},0);
+    var tW=data.companies.reduce(function(s,c){return s+(c.wa||0);},0);
+    if(!mCumul[ml]||tA>mCumul[ml])mCumul[ml]=tA;
+    mWa[ml]=(mWa[ml]||0)+tW;
+  });
+
+  /* 현재 월 캐시 없으면 PD 현재값(가장 최신 누계)으로 채움 */
+  var curLabel=curM+'월';
+  var curTotA=PD.reduce(function(s,d){return s+d.a;},0);
+  if((!mCumul[curLabel]||mCumul[curLabel]<curTotA)&&curTotA>0){
+    mCumul[curLabel]=curTotA;
+  }
+
+  /* REPORT_MONTH ~ curM 까지 레이블 생성, 빈 달은 직전 누계 carry-forward */
   var labels=[],cumulVals=[],monthlyVals=[];
-
-  if(cachedWeeks.length>0){
-    /* 월별 최대 누계 + 금주 합산
-       월 라벨은 REPORT_MONTH 기준 — 시트 주차(W24 등)가 실제 보고월과 다를 수 있으므로 */
-    var mCumul={},mWa={};
-    cachedWeeks.forEach(function(wk){
-      var data=_weekCache[wk];
-      if(!data||!data.companies)return;
-      /* 같은 REPORT_MONTH 내 주차들은 해당 월로 묶고,
-         그 이후 주차가 추가되면 자연스럽게 다음 달로 분류 */
-      var mn=isoWeekToMonthNum(wk)||REPORT_MONTH;
-      /* 현재 데이터가 REPORT_MONTH 보고 기준이면 해당 월로 강제 매핑 */
-      if(cachedWeeks.length===1) mn=REPORT_MONTH;
-      var ml=mn+'월';
-      var tA=data.companies.reduce(function(s,c){return s+(c.a||0);},0);
-      var tW=data.companies.reduce(function(s,c){return s+(c.wa||0);},0);
-      if(!mCumul[ml]||tA>mCumul[ml])mCumul[ml]=tA;
-      mWa[ml]=(mWa[ml]||0)+tW;
-    });
-    MONTHS.forEach(function(m){
-      if(mCumul[m]!=null){
-        labels.push(m);
-        cumulVals.push(Math.round(mCumul[m]/100));
-        monthlyVals.push(mWa[m]?Math.round(mWa[m]/100):null);
-      }
-    });
-  }
-
-  /* 캐시 없으면 REPORT_MONTH 기준 PD 누계 단일 포인트 */
-  if(labels.length===0){
-    var tA2=PD.reduce(function(s,d){return s+d.a;},0);
-    labels=[REPORT_MONTH+'월'];
-    cumulVals=[Math.round(tA2/100)];
-    monthlyVals=[null];
-  }
-
-  /* 누계는 단조증가여야 함 — 전 달보다 낮으면 전 달 값으로 유지 */
-  var runMax=0;
-  for(var _ci=0;_ci<cumulVals.length;_ci++){
-    if(cumulVals[_ci]!==null){
-      if(cumulVals[_ci]<runMax) cumulVals[_ci]=runMax;
-      else runMax=cumulVals[_ci];
+  var lastKnown=0;
+  for(var _m=REPORT_MONTH;_m<=curM;_m++){
+    var _ml=_m+'월';
+    labels.push(_ml);
+    if(mCumul[_ml]!=null){
+      var _v=Math.round(mCumul[_ml]/100);
+      if(_v<lastKnown)_v=lastKnown; /* 단조증가 보장 */
+      lastKnown=_v;
+      cumulVals.push(_v);
+    } else {
+      cumulVals.push(lastKnown>0?lastKnown:null); /* 데이터 없는 달 carry-forward */
     }
+    monthlyVals.push(mWa[_ml]?Math.round(mWa[_ml]/100):null);
   }
 
   dc('cHomeTrend');
