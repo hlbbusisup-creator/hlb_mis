@@ -1,17 +1,17 @@
 {
   "news": [
     {
-      "title": "[바이오 브리핑] 삼진제약, HLB이노베이션, 파마리서치 - 신아일보",
-      "link": "https://news.google.com/rss/articles/CBMicEFVX3lxTE5EOGNpbGFMLUJOLURwaWdvQkVybFdUV1FyOXNqQmtGRG1DbkVBNzhTeUNDUG9Wak9LNzZjQU5pNi1KeW1WYmZSTzczUFZ4ZU43LUpObHM1dXc4eUFrbE9hM19jZk16RkNWdUdMZmNaNnk?oc=5",
-      "source": "신아일보",
-      "pubDate": "2026-07-01T10:41:55+00:00",
-      "query": "HLB이노베이션"
+      "title": "현대요트, ‘요트 오너로 가는 첫 단계’ 공동 소유 오너십 프로그램 출시 - 한국경제",
+      "link": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE9kTk9tWHpLZUhpT3RaZWdXUUJxRU16LUJqMFQyTGR6Z0c0Y2p6aTRzYzBtOElKVERqRDFWMDRfeFhqLTV0VjhUX1M3Uk5mNm5WWDVRc0pPWXVLQdIBVEFVX3lxTE90cHBrU2VpZ2lvMmZ3b3BQb05taVAzTEpoOFB1dmM3bFFjZjRIVzF5TDgtWVE1N3dDSXJTZ1laVWt6aU1rNmdCMzdKLWdNdk1WODNnRQ?oc=5",
+      "source": "한국경제",
+      "pubDate": "2026-07-01T23:12:00+00:00",
+      "query": "현대요트"
     },
     {
-      "title": "진양곤 HLB 의장, HLB이노베이션 대표로 선임 - 매일경제 마켓",
-      "link": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE14NnR4Y0JFNHp1NksxZVcxZGU3RzBGZnlpMm1JbU82eVlsX252ejh6dnBmeXVsT2F1bTNpcXJEWC1BUTJ6MnpPMXd0eTFNVzBTZWc?oc=5",
-      "source": "매일경제 마켓",
-      "pubDate": "2026-07-01T07:14:55+00:00",
+      "title": "HLB이노베이션, 진양곤 HLB그룹 의장 대표이사 선임 - 데일리팜",
+      "link": "https://news.google.com/rss/articles/CBMiUEFVX3lxTE5idkNKNlV4eTFhOGN4WU04QzVwM28taUJtYnVJa19GN1BjWV9WWWNIU01kRmZEZ2dxTFpXZDRaRHJMQ3Q1QThfcFNtY1VVSDRq?oc=5",
+      "source": "데일리팜",
+      "pubDate": "2026-07-01T20:47:38+00:00",
       "query": "HLB이노베이션"
     },
     {
@@ -48,20 +48,6 @@
       "source": "Chosunbiz",
       "pubDate": "2026-07-01T01:08:00+00:00",
       "query": "HLB 신약"
-    },
-    {
-      "title": "HLB, 간암·담관암 신약 허가 눈앞···진양곤 연속 주식매수 - 뉴스웨이",
-      "link": "https://news.google.com/rss/articles/CBMiakFVX3lxTE9EdVhYandEY0I5U2hLZ04yZFJJYWxwWVBBckNhNEljV0VBaVU2a1ZYS1B3aWs0Y2dTVVZRZnZQUF9ocWFzT1BaclV3OENFbGpydWd2T1dJelNLWDBGUl84em5uSDRfdmcwcHc?oc=5",
-      "source": "뉴스웨이",
-      "pubDate": "2026-06-30T22:03:00+00:00",
-      "query": "HLB 신약"
-    },
-    {
-      "title": "‘삼수생’ HLB, 이번엔 FDA 문턱 넘을까…CMC 리스크 관건 - 한스경제",
-      "link": "https://news.google.com/rss/articles/CBMia0FVX3lxTE9PcG42ejM2b2VLdEMyM2h0ZjZnU2l6VTBwM2dkdDdUMW5NVFc5VXRnZkVQTlQ0bmIxb2pJRmRVN3ZoQVpiSmlNanJ6dEhOY1k3SlNPTmtIMFhuQXlPTTUxaXQzbXg4T0tkeTJF0gFvQVVfeXFMTlZrNEpWQkFvR29GUTVJOTI3RzBUY3RHWjNTZE9FYW9ITjVqNW9aMXY1ZXQ5N1o4VUxQUExVMjQ3cjY0WXVjUEpRbjFWWElSLUl0dXU3NF84YjYyNXROaWdjb0NwUHJOTFJTQ3VXZjN3?oc=5",
-      "source": "한스경제",
-      "pubDate": "2026-06-30T21:00:00+00:00",
-      "query": "HLB FDA"
     },
     {
       "title": "[바이오 산책] HLB파나진, AOC 관련 특허 확보 전략 고도화 - 중소기업신문",
@@ -141,6 +127,6 @@
       "query": "HLB펩"
     }
   ],
-  "fetchedAt": "2026-07-01T18:33:20.066467+00:00",
-  "count": 20
+  "fetchedAt": "2026-07-01T23:59:15.712645+00:00",
+  "count": 18
 }
