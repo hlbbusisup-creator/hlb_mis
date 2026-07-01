@@ -1343,6 +1343,46 @@ async function loadWeekList() {
   } catch(e) {}
 }
 
+/* ── 월별 추이 차트용: REPORT_MONTH ~ 현재 월 각 월 마지막 주차 백그라운드 로드 ── */
+async function preloadMonthlyData() {
+  if (!HLB_API_URL) return;
+  try {
+    var res = await fetch(HLB_API_URL + '?action=getWeeks');
+    var json = await res.json();
+    if (!json.weeks || !json.weeks.length) return;
+
+    var today = new Date();
+    var curM = today.getMonth() + 1;
+
+    /* 월별 최신 주차 추출 (누계는 해당 월 마지막 주가 가장 높음) */
+    var mLatest = {};
+    json.weeks.forEach(function(wk) {
+      var mn = isoWeekToMonthNum(wk) || REPORT_MONTH;
+      if (mn >= REPORT_MONTH && mn <= curM) {
+        if (!mLatest[mn] || wk > mLatest[mn]) mLatest[mn] = wk;
+      }
+    });
+
+    /* 캐시에 없는 월 주차만 순차 로드 */
+    var loaded = false;
+    for (var m = REPORT_MONTH; m <= curM; m++) {
+      var wk = mLatest[m];
+      if (!wk || _weekCache[wk]) continue;
+      try {
+        var r = await fetch(HLB_API_URL + '?action=getWeek&week=' + encodeURIComponent(wk));
+        var d = await r.json();
+        if (!d.error && d.companies) {
+          _weekCache[wk] = d;
+          if (d.week) _weekCache[d.week] = d;
+          loaded = true;
+        }
+      } catch(e) { /* 개별 주차 실패는 무시 */ }
+    }
+
+    if (loaded) renderHomeTrend(); /* 새 데이터 반영 */
+  } catch(e) {}
+}
+
 // ── 사용자 목록 GAS에서 불러오기 ──────────────────────────────
 async function loadUsersFromAPI() {
   if (!HLB_API_URL) return;
@@ -3415,6 +3455,8 @@ document.addEventListener('DOMContentLoaded',function(){
       // 주차 셀렉터 표시
       var sel = document.getElementById('weekSelector');
       if (sel) sel.style.display = '';
+      loadWeekList();
+      preloadMonthlyData(); // 월별 추이 차트용: 각 월 마지막 주차 백그라운드 로드
     });
   }
 });
