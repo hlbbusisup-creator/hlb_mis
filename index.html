@@ -2073,17 +2073,23 @@ function renderHomeTrend(){
     mWa[ml]=(mWa[ml]||0)+tW;
   });
 
-  /* 현재 월 캐시 없으면 PD 현재값(가장 최신 누계)으로 채움 */
+  /* 현재 월에 매핑된 주차가 없을 때만 PD 현재값으로 채움
+     (W27 Monday=6/29 → 6월 매핑되므로 7월에 같은 값 이중할당 방지) */
   var curLabel=curM+'월';
-  var curTotA=PD.reduce(function(s,d){return s+d.a;},0);
-  if((!mCumul[curLabel]||mCumul[curLabel]<curTotA)&&curTotA>0){
-    mCumul[curLabel]=curTotA;
+  if(!mCumul[curLabel]){
+    var curTotA=PD.reduce(function(s,d){return s+d.a;},0);
+    if(curTotA>0)mCumul[curLabel]=curTotA;
   }
 
-  /* REPORT_MONTH ~ curM 까지 레이블 생성, 빈 달은 직전 누계 carry-forward */
+  /* 데이터가 있는 첫 번째 월부터 시작 — 빈 초기 달은 차트에서 제외 */
+  var startM=REPORT_MONTH;
+  for(var _fm=REPORT_MONTH;_fm<=curM;_fm++){
+    if(mCumul[_fm+'월']!=null){startM=_fm;break;}
+  }
+
   var labels=[],cumulVals=[],monthlyVals=[];
   var lastKnown=0;
-  for(var _m=REPORT_MONTH;_m<=curM;_m++){
+  for(var _m=startM;_m<=curM;_m++){
     var _ml=_m+'월';
     labels.push(_ml);
     if(mCumul[_ml]!=null){
@@ -2092,9 +2098,15 @@ function renderHomeTrend(){
       lastKnown=_v;
       cumulVals.push(_v);
     } else {
-      cumulVals.push(lastKnown>0?lastKnown:null); /* 데이터 없는 달 carry-forward */
+      cumulVals.push(lastKnown>0?lastKnown:null);
     }
     monthlyVals.push(mWa[_ml]?Math.round(mWa[_ml]/100):null);
+  }
+
+  /* 배열이 비면 PD 현재 누계 단일 포인트 */
+  if(labels.length===0){
+    var tA3=PD.reduce(function(s,d){return s+d.a;},0);
+    if(tA3>0){labels=[curM+'월'];cumulVals=[Math.round(tA3/100)];monthlyVals=[null];}
   }
 
   dc('cHomeTrend');
