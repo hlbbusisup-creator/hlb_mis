@@ -1,17 +1,5 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64">
-  <rect width="64" height="64" rx="8" fill="#111111"/>
-  <!-- H -->
-  <rect x="7" y="14" width="5" height="36" rx="1.5" fill="#E53232"/>
-  <rect x="7" y="29" width="14" height="5" rx="1.5" fill="#E53232"/>
-  <rect x="16" y="14" width="5" height="36" rx="1.5" fill="#E53232"/>
-  <!-- L -->
-  <rect x="24" y="14" width="5" height="36" rx="1.5" fill="#E53232"/>
-  <rect x="24" y="45" width="13" height="5" rx="1.5" fill="#E53232"/>
-  <!-- B -->
-  <rect x="40" y="14" width="5" height="36" rx="1.5" fill="#E53232"/>
-  <rect x="40" y="14" width="13" height="5" rx="2" fill="#E53232"/>
-  <rect x="40" y="29" width="13" height="5" rx="2" fill="#E53232"/>
-  <rect x="40" y="45" width="13" height="5" rx="2" fill="#E53232"/>
-  <rect x="48" y="14" width="5" height="20" rx="1.5" fill="#E53232"/>
-  <rect x="48" y="29" width="5" height="21" rx="1.5" fill="#E53232"/>
+  <rect width="64" height="64" rx="10" fill="#1A3A5C"/>
+  <text x="32" y="24" font-family="'Malgun Gothic','Apple SD Gothic Neo','Noto Sans KR',sans-serif" font-size="20" font-weight="700" fill="#FFFFFF" text-anchor="middle" dominant-baseline="middle">경영</text>
+  <text x="32" y="46" font-family="'Malgun Gothic','Apple SD Gothic Neo','Noto Sans KR',sans-serif" font-size="20" font-weight="700" fill="#4FC3F7" text-anchor="middle" dominant-baseline="middle">정보</text>
 </svg>
