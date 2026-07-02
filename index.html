@@ -537,7 +537,7 @@ tbody tr:hover td{background:#F7F9FF;}
             <div class="sl">당월 누적</div>
           </div>
           <div class="dash-hero-stat">
-            <div class="sv">181<span style="font-size:12px;opacity:.45">개</span></div>
+            <div class="sv" id="heroOvsCount">181<span style="font-size:12px;opacity:.45">개</span></div>
             <div class="sl">해외 거래처</div>
           </div>
         </div>
@@ -552,7 +552,7 @@ tbody tr:hover td{background:#F7F9FF;}
             <div class="tsub">전체 계열사 현황</div>
           </div>
           <div class="tile-footer">
-            <div class="tile-prog"><div class="tile-prog-fill" style="width:33.6%;background:#1F6FBF"></div></div>
+            <div class="tile-prog"><div class="tile-prog-fill" id="tileAchProg" style="width:33.6%;background:#1F6FBF"></div></div>
             <div class="tile-badge bga" id="tileAchRate">달성률 33.6%</div>
           </div>
         </div>
@@ -1965,12 +1965,13 @@ function totRow(data,cols){
   return '<tr class="str"><td>합 계</td><td class="tdr num">'+tP.toLocaleString()+'</td><td class="tdr num">'+tG.toLocaleString()+'</td><td class="tdr num">'+tA.toLocaleString()+'</td><td class="tdr num">'+(tW>0?tW.toLocaleString():'-')+'</td><td><div class="pbw"><div class="pbt"><div class="pbf pbb" style="width:'+Math.min(parseFloat(tR)||0,100)+'%"></div></div><span class="ppp" style="color:var(--bl)">'+tR+'%</span></div></td><td></td>'+(cols>6?'<td></td>':'')+'</tr>';
 }
 function rDP(){
-  var h='',lc='',i,tG=0,tA=0,above=0,danger=0;
+  var h='',lc='',i,tG=0,tA=0,tW=0,above=0,danger=0;
   for(i=0;i<PD.length;i++){
     var d=PD[i];
     if(d.c!==lc){h+='<tr class="ghdr"><td colspan="7">'+d.c+'</td></tr>';lc=d.c;}
     h+=pRow(d,false);
     if(d.g>0){tG+=d.g;tA+=d.a;}
+    tW+=(d.wa||0);
     if(d.r!==null&&d.r>=0.5)above++;
     if(d.r!==null&&d.r<0.25&&d.g>0)danger++;
   }
@@ -2005,6 +2006,17 @@ function rDP(){
   if(tileAb)tileAb.textContent=above;
   var tileDg=document.getElementById('tileDangerCnt');
   if(tileDg)tileDg.textContent=danger;
+  // 계열사 경영실적 타일 progress bar (달성률)
+  var tileAp=document.getElementById('tileAchProg');
+  if(tileAp)tileAp.style.width=Math.min(gr*100,100)+'%';
+  // 히어로 금주실적 / 당월누적 (PD 데이터 기반)
+  var elWk2=document.getElementById('dashWkVal');
+  var elMo2=document.getElementById('dashMoVal');
+  if(elWk2)elWk2.textContent=tW>0?Math.round(tW/100).toLocaleString():'-';
+  if(elMo2)elMo2.textContent=tA>0?Math.round(tA/100).toLocaleString():'-';
+  // 해외 거래처 수 (OVS_ALL 배열 기반)
+  var elOvs=document.getElementById('heroOvsCount');
+  if(elOvs)elOvs.innerHTML=OVS_ALL.length+'<span style="font-size:12px;opacity:.45">개</span>';
   renderWarn();
   renderHomeTrend();
 }
