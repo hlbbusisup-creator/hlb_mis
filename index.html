@@ -761,10 +761,10 @@ tbody tr:hover td{background:#F7F9FF;}
         <div class="cbox"><div class="ctitle">달성률 구간 요약</div><div class="carea" style="height:240px;display:flex;align-items:center;justify-content:center"><div id="segBox" style="width:100%;padding:8px"></div></div></div>
       </div>
       <div class="itabs">
-        <div class="itab active" onclick="swIT(this,'perf','all')">전체 (29사)</div>
-        <div class="itab" onclick="swIT(this,'perf','listed')">상장기업 (10)</div>
-        <div class="itab" onclick="swIT(this,'perf','core')">핵심기업 (6)</div>
-        <div class="itab" onclick="swIT(this,'perf','venture')">벤처기업 (13)</div>
+        <div class="itab active" id="tabPerfAll" onclick="swIT(this,'perf','all')">전체 (29사)</div>
+        <div class="itab" id="tabPerfListed" onclick="swIT(this,'perf','listed')">상장기업 (10)</div>
+        <div class="itab" id="tabPerfCore" onclick="swIT(this,'perf','core')">핵심기업 (6)</div>
+        <div class="itab" id="tabPerfVenture" onclick="swIT(this,'perf','venture')">벤처기업 (13)</div>
       </div>
       <div class="card"><div class="tw"><table><thead><tr><th>계열사</th><th class="tdr">25년 실적</th><th class="tdr">26년 목표</th><th class="tdr week-label-col">누계</th><th class="tdr">금주 실적</th><th style="min-width:190px">목표 달성률</th><th></th></tr></thead><tbody id="perfBody"></tbody></table></div></div>
     </div>
@@ -877,9 +877,9 @@ tbody tr:hover td{background:#F7F9FF;}
       <div class="pghdr"><div><span class="hlbmk-lg"></span><div class="pgt">HLB 그룹몰 (Human Life Better)</div><div class="pgs">HLB그룹 계열 브랜드 통합 커머스 플랫폼 · 30개 이상 브랜드</div></div><a href="https://rqbiueos.gensparkspace.com/" target="_blank" class="btn btnp btnsm">그룹몰 바로가기</a></div>
       <div class="itabs">
         <div class="itab active" onclick="swIT(this,'mall','all')">전체</div>
-        <div class="itab" onclick="swIT(this,'mall','lifestyle')">라이프스타일 (15)</div>
-        <div class="itab" onclick="swIT(this,'mall','healthcare')">헬스케어 (6)</div>
-        <div class="itab" onclick="swIT(this,'mall','beauty')">뷰티 (8)</div>
+        <div class="itab" id="tabMallLifestyle" onclick="swIT(this,'mall','lifestyle')">라이프스타일 (15)</div>
+        <div class="itab" id="tabMallHealth" onclick="swIT(this,'mall','healthcare')">헬스케어 (6)</div>
+        <div class="itab" id="tabMallBeauty" onclick="swIT(this,'mall','beauty')">뷰티 (8)</div>
       </div>
       <div class="mgrid" id="mallGrid"></div>
     </div>
@@ -2021,11 +2021,23 @@ function rDP(){
   // 해외 거래처 수 (OVS_ALL 배열 기반)
   var elOvs=document.getElementById('heroOvsCount');
   if(elOvs)elOvs.innerHTML=OVS_ALL.length+'<span style="font-size:12px;opacity:.45">개</span>';
-  // 전체 계열사 수 (PD 기반)
+  // 전체 계열사 수 + 경영실적 탭 카운트 (PD 기반)
   var elHTC=document.getElementById('heroTotalCo');
   if(elHTC)elHTC.innerHTML=PD.length+'<span style="font-size:12px;opacity:.45">사</span>';
   var elTCC=document.getElementById('tileCoCount');
   if(elTCC)elTCC.innerHTML=PD.length+'<span class="tunit">개사</span>';
+  var _cListed=0,_cCore=0,_cVenture=0,_ti;
+  for(_ti=0;_ti<PD.length;_ti++){
+    var _tc=PD[_ti].c;
+    if(_tc==='상장기업')_cListed++;
+    else if(_tc==='핵심기업')_cCore++;
+    else if(_tc==='벤처기업')_cVenture++;
+  }
+  var _t;
+  _t=document.getElementById('tabPerfAll');    if(_t)_t.textContent='전체 ('+PD.length+'사)';
+  _t=document.getElementById('tabPerfListed'); if(_t)_t.textContent='상장기업 ('+_cListed+')';
+  _t=document.getElementById('tabPerfCore');   if(_t)_t.textContent='핵심기업 ('+_cCore+')';
+  _t=document.getElementById('tabPerfVenture');if(_t)_t.textContent='벤처기업 ('+_cVenture+')';
   // 누계 매출 타일 연간목표 배지
   var elTRT=document.getElementById('tileRevTarget');
   if(elTRT&&tG>0)elTRT.textContent='연간목표 '+Math.round(tG/100).toLocaleString()+'억';
@@ -2265,6 +2277,14 @@ function fOvs(v){ovS=v;renderOvsAll();}
 
 function rMall(f){
   var data=MD.slice(),i;
+  /* 탭 카운트 동적 업데이트 */
+  var _mls=MD.filter(function(d){return d.cat==='라이프스타일';}).length;
+  var _mhc=MD.filter(function(d){return d.cat==='헬스케어';}).length;
+  var _mbt=MD.filter(function(d){return d.cat==='뷰티';}).length;
+  var _mt;
+  _mt=document.getElementById('tabMallLifestyle');if(_mt)_mt.textContent='라이프스타일 ('+_mls+')';
+  _mt=document.getElementById('tabMallHealth');   if(_mt)_mt.textContent='헬스케어 ('+_mhc+')';
+  _mt=document.getElementById('tabMallBeauty');   if(_mt)_mt.textContent='뷰티 ('+_mbt+')';
   if(f==='lifestyle')data=data.filter(function(d){return d.cat==='라이프스타일';});
   else if(f==='healthcare')data=data.filter(function(d){return d.cat==='헬스케어';});
   else if(f==='beauty')data=data.filter(function(d){return d.cat==='뷰티';});
