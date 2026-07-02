@@ -1965,23 +1965,23 @@ function totRow(data,cols){
   return '<tr class="str"><td>합 계</td><td class="tdr num">'+tP.toLocaleString()+'</td><td class="tdr num">'+tG.toLocaleString()+'</td><td class="tdr num">'+tA.toLocaleString()+'</td><td class="tdr num">'+(tW>0?tW.toLocaleString():'-')+'</td><td><div class="pbw"><div class="pbt"><div class="pbf pbb" style="width:'+Math.min(parseFloat(tR)||0,100)+'%"></div></div><span class="ppp" style="color:var(--bl)">'+tR+'%</span></div></td><td></td>'+(cols>6?'<td></td>':'')+'</tr>';
 }
 function rDP(){
-  /* tA  = 전체 계열사 누계실적 합계 (표시용)
-     tAg = 연간목표 있는 계열사만 누계 (달성률 계산용)
-     tG  = 연간목표 합계 */
-  var h='',lc='',i,tG=0,tA=0,tAg=0,tW=0,above=0,danger=0;
+  /* tA = 전체 계열사 누계실적 합계 (표시 + 달성률 계산 공통)
+     tG = 연간목표 합계 (목표 있는 회사만 누적)
+     → 테이블 합계행(totRow)과 동일한 방식 */
+  var h='',lc='',i,tG=0,tA=0,tW=0,above=0,danger=0;
   for(i=0;i<PD.length;i++){
     var d=PD[i];
     if(d.c!==lc){h+='<tr class="ghdr"><td colspan="7">'+d.c+'</td></tr>';lc=d.c;}
     h+=pRow(d,false);
-    tA+=d.a;                         /* 전체 누계 (표시) */
-    if(d.g>0){tG+=d.g;tAg+=d.a;}    /* 목표 있는 회사만 (달성률 계산) */
+    tA+=d.a;            /* 전체 누계 */
+    if(d.g>0)tG+=d.g;  /* 목표 합계 */
     tW+=(d.wa||0);
     if(d.r!==null&&d.r>=0.5)above++;
     if(d.r!==null&&d.r<0.25&&d.g>0)danger++;
   }
   h+=totRow(PD,6);document.getElementById('dashPerf').innerHTML=h;
-  /* 히어로 업데이트 */
-  var gr=tG>0?tAg/tG:0;             /* 달성률 = 목표 있는 회사 기준 */
+  /* 히어로 업데이트 — totRow와 동일 계산식 */
+  var gr=tG>0?tA/tG:0;
   var grPct=(gr*100).toFixed(1);
   // 게이지 SVG 업데이트 (arc length = π×86 ≈ 270)
   var gaugeArc=270;
