@@ -3195,12 +3195,12 @@ var _newsLoaded = false;
 
 function refreshNewsCache() {
   var el = document.getElementById('newsUpdateTime');
-  if (el) el.textContent = '갱신 중...';
+  if (el) el.textContent = '확인 중...';
   _newsLoaded = false;
-  loadNewsFromAPI(true);
+  loadNewsFromAPI(true, true); /* userRefresh=true */
 }
 
-function loadNewsFromAPI(force) {
+function loadNewsFromAPI(force, userRefresh) {
   if (_newsLoaded && !force) return;
   var grid    = document.getElementById('newsGrid');
   var loading = document.getElementById('newsLoading');
@@ -3219,9 +3219,31 @@ function loadNewsFromAPI(force) {
       var items = j.news || [];
       if (loading) loading.style.display = 'none';
       if (grid) grid.style.display = '';
-      var ts = j.fetchedAt ? newsRelTime(j.fetchedAt) : '방금';
       var elT = document.getElementById('newsUpdateTime');
-      if (elT) elT.textContent = '업데이트 ' + ts;
+      if (elT) {
+        var collectLabel = '자동 수집';
+        if (j.fetchedAt) {
+          try {
+            var d = new Date(j.fetchedAt);
+            var h = d.getHours(), mi = d.getMinutes();
+            var ampm = h < 12 ? '오전' : '오후';
+            var hh = h % 12 || 12;
+            var mm = mi < 10 ? '0'+mi : mi;
+            /* 오늘이면 시각만, 어제 이전이면 날짜도 표시 */
+            var now = new Date();
+            var isToday = d.toDateString() === now.toDateString();
+            collectLabel = isToday
+              ? (ampm+' '+hh+':'+mm+' 수집')
+              : ((d.getMonth()+1)+'/'+(d.getDate())+' '+ampm+' '+hh+':'+mm+' 수집');
+          } catch(e){}
+        }
+        if (userRefresh) {
+          elT.textContent = '✓ 확인 완료  ·  ' + collectLabel;
+          setTimeout(function(){ if(elT) elT.textContent = collectLabel; }, 3000);
+        } else {
+          elT.textContent = collectLabel;
+        }
+      }
       if (!items.length) {
         grid.innerHTML = '<div class="news-empty">이번 주 관련 뉴스가 없습니다</div>';
       } else {
