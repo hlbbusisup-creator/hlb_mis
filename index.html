@@ -515,7 +515,7 @@ tbody tr:hover td{background:#F7F9FF;}
         <div class="dash-hero-divider"></div>
         <div class="dash-hero-stats">
           <div class="dash-hero-stat">
-            <div class="sv">29<span style="font-size:12px;opacity:.45">사</span></div>
+            <div class="sv" id="heroTotalCo">29<span style="font-size:12px;opacity:.45">사</span></div>
             <div class="sl">전체 계열사</div>
           </div>
           <div class="dash-hero-stat">
@@ -548,7 +548,7 @@ tbody tr:hover td{background:#F7F9FF;}
         <div class="tile tb" onclick="showP('performance',null)">
           <div class="thdr"><div class="tlbl">계열사 경영실적</div></div>
           <div class="tkpi">
-            <div class="tv">29<span class="tunit">개사</span></div>
+            <div class="tv" id="tileCoCount">29<span class="tunit">개사</span></div>
             <div class="tsub">전체 계열사 현황</div>
           </div>
           <div class="tile-footer">
@@ -565,7 +565,7 @@ tbody tr:hover td{background:#F7F9FF;}
           </div>
           <div class="tile-footer">
             <div class="tile-prog"><div class="tile-prog-fill" id="tileRevProg" style="width:33.6%;background:#2D7D46"></div></div>
-            <div class="tile-badge bgg">연간목표 8,635억</div>
+            <div class="tile-badge bgg" id="tileRevTarget">연간목표 8,635억</div>
           </div>
         </div>
         <!-- 달성 현황 -->
@@ -586,8 +586,8 @@ tbody tr:hover td{background:#F7F9FF;}
         <div class="tile tt" onclick="showP('overseas',null)">
           <div class="thdr"><div class="tlbl">해외사업 현황</div></div>
           <div class="tkpi">
-            <div class="tv">52<span class="tunit">개국</span></div>
-            <div class="tsub">거래처 181개</div>
+            <div class="tv" id="tileOvsCn">52<span class="tunit">개국</span></div>
+            <div class="tsub" id="tileOvsCnt">거래처 181개</div>
           </div>
           <div class="tile-footer">
             <div class="tile-badge bgb">기존·신사업 포함</div>
@@ -608,7 +608,7 @@ tbody tr:hover td{background:#F7F9FF;}
         <div class="tile tcp" onclick="showP('library',null)">
           <div class="thdr"><div class="tlbl">자료실 / IR</div></div>
           <div class="tkpi">
-            <div class="tv">12<span class="tunit">건</span></div>
+            <div class="tv" id="tileLibCnt">12<span class="tunit">건</span></div>
             <div class="tsub">제품카탈로그·IR자료</div>
           </div>
           <div class="tile-footer">
@@ -1965,19 +1965,23 @@ function totRow(data,cols){
   return '<tr class="str"><td>합 계</td><td class="tdr num">'+tP.toLocaleString()+'</td><td class="tdr num">'+tG.toLocaleString()+'</td><td class="tdr num">'+tA.toLocaleString()+'</td><td class="tdr num">'+(tW>0?tW.toLocaleString():'-')+'</td><td><div class="pbw"><div class="pbt"><div class="pbf pbb" style="width:'+Math.min(parseFloat(tR)||0,100)+'%"></div></div><span class="ppp" style="color:var(--bl)">'+tR+'%</span></div></td><td></td>'+(cols>6?'<td></td>':'')+'</tr>';
 }
 function rDP(){
-  var h='',lc='',i,tG=0,tA=0,tW=0,above=0,danger=0;
+  /* tA  = 전체 계열사 누계실적 합계 (표시용)
+     tAg = 연간목표 있는 계열사만 누계 (달성률 계산용)
+     tG  = 연간목표 합계 */
+  var h='',lc='',i,tG=0,tA=0,tAg=0,tW=0,above=0,danger=0;
   for(i=0;i<PD.length;i++){
     var d=PD[i];
     if(d.c!==lc){h+='<tr class="ghdr"><td colspan="7">'+d.c+'</td></tr>';lc=d.c;}
     h+=pRow(d,false);
-    if(d.g>0){tG+=d.g;tA+=d.a;}
+    tA+=d.a;                         /* 전체 누계 (표시) */
+    if(d.g>0){tG+=d.g;tAg+=d.a;}    /* 목표 있는 회사만 (달성률 계산) */
     tW+=(d.wa||0);
     if(d.r!==null&&d.r>=0.5)above++;
     if(d.r!==null&&d.r<0.25&&d.g>0)danger++;
   }
   h+=totRow(PD,6);document.getElementById('dashPerf').innerHTML=h;
   /* 히어로 업데이트 */
-  var gr=tG>0?tA/tG:0;
+  var gr=tG>0?tAg/tG:0;             /* 달성률 = 목표 있는 회사 기준 */
   var grPct=(gr*100).toFixed(1);
   // 게이지 SVG 업데이트 (arc length = π×86 ≈ 270)
   var gaugeArc=270;
@@ -1997,7 +2001,7 @@ function rDP(){
   var tileAch=document.getElementById('tileAchRate');
   if(tileAch)tileAch.textContent='달성률 '+grPct+'%';
   var tileRv=document.getElementById('tileRevVal');
-  if(tileRv)tileRv.innerHTML=Math.round(tA/100).toLocaleString()+'<span class="tunit">억</span>';
+  if(tileRv)tileRv.innerHTML=Math.round(tA/100).toLocaleString()+'<span class="tunit">억</span>'; /* 전체 누계 */
   var tileRp=document.getElementById('tileRevProg');
   if(tileRp)tileRp.style.width=Math.min(gr*100,100)+'%';
   var tileRt=document.getElementById('tileRatePct');
@@ -2009,7 +2013,7 @@ function rDP(){
   // 계열사 경영실적 타일 progress bar (달성률)
   var tileAp=document.getElementById('tileAchProg');
   if(tileAp)tileAp.style.width=Math.min(gr*100,100)+'%';
-  // 히어로 금주실적 / 당월누적 (PD 데이터 기반)
+  // 히어로 금주실적 / 당월누적 (PD 데이터 기반, 전체 합계)
   var elWk2=document.getElementById('dashWkVal');
   var elMo2=document.getElementById('dashMoVal');
   if(elWk2)elWk2.textContent=tW>0?Math.round(tW/100).toLocaleString():'-';
@@ -2017,6 +2021,14 @@ function rDP(){
   // 해외 거래처 수 (OVS_ALL 배열 기반)
   var elOvs=document.getElementById('heroOvsCount');
   if(elOvs)elOvs.innerHTML=OVS_ALL.length+'<span style="font-size:12px;opacity:.45">개</span>';
+  // 전체 계열사 수 (PD 기반)
+  var elHTC=document.getElementById('heroTotalCo');
+  if(elHTC)elHTC.innerHTML=PD.length+'<span style="font-size:12px;opacity:.45">사</span>';
+  var elTCC=document.getElementById('tileCoCount');
+  if(elTCC)elTCC.innerHTML=PD.length+'<span class="tunit">개사</span>';
+  // 누계 매출 타일 연간목표 배지
+  var elTRT=document.getElementById('tileRevTarget');
+  if(elTRT&&tG>0)elTRT.textContent='연간목표 '+Math.round(tG/100).toLocaleString()+'억';
   renderWarn();
   renderHomeTrend();
 }
@@ -2548,6 +2560,12 @@ function updateOvsKpi(data){
   el=document.getElementById('ovs-kpi-dp'); if(el)el.textContent=Object.keys(dps).length;
   el=document.getElementById('ovs-kpi-tot'); if(el)el.textContent=data.length;
   el=document.getElementById('ovs-list-count'); if(el)el.textContent=data.length+'건';
+  /* 홈 타일: 항상 OVS_ALL 전체 기준 */
+  var allCns={};OVS_ALL.forEach(function(d){if(d.cn)allCns[d.cn]=1;});
+  el=document.getElementById('tileOvsCn');
+  if(el)el.innerHTML=Object.keys(allCns).length+'<span class="tunit">개국</span>';
+  el=document.getElementById('tileOvsCnt');
+  if(el)el.textContent='거래처 '+OVS_ALL.length+'개';
 }
 
 function renderOvsTbody(data){
@@ -3452,6 +3470,9 @@ function addLibRow(){LIB_DATA.push({sec:'IR',nm:'새 자료',url:'https://',tag:
 function renderLibPage(){
   var cats=document.getElementById('page-library');
   if(!cats)return;
+  /* 홈 타일 건수 업데이트 */
+  var elLib=document.getElementById('tileLibCnt');
+  if(elLib)elLib.innerHTML=LIB_DATA.length+'<span class="tunit">건</span>';
   var catalog=LIB_DATA.filter(function(d){return d.sec==='카탈로그';});
   var ir=LIB_DATA.filter(function(d){return d.sec==='IR';});
   var h='<div class="pghdr"><div><span class="hlbmk-lg"></span><div class="pgt">자료실 / IR 자료</div><div class="pgs">HLB그룹 제품 리스트 · 계열사 IR 자료 · 클릭 시 새 탭에서 열립니다</div></div></div>';
