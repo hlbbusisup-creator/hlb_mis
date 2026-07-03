@@ -3279,12 +3279,20 @@ function loadNewsFromAPI(force, userRefresh) {
             var ampm = h < 12 ? '오전' : '오후';
             var hh = h % 12 || 12;
             var mm = mi < 10 ? '0'+mi : mi;
-            /* 오늘이면 시각만, 어제 이전이면 날짜도 표시 */
             var now = new Date();
             var isToday = d.toDateString() === now.toDateString();
-            collectLabel = isToday
+            /* 절대시각 */
+            var absLabel = isToday
               ? (ampm+' '+hh+':'+mm+' 수집')
               : ((d.getMonth()+1)+'/'+(d.getDate())+' '+ampm+' '+hh+':'+mm+' 수집');
+            /* 상대시간 (얼마나 오래됐는지) */
+            var diffMin = Math.floor((now - d) / 60000);
+            var relStr;
+            if (diffMin < 2) relStr = '방금';
+            else if (diffMin < 60) relStr = diffMin + '분 전';
+            else if (diffMin < 1440) relStr = Math.floor(diffMin/60) + '시간 전';
+            else relStr = Math.floor(diffMin/1440) + '일 전';
+            collectLabel = absLabel + '  (' + relStr + ')';
           } catch(e){}
         }
         if (userRefresh) {

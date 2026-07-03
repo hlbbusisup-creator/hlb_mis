@@ -2,7 +2,7 @@ name: HLB 뉴스 자동 수집
 
 on:
   schedule:
-    - cron: '0 * * * *'     # 매시간 (UTC 기준, 실제 실행은 GitHub 부하에 따라 지연 가능)
+    - cron: '7,27,47 * * * *'  # 20분마다 실행 (:07, :27, :47분) — 정시 혼잡 회피
   workflow_dispatch:          # 수동 실행 버튼
 
 jobs:
