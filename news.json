@@ -50,13 +50,6 @@
       "query": "HLB FDA"
     },
     {
-      "title": "HLB, FDA 승인 두 차례 막은 CMC … 이번에는 넘을까 - 뉴데일리",
-      "link": "https://news.google.com/rss/articles/CBMigAFBVV95cUxPbDBTdTZwOVJRNHRGc0Z2Sll4LXMyZmI0MDdkOUgtVFpFMmxvSk92bE9qVDFOdXkyOEVabUNGeVB1cEoyb3M3bnJxaDVUck9mV284Zl9tSEFseDRFTjg1UTFTY2xubHozRUVUWnZCdXd4TE82enk2Mm8tZDdLeS16WNIBgAFBVV95cUxPbDBTdTZwOVJRNHRGc0Z2Sll4LXMyZmI0MDdkOUgtVFpFMmxvSk92bE9qVDFOdXkyOEVabUNGeVB1cEoyb3M3bnJxaDVUck9mV284Zl9tSEFseDRFTjg1UTFTY2xubHozRUVUWnZCdXd4TE82enk2Mm8tZDdLeS16WA?oc=5",
-      "source": "뉴데일리",
-      "pubDate": "2026-07-02T02:01:56+00:00",
-      "query": "HLB FDA"
-    },
-    {
       "title": "HLB그룹 경영진 계열사 지분 매수 행보…HLB바이오스텝 백성진 대표 주식 추가 매수 - v.daum.net",
       "link": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE8yYzFMZVJ4aGYzQmxqYnA0azlsN21Wek0wRWlpdzVTSEVlRDU5eTBUSU8zZUJvVERabVk0WmE1c2VHeV9WZXB0ZTBEMThVTUE?oc=5",
       "source": "v.daum.net",
@@ -83,6 +76,13 @@
       "source": "디지털투데이",
       "pubDate": "2026-07-01T05:02:01+00:00",
       "query": "HLB생명과학"
+    },
+    {
+      "title": "HLB, 간암·담관암 신약 허가 눈앞···진양곤 연속 주식매수 - 뉴스웨이",
+      "link": "https://news.google.com/rss/articles/CBMiakFVX3lxTE9EdVhYandEY0I5U2hLZ04yZFJJYWxwWVBBckNhNEljV0VBaVU2a1ZYS1B3aWs0Y2dTVVZRZnZQUF9ocWFzT1BaclV3OENFbGpydWd2T1dJelNLWDBGUl84em5uSDRfdmcwcHc?oc=5",
+      "source": "뉴스웨이",
+      "pubDate": "2026-06-30T22:03:00+00:00",
+      "query": "HLB 허가"
     },
     {
       "title": "HLB파나진 (046210) - 씽크풀 AI",
@@ -141,6 +141,6 @@
       "query": "HLB제넥스"
     }
   ],
-  "fetchedAt": "2026-07-04T20:18:03.679750+00:00",
+  "fetchedAt": "2026-07-04T23:47:26.568060+00:00",
   "count": 20
 }
