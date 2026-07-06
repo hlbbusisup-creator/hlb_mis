@@ -1,39 +1,81 @@
 {
   "news": [
     {
-      "title": "HLB 간암신약 FDA 결정 임박…세 번째 도전 최대 변수는 CMC - 뉴스1",
-      "link": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE5rS25PMTI5VVFTNlo0NkxOdDdEcVJWcFYwQ1FuTkc5Nmprc1ZWUGEzX3VfV25DOE9CYlZPTUd1dEF6SWlIVWNnRXpaMmVwNkZQLXBiVUZkbExLRUo3U3l0Sg?oc=5",
-      "source": "뉴스1",
-      "pubDate": "2026-07-05T06:06:00+00:00",
-      "query": "HLB 신약"
-    },
-    {
-      "title": "HLB, 일본삼나무 알레르기 백신 'ITI-9001' 임상 진입...\"차세대 면역치료 연구\" - 메트로신문",
-      "link": "https://news.google.com/rss/articles/CBMiYEFVX3lxTFBJdmd2V3ZQNGtVTEpRUnlsRE5ZMTlGX0gyeU94MlpfY3NxOEMyZUVpQmVvWDRVcWh6S2RZNDNRRXE5N2NLQmtwYUNabmJxc1REMXdCS29RVkY1M2JDSWFlZw?oc=5",
-      "source": "메트로신문",
-      "pubDate": "2026-07-05T03:51:22+00:00",
+      "title": "제약·바이오 하반기 이벤트…허가·기술이전·임상 데이터 투심 분수령 [김유림의 바이오핀셋] - 한국경제",
+      "link": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE12TTViMEg5RUFJVGtfV0Z0N3puTjNaY0RfMDVfb3RLcVhTM0tSeHcwLV9rVUtZVV9TY3k1R09Jd0d2OVpYWkxwR2lUdFBJS096NXVkeWFORWtfZ9IBVEFVX3lxTE9EMUY4RHFlZk1nLTJ6SHhlc2R4eUpqQVZ3Q19sUkxkVWgxUnBPYXlydGZJX2M5eWcwUFpXQUxoSmJ0ME1PRXkwS2JRVmctTkxLLWVJNA?oc=5",
+      "source": "한국경제",
+      "pubDate": "2026-07-06T07:19:36+00:00",
       "query": "HLB 임상"
     },
     {
+      "title": "HLB생명과학R&D, 산업용 대마 활용한 차세대 신약개발 국책과제 참여 - 비즈니스포스트",
+      "link": "https://news.google.com/rss/articles/CBMic0FVX3lxTE91TU1HV0kyTnVYWmFSVFZwQVMyNUdCd2I5dEdWR0FBQWJNZlJFVG1ySjl5M3JZeXNKSmZyYUZpQThSYnRhcjY3M0NUbTRSa252QjdzeGRxTjJ1LXotZmliQnIzVWdkdmlSaVJ5Q1ZxTzNYXzg?oc=5",
+      "source": "비즈니스포스트",
+      "pubDate": "2026-07-06T06:54:04+00:00",
+      "query": "HLB 신약"
+    },
+    {
+      "title": "HLB생명과학R&D, 차세대 헴프 신약개발 시동 外 - 톱데일리",
+      "link": "https://news.google.com/rss/articles/CBMiUEFVX3lxTE9NbnNqVHVqQmF4Nm9pcDQ3QTVzZXN6a0h5SnRCaUdhcWgwcG84elBpV0UtQnRqQjZncmctZk5oblktaHVuczhUdGl0eUFkUXdp?oc=5",
+      "source": "톱데일리",
+      "pubDate": "2026-07-06T06:03:00+00:00",
+      "query": "HLB 신약"
+    },
+    {
+      "title": "의성 중소기업 메덱스, 유기농자재 ‘팜스모닝 올라이트’ 美 첫 수출 - 조선일보",
+      "link": "https://news.google.com/rss/articles/CBMikAFBVV95cUxPelhzZjJwd2pBeUZIY0FKMmFwVzBucGhoc2lCeFhZampDS0YyRGNkV1BLSjZ3Qm1GbVhBekZubFVmWFphNzJDMHVXeWFFWXZRekVjcHhpdU13TVMwNkZqbnM0NVRXNmFGOURTTzcxODZXQ2I1czE3Tm55OXVTVk9DVWNjQjRWY29lRDNrODhZQ0M?oc=5",
+      "source": "조선일보",
+      "pubDate": "2026-07-06T06:00:29+00:00",
+      "query": "코아바이오"
+    },
+    {
+      "title": "HLB생명과학R&D, 상반기 국책과제 5건 선정…헴프 신약개발 착수 - 뉴스1",
+      "link": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE8wamRBdDhZZVhtNmpydGV2TW9LTWtmTXRpY2RGX09CLTlieEhNSkNLZzB3R2c4VENaS19taUlZUUFIVXl4VTNub09KeVJMTnI2ZnFOLWdtcERjSnpNX2ZyQnBoZWhyQQ?oc=5",
+      "source": "뉴스1",
+      "pubDate": "2026-07-06T05:25:05+00:00",
+      "query": "HLB 임상"
+    },
+    {
+      "title": "FDA 허가부터 3상 결과까지…하반기 K-바이오 성과 '시험대' - 뉴스핌",
+      "link": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE9iZEdNQ1hsVVJOWWlibDBVSXk0QXNzaEJTSW5fYVh3OWZEam9uNWs4MGg1NnRaaldKbllWSFQ4OXpGcXV5NkEwNE9zMlBNc25zWWFXd0lySjd5TUlR?oc=5",
+      "source": "뉴스핌",
+      "pubDate": "2026-07-06T02:23:00+00:00",
+      "query": "HLB FDA"
+    },
+    {
+      "title": "HLB 간암신약 FDA 결정 임박…세 번째 도전 최대 변수는 CMC - 뉴스1",
+      "link": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE5rS25PMTI5VVFTNlo0NkxOdDdEcVJWcFYwQ1FuTkc5Nmprc1ZWUGEzX3VfV25DOE9CYlZPTUd1dEF6SWlIVWNnRXpaMmVwNkZQLXBiVUZkbExLRUo3U3l0Sg?oc=5",
+      "source": "뉴스1",
+      "pubDate": "2026-07-06T00:57:14+00:00",
+      "query": "HLB 신약"
+    },
+    {
+      "title": "'HLB 운명의 날에 TG-C 설욕전까지'…7월 K바이오 핫이슈 - 마켓인",
+      "link": "https://news.google.com/rss/articles/CBMic0FVX3lxTE1WMkU4QjRCc3FEODNPUjczUGJmZ3dFWDkzTmt5NVp6X29JTnVELUV0U0xTcEdvRVc5STBKWG11YmdYUTlNZUNVcUpNWlpTeVAwek1EV1g0XzRBeHBMTVJpS1BIcEhwU3Z4V3hHZUhDM2VjSHM?oc=5",
+      "source": "마켓인",
+      "pubDate": "2026-07-05T23:31:02+00:00",
+      "query": "HLB FDA"
+    },
+    {
       "title": "7월 바이오 빅 이벤트 줄줄이…HLB·코오롱티슈진·삼천당 촉각 - 서울경제TV",
-      "link": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE14emhVeEl3Mm5BeUo1d3NaU3c1WE9BQVVKZlFBeXB5QUg3V3Rmbk9oRzBIZGRjYkVaUlhLbTZXNUVuUUlsTy1LSDZtNkI3QzkyeU9VUkpFU3R2Q2lxbEhSZk5QQnM?oc=5",
+      "link": "https://news.google.com/rss/articles/CBMia0FVX3lxTE4yNUFrZUFCWWxINFlVcGtMVzZTUWZ3MUdITldjTE45TlM0ZzhILWRtS0VjUkMyVUYzVEpFRER3VFktYUNoZFpKVmNTYWN6VDRoa0Q3d2RkZXJSbld4Y1pPOVFia25MSEZDYUVZ?oc=5",
       "source": "서울경제TV",
       "pubDate": "2026-07-03T23:00:05+00:00",
-      "query": "HLB 신약"
+      "query": "HLB네트웍스"
     },
     {
       "title": "HLB이노베이션, 그룹 핵심 계열사 부상…오너가 전면 배치 - 데일리팜",
       "link": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE1CUE5xU0pXb25aM0V5TEV3NVZaU2dKM3o3b2plcGhuTDJnTENvdTk0aFp0OC1GTHJPMXZNRnJkbk54dEhZdnhrdjRWajB0UktEVHRYeV9B?oc=5",
       "source": "데일리팜",
-      "pubDate": "2026-07-03T11:45:17+00:00",
+      "pubDate": "2026-07-03T03:04:24+00:00",
       "query": "HLB이노베이션"
     },
     {
-      "title": "HLB 간암 신약 FDA 결과 임박···성장·신뢰회복 직결 - 더팩트",
-      "link": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE1BQmMwT3Q5c3ZIbDBHSVpybUhhQ3NaSFJsbWxDYnFOalRPSGRjZGlCV3ZCd2NPQ1ZNUkt2QWtYLVY1ckRvdGdsVVNKX3g3Z2xzOUVpTDMwa0JpUdIBVEFVX3lxTE9rRWFFMHRPeFNWTzRTY0trRndWUm1SYkpIMmV6bHdjZl84SEJHOFk0NTlnVjdTSFFkLTU0N3hNZHlSYTNaVFVWU3VJYnZMQjE5MDF5Vg?oc=5",
-      "source": "더팩트",
-      "pubDate": "2026-07-02T15:00:03+00:00",
-      "query": "HLB 신약"
+      "title": "HLB 자회사 이뮤노믹, 알레르기 백신 임상 착수 - 메디컬투데이",
+      "link": "https://news.google.com/rss/articles/CBMibEFVX3lxTFAxZU04QXBTUFJkSzIxamlhRS1ydjJSVWRHQ2xONXhPY09BYlRxNDI5MjBFbXN1TVRqR21hSHpVVWdyVWo0VWljZ1BQWGQycHlEekRRa0R3TG5NRi05SUVhSTNESXN3b1RyU1c5cg?oc=5",
+      "source": "메디컬투데이",
+      "pubDate": "2026-07-03T00:35:29+00:00",
+      "query": "HLB 임상"
     },
     {
       "title": "“억대 요트, 나눠 사고 관리까지 한 번에” 현대요트, 공동 소유 프로그램 출시 - 지이코노미",
@@ -50,15 +92,8 @@
       "query": "HLB테라퓨틱스"
     },
     {
-      "title": "‘FDA 3수’ HLB, 운명의 7월…진양곤 의장, 계열사 챙기며 ‘투트랙’ 행보 - 한국금융신문",
-      "link": "https://news.google.com/rss/articles/CBMifEFVX3lxTE4yLWFUd3NfVDY1OGJIOWRNdlF1RTVGMEtUcWNfaF84RnRqeXVqT3pTcHFxUXJ0UjlmVEpSOFMzTmg5Z2NNU2VLVUt6VVRic0ZVNVA5UzRGNERHVW1VRDVKa1lKYnNkRWxkY2kzZ2hvZ2JRUWhlVVo5ZFlfcUM?oc=5",
-      "source": "한국금융신문",
-      "pubDate": "2026-07-02T02:09:52+00:00",
-      "query": "HLB FDA"
-    },
-    {
       "title": "HLB그룹 경영진 계열사 지분 매수 행보…HLB바이오스텝 백성진 대표 주식 추가 매수 - v.daum.net",
-      "link": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE8yYzFMZVJ4aGYzQmxqYnA0azlsN21Wek0wRWlpdzVTSEVlRDU5eTBUSU8zZUJvVERabVk0WmE1c2VHeV9WZXB0ZTBEMThVTUE?oc=5",
+      "link": "https://news.google.com/rss/articles/CBMiS0FVX3lxTFBkWnN2dmVqd3AycFlhWlRDZTlqQmNrVTB0SFdLWWJEQWhSdGNfc2pWZlltdnprN0ZnLUM3eENDdXdUQzhFUGtvU2Fqaw?oc=5",
       "source": "v.daum.net",
       "pubDate": "2026-07-02T00:00:05+00:00",
       "query": "HLB바이오스텝"
@@ -78,20 +113,6 @@
       "query": "HLB이노베이션"
     },
     {
-      "title": "HLB생명과학 최대주주 에이치엘비, HLB생명과학 주식등의 수 9412주 증가…총 지분율 17.79% - 디지털투데이",
-      "link": "https://news.google.com/rss/articles/CBMic0FVX3lxTE82clk3aGoxWlNxUDktV3VZeHBPMmNQWWpPUzVfMTBIV2ZIYzloTkNxV0FITFNkeXlNeVVwTHp1T3F4WllfVzFvcVBHMUctMmNhaHpVcmpUNS1ZdkxqWHZYS282U0VMQXNPR1ZaX1V1WEhLVVU?oc=5",
-      "source": "디지털투데이",
-      "pubDate": "2026-07-01T05:02:01+00:00",
-      "query": "HLB생명과학"
-    },
-    {
-      "title": "HLB, 간암·담관암 신약 허가 눈앞…진양곤 연속 주식매수 - v.daum.net",
-      "link": "https://news.google.com/rss/articles/CBMiS0FVX3lxTE84aUIxbFFfQ0Q2YTQwRTRVYjJBQ0dQUnFWT012Yzk5SGc2TXdmNlJodExoVXFLamlCbkN2Y3RxSjYzSERYdUxxYkgwaw?oc=5",
-      "source": "v.daum.net",
-      "pubDate": "2026-06-30T22:03:02+00:00",
-      "query": "HLB 허가"
-    },
-    {
       "title": "[바이오 산책] HLB파나진, AOC 관련 특허 확보 전략 고도화 - 중소기업신문",
       "link": "https://news.google.com/rss/articles/CBMibEFVX3lxTFBEeVM5bGdzREdSMkdEZkFmb0VHTDBodFFQeUFkTThMSlR4V2RxVV9ocHJKaWJWUzdOdnpPTEx0Rkc5WUJxbWNuemJqckdRZHBCUTJJNG8yQUl5UVl5VU9nUHQzcnpPMGZMUEVFRw?oc=5",
       "source": "중소기업신문",
@@ -106,13 +127,6 @@
       "query": "HLB펩"
     },
     {
-      "title": "HLB파나진, AOC 핵심 특허 출원 및 정부 지원사업 선정 - 뉴스핌",
-      "link": "https://news.google.com/rss/articles/CBMiXEFVX3lxTFBlcF9VeGFKa3JWemhjaW1mcHphNElKaXg3US1DZmZrWl9sU1RDT21ENGtGSFFURXFLbl9rWmM0WnBQTUxXRlBPeUE0YUxHVEt3RUZWcFBxZmxTSW9E?oc=5",
-      "source": "뉴스핌",
-      "pubDate": "2026-06-30T00:13:00+00:00",
-      "query": "HLB파나진"
-    },
-    {
       "title": "HLB펩, 日펩티그로스와 CDMO 본계약 체결…기능성 펩타이드 글로벌 시장 공략 본격화 - v.daum.net",
       "link": "https://news.google.com/rss/articles/CBMiRkFVX3lxTFBLOXQ0dHlpelRXcldoaXNkNl82ZGFYdFhmYjhxY2EtODJoQ0RVbGxIVmx2RDRuWjdsa29uazJ4U0hZbFpPTHc?oc=5",
       "source": "v.daum.net",
@@ -125,15 +139,8 @@
       "source": "히트뉴스",
       "pubDate": "2026-06-29T23:44:13+00:00",
       "query": "HLB파나진"
-    },
-    {
-      "title": "HLB 진양곤 의장, HLB테라퓨틱스·HLB제넥스 주식 추가 매수 - 뉴스핌",
-      "link": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE5hdGlFZnpKc2txYnJNc1JzbkZMbFlIZlF0MFQzd2ZYWG9Ndm40bmw2b2Qwc0Y1a0tGbURoVWwyeS0zYzgyWmM4OV9abjNwa3F5MGVJaXR2YzNOU191?oc=5",
-      "source": "뉴스핌",
-      "pubDate": "2026-06-29T02:15:00+00:00",
-      "query": "HLB제넥스"
     }
   ],
-  "fetchedAt": "2026-07-05T22:37:17.030349+00:00",
-  "count": 19
+  "fetchedAt": "2026-07-06T13:01:42.672801+00:00",
+  "count": 20
 }
