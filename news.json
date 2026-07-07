@@ -1,6 +1,13 @@
 {
   "news": [
     {
+      "title": "글로벌 허가 시험대 K바이오…HLB·코오롱티슈진 주목 - 데일리메디",
+      "link": "https://news.google.com/rss/articles/CBMidEFVX3lxTE83c0owNG93MU4tWEN4NHdEYnVpOXhFdWRlTXp3Vm5KRUx0WWVVLUVjZk1QOHVkSXlqNVZYajAtUDZ2dG9kT0dnTzNZVDcyYzgtUlBqN1V1b3cycGwweGVvWFNydzdpZFJqNWFKYVdjNjNJZ2g2?oc=5",
+      "source": "데일리메디",
+      "pubDate": "2026-07-07T21:22:00+00:00",
+      "query": "HLB 허가"
+    },
+    {
       "title": "HLB이노베이션 최대주주 에이치엘비, HLB이노베이션 주식등의 수 5466주 감소…총 지분율 36.57% - 디지털투데이",
       "link": "https://news.google.com/rss/articles/CBMic0FVX3lxTE9wQ2pUREpQX3BrcURJZ245aVZFUXRzcnZsRUNHRkVfck1QN3B0dVU2TjVXQ2FQdVhtekY1M2h4alN1bE5PVWpRTWZrSm9GbzdIMzFvelFJSnFtZE00WkdoZW9LWjk5TzFNSGxBZ3ZucVN1MEU?oc=5",
       "source": "디지털투데이",
@@ -36,18 +43,11 @@
       "query": "오리지널아카이브"
     },
     {
-      "title": "HLB이노베이션, 진양곤 의장 대표 선임…반도체·바이오 성장 가속 - MSN",
-      "link": "https://news.google.com/rss/articles/CBMijANBVV95cUxPQmhrYTN6WFlPUm5tbVBRd3pTWmMxN25WTVdxUlRQelQ5bW9kY1BHaUNEV0hET3Rla1NtR01rSDJMcERzR2ZhYlM1eE5RUU1wdkczTWtDeHpSWDMxWFZZamlkNUQwRUh1RVRSSHA4RGVzaTZENnRzb3Q4U09TdGpQTjJlNXoxaUoyNjF4QXRCb2VaR3dpbVZKRTlzN201aEtyRnVrbEk1dHZRRGdwb1NhUlFVNzZoR2xON1FIQkxySzRicWM3cG1tWkRRQlYwXzhmNzdTVFREaG04bm5uVklUNVZXSXBiNzgySExvdVhrY3dqSmxUUzFDdmZsekZKWmduZGlSMUp1T1FhdmlIdlJhZlkySVNpaGJ0M05mLTYtMFRXakxyQXZGYkdRMWJXREtzQUdyelc0eFMxczhQRTVaaE5nd21zcG1VRUY2aFVZVko2Wk52UW1OZ2VqTlJPZkJqdHBfZElPRUt3SDNTU0wyaWVJckNxNHRucTFRVEpuMUQ0SC1HNXIxZEZhQUI?oc=5",
-      "source": "MSN",
-      "pubDate": "2026-07-06T21:46:34+00:00",
-      "query": "HLB이노베이션"
-    },
-    {
       "title": "HLB생명과학R&D, 상반기 5건 국책과제 선정 - 데일리팜",
       "link": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE15dkVPOFJwbGdPT2VjTTZ0TVVTVkJqLWFKdHFLWEFMVWtzZHVNRGtGdWdiUWFiUXlicXR5bDhneW5HMTZqNlFjYUQyZmhsQjFuaWlPWnBn?oc=5",
       "source": "데일리팜",
       "pubDate": "2026-07-06T14:55:33+00:00",
-      "query": "HLB생명과학"
+      "query": "HLB 신약"
     },
     {
       "title": "HLB생명과학R&D, 차세대 헴프 신약개발 시동 外 - 톱데일리",
@@ -125,8 +125,15 @@
       "source": "v.daum.net",
       "pubDate": "2026-07-02T00:00:05+00:00",
       "query": "HLB바이오스텝"
+    },
+    {
+      "title": "진양곤 HLB그룹 의장, HLB이노베이션 대표이사 선임 - 약사공론",
+      "link": "https://news.google.com/rss/articles/CBMibEFVX3lxTE5PNUJGVHdmTHNzVG5QckZza2dtOU1VQjZGQVlYbmY5LUxNR0QwSUJTa3V2b0dXTjN5RDNldnZhQnlXa3lGVWIwT01UN0hDREh3X0gxdk85UlRtVXRBaGRsMnYzSGhUQ045WC1FbQ?oc=5",
+      "source": "약사공론",
+      "pubDate": "2026-07-01T09:02:12+00:00",
+      "query": "HLB이노베이션"
     }
   ],
-  "fetchedAt": "2026-07-07T18:28:37.709579+00:00",
-  "count": 18
+  "fetchedAt": "2026-07-07T22:41:42.275898+00:00",
+  "count": 19
 }
