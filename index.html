@@ -668,7 +668,7 @@ tbody tr:hover td{background:#F7F9FF;}
       </div>
       <div class="card">
         <div class="chdr"><div><div class="ctit">전체 계열사 경영실적</div><div class="csub" id="perfWeekSub">누계 기준 · 단위: 백만원</div></div><div style="display:flex;gap:8px"><button class="btn btnsm" style="background:#4A5568;color:#fff;border:none" onclick="printPerf()">🖨️ 인쇄</button><button class="btn btng btnsm" onclick="showP('performance',null)">상세 보기 →</button></div></div>
-        <div class="tw"><table><thead><tr><th>계열사</th><th class="tdr mob-hide2">25년 실적</th><th class="tdr mob-hide2">26년 목표</th><th class="tdr week-label-col">누계</th><th class="tdr mob-hide2">금주 실적</th><th style="min-width:80px">달성률</th></tr></thead><tbody id="dashPerf"></tbody></table></div>
+        <div class="tw"><table><thead><tr><th>계열사</th><th class="tdr">25년 실적</th><th class="tdr">26년 목표</th><th class="tdr week-label-col">누계</th><th class="tdr mob-hide2">금주 실적</th><th style="min-width:80px">달성률</th></tr></thead><tbody id="dashPerf"></tbody></table></div>
       </div>
 
       <!-- 주간 뉴스 -->
@@ -770,7 +770,7 @@ tbody tr:hover td{background:#F7F9FF;}
         <div class="itab" id="tabPerfCore" onclick="swIT(this,'perf','core')">핵심기업 (6)</div>
         <div class="itab" id="tabPerfVenture" onclick="swIT(this,'perf','venture')">벤처기업 (13)</div>
       </div>
-      <div class="card"><div class="tw"><table><thead><tr><th>계열사</th><th class="tdr mob-hide2">25년 실적</th><th class="tdr mob-hide2">26년 목표</th><th class="tdr week-label-col">누계</th><th class="tdr mob-hide2">금주 실적</th><th style="min-width:80px">목표 달성률</th><th></th></tr></thead><tbody id="perfBody"></tbody></table></div></div>
+      <div class="card"><div class="tw"><table><thead><tr><th>계열사</th><th class="tdr">25년 실적</th><th class="tdr">26년 목표</th><th class="tdr week-label-col">누계</th><th class="tdr mob-hide2">금주 실적</th><th style="min-width:80px">목표 달성률</th><th></th></tr></thead><tbody id="perfBody"></tbody></table></div></div>
     </div>
 
     <!-- OVERSEAS -->
@@ -1960,12 +1960,12 @@ function pRow(d,se){
   var pc=d.r===null?'':d.r>=.5?'var(--gn)':d.r>=.3?'#B7791F':'var(--rd)';
   var idx=PD.indexOf(d);
   var pb=d.r!==null?'<div class="pbw"><div class="pbt mob-hide2"><div class="pbf '+bc+'" style="width:'+bp+'%"></div></div><span class="ppp" style="color:'+pc+'">'+pct+'</span></div>':'<span style="color:var(--t4)">-</span>';
-  return '<tr><td><strong>'+d.n+'</strong></td><td class="tdr num mob-hide2">'+(d.p>0?d.p.toLocaleString():'-')+'</td><td class="tdr num mob-hide2">'+(d.g>0?d.g.toLocaleString():'-')+'</td><td class="tdr num"><strong>'+d.a.toLocaleString()+'</strong></td><td class="tdr num mob-hide2">'+(d.wa>0?d.wa.toLocaleString():'-')+'</td><td>'+pb+'</td>'+(se?'<td><button class="btn btng btnsm" onclick="qEdit('+idx+')" style="font-size:11px;padding:2px 8px">수정</button></td>':'')+'</tr>';
+  return '<tr><td><strong>'+d.n+'</strong></td><td class="tdr num">'+(d.p>0?d.p.toLocaleString():'-')+'</td><td class="tdr num">'+(d.g>0?d.g.toLocaleString():'-')+'</td><td class="tdr num"><strong>'+d.a.toLocaleString()+'</strong></td><td class="tdr num mob-hide2">'+(d.wa>0?d.wa.toLocaleString():'-')+'</td><td>'+pb+'</td>'+(se?'<td><button class="btn btng btnsm" onclick="qEdit('+idx+')" style="font-size:11px;padding:2px 8px">수정</button></td>':'')+'</tr>';
 }
 function totRow(data,cols){
   var tP=0,tG=0,tA=0,tW=0,i;for(i=0;i<data.length;i++){tP+=data[i].p;tG+=data[i].g;tA+=data[i].a;tW+=(data[i].wa||0);}
   var tR=tG>0?(tA/tG*100).toFixed(1):'-';
-  return '<tr class="str"><td>합 계</td><td class="tdr num mob-hide2">'+tP.toLocaleString()+'</td><td class="tdr num mob-hide2">'+tG.toLocaleString()+'</td><td class="tdr num">'+tA.toLocaleString()+'</td><td class="tdr num mob-hide2">'+(tW>0?tW.toLocaleString():'-')+'</td><td><div class="pbw"><div class="pbt mob-hide2"><div class="pbf pbb" style="width:'+Math.min(parseFloat(tR)||0,100)+'%"></div></div><span class="ppp" style="color:var(--bl)">'+tR+'%</span></div></td>'+(cols>5?'<td></td>':'')+'</tr>';
+  return '<tr class="str"><td>합 계</td><td class="tdr num">'+tP.toLocaleString()+'</td><td class="tdr num">'+tG.toLocaleString()+'</td><td class="tdr num">'+tA.toLocaleString()+'</td><td class="tdr num mob-hide2">'+(tW>0?tW.toLocaleString():'-')+'</td><td><div class="pbw"><div class="pbt mob-hide2"><div class="pbf pbb" style="width:'+Math.min(parseFloat(tR)||0,100)+'%"></div></div><span class="ppp" style="color:var(--bl)">'+tR+'%</span></div></td>'+(cols>5?'<td></td>':'')+'</tr>';
 }
 function rDP(){
   /* tA = 전체 계열사 누계실적 합계 (표시 + 달성률 계산 공통)
