@@ -279,12 +279,14 @@ tbody tr:hover td{background:#F7F9FF;}
   .tile{min-height:110px;padding:14px;}.tv{font-size:24px;}
   .crow{grid-template-columns:1fr;}.carea{height:180px;}
   .tw{width:100%;max-width:100%;overflow-x:auto;-webkit-overflow-scrolling:touch;}
-  table{min-width:480px;}
-  thead th{padding:8px 8px;font-size:11px;}
-  tbody td{padding:8px 8px;font-size:12px;}
-  .pbw{min-width:80px;}
+  table{min-width:unset;width:100%;}
+  thead th{padding:8px 6px;font-size:11px;}
+  tbody td{padding:8px 6px;font-size:12px;}
+  .pbw{min-width:60px;}
   .ppp{font-size:12px;min-width:36px;}
-  th[style*="min-width"]{min-width:110px!important;}
+  th[style*="min-width"]{min-width:60px!important;}
+  .mob-hide2{display:none;}
+  .pbt{display:none;}   /* 달성률 바 숨김, 숫자만 표시 */
   body{overflow-x:hidden;}
   .pgt{font-size:18px;}.pgs{font-size:13px;}
   .pghdr{flex-direction:column;align-items:flex-start;gap:6px;}
@@ -307,7 +309,9 @@ tbody tr:hover td{background:#F7F9FF;}
   .dash-hero-stat:nth-child(3n){border-right:none;}
 }
 @media(max-width:400px){
-  .sstrip{grid-template-columns:1fr;}.trow{grid-template-columns:1fr;}.libgrid{grid-template-columns:1fr;}
+  .sstrip{grid-template-columns:1fr;}.libgrid{grid-template-columns:1fr;}
+  .tile{min-height:90px;padding:10px 10px 10px;}.tv{font-size:19px;}.tunit{font-size:11px;}.tsub{font-size:11px;}.thdr .tlbl{font-size:11px;}
+  .tile-badge{font-size:10px;padding:2px 6px;}
 }
 
 /* ── 경영진 대시보드 개선 v7 ── */
@@ -664,7 +668,7 @@ tbody tr:hover td{background:#F7F9FF;}
       </div>
       <div class="card">
         <div class="chdr"><div><div class="ctit">전체 계열사 경영실적</div><div class="csub" id="perfWeekSub">누계 기준 · 단위: 백만원</div></div><div style="display:flex;gap:8px"><button class="btn btnsm" style="background:#4A5568;color:#fff;border:none" onclick="printPerf()">🖨️ 인쇄</button><button class="btn btng btnsm" onclick="showP('performance',null)">상세 보기 →</button></div></div>
-        <div class="tw"><table><thead><tr><th>계열사</th><th class="tdr">25년 실적</th><th class="tdr">26년 목표</th><th class="tdr week-label-col">누계</th><th class="tdr">금주 실적</th><th style="min-width:180px">달성률</th><th style="min-width:80px;text-align:center">월별추이</th></tr></thead><tbody id="dashPerf"></tbody></table></div>
+        <div class="tw"><table><thead><tr><th>계열사</th><th class="tdr mob-hide2">25년 실적</th><th class="tdr mob-hide2">26년 목표</th><th class="tdr week-label-col">누계</th><th class="tdr mob-hide2">금주 실적</th><th style="min-width:80px">달성률</th></tr></thead><tbody id="dashPerf"></tbody></table></div>
       </div>
 
       <!-- 주간 뉴스 -->
@@ -766,7 +770,7 @@ tbody tr:hover td{background:#F7F9FF;}
         <div class="itab" id="tabPerfCore" onclick="swIT(this,'perf','core')">핵심기업 (6)</div>
         <div class="itab" id="tabPerfVenture" onclick="swIT(this,'perf','venture')">벤처기업 (13)</div>
       </div>
-      <div class="card"><div class="tw"><table><thead><tr><th>계열사</th><th class="tdr">25년 실적</th><th class="tdr">26년 목표</th><th class="tdr week-label-col">누계</th><th class="tdr">금주 실적</th><th style="min-width:190px">목표 달성률</th><th></th></tr></thead><tbody id="perfBody"></tbody></table></div></div>
+      <div class="card"><div class="tw"><table><thead><tr><th>계열사</th><th class="tdr mob-hide2">25년 실적</th><th class="tdr mob-hide2">26년 목표</th><th class="tdr week-label-col">누계</th><th class="tdr mob-hide2">금주 실적</th><th style="min-width:80px">목표 달성률</th><th></th></tr></thead><tbody id="perfBody"></tbody></table></div></div>
     </div>
 
     <!-- OVERSEAS -->
@@ -1955,14 +1959,13 @@ function pRow(d,se){
   var bc=d.r===null?'':d.r>=.5?'pbg':d.r>=.3?'pba':'pbr';
   var pc=d.r===null?'':d.r>=.5?'var(--gn)':d.r>=.3?'#B7791F':'var(--rd)';
   var idx=PD.indexOf(d);
-  var pb=d.r!==null?'<div class="pbw"><div class="pbt"><div class="pbf '+bc+'" style="width:'+bp+'%"></div></div><span class="ppp" style="color:'+pc+'">'+pct+'</span></div>':'<span style="color:var(--t4)">-</span>';
-  var spark=se?'':mkSparkline(d,76,26);
-  return '<tr><td><strong>'+d.n+'</strong></td><td class="tdr num">'+(d.p>0?d.p.toLocaleString():'-')+'</td><td class="tdr num">'+(d.g>0?d.g.toLocaleString():'-')+'</td><td class="tdr num"><strong>'+d.a.toLocaleString()+'</strong></td><td class="tdr num">'+(d.wa>0?d.wa.toLocaleString():'-')+'</td><td>'+pb+'</td>'+spark+(se?'<td><button class="btn btng btnsm" onclick="qEdit('+idx+')" style="font-size:11px;padding:2px 8px">수정</button></td>':'')+'</tr>';
+  var pb=d.r!==null?'<div class="pbw"><div class="pbt mob-hide2"><div class="pbf '+bc+'" style="width:'+bp+'%"></div></div><span class="ppp" style="color:'+pc+'">'+pct+'</span></div>':'<span style="color:var(--t4)">-</span>';
+  return '<tr><td><strong>'+d.n+'</strong></td><td class="tdr num mob-hide2">'+(d.p>0?d.p.toLocaleString():'-')+'</td><td class="tdr num mob-hide2">'+(d.g>0?d.g.toLocaleString():'-')+'</td><td class="tdr num"><strong>'+d.a.toLocaleString()+'</strong></td><td class="tdr num mob-hide2">'+(d.wa>0?d.wa.toLocaleString():'-')+'</td><td>'+pb+'</td>'+(se?'<td><button class="btn btng btnsm" onclick="qEdit('+idx+')" style="font-size:11px;padding:2px 8px">수정</button></td>':'')+'</tr>';
 }
 function totRow(data,cols){
   var tP=0,tG=0,tA=0,tW=0,i;for(i=0;i<data.length;i++){tP+=data[i].p;tG+=data[i].g;tA+=data[i].a;tW+=(data[i].wa||0);}
   var tR=tG>0?(tA/tG*100).toFixed(1):'-';
-  return '<tr class="str"><td>합 계</td><td class="tdr num">'+tP.toLocaleString()+'</td><td class="tdr num">'+tG.toLocaleString()+'</td><td class="tdr num">'+tA.toLocaleString()+'</td><td class="tdr num">'+(tW>0?tW.toLocaleString():'-')+'</td><td><div class="pbw"><div class="pbt"><div class="pbf pbb" style="width:'+Math.min(parseFloat(tR)||0,100)+'%"></div></div><span class="ppp" style="color:var(--bl)">'+tR+'%</span></div></td><td></td>'+(cols>6?'<td></td>':'')+'</tr>';
+  return '<tr class="str"><td>합 계</td><td class="tdr num mob-hide2">'+tP.toLocaleString()+'</td><td class="tdr num mob-hide2">'+tG.toLocaleString()+'</td><td class="tdr num">'+tA.toLocaleString()+'</td><td class="tdr num mob-hide2">'+(tW>0?tW.toLocaleString():'-')+'</td><td><div class="pbw"><div class="pbt mob-hide2"><div class="pbf pbb" style="width:'+Math.min(parseFloat(tR)||0,100)+'%"></div></div><span class="ppp" style="color:var(--bl)">'+tR+'%</span></div></td>'+(cols>5?'<td></td>':'')+'</tr>';
 }
 function rDP(){
   /* tA = 전체 계열사 누계실적 합계 (표시 + 달성률 계산 공통)
@@ -1971,7 +1974,7 @@ function rDP(){
   var h='',lc='',i,tG=0,tA=0,tW=0,above=0,danger=0;
   for(i=0;i<PD.length;i++){
     var d=PD[i];
-    if(d.c!==lc){h+='<tr class="ghdr"><td colspan="7">'+d.c+'</td></tr>';lc=d.c;}
+    if(d.c!==lc){h+='<tr class="ghdr"><td colspan="6">'+d.c+'</td></tr>';lc=d.c;}
     h+=pRow(d,false);
     tA+=d.a;            /* 전체 누계 */
     if(d.g>0)tG+=d.g;  /* 목표 합계 */
@@ -1979,7 +1982,7 @@ function rDP(){
     if(d.r!==null&&d.r>=0.5)above++;
     if(d.r!==null&&d.r<0.25&&d.g>0)danger++;
   }
-  h+=totRow(PD,6);document.getElementById('dashPerf').innerHTML=h;
+  h+=totRow(PD,5);document.getElementById('dashPerf').innerHTML=h;
   /* 히어로 업데이트 — totRow와 동일 계산식 */
   var gr=tG>0?tA/tG:0;
   var grPct=(gr*100).toFixed(1);
@@ -3232,8 +3235,8 @@ function updateDashWeekly(){
   var elMo=document.getElementById('dashMoVal');
   var elWkNote=document.getElementById('dashWkNote');
   var elMoNote=document.getElementById('dashMoNote');
-  if(elWk)elWk.textContent=wkTotal>0?(wkTotal/100).toFixed(0):'-';
-  if(elMo)elMo.textContent=moTotal>0?(moTotal/100).toFixed(0):'-';
+  if(elWk&&wkTotal>0)elWk.textContent=(wkTotal/100).toFixed(0);
+  if(elMo&&moTotal>0)elMo.textContent=(moTotal/100).toFixed(0);
   if(elWkNote&&S.lastWeek)elWkNote.textContent=S.lastWeek.label;
   if(elMoNote&&S.lastWeek)elMoNote.textContent=S.lastWeek.month+'월 누적';
 
