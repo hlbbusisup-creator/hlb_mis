@@ -2,7 +2,7 @@
 """
 HLB그룹 주간 뉴스 수집 스크립트
 Google News RSS → news.json 저장
-GitHub Actions에서 2시간마다 자동 실행
+GitHub Actions에서 20분마다 자동 실행
 """
 
 import json
@@ -26,17 +26,30 @@ QUERIES = [
     '헤일로유니버스', '오리지널아카이브'
 ]
 
-# ── 주식/분석 기사 필터 키워드 ──────────────────────────────────
-STOCK_KW = [
+# ── 필터 키워드 (주식/분석/비사업) ─────────────────────────────
+FILTER_KW = [
+    # 주식/투자 관련
     '주가', '추가매수', '장내매수', '자사주', '목표주가', '투자의견',
     '상장폐지', '공매도', '보통주', '우선주', '지분취득', '주식취득',
     '상한가', '하한가', '매수세', '매도세', '시가총액',
     '투자분석', '시황레이더', '주달', 'VI 발동', '투자심리',
-    '거래량 확대', '수급', '기관매수', '외인매수', '공시', '보고서'
+    '거래량 확대', '수급', '기관매수', '외인매수', '공시', '보고서',
+    # 날씨/비사업 관련
+    '열대야', '폭염', '한파', '태풍', '호우', '폭설', '강풍',
+    '주의보', '경보', '기상청', '날씨', '강수', '지진',
 ]
 
-def is_stock_article(title):
-    return any(kw in title for kw in STOCK_KW)
+def is_filtered_article(title):
+    return any(kw in title for kw in FILTER_KW)
+
+def is_query_relevant(title, query):
+    """쿼리 키워드가 기사 제목에 하나라도 포함되어 있는지 확인
+    → Google News가 무관한 기사를 반환할 때 걸러냄"""
+    words = re.findall(r'[가-힣A-Za-z]{2,}', query)
+    for w in words:
+        if w in title:
+            return True
+    return False
 
 def clean_title(title):
     """HTML 엔티티 및 태그 제거"""
@@ -60,11 +73,11 @@ def title_words(title):
     return re.findall(r'[가-힣A-Za-z0-9]{2,}', title)
 
 def is_duplicate(new_title, kept):
-    """기존 기사들과 핵심 단어 4개 이상 겹치면 중복"""
+    """기존 기사들과 핵심 단어 3개 이상 겹치면 중복 (4→3으로 강화)"""
     words = set(title_words(new_title))
     for k in kept:
         shared = words & set(title_words(k['title']))
-        if len(shared) >= 4:
+        if len(shared) >= 3:
             return True
     return False
 
@@ -115,18 +128,24 @@ def main():
 
     for query in QUERIES:
         items = fetch_google_rss(query)
+        kept_cnt = 0
         for item in items:
             t = item['title']
             if t in seen_titles:
                 continue
+            # 쿼리 키워드가 제목에 없으면 무관한 기사로 제외
+            if not is_query_relevant(t, query):
+                print(f'  [{query}] 무관 기사 제외: {t[:40]}')
+                continue
             seen_titles.add(t)
             all_news.append(item)
-        print(f'  [{query}] {len(items)}건')
+            kept_cnt += 1
+        print(f'  [{query}] {len(items)}건 수집 / {kept_cnt}건 채택')
 
     print(f'수집 총 {len(all_news)}건')
 
-    # ── 주식/분석 기사 필터 ──
-    all_news = [n for n in all_news if not is_stock_article(n['title'])]
+    # ── 주식/분석/날씨 기사 필터 ──
+    all_news = [n for n in all_news if not is_filtered_article(n['title'])]
     print(f'필터 후 {len(all_news)}건')
 
     # ── 7일 이내 기사만 ──
@@ -137,7 +156,7 @@ def main():
     # ── 최신순 정렬 ──
     all_news.sort(key=lambda x: x['pubDate'] or datetime.min.replace(tzinfo=timezone.utc), reverse=True)
 
-    # ── 스마트 중복 제거 ──
+    # ── 스마트 중복 제거 (임계값 3으로 강화) ──
     kept = []
     for n in all_news:
         if not is_duplicate(n['title'], kept):
