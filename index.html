@@ -2356,18 +2356,20 @@ function switchSankey(type, btn) {
 function renderSankey(type) {
   var el = document.getElementById('sankeySvg');
   if (!el || !PD || !PD.length) return;
-  if (typeof d3Sankey === 'undefined') { /* CDN 미로드 시 조용히 종료 */ return; }
+  if (typeof d3 === 'undefined' || typeof d3.sankey === 'undefined') { console.warn('d3-sankey 미로드'); return; }
   d3.select(el).selectAll('*').remove();
   var W = el.getBoundingClientRect().width;
   if (!W || W < 100) W = 640;
-  var H = 380;
+  var H = W > 500 ? 380 : 260;
+  el.style.height = H + 'px';
   if (type === 'revenue') _skRevenue(el, W, H);
   else _skAchieve(el, W, H);
 }
 
 function _skRevenue(el, W, H) {
   var CAT_COLOR = {'상장기업':'#1F6FBF','핵심기업':'#B7791F','벤처기업':'#C53030'};
-  var TOP = 5; /* 카테고리당 상위 표시 수 */
+  var isMobile = W < 500;
+  var TOP = 5; /* 카테고리당 상위 표시 수 (PC) */
 
   /* 카테고리별 분류 */
   var catMap = {};
@@ -2385,29 +2387,33 @@ function _skRevenue(el, W, H) {
 
   catOrder.forEach(function(cat) {
     addN({id:cat, name:cat, level:1, color: CAT_COLOR[cat]||'#888'});
-    var cos = catMap[cat].slice().sort(function(a,b){return b.value-a.value;});
-    cos.slice(0, TOP).forEach(function(c) {
-      addN({id:c.name+'_'+cat, name:c.name, level:2, color:CAT_COLOR[cat]||'#888', cat:cat, val:c.value});
-    });
-    var rest = cos.slice(TOP);
-    if (rest.length > 0) {
-      var rv = rest.reduce(function(s,c){return s+c.value;},0);
-      if (rv > 0) addN({id:'기타_'+cat, name:'기타 '+rest.length+'사', level:2, color:'#aaa', cat:cat, isOther:true, val:rv});
+    if (!isMobile) {
+      var cos = catMap[cat].slice().sort(function(a,b){return b.value-a.value;});
+      cos.slice(0, TOP).forEach(function(c) {
+        addN({id:c.name+'_'+cat, name:c.name, level:2, color:CAT_COLOR[cat]||'#888', cat:cat, val:c.value});
+      });
+      var rest = cos.slice(TOP);
+      if (rest.length > 0) {
+        var rv = rest.reduce(function(s,c){return s+c.value;},0);
+        if (rv > 0) addN({id:'기타_'+cat, name:'기타 '+rest.length+'사', level:2, color:'#aaa', cat:cat, isOther:true, val:rv});
+      }
     }
   });
 
   catOrder.forEach(function(cat) {
     var catTot = catMap[cat].reduce(function(s,c){return s+c.value;},0);
     if (catTot > 0) linkList.push({source:nodeIdx['root'], target:nodeIdx[cat], value:catTot});
-    var cos = catMap[cat].slice().sort(function(a,b){return b.value-a.value;});
-    cos.slice(0, TOP).forEach(function(c) {
-      if (c.value > 0) linkList.push({source:nodeIdx[cat], target:nodeIdx[c.name+'_'+cat], value:c.value});
-    });
-    var rest = cos.slice(TOP);
-    if (rest.length > 0) {
-      var rv = rest.reduce(function(s,c){return s+c.value;},0);
-      if (rv > 0 && nodeIdx['기타_'+cat] !== undefined)
-        linkList.push({source:nodeIdx[cat], target:nodeIdx['기타_'+cat], value:rv});
+    if (!isMobile) {
+      var cos = catMap[cat].slice().sort(function(a,b){return b.value-a.value;});
+      cos.slice(0, TOP).forEach(function(c) {
+        if (c.value > 0) linkList.push({source:nodeIdx[cat], target:nodeIdx[c.name+'_'+cat], value:c.value});
+      });
+      var rest = cos.slice(TOP);
+      if (rest.length > 0) {
+        var rv = rest.reduce(function(s,c){return s+c.value;},0);
+        if (rv > 0 && nodeIdx['기타_'+cat] !== undefined)
+          linkList.push({source:nodeIdx[cat], target:nodeIdx['기타_'+cat], value:rv});
+      }
     }
   });
 
@@ -2427,11 +2433,13 @@ function _skRevenue(el, W, H) {
 }
 
 function _skAchieve(el, W, H) {
+  var isMobile = W < 500;
+  /* 모바일에서는 짧은 그룹명 사용 (레이블 공간 절약) */
   var GROUPS = [
-    {id:'g50p',  name:'50%↑ 달성권',   color:'#2D7D46', test:function(d){return d.r!==null&&d.r>=0.5;}},
-    {id:'g2550', name:'25~50% 관리중', color:'#B7791F', test:function(d){return d.r!==null&&d.r>=0.25&&d.r<0.5;}},
-    {id:'g25m',  name:'25%↓ 위험',     color:'#C53030', test:function(d){return d.r!==null&&d.r<0.25&&d.g>0;}},
-    {id:'gnone', name:'목표미설정',     color:'#aaa',    test:function(d){return !d.g||d.r===null;}}
+    {id:'g50p',  name: isMobile ? '달성권'  : '50%↑ 달성권',   color:'#2D7D46', test:function(d){return d.r!==null&&d.r>=0.5;}},
+    {id:'g2550', name: isMobile ? '관리중'  : '25~50% 관리중', color:'#B7791F', test:function(d){return d.r!==null&&d.r>=0.25&&d.r<0.5;}},
+    {id:'g25m',  name: isMobile ? '위험'    : '25%↓ 위험',     color:'#C53030', test:function(d){return d.r!==null&&d.r<0.25&&d.g>0;}},
+    {id:'gnone', name: isMobile ? '미설정'  : '목표미설정',     color:'#aaa',    test:function(d){return !d.g||d.r===null;}}
   ];
 
   var nodeList = [{id:'root', name:'전체\n계열사', level:0, color:'#1a1a2e'}];
@@ -2447,12 +2455,14 @@ function _skAchieve(el, W, H) {
     nodeList.push({id:g.id, name:g.name+' ('+members.length+'사)', level:1, color:g.color});
     linkList.push({source:0, target:gi, value:gTot});
 
-    members.forEach(function(d) {
-      var ci = nodeList.length;
-      var lbl = d.n+(d.r!==null?' '+(d.r*100).toFixed(0)+'%':'');
-      nodeList.push({id:'co_'+d.n, name:lbl, level:2, color:g.color});
-      linkList.push({source:gi, target:ci, value:Math.max(d.a, 500)});
-    });
+    if (!isMobile) {
+      members.forEach(function(d) {
+        var ci = nodeList.length;
+        var lbl = d.n+(d.r!==null?' '+(d.r*100).toFixed(0)+'%':'');
+        nodeList.push({id:'co_'+d.n, name:lbl, level:2, color:g.color});
+        linkList.push({source:gi, target:ci, value:Math.max(d.a, 500)});
+      });
+    }
   });
 
   _skDraw(el, W, H, nodeList, linkList, function(d) { return d.name; });
@@ -2464,9 +2474,9 @@ function _skAchieve(el, W, H) {
 }
 
 function _skDraw(el, W, H, nodeList, linkList, labelFn) {
-  var pad   = W > 500 ? 80 : 50;
-  var padR  = W > 500 ? 150 : 110;
-  var sankeyLayout = d3Sankey.sankey()
+  var pad   = W > 500 ? 80 : 105;  /* 모바일: 루트 레이블("HLB그룹 XXXX억") 공간 확보 */
+  var padR  = W > 500 ? 150 : 130; /* 모바일: 카테고리/그룹 레이블 공간 확보 */
+  var sankeyLayout = d3.sankey()
     .nodeWidth(14)
     .nodePadding(W > 500 ? 6 : 4)
     .extent([[pad, 14], [W - padR, H - 14]]);
@@ -2485,7 +2495,7 @@ function _skDraw(el, W, H, nodeList, linkList, labelFn) {
   s.append('g').selectAll('path')
     .data(graph.links)
     .join('path')
-    .attr('d', d3Sankey.sankeyLinkHorizontal())
+    .attr('d', d3.sankeyLinkHorizontal())
     .attr('fill', 'none')
     .attr('stroke', function(d){ return d.target.color || d.source.color || '#ccc'; })
     .attr('stroke-width', function(d){ return Math.max(1, d.width); })
