@@ -10,6 +10,7 @@
 <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/4.4.1/chart.umd.min.js"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/d3/7.8.5/d3.min.js"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/topojson/3.0.2/topojson.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/d3-sankey@0.12.3/dist/d3-sankey.min.js"></script>
 <style>
 :root{
   --sh:#1A1A1A;--cp:#C17A3A;--cpd:#A0622A;--cpl:#F5E6D3;
@@ -666,6 +667,19 @@ tbody tr:hover td{background:#F7F9FF;}
           <div class="carea"><canvas id="cDB"></canvas></div>
         </div>
       </div>
+      <!-- 샌키 다이어그램 카드 -->
+      <div class="card" id="sankeyCard">
+        <div class="chdr">
+          <div><div class="ctit">그룹 경영 흐름 분석</div><div class="csub">매출·달성 흐름도 · D3 Sankey</div></div>
+          <div style="display:flex;gap:6px">
+            <button id="skTab1" onclick="switchSankey('revenue',this)" style="padding:4px 12px;border:none;border-radius:4px;font-size:12px;cursor:pointer;background:var(--bl);color:#fff;font-family:inherit;font-weight:600">📊 매출 흐름</button>
+            <button id="skTab2" onclick="switchSankey('achieve',this)" style="padding:4px 12px;border:1px solid var(--bd);border-radius:4px;font-size:12px;cursor:pointer;background:#fff;color:var(--t2);font-family:inherit">🎯 달성 현황</button>
+          </div>
+        </div>
+        <svg id="sankeySvg" style="width:100%;height:380px;display:block;overflow:visible"></svg>
+        <div id="sankeyLegend" style="display:flex;gap:14px;flex-wrap:wrap;margin-top:6px;font-size:11px;color:var(--t3);padding:0 4px"></div>
+      </div>
+
       <div class="card">
         <div class="chdr"><div><div class="ctit">전체 계열사 경영실적</div><div class="csub" id="perfWeekSub">누계 기준 · 단위: 백만원</div></div><div style="display:flex;gap:8px"><button class="btn btnsm" style="background:#4A5568;color:#fff;border:none" onclick="printPerf()">🖨️ 인쇄</button><button class="btn btng btnsm" onclick="showP('performance',null)">상세 보기 →</button></div></div>
         <div class="tw"><table><thead><tr><th>계열사</th><th class="tdr">25년 실적</th><th class="tdr">26년 목표</th><th class="tdr week-label-col">누계</th><th class="tdr mob-hide2">금주 실적</th><th style="min-width:80px">달성률</th></tr></thead><tbody id="dashPerf"></tbody></table></div>
@@ -2046,6 +2060,8 @@ function rDP(){
   if(elTRT&&tG>0)elTRT.textContent='연간목표 '+Math.round(tG/100).toLocaleString()+'억';
   renderWarn();
   renderHomeTrend();
+  /* 샌키: DOM 렌더 완료 후 크기 확정되면 그리기 */
+  setTimeout(function(){ renderSankey(_skType); }, 100);
 }
 function renderAbove(){
   var chips='',cnt=0,i;
@@ -2315,6 +2331,195 @@ function rBiz(f){
 
 function bCharts(){bDC();bPC('all');bOC();renderHomeTrend();}
 function dc(id){if(_ch[id]){_ch[id].destroy();delete _ch[id];}}
+
+/* ════════════════════════════════════════════════════════════
+   샌키 다이어그램 — ① 매출 흐름  ② 달성 현황
+   d3-sankey@0.12.3 (d3Sankey 전역 객체)
+   ════════════════════════════════════════════════════════════ */
+var _skType = 'revenue';
+
+function switchSankey(type, btn) {
+  _skType = type;
+  var t1 = document.getElementById('skTab1');
+  var t2 = document.getElementById('skTab2');
+  if (t1 && t2) {
+    t1.style.background = type === 'revenue' ? 'var(--bl)' : '#fff';
+    t1.style.color      = type === 'revenue' ? '#fff' : 'var(--t2)';
+    t1.style.border     = type === 'revenue' ? 'none' : '1px solid var(--bd)';
+    t2.style.background = type === 'achieve' ? 'var(--bl)' : '#fff';
+    t2.style.color      = type === 'achieve' ? '#fff' : 'var(--t2)';
+    t2.style.border     = type === 'achieve' ? 'none' : '1px solid var(--bd)';
+  }
+  renderSankey(type);
+}
+
+function renderSankey(type) {
+  var el = document.getElementById('sankeySvg');
+  if (!el || !PD || !PD.length) return;
+  if (typeof d3Sankey === 'undefined') { /* CDN 미로드 시 조용히 종료 */ return; }
+  d3.select(el).selectAll('*').remove();
+  var W = el.getBoundingClientRect().width;
+  if (!W || W < 100) W = 640;
+  var H = 380;
+  if (type === 'revenue') _skRevenue(el, W, H);
+  else _skAchieve(el, W, H);
+}
+
+function _skRevenue(el, W, H) {
+  var CAT_COLOR = {'상장기업':'#1F6FBF','핵심기업':'#B7791F','벤처기업':'#C53030'};
+  var TOP = 5; /* 카테고리당 상위 표시 수 */
+
+  /* 카테고리별 분류 */
+  var catMap = {};
+  var catOrder = [];
+  PD.forEach(function(d) {
+    if (!catMap[d.c]) { catMap[d.c] = []; catOrder.push(d.c); }
+    catMap[d.c].push({name: d.n, value: d.a});
+  });
+
+  var nodeList = [], linkList = [], nodeIdx = {};
+
+  function addN(obj) { nodeIdx[obj.id] = nodeList.length; nodeList.push(obj); }
+
+  addN({id:'root', name:'HLB그룹', level:0, color:'#1a1a2e'});
+
+  catOrder.forEach(function(cat) {
+    addN({id:cat, name:cat, level:1, color: CAT_COLOR[cat]||'#888'});
+    var cos = catMap[cat].slice().sort(function(a,b){return b.value-a.value;});
+    cos.slice(0, TOP).forEach(function(c) {
+      addN({id:c.name+'_'+cat, name:c.name, level:2, color:CAT_COLOR[cat]||'#888', cat:cat, val:c.value});
+    });
+    var rest = cos.slice(TOP);
+    if (rest.length > 0) {
+      var rv = rest.reduce(function(s,c){return s+c.value;},0);
+      if (rv > 0) addN({id:'기타_'+cat, name:'기타 '+rest.length+'사', level:2, color:'#aaa', cat:cat, isOther:true, val:rv});
+    }
+  });
+
+  catOrder.forEach(function(cat) {
+    var catTot = catMap[cat].reduce(function(s,c){return s+c.value;},0);
+    if (catTot > 0) linkList.push({source:nodeIdx['root'], target:nodeIdx[cat], value:catTot});
+    var cos = catMap[cat].slice().sort(function(a,b){return b.value-a.value;});
+    cos.slice(0, TOP).forEach(function(c) {
+      if (c.value > 0) linkList.push({source:nodeIdx[cat], target:nodeIdx[c.name+'_'+cat], value:c.value});
+    });
+    var rest = cos.slice(TOP);
+    if (rest.length > 0) {
+      var rv = rest.reduce(function(s,c){return s+c.value;},0);
+      if (rv > 0 && nodeIdx['기타_'+cat] !== undefined)
+        linkList.push({source:nodeIdx[cat], target:nodeIdx['기타_'+cat], value:rv});
+    }
+  });
+
+  _skDraw(el, W, H, nodeList, linkList, function(d) {
+    if (d.level === 0) return d.name+' '+Math.round(d.value/100).toLocaleString()+'억';
+    if (d.level === 1) return d.name+' '+Math.round(d.value/100).toLocaleString()+'억';
+    return d.name;
+  });
+
+  /* 범례 */
+  var leg = document.getElementById('sankeyLegend');
+  if (leg) {
+    leg.innerHTML = Object.keys(CAT_COLOR).map(function(k){
+      return '<span style="display:inline-flex;align-items:center;gap:4px"><span style="width:10px;height:10px;border-radius:2px;background:'+CAT_COLOR[k]+';display:inline-block"></span>'+k+'</span>';
+    }).join('') + '<span style="color:var(--t4);margin-left:6px">· 흐름 두께 = 매출 크기</span>';
+  }
+}
+
+function _skAchieve(el, W, H) {
+  var GROUPS = [
+    {id:'g50p',  name:'50%↑ 달성권',   color:'#2D7D46', test:function(d){return d.r!==null&&d.r>=0.5;}},
+    {id:'g2550', name:'25~50% 관리중', color:'#B7791F', test:function(d){return d.r!==null&&d.r>=0.25&&d.r<0.5;}},
+    {id:'g25m',  name:'25%↓ 위험',     color:'#C53030', test:function(d){return d.r!==null&&d.r<0.25&&d.g>0;}},
+    {id:'gnone', name:'목표미설정',     color:'#aaa',    test:function(d){return !d.g||d.r===null;}}
+  ];
+
+  var nodeList = [{id:'root', name:'전체\n계열사', level:0, color:'#1a1a2e'}];
+  var nodeIdx = {root:0};
+  var linkList = [];
+
+  GROUPS.forEach(function(g) {
+    var members = PD.filter(g.test);
+    if (!members.length) return;
+    var gi = nodeList.length;
+    nodeIdx[g.id] = gi;
+    var gTot = members.reduce(function(s,d){return s+d.a;},0)||members.length*1000;
+    nodeList.push({id:g.id, name:g.name+' ('+members.length+'사)', level:1, color:g.color});
+    linkList.push({source:0, target:gi, value:gTot});
+
+    members.forEach(function(d) {
+      var ci = nodeList.length;
+      var lbl = d.n+(d.r!==null?' '+(d.r*100).toFixed(0)+'%':'');
+      nodeList.push({id:'co_'+d.n, name:lbl, level:2, color:g.color});
+      linkList.push({source:gi, target:ci, value:Math.max(d.a, 500)});
+    });
+  });
+
+  _skDraw(el, W, H, nodeList, linkList, function(d) { return d.name; });
+
+  var leg = document.getElementById('sankeyLegend');
+  if (leg) leg.innerHTML = GROUPS.map(function(g){
+    return '<span style="display:inline-flex;align-items:center;gap:4px"><span style="width:10px;height:10px;border-radius:2px;background:'+g.color+';display:inline-block"></span>'+g.name+'</span>';
+  }).join('')+'<span style="color:var(--t4);margin-left:6px">· 흐름 두께 = 누계실적 크기</span>';
+}
+
+function _skDraw(el, W, H, nodeList, linkList, labelFn) {
+  var pad   = W > 500 ? 80 : 50;
+  var padR  = W > 500 ? 150 : 110;
+  var sankeyLayout = d3Sankey.sankey()
+    .nodeWidth(14)
+    .nodePadding(W > 500 ? 6 : 4)
+    .extent([[pad, 14], [W - padR, H - 14]]);
+
+  var graph;
+  try {
+    graph = sankeyLayout({
+      nodes: nodeList.map(function(d){return Object.assign({},d);}),
+      links: linkList.map(function(d){return Object.assign({},d);})
+    });
+  } catch(e) { console.warn('Sankey layout error', e); return; }
+
+  var s = d3.select(el);
+
+  /* 흐름 */
+  s.append('g').selectAll('path')
+    .data(graph.links)
+    .join('path')
+    .attr('d', d3Sankey.sankeyLinkHorizontal())
+    .attr('fill', 'none')
+    .attr('stroke', function(d){ return d.target.color || d.source.color || '#ccc'; })
+    .attr('stroke-width', function(d){ return Math.max(1, d.width); })
+    .attr('opacity', 0.28);
+
+  /* 노드 직사각형 */
+  s.append('g').selectAll('rect')
+    .data(graph.nodes)
+    .join('rect')
+    .attr('x',      function(d){ return d.x0; })
+    .attr('y',      function(d){ return d.y0; })
+    .attr('width',  function(d){ return d.x1 - d.x0; })
+    .attr('height', function(d){ return Math.max(1, d.y1 - d.y0); })
+    .attr('fill',   function(d){ return d.color || '#888'; })
+    .attr('rx', 3);
+
+  /* 레이블 */
+  s.append('g').attr('font-family','Pretendard,Apple SD Gothic Neo,sans-serif')
+    .selectAll('text')
+    .data(graph.nodes)
+    .join('text')
+    .attr('x', function(d){ return d.x0 < W * 0.55 ? d.x0 - 6 : d.x1 + 6; })
+    .attr('y', function(d){ return (d.y0 + d.y1) / 2; })
+    .attr('dy', '0.35em')
+    .attr('text-anchor', function(d){ return d.x0 < W * 0.55 ? 'end' : 'start'; })
+    .attr('font-size', function(d){
+      var h = d.y1 - d.y0;
+      if (d.level === 0) return 12;
+      if (d.level === 1) return h < 14 ? 0 : 11;
+      return h < 10 ? 0 : 10;
+    })
+    .attr('fill', '#333')
+    .text(labelFn);
+}
 var CC={bl:'#2B6CB0',gn:'#276749',am:'#B7791F',rd:'#9B2335',tl:'#2C7A7B',cp:'#C17A3A'};
 var gc2='#EDF0F5';var af={size:12,family:"'맑은 고딕',sans-serif"};
 
