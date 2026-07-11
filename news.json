@@ -1,17 +1,24 @@
 {
   "news": [
     {
-      "title": "HLB 간암 신약, FDA 승인 위한 정식 실사도 못 받아…이유는? - MTN 머니투데이방송",
-      "link": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE1DcENPN1gwbmFyR2FaVGFkaFVKTEtfN29JNlNONEgtOEdfbVJ0UWdUTTFfTndKNDFYa2hFa0pNT0hyRXVsa2hRYTQxMk02cDBjdG1sSU1IYTQyUTFmS3RkcEZ0d2c?oc=5",
-      "source": "MTN 머니투데이방송",
-      "pubDate": "2026-07-10T21:02:01+00:00",
+      "title": "HLB 간암 신약, FDA 승인 위한 정식 실사도 못 받아…이유는? - v.daum.net",
+      "link": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE1QUlVhOHhLS2lYNl9NNzZEVnJQa2FjZkdBRVJKTkZiY2dod0ltMEljR3pTTDhUNFRMV05YZW41Xy1PSHdrZGI3Zm13YzZ6eTQ?oc=5",
+      "source": "v.daum.net",
+      "pubDate": "2026-07-11T04:37:01+00:00",
       "query": "HLB 신약"
     },
     {
       "title": "HLB '리보세라닙' FDA 허가 또 제동…항서제약 실사 발목 - 데일리팜",
       "link": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE5GMDVmV25pVmFjZDdnU2NBT0JaUDVSSkF2Z2tXXzdvQmJIcjN5VVlRZ3E3M0tQbnQ1bC1mU3FWcFc1R05PLXp2bWdOX2pKeW5OVnhJWTV3?oc=5",
       "source": "데일리팜",
-      "pubDate": "2026-07-10T16:30:23+00:00",
+      "pubDate": "2026-07-11T03:05:32+00:00",
+      "query": "HLB 신약"
+    },
+    {
+      "title": "릴리 기대 흔들린 펩트론·세 번째 CRL HLB…투심 얼어붙은 K바이오 '시험대'[바이오 주간 결... - 팜이데일리",
+      "link": "https://news.google.com/rss/articles/CBMibkFVX3lxTFBDYjFGYlRRelVWNUhCVXhST0JscFNMY3hHWENFSU15RGdWUFhxZDVPWGVOenlkQkROT2JKeWR6QVBPTWhYazI0OVFhMDk1S004VnVnakc4MVI1SnJrV0xONTdrbUZUZXgzandpcUln?oc=5",
+      "source": "팜이데일리",
+      "pubDate": "2026-07-11T00:00:06+00:00",
       "query": "HLB 신약"
     },
     {
@@ -20,6 +27,13 @@
       "source": "디지털투데이",
       "pubDate": "2026-07-10T08:26:08+00:00",
       "query": "HLB제넥스"
+    },
+    {
+      "title": "HLB \"FDA 보완요구 무거운 책임감…신속한 재신청 대응 나설 것\" - 뉴스1",
+      "link": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE1COVhRMncwTEV0UXBUdnpUY1g2TFZQQURKUHl2d2lLcUNVU3E5OERMbEV6ZEZKWHJTZjZHYlZJYUl0ajk5RXE4enJyTE43X19SY3NncjEzdi0zZ0lKd1ViMw?oc=5",
+      "source": "뉴스1",
+      "pubDate": "2026-07-10T07:16:38+00:00",
+      "query": "HLB FDA"
     },
     {
       "title": "오리지널아카이브, 전 직군 대규모 채용… 브랜드 사업 확장 - MSN",
@@ -43,6 +57,6 @@
       "query": "HLB생명과학"
     }
   ],
-  "fetchedAt": "2026-07-10T21:35:06.395839+00:00",
-  "count": 6
+  "fetchedAt": "2026-07-11T06:24:56.180430+00:00",
+  "count": 8
 }
