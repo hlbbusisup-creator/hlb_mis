@@ -1,25 +1,11 @@
 {
   "news": [
     {
-      "title": "HLB그룹, 4수생 된 간암 신약...항암 파이프라인 돌파구 찾나 - 메트로신문",
-      "link": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE5ndTJJOHlldUd3NmZoU0RmeDZuNi1FTjZLSnpRYmVBRGpjdHlKaFN1akEwRmJJYklwQ0c3a1lyeUlfWXBtWFVGRUJJSXNsY2VDb2pVR09JQW5tQU42TWN6cA?oc=5",
-      "source": "메트로신문",
-      "pubDate": "2026-07-12T04:55:32+00:00",
+      "title": "HLB, 반복된 ‘리보세라닙’ FDA 허가 불발…사수 도전 승부처는? - 이투데이",
+      "link": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE5hT0ZfLTVoM3lXZ0k3MGhIOVBCaHZUQzNEODdJNGtPQkRucjNoVnhTR0gtcXR0UHg3dHQtNG9JZ0taWXVYdVJTR3ZrLTZCd3M5OEdTNQ?oc=5",
+      "source": "이투데이",
+      "pubDate": "2026-07-12T20:00:00+00:00",
       "query": "HLB 신약"
-    },
-    {
-      "title": "HLB, 항서제약 FDA 서한 확보…\"신속히 대응전략 수립\" - 머니투데이 - 머니투데이",
-      "link": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE5qeDhnNVd2ZHM2ekFzY2tsWFd5NGtSWlp5YXpiOXd1TGU0QmcyZHZzMEd3Q082ampmcjVzbEpVUTVvNVV4a0ZOd05tYmprdGJMa3RESXJWTjdpSEEzbnNrOGM1aG92M3Jx0gFuQVVfeXFMTTJEVV9JVGJHYjBuSXl4SzJTejl6MERYbVJTNk9IODhIVmw1RzMwdnQxVzZmd1RwQWFwaEkxaVFUTVUtX1MxNVdsWHBvNkNzd0U0cUdHZWp4MHNNblF6Y0JveUlyTHRXRTB4Vk1YR3c?oc=5",
-      "source": "머니투데이",
-      "pubDate": "2026-07-12T02:15:07+00:00",
-      "query": "HLB FDA"
-    },
-    {
-      "title": "[In-Depth]②1년 전과 다른 HLB…간암 지연에도 후속 파이프라인이 뛴다 - PRESS9",
-      "link": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE1PTlVZcUFwT0JsTzFVQzVVaVRPS2F4bUxQVnJXbXpucUYzVmtWaTJXck1uTkZwSUg1aDFmeHQ3MmFPa2RSSk1mU18yVG1Db01HTm15Mi1jcU9TTU5QdnpIMQ?oc=5",
-      "source": "PRESS9",
-      "pubDate": "2026-07-11T22:20:00+00:00",
-      "query": "HLB 임상"
     },
     {
       "title": "현대요트, 공동 소유 오너십 프로그램 출시 - MSN",
@@ -50,10 +36,17 @@
       "query": "HLB제넥스"
     },
     {
-      "title": "HLB, 리보세라닙 FDA 보완 요구 수령…\"임상 아닌 cGMP 이슈\" - 뉴스핌",
-      "link": "https://news.google.com/rss/articles/CBMiXEFVX3lxTFA5WDFQNHktRXhrZGhldS1PbFVubkNrRWlZOTM0V2NsMWxlM0hFWGtmblhlYlhmRHFBS2lnQ3VPUlg5c0lUWjM0LXh6WWhZcFZBcGliRWNVUkxzZ1Et?oc=5",
-      "source": "뉴스핌",
-      "pubDate": "2026-07-10T02:16:00+00:00",
+      "title": "HLB \"FDA 보완요구 무거운 책임감…신속한 재신청 대응 나설 것\" - 뉴스1",
+      "link": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE1COVhRMncwTEV0UXBUdnpUY1g2TFZQQURKUHl2d2lLcUNVU3E5OERMbEV6ZEZKWHJTZjZHYlZJYUl0ajk5RXE4enJyTE43X19SY3NncjEzdi0zZ0lKd1ViMw?oc=5",
+      "source": "뉴스1",
+      "pubDate": "2026-07-10T07:16:38+00:00",
+      "query": "HLB FDA"
+    },
+    {
+      "title": "이번에도 FDA 문턱 넘지 못한 HLB… 항서제약 제조시설 문제 여전 - IT조선",
+      "link": "https://news.google.com/rss/articles/CBMicEFVX3lxTFBWUW03R1o4eURHSnNJMnJET0FiODZnTVVBaDBzcnNEdG1JX0puNGdsZmlVRFd5eUFMcTNiMktEbmt0anFWSHpqYWN0Nmt5WjI1VkhlN0VNWkFrUWRYRHZBczFKQVlTZHBVc2s0RXhINXLSAXRBVV95cUxONy1IRGhrcVVUYTVhVUFSRFRBeE93d2RHcFkyZjBhZmY3MjQxeW5yLXB3OV96TnhFallQMlhzSDZWVnhvTkxycjd1NUpwQlctaWpmekRqcm9HN0Z0MzRnUTRld0tkUDc2bmVsUUJHNXB1SEVReg?oc=5",
+      "source": "IT조선",
+      "pubDate": "2026-07-09T23:00:57+00:00",
       "query": "HLB 임상"
     },
     {
@@ -71,6 +64,6 @@
       "query": "HLB 임상"
     }
   ],
-  "fetchedAt": "2026-07-12T18:42:24.318642+00:00",
-  "count": 10
+  "fetchedAt": "2026-07-12T21:34:39.127984+00:00",
+  "count": 9
 }
