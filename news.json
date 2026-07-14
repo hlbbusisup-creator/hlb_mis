@@ -1,11 +1,60 @@
 {
   "news": [
     {
+      "title": "임상 넘고도 또 발목…HLB, '파트너 리스크'가 남긴 뼈아픈 숙제 [더게이트 바이오] - 네이트",
+      "link": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE00QzZvTEhzeHo3QzB0WDh1VDVJYVhxeUMxUGRWZkRabEFKZ1VMS3FFUFh3Yk1NOWN4anVUMGE4QWxJbTg5MmNTRmhRR3NoUkRlamNN?oc=5",
+      "source": "네이트",
+      "pubDate": "2026-07-14T06:55:00+00:00",
+      "query": "HLB 임상"
+    },
+    {
+      "title": "또 멈춘 간암 신약…담관암 치료제 '리라푸그라티닙'에 쏠린 눈 - 톱데일리",
+      "link": "https://news.google.com/rss/articles/CBMiUEFVX3lxTE5UTzBrU1VUQUpoMWhLN2NTYU8xejk5djd6ZzFFMFpBZzgzc1ZTYmFTQWUwakViclhnVzdHMVR0OWdXM3BDUDJfcDl2eWJJOXZQ?oc=5",
+      "source": "톱데일리",
+      "pubDate": "2026-07-14T06:34:00+00:00",
+      "query": "HLB 신약"
+    },
+    {
+      "title": "HLB, 리보세라닙 세 번째 고배에…유럽 전략도 재조정 - 투데이신문",
+      "link": "https://news.google.com/rss/articles/CBMia0FVX3lxTE93dldkMXZ5cGJ3cWpzT0hZTWFoVm5yaWl4V1pudG0yTWFKRFEtMlJNakx4S1FJQko1V0szMnpPcVExWDByWDhMUG9hbVBXSHNkOWh6NHdRcTJrU2Z2VVVsbzF3OUY1NXNVcHFB0gFvQVVfeXFMTS1jNWQzVTl5emNPZm9kRmItWG03Q08zTlhWSzZNRzRpNEpGaktyelU2cG5YSjhTZUZBYmtyUTJwb0M0eXQ0RTN3TzRxR1RqcHVuRkNlUWpQS2pqTnh3TC1IR3M1b3JNd2x1S3JBZkJz?oc=5",
+      "source": "투데이신문",
+      "pubDate": "2026-07-14T06:27:38+00:00",
+      "query": "HLB FDA"
+    },
+    {
+      "title": "[단독]HLB 간암신약, 캄렐리주맙 CMC는 넘었는데…항서 제조시설에 발목 - 뉴스1",
+      "link": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE9UNUxiM3Q0dkY4eVlEOGNINkRKSkphWjlhbVRIekwyQ3NhdXBLTFo3MXNEczVTa0ZEUjdLU1RmYlNEVUIyWDl5aXptR1gzUW1BZS16U1VHWGI0M0J0TTNiMw?oc=5",
+      "source": "뉴스1",
+      "pubDate": "2026-07-14T05:24:09+00:00",
+      "query": "HLB 신약"
+    },
+    {
+      "title": "HLB그룹 진양곤 리보세라닙 품목허가 불발 후폭풍, 제약 설비투자금 마련에 '빨간 불' - 비즈니스포스트",
+      "link": "https://news.google.com/rss/articles/CBMic0FVX3lxTFBLX0hST3hFalpRdkhQU3kzV3JfbHVfWjQ3ek1QbkJzVUUtZDE4Y0dfT1JUdGRXWm5rVWdIckQ5R0xyQ2Rnc0FvSmpVRTNhMk4wV2Y0aVBMaDROVUd4blV1SmdNZU1RN1ZyR09WdjhzZUlfN2M?oc=5",
+      "source": "비즈니스포스트",
+      "pubDate": "2026-07-14T04:39:47+00:00",
+      "query": "HLB 허가"
+    },
+    {
+      "title": "HLB 간암신약 세 번째 CRL 뜯어보니…재신청보다 제조소 정상화가 먼저 - 메디코파마",
+      "link": "https://news.google.com/rss/articles/CBMickFVX3lxTFBZZFU2cHZNcmsyZVBjTmJVYkh4cUx2WmRXOGlrUFZRNHZfbVlVMThoSGJ5SzUyVVV3T2ZjamR2WTRkTDZXbjVlZV9Wdk1yT2hOM3Q5WWxBVUR4ZGlLc2NpcWFaSVlkUEdhQ1EyUGpsMmhWZw?oc=5",
+      "source": "메디코파마",
+      "pubDate": "2026-07-14T01:51:51+00:00",
+      "query": "HLB 신약"
+    },
+    {
+      "title": "또 허가 제동···HLB, 신약 개발 구조 한계 드러냈나 - 시사저널e",
+      "link": "https://news.google.com/rss/articles/CBMidkFVX3lxTFBwVWZMenNtTkxZQWd4dzJyX0p6WTctWXgxU1p5QkdoWXJLWDU5N0J0bkhJOENpTElhbkU4MXhBNVJKam1ycXpUeXFUbFdmY2hlMzUySk96T0tSaE1VNkJxNjBlM0JYcDB0MGtPUkhfQjgxLTJTSFHSAXZBVV95cUxQcFVmTHpzbU5MWUFneHcycl9Kelk3LVl4MVNaeUJHaFlyS1g1OTdCdG5ISThDaUxJYW5FODF4QTVSSmptcnF6VHlxVGxXZmNoZTM1MkpPek9LUmhNVTZCcTYwZTNCWHAwdDBrT1JIX0I4MS0yU0hR?oc=5",
+      "source": "시사저널e",
+      "pubDate": "2026-07-13T23:31:53+00:00",
+      "query": "HLB 신약"
+    },
+    {
       "title": "FDA 지적 분석부터 재신청 협의까지…HLB 간암 신약 재허가 절차는 - 뉴스1",
       "link": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE5SX2s3N2lKb1RodFg1SnVjUVk5Nmh3aUc5c1J2OUwxaF9qTWI2MGRsMDFpWDQyZlVaWUo4U2VDeVVzblZMaTlfdXlVRWxjaURjQVBlb3NUQ1dvQU90YUVyTw?oc=5",
       "source": "뉴스1",
       "pubDate": "2026-07-13T21:20:00+00:00",
-      "query": "HLB 신약"
+      "query": "HLB 허가"
     },
     {
       "title": "HLB제넥스, 투자주의종목 지정→거래집중 우려 부각 - TopStarNews",
@@ -22,32 +71,18 @@
       "query": "HLB에너지"
     },
     {
-      "title": "HLB, 세 번째 FDA 승인 실패…경쟁력·특허·신뢰 '삼중고' - 데일리팜",
-      "link": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE1XWDBhWk4zWlFaOFpEYnhUYlJ2eW1kLU5wRC1IZ3BIS1ZRWU9YdHJmVUNWLXlKVXN2RkQwUzE2YmJRTldhaXpGYTZQYW9fSlRXQUlORVlzQUFIU2QwRVNwWk0wdTU?oc=5",
-      "source": "데일리팜",
-      "pubDate": "2026-07-13T08:50:15+00:00",
-      "query": "HLB 신약"
-    },
-    {
-      "title": "“항서제약에 또 발목 잡혔다”…HLB 간임 신약 FDA허가 또 좌절 - 대한경제",
-      "link": "https://news.google.com/rss/articles/CBMidEFVX3lxTE1XWVFTa2owRktLNVpMbm02blVoNUQ1alZMWURyQmhVOGRFWTdmMUw5OVc4b09CeXB5TTNna2ZyeVl3RXljdHdQZEgzQmZjTFpnRjd5NUJVV0d2UlY1LUtUNlhGZjlmVmZ6U2VXTWZWdzM1ZVY4?oc=5",
-      "source": "대한경제",
-      "pubDate": "2026-07-13T07:51:21+00:00",
-      "query": "HLB 신약"
-    },
-    {
-      "title": "[ET특징주] HLB, 리보세라닙 FDA 불발 여파 이틀째… 28%↓ - 전자신문",
-      "link": "https://news.google.com/rss/articles/CBMiTkFVX3lxTE53LVk4VzVfWF9ZdmJfUFE5RTNQelYxRTZHQlFMZVNWeU1JT0dyMzNFcUxDOWZPVGpkckFfaXlyYlJaN2FXV09wZXdEVWprUQ?oc=5",
-      "source": "전자신문",
-      "pubDate": "2026-07-13T02:34:43+00:00",
-      "query": "HLB FDA"
-    },
-    {
       "title": "특징주, HLB이노베이션-반도체 재료/부품 테마 상승세에 6.64% ↑ - 매일경제 마켓",
       "link": "https://news.google.com/rss/articles/CBMiUkFVX3lxTFAwR3VlNVRQeFB1Z0JfdklkSW9DdjFBR3FheVhIeFNBZEhmSE1SYUJjR1U0eE85X1FPVlV6VmVaQkVYMUp3SWlIOWJmWmxMTTdCZVE?oc=5",
       "source": "매일경제 마켓",
       "pubDate": "2026-07-13T00:39:55+00:00",
       "query": "HLB이노베이션"
+    },
+    {
+      "title": "HLB, 반복된 ‘리보세라닙’ FDA 허가 불발…사수 도전 승부처는? - 이투데이",
+      "link": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE5hT0ZfLTVoM3lXZ0k3MGhIOVBCaHZUQzNEODdJNGtPQkRucjNoVnhTR0gtcXR0UHg3dHQtNG9JZ0taWXVYdVJTR3ZrLTZCd3M5OEdTNQ?oc=5",
+      "source": "이투데이",
+      "pubDate": "2026-07-12T20:00:00+00:00",
+      "query": "HLB FDA"
     },
     {
       "title": "현대요트, 공동 소유 오너십 프로그램 출시 - MSN",
@@ -64,20 +99,27 @@
       "query": "HLB제넥스"
     },
     {
+      "title": "HLB, 세 번째 FDA 승인 실패…경쟁력·특허·신뢰 '삼중고' - 데일리팜",
+      "link": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE9ZSEFQZnd0ajhERFBIVDdtclpPR0JtZTN1cW1VN21NVkk3eV9KRzhmQmdHV2d3NmJEV1R0cTcwZ09xVV9JSnAtSDZJQjN0SDNXXzBnSl93?oc=5",
+      "source": "데일리팜",
+      "pubDate": "2026-07-10T02:59:50+00:00",
+      "query": "HLB 임상"
+    },
+    {
+      "title": "이번에도 FDA 문턱 넘지 못한 HLB… 항서제약 제조시설 문제 여전 - IT조선",
+      "link": "https://news.google.com/rss/articles/CBMicEFVX3lxTFBWUW03R1o4eURHSnNJMnJET0FiODZnTVVBaDBzcnNEdG1JX0puNGdsZmlVRFd5eUFMcTNiMktEbmt0anFWSHpqYWN0Nmt5WjI1VkhlN0VNWkFrUWRYRHZBczFKQVlTZHBVc2s0RXhINXLSAXRBVV95cUxONy1IRGhrcVVUYTVhVUFSRFRBeE93d2RHcFkyZjBhZmY3MjQxeW5yLXB3OV96TnhFallQMlhzSDZWVnhvTkxycjd1NUpwQlctaWpmekRqcm9HN0Z0MzRnUTRld0tkUDc2bmVsUUJHNXB1SEVReg?oc=5",
+      "source": "IT조선",
+      "pubDate": "2026-07-09T23:00:57+00:00",
+      "query": "HLB 임상"
+    },
+    {
       "title": "코오롱티슈진·HLB, 이달 나란히 임상·허가 분수령 - 비즈워치",
       "link": "https://news.google.com/rss/articles/CBMib0FVX3lxTE9KTWNzemxadG1ZNDBLVFRJb1BSNDJGdXdQSHF4S2NVbHBSUXNpMzhvUG5Bd3pvVWFKM0FSWXhTTWFoeWlJZ3g3M2xxRDVFZXBiUFVxTWpSZTVQY1RfcGZFclRDbFBJOFl6R2VQbVdPYw?oc=5",
       "source": "비즈워치",
       "pubDate": "2026-07-08T23:30:03+00:00",
       "query": "HLB 임상"
-    },
-    {
-      "title": "오리지널아카이브, 전 직군 대규모 채용…브랜드 사업 확장 - 네이트",
-      "link": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE9IRmp2dTNtQm9tN3R1V0tyR0NBdUZ6eVZXMnJKMkxjUjZaelU0ajZXOWE3RU1iMl9TLWI1VFRLdzljcHJMTU45V1MxVjdaUzZiczBz?oc=5",
-      "source": "네이트",
-      "pubDate": "2026-07-07T06:07:00+00:00",
-      "query": "오리지널아카이브"
     }
   ],
-  "fetchedAt": "2026-07-13T23:38:55.512779+00:00",
-  "count": 11
+  "fetchedAt": "2026-07-14T07:23:04.237446+00:00",
+  "count": 17
 }
