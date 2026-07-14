@@ -9,7 +9,7 @@
     },
     {
       "title": "HLB, 간암 신약 승인 지연에도 성장 모멘텀 건재 - v.daum.net",
-      "link": "https://news.google.com/rss/articles/CBMiT0FVX3lxTFBZNmxRTHZ0bUpOWmZwdkZqdnY5ZUlJd0VrVWNiNDNOQ1NSMzNvZklVc1gzZ1NMWkRQd0hWUVB1Y0ozZUJITXgyNUpWOWtrSm8?oc=5",
+      "link": "https://news.google.com/rss/articles/CBMiRkFVX3lxTE90TkRuNU95WlpmYThaaW5wRDRoaUNOeW9EZWlQZ2dFZFJNb1RPbjV6QVJvUVVZTnI2X1QxTWMxRjY0WHNrOGc?oc=5",
       "source": "v.daum.net",
       "pubDate": "2026-07-14T08:39:02+00:00",
       "query": "HLB 신약"
@@ -20,6 +20,20 @@
       "source": "디지털투데이",
       "pubDate": "2026-07-14T07:53:02+00:00",
       "query": "HLB바이오스텝"
+    },
+    {
+      "title": "[K CAR-T 열전] HLB, 고형암 CAR-T 'SynKIR-110'로 리레이팅 정조준 - 녹색경제신문",
+      "link": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE04TzYyLWdSSHZBek5DRWVwaHFtNTd1bGxsbnhxOW1zdmFKWmhjRml1Ylc3V2xObHlpRmE4azdpSEhEWWdYaGJ4dE9TTEdoa05GRGpfbGMxQzRtY2x0c2NTOVRtdlZZZU1V?oc=5",
+      "source": "녹색경제신문",
+      "pubDate": "2026-07-14T07:29:26+00:00",
+      "query": "HLB 임상"
+    },
+    {
+      "title": "항서도, 간암 1차 '캄렐리주맙' FDA CRL \"내용 보니..\" - 바이오스펙테이터",
+      "link": "https://news.google.com/rss/articles/CBMiV0FVX3lxTE5PSkVTcVZvbERGdEZGMTdKQy1qNDlIZXhGNjhtdjVWX2JaWW5CU3pDTGJnM2dkSHEzZHhTMXhjUUl3V1hpNnlDbXllTTYtUDhhWlFVYjVKUQ?oc=5",
+      "source": "바이오스펙테이터",
+      "pubDate": "2026-07-14T06:31:00+00:00",
+      "query": "HLB FDA"
     },
     {
       "title": "[단독]HLB 간암신약, 캄렐리주맙 CMC는 넘었는데…항서 제조시설에 발목 - 뉴스1",
@@ -48,13 +62,6 @@
       "source": "시사저널e",
       "pubDate": "2026-07-13T23:31:53+00:00",
       "query": "HLB 신약"
-    },
-    {
-      "title": "Remedi Surges, HLB Hits Limit Down as FDA Blow Weighs[K-Bio Pulse] - 팜이데일리",
-      "link": "https://news.google.com/rss/articles/CBMibkFVX3lxTE1UajdweV8wNk8yN1FYSmprU2RGdmF3ajU2ZHV5YWt3V2tWWDdLUWVYTTBUcmphUlpLbHRJUUNMX3ZLR1k1MDVXOWlXWkMyM0Q3dHhrckhOdUE1WTFSbFhCbEk5Zm5fWmVMWVc2dGJB?oc=5",
-      "source": "팜이데일리",
-      "pubDate": "2026-07-13T23:05:04+00:00",
-      "query": "HLB FDA"
     },
     {
       "title": "HLB제넥스, 투자주의종목 지정→거래집중 우려 부각 - 톱스타뉴스",
@@ -106,6 +113,6 @@
       "query": "HLB 임상"
     }
   ],
-  "fetchedAt": "2026-07-14T12:02:46.827175+00:00",
-  "count": 15
+  "fetchedAt": "2026-07-14T16:47:19.546077+00:00",
+  "count": 16
 }
