@@ -5,7 +5,7 @@
       "link": "https://news.google.com/rss/articles/CBMibkFVX3lxTE1BTTQwZ3p6Sy0xbUJMZ1d1c0E3M1VsZXUzRWtPcThSRXR0UE94V1VSWjExc0haenZ0ZnIzTWwtWlBCOXJuMEpGNFBsVm5oWlItNG5JWUsyQTNlSTd3cDFRNXpZeUNsTzNPcFdYSk93?oc=5",
       "source": "아시아투데이",
       "pubDate": "2026-07-15T09:02:28+00:00",
-      "query": "HLB FDA"
+      "query": "HLB 허가"
     },
     {
       "title": "글로벌 3상 막바지… HLB테라퓨틱스, 파이프라인 다변화로 뛴다 - 핀포인트뉴스",
@@ -27,6 +27,13 @@
       "source": "서울신문",
       "pubDate": "2026-07-15T04:40:00+00:00",
       "query": "HLB파나진"
+    },
+    {
+      "title": "HLB “리보세라닙 원료 제조소, 美 FDA 실사 VAI로 종결” - 팜이데일리",
+      "link": "https://news.google.com/rss/articles/CBMibkFVX3lxTE5rV20tNFNwU3lSVUVFNmZ6anpuYjR1WWViLXNuYW9ySmdTWWREQ3lGUEliVk1uZjJsSlJESmVkRXVtRGQ0N0NvN1hxaDBjSjIwYkNsVXphSERfdzNHMWtRX0U5VllDTE56SThaVXR3?oc=5",
+      "source": "팜이데일리",
+      "pubDate": "2026-07-15T02:47:17+00:00",
+      "query": "HLB FDA"
     },
     {
       "title": "HLB테라퓨틱스 RGN-259 성분, 세균성 각막염서 각막신경 회복 확인...美 연구진 발표 - PRESS9",
@@ -85,6 +92,6 @@
       "query": "HLB 임상"
     }
   ],
-  "fetchedAt": "2026-07-15T15:00:04.799206+00:00",
-  "count": 12
+  "fetchedAt": "2026-07-15T16:42:22.985601+00:00",
+  "count": 13
 }
