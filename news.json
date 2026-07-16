@@ -1,6 +1,13 @@
 {
   "news": [
     {
+      "title": "세 번째 FDA 도전까지 실패한 HLB… 무너진 신뢰 회복 가능할까? - IT조선",
+      "link": "https://news.google.com/rss/articles/CBMicEFVX3lxTFBVNi1DS1VfaXZiVU9qb3Q2QWhEZTdCbU9GbVRLX3NxWU9zcU5TbFpnYTliTnJCZTB4MFdEQzZmTlZlZmF5WTFCMkwzVS1vWXR3ZVIyMXFKR2g4cmlNSnl0Q0E0Q0xLLUctVThNSWlYZVLSAXRBVV95cUxPSEk1MlA3MlZETm1NeFlidUd0dE1NVGN1a1k3eFVUYzFlSDBFcVBhRG1TckhaVU9STEt1dFIzcDR6WDVCLVR4ei1vb2FObEV5b1BnSVdlcVEwd2JWU3o4ZnpjWHpzdFV5ZkRMSHNWX1hEZ1NySQ?oc=5",
+      "source": "IT조선",
+      "pubDate": "2026-07-16T20:00:00+00:00",
+      "query": "HLB 신약"
+    },
+    {
       "title": "장인근 대표이사, HLB파나진 주식 3000주 ↑…지분율 0.04% - 데이터투자",
       "link": "https://news.google.com/rss/articles/CBMic0FVX3lxTFBfLWk5OVNBU1dxbG1kclpZNk1hYjIyckFGaWRMQlhObld4eUpleDE4MWJiQllGRkFuRGpEeVZJZFVBTVg1MzhZbE9uWTFXYUExaUFvampHRHBaN1hQUnptbVJCX0NnV3JZMGw3a2ZvRTk1WlU?oc=5",
       "source": "데이터투자",
@@ -58,7 +65,7 @@
     },
     {
       "title": "HLB \"간암 신약, 미국 승인 문제점 대부분 해소\" - 연합뉴스",
-      "link": "https://news.google.com/rss/articles/CBMiW0FVX3lxTFBTbl9jZk9nZkJILTRKNXhZdU0xX2xEcGo4dmhDUlFQTF9zUXJtdjc2eTBmdXN6SVJUdTlDdUEyTE5qcm1CZDlLWkwtX1hiNjFZdDZtaW93eEViYlnSAWBBVV95cUxNU1lrT3R2S1E3Z3dsSnhOajBpa0xJRUpnbldpS3FuZkJrQ2owVC0zWURYeUxvMWdqa0t3YWg2N3paeDM5QmFtSTFRVFRydVRCVGVaWFJnamR0WUtpdl9fNnU?oc=5",
+      "link": "https://news.google.com/rss/articles/CBMiW0FVX3lxTFBTbl9jZk9nZkJILTRKNXhZdU0xX2xEcGo4dmhDUlFQTF9zUXJtdjc2eTBmdXN6SVJUdTlDdUEyTE5qcm1CZDlLWkwtX1hiNjFZdDZtaW93eEViYlk?oc=5",
       "source": "연합뉴스",
       "pubDate": "2026-07-15T00:10:38+00:00",
       "query": "HLB 신약"
@@ -78,6 +85,6 @@
       "query": "HLB이노베이션"
     }
   ],
-  "fetchedAt": "2026-07-16T19:41:00.623190+00:00",
-  "count": 11
+  "fetchedAt": "2026-07-16T20:37:04.476327+00:00",
+  "count": 12
 }
