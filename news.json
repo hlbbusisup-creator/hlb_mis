@@ -1,10 +1,10 @@
 {
   "news": [
     {
-      "title": "박기웅 상무, HLB파나진 주식 3000주 ↑…지분율 0.03% - 데이터투자",
-      "link": "https://news.google.com/rss/articles/CBMickFVX3lxTFB6Y2NiZERmZzNYSHl2bHZHUVltQlNscFpUbW1JR3lHVlA3dnd5ZjA4UXRidUVtQVhBRFBIdlhlWkxVdHBsc1ZTQTFveTRtNnZhRXZTdDh3eDNnWUtVcGdsRFJiR2hWYlhtaFdqc1R4VXNLdw?oc=5",
+      "title": "장인근 대표이사, HLB파나진 주식 3000주 ↑…지분율 0.04% - 데이터투자",
+      "link": "https://news.google.com/rss/articles/CBMic0FVX3lxTFBfLWk5OVNBU1dxbG1kclpZNk1hYjIyckFGaWRMQlhObld4eUpleDE4MWJiQllGRkFuRGpEeVZJZFVBTVg1MzhZbE9uWTFXYUExaUFvampHRHBaN1hQUnptbVJCX0NnV3JZMGw3a2ZvRTk1WlU?oc=5",
       "source": "데이터투자",
-      "pubDate": "2026-07-16T06:49:07+00:00",
+      "pubDate": "2026-07-16T06:52:33+00:00",
       "query": "HLB파나진"
     },
     {
@@ -19,14 +19,7 @@
       "link": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE1vZzBOZUhpYS01Q3NQQ2NvWF9MSk9ZeHJrXy05T2JEeWw2eHBjSVY3QllSeUlTWHk2c0ZWc1RfR0JONWpwNVpFSW5hNnhNSlQzMHJyOTBteEtsTVkwQUh0dUhGLUoydTNN?oc=5",
       "source": "ebn.co.kr",
       "pubDate": "2026-07-16T05:45:46+00:00",
-      "query": "HLB바이오스텝"
-    },
-    {
-      "title": "HLB제넥스 김도연 대표이사, 소유 주식 수량 3만2567주 증가…소유 지분율 0.10%p 상승 - 디지털투데이",
-      "link": "https://news.google.com/rss/articles/CBMic0FVX3lxTE5lRmgtZTJpMUFTaUZ6aGNyOXJucUdwaDYwR2NNWmZ6V3M1Qk1aZ3lfa1pKMGFjMUJwS3RCQ3JlaEVsRExxcy01Qk95ZGItamRJbWItTHlpVTNKZ3VPNXd2Zy1sNlJFZkh5WXBGclpZU00tMWc?oc=5",
-      "source": "디지털투데이",
-      "pubDate": "2026-07-16T01:32:03+00:00",
-      "query": "HLB제넥스"
+      "query": "HLB 임상"
     },
     {
       "title": "HLB, 이제 유럽 허가도 가시권…항서제약 '선발대' 주목 - PRESS9",
@@ -92,6 +85,6 @@
       "query": "HLB이노베이션"
     }
   ],
-  "fetchedAt": "2026-07-16T11:22:32.975139+00:00",
-  "count": 13
+  "fetchedAt": "2026-07-16T12:59:41.832763+00:00",
+  "count": 12
 }
