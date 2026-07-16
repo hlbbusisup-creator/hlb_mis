@@ -8,6 +8,13 @@
       "query": "HLB파나진"
     },
     {
+      "title": "[단독] HLB 리보세라닙, FDA 변수 또 있다…재신청 10월까지 밀릴수도 - 데일리안",
+      "link": "https://news.google.com/rss/articles/CBMi1wFBVV95cUxNaU1GTUNkdVdDZzZGSG1rS29jOXI5UjJWZ1Y1WVI3dFZyb1FlY25OSkd6QnZna2NOaDdZZlZDMlVOMkhfNDRiM25aanp6QUhNWkRjNjNDd3VUbnNlX2JHamprS1k4VW43Z0pqOUhMekNkS1E2cURrdHNHY1c4NElDNEV1NFVyeVYwQ1k0WjZkNDFNRnhEanctd2NPTExxWFphbUstdUl3bEc1R1ZBbXpQYXFaRW5ackZJU1RPYmxVOTFiUE5IOUY2NktSdUM1LWRUTXVRdkI0bw?oc=5",
+      "source": "데일리안",
+      "pubDate": "2026-07-16T06:32:00+00:00",
+      "query": "HLB FDA"
+    },
+    {
       "title": "걸림돌 하나 치운 간암신약, 남은 시험대는 - 톱데일리",
       "link": "https://news.google.com/rss/articles/CBMiUEFVX3lxTE1CR1prUWxya0tVSkkyY19McjZHXzJFV01yak44ZVpIVkFXUlFXUU1saGxlY2k5ODktRkZxTVpHMmlxTkFZcmU1eVNMVmFSNzZt?oc=5",
       "source": "톱데일리",
@@ -15,11 +22,11 @@
       "query": "HLB 신약"
     },
     {
-      "title": "HLB바이오스텝, 통합 비임상 서비스로 파킨슨병 신약 IND 승인 지원 - ebn.co.kr",
-      "link": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE1vZzBOZUhpYS01Q3NQQ2NvWF9MSk9ZeHJrXy05T2JEeWw2eHBjSVY3QllSeUlTWHk2c0ZWc1RfR0JONWpwNVpFSW5hNnhNSlQzMHJyOTBteEtsTVkwQUh0dUhGLUoydTNN?oc=5",
-      "source": "ebn.co.kr",
-      "pubDate": "2026-07-16T05:45:46+00:00",
-      "query": "HLB 임상"
+      "title": "HLB바이오스텝, 파킨슨병 신약 IND 승인 지원 - MEDI:GATE NEWS",
+      "link": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE1OZkFWQ2hkblFDZlB1TjBRb3d3X3lFNGZSakVEcFktLVU0eElLLW1TWnVfdUI2YlNsbzlicnJuSHY4ejd0N1lScFVEMWc5U0tDSV9YcE1R?oc=5",
+      "source": "MEDI:GATE NEWS",
+      "pubDate": "2026-07-16T02:55:00+00:00",
+      "query": "HLB 신약"
     },
     {
       "title": "HLB Hits Limit-Up on FDA Optimism; Curiosis, Peptron Rebound Sharply [K-Bio Pulse] - 팜이데일리",
@@ -57,13 +64,6 @@
       "query": "HLB테라퓨틱스"
     },
     {
-      "title": "HLB, '리보세라닙' 제조소 FDA 실사종료서한 \"수령\" - 바이오스펙테이터",
-      "link": "https://news.google.com/rss/articles/CBMiV0FVX3lxTFByVk5xSTVhdkNERVRKNkV3NUhfU0JzUDNyRUdUMEFWZ2xFMFV1bjBpQVB5a3dVV2c0eG5wdVI5d3dyMVRUU0pLcFdXMkF2UkoxdEwzQm1VOA?oc=5",
-      "source": "바이오스펙테이터",
-      "pubDate": "2026-07-15T00:36:00+00:00",
-      "query": "HLB FDA"
-    },
-    {
       "title": "HLB \"간암 신약, 미국 승인 문제점 대부분 해소\" - 연합뉴스",
       "link": "https://news.google.com/rss/articles/CBMiW0FVX3lxTFBTbl9jZk9nZkJILTRKNXhZdU0xX2xEcGo4dmhDUlFQTF9zUXJtdjc2eTBmdXN6SVJUdTlDdUEyTE5qcm1CZDlLWkwtX1hiNjFZdDZtaW93eEViYlnSAWBBVV95cUxNU1lrT3R2S1E3Z3dsSnhOajBpa0xJRUpnbldpS3FuZkJrQ2owVC0zWURYeUxvMWdqa0t3YWg2N3paeDM5QmFtSTFRVFRydVRCVGVaWFJnamR0WUtpdl9fNnU?oc=5",
       "source": "연합뉴스",
@@ -85,6 +85,6 @@
       "query": "HLB이노베이션"
     }
   ],
-  "fetchedAt": "2026-07-16T16:48:54.634310+00:00",
+  "fetchedAt": "2026-07-16T18:17:32.946911+00:00",
   "count": 12
 }
