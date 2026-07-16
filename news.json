@@ -1,25 +1,32 @@
 {
   "news": [
     {
-      "title": "장인근 대표이사, HLB파나진 주식 3000주 ↑…지분율 0.04% - 데이터투자",
-      "link": "https://news.google.com/rss/articles/CBMic0FVX3lxTFBfLWk5OVNBU1dxbG1kclpZNk1hYjIyckFGaWRMQlhObld4eUpleDE4MWJiQllGRkFuRGpEeVZJZFVBTVg1MzhZbE9uWTFXYUExaUFvampHRHBaN1hQUnptbVJCX0NnV3JZMGw3a2ZvRTk1WlU?oc=5",
+      "title": "박기웅 상무, HLB파나진 주식 3000주 ↑…지분율 0.03% - 데이터투자",
+      "link": "https://news.google.com/rss/articles/CBMickFVX3lxTFB6Y2NiZERmZzNYSHl2bHZHUVltQlNscFpUbW1JR3lHVlA3dnd5ZjA4UXRidUVtQVhBRFBIdlhlWkxVdHBsc1ZTQTFveTRtNnZhRXZTdDh3eDNnWUtVcGdsRFJiR2hWYlhtaFdqc1R4VXNLdw?oc=5",
       "source": "데이터투자",
-      "pubDate": "2026-07-16T06:52:33+00:00",
+      "pubDate": "2026-07-16T06:49:07+00:00",
       "query": "HLB파나진"
     },
     {
       "title": "걸림돌 하나 치운 간암신약, 남은 시험대는 - 톱데일리",
-      "link": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE9YRDhtci1PZ0plaGI3V05McFNPWDlJZjZtWTUxajQ1bm5UYkkzUEprX095R0Y1NHpwX3Z5WGFtNUo2bVhMUDh6blJ6QmNKeFE?oc=5",
+      "link": "https://news.google.com/rss/articles/CBMiUEFVX3lxTE1CR1prUWxya0tVSkkyY19McjZHXzJFV01yak44ZVpIVkFXUlFXUU1saGxlY2k5ODktRkZxTVpHMmlxTkFZcmU1eVNMVmFSNzZt?oc=5",
       "source": "톱데일리",
       "pubDate": "2026-07-16T06:07:00+00:00",
       "query": "HLB 신약"
     },
     {
-      "title": "HLB바이오스텝, 통합 비임상 서비스로 파킨슨병 신약 IND 승인 지원 - ebn.co.kr",
-      "link": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE1vZzBOZUhpYS01Q3NQQ2NvWF9MSk9ZeHJrXy05T2JEeWw2eHBjSVY3QllSeUlTWHk2c0ZWc1RfR0JONWpwNVpFSW5hNnhNSlQzMHJyOTBteEtsTVkwQUh0dUhGLUoydTNN?oc=5",
-      "source": "ebn.co.kr",
-      "pubDate": "2026-07-16T05:45:46+00:00",
+      "title": "HLB바이오스텝, 파킨슨병 신약 IND 승인 지원 - MEDI:GATE NEWS",
+      "link": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE1OZkFWQ2hkblFDZlB1TjBRb3d3X3lFNGZSakVEcFktLVU0eElLLW1TWnVfdUI2YlNsbzlicnJuSHY4ejd0N1lScFVEMWc5U0tDSV9YcE1R?oc=5",
+      "source": "MEDI:GATE NEWS",
+      "pubDate": "2026-07-16T02:55:00+00:00",
       "query": "HLB 신약"
+    },
+    {
+      "title": "HLB제넥스 김도연 대표이사, 소유 주식 수량 3만2567주 증가…소유 지분율 0.10%p 상승 - 디지털투데이",
+      "link": "https://news.google.com/rss/articles/CBMic0FVX3lxTE5lRmgtZTJpMUFTaUZ6aGNyOXJucUdwaDYwR2NNWmZ6V3M1Qk1aZ3lfa1pKMGFjMUJwS3RCQ3JlaEVsRExxcy01Qk95ZGItamRJbWItTHlpVTNKZ3VPNXd2Zy1sNlJFZkh5WXBGclpZU00tMWc?oc=5",
+      "source": "디지털투데이",
+      "pubDate": "2026-07-16T01:32:03+00:00",
+      "query": "HLB제넥스"
     },
     {
       "title": "[특징주] HLB, '리보세라닙' FDA 불확실성 완화에 시총 10위 재진입 - 뉴스핌",
@@ -85,6 +92,6 @@
       "query": "HLB이노베이션"
     }
   ],
-  "fetchedAt": "2026-07-16T07:10:42.028850+00:00",
-  "count": 12
+  "fetchedAt": "2026-07-16T09:34:46.390365+00:00",
+  "count": 13
 }
