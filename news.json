@@ -1,5 +1,90 @@
 {
-  "news": [],
-  "fetchedAt": "2026-07-17T15:59:05.919501+00:00",
-  "count": 0
+  "news": [
+    {
+      "title": "HLB바이오스텝, 옙바이오 파킨슨병 치료제 IND 승인 지원…원스톱 CRO 플랫폼 강화 - 더퍼스트미디어",
+      "link": "https://news.google.com/rss/articles/CBMidEFVX3lxTE5vMmVuUFhDQXZucVBZRjZDQll6X1ZhbW8zTENfVnRoVGZiMFJfVzhvRUlUU1FUa2gtbFhMRTJDUjhfUWdNNm1JbThZMVlac0JUYWNOZV9xajlxM1BRM0REb2RXQ2JuZWFTbkZFX00tY3NZWmE00gF0QVVfeXFMTm8yZW5QWENBdm5xUFlGNkNCWXpfVmFtbzNMQ19WdGhUZmIwUl9XOG9FSVRTUVRraC1sWExFMkNSOF9RZ002bUltOFkxWVpzQlRhY05lX3FqOXEzUFEzRERvZFdDYm5lYVNuRkVfTS1jc1laYTQ?oc=5",
+      "source": "더퍼스트미디어",
+      "pubDate": "2026-07-17T12:03:28+00:00",
+      "query": "HLB바이오스텝"
+    },
+    {
+      "title": "세 번째 FDA 도전까지 실패한 HLB… 무너진 신뢰 회복 가능할까? - IT조선",
+      "link": "https://news.google.com/rss/articles/CBMidEFVX3lxTE9ISTUyUDcyVkRObU14WWJ1R3R0TU1UY3VrWTd4VVRjMWVIMEVxUGFEbVNySFpVT1JMS3V0UjNwNHpYNUItVHh6LW9vYU5sRXlvUGdJV2VxUTB3YlZTejhmemNYenN0VXlmRExIc1ZfWERnU3JJ0gF0QVVfeXFMT0hJNTJQNzJWRE5tTXhZYnVHdHRNTVRjdWtZN3hVVGMxZUgwRXFQYURtU3JIWlVPUkxLdXRSM3A0elg1Qi1UeHotb29hTmxFeW9QZ0lXZXFRMHdiVlN6OGZ6Y1h6c3RVeWZETEhzVl9YRGdTckk?oc=5",
+      "source": "IT조선",
+      "pubDate": "2026-07-16T20:12:29+00:00",
+      "query": "HLB FDA"
+    },
+    {
+      "title": "장인근 대표이사, HLB파나진 주식 3000주 ↑…지분율 0.04% - 데이터투자",
+      "link": "https://news.google.com/rss/articles/CBMic0FVX3lxTFBfLWk5OVNBU1dxbG1kclpZNk1hYjIyckFGaWRMQlhObld4eUpleDE4MWJiQllGRkFuRGpEeVZJZFVBTVg1MzhZbE9uWTFXYUExaUFvampHRHBaN1hQUnptbVJCX0NnV3JZMGw3a2ZvRTk1WlU?oc=5",
+      "source": "데이터투자",
+      "pubDate": "2026-07-16T06:52:33+00:00",
+      "query": "HLB파나진"
+    },
+    {
+      "title": "[단독] HLB 리보세라닙, FDA 변수 또 있다…재신청 10월까지 밀릴수도 - 데일리안",
+      "link": "https://news.google.com/rss/articles/CBMi1wFBVV95cUxNaU1GTUNkdVdDZzZGSG1rS29jOXI5UjJWZ1Y1WVI3dFZyb1FlY25OSkd6QnZna2NOaDdZZlZDMlVOMkhfNDRiM25aanp6QUhNWkRjNjNDd3VUbnNlX2JHamprS1k4VW43Z0pqOUhMekNkS1E2cURrdHNHY1c4NElDNEV1NFVyeVYwQ1k0WjZkNDFNRnhEanctd2NPTExxWFphbUstdUl3bEc1R1ZBbXpQYXFaRW5ackZJU1RPYmxVOTFiUE5IOUY2NktSdUM1LWRUTXVRdkI0bw?oc=5",
+      "source": "데일리안",
+      "pubDate": "2026-07-16T06:32:00+00:00",
+      "query": "HLB FDA"
+    },
+    {
+      "title": "HLB Hits Limit-Up on FDA Optimism; Curiosis, Peptron Rebound Sharply [K-Bio Pulse] - 팜이데일리",
+      "link": "https://news.google.com/rss/articles/CBMibkFVX3lxTE1iNG0tSEM5VTRnYkp5XzNRTF9BYlFYdTBkT0RsOFlGZUhERTBDTzlvNWNtR2dtS1k3Rkl5TGdoSkZzOFlZdkVYOHg4Z0FrVFhIeXdTVVhOSjhWd2xMbmFqOWJWZkFVUWdfbjEzOGpR?oc=5",
+      "source": "팜이데일리",
+      "pubDate": "2026-07-15T23:10:04+00:00",
+      "query": "HLB FDA"
+    },
+    {
+      "title": "[HLB제약 유증] ⑤ 항서제약 리스크가 띄운 유증…소액주주 울린 '정보 비대칭' - 스마트투데이",
+      "link": "https://news.google.com/rss/articles/CBMiX0FVX3lxTFAtRnl1T3YwTHdDVnJ1VGZxeXIycHpiU3ZyTmltMzNRU2hYZldUazJGMlZocXlrUi15ZEg3SVRIUElONWJGa0lCMXdRTzUyZ2tOMW5NNTUzOUVLejBpUDdn?oc=5",
+      "source": "스마트투데이",
+      "pubDate": "2026-07-15T22:20:00+00:00",
+      "query": "HLB제약"
+    },
+    {
+      "title": "[서울데이터랩]코스닥 거래상위 종목 강세…HLB파나진 29% 급등, JW신약·위닉스도 두 자릿수 상승 - 서울신문",
+      "link": "https://news.google.com/rss/articles/CBMikwFBVV95cUxPSktEZDMzNnZEUzNiZlhvem5TZVE3RXExTWdqR21sVUhIeWhocGM0Q29CZ25qV0NqQXpNZzlEVldybmtod1NYNzA5bXZOcGgyaW1IcFNnY19wSVBlWTEzcVR5UkZFRV94TlZDVFhMT3VkYW9rc3JBRjJtQnJlVm1tY3JkamN3WDhfR1l5dnN4NXExcFk?oc=5",
+      "source": "서울신문",
+      "pubDate": "2026-07-15T04:40:00+00:00",
+      "query": "HLB파나진"
+    },
+    {
+      "title": "HLB테라퓨틱스 RGN-259 성분, 세균성 각막염서 각막신경 회복 확인...美 연구진 발표 - PRESS9",
+      "link": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE9hNzVlRE8xdWlKUWxyUm1HRlJWY3gwX3o4NVZ6NHVwU0tzTmNsekFER1R1Y1lSMVZpaXdfQ0F6VG1FRXV6LVUxamZzWHBESk04MmszWXhDa0dWaVp0OXM4LXlBT3o?oc=5",
+      "source": "PRESS9",
+      "pubDate": "2026-07-15T00:52:48+00:00",
+      "query": "HLB테라퓨틱스"
+    },
+    {
+      "title": "HLB “리보세라닙 허가 걸림돌 해소”…cGMP 실사 VAI 종결 - 전자신문",
+      "link": "https://news.google.com/rss/articles/CBMiTkFVX3lxTFBMeF9IY05EelJYRlIzQ1VtZTBHZTB2bXJxV3NiRVo0WEtyRDNhS3lQUHRad0ZWeFV2U0JiaHk2elB0Y1RyVzFuMG1DZzAyZw?oc=5",
+      "source": "전자신문",
+      "pubDate": "2026-07-15T00:25:31+00:00",
+      "query": "HLB 허가"
+    },
+    {
+      "title": "HLB \"간암 신약, 미국 승인 문제점 대부분 해소\" - v.daum.net",
+      "link": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE9ueVZrTEhPa0pfWlhWbExIVnhpRnVUb2IyUVBzcDRMRUVfOEhxMmlmbmVnN2ZZdXdLMWtYNUxnbkUzS1VUSHRaWU5mdENwalVlV3VaSQ?oc=5",
+      "source": "v.daum.net",
+      "pubDate": "2026-07-15T00:12:40+00:00",
+      "query": "HLB 신약"
+    },
+    {
+      "title": "YK스틸·HLB에너지 등 \"깨끗한 사하구 만들기\" - 한스경제",
+      "link": "https://news.google.com/rss/articles/CBMia0FVX3lxTE51U3Fhd2prYmQ3Q0pnSVVnWWVJb2R2RlFXZTNMNnpJajFwTGZsRHpuSmFKNFZmVV9CRHFfZ0UxOTNfTWg1MTA3ZS1xYm80RGR5T2M0U3lESVNvVTEwTGZBTlFabHZSdTRfY29z?oc=5",
+      "source": "한스경제",
+      "pubDate": "2026-07-13T10:04:28+00:00",
+      "query": "HLB에너지"
+    },
+    {
+      "title": "특징주, HLB이노베이션-반도체 재료/부품 테마 상승세에 6.64% ↑ - 매일경제 마켓",
+      "link": "https://news.google.com/rss/articles/CBMiUkFVX3lxTFAwR3VlNVRQeFB1Z0JfdklkSW9DdjFBR3FheVhIeFNBZEhmSE1SYUJjR1U0eE85X1FPVlV6VmVaQkVYMUp3SWlIOWJmWmxMTTdCZVE?oc=5",
+      "source": "매일경제 마켓",
+      "pubDate": "2026-07-13T00:39:55+00:00",
+      "query": "HLB이노베이션"
+    }
+  ],
+  "fetchedAt": "2026-07-17T17:21:35.842404+00:00",
+  "count": 12
 }
