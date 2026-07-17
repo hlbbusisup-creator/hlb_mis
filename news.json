@@ -50,9 +50,9 @@
       "query": "HLB FDA"
     },
     {
-      "title": "[서울데이터랩]코스닥 거래상위 종목 강세…HLB파나진 29% 급등, JW신약·위닉스도 두 자릿수 상승 - twig24.com",
-      "link": "https://news.google.com/rss/articles/CBMidkFVX3lxTE9STmFHNVM2Ulc5NWxCTXVDQmJtcjRHakpfSkdhZGRMaGlTd1NsSHRRblR5MUwxZ1JYT1pValFTVVBwT3lpRHcwZk82cnBTUTBkd0NmaDVqd0lBYXRSUDVPNUEwYjNmUHlKRUViQjhTaVVXMkE4RVE?oc=5",
-      "source": "twig24.com",
+      "title": "[서울데이터랩]코스닥 거래상위 종목 강세…HLB파나진 29% 급등, JW신약·위닉스도 두 자릿수 상승 - 서울신문",
+      "link": "https://news.google.com/rss/articles/CBMikwFBVV95cUxPSktEZDMzNnZEUzNiZlhvem5TZVE3RXExTWdqR21sVUhIeWhocGM0Q29CZ25qV0NqQXpNZzlEVldybmtod1NYNzA5bXZOcGgyaW1IcFNnY19wSVBlWTEzcVR5UkZFRV94TlZDVFhMT3VkYW9rc3JBRjJtQnJlVm1tY3JkamN3WDhfR1l5dnN4NXExcFk?oc=5",
+      "source": "서울신문",
       "pubDate": "2026-07-15T04:40:00+00:00",
       "query": "HLB파나진"
     },
@@ -92,6 +92,6 @@
       "query": "HLB이노베이션"
     }
   ],
-  "fetchedAt": "2026-07-17T09:00:38.591652+00:00",
+  "fetchedAt": "2026-07-17T10:56:58.149868+00:00",
   "count": 13
 }
