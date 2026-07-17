@@ -1,6 +1,13 @@
 {
   "news": [
     {
+      "title": "간암 신약 원료공장, 美 FDA 실사 '통과'…HLB, 남은 과제는 '완제공장' - 청년일보",
+      "link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE9GT0d3UHBPWDVIMTZ6ZjNXVlFZOU90X1NfUG1TRGxxVkttT0g4aVJHMm5XeU9rNU96NHJnWWMwc01JcEFMZkhkcmVCaVFNY19kUV8xTkhvSUt3LUNMM29RNUFVSkduV0k?oc=5",
+      "source": "청년일보",
+      "pubDate": "2026-07-16T23:00:04+00:00",
+      "query": "HLB FDA"
+    },
+    {
       "title": "세 번째 FDA 도전까지 실패한 HLB… 무너진 신뢰 회복 가능할까? - IT조선",
       "link": "https://news.google.com/rss/articles/CBMicEFVX3lxTFBVNi1DS1VfaXZiVU9qb3Q2QWhEZTdCbU9GbVRLX3NxWU9zcU5TbFpnYTliTnJCZTB4MFdEQzZmTlZlZmF5WTFCMkwzVS1vWXR3ZVIyMXFKR2g4cmlNSnl0Q0E0Q0xLLUctVThNSWlYZVLSAXRBVV95cUxPSEk1MlA3MlZETm1NeFlidUd0dE1NVGN1a1k3eFVUYzFlSDBFcVBhRG1TckhaVU9STEt1dFIzcDR6WDVCLVR4ei1vb2FObEV5b1BnSVdlcVEwd2JWU3o4ZnpjWHpzdFV5ZkRMSHNWX1hEZ1NySQ?oc=5",
       "source": "IT조선",
@@ -64,13 +71,6 @@
       "query": "HLB테라퓨틱스"
     },
     {
-      "title": "HLB \"간암 신약, 미국 승인 문제점 대부분 해소\" - 연합뉴스",
-      "link": "https://news.google.com/rss/articles/CBMiW0FVX3lxTFBTbl9jZk9nZkJILTRKNXhZdU0xX2xEcGo4dmhDUlFQTF9zUXJtdjc2eTBmdXN6SVJUdTlDdUEyTE5qcm1CZDlLWkwtX1hiNjFZdDZtaW93eEViYlk?oc=5",
-      "source": "연합뉴스",
-      "pubDate": "2026-07-15T00:10:38+00:00",
-      "query": "HLB 신약"
-    },
-    {
       "title": "YK스틸·HLB에너지 등 \"깨끗한 사하구 만들기\" - 한스경제",
       "link": "https://news.google.com/rss/articles/CBMia0FVX3lxTE51U3Fhd2prYmQ3Q0pnSVVnWWVJb2R2RlFXZTNMNnpJajFwTGZsRHpuSmFKNFZmVV9CRHFfZ0UxOTNfTWg1MTA3ZS1xYm80RGR5T2M0U3lESVNvVTEwTGZBTlFabHZSdTRfY29z?oc=5",
       "source": "한스경제",
@@ -85,6 +85,6 @@
       "query": "HLB이노베이션"
     }
   ],
-  "fetchedAt": "2026-07-16T23:08:56.728071+00:00",
+  "fetchedAt": "2026-07-17T01:00:58.676247+00:00",
   "count": 12
 }
