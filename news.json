@@ -1,13 +1,6 @@
 {
   "news": [
     {
-      "title": "HLB바이오스텝, 옙바이오 파킨슨병 신약 임상 진입 지원 - 데일리팜",
-      "link": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE8tQm1JUG5PRHFDcVI4eUxtamdYMXJUS0ZRNEpFRndfUGx6NjBGODBpT3Q2VHNqR3RxeGNWQVRab2dCbmMyM05icVd2VDRYZnBBS1M4YzljZ3huSTJuVXpZUzBR?oc=5",
-      "source": "데일리팜",
-      "pubDate": "2026-07-16T23:15:17+00:00",
-      "query": "HLB 임상"
-    },
-    {
       "title": "세 번째 FDA 도전까지 실패한 HLB… 무너진 신뢰 회복 가능할까? - IT조선",
       "link": "https://news.google.com/rss/articles/CBMicEFVX3lxTFBVNi1DS1VfaXZiVU9qb3Q2QWhEZTdCbU9GbVRLX3NxWU9zcU5TbFpnYTliTnJCZTB4MFdEQzZmTlZlZmF5WTFCMkwzVS1vWXR3ZVIyMXFKR2g4cmlNSnl0Q0E0Q0xLLUctVThNSWlYZVLSAXRBVV95cUxPSEk1MlA3MlZETm1NeFlidUd0dE1NVGN1a1k3eFVUYzFlSDBFcVBhRG1TckhaVU9STEt1dFIzcDR6WDVCLVR4ei1vb2FObEV5b1BnSVdlcVEwd2JWU3o4ZnpjWHpzdFV5ZkRMSHNWX1hEZ1NySQ?oc=5",
       "source": "IT조선",
@@ -20,6 +13,13 @@
       "source": "데이터투자",
       "pubDate": "2026-07-16T06:52:33+00:00",
       "query": "HLB파나진"
+    },
+    {
+      "title": "HLB바이오스텝, 파킨슨병 신약 IND 승인 지원 - MEDI:GATE NEWS",
+      "link": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE1OZkFWQ2hkblFDZlB1TjBRb3d3X3lFNGZSakVEcFktLVU0eElLLW1TWnVfdUI2YlNsbzlicnJuSHY4ejd0N1lScFVEMWc5U0tDSV9YcE1R?oc=5",
+      "source": "MEDI:GATE NEWS",
+      "pubDate": "2026-07-16T02:55:00+00:00",
+      "query": "HLB 임상"
     },
     {
       "title": "HLB Hits Limit-Up on FDA Optimism; Curiosis, Peptron Rebound Sharply [K-Bio Pulse] - 팜이데일리",
@@ -43,9 +43,9 @@
       "query": "HLB FDA"
     },
     {
-      "title": "[서울데이터랩]코스닥 거래상위 종목 강세…HLB파나진 29% 급등, JW신약·위닉스도 두 자릿수 상승 - 서울신문",
-      "link": "https://news.google.com/rss/articles/CBMifkFVX3lxTE9CVVNwOXdZYUFuVmh3TmJRVkxsS21CMlVQZGd6bWNPWTVZWHlSV2VrWG1sajRnbmpUUVVpb1VLRmFhWURvTUZUT2xMNm14czNLNW1tSGRCeTVpTE1JUFp4elpLUkxlS1M1OS1iWUxud0Rac09UQ1d4TXNyMkxzQQ?oc=5",
-      "source": "서울신문",
+      "title": "[서울데이터랩]코스닥 거래상위 종목 강세…HLB파나진 29% 급등, JW신약·위닉스도 두 자릿수 상승 - twig24.com",
+      "link": "https://news.google.com/rss/articles/CBMidkFVX3lxTE9STmFHNVM2Ulc5NWxCTXVDQmJtcjRHakpfSkdhZGRMaGlTd1NsSHRRblR5MUwxZ1JYT1pValFTVVBwT3lpRHcwZk82cnBTUTBkd0NmaDVqd0lBYXRSUDVPNUEwYjNmUHlKRUViQjhTaVVXMkE4RVE?oc=5",
+      "source": "twig24.com",
       "pubDate": "2026-07-15T04:40:00+00:00",
       "query": "HLB파나진"
     },
@@ -85,6 +85,6 @@
       "query": "HLB이노베이션"
     }
   ],
-  "fetchedAt": "2026-07-17T04:20:14.647447+00:00",
+  "fetchedAt": "2026-07-17T06:37:54.332426+00:00",
   "count": 12
 }
