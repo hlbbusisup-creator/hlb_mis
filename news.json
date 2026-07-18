@@ -50,18 +50,18 @@
       "query": "HLB파나진"
     },
     {
+      "title": "HLB \"간암 신약 CRL 중대 사유 해소\" - 데일리팜",
+      "link": "https://news.google.com/rss/articles/CBMiUEFVX3lxTE5fY3l1MDFTUEtWOFpfekVPaVFMTzhJUVZiMG5DLVJFelJWM0dBU096aEF0UV8zZUhCY1hVM0hvSVB0SUc3MGpGUC12QkIwLUda?oc=5",
+      "source": "데일리팜",
+      "pubDate": "2026-07-15T03:15:12+00:00",
+      "query": "HLB 신약"
+    },
+    {
       "title": "HLB “리보세라닙 원료 제조소, 美 FDA 실사 VAI로 종결” - 팜이데일리",
       "link": "https://news.google.com/rss/articles/CBMibkFVX3lxTE5rV20tNFNwU3lSVUVFNmZ6anpuYjR1WWViLXNuYW9ySmdTWWREQ3lGUEliVk1uZjJsSlJESmVkRXVtRGQ0N0NvN1hxaDBjSjIwYkNsVXphSERfdzNHMWtRX0U5VllDTE56SThaVXR3?oc=5",
       "source": "팜이데일리",
       "pubDate": "2026-07-15T02:47:17+00:00",
       "query": "HLB FDA"
-    },
-    {
-      "title": "HLB \"간암 신약 CRL 핵심 사유 해소…FDA 공식 입장 확인 추진\" - MEDI:GATE NEWS",
-      "link": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE9ZZmp6Y0d2Y1g0YlJYZkVoVFVPUktpSmpIZDZrcDdWWGdCRHJ6WlFzTDRPUlVoTnc4YXlGQzVvX1U0Tjl0U2h6NnBEN1VjUWh1T1U5YQ?oc=5",
-      "source": "MEDI:GATE NEWS",
-      "pubDate": "2026-07-15T02:04:00+00:00",
-      "query": "HLB 신약"
     },
     {
       "title": "HLB테라퓨틱스 RGN-259 성분, 세균성 각막염서 각막신경 회복 확인...美 연구진 발표 - PRESS9",
@@ -85,6 +85,6 @@
       "query": "HLB이노베이션"
     }
   ],
-  "fetchedAt": "2026-07-18T13:44:02.298920+00:00",
+  "fetchedAt": "2026-07-18T14:41:44.304376+00:00",
   "count": 12
 }
