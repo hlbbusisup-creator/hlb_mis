@@ -1,6 +1,13 @@
 {
   "news": [
     {
+      "title": "세 번째 CRL 수령한 진양곤 HLB그룹 의장, 앞으로는?[화제의 바이오人] - 팜이데일리",
+      "link": "https://news.google.com/rss/articles/CBMibkFVX3lxTFBiUmFtdkg1RHY4X2E1QzJiZy1nMVVtWGo0dG92MUhuMEtReE1YTmZZVUVfZnYwU0RXXzNGZ012bmhmQ19EbTR3eENjVkxqZThibzRWUWlLWGtkclA3V0NLNWhLVktDc3JmcEE4QmFB?oc=5",
+      "source": "팜이데일리",
+      "pubDate": "2026-07-19T09:00:04+00:00",
+      "query": "HLB 신약"
+    },
+    {
       "title": "HLB바이오스텝, 옙바이오 파킨슨병 신약 임상 진입 지원 - 데일리팜",
       "link": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE8tQm1JUG5PRHFDcVI4eUxtamdYMXJUS0ZRNEpFRndfUGx6NjBGODBpT3Q2VHNqR3RxeGNWQVRab2dCbmMyM05icVd2VDRYZnBBS1M4YzljZ3huSTJuVXpZUzBR?oc=5",
       "source": "데일리팜",
@@ -20,6 +27,13 @@
       "source": "데이터투자",
       "pubDate": "2026-07-16T06:49:07+00:00",
       "query": "HLB파나진"
+    },
+    {
+      "title": "HLB제넥스 김도연 대표이사, 소유 주식 수량 3만2567주 증가…소유 지분율 0.10%p 상승 - 디지털투데이",
+      "link": "https://news.google.com/rss/articles/CBMic0FVX3lxTE5lRmgtZTJpMUFTaUZ6aGNyOXJucUdwaDYwR2NNWmZ6V3M1Qk1aZ3lfa1pKMGFjMUJwS3RCQ3JlaEVsRExxcy01Qk95ZGItamRJbWItTHlpVTNKZ3VPNXd2Zy1sNlJFZkh5WXBGclpZU00tMWc?oc=5",
+      "source": "디지털투데이",
+      "pubDate": "2026-07-16T01:32:03+00:00",
+      "query": "HLB제넥스"
     },
     {
       "title": "[HLB제약 유증] ⑤ 항서제약 리스크가 띄운 유증…소액주주 울린 '정보 비대칭' - 스마트투데이",
@@ -47,7 +61,7 @@
       "link": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE9ZZmp6Y0d2Y1g0YlJYZkVoVFVPUktpSmpIZDZrcDdWWGdCRHJ6WlFzTDRPUlVoTnc4YXlGQzVvX1U0Tjl0U2h6NnBEN1VjUWh1T1U5YQ?oc=5",
       "source": "MEDI:GATE NEWS",
       "pubDate": "2026-07-15T02:04:00+00:00",
-      "query": "HLB 신약"
+      "query": "HLB FDA"
     },
     {
       "title": "HLB테라퓨틱스 RGN-259 성분, 세균성 각막염서 각막신경 회복 확인...美 연구진 발표 - PRESS9",
@@ -71,6 +85,6 @@
       "query": "HLB이노베이션"
     }
   ],
-  "fetchedAt": "2026-07-19T08:58:55.179066+00:00",
-  "count": 10
+  "fetchedAt": "2026-07-19T10:41:39.958079+00:00",
+  "count": 12
 }
