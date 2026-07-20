@@ -1,11 +1,25 @@
 {
   "news": [
     {
+      "title": "반재구 이사, HLB제넥스 주식 1만860주 ↑…지분율 6.44% - 데이터투자",
+      "link": "https://news.google.com/rss/articles/CBMic0FVX3lxTE5NdUljMG5LRjRtanJ1N1dYRlNuYTg1eDhsM2pVRWF6OTRuUm5ncVlZZDNXeXFfeEROajlnZVBhRks0NHNZNjNvRVpYeG1iQ25QYldxWGl0em9hTjE3d2lTMjlkWjMtbWtOM192NThLVXJuYTQ?oc=5",
+      "source": "데이터투자",
+      "pubDate": "2026-07-20T07:08:00+00:00",
+      "query": "HLB제넥스"
+    },
+    {
       "title": "항암 치료백신·희귀 각막염 치료제…HLB그룹 계열사들, 임상 진행 중 - 뉴스토마토",
       "link": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE1aeklwTmRNNmNkQjVwbGRfT1dIRUhudVZ4SGQtZVM2N1BsRjFvZDZFTlcwTmRnNy1McHJIeXpsUlRDbFl1V3RCWmxnalFsMUgtNk1RUHdmLW9jVy1xcTN1Vg?oc=5",
       "source": "뉴스토마토",
       "pubDate": "2026-07-20T06:51:36+00:00",
       "query": "HLB 임상"
+    },
+    {
+      "title": "HLB라이프케어, '피코링' B2B사업 확대...\"건강데이터 종합 서비스 구현할것\" - 메트로신문",
+      "link": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE1TWDdpQ0E4U3A1WGNFWjJjaGticklVSGw3OFpBN09KNklTM1hqbEJXOWpBQlE4QkE3Zzh1eElySGttaWJVODFxbUZLT291dGVXcmRGOWtObWV0VTlqOVkyeA?oc=5",
+      "source": "메트로신문",
+      "pubDate": "2026-07-20T06:34:52+00:00",
+      "query": "HLB라이프케어"
     },
     {
       "title": "HLB라이프케어, 인바디헬스케어와 피코링 협업 - 뉴스핌",
@@ -43,13 +57,6 @@
       "query": "HLB FDA"
     },
     {
-      "title": "박기웅 상무, HLB파나진 주식 3000주 ↑…지분율 0.03% - 데이터투자",
-      "link": "https://news.google.com/rss/articles/CBMickFVX3lxTFB6Y2NiZERmZzNYSHl2bHZHUVltQlNscFpUbW1JR3lHVlA3dnd5ZjA4UXRidUVtQVhBRFBIdlhlWkxVdHBsc1ZTQTFveTRtNnZhRXZTdDh3eDNnWUtVcGdsRFJiR2hWYlhtaFdqc1R4VXNLdw?oc=5",
-      "source": "데이터투자",
-      "pubDate": "2026-07-16T06:49:07+00:00",
-      "query": "HLB파나진"
-    },
-    {
       "title": "HLB바이오스텝, 파킨슨병 신약 IND 승인 지원 - MEDI:GATE NEWS",
       "link": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE1OZkFWQ2hkblFDZlB1TjBRb3d3X3lFNGZSakVEcFktLVU0eElLLW1TWnVfdUI2YlNsbzlicnJuSHY4ejd0N1lScFVEMWc5U0tDSV9YcE1R?oc=5",
       "source": "MEDI:GATE NEWS",
@@ -83,15 +90,8 @@
       "source": "Chosunbiz",
       "pubDate": "2026-07-15T01:07:00+00:00",
       "query": "HLB 허가"
-    },
-    {
-      "title": "YK스틸·HLB에너지 등 \"깨끗한 사하구 만들기\" - 한스경제",
-      "link": "https://news.google.com/rss/articles/CBMia0FVX3lxTE51U3Fhd2prYmQ3Q0pnSVVnWWVJb2R2RlFXZTNMNnpJajFwTGZsRHpuSmFKNFZmVV9CRHFfZ0UxOTNfTWg1MTA3ZS1xYm80RGR5T2M0U3lESVNvVTEwTGZBTlFabHZSdTRfY29z?oc=5",
-      "source": "한스경제",
-      "pubDate": "2026-07-13T10:04:28+00:00",
-      "query": "HLB에너지"
     }
   ],
-  "fetchedAt": "2026-07-20T08:17:36.575688+00:00",
+  "fetchedAt": "2026-07-20T11:22:04.823147+00:00",
   "count": 13
 }
