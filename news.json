@@ -1,11 +1,25 @@
 {
   "news": [
     {
-      "title": "[카드] HLB테라퓨틱스, RGN-259 글로벌 3상 환자모집 완료 - 네이트",
-      "link": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE83WDBCTzF4UGhBM2JFbWlyTnJBbF9yRG9UZnRqcVpRQWQ5UnVaX2hFNnhMQkd0eXFjMVhUd2pHdU5FMHMwaWNPdG5FcWZOWDN1UHo4?oc=5",
-      "source": "네이트",
-      "pubDate": "2026-07-20T04:31:00+00:00",
-      "query": "HLB테라퓨틱스"
+      "title": "항암 치료백신·희귀 각막염 치료제…HLB그룹 계열사들, 임상 진행 중 - 뉴스토마토",
+      "link": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE1aeklwTmRNNmNkQjVwbGRfT1dIRUhudVZ4SGQtZVM2N1BsRjFvZDZFTlcwTmRnNy1McHJIeXpsUlRDbFl1V3RCWmxnalFsMUgtNk1RUHdmLW9jVy1xcTN1Vg?oc=5",
+      "source": "뉴스토마토",
+      "pubDate": "2026-07-20T06:51:36+00:00",
+      "query": "HLB 임상"
+    },
+    {
+      "title": "HLB라이프케어, 인바디헬스케어와 피코링 협업 - 뉴스핌",
+      "link": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE1xeE16ZklSNjZ4SGpqSmxpUVpScFRwZUx3eEpYSWdOV20ta3ljUy1nNnhnXzBsdUxxajNLdFgyS2xxWlNETFNpN1k5QmwxUG5jOHdoUkFJUlktQ25j?oc=5",
+      "source": "뉴스핌",
+      "pubDate": "2026-07-20T06:29:00+00:00",
+      "query": "HLB라이프케어"
+    },
+    {
+      "title": "HLB테라퓨틱스, 각막염 치료제 글로벌 3상 환자모집 완료 - 중소기업신문",
+      "link": "https://news.google.com/rss/articles/CBMibkFVX3lxTE9fLXFCTkM2VDNKbG1jM1cyY09pdVV4cUM1T2didFhFOHRzUFVyYmZvSjdxNWVROUU3Z21XQlJFWVdNX0h2QktJOC1HYmpEX0laZ2pHTEZTMmZsZTNkUkVJb1VWdThTWmdLMFdLWTh3?oc=5",
+      "source": "중소기업신문",
+      "pubDate": "2026-07-20T05:43:19+00:00",
+      "query": "HLB 신약"
     },
     {
       "title": "조선기자재 HLB오션테크, 미래먹거리 '방산 장비' 낙점…2028년 매출 1천억 목표 - 네이트",
@@ -15,10 +29,10 @@
       "query": "HLB오션테크"
     },
     {
-      "title": "HLB \"자회사 이뮤노믹, 항암백신 임상 1상 시작\" - 뉴스핌",
-      "link": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE1WQ0dTWmZ6Z19JNVFhVVBXeUk2aE9oYk4xWDRNc0pJNXNIRFZLRF9MZUN1VnNrdFJONU96bXk5V3JxbUNZQkYxYzR6RDViNUUzOGdBQmM4clI3YVV6?oc=5",
-      "source": "뉴스핌",
-      "pubDate": "2026-07-20T00:24:00+00:00",
+      "title": "HLB 자회사 이뮤노믹, ITI-5000 미국 임상 1상 첫 환자 투약 - 한국경제",
+      "link": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE81OGtvVDN2d25ob05QVndQZDdWQUM3Sm9uYlBMUVNrS1pXYnN2TG5mdEEzNmppeHZPcWozQU11SjBxaTNHcGEteFcwMjQ4ajhwM19VT0gxR0ZpQQ?oc=5",
+      "source": "한국경제",
+      "pubDate": "2026-07-19T23:47:03+00:00",
       "query": "HLB 임상"
     },
     {
@@ -78,6 +92,6 @@
       "query": "HLB에너지"
     }
   ],
-  "fetchedAt": "2026-07-20T05:05:25.614722+00:00",
-  "count": 11
+  "fetchedAt": "2026-07-20T08:17:36.575688+00:00",
+  "count": 13
 }
