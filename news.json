@@ -1,18 +1,18 @@
 {
   "news": [
     {
+      "title": "HLB이노베이션, 3회차 전환사채 전환가액 1만447원으로 하향 - 마켓인",
+      "link": "https://news.google.com/rss/articles/CBMic0FVX3lxTE5aNl9UZGhMVDR6OE8xNXVHbVlqUE50LUI5Z3VZRFJibmRKRHcxZUFZdkhTVUQ2ekFIQWhSaHRZWkZjcHdLUks4YjFKb29aZk5BNzFtMU5RWTlwZVlZMlFMWFlQRklDcG1fTzh4b0dVYWlfRFU?oc=5",
+      "source": "마켓인",
+      "pubDate": "2026-07-21T07:00:21+00:00",
+      "query": "HLB이노베이션"
+    },
+    {
       "title": "HLB라이프케어 피코링, 인바디헬스케어 입점…B2B 공략 확대 - IT타임스",
       "link": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE45c3VWX0Q3VW9QN2wxLWZva2RVdm4yblVHM05lSWwySmhuSVNaS3BYVUpDXzJVdWxOWEMwZ0dOTkIzVXhhWHJnU01WUVQxUkNaSG5zdTZrQWRYV2VCb2E1SVVmY0hfNlBE?oc=5",
       "source": "IT타임스",
       "pubDate": "2026-07-21T02:18:34+00:00",
       "query": "HLB라이프케어"
-    },
-    {
-      "title": "HLB이노베이션 베리스모, CAR-T 파이프라인 확대 - 중소기업신문",
-      "link": "https://news.google.com/rss/articles/CBMibEFVX3lxTFBrOVdNUXFudmdFTWQtWTlIMTBVQTRabXFsSzdwemhQYjFRRUFPcm42Y3J4c2poMEg4WUFsYi00RVY1U2tZYy01bC1MMzFYWUVIVk9QWVNNMDlGQy1ycWRxUVhOMFhxbEFqUmlJYg?oc=5",
-      "source": "중소기업신문",
-      "pubDate": "2026-07-21T02:13:40+00:00",
-      "query": "HLB이노베이션"
     },
     {
       "title": "HLB바이오스텝 이형석 상무, 소유 주식 수량 4987주 증가…소유 지분율 0.03%p 상승 - 디지털투데이",
@@ -29,6 +29,13 @@
       "query": "HLB 신약"
     },
     {
+      "title": "HLB이노베이션, 'CLDN6' 표적 확보…고형암 CAR-T 확장 속도 - v.daum.net",
+      "link": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE9OSkNUMkxtVU9zX282V0N6ZmdQV19lOTdlTmNCelA3NFctMkpwMGw3ZGpxZVJONjlRaHBoNTdXTnVnUTViQ0dpZWVsNVhoQWc?oc=5",
+      "source": "v.daum.net",
+      "pubDate": "2026-07-21T00:10:53+00:00",
+      "query": "HLB이노베이션"
+    },
+    {
       "title": "HLB, 간암 신약 허가 불발 전부터 美 상업화 채비…보험 적용 인력 채용 - 팜이데일리",
       "link": "https://news.google.com/rss/articles/CBMibkFVX3lxTE5pUHRndmVOY1N5MVlIY2pvZ2U3aW5pbTR1UkdNc3Y3MUpEMVRDWFFuY0ptalhfSG5hc2Mwb1AzS0RSTGlfUHJ2QXIzMW4xdU53c2lHOFUxMXN1UzQ5a1ZvQ0dBRnVpMTExa0tRQ1p3?oc=5",
       "source": "팜이데일리",
@@ -36,15 +43,8 @@
       "query": "HLB 신약"
     },
     {
-      "title": "HLB이노베이션 베리스모, 고형암 신규 표적 확보 - 뉴스1",
-      "link": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE1YTFhFbU9xUV9oSjRaem9jODdGWGtKd3NqdGVzSDFuY1VYTmNxQk5aS0xTdFRaUmdGblpoMldnUzdxY0h0eE9TcjBVcGd4bmVyTVI2Sm5WV01uTFF1cG9Sdg?oc=5",
-      "source": "뉴스1",
-      "pubDate": "2026-07-20T23:28:06+00:00",
-      "query": "HLB이노베이션"
-    },
-    {
       "title": "HLB, 美자회사 '이뮤노믹' UNITE 기반 saRNA 항암백신 임상1상 첫 환자 투약 - 팍스경제TV",
-      "link": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE9sSmRMTkNtdWU2bkVuZFdXdEI4X0RQU1o5cVpCUmV2cUlQT0F4UWVlZGVFT2c4c3RmWkRGMEx3cW13Mk9ZTTVhUEJ5V2ZSY0ktWUVCWUR6RlV6STZxZ1JuRlZtdWlVZkw1?oc=5",
+      "link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE80V1M5VTk3b1pSUlB1UUJuWTVoa29MX2VuN1hjeE5YVU5HdWh2b0hVY1BQZnhPUDdicEllaldOVEtvcUxlcVAwd0Z5M2o2NWZ6VUtCLUhJWVF3QXplUkFlbGdOMVFjTFE?oc=5",
       "source": "팍스경제TV",
       "pubDate": "2026-07-20T14:01:35+00:00",
       "query": "HLB 임상"
@@ -71,10 +71,10 @@
       "query": "HLB라이프케어"
     },
     {
-      "title": "HLB테라퓨틱스, RGN-259 글로벌 3상 환자모집 완료 - 아시아경제",
-      "link": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE1XSkJKczBPRTZzVW1rcUs1NGJfaC1zXzZyMWVlblBnalNLQjZFd3NfRDVkNDBiRkQ4d1BhdEFtckFrLVRNRXNXNFBsTWY5b0NNc2pFay1QSW9Mdlp1MFg2TQ?oc=5",
-      "source": "아시아경제",
-      "pubDate": "2026-07-20T05:29:42+00:00",
+      "title": "HLB테라퓨틱스, 신경영양성각막염 치료제 'RGN-259' 3상 환자 모집 완료 - 데일리한국",
+      "link": "https://news.google.com/rss/articles/CBMib0FVX3lxTFBOQ1BrX2xjck5yd2VlMzNtTUJPYzl2bGtHOHZxbk9adW9QaU9IQVJ2Mzg2UFhmdTJxR19hUVZBX1dJVjVQREtTUkFOcC12czlheEJFTlRTcjhzTm9WU2J5WHFES3A4N3JUZTB4c25lVdIBc0FVX3lxTFBGYUNTRWpiN1RBQ3VLWlpQSlFCNGc2dGt6NlhUYUZrb3VPM184TTVFT0pFMnBmUVp3dmJwNXRsR2JPLUZwMDltdzhUOVJtQ2NjdUZTSGFDRTRJU09DaXpMdjFYeFZZemJZNy1FdUxNN0gtRlU?oc=5",
+      "source": "데일리한국",
+      "pubDate": "2026-07-20T05:33:34+00:00",
       "query": "HLB테라퓨틱스"
     },
     {
@@ -113,6 +113,6 @@
       "query": "HLB FDA"
     }
   ],
-  "fetchedAt": "2026-07-21T04:46:25.553352+00:00",
+  "fetchedAt": "2026-07-21T07:24:28.348955+00:00",
   "count": 16
 }
