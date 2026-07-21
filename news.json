@@ -19,7 +19,7 @@
       "link": "https://news.google.com/rss/articles/CBMiU0FVX3lxTFAxUWY5eW1jYkMxSjhCblhpRkJBaUEyLVFfVjkwZndTUnBha25NWk5HYVpUeWt5X0lrcUdsZjdOYW1jLXJRdGJEMm1CYTJLektENzcw?oc=5",
       "source": "네이트",
       "pubDate": "2026-07-21T00:22:00+00:00",
-      "query": "HLB 신약"
+      "query": "HLB 허가"
     },
     {
       "title": "이형석 상무, HLB바이오스텝 주식 4987주 ↑…지분율 0.05% - 데이터투자",
@@ -71,6 +71,13 @@
       "query": "HLB 임상"
     },
     {
+      "title": "걸림돌 하나 치운 간암신약, 남은 시험대는 - 톱데일리",
+      "link": "https://news.google.com/rss/articles/CBMiUEFVX3lxTE1CR1prUWxya0tVSkkyY19McjZHXzJFV01yak44ZVpIVkFXUlFXUU1saGxlY2k5ODktRkZxTVpHMmlxTkFZcmU1eVNMVmFSNzZt?oc=5",
+      "source": "톱데일리",
+      "pubDate": "2026-07-16T06:07:00+00:00",
+      "query": "HLB 신약"
+    },
+    {
       "title": "HLB바이오스텝, 통합 비임상 서비스로 파킨슨병 신약 IND 승인 지원 - 메디포뉴스",
       "link": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE1ic2RpTmFBb0ZyckZkcVVJbllFZklvZms3cW94NER1RXo4NGRsd1NtaHlhaldRNWthSlMxS19MSXdrN0dkM2FsYjV5UUJpRV9wakpQZXZiQjZqZzVxZ29Z?oc=5",
       "source": "메디포뉴스",
@@ -83,15 +90,8 @@
       "source": "스마트투데이",
       "pubDate": "2026-07-15T22:20:00+00:00",
       "query": "HLB제약"
-    },
-    {
-      "title": "[서울데이터랩]코스닥 거래상위 종목 강세…HLB파나진 29% 급등, JW신약·위닉스도 두 자릿수 상승 - 서울신문",
-      "link": "https://news.google.com/rss/articles/CBMifkFVX3lxTE9CVVNwOXdZYUFuVmh3TmJRVkxsS21CMlVQZGd6bWNPWTVZWHlSV2VrWG1sajRnbmpUUVVpb1VLRmFhWURvTUZUT2xMNm14czNLNW1tSGRCeTVpTE1JUFp4elpLUkxlS1M1OS1iWUxud0Rac09UQ1d4TXNyMkxzQQ?oc=5",
-      "source": "서울신문",
-      "pubDate": "2026-07-15T04:40:00+00:00",
-      "query": "HLB파나진"
     }
   ],
-  "fetchedAt": "2026-07-21T20:23:21.106025+00:00",
+  "fetchedAt": "2026-07-21T21:39:46.660077+00:00",
   "count": 13
 }
