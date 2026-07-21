@@ -1,6 +1,13 @@
 {
   "news": [
     {
+      "title": "유럽 실패 넘을까…HLB테라퓨틱스, '각막염 치료제' 3상 막바지 - v.daum.net",
+      "link": "https://news.google.com/rss/articles/CBMiT0FVX3lxTFBIYk81djdsVTAtcHlQc1FhTThpUHpTNnIxNGR4aFgwSUQyRkZrcHFxMHBvU2o0ZXJ1WW4yVTI5UXFrOW4wQWJZREpSSng1MEU?oc=5",
+      "source": "v.daum.net",
+      "pubDate": "2026-07-21T22:46:08+00:00",
+      "query": "HLB테라퓨틱스"
+    },
+    {
       "title": "HLB이노베이션 베리스모, CLDN6 표적 확보…고형암 CAR-T 파이프라인 확대 - 한국면세뉴스",
       "link": "https://news.google.com/rss/articles/CBMiakFVX3lxTE53V0ZkWS1QZERlSG5zYU5OcXppVWl3aVpLZWJvQWNLNHB1VDZDS240OXREOEVSejFLSTZUNGFNVS1HSDNuQ1Zkb0hITTBLZjlBZHI0WDEtMHk0cGFRc3Q0THRCUWpaWUNvMGc?oc=5",
       "source": "한국면세뉴스",
@@ -13,13 +20,6 @@
       "source": "마켓인",
       "pubDate": "2026-07-21T07:00:21+00:00",
       "query": "HLB이노베이션"
-    },
-    {
-      "title": "HLB 간암신약 허가 '마지막 변수'…동진 사이트 FDA 실사 결과 주목 - 네이트",
-      "link": "https://news.google.com/rss/articles/CBMiU0FVX3lxTFAxUWY5eW1jYkMxSjhCblhpRkJBaUEyLVFfVjkwZndTUnBha25NWk5HYVpUeWt5X0lrcUdsZjdOYW1jLXJRdGJEMm1CYTJLektENzcw?oc=5",
-      "source": "네이트",
-      "pubDate": "2026-07-21T00:22:00+00:00",
-      "query": "HLB 허가"
     },
     {
       "title": "이형석 상무, HLB바이오스텝 주식 4987주 ↑…지분율 0.05% - 데이터투자",
@@ -90,8 +90,15 @@
       "source": "스마트투데이",
       "pubDate": "2026-07-15T22:20:00+00:00",
       "query": "HLB제약"
+    },
+    {
+      "title": "HLB “리보세라닙 원료 제조소, 美 FDA 실사 VAI로 종결” - 팜이데일리",
+      "link": "https://news.google.com/rss/articles/CBMibkFVX3lxTE5rV20tNFNwU3lSVUVFNmZ6anpuYjR1WWViLXNuYW9ySmdTWWREQ3lGUEliVk1uZjJsSlJESmVkRXVtRGQ0N0NvN1hxaDBjSjIwYkNsVXphSERfdzNHMWtRX0U5VllDTE56SThaVXR3?oc=5",
+      "source": "팜이데일리",
+      "pubDate": "2026-07-15T02:47:17+00:00",
+      "query": "HLB FDA"
     }
   ],
-  "fetchedAt": "2026-07-21T22:39:33.332351+00:00",
-  "count": 13
+  "fetchedAt": "2026-07-21T23:43:20.719091+00:00",
+  "count": 14
 }
