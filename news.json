@@ -26,21 +26,14 @@
       "link": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE9rU0dxU2xDWmtuZWRTLWxpQzdRR2NzMzBYZ0NBVEwzTkJSd3lzMV9JYUdNTlpMRmtZQTNfNTk5QnQya1FSMzg2TTQydDh2TG8wcENWY2pDbFBXWlloZi1IbA?oc=5",
       "source": "뉴스1",
       "pubDate": "2026-07-22T02:35:43+00:00",
-      "query": "HLB 신약"
+      "query": "HLB FDA"
     },
     {
-      "title": "HLB테라퓨틱스, NK 신약 임상 3상 완주 임박…신약 개발 역량 입증하나 - MTN 머니투데이방송",
-      "link": "https://news.google.com/rss/articles/CBMiZEFVX3lxTFBEY1lvdC1iOVFyVnc2WjVZSS0xaF8taXJZOTVuWF8tWk1rMlRMZFl1bFJkT084cVBrNmN6eXJVNmxXZHY2cXMyUjlZbWRZd3JrbEJIN0VfQzYtblNHcE5YUUZ3YTk?oc=5",
-      "source": "MTN 머니투데이방송",
-      "pubDate": "2026-07-22T00:07:04+00:00",
-      "query": "HLB 신약"
-    },
-    {
-      "title": "유럽 실패 넘을까…HLB테라퓨틱스, '각막염 치료제' 3상 막바지 - v.daum.net",
-      "link": "https://news.google.com/rss/articles/CBMiT0FVX3lxTFBIYk81djdsVTAtcHlQc1FhTThpUHpTNnIxNGR4aFgwSUQyRkZrcHFxMHBvU2o0ZXJ1WW4yVTI5UXFrOW4wQWJZREpSSng1MEU?oc=5",
+      "title": "HLB테라퓨틱스, NK 신약 임상 3상 완주 임박…신약 개발 역량 입증하나 - v.daum.net",
+      "link": "https://news.google.com/rss/articles/CBMiRkFVX3lxTE0ydk9WQnZ3NmFrMGR5RVdLNE9PNHVFV01SU1czM0JZbUlfSHFFcVh5T09XSGlzX1lLT2I3UV84YktXSDNRZXc?oc=5",
       "source": "v.daum.net",
-      "pubDate": "2026-07-21T22:46:08+00:00",
-      "query": "HLB테라퓨틱스"
+      "pubDate": "2026-07-22T00:23:08+00:00",
+      "query": "HLB 임상"
     },
     {
       "title": "HLB이노베이션 베리스모, 고형암 표적 CAR-T 파이프라인 확대 - 로이슈",
@@ -106,6 +99,6 @@
       "query": "HLB바이오스텝"
     }
   ],
-  "fetchedAt": "2026-07-22T18:49:18.013428+00:00",
-  "count": 15
+  "fetchedAt": "2026-07-22T20:29:30.104153+00:00",
+  "count": 14
 }
