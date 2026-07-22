@@ -1,6 +1,20 @@
 {
   "news": [
     {
+      "title": "HLB바이오스텝, 소수계좌 집중거래→투자주의종목 지정 - 톱스타뉴스",
+      "link": "https://news.google.com/rss/articles/CBMickFVX3lxTE96VVhnZE9mREZuVVFLaWtYYU1KWmtHZzh3Yzk2VW5xRVh1ekNsZXgwYm56WWZteE9NX3pmb21WMlRMc3JMR0pqTG5xV1ZDU1dWTUZGQzNFOXJXaGJ2eWMtR2JUSlJLaTFVUW1ZOUduUnAzQQ?oc=5",
+      "source": "톱스타뉴스",
+      "pubDate": "2026-07-22T11:21:12+00:00",
+      "query": "HLB바이오스텝"
+    },
+    {
+      "title": "'롤러코스터' 코스닥 바이오, FDA·임상에 순위 요동 - 뉴스핌",
+      "link": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE1WdGlTOHRrcHB4d0tqNGNaS3E0NWUtOFd1cC1IYlFhNHNsRXFycXBRZllWa0ZCaVM0TFZ3Y3VldkRURldXejVZeWJ6dzRYSWR3YkxhN1ZBcXp0dEd5?oc=5",
+      "source": "뉴스핌",
+      "pubDate": "2026-07-22T08:05:00+00:00",
+      "query": "HLB FDA"
+    },
+    {
       "title": "HLB제약, 7월 22일 8,000원 7.72% 하락 마감 - 톱스타뉴스",
       "link": "https://news.google.com/rss/articles/CBMickFVX3lxTE9ZeG9OekRZMFRGNVhtMkpSM3o0TFgtWDZFOHo5ZTFHMWRxWjE1bGdGZGk5RmV5Q0JWcVA4NEpfRDFtaTdNcUJLbkFENm1vczZ6WGVGXzE4WDZmSWRTSVlhdnhoOVo5bjJlY2pINXpEa3Jadw?oc=5",
       "source": "톱스타뉴스",
@@ -92,6 +106,6 @@
       "query": "HLB바이오스텝"
     }
   ],
-  "fetchedAt": "2026-07-22T12:01:49.984588+00:00",
-  "count": 13
+  "fetchedAt": "2026-07-22T14:19:17.409852+00:00",
+  "count": 15
 }
