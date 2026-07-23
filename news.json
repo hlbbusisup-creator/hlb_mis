@@ -29,13 +29,6 @@
       "query": "HLB 임상"
     },
     {
-      "title": "HLB, 간암 신약 허가 불발 전부터 美 상업화 채비…보험 적용 인력 채용 - 네이트",
-      "link": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE9ZWFZPMjJZU2J3V0ZOOUdfNEhVNV9WZ1MwM3d4c0hFOXpZN1hsbnBhNE9YcFNfeTMzLTRzSEdycDhKd1VZUGIzd2ExSkNhNnF4SDln?oc=5",
-      "source": "네이트",
-      "pubDate": "2026-07-22T23:33:00+00:00",
-      "query": "HLB 허가"
-    },
-    {
       "title": "HLB·코오롱티슈진, 잇단 악재에 투심 '급랭'…언제 반등? - 비즈워치",
       "link": "https://news.google.com/rss/articles/CBMib0FVX3lxTFAwUUxNX2hTWU9SS0hWRnJmMnRtMnhQdG5VMEVxMWxpeHVqNEJCVVdIaDhvUkZwNHl3SE03MFp4ZXo5SEJ5bWN6V1kxamZabFd5NjJyZGNSX0NyUkNDb0dra2V1NjdLdllxS1VfMEo0dw?oc=5",
       "source": "비즈워치",
@@ -64,11 +57,25 @@
       "query": "HLB테라퓨틱스"
     },
     {
+      "title": "HLB이노베이션 베리스모, 차세대 고형암 표적 확보 - 약사공론",
+      "link": "https://news.google.com/rss/articles/CBMibEFVX3lxTE1MaHRrYWJoZTZpd290MXluNUdlTVNaUkVGeG9GX290VEtvQ3lMRXpDVTBGSjgxZ0RUX29HTkhUQ0V6Q3FtWFpBcC10WjlvN3JFNWlpTGZ1eXlFTG5tWjJjZTR2MVVsU3F3Zm4teg?oc=5",
+      "source": "약사공론",
+      "pubDate": "2026-07-21T05:33:31+00:00",
+      "query": "HLB이노베이션"
+    },
+    {
       "title": "이형석 상무, HLB바이오스텝 주식 4987주 ↑…지분율 0.05% - 데이터투자",
       "link": "https://news.google.com/rss/articles/CBMic0FVX3lxTE5RVmR4U25wS1QwUDJ2cWdmbmFZUG9ibVF6V1lHVVY4MkZiYjhNazk1MmdHY0toN1JLUEZMU083OTNpTndRYUpUOHNMRlRhYW9aSURsU1FqMFY3S2NHRmQ4UXMxSXBDTGZVRU5oVlNmXzJIMXc?oc=5",
       "source": "데이터투자",
       "pubDate": "2026-07-21T00:13:09+00:00",
       "query": "HLB바이오스텝"
+    },
+    {
+      "title": "HLB, 간암 신약 허가 불발 전부터 美 상업화 채비…보험 적용 인력 채용 - 팜이데일리",
+      "link": "https://news.google.com/rss/articles/CBMibkFVX3lxTE5pUHRndmVOY1N5MVlIY2pvZ2U3aW5pbTR1UkdNc3Y3MUpEMVRDWFFuY0ptalhfSG5hc2Mwb1AzS0RSTGlfUHJ2QXIzMW4xdU53c2lHOFUxMXN1UzQ5a1ZvQ0dBRnVpMTExa0tRQ1p3?oc=5",
+      "source": "팜이데일리",
+      "pubDate": "2026-07-20T23:30:04+00:00",
+      "query": "HLB 신약"
     },
     {
       "title": "HLB라이프케어, 인바디와 연속혈당측정기 '피코링' 협업 - 전자신문",
@@ -99,6 +106,6 @@
       "query": "HLB오션테크"
     }
   ],
-  "fetchedAt": "2026-07-23T19:41:46.705319+00:00",
-  "count": 14
+  "fetchedAt": "2026-07-23T20:45:41.957130+00:00",
+  "count": 15
 }
