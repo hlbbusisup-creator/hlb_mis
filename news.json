@@ -1,11 +1,25 @@
 {
   "news": [
     {
+      "title": "HLB생활건강, 북미 뷰티 전시회 '코스모프로프 북미 라스베이거스 2026' 참가 - 로이슈",
+      "link": "https://news.google.com/rss/articles/CBMiekFVX3lxTE5scWZMbVk3T3pHOHFnd1Y2SE1nOEpvS29vQjQ0M1pMTEVIYnFvbFRxSG1OeU5Qb2xTaXUzZHVyQXZ4RDdLTm4waUhjU2FnSUJrR2o5MEhkMVM1OFdGY29vS3ZubmJGOVRYX1p0ckNOb3ZlR2RDd0d6VEdB?oc=5",
+      "source": "로이슈",
+      "pubDate": "2026-07-23T09:56:40+00:00",
+      "query": "HLB생활건강"
+    },
+    {
       "title": "HLB생활건강, 美 코스모프로프서 글로벌 B2B 확대 나서 - 한국면세뉴스",
       "link": "https://news.google.com/rss/articles/CBMiakFVX3lxTE9IUHBVX2Z4NDhmM1NLNDRFRnVTOFNNY3ljbVhTOUNjTzlkMjlYcjdiNjdPMjJDMGxzMDlKSlN1aUh6X1BOZzNUbFZISTNBRXI1Qy1FZnZUdTNYTHB5RHJaa21PWncyQUlJYXc?oc=5",
       "source": "한국면세뉴스",
       "pubDate": "2026-07-23T06:34:20+00:00",
       "query": "HLB생활건강"
+    },
+    {
+      "title": "[바이오 브리핑] 대웅제약, HLB이노베이션, 지씨셀 - 신아일보",
+      "link": "https://news.google.com/rss/articles/CBMicEFVX3lxTE9tMFF3RmlhTzNqSEJKTHRqTnhycXFGNWpQUm5pclNJUTJHSjJPNzFud2psdHl1WmNQZnVOTFduQkZBaXFkU3hlVUJuUlBtdE1OeFRaTk5PQ21FTlRxaGVmeEhtMnpKYUlTQ1FsZmg4ZU8?oc=5",
+      "source": "신아일보",
+      "pubDate": "2026-07-23T04:35:00+00:00",
+      "query": "HLB이노베이션"
     },
     {
       "title": "HLB이노, 혈액암 CAR-T 'SynKIR-310' 임상 확대 - 데일리팜",
@@ -85,6 +99,6 @@
       "query": "HLB오션테크"
     }
   ],
-  "fetchedAt": "2026-07-23T07:43:20.160268+00:00",
-  "count": 12
+  "fetchedAt": "2026-07-23T10:06:56.978810+00:00",
+  "count": 14
 }
