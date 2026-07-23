@@ -1,6 +1,13 @@
 {
   "news": [
     {
+      "title": "‘간암 신약 허가’ 문 다시 열렸지만…HLB 앞에 남은 네 가지 숙제 - 조선비즈 - Chosunbiz",
+      "link": "https://news.google.com/rss/articles/CBMihwFBVV95cUxOTDhQWGZZRHR5dE81ZVZlOENYcmNEYjFTbER2NlMzMFZHRVVHQW0xdVJHSXY5SWU4aVBva1VPd0RnV0FXMXNTaENQOWVudXhQellpLTZ0VHp5QVlNZFpJZUx4aVgxRGtnNGtxUVd2c0szZ2tsbWM1aW9GYU0zVEVDaFIxMnEySjTSAZsBQVVfeXFMT1ppMmZRRl9za2hEUnJXc3FVNFB4NndMeU1WdDd1WkVoNTlzckYtdW9HR1dKbnRqX2xiRlVabHFvRDRic044RXdDSzN4WUh2dGQxb1pSWmV5ckZpSnAxQlY1LTUwcmpIVldiUkN3czEwYmFKbEFmRWM4MGM3Z29UVUhmNU5Mc3hNOVE1TXV6RVpCdWVYU2ZnVUpUQTQ?oc=5",
+      "source": "Chosunbiz",
+      "pubDate": "2026-07-23T21:21:00+00:00",
+      "query": "HLB 신약"
+    },
+    {
       "title": "HLB생활건강, 북미 뷰티 전시회 '코스모프로프 북미 라스베이거스 2026' 참가 - 로이슈",
       "link": "https://news.google.com/rss/articles/CBMiekFVX3lxTE5scWZMbVk3T3pHOHFnd1Y2SE1nOEpvS29vQjQ0M1pMTEVIYnFvbFRxSG1OeU5Qb2xTaXUzZHVyQXZ4RDdLTm4waUhjU2FnSUJrR2o5MEhkMVM1OFdGY29vS3ZubmJGOVRYX1p0ckNOb3ZlR2RDd0d6VEdB?oc=5",
       "source": "로이슈",
@@ -9,7 +16,7 @@
     },
     {
       "title": "HLB생활건강, 美 코스모프로프서 글로벌 B2B 확대 나서 - 한국면세뉴스",
-      "link": "https://news.google.com/rss/articles/CBMiaEFVX3lxTFBKWmJ6YjJCR1pxWThQZklKNEVMalFUZnBCQXRyVm5sbktXZ1FqTVNheUE3cGZZQUNUYkd2QzR4ck1nVmoyeEx6eHowa3lvelV4Szdic2hnZkI3STYzZlE3eE4yMlc2LWdt?oc=5",
+      "link": "https://news.google.com/rss/articles/CBMiakFVX3lxTE9IUHBVX2Z4NDhmM1NLNDRFRnVTOFNNY3ljbVhTOUNjTzlkMjlYcjdiNjdPMjJDMGxzMDlKSlN1aUh6X1BOZzNUbFZISTNBRXI1Qy1FZnZUdTNYTHB5RHJaa21PWncyQUlJYXc?oc=5",
       "source": "한국면세뉴스",
       "pubDate": "2026-07-23T06:34:20+00:00",
       "query": "HLB생활건강"
@@ -71,13 +78,6 @@
       "query": "HLB바이오스텝"
     },
     {
-      "title": "HLB, 간암 신약 허가 불발 전부터 美 상업화 채비…보험 적용 인력 채용 - 팜이데일리",
-      "link": "https://news.google.com/rss/articles/CBMibkFVX3lxTE5pUHRndmVOY1N5MVlIY2pvZ2U3aW5pbTR1UkdNc3Y3MUpEMVRDWFFuY0ptalhfSG5hc2Mwb1AzS0RSTGlfUHJ2QXIzMW4xdU53c2lHOFUxMXN1UzQ5a1ZvQ0dBRnVpMTExa0tRQ1p3?oc=5",
-      "source": "팜이데일리",
-      "pubDate": "2026-07-20T23:30:04+00:00",
-      "query": "HLB 신약"
-    },
-    {
       "title": "HLB라이프케어, 인바디와 연속혈당측정기 '피코링' 협업 - 전자신문",
       "link": "https://news.google.com/rss/articles/CBMiTkFVX3lxTFB4Y0xabHRVYnBnMDk2dHhNM1FVRTFtV1FqcU9fX0UyeFBDc1VqNlVLVlB0UWxhU2NzLXRwZkVETGNuSm83OHJYbFRzNEJEQQ?oc=5",
       "source": "전자신문",
@@ -106,6 +106,6 @@
       "query": "HLB오션테크"
     }
   ],
-  "fetchedAt": "2026-07-23T20:45:41.957130+00:00",
+  "fetchedAt": "2026-07-23T21:50:22.142435+00:00",
   "count": 15
 }
