@@ -1,10 +1,17 @@
 {
   "news": [
     {
-      "title": "HLB이노베이션, 혈액암 CAR-T 임상 용량 확대…FDA와 코호트 4까지 설계 변경 - PRESS9",
-      "link": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE1tZmJXa29uQkN0bllJalBZeGo5elVXZ0pfWTZFeWNWV1lIN29sVjU4QndiZjBfNUFvWHpvazRneHVXOHdlWEtLTHg3UnRCbE1UUlk0Z3ZlYTlmQnZ3U01MZ1VvT1o?oc=5",
-      "source": "PRESS9",
-      "pubDate": "2026-07-22T23:39:13+00:00",
+      "title": "HLB이노베이션, 혈액암치료 후보 물질 'SynKIR-310' 고용량 임상 진입 - 히트뉴스",
+      "link": "https://news.google.com/rss/articles/CBMia0FVX3lxTE5fUWpXRFhpMko4bkpVei1nVmFDbG0xcmhmR25ScmkwMGl3eWFmUldKbFFWWTJLaWZ0dm5Tanc1TVFTWWY2TFFFVjdHTHJJcnp5WXdpSXlFX2Q5bXJSUEZwUTAzenphTzY1Wmdz?oc=5",
+      "source": "히트뉴스",
+      "pubDate": "2026-07-23T00:42:57+00:00",
+      "query": "HLB 임상"
+    },
+    {
+      "title": "HLB이노베이션, 혈액암 CAR-T 임상 1상 초기용량 안전성 확인 - 머니투데이 - 머니투데이",
+      "link": "https://news.google.com/rss/articles/CBMibkFVX3lxTE5kS1UwaWJoUTZ4UkVnRmtMMnd1eXJzX1NGYXMzLW9DWEFReE1mRGxGbUF5ZXlleHVLRVEzTDZrYWVFUFJXcHI3VzR0Z1I4YjJQN012b0xXejVnWDlMWHZYRnoyeml0d2dkTVJaT0Nn0gFuQVVfeXFMTmRLVTBpYmhRNnhSRWdGa0wyd3V5cnNfU0ZhczMtb0NYQVF4TWZEbEZtQXlleWV4dUtFUTNMNmthZUVQUldwcjdXNHRnUjhiMlA3TXZvTFd6NWdYOUxYdlhGejJ6aXR3Z2RNUlpPQ2c?oc=5",
+      "source": "머니투데이",
+      "pubDate": "2026-07-22T23:50:46+00:00",
       "query": "HLB 임상"
     },
     {
@@ -50,13 +57,6 @@
       "query": "HLB테라퓨틱스"
     },
     {
-      "title": "HLB이노베이션 베리스모, 차세대 고형암 표적 확보 - 약사공론",
-      "link": "https://news.google.com/rss/articles/CBMibEFVX3lxTE1MaHRrYWJoZTZpd290MXluNUdlTVNaUkVGeG9GX290VEtvQ3lMRXpDVTBGSjgxZ0RUX29HTkhUQ0V6Q3FtWFpBcC10WjlvN3JFNWlpTGZ1eXlFTG5tWjJjZTR2MVVsU3F3Zm4teg?oc=5",
-      "source": "약사공론",
-      "pubDate": "2026-07-21T05:33:31+00:00",
-      "query": "HLB이노베이션"
-    },
-    {
       "title": "이형석 상무, HLB바이오스텝 주식 4987주 ↑…지분율 0.05% - 데이터투자",
       "link": "https://news.google.com/rss/articles/CBMic0FVX3lxTE5RVmR4U25wS1QwUDJ2cWdmbmFZUG9ibVF6V1lHVVY4MkZiYjhNazk1MmdHY0toN1JLUEZMU083OTNpTndRYUpUOHNMRlRhYW9aSURsU1FqMFY3S2NHRmQ4UXMxSXBDTGZVRU5oVlNmXzJIMXc?oc=5",
       "source": "데이터투자",
@@ -99,6 +99,6 @@
       "query": "HLB바이오스텝"
     }
   ],
-  "fetchedAt": "2026-07-22T23:46:45.127615+00:00",
+  "fetchedAt": "2026-07-23T01:18:56.583113+00:00",
   "count": 14
 }
