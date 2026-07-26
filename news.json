@@ -1,10 +1,10 @@
 {
   "news": [
     {
-      "title": "[바이오스냅] HLB펩, 일본 세포치료기업과 맞춤형 항암 펩타이드 CDMO 계약 - 매일경제 마켓",
-      "link": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE9la0pJenFUNHQzX3RZcmt4Q3Y1bEtvX2pmempUTDVDSlFLNE1Dd2pQbkVtZTlMWl9NLUY2OGhHWGxxNkdhNXp0SU9yWHBVQmgzNnc?oc=5",
-      "source": "매일경제 마켓",
-      "pubDate": "2026-07-25T13:18:56+00:00",
+      "title": "HLB펩, 바소프레신 원료의약품 FDA 등록 완료…해외 시장 공략 속도 - PRESS9",
+      "link": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE1TT2w4NF9nSDlUR09xTGNwa3ZQRUpIZ0pwb3M2MHplY0VObEE2Y29rUG9POFlITjFSa0kyWnZJNVVuclpydDlHNmd6b2U2MC00a3JhRnJnNjB6NzBjOWZVckpWZWE?oc=5",
+      "source": "PRESS9",
+      "pubDate": "2026-07-26T23:33:38+00:00",
       "query": "HLB펩"
     },
     {
@@ -33,13 +33,6 @@
       "link": "https://news.google.com/rss/articles/CBMibEFVX3lxTE8xQVhRTi1xZEJtMlFkekNNVmVpMm84dkZfRFB6NXJkeGVEbm54Mng4OGZVdWNqZnJHSHpleS1TYjZNQWg1X1RHMDRxMmNBTlBDU2Zsa3Y3SXJTaXdwVHB1eW1IRVlBdmdQRXlpTw?oc=5",
       "source": "바이오타임즈",
       "pubDate": "2026-07-24T01:41:56+00:00",
-      "query": "HLB 허가"
-    },
-    {
-      "title": "HLB, 담관암 치료제 9월말 FDA 승인 기대감↑…15%대 강세 - 머니투데이 - 머니투데이",
-      "link": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE1IUzFyS2xJN0RnZXprODNpdDViSXNSRTg5Y2JLZE8yZ0tzNXBFbFJLUVdGeUsxV3NZS25fdTg1TDFYeEFPRDcxd19ObzdQVHdXVHpmSHQwVU9LcHF5WWxjUDVTUjhPejls0gFuQVVfeXFMTVJvN2FBM29EX2ZHal9DT1RIakpCcU5tM0tUaGRkVEtjdldGaGFiOFNkVlBsSXV2WDJYMC1kNjRjcS16cTFtV085QXFTZk9HRTNrNzVmVG1UM05ISWhaT0FLNVRKUkhlTnVlV2lseHc?oc=5",
-      "source": "머니투데이",
-      "pubDate": "2026-07-24T00:20:33+00:00",
       "query": "HLB FDA"
     },
     {
@@ -69,13 +62,6 @@
       "source": "한국면세뉴스",
       "pubDate": "2026-07-23T06:34:20+00:00",
       "query": "HLB생활건강"
-    },
-    {
-      "title": "HLB이노베이션, CAR-T 후보물질 고용량 테스트 시작 - 중소기업신문",
-      "link": "https://news.google.com/rss/articles/CBMibkFVX3lxTE5CcjJrTklOeWdLWHlqR2E0UkxMVDBpOS05V3ZVTVlUWDhTaVNPLWJxUzZxcnpybklBNFRZV3V1LXRJaWpRVUpicjR2RGRzSWYxNXZFTUlhT1pJN2V0Ykw5ZmlWb1VaXzhSYmZrZW5n?oc=5",
-      "source": "중소기업신문",
-      "pubDate": "2026-07-23T02:04:55+00:00",
-      "query": "HLB이노베이션"
     },
     {
       "title": "HLB이노베이션, 혈액암 CAR-T 임상 투여 용량 확대 - v.daum.net",
@@ -127,6 +113,6 @@
       "query": "HLB테라퓨틱스"
     }
   ],
-  "fetchedAt": "2026-07-26T22:29:55.964788+00:00",
-  "count": 18
+  "fetchedAt": "2026-07-26T23:45:00.997360+00:00",
+  "count": 16
 }
