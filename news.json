@@ -43,6 +43,13 @@
       "query": "HLB제약"
     },
     {
+      "title": "간암신약 재신청 시점 '저울질' - 톱데일리",
+      "link": "https://news.google.com/rss/articles/CBMiUEFVX3lxTE4tZjIyLXhGWHBYMk00UG5FUkxvdlZGeFd0VUVzdHBVUDBWRFotVERVbjE0enhYR0dBTXhYaWFWRDY3cl9rbW9pTlBXMVBBNno0?oc=5",
+      "source": "톱데일리",
+      "pubDate": "2026-07-24T02:24:00+00:00",
+      "query": "HLB 신약"
+    },
+    {
       "title": "HLB이노, 혈액암 CAR-T 'SynKIR-310' 임상 확대 - 데일리팜",
       "link": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE1udmk3UDFNVDJQMWRKZmFKb0c0Mm41ajlaZllNN0Fzc3l4TmowTnFxZS1kbURWTTdKN3RRR0wxYk9QbkVfR1phVTd5UFRrUmVqNlpoMi1B?oc=5",
       "source": "데일리팜",
@@ -99,6 +106,6 @@
       "query": "HLB이노베이션"
     }
   ],
-  "fetchedAt": "2026-07-27T21:51:43.506390+00:00",
-  "count": 14
+  "fetchedAt": "2026-07-27T23:17:51.656376+00:00",
+  "count": 15
 }
