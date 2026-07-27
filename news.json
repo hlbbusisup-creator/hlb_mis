@@ -1,10 +1,10 @@
 {
   "news": [
     {
-      "title": "HLB펩, 바소프레신 원료의약품 FDA 등록 완료…해외 시장 공략 속도 - PRESS9",
-      "link": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE1TT2w4NF9nSDlUR09xTGNwa3ZQRUpIZ0pwb3M2MHplY0VObEE2Y29rUG9POFlITjFSa0kyWnZJNVVuclpydDlHNmd6b2U2MC00a3JhRnJnNjB6NzBjOWZVckpWZWE?oc=5",
-      "source": "PRESS9",
-      "pubDate": "2026-07-26T23:33:38+00:00",
+      "title": "HLB펩, 바소프레신 API 미국 FDA 등록 완료 - MEDI:GATE NEWS",
+      "link": "https://news.google.com/rss/articles/CBMiV0FVX3lxTE95MTlUSldaaHJXdnZsWXQ1cFUxSDZEQkxvM3Brak9nX0pfWDFmaHlWdy13VVR5cVFmRDZQejZxTnBFNG1MbUxManJMUS0weHJKcVgxeHRwQQ?oc=5",
+      "source": "MEDI:GATE NEWS",
+      "pubDate": "2026-07-27T00:28:00+00:00",
       "query": "HLB펩"
     },
     {
@@ -22,18 +22,18 @@
       "query": "HLB제약"
     },
     {
+      "title": "[바이오스냅] HLB 담관암 치료제, FDA 후반부 심사 협의 완료 - v.daum.net",
+      "link": "https://news.google.com/rss/articles/CBMiVEFVX3lxTFBSemxjLXU0X0lnM0pHRnY0MmZXM1ZZNHhLVjAtcDZzTVg0cVc3dTNScm56ZjR1QU9TbE9wMzh6VzUyWS0zX2wxSzdPYUZvWnI3WG15Tw?oc=5",
+      "source": "v.daum.net",
+      "pubDate": "2026-07-24T02:49:41+00:00",
+      "query": "HLB FDA"
+    },
+    {
       "title": "간암신약 재신청 시점 '저울질' - 톱데일리",
       "link": "https://news.google.com/rss/articles/CBMiUEFVX3lxTE4tZjIyLXhGWHBYMk00UG5FUkxvdlZGeFd0VUVzdHBVUDBWRFotVERVbjE0enhYR0dBTXhYaWFWRDY3cl9rbW9pTlBXMVBBNno0?oc=5",
       "source": "톱데일리",
       "pubDate": "2026-07-24T02:24:00+00:00",
       "query": "HLB 신약"
-    },
-    {
-      "title": "'후반부 심사' 넘은 HLB '리라푸그라티닙'…FDA 허가 시계는 어디까지 왔나 - 바이오타임즈",
-      "link": "https://news.google.com/rss/articles/CBMibEFVX3lxTE8xQVhRTi1xZEJtMlFkekNNVmVpMm84dkZfRFB6NXJkeGVEbm54Mng4OGZVdWNqZnJHSHpleS1TYjZNQWg1X1RHMDRxMmNBTlBDU2Zsa3Y3SXJTaXdwVHB1eW1IRVlBdmdQRXlpTw?oc=5",
-      "source": "바이오타임즈",
-      "pubDate": "2026-07-24T01:41:56+00:00",
-      "query": "HLB FDA"
     },
     {
       "title": "‘간암 신약 허가’ 문 다시 열렸지만…HLB 앞에 남은 네 가지 숙제 - 조선비즈 - Chosunbiz",
@@ -104,15 +104,8 @@
       "source": "매일경제",
       "pubDate": "2026-07-20T03:15:27+00:00",
       "query": "HLB오션테크"
-    },
-    {
-      "title": "HLB테라퓨틱스, RGN-259 글로벌 3상 환자모집 완료 - 머니투데이 - 머니투데이",
-      "link": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE5qN3Y5S2tyQTRaS25Yd1ZBUVFZYm9ES2prQVhoQ2hsU3JQa1B6MTB5RndpWTFkYm9Ccmt1eUh5YU5obEJ5OGN3WnA5c01YWDBFLWFMQ1k5WkpJSlYxeGQ2dmtpNjBXU1VR0gFuQVVfeXFMUDgxTGtJVFZ5VXZGaFhqVXQ4TjJwcFhBRjhoQ0Rfbm1RdkVwbTlhNlI5d1psYkxVdU9fQ0swSmFDakpKakt4VGhacjdLbGc0Y084ZFJBNzBMUmdKRzVSd2hESElPNFB6dVJGNHhjbXc?oc=5",
-      "source": "머니투데이",
-      "pubDate": "2026-07-20T02:37:21+00:00",
-      "query": "HLB테라퓨틱스"
     }
   ],
-  "fetchedAt": "2026-07-26T23:45:00.997360+00:00",
-  "count": 16
+  "fetchedAt": "2026-07-27T01:22:56.074540+00:00",
+  "count": 15
 }
