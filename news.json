@@ -22,13 +22,6 @@
       "query": "HLB FDA"
     },
     {
-      "title": "'후반부 심사' 넘은 HLB '리라푸그라티닙'…FDA 허가 시계는 어디까지 왔나 - 바이오타임즈",
-      "link": "https://news.google.com/rss/articles/CBMibEFVX3lxTE8xQVhRTi1xZEJtMlFkekNNVmVpMm84dkZfRFB6NXJkeGVEbm54Mng4OGZVdWNqZnJHSHpleS1TYjZNQWg1X1RHMDRxMmNBTlBDU2Zsa3Y3SXJTaXdwVHB1eW1IRVlBdmdQRXlpTw?oc=5",
-      "source": "바이오타임즈",
-      "pubDate": "2026-07-28T07:48:58+00:00",
-      "query": "HLB 신약"
-    },
-    {
       "title": "HLB제약, 퍼스트 제네릭 포트폴리오 확장 시동 - 딜사이트",
       "link": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE01aTJlOGVXOGYyV2xuaUhoZjBaNDROUWdQZml5QnpNMWVweHc1ZkxVcnFWQ2lja2lkSzMxUjdWYTgyYkpVNlNiUy1UQmlSNTg?oc=5",
       "source": "딜사이트",
@@ -64,11 +57,18 @@
       "query": "HLB제넥스"
     },
     {
+      "title": "'후반부 심사' 넘은 HLB '리라푸그라티닙'…FDA 허가 시계는 어디까지 왔나 - 바이오타임즈",
+      "link": "https://news.google.com/rss/articles/CBMibEFVX3lxTE8xQVhRTi1xZEJtMlFkekNNVmVpMm84dkZfRFB6NXJkeGVEbm54Mng4OGZVdWNqZnJHSHpleS1TYjZNQWg1X1RHMDRxMmNBTlBDU2Zsa3Y3SXJTaXdwVHB1eW1IRVlBdmdQRXlpTw?oc=5",
+      "source": "바이오타임즈",
+      "pubDate": "2026-07-27T07:00:00+00:00",
+      "query": "HLB FDA"
+    },
+    {
       "title": "HLB펩, 항이뇨호르몬 바소프레신 API 美 FDA 등록 - 아시아경제",
-      "link": "https://news.google.com/rss/articles/CBMiYEFVX3lxTFBnaGVYa3ZJNDZqR29ockRoa2E2dTBvSjRja2ZUSmRuaUgyRGdkVUJCTERETGhRY3Z2dk1ReW9iWXl5bHpIMDZKa2ZHN2tVZ3N5SkduOE1UZ1JzY3RQSDlvZQ?oc=5",
+      "link": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE01T004N0FXYzZDR1hKSlRhbWtKV09ZZ01SVGVybFVGVVpkV09WYlZzVXRidm90TTFsT01yUXBscWlQUURLWjZjLThMcDEzdm9hbjRXM0Z0T2ZPa2Q3YzZsTUtR?oc=5",
       "source": "아시아경제",
       "pubDate": "2026-07-26T23:18:17+00:00",
-      "query": "HLB FDA"
+      "query": "HLB펩"
     },
     {
       "title": "HLB 4.33%↑·코오롱티슈진 28.7%↓…FDA가 가른 바이오 희비 - 자본시장뉴스",
@@ -127,6 +127,6 @@
       "query": "HLB테라퓨틱스"
     }
   ],
-  "fetchedAt": "2026-07-28T21:37:53.227216+00:00",
+  "fetchedAt": "2026-07-28T22:44:08.874647+00:00",
   "count": 18
 }
