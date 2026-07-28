@@ -1,10 +1,31 @@
 {
   "news": [
     {
-      "title": "HLB \"ESMO서 리보세라닙·리라푸그라티닙 발표\" - 뉴시스",
-      "link": "https://news.google.com/rss/articles/CBMieEFVX3lxTE1FY19iM3lScVhKbE92WllIVFBVMFNmMmpZZ1lCbFhlcG1faUliY1o3ODc0c3I0S3dUUjhCQW1rNXB5T3c4MTBYYWNHV0VXbVAzaUxaZXVhMFFqZ2NtMHBxUmFubXVFLXdvR09fQXVKWHlCSi1SNWU1bNIBeEFVX3lxTE1FY19iM3lScVhKbE92WllIVFBVMFNmMmpZZ1lCbFhlcG1faUliY1o3ODc0c3I0S3dUUjhCQW1rNXB5T3c4MTBYYWNHV0VXbVAzaUxaZXVhMFFqZ2NtMHBxUmFubXVFLXdvR09fQXVKWHlCSi1SNWU1bA?oc=5",
-      "source": "뉴시스",
-      "pubDate": "2026-07-28T00:34:30+00:00",
+      "title": "HLB펩, ‘펩타이드 리페어 마이크로 버블 에센스’ 출시 - 데일리팜",
+      "link": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE1hWV9hMXBQSEF2N1kxc1ZpY25OSlVZeHQ0QUQyT2NjRnBrNmVYU2ZkMkJZLUtYVlZlQlh5c1k1ekwta2ZsUmZKOHdIUW1oeW9POVZUQW9B?oc=5",
+      "source": "데일리팜",
+      "pubDate": "2026-07-28T05:33:13+00:00",
+      "query": "HLB펩"
+    },
+    {
+      "title": "HLB펩, 랩센 브랜드 라인업 강화 - 아시아경제",
+      "link": "https://news.google.com/rss/articles/CBMiYEFVX3lxTFBBODZnYnpKN3VtY05VLUNsdTdEOVRRNzNTTU01aV9Zb1M4dlRlMnBPRWIwYWZlZG9SSmt2YlhyZ2t4a2t6WGV4Q3dUaWJLcGhhWGZZelA2amlpYi1LRm15ag?oc=5",
+      "source": "아시아경제",
+      "pubDate": "2026-07-28T05:21:18+00:00",
+      "query": "HLB펩"
+    },
+    {
+      "title": "HLB, 세계 3대 암학술대회 'ESMO'서 항암 신약 연구 발표 - 알파경제",
+      "link": "https://news.google.com/rss/articles/CBMibkFVX3lxTFByMEVvVUdDYURtSEdrMVJiMFViWEx4UlhZS3F0X21jeGx2M3NScXpOSEVOemhiRHZSMklJZVl3dmhtdFJxcm5EZ2tMQkZEcUxpZFc5TWh3bHVGWXBnMVpTUGhwVUhFMTU5LVhhWGZR?oc=5",
+      "source": "알파경제",
+      "pubDate": "2026-07-28T05:16:32+00:00",
+      "query": "HLB 신약"
+    },
+    {
+      "title": "HLB, ESMO 2026서 리보세라닙·리라푸그라티닙 연구성과 공개 - ebn.co.kr",
+      "link": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE5zZVVCa1BubGRqeUxFVGVBbFZCQUJDZmViVUtNZnhVVU9jTzQ3dHZGWndBZk5VSkl4ZE81Uk5YNHRVcDEtXzk3ellTYjVQQmNZOFRucFZQaGNPZEJHWE5wN09lNWEzS1Jr?oc=5",
+      "source": "ebn.co.kr",
+      "pubDate": "2026-07-28T05:04:45+00:00",
       "query": "HLB 임상"
     },
     {
@@ -106,6 +127,6 @@
       "query": "HLB테라퓨틱스"
     }
   ],
-  "fetchedAt": "2026-07-28T04:23:41.703567+00:00",
-  "count": 15
+  "fetchedAt": "2026-07-28T07:15:26.040024+00:00",
+  "count": 18
 }
