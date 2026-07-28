@@ -29,6 +29,13 @@
       "query": "HLB 신약"
     },
     {
+      "title": "HLB제약, 퍼스트 제네릭 포트폴리오 확장 시동 - 딜사이트",
+      "link": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE01aTJlOGVXOGYyV2xuaUhoZjBaNDROUWdQZml5QnpNMWVweHc1ZkxVcnFWQ2lja2lkSzMxUjdWYTgyYkpVNlNiUy1UQmlSNTg?oc=5",
+      "source": "딜사이트",
+      "pubDate": "2026-07-28T07:36:48+00:00",
+      "query": "HLB제약"
+    },
+    {
       "title": "HLB, 세계 3대 암학술대회 'ESMO'서 항암 신약 연구 발표 - 알파경제",
       "link": "https://news.google.com/rss/articles/CBMibkFVX3lxTFByMEVvVUdDYURtSEdrMVJiMFViWEx4UlhZS3F0X21jeGx2M3NScXpOSEVOemhiRHZSMklJZVl3dmhtdFJxcm5EZ2tMQkZEcUxpZFc5TWh3bHVGWXBnMVpTUGhwVUhFMTU5LVhhWGZR?oc=5",
       "source": "알파경제",
@@ -43,10 +50,10 @@
       "query": "HLB 임상"
     },
     {
-      "title": "HLB이노베이션 CAR-T, 고용량 임상으로 차세대 치료제 도전 - 뉴스1",
-      "link": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE1JY3BoRTdPVWtUYl9kMmdkTUpMT0R4UVRsZGJCTTVrQmg3UW5rT3RzOVNVZldMVDI0N1ViSkxxWkJTVGY1ZEFGY2l4Tkd2WUYybGc?oc=5",
-      "source": "뉴스1",
-      "pubDate": "2026-07-28T00:20:32+00:00",
+      "title": "HLB이노베이션 CAR-T, 고용량 임상으로 차세대 치료제 도전 - v.daum.net",
+      "link": "https://news.google.com/rss/articles/CBMiRkFVX3lxTFA5VnhZcjd6M1A5RGIyMm9sWUdBVGU3Zmh1eXN6VEloTEFiVGNxWnFrUGRxeHpBWWJjNHUzUlJGV3Z6RmZJOVE?oc=5",
+      "source": "v.daum.net",
+      "pubDate": "2026-07-28T00:21:56+00:00",
       "query": "HLB 임상"
     },
     {
@@ -99,17 +106,17 @@
       "query": "HLB생활건강"
     },
     {
-      "title": "HLB이노베이션, 혈액암 CAR-T 임상 투여 용량 확대 - v.daum.net",
-      "link": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE15Uk15VUpPSXVObmUwVWNBVFBDZlhrc0huVjlNRnlxQm1DYVpMTXhtOUllWDBKRnQ2N25wVGZLVVl3aEhmUG1MZFVPQ3Zkd00?oc=5",
-      "source": "v.daum.net",
-      "pubDate": "2026-07-23T02:18:54+00:00",
-      "query": "HLB이노베이션"
-    },
-    {
       "title": "HLB이노베이션, 혈액암치료 후보 물질 'SynKIR-310' 고용량 임상 진입 - 히트뉴스",
       "link": "https://news.google.com/rss/articles/CBMia0FVX3lxTE5fUWpXRFhpMko4bkpVei1nVmFDbG0xcmhmR25ScmkwMGl3eWFmUldKbFFWWTJLaWZ0dm5Tanc1TVFTWWY2TFFFVjdHTHJJcnp5WXdpSXlFX2Q5bXJSUEZwUTAzenphTzY1Wmdz?oc=5",
       "source": "히트뉴스",
       "pubDate": "2026-07-23T00:42:57+00:00",
+      "query": "HLB이노베이션"
+    },
+    {
+      "title": "HLB이노베이션, 혈액암 치료제 임상 용량 증량 단계 확대 - 메디컬투데이",
+      "link": "https://news.google.com/rss/articles/CBMibEFVX3lxTE1VX3F0RTYyWmVwN3ctWGY0cEVrcy1reFJidWpFUHNENEpzSFZxcGQ2LWxFWkFjU090Ri1LbG4xWE9lTEJCeFNRclR2R3ZjckVvaUhoeGtheXVtMkRDcENZOXRQSlh1NVFkd2IyVg?oc=5",
+      "source": "메디컬투데이",
+      "pubDate": "2026-07-22T23:59:24+00:00",
       "query": "HLB이노베이션"
     },
     {
@@ -120,6 +127,6 @@
       "query": "HLB테라퓨틱스"
     }
   ],
-  "fetchedAt": "2026-07-28T16:48:19.726289+00:00",
-  "count": 17
+  "fetchedAt": "2026-07-28T18:40:37.022765+00:00",
+  "count": 18
 }
