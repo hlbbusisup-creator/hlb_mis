@@ -8,18 +8,11 @@
       "query": "HLB FDA"
     },
     {
-      "title": "HLB바이오스텝-에코엔테크, 영장류 비임상시험 서비스 협력 MOU 체결 - medigatenews.com",
+      "title": "HLB바이오스텝-에코엔테크, 영장류 비임상시험 서비스 협력 MOU 체결 - MEDI:GATE NEWS",
       "link": "https://news.google.com/rss/articles/CBMiV0FVX3lxTE9rcEZoODREdkhpNXVaRVlyb0tTcXBBcTdBXzhhQkI4M3VVTGhEQTZGZUZsZENodktJdXdVOHRFV2RXU2RyVDNiaFdRMGg1b19qX29xb1c2NA?oc=5",
-      "source": "medigatenews.com",
+      "source": "MEDI:GATE NEWS",
       "pubDate": "2026-07-29T08:29:43+00:00",
       "query": "HLB 임상"
-    },
-    {
-      "title": "HLB테라퓨틱스, ISO 9001·14001 동시 인증 - medigatenews.com",
-      "link": "https://news.google.com/rss/articles/CBMiV0FVX3lxTE1KRTc5MG1VWElFSmE0NDVBUmYtRk1CWWREX1JrV0dFc3djbENtZjJkT0hkdmtvay1DWFhwVU9rWld0cU5BMWNjRm9ST3gxWG5LZmczcVg4QQ?oc=5",
-      "source": "medigatenews.com",
-      "pubDate": "2026-07-29T08:03:00+00:00",
-      "query": "HLB테라퓨틱스"
     },
     {
       "title": "HLB제약, 퍼스트 제네릭 포트폴리오 확장 시동 : 네이버 블로그 - Naver Blog",
@@ -36,11 +29,18 @@
       "query": "HLB파나진"
     },
     {
+      "title": "HLB테라퓨틱스, 품질·환경경영 ISO 인증 동시 취득 - 히트뉴스",
+      "link": "https://news.google.com/rss/articles/CBMia0FVX3lxTFBsZW5lb1NMMjA1dG1vOHZFX1hKcVpOaEVZMVNybFlVZWlWeVVFSF84QWRFWXJIZFpuOWdzQmdfUjFMaXdGN25uSHBaYmxUcDR1MGlsVGJ6OWxYOEV2NGFXWl9mVE5INGRQMjQ0?oc=5",
+      "source": "히트뉴스",
+      "pubDate": "2026-07-29T06:30:30+00:00",
+      "query": "HLB테라퓨틱스"
+    },
+    {
       "title": "HLB바이오스텝, 영장류 비임상 경쟁력 확대…에코엔테크와 맞손 - ebn.co.kr",
       "link": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE5ZS3ZhNktMQm1aTWk5dVZveGsyN0UyV0czblRtNm9fd0h0a2VjNm1veWhDLVpJbFlPSy1pWWpOdlc2U0hlRW9SVjFOeldQWEZaUGE2YTJ3WThob3pFb0p1b1ZMUkFNOS1l?oc=5",
       "source": "ebn.co.kr",
       "pubDate": "2026-07-29T06:00:00+00:00",
-      "query": "HLB바이오스텝"
+      "query": "HLB 임상"
     },
     {
       "title": "HLB 간암 신약, API·DP 공장서 무균공정 지적 반복…3차 CRL 새 쟁점 - 메디코파마",
@@ -141,6 +141,6 @@
       "query": "HLB이노베이션"
     }
   ],
-  "fetchedAt": "2026-07-29T16:37:32.766583+00:00",
+  "fetchedAt": "2026-07-29T17:58:40.936875+00:00",
   "count": 20
 }
