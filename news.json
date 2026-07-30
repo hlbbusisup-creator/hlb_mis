@@ -1,6 +1,13 @@
 {
   "news": [
     {
+      "title": "“백신 유통도 글로벌 급”… HLB테라퓨틱스, 품질·환경 국제표준 동시 획득 - 지이코노미",
+      "link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE84QjJtdmFXRGdkY1kzajlLcTJSMmJCS3luNUtrQlZPRDh4akdNcXJFUWk5VlN5ck9fdE1CdTJkVUQ5cFpBM3FSSkNzdlhpMnRjamUyaEtTMUNhYXlvUWs0Y0k4TGF1S3M?oc=5",
+      "source": "지이코노미",
+      "pubDate": "2026-07-30T12:52:09+00:00",
+      "query": "HLB테라퓨틱스"
+    },
+    {
       "title": "HLB 간암신약 또 지연되나… 中 완제공장서도 FDA 지적 - IT조선",
       "link": "https://news.google.com/rss/articles/CBMidEFVX3lxTE5GV1dKRDNRUGhyTTJ1TlZfZ1BrSGtJbzN3SGtGM1hsN3RKMXZRdzdYc3ZRck0tc2tmdEktRVBtX3Y2bC0xNW1raHVlYkYxTmR2cWRFb3pZdzlZQlUzMUswdFItTUlpV3B4b2E2cWYzYlR3MF9f0gF0QVVfeXFMTkZXV0pEM1FQaHJNMnVOVl9nUGtIa0lvM3dIa0YzWGw3dEoxdlF3N1hzdlFyTS1za2Z0SS1FUG1fdjZsLTE1bWtodWViRjFOZHZxZEVvell3OVlCVTMxSzB0Ui1NSWlXcHhvYTZxZjNiVHcwX18?oc=5",
       "source": "IT조선",
@@ -50,13 +57,6 @@
       "query": "HLB파나진"
     },
     {
-      "title": "HLB테라퓨틱스, 품질·환경경영 ISO 인증 동시 취득 - 히트뉴스",
-      "link": "https://news.google.com/rss/articles/CBMia0FVX3lxTFBsZW5lb1NMMjA1dG1vOHZFX1hKcVpOaEVZMVNybFlVZWlWeVVFSF84QWRFWXJIZFpuOWdzQmdfUjFMaXdGN25uSHBaYmxUcDR1MGlsVGJ6OWxYOEV2NGFXWl9mVE5INGRQMjQ0?oc=5",
-      "source": "히트뉴스",
-      "pubDate": "2026-07-29T06:30:30+00:00",
-      "query": "HLB테라퓨틱스"
-    },
-    {
       "title": "HLB 간암 신약, API·DP 공장서 무균공정 지적 반복…3차 CRL 새 쟁점 - 메디코파마",
       "link": "https://news.google.com/rss/articles/CBMickFVX3lxTE4zM296MFMwZkFmZnJVUnFvR19RQUZVdU9WbUVxWU1XbWcyNVYxTXllb2lzZzhtVzNNNlQ3amRBc29pekNxcXRHOWRpdm9abC1fRzZrblV5YkdON3pZLWY0WnRBRldzN0Jpb3B3RUF4QW9zUQ?oc=5",
       "source": "메디코파마",
@@ -64,9 +64,9 @@
       "query": "HLB 신약"
     },
     {
-      "title": "HLB제약, 퍼스트 제네릭 포트폴리오 확장 시동 - dealsite.co.kr",
+      "title": "HLB제약, 퍼스트 제네릭 포트폴리오 확장 시동 - 딜사이트",
       "link": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE01aTJlOGVXOGYyV2xuaUhoZjBaNDROUWdQZml5QnpNMWVweHc1ZkxVcnFWQ2lja2lkSzMxUjdWYTgyYkpVNlNiUy1UQmlSNTg?oc=5",
-      "source": "dealsite.co.kr",
+      "source": "딜사이트",
       "pubDate": "2026-07-28T07:36:48+00:00",
       "query": "HLB제약"
     },
@@ -79,7 +79,7 @@
     },
     {
       "title": "HLB펩, 랩센 브랜드 라인업 강화 - v.daum.net",
-      "link": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE5WZm5XQVRobHo3dWxkT0F3dlA0dDF6TXlNUnZ5c0NtMzl4WDBMb0E4enVsU1kxVE9TWHFXMkViMTQ0M2o1aHVONnVsX3ZKME0?oc=5",
+      "link": "https://news.google.com/rss/articles/CBMiRkFVX3lxTE5CbFI2QUlpeFR3NmpqMHpzVGF3TzJZdVg5RHFYVmdvTVpsTWJqU2plTG9Bdm93Z3lac05xUWxLamhVam1QOVE?oc=5",
       "source": "v.daum.net",
       "pubDate": "2026-07-28T05:22:51+00:00",
       "query": "HLB펩"
@@ -120,6 +120,6 @@
       "query": "HLB제약"
     }
   ],
-  "fetchedAt": "2026-07-30T12:01:56.885528+00:00",
+  "fetchedAt": "2026-07-30T14:28:05.254786+00:00",
   "count": 17
 }
