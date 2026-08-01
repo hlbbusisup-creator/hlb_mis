@@ -1,6 +1,13 @@
 {
   "news": [
     {
+      "title": "HLB 엘레바, ‘리라푸그라티닙’ 암종불문 임상 2상 첫 환자 투약 - kukinews.com",
+      "link": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE9aczlnRWZDMkNqWXM5SVVpRzdPaUxJaFlsX3o0TWdzSXZHRXplTzJqUWZROTMxcWc0WVVIbE43TmpKM1AyQmtkSTlsQllNTlEzYkhJNXhEbF9UZVRBVUpDaGt3TQ?oc=5",
+      "source": "kukinews.com",
+      "pubDate": "2026-08-01T08:41:18+00:00",
+      "query": "HLB 임상"
+    },
+    {
       "title": "HLB, 간암 신약 허가 재도전…끝까지 놓지 않는 이유 - v.daum.net",
       "link": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE5PTGpXanJzY19ZaE92emV1ZjlndTRuVHVTRVVLOHFUMWlUSS1penZSNGIxMnI0eVRGQUFjNUR5SS1zQWludWg0Nk4yUUE5QXVVek5WWQ?oc=5",
       "source": "v.daum.net",
@@ -8,16 +15,16 @@
       "query": "HLB 신약"
     },
     {
-      "title": "HLB 간암신약 또 지연되나… 中 완제공장서도 FDA 지적 - IT조선",
+      "title": "HLB 간암신약 또 지연되나… 中 완제공장서도 FDA 지적 - it.chosun.com",
       "link": "https://news.google.com/rss/articles/CBMidEFVX3lxTE5GV1dKRDNRUGhyTTJ1TlZfZ1BrSGtJbzN3SGtGM1hsN3RKMXZRdzdYc3ZRck0tc2tmdEktRVBtX3Y2bC0xNW1raHVlYkYxTmR2cWRFb3pZdzlZQlUzMUswdFItTUlpV3B4b2E2cWYzYlR3MF9f0gF0QVVfeXFMTkZXV0pEM1FQaHJNMnVOVl9nUGtIa0lvM3dIa0YzWGw3dEoxdlF3N1hzdlFyTS1za2Z0SS1FUG1fdjZsLTE1bWtodWViRjFOZHZxZEVvell3OVlCVTMxSzB0Ui1NSWlXcHhvYTZxZjNiVHcwX18?oc=5",
-      "source": "IT조선",
+      "source": "it.chosun.com",
       "pubDate": "2026-07-30T07:12:56+00:00",
       "query": "HLB FDA"
     },
     {
-      "title": "HLB 간암신약 더 지연?…외신 \"中완제시설 문제도 해결해야\" - newsis.com",
+      "title": "HLB 간암신약 더 지연?…외신 \"中완제시설 문제도 해결해야\" - 뉴시스",
       "link": "https://news.google.com/rss/articles/CBMiYEFVX3lxTFAtOWRjMndfVlV1YTlkdHpPd1FQR0doRDZiVnozSTdRclVBQ0V4NDRpQnJYb3NKREtZZDZFZkNsdzlsenBZVkp5UjllZzhzbkdjZkp2RmtLWGpBbHUzcU1vctIBeEFVX3lxTE9NYmhXQjAxbW1zNkNKYzd0WXkyd1o2LXdIWjhpeWtqNEpieUp3OGwyNnFMQ0RtemlvMVctTEdhczQ5TDdqeFFnTjI2RFplUmNkOVVoczliRXlHQzdZT212N3RfR3hxbHhRTjRFajdrYm5wemlIZlJDeg?oc=5",
-      "source": "newsis.com",
+      "source": "뉴시스",
       "pubDate": "2026-07-30T01:34:27+00:00",
       "query": "HLB 신약"
     },
@@ -106,6 +113,6 @@
       "query": "HLB 허가"
     }
   ],
-  "fetchedAt": "2026-08-01T18:45:10.619513+00:00",
-  "count": 15
+  "fetchedAt": "2026-08-01T20:01:45.972152+00:00",
+  "count": 16
 }
