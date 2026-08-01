@@ -36,11 +36,18 @@
       "query": "HLB제약"
     },
     {
-      "title": "HLB제약 1200억 유증 흔들…최대주주 절반만 청약 - news.dealsitetv.com",
+      "title": "HLB제약 1200억 유증 흔들…최대주주 절반만 청약 - DealSite경제TV",
       "link": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE1BcUZhbGxjbkdZX09YbWhKN01MNDlvcDFVZDMtVllzbVpJV0lIVWFxQmJLZ013WllkUlpvTDY5NWM5Qzh6TjJHTTVuS2pPbFhZaDNnNGhB?oc=5",
-      "source": "news.dealsitetv.com",
+      "source": "DealSite경제TV",
       "pubDate": "2026-07-29T23:00:26+00:00",
       "query": "HLB제약"
+    },
+    {
+      "title": "HLB테라퓨틱스, ISO 9001·14001 동시 획득 - 데일리팜",
+      "link": "https://news.google.com/rss/articles/CBMiUEFVX3lxTE1obEZUTnNUb0xia0lISFFuNEpoRVZxTXJsanljYklnQml5eW5ELURRWGVkRVJGalNDckJ1Q1lzWjM2MmxmcHNkakFUMFppZ21N?oc=5",
+      "source": "데일리팜",
+      "pubDate": "2026-07-29T20:20:11+00:00",
+      "query": "HLB테라퓨틱스"
     },
     {
       "title": "HLB, 항서 '완제 사이트'도 FDA에 시정계획 \"제출\" - 바이오스펙테이터",
@@ -48,13 +55,6 @@
       "source": "바이오스펙테이터",
       "pubDate": "2026-07-29T08:53:00+00:00",
       "query": "HLB FDA"
-    },
-    {
-      "title": "HLB테라퓨틱스, ISO 9001·14001 동시 인증 - MEDI:GATE NEWS",
-      "link": "https://news.google.com/rss/articles/CBMiV0FVX3lxTE1KRTc5MG1VWElFSmE0NDVBUmYtRk1CWWREX1JrV0dFc3djbENtZjJkT0hkdmtvay1DWFhwVU9rWld0cU5BMWNjRm9ST3gxWG5LZmczcVg4QQ?oc=5",
-      "source": "MEDI:GATE NEWS",
-      "pubDate": "2026-07-29T08:03:00+00:00",
-      "query": "HLB테라퓨틱스"
     },
     {
       "title": "HLB제약, 퍼스트 제네릭 포트폴리오 확장 시동 : 네이버 블로그 - Naver Blog",
@@ -71,9 +71,9 @@
       "query": "HLB 임상"
     },
     {
-      "title": "HLB파나진 진양곤 사내이사, 소유 주식 수량 5만8000주 증가…소유 지분율 0.12%p 상승 - digitaltoday.co.kr",
+      "title": "HLB파나진 진양곤 사내이사, 소유 주식 수량 5만8000주 증가…소유 지분율 0.12%p 상승 - 디지털투데이",
       "link": "https://news.google.com/rss/articles/CBMic0FVX3lxTE1UZDJxejlHRkdRWUIxYk8xMkFWVG5CRUoybFJWdy1KdXN0dUFoX3B0RU9yRi10MGVHbmtYVFVQYXhsdVdRbW11MXJOMnRNYlRyX2Y2X0VxUkpuWUdyQ3pQa1FkWmhDZktjdE4tSzBrNTJ4Zlk?oc=5",
-      "source": "digitaltoday.co.kr",
+      "source": "디지털투데이",
       "pubDate": "2026-07-29T07:23:01+00:00",
       "query": "HLB파나진"
     },
@@ -92,9 +92,9 @@
       "query": "HLB펩"
     },
     {
-      "title": "HLB이노베이션 CAR-T, 고용량 임상으로 차세대 치료제 도전 - 뉴스1",
+      "title": "HLB이노베이션 CAR-T, 고용량 임상으로 차세대 치료제 도전 - news1.kr",
       "link": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE1JY3BoRTdPVWtUYl9kMmdkTUpMT0R4UVRsZGJCTTVrQmg3UW5rT3RzOVNVZldMVDI0N1ViSkxxWkJTVGY1ZEFGY2l4Tkd2WUYybGc?oc=5",
-      "source": "뉴스1",
+      "source": "news1.kr",
       "pubDate": "2026-07-28T00:20:32+00:00",
       "query": "HLB이노베이션"
     },
@@ -113,6 +113,6 @@
       "query": "HLB 허가"
     }
   ],
-  "fetchedAt": "2026-08-01T07:17:39.464976+00:00",
+  "fetchedAt": "2026-08-01T09:31:25.294188+00:00",
   "count": 16
 }
