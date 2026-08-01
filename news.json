@@ -1,13 +1,6 @@
 {
   "news": [
     {
-      "title": "HLB 엘레바, ‘리라푸그라티닙’ 암종불문 임상 2상 첫 환자 투약 - kukinews.com",
-      "link": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE9aczlnRWZDMkNqWXM5SVVpRzdPaUxJaFlsX3o0TWdzSXZHRXplTzJqUWZROTMxcWc0WVVIbE43TmpKM1AyQmtkSTlsQllNTlEzYkhJNXhEbF9UZVRBVUpDaGt3TQ?oc=5",
-      "source": "kukinews.com",
-      "pubDate": "2026-08-01T08:41:18+00:00",
-      "query": "HLB 임상"
-    },
-    {
       "title": "HLB, 간암 신약 허가 재도전…끝까지 놓지 않는 이유 - v.daum.net",
       "link": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE5PTGpXanJzY19ZaE92emV1ZjlndTRuVHVTRVVLOHFUMWlUSS1penZSNGIxMnI0eVRGQUFjNUR5SS1zQWludWg0Nk4yUUE5QXVVek5WWQ?oc=5",
       "source": "v.daum.net",
@@ -15,9 +8,9 @@
       "query": "HLB 신약"
     },
     {
-      "title": "HLB 간암신약 또 지연되나… 中 완제공장서도 FDA 지적 - it.chosun.com",
+      "title": "HLB 간암신약 또 지연되나… 中 완제공장서도 FDA 지적 - IT조선",
       "link": "https://news.google.com/rss/articles/CBMidEFVX3lxTE5GV1dKRDNRUGhyTTJ1TlZfZ1BrSGtJbzN3SGtGM1hsN3RKMXZRdzdYc3ZRck0tc2tmdEktRVBtX3Y2bC0xNW1raHVlYkYxTmR2cWRFb3pZdzlZQlUzMUswdFItTUlpV3B4b2E2cWYzYlR3MF9f0gF0QVVfeXFMTkZXV0pEM1FQaHJNMnVOVl9nUGtIa0lvM3dIa0YzWGw3dEoxdlF3N1hzdlFyTS1za2Z0SS1FUG1fdjZsLTE1bWtodWViRjFOZHZxZEVvell3OVlCVTMxSzB0Ui1NSWlXcHhvYTZxZjNiVHcwX18?oc=5",
-      "source": "it.chosun.com",
+      "source": "IT조선",
       "pubDate": "2026-07-30T07:12:56+00:00",
       "query": "HLB FDA"
     },
@@ -57,9 +50,9 @@
       "query": "HLB테라퓨틱스"
     },
     {
-      "title": "HLB제약, 퍼스트 제네릭 포트폴리오 확장 시동 : 네이버 블로그 - blog.naver.com",
+      "title": "HLB제약, 퍼스트 제네릭 포트폴리오 확장 시동 : 네이버 블로그 - Naver Blog",
       "link": "https://news.google.com/rss/articles/CBMijwFBVV95cUxOWkItQTg5aEpaSUEtRXlRc2R1TVNOY3VrUDUtV1FtWGRPakdvaUkwTVB5RlJBNF9fQXhfWkJMVkpGd3RVR1ZwMHNRYVBFLUwyaW90em9IT2ZCd042R2tlWU1udWNyMER1MmVSR2VJQnpNSzV0ZWdYVFBjMHJLSHRYZW8zMHZuWlFLSTBWOHZvVQ?oc=5",
-      "source": "blog.naver.com",
+      "source": "Naver Blog",
       "pubDate": "2026-07-29T07:53:38+00:00",
       "query": "HLB제약"
     },
@@ -106,13 +99,13 @@
       "query": "HLB제넥스"
     },
     {
-      "title": "'후반부 심사' 넘은 HLB '리라푸그라티닙'…FDA 허가 시계는 어디까지 왔나 - 바이오타임즈",
+      "title": "'후반부 심사' 넘은 HLB '리라푸그라티닙'…FDA 허가 시계는 어디까지 왔나 - biotimes.co.kr",
       "link": "https://news.google.com/rss/articles/CBMibEFVX3lxTE8xQVhRTi1xZEJtMlFkekNNVmVpMm84dkZfRFB6NXJkeGVEbm54Mng4OGZVdWNqZnJHSHpleS1TYjZNQWg1X1RHMDRxMmNBTlBDU2Zsa3Y3SXJTaXdwVHB1eW1IRVlBdmdQRXlpTw?oc=5",
-      "source": "바이오타임즈",
+      "source": "biotimes.co.kr",
       "pubDate": "2026-07-27T07:00:00+00:00",
       "query": "HLB 허가"
     }
   ],
-  "fetchedAt": "2026-08-01T20:01:45.972152+00:00",
-  "count": 16
+  "fetchedAt": "2026-08-01T21:07:09.186972+00:00",
+  "count": 15
 }
