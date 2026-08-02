@@ -1,6 +1,13 @@
 {
   "news": [
     {
+      "title": "HLB ‘리보세라닙’ 임상 3상 긍정 평가 … 지나친 확대해석 경계해야 - healtho.co.kr",
+      "link": "https://news.google.com/rss/articles/CBMid0FVX3lxTE9XNXFHSkdidm12Z3FTdTlNd1ZjWUZYMTFlbVFEZXctc2ZDTmIzLUJtYjZEck4yRTd2aElQcnhvVy1kTElLeVJIZmpEZWh5MElBYXNqSWt2T0dBcjlnN3lidXhCRUZVeU82WEZmU0pydHZOMC13eHM0?oc=5",
+      "source": "healtho.co.kr",
+      "pubDate": "2026-08-02T06:13:30+00:00",
+      "query": "HLB 임상"
+    },
+    {
       "title": "아리바이오·HLB·한미…하반기 K바이오 임상·허가 성적표 나온다 - 서울경제TV",
       "link": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE1xWmhleHJHUzh4OW5DdFhwVHF2WnJXZ2xhbmpWYUtFVHlVNWJJUVlOVEJobDdhZHRuRkRaWXZ5aWQ4dE5hZWdFQXQyS1ZfNFlFcFVsTnVHVmtBcWVRb2VZNy1TSmo?oc=5",
       "source": "서울경제TV",
@@ -78,16 +85,16 @@
       "query": "HLB바이오스텝"
     },
     {
-      "title": "HLB파나진 진양곤 사내이사, 소유 주식 수량 5만8000주 증가…소유 지분율 0.12%p 상승 - digitaltoday.co.kr",
+      "title": "HLB파나진 진양곤 사내이사, 소유 주식 수량 5만8000주 증가…소유 지분율 0.12%p 상승 - 디지털투데이",
       "link": "https://news.google.com/rss/articles/CBMic0FVX3lxTE1UZDJxejlHRkdRWUIxYk8xMkFWVG5CRUoybFJWdy1KdXN0dUFoX3B0RU9yRi10MGVHbmtYVFVQYXhsdVdRbW11MXJOMnRNYlRyX2Y2X0VxUkpuWUdyQ3pQa1FkWmhDZktjdE4tSzBrNTJ4Zlk?oc=5",
-      "source": "digitaltoday.co.kr",
+      "source": "디지털투데이",
       "pubDate": "2026-07-29T07:23:01+00:00",
       "query": "HLB파나진"
     },
     {
-      "title": "HLB펩, '랩센' 두 번째 에센스...\"특허 원료로 제품군 강화\" - 메트로신문",
+      "title": "HLB펩, '랩센' 두 번째 에센스...\"특허 원료로 제품군 강화\" - metroseoul.co.kr",
       "link": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE5XLXJ0M0loSlJxeUdLaFFmYVhsN0pNUTR5M2RyVFM3Z0VyRWs5ZVpQdG56aEJoRHhDcmFSeDdNdmRyWDJnTkpfMW9vU2RJNDJNUFpCQWUyMm1zMTB5eFc2Yg?oc=5",
-      "source": "메트로신문",
+      "source": "metroseoul.co.kr",
       "pubDate": "2026-07-28T05:58:21+00:00",
       "query": "HLB펩"
     },
@@ -113,6 +120,6 @@
       "query": "HLB제넥스"
     }
   ],
-  "fetchedAt": "2026-08-02T16:39:53.321685+00:00",
-  "count": 16
+  "fetchedAt": "2026-08-02T17:46:20.401634+00:00",
+  "count": 17
 }
