@@ -1,13 +1,6 @@
 {
   "news": [
     {
-      "title": "HLB ‘리보세라닙’ 임상 3상 긍정 평가 … 지나친 확대해석 경계해야 - 헬스오",
-      "link": "https://news.google.com/rss/articles/CBMid0FVX3lxTE9XNXFHSkdidm12Z3FTdTlNd1ZjWUZYMTFlbVFEZXctc2ZDTmIzLUJtYjZEck4yRTd2aElQcnhvVy1kTElLeVJIZmpEZWh5MElBYXNqSWt2T0dBcjlnN3lidXhCRUZVeU82WEZmU0pydHZOMC13eHM0?oc=5",
-      "source": "헬스오",
-      "pubDate": "2026-08-02T06:13:30+00:00",
-      "query": "HLB 임상"
-    },
-    {
       "title": "아리바이오·HLB·한미…하반기 K바이오 임상·허가 성적표 나온다 - 서울경제TV",
       "link": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE1xWmhleHJHUzh4OW5DdFhwVHF2WnJXZ2xhbmpWYUtFVHlVNWJJUVlOVEJobDdhZHRuRkRaWXZ5aWQ4dE5hZWdFQXQyS1ZfNFlFcFVsTnVHVmtBcWVRb2VZNy1TSmo?oc=5",
       "source": "서울경제TV",
@@ -20,6 +13,13 @@
       "source": "쿠키뉴스",
       "pubDate": "2026-08-01T08:41:18+00:00",
       "query": "HLB 임상"
+    },
+    {
+      "title": "HLB파나진, 글로벌 바이오텍과 협력…“분자진단 제품 독점 공급” - 쿠키뉴스",
+      "link": "https://news.google.com/rss/articles/CBMiY0FVX3lxTFA4VWkxSUJ6MkFReWlwLTV5S1dLUHNsX2gwM2VPSk90QlRudnlQbDk1cWtyWmFONkwzZ09zMmJXejZlLV85d0l5TEMzMDFjaER1VGhUNVdKalQ2ai04NnVhcDlkRQ?oc=5",
+      "source": "쿠키뉴스",
+      "pubDate": "2026-07-31T22:49:52+00:00",
+      "query": "HLB파나진"
     },
     {
       "title": "HLB, 간암 신약 허가 재도전…끝까지 놓지 않는 이유 - v.daum.net",
@@ -50,16 +50,16 @@
       "query": "HLB제약"
     },
     {
-      "title": "HLB, 항서 '완제 사이트'도 FDA에 시정계획 \"제출\" - biospectator.com",
+      "title": "HLB, 항서 '완제 사이트'도 FDA에 시정계획 \"제출\" - 바이오스펙테이터",
       "link": "https://news.google.com/rss/articles/CBMiV0FVX3lxTE9vTHQzUGJPa3dERTNnTTdxUnFaaGdUdHF4ZTBiVWJjZXlscTA4NFdONTlmbmhlcnN4UXFaVXhCbGNmcmtEYzFSOTB5SG1EaXdaRFVvbmt5TQ?oc=5",
-      "source": "biospectator.com",
+      "source": "바이오스펙테이터",
       "pubDate": "2026-07-29T08:53:00+00:00",
       "query": "HLB FDA"
     },
     {
-      "title": "HLB테라퓨틱스, ISO 9001·14001 동시 인증 - medigatenews.com",
+      "title": "HLB테라퓨틱스, ISO 9001·14001 동시 인증 - MEDI:GATE NEWS",
       "link": "https://news.google.com/rss/articles/CBMiV0FVX3lxTE1KRTc5MG1VWElFSmE0NDVBUmYtRk1CWWREX1JrV0dFc3djbENtZjJkT0hkdmtvay1DWFhwVU9rWld0cU5BMWNjRm9ST3gxWG5LZmczcVg4QQ?oc=5",
-      "source": "medigatenews.com",
+      "source": "MEDI:GATE NEWS",
       "pubDate": "2026-07-29T08:03:00+00:00",
       "query": "HLB테라퓨틱스"
     },
@@ -78,9 +78,9 @@
       "query": "HLB바이오스텝"
     },
     {
-      "title": "HLB파나진 진양곤 사내이사, 소유 주식 수량 5만8000주 증가…소유 지분율 0.12%p 상승 - 디지털투데이",
+      "title": "HLB파나진 진양곤 사내이사, 소유 주식 수량 5만8000주 증가…소유 지분율 0.12%p 상승 - digitaltoday.co.kr",
       "link": "https://news.google.com/rss/articles/CBMic0FVX3lxTE1UZDJxejlHRkdRWUIxYk8xMkFWVG5CRUoybFJWdy1KdXN0dUFoX3B0RU9yRi10MGVHbmtYVFVQYXhsdVdRbW11MXJOMnRNYlRyX2Y2X0VxUkpuWUdyQ3pQa1FkWmhDZktjdE4tSzBrNTJ4Zlk?oc=5",
-      "source": "디지털투데이",
+      "source": "digitaltoday.co.kr",
       "pubDate": "2026-07-29T07:23:01+00:00",
       "query": "HLB파나진"
     },
@@ -113,6 +113,6 @@
       "query": "HLB제넥스"
     }
   ],
-  "fetchedAt": "2026-08-02T15:37:49.635358+00:00",
+  "fetchedAt": "2026-08-02T16:39:53.321685+00:00",
   "count": 16
 }
