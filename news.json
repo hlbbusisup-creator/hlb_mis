@@ -1,9 +1,9 @@
 {
   "news": [
     {
-      "title": "HLB ‘리보세라닙’ 임상 3상 긍정 평가 … 지나친 확대해석 경계해야 - healtho.co.kr",
+      "title": "HLB ‘리보세라닙’ 임상 3상 긍정 평가 … 지나친 확대해석 경계해야 - 헬스오",
       "link": "https://news.google.com/rss/articles/CBMid0FVX3lxTE9XNXFHSkdidm12Z3FTdTlNd1ZjWUZYMTFlbVFEZXctc2ZDTmIzLUJtYjZEck4yRTd2aElQcnhvVy1kTElLeVJIZmpEZWh5MElBYXNqSWt2T0dBcjlnN3lidXhCRUZVeU82WEZmU0pydHZOMC13eHM0?oc=5",
-      "source": "healtho.co.kr",
+      "source": "헬스오",
       "pubDate": "2026-08-02T06:13:30+00:00",
       "query": "HLB 임상"
     },
@@ -36,6 +36,13 @@
       "query": "HLB 신약"
     },
     {
+      "title": "HLB 간암신약 또 지연되나… 中 완제공장서도 FDA 지적 - IT조선",
+      "link": "https://news.google.com/rss/articles/CBMicEFVX3lxTE5kNmVzR0pWVXg2VlJvaXgyQ2lDMkZ6T25xQ3AzS1p3cVJTazVRcjY2NmF2dlRTbnEtWUI3aTRxTHJCN0s4bThhUXU1dUY0MjdsWkIteGdROUNGNThZMDVzdnJsLXBXZGlIM1kxSlBjMUbSAXRBVV95cUxORldXSkQzUVBock0ydU5WX2dQa0hrSW8zd0hrRjNYbDd0SjF2UXc3WHN2UXJNLXNrZnRJLUVQbV92NmwtMTVta2h1ZWJGMU5kdnFkRW96WXc5WUJVMzFLMHRSLU1JaVdweG9hNnFmM2JUdzBfXw?oc=5",
+      "source": "IT조선",
+      "pubDate": "2026-07-30T06:21:20+00:00",
+      "query": "HLB FDA"
+    },
+    {
       "title": "HLB 간암신약 더 지연?…외신 \"中완제시설 문제도 해결해야\" - 뉴시스",
       "link": "https://news.google.com/rss/articles/CBMiYEFVX3lxTFAtOWRjMndfVlV1YTlkdHpPd1FQR0doRDZiVnozSTdRclVBQ0V4NDRpQnJYb3NKREtZZDZFZkNsdzlsenBZVkp5UjllZzhzbkdjZkp2RmtLWGpBbHUzcU1vctIBeEFVX3lxTE9NYmhXQjAxbW1zNkNKYzd0WXkyd1o2LXdIWjhpeWtqNEpieUp3OGwyNnFMQ0RtemlvMVctTEdhczQ5TDdqeFFnTjI2RFplUmNkOVVoczliRXlHQzdZT212N3RfR3hxbHhRTjRFajdrYm5wemlIZlJDeg?oc=5",
       "source": "뉴시스",
@@ -50,16 +57,16 @@
       "query": "HLB제약"
     },
     {
-      "title": "HLB제약 1200억 유증 흔들…최대주주 절반만 청약 - DealSite경제TV",
+      "title": "HLB제약 1200억 유증 흔들…최대주주 절반만 청약 - news.dealsitetv.com",
       "link": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE1BcUZhbGxjbkdZX09YbWhKN01MNDlvcDFVZDMtVllzbVpJV0lIVWFxQmJLZ013WllkUlpvTDY5NWM5Qzh6TjJHTTVuS2pPbFhZaDNnNGhB?oc=5",
-      "source": "DealSite경제TV",
+      "source": "news.dealsitetv.com",
       "pubDate": "2026-07-29T23:00:26+00:00",
       "query": "HLB제약"
     },
     {
-      "title": "HLB, 항서 '완제 사이트'도 FDA에 시정계획 \"제출\" - 바이오스펙테이터",
+      "title": "HLB, 항서 '완제 사이트'도 FDA에 시정계획 \"제출\" - biospectator.com",
       "link": "https://news.google.com/rss/articles/CBMiV0FVX3lxTE9vTHQzUGJPa3dERTNnTTdxUnFaaGdUdHF4ZTBiVWJjZXlscTA4NFdONTlmbmhlcnN4UXFaVXhCbGNmcmtEYzFSOTB5SG1EaXdaRFVvbmt5TQ?oc=5",
-      "source": "바이오스펙테이터",
+      "source": "biospectator.com",
       "pubDate": "2026-07-29T08:53:00+00:00",
       "query": "HLB FDA"
     },
@@ -120,6 +127,6 @@
       "query": "HLB제넥스"
     }
   ],
-  "fetchedAt": "2026-08-02T17:46:20.401634+00:00",
-  "count": 17
+  "fetchedAt": "2026-08-02T18:45:23.900031+00:00",
+  "count": 18
 }
