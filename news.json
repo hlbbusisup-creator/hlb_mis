@@ -1,16 +1,23 @@
 {
   "news": [
     {
-      "title": "HLB파나진, 싱가포르 PNA 공급 확대…로슈 계열과 독점 계약 - PRESS9",
-      "link": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE1GRk9HWnlBY3ZjdUFKNHNsV1h4RmJRQ0Q2bzZoZGxERDA2TXVnX0ZHcVEwTWF5M1JkZWZQYnphTzd3VXFiM3JiREJCVWVaRWF5ei1LUEVvVHRPLS0tNEJkc1RqWGY?oc=5",
-      "source": "PRESS9",
-      "pubDate": "2026-08-02T23:39:00+00:00",
+      "title": "HLB 리보세라닙 연구 3건 ESMO 채택…FDA 허가 변수는 여전히 제조시설 - CBC뉴스",
+      "link": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE9JVGhaNndKTi05VFI2WnJKbEkwYmhsRWFxcDJrU2laMFk1S3FqWXIxZDVwNnp0QUFuOVA1Y05wR1psa3dVQk5GMDZBeWhzQjltSFN5TnlDemtoSmdtTTJabWZCUWljOFFF?oc=5",
+      "source": "CBC뉴스",
+      "pubDate": "2026-08-03T00:57:12+00:00",
+      "query": "HLB FDA"
+    },
+    {
+      "title": "HLB파나진, 로슈 계열 연구소와 PNA 독점 유통 계약…싱가포르 공략 - 서울경제TV",
+      "link": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE15enFFQmdQQzFVSHZteGlJSVNrT3dZMlVCS0xGNFpJWk5pa3BTX1ZYZWN2ZEdCV0FkR2l2RGpYTWQtR000NTMxSUVtOXYweXNndlZmZXlLWGJCd0F5b19DNUlZTEs?oc=5",
+      "source": "서울경제TV",
+      "pubDate": "2026-08-03T00:38:32+00:00",
       "query": "HLB 신약"
     },
     {
-      "title": "HLB ‘리보세라닙’ 임상 3상 긍정 평가 … 지나친 확대해석 경계해야 - healtho.co.kr",
+      "title": "HLB ‘리보세라닙’ 임상 3상 긍정 평가 … 지나친 확대해석 경계해야 - 헬스오",
       "link": "https://news.google.com/rss/articles/CBMid0FVX3lxTE9XNXFHSkdidm12Z3FTdTlNd1ZjWUZYMTFlbVFEZXctc2ZDTmIzLUJtYjZEck4yRTd2aElQcnhvVy1kTElLeVJIZmpEZWh5MElBYXNqSWt2T0dBcjlnN3lidXhCRUZVeU82WEZmU0pydHZOMC13eHM0?oc=5",
-      "source": "healtho.co.kr",
+      "source": "헬스오",
       "pubDate": "2026-08-02T06:13:30+00:00",
       "query": "HLB 임상"
     },
@@ -36,9 +43,9 @@
       "query": "HLB 허가"
     },
     {
-      "title": "HLB 간암신약 더 지연?…외신 \"中완제시설 문제도 해결해야\" - newsis.com",
+      "title": "HLB 간암신약 더 지연?…외신 \"中완제시설 문제도 해결해야\" - 뉴시스",
       "link": "https://news.google.com/rss/articles/CBMiYEFVX3lxTFAtOWRjMndfVlV1YTlkdHpPd1FQR0doRDZiVnozSTdRclVBQ0V4NDRpQnJYb3NKREtZZDZFZkNsdzlsenBZVkp5UjllZzhzbkdjZkp2RmtLWGpBbHUzcU1vctIBeEFVX3lxTE9NYmhXQjAxbW1zNkNKYzd0WXkyd1o2LXdIWjhpeWtqNEpieUp3OGwyNnFMQ0RtemlvMVctTEdhczQ5TDdqeFFnTjI2RFplUmNkOVVoczliRXlHQzdZT212N3RfR3hxbHhRTjRFajdrYm5wemlIZlJDeg?oc=5",
-      "source": "newsis.com",
+      "source": "뉴시스",
       "pubDate": "2026-07-30T01:34:27+00:00",
       "query": "HLB FDA"
     },
@@ -50,9 +57,9 @@
       "query": "HLB제약"
     },
     {
-      "title": "HLB제약 1200억 유증 흔들…최대주주 절반만 청약 - DealSite경제TV",
+      "title": "HLB제약 1200억 유증 흔들…최대주주 절반만 청약 - news.dealsitetv.com",
       "link": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE1BcUZhbGxjbkdZX09YbWhKN01MNDlvcDFVZDMtVllzbVpJV0lIVWFxQmJLZ013WllkUlpvTDY5NWM5Qzh6TjJHTTVuS2pPbFhZaDNnNGhB?oc=5",
-      "source": "DealSite경제TV",
+      "source": "news.dealsitetv.com",
       "pubDate": "2026-07-29T23:00:26+00:00",
       "query": "HLB제약"
     },
@@ -85,24 +92,24 @@
       "query": "HLB제넥스"
     },
     {
-      "title": "HLB바이오스텝, 에코엔테크와 영장류 비임상시험 서비스 협력 - medipana.com",
+      "title": "HLB바이오스텝, 에코엔테크와 영장류 비임상시험 서비스 협력 - 메디파나뉴스",
       "link": "https://news.google.com/rss/articles/CBMia0FVX3lxTE5ZRWFOUkJPOEEtWG5fQ3N5TDZ1ZnFaZmJFUjlYS1otOTVsMGZvZU5wNG1FcC1rU1lSRFRxZ3kyZVpxV2x3ZWFvMlhBY2JBcHp0UWt4SllfUUY2eUVtN0hfSFlhb2JLVmZfb2xR?oc=5",
-      "source": "medipana.com",
+      "source": "메디파나뉴스",
       "pubDate": "2026-07-29T00:07:12+00:00",
       "query": "HLB바이오스텝"
+    },
+    {
+      "title": "HLB펩, '랩센' 두 번째 에센스...\"특허 원료로 제품군 강화\" - 메트로신문",
+      "link": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE5XLXJ0M0loSlJxeUdLaFFmYVhsN0pNUTR5M2RyVFM3Z0VyRWs5ZVpQdG56aEJoRHhDcmFSeDdNdmRyWDJnTkpfMW9vU2RJNDJNUFpCQWUyMm1zMTB5eFc2Yg?oc=5",
+      "source": "메트로신문",
+      "pubDate": "2026-07-28T05:58:21+00:00",
+      "query": "HLB펩"
     },
     {
       "title": "HLB펩, ‘펩타이드 리페어 마이크로 버블 에센스’ 출시 - 데일리팜",
       "link": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE1hWV9hMXBQSEF2N1kxc1ZpY25OSlVZeHQ0QUQyT2NjRnBrNmVYU2ZkMkJZLUtYVlZlQlh5c1k1ekwta2ZsUmZKOHdIUW1oeW9POVZUQW9B?oc=5",
       "source": "데일리팜",
       "pubDate": "2026-07-28T05:33:13+00:00",
-      "query": "HLB펩"
-    },
-    {
-      "title": "HLB펩, 랩센 브랜드 라인업 강화 - v.daum.net",
-      "link": "https://news.google.com/rss/articles/CBMiS0FVX3lxTFAza1E0cEpDM0ljMC1NRTdqcGN6RV81ZkVNbVFSbEthcU9fb3dBZURLaW51am40ZFlfNkQ5NUp4RDEyQzUzd0JMS3Vobw?oc=5",
-      "source": "v.daum.net",
-      "pubDate": "2026-07-28T05:22:00+00:00",
       "query": "HLB펩"
     },
     {
@@ -113,6 +120,6 @@
       "query": "HLB제넥스"
     }
   ],
-  "fetchedAt": "2026-08-02T23:44:29.077517+00:00",
-  "count": 16
+  "fetchedAt": "2026-08-03T01:18:19.839985+00:00",
+  "count": 17
 }
