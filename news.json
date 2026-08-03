@@ -1,10 +1,10 @@
 {
   "news": [
     {
-      "title": "[특징주] HLB제약, 유상증자 1차 발행가 5650원…4일, 권리락 - 뉴스티앤티",
-      "link": "https://news.google.com/rss/articles/CBMiakFVX3lxTE1vUmM4aE9Zb0ltREgxRjB4WlZGbV80TG9kU2pYd1FZN0RveDBFbUlfS3JWQmZjNjBid2t0eVdjcmxPa3VIbjVVQUYyWGx6SEZxVWFwR0ZGcTJabDZMd2lldEtTSmp3dGpmWXc?oc=5",
-      "source": "뉴스티앤티",
-      "pubDate": "2026-08-03T10:08:41+00:00",
+      "title": "HLB제약, 유증 1200억→609억원 '반토막'…1차 발행가 5650원 확정 - 팜이데일리",
+      "link": "https://news.google.com/rss/articles/CBMigwFBVV95cUxNem15ZGh3cHNhM25pSTdnYlgzbC1DZTdLSGpNM0N1S1dZZVNJb01PbjFaMDAxR0ZZdklGU2V3eVBnbklrM05NaFIwajhFNVdITzRwOC1sOENkeFR6SloxQ0JPSXAtdFRadmJDQ3c2eDJveU52a1JiWUQwbjJpQTRFU01zbw?oc=5",
+      "source": "팜이데일리",
+      "pubDate": "2026-08-03T07:34:19+00:00",
       "query": "HLB제약"
     },
     {
@@ -15,16 +15,9 @@
       "query": "HLB제약"
     },
     {
-      "title": "HLB그룹, 새 GI 선포…“글로벌 신약기업 도약 가속” - 아시아투데이",
-      "link": "https://news.google.com/rss/articles/CBMibkFVX3lxTE8zZVR4UjFUejhTeVhVX3QxWUhGbTJjZUhsUWRmX0NYUFBYQUI5cnhOSWhkbm9Gcmp2Qk1uTkVBLVEyNXNEVDJrVnhpTUJxNnI5Y0pqQmtqMmM3Ulc1bWZIMDVTUXB0YURUVExvRENR?oc=5",
-      "source": "아시아투데이",
-      "pubDate": "2026-08-03T07:02:56+00:00",
-      "query": "HLB 신약"
-    },
-    {
-      "title": "AI 날개 단 LG이노텍, 신약 빨간불 HLB…8월 MSCI서 운명 엇갈릴까 - 한국경제",
+      "title": "AI 날개 단 LG이노텍, 신약 빨간불 HLB…8월 MSCI서 운명 엇갈릴까 - hankyung.com",
       "link": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE9YMExRNkRSSXIxaGllVUViazZnYkVFTi1vd1YzY2hJZVlBcEFpUGpiSllNZzh3a2FmSGZSVVdKOGFXN3kwRFFXLWxzOVNTRm40aTJ5T0hxajZuQQ?oc=5",
-      "source": "한국경제",
+      "source": "hankyung.com",
       "pubDate": "2026-08-03T07:02:14+00:00",
       "query": "HLB 신약"
     },
@@ -99,9 +92,9 @@
       "query": "HLB FDA"
     },
     {
-      "title": "HLB, 항서 '완제 사이트'도 FDA에 시정계획 \"제출\" - 바이오스펙테이터",
+      "title": "HLB, 항서 '완제 사이트'도 FDA에 시정계획 \"제출\" - biospectator.com",
       "link": "https://news.google.com/rss/articles/CBMiV0FVX3lxTE9vTHQzUGJPa3dERTNnTTdxUnFaaGdUdHF4ZTBiVWJjZXlscTA4NFdONTlmbmhlcnN4UXFaVXhCbGNmcmtEYzFSOTB5SG1EaXdaRFVvbmt5TQ?oc=5",
-      "source": "바이오스펙테이터",
+      "source": "biospectator.com",
       "pubDate": "2026-07-29T08:53:00+00:00",
       "query": "HLB FDA"
     },
@@ -141,6 +134,6 @@
       "query": "HLB펩"
     }
   ],
-  "fetchedAt": "2026-08-03T12:02:30.109886+00:00",
-  "count": 20
+  "fetchedAt": "2026-08-03T15:12:03.765489+00:00",
+  "count": 19
 }
