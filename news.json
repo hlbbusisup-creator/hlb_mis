@@ -1,13 +1,146 @@
 {
   "news": [
     {
-      "title": "HLB생활건강, 자생식물 활용 원료 개발 위해 벨아벨바이오와 MOU - 약업신문",
+      "title": "HLB파나진, 싱가포르 PNA 독점 유통 계약 체결 - 로이슈",
+      "link": "https://news.google.com/rss/articles/CBMiekFVX3lxTE1IQ0U3OE9mYV9OVU5ob25KUXVnckJST1lvcnFKeEFOOEt1MGJhQVFicFN5bDdmWXZzY2VlSUFvQU1SVXBVV2VwSmpIRTBGRHR3bmNDQ0xPX1VUVENoTmk4THpPTlhiQ3hPQ0t1a0QtMTc0RFFObmJJUk9B?oc=5",
+      "source": "로이슈",
+      "pubDate": "2026-08-03T09:29:21+00:00",
+      "query": "HLB파나진"
+    },
+    {
+      "title": "HLB제약, 유증 1200억→609억원 '반토막'…1차 발행가 5650원 확정 - 팜이데일리",
+      "link": "https://news.google.com/rss/articles/CBMigwFBVV95cUxNem15ZGh3cHNhM25pSTdnYlgzbC1DZTdLSGpNM0N1S1dZZVNJb01PbjFaMDAxR0ZZdklGU2V3eVBnbklrM05NaFIwajhFNVdITzRwOC1sOENkeFR6SloxQ0JPSXAtdFRadmJDQ3c2eDJveU52a1JiWUQwbjJpQTRFU01zbw?oc=5",
+      "source": "팜이데일리",
+      "pubDate": "2026-08-03T07:34:19+00:00",
+      "query": "HLB제약"
+    },
+    {
+      "title": "반토막 난 HLB제약 유상증자…채무 상환 무산되고 R&D 자금도 급감 - 데이터투자",
+      "link": "https://news.google.com/rss/articles/CBMic0FVX3lxTFBiQmJuWXUtMTEySjBOUjdaWnZ4RmEteHlxekNCOXR2anRib19DR25zRnVOaW5KR0M5UGZnMnlVdTlfVkc1OWdkQjhEdUpIX2dRaEFCbGRrZ3ZlR3N4V3hFSmViblhuQ3hLUkxSVno2SlV6REk?oc=5",
+      "source": "데이터투자",
+      "pubDate": "2026-08-03T07:30:32+00:00",
+      "query": "HLB제약"
+    },
+    {
+      "title": "AI 날개 단 LG이노텍, 신약 빨간불 HLB…8월 MSCI서 운명 엇갈릴까 - 한국경제",
+      "link": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE9YMExRNkRSSXIxaGllVUViazZnYkVFTi1vd1YzY2hJZVlBcEFpUGpiSllNZzh3a2FmSGZSVVdKOGFXN3kwRFFXLWxzOVNTRm40aTJ5T0hxajZuQQ?oc=5",
+      "source": "한국경제",
+      "pubDate": "2026-08-03T07:02:14+00:00",
+      "query": "HLB 신약"
+    },
+    {
+      "title": "HLB그룹, 새 BI 공개…\"도전과 성장의 상징\" - 연합뉴스",
+      "link": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE5SUm9DSlEzOXZSSzZ3aEk1MVpvcmdGU2VncFNmMjBhNUoxN2Z0dzZoZFpDVEQtOUtvMG1fcHB6N00tMFdPeVlwZVhCcXJ4cExTcncxTmlEOWNWVG1UTDFGY9IBYEFVX3lxTE5SUm9DSlEzOXZSSzZ3aEk1MVpvcmdGU2VncFNmMjBhNUoxN2Z0dzZoZFpDVEQtOUtvMG1fcHB6N00tMFdPeVlwZVhCcXJ4cExTcncxTmlEOWNWVG1UTDFGYw?oc=5",
+      "source": "연합뉴스",
+      "pubDate": "2026-08-03T06:33:02+00:00",
+      "query": "HLB 신약"
+    },
+    {
+      "title": "'3전4기' HLB, 공장 리스크 딛고 FDA 재도전…중국 항서제약과 '원팀' 승부수 - ebn.co.kr",
+      "link": "https://news.google.com/rss/articles/CBMiaEFVX3lxTFBQYy1OYnZqOXhWSVFHc0JpUVJwZzJHdmI1ZDZhV2o2N0Q1Z2QxX0VrYWVIRzk0TVRNRW5reUdKZ2xrbGtycVE5bmhyaUpJdHJZY3FxNWFsY0lVOEVGbTlfVlI3SDNRNTJa?oc=5",
+      "source": "ebn.co.kr",
+      "pubDate": "2026-08-03T01:53:19+00:00",
+      "query": "HLB FDA"
+    },
+    {
+      "title": "HLB제약, 3차 CRL 후폭풍에 최대주주도 '직격' … 보유주식 65% 묶였다 - 뉴데일리",
+      "link": "https://news.google.com/rss/articles/CBMie0FVX3lxTE5EWUQtZUpZXzZVSjFSVVd6QlJuTC1OdVZKbk0wRWFoX0UzNm5hUGZTVGVGNzZUdHRLeVhZU2N5czdXN2RSckVBVHdzcVlhOHUySUhRZGRZZ2QxdTBZN0ktMTRLcDlTNjhZaUxJUXdFRll4Mm5BZ2VKcUJGNNIBgAFBVV95cUxNVGdlYXlWelVDdXhpaHVQSndrVUNpTXB2V1JrMWJzLU1mMnhzOWd1MkZKUV9PMktiQU0yMU5uTjAyTGhrWGpwdmd6MkpYODFRZFlmY0VMMnZIYnkwYWQyZ1JrOUctTHdYY0FIakY5Q080OE9LalNlZlpXZ2p0cEVQQw?oc=5",
+      "source": "뉴데일리",
+      "pubDate": "2026-08-03T00:23:27+00:00",
+      "query": "HLB제약"
+    },
+    {
+      "title": "HLB생활건강, 자생식물 활용 원료 개발 위해 벨아벨바이오와 MOU - yakup.com",
       "link": "https://news.google.com/rss/articles/CBMingFBVV95cUxPTW1BRDNuNTdTSzRaWVZyUmppY2RLYWNXNXVVazE0Z0JDbjFiUXMwS3FGSEpETXVfTlNuSnFyVEl2QlF1YWRlQUw4QzgxRl9hcHZ2UVl0NkllbUFlbEVnandQeXJ5Q3hWRkNpN0VlN3c1cGtiNDJtZkFFWmVzYmpiUlJidXROR1l1dEthMC01UzdtVmJwbndOR2IwMVB2dw?oc=5",
-      "source": "약업신문",
+      "source": "yakup.com",
       "pubDate": "2026-08-02T11:48:19+00:00",
       "query": "HLB생활건강"
+    },
+    {
+      "title": "HLB ‘리보세라닙’ 임상 3상 긍정 평가 … 지나친 확대해석 경계해야 - 헬스오",
+      "link": "https://news.google.com/rss/articles/CBMid0FVX3lxTE9XNXFHSkdidm12Z3FTdTlNd1ZjWUZYMTFlbVFEZXctc2ZDTmIzLUJtYjZEck4yRTd2aElQcnhvVy1kTElLeVJIZmpEZWh5MElBYXNqSWt2T0dBcjlnN3lidXhCRUZVeU82WEZmU0pydHZOMC13eHM0?oc=5",
+      "source": "헬스오",
+      "pubDate": "2026-08-02T06:13:30+00:00",
+      "query": "HLB 임상"
+    },
+    {
+      "title": "아리바이오·HLB·한미…하반기 K바이오 임상·허가 성적표 나온다 - 서울경제TV",
+      "link": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE1xWmhleHJHUzh4OW5DdFhwVHF2WnJXZ2xhbmpWYUtFVHlVNWJJUVlOVEJobDdhZHRuRkRaWXZ5aWQ4dE5hZWdFQXQyS1ZfNFlFcFVsTnVHVmtBcWVRb2VZNy1TSmo?oc=5",
+      "source": "서울경제TV",
+      "pubDate": "2026-08-01T23:00:04+00:00",
+      "query": "HLB 임상"
+    },
+    {
+      "title": "HLB 엘레바, ‘리라푸그라티닙’ 암종불문 임상 2상 첫 환자 투약 - 쿠키뉴스",
+      "link": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE9aczlnRWZDMkNqWXM5SVVpRzdPaUxJaFlsX3o0TWdzSXZHRXplTzJqUWZROTMxcWc0WVVIbE43TmpKM1AyQmtkSTlsQllNTlEzYkhJNXhEbF9UZVRBVUpDaGt3TQ?oc=5",
+      "source": "쿠키뉴스",
+      "pubDate": "2026-08-01T08:41:18+00:00",
+      "query": "HLB 임상"
+    },
+    {
+      "title": "HLB, 간암 신약 허가 재도전…끝까지 놓지 않는 이유 - v.daum.net",
+      "link": "https://news.google.com/rss/articles/CBMiS0FVX3lxTFBuUGJIY3NvbFpSczByd3dxTlVCMnpXbEZ6V0IxQ3EyVjVaZmEwdDE0eElsRnJWYTZhR0RWR0pnSnNiNmdKQXp5SUhFcw?oc=5",
+      "source": "v.daum.net",
+      "pubDate": "2026-07-30T23:39:09+00:00",
+      "query": "HLB 허가"
+    },
+    {
+      "title": "HLB 간암신약 더 지연?…외신 \"中완제시설 문제도 해결해야\" - 뉴시스",
+      "link": "https://news.google.com/rss/articles/CBMiYEFVX3lxTFAtOWRjMndfVlV1YTlkdHpPd1FQR0doRDZiVnozSTdRclVBQ0V4NDRpQnJYb3NKREtZZDZFZkNsdzlsenBZVkp5UjllZzhzbkdjZkp2RmtLWGpBbHUzcU1vctIBeEFVX3lxTE9NYmhXQjAxbW1zNkNKYzd0WXkyd1o2LXdIWjhpeWtqNEpieUp3OGwyNnFMQ0RtemlvMVctTEdhczQ5TDdqeFFnTjI2RFplUmNkOVVoczliRXlHQzdZT212N3RfR3hxbHhRTjRFajdrYm5wemlIZlJDeg?oc=5",
+      "source": "뉴시스",
+      "pubDate": "2026-07-30T01:34:27+00:00",
+      "query": "HLB FDA"
+    },
+    {
+      "title": "[단독] HLB제약, CSO 수수료 1% 인하···타 제약사 확대 여부 주목 - 시사저널e",
+      "link": "https://news.google.com/rss/articles/CBMickFVX3lxTE04bW1wY3VnZWVabm5nckJkMHpzdF9VUWtRRk9zb1dVWDREeUhJU1loNTlQMHV1OWFQazVsQUZzbExDNlhyWkRmM1pXVDNqZXgtU2N2NkM5aExtSUNyLUF3U0V1NlVJRGR4LXhUZl9lOGF2d9IBdkFVX3lxTFBoam1nVTBOM2J5aUtpbVZEMy1TSTZWU1YtamNlMmlqWFo4MWx3QkR0V09ZZkxleFo1ZDBNMGRKZDNSTVBhOUNTOVVlQTN4dTY4OXNnRGI3N29IRnh2cVN4aGw2TExpQmJfZmtNT1FhZTVnMHRsU3c?oc=5",
+      "source": "시사저널e",
+      "pubDate": "2026-07-30T00:53:51+00:00",
+      "query": "HLB제약"
+    },
+    {
+      "title": "HLB, 항서 '완제 사이트'도 FDA에 시정계획 \"제출\" - 바이오스펙테이터",
+      "link": "https://news.google.com/rss/articles/CBMiV0FVX3lxTE9vTHQzUGJPa3dERTNnTTdxUnFaaGdUdHF4ZTBiVWJjZXlscTA4NFdONTlmbmhlcnN4UXFaVXhCbGNmcmtEYzFSOTB5SG1EaXdaRFVvbmt5TQ?oc=5",
+      "source": "바이오스펙테이터",
+      "pubDate": "2026-07-29T08:53:00+00:00",
+      "query": "HLB FDA"
+    },
+    {
+      "title": "HLB바이오스텝, 에코엔테크와 영장류 비임상시험 협력 - 데일리팜",
+      "link": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE4xQjRjU3lWM3U5Q19Sa1V0TnJxRnJZMWhnRVBiRHJWNTJsRHhKZ29OSmFMNWxHMVViUzZZOHZva0RTUDJMenJyRWs3MmtmSHhTWXdlT3BB?oc=5",
+      "source": "데일리팜",
+      "pubDate": "2026-07-29T07:25:20+00:00",
+      "query": "HLB 임상"
+    },
+    {
+      "title": "HLB테라퓨틱스, ISO 9001·14001 동시 획득 - 메디파나뉴스",
+      "link": "https://news.google.com/rss/articles/CBMia0FVX3lxTE9saUtldXgyRVB4QlA4dmRDTUE2Nlk5aGpGMGxXZ0dIanl4bDlueTZvdFBFQjVzci1Eb2o3TlNwTFZ5X2RnSk5rd0NkNjRPTnl0bElkNGxITkZuNzNyLVF4Y19peWVfTGxXVHhR?oc=5",
+      "source": "메디파나뉴스",
+      "pubDate": "2026-07-29T07:08:48+00:00",
+      "query": "HLB테라퓨틱스"
+    },
+    {
+      "title": "진양곤 사내이사, HLB제넥스 주식 5만428주 ↑…지분율 2.48% - 데이터투자",
+      "link": "https://news.google.com/rss/articles/CBMic0FVX3lxTE00cVhWZm9Za3pVZUdEN1ZOOWVYYWNsdmRJRWxrZnY1WHZWWjluZWpQUFZLdTFxSjgyNmlCNW1qZnd3TVA1dWpqeFdRUGd6c3l2WXJ2Y2d6eDk2WENDVzBaWVRGS1lIWTdXanU1bVc5UVVqeUk?oc=5",
+      "source": "데이터투자",
+      "pubDate": "2026-07-29T06:47:09+00:00",
+      "query": "HLB제넥스"
+    },
+    {
+      "title": "HLB펩, '랩센' 두 번째 에센스...\"특허 원료로 제품군 강화\" - 메트로신문",
+      "link": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE5XLXJ0M0loSlJxeUdLaFFmYVhsN0pNUTR5M2RyVFM3Z0VyRWs5ZVpQdG56aEJoRHhDcmFSeDdNdmRyWDJnTkpfMW9vU2RJNDJNUFpCQWUyMm1zMTB5eFc2Yg?oc=5",
+      "source": "메트로신문",
+      "pubDate": "2026-07-28T05:58:21+00:00",
+      "query": "HLB펩"
+    },
+    {
+      "title": "HLB펩, ‘펩타이드 리페어 마이크로 버블 에센스’ 출시 - 데일리팜",
+      "link": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE1hWV9hMXBQSEF2N1kxc1ZpY25OSlVZeHQ0QUQyT2NjRnBrNmVYU2ZkMkJZLUtYVlZlQlh5c1k1ekwta2ZsUmZKOHdIUW1oeW9POVZUQW9B?oc=5",
+      "source": "데일리팜",
+      "pubDate": "2026-07-28T05:33:13+00:00",
+      "query": "HLB펩"
     }
   ],
-  "fetchedAt": "2026-08-03T23:19:50.119672+00:00",
-  "count": 1
+  "fetchedAt": "2026-08-04T00:58:38.522187+00:00",
+  "count": 20
 }
