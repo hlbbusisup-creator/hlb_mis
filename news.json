@@ -22,13 +22,6 @@
       "query": "HLB제약"
     },
     {
-      "title": "HLB파나진, 글로벌 제약사 계열 신약연구소와 동남아 PNA 유통 독점 계약 - 뉴스1",
-      "link": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE5MTFdHUUhDYlRCMGZKTk5lMW1pM3lqRzQ4UVNMSENQWHZRd08ybEI3RkJadEVWbV9oZVRmS2VTOUVFdTZabUFxSm1MU3ROTlp2anp4bEV6NUxHQ2d6Z3FzRg?oc=5",
-      "source": "뉴스1",
-      "pubDate": "2026-08-05T07:05:52+00:00",
-      "query": "HLB 신약"
-    },
-    {
       "title": "HLB이노베이션, 투자주의 소수계좌 거래집중 종목 지정 - 톱스타뉴스",
       "link": "https://news.google.com/rss/articles/CBMickFVX3lxTE5GQ1ZmeEp2LTc5a0lQOHMyWDd0NXhzekVDSzc4MUdlaE01ZTVOcTZ0YmxOWmxKbGV1Y1d2bnRpaGpTc25qUnBjZmFjUk1EQlZCbUk1aGZVRU55Wi1GYy1RX0NmRVJ3R3JCaXRBMnVuUWY5Zw?oc=5",
       "source": "톱스타뉴스",
@@ -54,7 +47,7 @@
       "link": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE9QZUcxMmVERWtld0FMUWdwS2tFMzRYcFJJVXIwZ1NWVjBQQWNvdGEtR2tSaHlRV0E4UU1FTDFMczVHaFZPTWprY2R1b2E4N3VlSTg2Y0k5bXRGM2lHUmlEb1BUdTI?oc=5",
       "source": "PRESS9",
       "pubDate": "2026-08-04T05:54:18+00:00",
-      "query": "HLB FDA"
+      "query": "HLB 허가"
     },
     {
       "title": "HLB제넥스, 마이크로바이옴 기반 사업 확대… 미래 성장동력 확보 - 핀포인트뉴스",
@@ -71,8 +64,15 @@
       "query": "HLB제약"
     },
     {
+      "title": "HLB파나진, 싱가포르 PNA 독점 유통 계약 체결 - 로이슈",
+      "link": "https://news.google.com/rss/articles/CBMiekFVX3lxTE1IQ0U3OE9mYV9OVU5ob25KUXVnckJST1lvcnFKeEFOOEt1MGJhQVFicFN5bDdmWXZzY2VlSUFvQU1SVXBVV2VwSmpIRTBGRHR3bmNDQ0xPX1VUVENoTmk4THpPTlhiQ3hPQ0t1a0QtMTc0RFFObmJJUk9B?oc=5",
+      "source": "로이슈",
+      "pubDate": "2026-08-03T09:29:21+00:00",
+      "query": "HLB 계약"
+    },
+    {
       "title": "HLB제약, 유증 1200억→609억원 '반토막'…1차 발행가 5650원 확정 - 팜이데일리",
-      "link": "https://news.google.com/rss/articles/CBMibkFVX3lxTE51NGxIV1pLQkNnTGhob09mVlNndWxFZzR2cEhMS1RhNVdJb0ZxaXg2cm9qSFpEa0lBd3JkNDhBU050NlRyYmpnb19seWlMaVlGMkhtQkRNN2pRWlZFMEcwMUtfd3J5S3J3ZFJpbWJR?oc=5",
+      "link": "https://news.google.com/rss/articles/CBMibkFVX3lxTE5PaWU0RGlGOGFiWGFCbDdOSHRhTGRqX0lwMTA5ZGt3ekI5T3htdTYwRVp6dEl0VnlzUlNYX29UTkhSOFdnaUxoNllOYWZUemR1MFpYemZPWUV2OFhrdHc0OV94MEwyR0NJZTRPUHp3?oc=5",
       "source": "팜이데일리",
       "pubDate": "2026-08-03T07:34:19+00:00",
       "query": "HLB제약"
@@ -106,6 +106,6 @@
       "query": "HLB 임상"
     }
   ],
-  "fetchedAt": "2026-08-06T04:42:27.118124+00:00",
+  "fetchedAt": "2026-08-06T07:27:45.860038+00:00",
   "count": 15
 }
