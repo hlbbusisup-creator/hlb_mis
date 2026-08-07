@@ -1,11 +1,46 @@
 {
   "news": [
     {
-      "title": "HLB테라퓨틱스, 제17회차 전환사채 61억630만원에 만기 전 취득…출자전환 후 소각 - 디지털투데이",
-      "link": "https://news.google.com/rss/articles/CBMic0FVX3lxTFB0M1l5VUZvbUxyaF9xdDVkQm9waWluY19vVG1FUENkeVpwMFZMR2djLW1NM2FNSkQ2dUZ1UjhPX2JPWDJsd2kxemszczdzaTJLdEtCcWhoNlItQW1mSjVCcUNuX1RfX2V5dklLODgzbzFDbXM?oc=5",
-      "source": "디지털투데이",
-      "pubDate": "2026-08-06T09:53:06+00:00",
+      "title": "HLB테라퓨틱스, 112억원 출자전환 유증…재무구조 개선 - 네이트",
+      "link": "https://news.google.com/rss/articles/CBMiYEFVX3lxTFBaU2pjSGkwUzVBYjA2bGllY1hMdG1ReWQ3bEswajBVVVFMbmFfenNDblV1TW1jektaN3hKQUtEQU5YeDJjOVdtUHUxSERPWEFDUklSOU9ZMTF3UHBlU1A4Zg?oc=5",
+      "source": "네이트",
+      "pubDate": "2026-08-06T23:36:00+00:00",
       "query": "HLB테라퓨틱스"
+    },
+    {
+      "title": "HLB테라퓨틱스, 111억원 유상증자…에이치엘비에 제3자배정 - 연합뉴스",
+      "link": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE5JRnhqUVZBTGVZaGRhQnoxRnAwdjJWWkc0RXdoaWtDckJldHZDa1JpTEc4WkhhVmNnUE9xeHFCLXNYLTlBRmpGOUUxQ1M1ZjJnZndZb09lUGtZcEHSAWBBVV95cUxQLWx3S2hBWHQ4TmwtblhZbUpyaUs5TVc4dFlrQVdVckYzcnVueTFnX0xZLWlGU1VFeFV5ZlRVZjRPaGJpODlxMzRudDV5R3p5S0RBZm9VZ1hqa0lwb0ZTd0s?oc=5",
+      "source": "연합뉴스",
+      "pubDate": "2026-08-06T22:46:05+00:00",
+      "query": "HLB테라퓨틱스"
+    },
+    {
+      "title": "HLB테라퓨틱스, 50억 규모 CB 만기전 취득... 최대주주 풋옵션 행사 영향 - 데이터투자",
+      "link": "https://news.google.com/rss/articles/CBMic0FVX3lxTE9DdDdkNklILXhFTmhCUVpqT0VTaXMxaExkYm5KZkxzTmdnZHBQSU9QTTV4ZHpWYUc3eXFLc1hSY1Fjc25ZUHpSbHZGX2xINV8wYkRDS2hQWVFFWnVMa0RIa19Tc0JvNkQ5SV9ZYXlhdHoxT28?oc=5",
+      "source": "데이터투자",
+      "pubDate": "2026-08-06T22:45:36+00:00",
+      "query": "HLB테라퓨틱스"
+    },
+    {
+      "title": "HLB, 5년 7600억 조달…FDA 불발에 '시장 피로감' - 데일리팜",
+      "link": "https://news.google.com/rss/articles/CBMiZEFVX3lxTFBWTm91MXBrR2t1TE5PcF9fRE8tcUkzbkR1TzRxU1hEZ1E1TlpYLThvT3VWOUhhSFBmclEyMHRvZXhDWmxNcnpMREhmTmwwcmlUTTZzWTM1cWVxUlRRdkJ5bk9WVHM?oc=5",
+      "source": "데일리팜",
+      "pubDate": "2026-08-06T22:11:31+00:00",
+      "query": "HLB 신약"
+    },
+    {
+      "title": "HLB제약 유증 '반토막'에 자금조달 차질…R&D 줄이고 채무상환금 제외 - 더팩트",
+      "link": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE1NNGdQTlgwckdlS05nX2ZXWU1vM0xSbG11RXhkRzBXczM1NXhiSU1PNVhTZl80M1VzblU0TXNXZGQxb0R4di1OMWpCX2ZBYmZRZkZGQtIBVEFVX3lxTE1NNGdQTlgwckdlS05nX2ZXWU1vM0xSbG11RXhkRzBXczM1NXhiSU1PNVhTZl80M1VzblU0TXNXZGQxb0R4di1OMWpCX2ZBYmZRZkZGQg?oc=5",
+      "source": "더팩트",
+      "pubDate": "2026-08-06T15:00:00+00:00",
+      "query": "HLB제약"
+    },
+    {
+      "title": "HLB이노베이션, 투자경고종목 지정예고 - 톱스타뉴스",
+      "link": "https://news.google.com/rss/articles/CBMickFVX3lxTE9qcm02aU43ajh1cEg5X0pZZ0hiX1dvNGd3ZGhPNktUa3JMQ3hNOFQ5TnFjNXFRQmdfc3A4a3VKVEkyZDBPMEpPcUFRMUxiY1BoT3h6ZFRfb3BlV0cyTTNCYWNocERwX2ZZei1qbE9MMU9KZw?oc=5",
+      "source": "톱스타뉴스",
+      "pubDate": "2026-08-06T11:29:04+00:00",
+      "query": "HLB이노베이션"
     },
     {
       "title": "특징주, HLB바이오스텝-대마 테마 상승세에 5.25% ↑ - 매일경제 마켓",
@@ -15,11 +50,11 @@
       "query": "HLB바이오스텝"
     },
     {
-      "title": "HLB, 5년 7600억 조달…FDA 불발에 '시장 피로감' - 데일리팜",
-      "link": "https://news.google.com/rss/articles/CBMiUEFVX3lxTE1xNGIyZEZhbGUtT0Q2NXZMa19ETmpZVHB5N1VTTWxYcXNDd0lZQzRSbVd6a2t5bFJwb2hUdnRveGpTNWo3aEZzSGNoSFpfeWx6?oc=5",
-      "source": "데일리팜",
-      "pubDate": "2026-08-06T03:04:35+00:00",
-      "query": "HLB 신약"
+      "title": "HLB라이프케어, ‘참 좋은 중소기업·소상공인 대상’ 중기부 장관상 수상 - 약업신문",
+      "link": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxNcWttaUktenJtQ0tqdDA2NUtDN2FQUjBQaTM5bXoxWTFva0RqVlZJNDl3aEhpc2pRUTJGV1R3c1pEc19NeFdqcS10c2d3dUhLQlIxNUlONXZ4dlJHdGtnWFZrZWQ0eEVmYVhZYnZUMUJlcDJBVGRiYXVWT0NZTDZ5VUdJSmg2YjM2ejJLWWtqaVdjcGE4WVo1elMtUlN2QXREcDgwR25LRlZRSUZCUjZGcHpLUmFJUm5K?oc=5",
+      "source": "약업신문",
+      "pubDate": "2026-08-05T22:46:43+00:00",
+      "query": "HLB라이프케어"
     },
     {
       "title": "HLB제약, 유증 규모 절반 축소…향남 공장 지키고 R&D 재편 - 데일리팜",
@@ -36,13 +71,6 @@
       "query": "HLB 임상"
     },
     {
-      "title": "HLB이노베이션, 투자주의 소수계좌 거래집중 종목 지정 - 톱스타뉴스",
-      "link": "https://news.google.com/rss/articles/CBMickFVX3lxTE5GQ1ZmeEp2LTc5a0lQOHMyWDd0NXhzekVDSzc4MUdlaE01ZTVOcTZ0YmxOWmxKbGV1Y1d2bnRpaGpTc25qUnBjZmFjUk1EQlZCbUk1aGZVRU55Wi1GYy1RX0NmRVJ3R3JCaXRBMnVuUWY5Zw?oc=5",
-      "source": "톱스타뉴스",
-      "pubDate": "2026-08-04T12:39:09+00:00",
-      "query": "HLB이노베이션"
-    },
-    {
       "title": "HLB제약, 3차 CRL 불똥…유증 반토막에 R&D도 ‘뚝’ - 서울경제TV",
       "link": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE42RkNoRWdQVTJMUjJWOWpPcXR6SnMxRm4zMU44UmJzQWRLbkFQWUNFNlYyR3RiTmxIVWhrQW9aUE9rb0ZuSmxGVm1STkYwS0tTSW8yS3FBa0NlRVdzTEM2c3Z4aDk?oc=5",
       "source": "서울경제TV",
@@ -55,13 +83,6 @@
       "source": "ebn.co.kr",
       "pubDate": "2026-08-04T09:09:20+00:00",
       "query": "HLB 신약"
-    },
-    {
-      "title": "HLB 파트너 항서제약, '리보세라닙 공장' 생산품 FDA 보완허가…규제 걸림돌 해소 기대 - PRESS9",
-      "link": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE9QZUcxMmVERWtld0FMUWdwS2tFMzRYcFJJVXIwZ1NWVjBQQWNvdGEtR2tSaHlRV0E4UU1FTDFMczVHaFZPTWprY2R1b2E4N3VlSTg2Y0k5bXRGM2lHUmlEb1BUdTI?oc=5",
-      "source": "PRESS9",
-      "pubDate": "2026-08-04T05:54:18+00:00",
-      "query": "HLB 허가"
     },
     {
       "title": "HLB제넥스, 마이크로바이옴 기반 사업 확대… 미래 성장동력 확보 - 핀포인트뉴스",
@@ -78,17 +99,10 @@
       "query": "HLB제약"
     },
     {
-      "title": "HLB제약, 유증 1200억→609억원 '반토막'…1차 발행가 5650원 확정 - 팜이데일리",
-      "link": "https://news.google.com/rss/articles/CBMibkFVX3lxTE5PaWU0RGlGOGFiWGFCbDdOSHRhTGRqX0lwMTA5ZGt3ekI5T3htdTYwRVp6dEl0VnlzUlNYX29UTkhSOFdnaUxoNllOYWZUemR1MFpYemZPWUV2OFhrdHc0OV94MEwyR0NJZTRPUHp3?oc=5",
-      "source": "팜이데일리",
-      "pubDate": "2026-08-03T07:34:19+00:00",
-      "query": "HLB제약"
-    },
-    {
-      "title": "HLB파나진, 로슈 계열 신약연구소와 싱가포르 PNA 독점 유통 계약 - 전자신문",
-      "link": "https://news.google.com/rss/articles/CBMiTkFVX3lxTE5EeFhsUS11dEZIRW5XQTIzTVg2Z2NwVVhqd1ZjY0pWVHZ1U1pDUVBzREZKNno4U2gzYmVBajFlbWZJMmViaUY2Z0phbzdYQQ?oc=5",
-      "source": "전자신문",
-      "pubDate": "2026-08-03T05:30:29+00:00",
+      "title": "HLB파나진, 싱가포르 CPR과 'PNA 독점유통' 계약 - 바이오스펙테이터",
+      "link": "https://news.google.com/rss/articles/CBMiV0FVX3lxTFBBY25DMTM4NkE4MGwzRE5uX3hrYWdyQzBOMm9VcGFVVU1vLUpWel9rY0tYUzJ6WTNmR2dzLTdoRllSWkJKVGd2V1ZBbmVHcGMtNEdDNmFHSQ?oc=5",
+      "source": "바이오스펙테이터",
+      "pubDate": "2026-08-03T05:23:00+00:00",
       "query": "HLB 계약"
     },
     {
@@ -113,6 +127,6 @@
       "query": "HLB 임상"
     }
   ],
-  "fetchedAt": "2026-08-06T14:56:13.365454+00:00",
-  "count": 16
+  "fetchedAt": "2026-08-07T00:33:43.365164+00:00",
+  "count": 18
 }
