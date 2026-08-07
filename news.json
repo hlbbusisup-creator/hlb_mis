@@ -15,9 +15,9 @@
       "query": "프레시코"
     },
     {
-      "title": "HLB테라퓨틱스, HLB 보유 CB 110억 사실상 출자전환 - news.bizwatch.co.kr",
+      "title": "HLB테라퓨틱스, HLB 보유 CB 110억 사실상 출자전환 - 비즈워치",
       "link": "https://news.google.com/rss/articles/CBMibkFVX3lxTE1tZW9XbnJ2aUlpM2JsNUNfdTIzZ3VRVUpjRENNNlVqT1BBUlFHLU5vQnVFWXRrSUg1TU5LWEJHVjZwYUdtV3NteW5aVE1la1JfSzNLNndWOUpUZGFjNVVNaHFfWTRNS0R4LS0zWXFB?oc=5",
-      "source": "news.bizwatch.co.kr",
+      "source": "비즈워치",
       "pubDate": "2026-08-07T02:01:03+00:00",
       "query": "HLB테라퓨틱스"
     },
@@ -78,9 +78,9 @@
       "query": "HLB제약"
     },
     {
-      "title": "HLB 엘레바, ‘리라푸그라티닙’ 암종불문 임상 2상 첫 환자 투약 - 쿠키뉴스",
+      "title": "HLB 엘레바, ‘리라푸그라티닙’ 암종불문 임상 2상 첫 환자 투약 - kukinews.com",
       "link": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE9aczlnRWZDMkNqWXM5SVVpRzdPaUxJaFlsX3o0TWdzSXZHRXplTzJqUWZROTMxcWc0WVVIbE43TmpKM1AyQmtkSTlsQllNTlEzYkhJNXhEbF9UZVRBVUpDaGt3TQ?oc=5",
-      "source": "쿠키뉴스",
+      "source": "kukinews.com",
       "pubDate": "2026-08-04T19:29:12+00:00",
       "query": "HLB 임상"
     },
@@ -89,6 +89,13 @@
       "link": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE42RkNoRWdQVTJMUjJWOWpPcXR6SnMxRm4zMU44UmJzQWRLbkFQWUNFNlYyR3RiTmxIVWhrQW9aUE9rb0ZuSmxGVm1STkYwS0tTSW8yS3FBa0NlRVdzTEM2c3Z4aDk?oc=5",
       "source": "서울경제TV",
       "pubDate": "2026-08-04T09:34:23+00:00",
+      "query": "HLB 신약"
+    },
+    {
+      "title": "[단독] 간암신약 지연에도…'큰손' 블랙록, HLB 지분 더 샀다 - ebn.co.kr",
+      "link": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE1ILWJkVUFMcjl0YkluM0pGS3E1ZW1DaHcteHVaX0pKTWlCTVF1ZXRWRE1uZWdrQUxVNkxnUGZlalhzQmZiS1VZSEhvUjV6cTIyWmYwYzcxVXVuZmlYWnRwQWZwYnprcVdD?oc=5",
+      "source": "ebn.co.kr",
+      "pubDate": "2026-08-04T09:09:20+00:00",
       "query": "HLB 신약"
     },
     {
@@ -106,18 +113,11 @@
       "query": "HLB제약"
     },
     {
-      "title": "HLB파나진, 싱가포르 CPR과 'PNA 독점유통' 계약 - biospectator.com",
+      "title": "HLB파나진, 싱가포르 CPR과 'PNA 독점유통' 계약 - 바이오스펙테이터",
       "link": "https://news.google.com/rss/articles/CBMiV0FVX3lxTFBBY25DMTM4NkE4MGwzRE5uX3hrYWdyQzBOMm9VcGFVVU1vLUpWel9rY0tYUzJ6WTNmR2dzLTdoRllSWkJKVGd2V1ZBbmVHcGMtNEdDNmFHSQ?oc=5",
-      "source": "biospectator.com",
+      "source": "바이오스펙테이터",
       "pubDate": "2026-08-03T05:23:00+00:00",
       "query": "HLB 계약"
-    },
-    {
-      "title": "HLB파나진, 글로벌 제약사 계열사와 동남아 PNA 공급 - 뉴스핌",
-      "link": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE84OElnOFpaX2NOdlZjd3A0YlFDOU5hVjhGZlhmX0pKczR4UjVXVzVBUkttMGswRDBucDZ4MllkTUpMMTRfeEZqM0ZmbjB6T1lMOXdPRkV6M3Z2Qk1T?oc=5",
-      "source": "뉴스핌",
-      "pubDate": "2026-08-02T23:43:00+00:00",
-      "query": "HLB파나진"
     },
     {
       "title": "HLB생활건강, 자생식물 활용 원료 개발 위해 벨아벨바이오와 MOU - 약업신문",
@@ -141,6 +141,6 @@
       "query": "HLB 임상"
     }
   ],
-  "fetchedAt": "2026-08-07T16:08:32.159666+00:00",
+  "fetchedAt": "2026-08-07T17:23:19.414110+00:00",
   "count": 20
 }
