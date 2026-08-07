@@ -1,9 +1,9 @@
 {
   "news": [
     {
-      "title": "HLB글로벌, 자회사 프레시코에 74억원 금전대여 1년 연장 결정 - 디지털투데이",
+      "title": "HLB글로벌, 자회사 프레시코에 74억원 금전대여 1년 연장 결정 - digitaltoday.co.kr",
       "link": "https://news.google.com/rss/articles/CBMic0FVX3lxTE01SEFCZnFGVlk1MmtYOUY5YTl6VlRKVkhhZ0luQ1hzNXgwUjFwZ3FseUhIa2JnbXh3cWdCaW9PS1BMRGFta2plbjViTFREdmZWRUxScVkyYTZfUjAzRzhXbDhWZzlaN201cXdrd1lnZEw4aXc?oc=5",
-      "source": "디지털투데이",
+      "source": "digitaltoday.co.kr",
       "pubDate": "2026-08-07T09:05:08+00:00",
       "query": "프레시코"
     },
@@ -57,9 +57,9 @@
       "query": "HLB바이오스텝"
     },
     {
-      "title": "HLB라이프케어, ‘참 좋은 중소기업·소상공인 대상’ 중기부 장관상 수상 - yakup.com",
+      "title": "HLB라이프케어, ‘참 좋은 중소기업·소상공인 대상’ 중기부 장관상 수상 - 약업신문",
       "link": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxNcWttaUktenJtQ0tqdDA2NUtDN2FQUjBQaTM5bXoxWTFva0RqVlZJNDl3aEhpc2pRUTJGV1R3c1pEc19NeFdqcS10c2d3dUhLQlIxNUlONXZ4dlJHdGtnWFZrZWQ0eEVmYVhZYnZUMUJlcDJBVGRiYXVWT0NZTDZ5VUdJSmg2YjM2ejJLWWtqaVdjcGE4WVo1elMtUlN2QXREcDgwR25LRlZRSUZCUjZGcHpLUmFJUm5K?oc=5",
-      "source": "yakup.com",
+      "source": "약업신문",
       "pubDate": "2026-08-05T22:46:43+00:00",
       "query": "HLB라이프케어"
     },
@@ -71,9 +71,9 @@
       "query": "HLB제약"
     },
     {
-      "title": "HLB 엘레바, ‘리라푸그라티닙’ 암종불문 임상 2상 첫 환자 투약 - 쿠키뉴스",
+      "title": "HLB 엘레바, ‘리라푸그라티닙’ 암종불문 임상 2상 첫 환자 투약 - kukinews.com",
       "link": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE9aczlnRWZDMkNqWXM5SVVpRzdPaUxJaFlsX3o0TWdzSXZHRXplTzJqUWZROTMxcWc0WVVIbE43TmpKM1AyQmtkSTlsQllNTlEzYkhJNXhEbF9UZVRBVUpDaGt3TQ?oc=5",
-      "source": "쿠키뉴스",
+      "source": "kukinews.com",
       "pubDate": "2026-08-04T19:29:12+00:00",
       "query": "HLB 임상"
     },
@@ -113,9 +113,16 @@
       "query": "HLB 계약"
     },
     {
-      "title": "HLB생활건강, 자생식물 활용 원료 개발 위해 벨아벨바이오와 MOU - yakup.com",
+      "title": "HLB파나진, 글로벌 제약사 계열사와 동남아 PNA 공급 - 뉴스핌",
+      "link": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE84OElnOFpaX2NOdlZjd3A0YlFDOU5hVjhGZlhmX0pKczR4UjVXVzVBUkttMGswRDBucDZ4MllkTUpMMTRfeEZqM0ZmbjB6T1lMOXdPRkV6M3Z2Qk1T?oc=5",
+      "source": "뉴스핌",
+      "pubDate": "2026-08-02T23:43:00+00:00",
+      "query": "HLB파나진"
+    },
+    {
+      "title": "HLB생활건강, 자생식물 활용 원료 개발 위해 벨아벨바이오와 MOU - 약업신문",
       "link": "https://news.google.com/rss/articles/CBMingFBVV95cUxPTW1BRDNuNTdTSzRaWVZyUmppY2RLYWNXNXVVazE0Z0JDbjFiUXMwS3FGSEpETXVfTlNuSnFyVEl2QlF1YWRlQUw4QzgxRl9hcHZ2UVl0NkllbUFlbEVnandQeXJ5Q3hWRkNpN0VlN3c1cGtiNDJtZkFFWmVzYmpiUlJidXROR1l1dEthMC01UzdtVmJwbndOR2IwMVB2dw?oc=5",
-      "source": "yakup.com",
+      "source": "약업신문",
       "pubDate": "2026-08-02T11:48:19+00:00",
       "query": "HLB생활건강"
     },
@@ -134,6 +141,6 @@
       "query": "HLB 임상"
     }
   ],
-  "fetchedAt": "2026-08-07T09:31:25.956010+00:00",
-  "count": 19
+  "fetchedAt": "2026-08-07T10:37:23.065830+00:00",
+  "count": 20
 }
