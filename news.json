@@ -68,7 +68,7 @@
       "link": "https://news.google.com/rss/articles/CBMiZEFVX3lxTFBWTm91MXBrR2t1TE5PcF9fRE8tcUkzbkR1TzRxU1hEZ1E1TlpYLThvT3VWOUhhSFBmclEyMHRvZXhDWmxNcnpMREhmTmwwcmlUTTZzWTM1cWVxUlRRdkJ5bk9WVHM?oc=5",
       "source": "데일리팜",
       "pubDate": "2026-08-06T03:04:35+00:00",
-      "query": "HLB FDA"
+      "query": "HLB 신약"
     },
     {
       "title": "HLB라이프케어, ‘참 좋은 중소기업·소상공인 대상’ 중기부 장관상 수상 - 약업신문",
@@ -78,18 +78,18 @@
       "query": "HLB라이프케어"
     },
     {
+      "title": "HLB제약, 유증 규모 절반 축소…향남 공장 지키고 R&D 재편 - 데일리팜",
+      "link": "https://news.google.com/rss/articles/CBMiUEFVX3lxTFB0bmRtZVdUR1ZCNUl3UWVDZkhGWTRPU1V6NzM2NWp0a202cTFsdHBPeDdaV05hcHhjaXBYT2Z2S0FnWktpaEc4NUl5emVfUUZ2?oc=5",
+      "source": "데일리팜",
+      "pubDate": "2026-08-05T18:40:11+00:00",
+      "query": "HLB제약"
+    },
+    {
       "title": "HLB파나진, 글로벌 제약사 계열 신약연구소와 동남아 PNA 유통 독점 계약 - 뉴스1",
       "link": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE5MTFdHUUhDYlRCMGZKTk5lMW1pM3lqRzQ4UVNMSENQWHZRd08ybEI3RkJadEVWbV9oZVRmS2VTOUVFdTZabUFxSm1MU3ROTlp2anp4bEV6NUxHQ2d6Z3FzRg?oc=5",
       "source": "뉴스1",
       "pubDate": "2026-08-05T07:05:52+00:00",
       "query": "HLB파나진"
-    },
-    {
-      "title": "HLB제약, 유증 규모 절반 축소…향남 공장 지키고 R&D 재편 - 데일리팜",
-      "link": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE8tZVl6LW9HWjRJaTNITE5COWVWQ1JYTnFTY3pSNHZZenExM0FNOG14dzY2eDhuaENoOG91MmVjQlB4ejRTQWFjYnF2b1NtMkI3NGxWOGxB?oc=5",
-      "source": "데일리팜",
-      "pubDate": "2026-08-05T03:04:25+00:00",
-      "query": "HLB 신약"
     },
     {
       "title": "HLB 엘레바, ‘리라푸그라티닙’ 암종불문 임상 2상 첫 환자 투약 - 쿠키뉴스",
@@ -141,6 +141,6 @@
       "query": "HLB 임상"
     }
   ],
-  "fetchedAt": "2026-08-08T08:06:14.425619+00:00",
+  "fetchedAt": "2026-08-08T08:58:46.217604+00:00",
   "count": 20
 }
