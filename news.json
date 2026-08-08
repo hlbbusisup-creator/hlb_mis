@@ -44,7 +44,7 @@
     },
     {
       "title": "HLB테라퓨틱스, 111억원 유상증자…에이치엘비에 제3자배정 - 연합뉴스",
-      "link": "https://news.google.com/rss/articles/CBMiYEFVX3lxTFAtbHdLaEFYdDhObC1uWFltSnJpSzlNVzh0WWtBV1VyRjNydW55MWdfTFktaUZTVUV4VXlmVFVmNE9oYmk4OXEzNG50NXlHenlLREFmb1VnWGprSXBvRlN3S9IBYEFVX3lxTFAtbHdLaEFYdDhObC1uWFltSnJpSzlNVzh0WWtBV1VyRjNydW55MWdfTFktaUZTVUV4VXlmVFVmNE9oYmk4OXEzNG50NXlHenlLREFmb1VnWGprSXBvRlN3Sw?oc=5",
+      "link": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE5JRnhqUVZBTGVZaGRhQnoxRnAwdjJWWkc0RXdoaWtDckJldHZDa1JpTEc4WkhhVmNnUE9xeHFCLXNYLTlBRmpGOUUxQ1M1ZjJnZndZb09lUGtZcEHSAWBBVV95cUxQLWx3S2hBWHQ4TmwtblhZbUpyaUs5TVc4dFlrQVdVckYzcnVueTFnX0xZLWlGU1VFeFV5ZlRVZjRPaGJpODlxMzRudDV5R3p5S0RBZm9VZ1hqa0lwb0ZTd0s?oc=5",
       "source": "연합뉴스",
       "pubDate": "2026-08-06T22:46:05+00:00",
       "query": "HLB테라퓨틱스"
@@ -76,13 +76,6 @@
       "source": "데일리팜",
       "pubDate": "2026-08-06T03:04:35+00:00",
       "query": "HLB 신약"
-    },
-    {
-      "title": "HLB라이프케어, ‘참 좋은 중소기업·소상공인 대상’ 중기부 장관상 수상 - 약업신문",
-      "link": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxNcWttaUktenJtQ0tqdDA2NUtDN2FQUjBQaTM5bXoxWTFva0RqVlZJNDl3aEhpc2pRUTJGV1R3c1pEc19NeFdqcS10c2d3dUhLQlIxNUlONXZ4dlJHdGtnWFZrZWQ0eEVmYVhZYnZUMUJlcDJBVGRiYXVWT0NZTDZ5VUdJSmg2YjM2ejJLWWtqaVdjcGE4WVo1elMtUlN2QXREcDgwR25LRlZRSUZCUjZGcHpLUmFJUm5K?oc=5",
-      "source": "약업신문",
-      "pubDate": "2026-08-05T22:46:43+00:00",
-      "query": "HLB라이프케어"
     },
     {
       "title": "HLB제약, 유증 규모 절반 축소…향남 공장 지키고 R&D 재편 - 데일리팜",
@@ -120,9 +113,9 @@
       "query": "HLB제약"
     },
     {
-      "title": "HLB파나진, 싱가포르 CPR과 'PNA 독점유통' 계약 - 바이오스펙테이터",
+      "title": "HLB파나진, 싱가포르 CPR과 'PNA 독점유통' 계약 - biospectator.com",
       "link": "https://news.google.com/rss/articles/CBMiV0FVX3lxTFBBY25DMTM4NkE4MGwzRE5uX3hrYWdyQzBOMm9VcGFVVU1vLUpWel9rY0tYUzJ6WTNmR2dzLTdoRllSWkJKVGd2V1ZBbmVHcGMtNEdDNmFHSQ?oc=5",
-      "source": "바이오스펙테이터",
+      "source": "biospectator.com",
       "pubDate": "2026-08-03T05:23:00+00:00",
       "query": "HLB 계약"
     },
@@ -139,8 +132,15 @@
       "source": "약업신문",
       "pubDate": "2026-08-02T11:48:19+00:00",
       "query": "HLB생활건강"
+    },
+    {
+      "title": "HLB ‘리보세라닙’ 임상 3상 긍정 평가 … 지나친 확대해석 경계해야 - 헬스오",
+      "link": "https://news.google.com/rss/articles/CBMid0FVX3lxTE9XNXFHSkdidm12Z3FTdTlNd1ZjWUZYMTFlbVFEZXctc2ZDTmIzLUJtYjZEck4yRTd2aElQcnhvVy1kTElLeVJIZmpEZWh5MElBYXNqSWt2T0dBcjlnN3lidXhCRUZVeU82WEZmU0pydHZOMC13eHM0?oc=5",
+      "source": "헬스오",
+      "pubDate": "2026-08-02T06:13:30+00:00",
+      "query": "HLB 임상"
     }
   ],
-  "fetchedAt": "2026-08-08T02:45:28.709705+00:00",
+  "fetchedAt": "2026-08-08T03:59:37.329717+00:00",
   "count": 20
 }
