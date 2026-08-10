@@ -1,10 +1,10 @@
 {
   "news": [
     {
-      "title": "HLB제약, 네이버 브랜드스토어 10만 단골 돌파… 일주일간 감사제 연다 - 지이코노미",
-      "link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE05NnFBazM2dHAtbi1OclRKSVFIYmMyVkZoS25HTGk1NS1NT29XMDhGVDROT3AySmFDV0Job0tsV2ZmQlREeDdhN2RtRzlYOHlhRVBWZXE3RDJYOExRQjR3NHg3cDJtTG8?oc=5",
-      "source": "지이코노미",
-      "pubDate": "2026-08-10T08:28:12+00:00",
+      "title": "HLB제약, 네이버 브랜드스토어 관심고객 10만명 돌파 - 로이슈",
+      "link": "https://news.google.com/rss/articles/CBMiekFVX3lxTE1uQ1c0dENxcEdfQ1hzWkpPQU1qdHlpNm5KUlpOU2N4UWQ5OWR4bE51R2FpUC1BOE0xSzVvNXNJTTVMUGZrWlpHcTRtUnhSeHVTSlNYcGxhOVJSeXk5OVJMMmhLcU85TlN3cVA2U3pFbnZFeTdXdWtyeW5R?oc=5",
+      "source": "로이슈",
+      "pubDate": "2026-08-10T09:32:55+00:00",
       "query": "HLB제약"
     },
     {
@@ -71,9 +71,9 @@
       "query": "HLB 임상"
     },
     {
-      "title": "HLB생명과학, 특정계좌 매매관여로 투자주의 종목 지정 - topstarnews.net",
+      "title": "HLB생명과학, 특정계좌 매매관여로 투자주의 종목 지정 - 톱스타뉴스",
       "link": "https://news.google.com/rss/articles/CBMickFVX3lxTFBtY1JKV05FVUpTOUt6X3VYVTJ3RlpGcDdrVDhmSUxWLTR6Uml0TUxWT2d2Ujc2QzJrb1hqLU1SZEJ0OVhvTUN5QWlBOERKRG9kMW1UU0NHRkNJcjZHRk9vR2c1c3phVlhDb3ZkVkRMUUY5dw?oc=5",
-      "source": "topstarnews.net",
+      "source": "톱스타뉴스",
       "pubDate": "2026-08-07T11:26:08+00:00",
       "query": "HLB생명과학"
     },
@@ -127,6 +127,6 @@
       "query": "HLB파나진"
     }
   ],
-  "fetchedAt": "2026-08-10T15:13:08.363138+00:00",
+  "fetchedAt": "2026-08-10T16:22:47.942721+00:00",
   "count": 18
 }
