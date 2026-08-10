@@ -43,6 +43,13 @@
       "query": "HLB 임상"
     },
     {
+      "title": "FDA, HLB '리보세라닙+캄렐리주맙' CRL 정식 공개 - 약업신문",
+      "link": "https://news.google.com/rss/articles/CBMipAFBVV95cUxOSGtaejZNTjg5MnJWYW80cFh0SUhLU1hzNUd0TnlheXJqc0ZyaUtSdnE2TTlIX0xuMlFIY1dUN1FpMHpNYWZMN1RCSHYtbEcySzRMRDZxRXdtemVJQnQtbk5jbC1IaTJ1N21ydFp2Y1JHNGRueC1FTEdmZC0xYm1zS1NiUHZxUjA3RURPcGl1OTV4ZEQxUXpOaDZiN0dUSkpFczB4cw?oc=5",
+      "source": "약업신문",
+      "pubDate": "2026-08-10T00:01:32+00:00",
+      "query": "HLB FDA"
+    },
+    {
       "title": "국산 항암 신약 후보, ESMO서 임상 데이터 공개…에이비엘·HLB 주목 - 서울경제TV",
       "link": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE1HQU1lOGVLclFtVUQ2ZWpSUEdLVEdvSlNsUFBBdEN5MVd3YnRuTHNTQndic2Uyejc3X1dLTklnOVNoY2poZERmOFFkYTJOd1k3SWhoc3dIT3FsTFd1bWNNazR0TXc?oc=5",
       "source": "서울경제TV",
@@ -110,7 +117,7 @@
       "link": "https://news.google.com/rss/articles/CBMiZEFVX3lxTFBWTm91MXBrR2t1TE5PcF9fRE8tcUkzbkR1TzRxU1hEZ1E1TlpYLThvT3VWOUhhSFBmclEyMHRvZXhDWmxNcnpMREhmTmwwcmlUTTZzWTM1cWVxUlRRdkJ5bk9WVHM?oc=5",
       "source": "데일리팜",
       "pubDate": "2026-08-06T03:04:35+00:00",
-      "query": "HLB 신약"
+      "query": "HLB FDA"
     },
     {
       "title": "HLB라이프케어, ‘참 좋은 중소기업·소상공인 대상’ 중기부 장관상 수상 - 약업신문",
@@ -127,6 +134,6 @@
       "query": "HLB파나진"
     }
   ],
-  "fetchedAt": "2026-08-10T22:06:43.743416+00:00",
-  "count": 18
+  "fetchedAt": "2026-08-10T22:55:56.213543+00:00",
+  "count": 19
 }
