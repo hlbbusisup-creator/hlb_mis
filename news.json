@@ -1,5 +1,132 @@
 {
-  "news": [],
-  "fetchedAt": "2026-08-10T13:58:46.475543+00:00",
-  "count": 0
+  "news": [
+    {
+      "title": "HLB제약, 네이버 브랜드스토어 10만 단골 돌파… 일주일간 감사제 연다 - 지이코노미",
+      "link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE05NnFBazM2dHAtbi1OclRKSVFIYmMyVkZoS25HTGk1NS1NT29XMDhGVDROT3AySmFDV0Job0tsV2ZmQlREeDdhN2RtRzlYOHlhRVBWZXE3RDJYOExRQjR3NHg3cDJtTG8?oc=5",
+      "source": "지이코노미",
+      "pubDate": "2026-08-10T08:28:12+00:00",
+      "query": "HLB제약"
+    },
+    {
+      "title": "HLB테라퓨틱스, RGN-259 제조공정 유럽 특허 확보 - 약업신문",
+      "link": "https://news.google.com/rss/articles/CBMib0FVX3lxTE5oU2sxV21Ob0pPeFFEbnRVYzlUQno2TmtUVHhqajVKQ3drX1RKVXAtTmViRjU2S0haQmRHWUJyQ21rRzVraWVTblJoRm11aEdXTkZCclo5RmRMN0pHVGpBX1Q2eHliTWV4cFRkYWRQRQ?oc=5",
+      "source": "약업신문",
+      "pubDate": "2026-08-10T04:09:45+00:00",
+      "query": "HLB테라퓨틱스"
+    },
+    {
+      "title": "HLB이노베이션(024850) - 씽크풀 AI",
+      "link": "https://news.google.com/rss/articles/CBMiYEFVX3lxTFB2Q2tpdF9FVS11ZzBoX0JTdkpPdnFyUUNJVGVjOUxmQkRLWDcyQUN4dHg1ZlVaS21lVUh4MW5CbjFPcUtmSGVqVGNoNHotSE1HSk84cHRCRENrVXRZV1VuYQ?oc=5",
+      "source": "씽크풀 AI",
+      "pubDate": "2026-08-10T04:03:00+00:00",
+      "query": "HLB이노베이션"
+    },
+    {
+      "title": "[파워인터뷰] HLB제넥스 김도연 대표 \"27~28년부터 매출과 수익 본격 확대...바이오솔루션 기업 도약 목표\" - 팍스경제TV",
+      "link": "https://news.google.com/rss/articles/CBMiaEFVX3lxTFBjbXNvbFhBNTNJc1VQMl9GbHRfaG9LZ2ZmWnRBSWJsRVRlYkNGVWUtSUx1MzE1WXlfVGExQThiT29QLWZXZU0wSEp0TEhVUmM4ZUdrV3lTZHZQa0g1N3pGbXJVZEVjb1RR?oc=5",
+      "source": "팍스경제TV",
+      "pubDate": "2026-08-10T02:34:50+00:00",
+      "query": "HLB제넥스"
+    },
+    {
+      "title": "제로쿠폰 시대 역주행…HLB, 이자 붙인 300억 CB 발행 - numbers.co.kr",
+      "link": "https://news.google.com/rss/articles/CBMia0FVX3lxTFB3XzNVYkd0QnQ5MEVnUURnc2h2Q0pVTmpzalQzOG5LeEFsa2V1aWs1ZmdlZHZPeWZXNTBEWHd3STByakFYczJvajNZRVZsTDA3UkdzOTBrdUh4RkFTbjA4MExvMS1EZkV3REI0?oc=5",
+      "source": "numbers.co.kr",
+      "pubDate": "2026-08-10T00:54:38+00:00",
+      "query": "HLB 신약"
+    },
+    {
+      "title": "HLB 베리스모, 혈액암 CAR-T 임상 용량 더 높인다…효능 검증 극대화 - PRESS9",
+      "link": "https://news.google.com/rss/articles/CBMiZkFVX3lxTFA3aTQ4bGlWcFhqNU1hXzJFNm5rTUllMm5JMHdXYmsxMS1XTTZqLVJQSnFSc0M4TDU2QnpNUU1IZzNLRnpPTTVMZ0NrUE4yWWZaQVVmNU9JS21NaWpxT0ZLenFVazgzdw?oc=5",
+      "source": "PRESS9",
+      "pubDate": "2026-08-10T00:49:07+00:00",
+      "query": "HLB 임상"
+    },
+    {
+      "title": "특징주, HLB이노베이션-반도체 재료/부품 테마 상승세에 5.26% ↑ - 매일경제",
+      "link": "https://news.google.com/rss/articles/CBMiRkFVX3lxTE5MZ3Y0WDgxX1h3c3FmMTBoZTgwNi1GNnJzdGVUVUJzN0pUaWdPX0xQQ3dHeExEYXQ0V2NTeGFlSUdJUEtWUmc?oc=5",
+      "source": "매일경제",
+      "pubDate": "2026-08-10T00:44:46+00:00",
+      "query": "HLB이노베이션"
+    },
+    {
+      "title": "FDA, HLB '리보세라닙+캄렐리주맙' CRL 정식 공개 - 약업신문",
+      "link": "https://news.google.com/rss/articles/CBMipAFBVV95cUxOSGtaejZNTjg5MnJWYW80cFh0SUhLU1hzNUd0TnlheXJqc0ZyaUtSdnE2TTlIX0xuMlFIY1dUN1FpMHpNYWZMN1RCSHYtbEcySzRMRDZxRXdtemVJQnQtbk5jbC1IaTJ1N21ydFp2Y1JHNGRueC1FTEdmZC0xYm1zS1NiUHZxUjA3RURPcGl1OTV4ZEQxUXpOaDZiN0dUSkpFczB4cw?oc=5",
+      "source": "약업신문",
+      "pubDate": "2026-08-10T00:01:32+00:00",
+      "query": "HLB FDA"
+    },
+    {
+      "title": "국산 항암 신약 후보, ESMO서 임상 데이터 공개…에이비엘·HLB 주목 - 서울경제TV",
+      "link": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE1HQU1lOGVLclFtVUQ2ZWpSUEdLVEdvSlNsUFBBdEN5MVd3YnRuTHNTQndic2Uyejc3X1dLTklnOVNoY2poZERmOFFkYTJOd1k3SWhoc3dIT3FsTFd1bWNNazR0TXc?oc=5",
+      "source": "서울경제TV",
+      "pubDate": "2026-08-07T23:00:05+00:00",
+      "query": "HLB 신약"
+    },
+    {
+      "title": "HLB 엘레바, ‘리라푸그라티닙’ 암종불문 임상 2상 첫 환자 투약 - 쿠키뉴스",
+      "link": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE9aczlnRWZDMkNqWXM5SVVpRzdPaUxJaFlsX3o0TWdzSXZHRXplTzJqUWZROTMxcWc0WVVIbE43TmpKM1AyQmtkSTlsQllNTlEzYkhJNXhEbF9UZVRBVUpDaGt3TQ?oc=5",
+      "source": "쿠키뉴스",
+      "pubDate": "2026-08-07T21:50:54+00:00",
+      "query": "HLB 임상"
+    },
+    {
+      "title": "HLB생명과학, 특정계좌 매매관여로 투자주의 종목 지정 - topstarnews.net",
+      "link": "https://news.google.com/rss/articles/CBMickFVX3lxTFBtY1JKV05FVUpTOUt6X3VYVTJ3RlpGcDdrVDhmSUxWLTR6Uml0TUxWT2d2Ujc2QzJrb1hqLU1SZEJ0OVhvTUN5QWlBOERKRG9kMW1UU0NHRkNJcjZHRk9vR2c1c3phVlhDb3ZkVkRMUUY5dw?oc=5",
+      "source": "topstarnews.net",
+      "pubDate": "2026-08-07T11:26:08+00:00",
+      "query": "HLB생명과학"
+    },
+    {
+      "title": "HLB글로벌, 자회사 프레시코에 74억원 금전대여 1년 연장 결정 - 디지털투데이",
+      "link": "https://news.google.com/rss/articles/CBMic0FVX3lxTE01SEFCZnFGVlk1MmtYOUY5YTl6VlRKVkhhZ0luQ1hzNXgwUjFwZ3FseUhIa2JnbXh3cWdCaW9PS1BMRGFta2plbjViTFREdmZWRUxScVkyYTZfUjAzRzhXbDhWZzlaN201cXdrd1lnZEw4aXc?oc=5",
+      "source": "디지털투데이",
+      "pubDate": "2026-08-07T09:05:08+00:00",
+      "query": "프레시코"
+    },
+    {
+      "title": "HLB테라퓨틱스, HLB 보유 CB 110억 사실상 출자전환 - 비즈워치",
+      "link": "https://news.google.com/rss/articles/CBMib0FVX3lxTE85ZmJ3UmwwY2xxR0J3dzctdkZNUUdabDU2RjE0TlNTXzJBSC0xXzNVSVZfcU9wVUt4LWxQZ2k4N3YtcFYxUC04X0VqdEM2VkVJZVZkQktvekp2SGx5cGtQU1BYcHRFZFlYMDluRXRGcw?oc=5",
+      "source": "비즈워치",
+      "pubDate": "2026-08-07T02:01:03+00:00",
+      "query": "HLB테라퓨틱스"
+    },
+    {
+      "title": "HLB테라퓨틱스, 최대주주 HLB 대상 112억원 규모 제3자배정 유상증자 결정 - 더바이오",
+      "link": "https://news.google.com/rss/articles/CBMibEFVX3lxTFBsUjZORGFHRVFZNk1KeXpQTFpTbzlRd2hJaVNydUxRVEtBc0Z5X3ZCMDBBbXhxYk8tQmZIYmFpLXNOWko0UlphbmE3MFdENktjVHFmMk1TWGRobkdRQ3U0eUp2OU52Q0x4akoxU9IBcEFVX3lxTE1maTg0VHBPdmpPbHBxcUlLUWo2RVpSVUlEVnVQQ25HcW9xbkRVZEVVNXFBazhPS2NwTFRVSk9kUHNzSmR0UVVNX19oWnBqY2JKbnlocldyeTVvMjlJWnU0Z05YMlhyd1FqamhRdi0yY24?oc=5",
+      "source": "더바이오",
+      "pubDate": "2026-08-07T01:08:25+00:00",
+      "query": "HLB테라퓨틱스"
+    },
+    {
+      "title": "112억 빚, 주식으로 갚는 HLB테라퓨틱스…재무개선 대가는 지분 희석 - 서울경제TV",
+      "link": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE04Q3l3dDlGaFhVQU5lQUhVdDNuTGN0UmQ4UEJONXlUY01lUFpwdGx5UEtZR0NSeVM2cjg5S0RXei05UmkyUGZneHozSDJJT1Z1VFN1NVQ0a0RybXdzcmNvQWIwaGQ?oc=5",
+      "source": "서울경제TV",
+      "pubDate": "2026-08-07T01:02:39+00:00",
+      "query": "HLB테라퓨틱스"
+    },
+    {
+      "title": "HLB, 5년 7600억 조달…FDA 불발에 '시장 피로감' - 데일리팜",
+      "link": "https://news.google.com/rss/articles/CBMiZEFVX3lxTFBWTm91MXBrR2t1TE5PcF9fRE8tcUkzbkR1TzRxU1hEZ1E1TlpYLThvT3VWOUhhSFBmclEyMHRvZXhDWmxNcnpMREhmTmwwcmlUTTZzWTM1cWVxUlRRdkJ5bk9WVHM?oc=5",
+      "source": "데일리팜",
+      "pubDate": "2026-08-06T03:04:35+00:00",
+      "query": "HLB 신약"
+    },
+    {
+      "title": "HLB라이프케어, ‘참 좋은 중소기업·소상공인 대상’ 중기부 장관상 수상 - 약업신문",
+      "link": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxNcWttaUktenJtQ0tqdDA2NUtDN2FQUjBQaTM5bXoxWTFva0RqVlZJNDl3aEhpc2pRUTJGV1R3c1pEc19NeFdqcS10c2d3dUhLQlIxNUlONXZ4dlJHdGtnWFZrZWQ0eEVmYVhZYnZUMUJlcDJBVGRiYXVWT0NZTDZ5VUdJSmg2YjM2ejJLWWtqaVdjcGE4WVo1elMtUlN2QXREcDgwR25LRlZRSUZCUjZGcHpLUmFJUm5K?oc=5",
+      "source": "약업신문",
+      "pubDate": "2026-08-05T22:46:43+00:00",
+      "query": "HLB라이프케어"
+    },
+    {
+      "title": "HLB파나진, 글로벌 제약사 계열 신약연구소와 동남아 PNA 유통 독점 계약 - 뉴스1",
+      "link": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE5MTFdHUUhDYlRCMGZKTk5lMW1pM3lqRzQ4UVNMSENQWHZRd08ybEI3RkJadEVWbV9oZVRmS2VTOUVFdTZabUFxSm1MU3ROTlp2anp4bEV6NUxHQ2d6Z3FzRg?oc=5",
+      "source": "뉴스1",
+      "pubDate": "2026-08-05T07:05:52+00:00",
+      "query": "HLB파나진"
+    }
+  ],
+  "fetchedAt": "2026-08-10T15:13:08.363138+00:00",
+  "count": 18
 }
