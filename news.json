@@ -1,16 +1,44 @@
 {
   "news": [
     {
-      "title": "HLB제약, 네이버 브랜드스토어 '10만 고객 감사제' 진행 - 뉴스핌",
-      "link": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE5OQVB5d3JVLUZieE5IYmRRS0tpbkRrbGQ3aXRoR0ZOYXdtRnZCbDVyUzU4dmYteFVOek5fYnlXTGNsZkRCTXI1N2dKQlo2TWZTMUtXZ0FOSFV1dnVN?oc=5",
-      "source": "뉴스핌",
-      "pubDate": "2026-08-10T00:11:00+00:00",
+      "title": "[파워인터뷰] HLB제넥스 김도연 대표 \"27~28년부터 매출과 수익 본격 확대...바이오솔루션 기업 도약 목표\" - 팍스경제TV",
+      "link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTFBaS2IxNkhHTkNWNFhDM0FXZkpWQ2k3aTJPaVBiNmhSMkhkdTM5dnMxV3NLNHFqYmszWXVaakxFRFhveEl1Mloxa1JTb3A0aDJtX3FTVWxqV2NaX1NMbUx0QllNQkE2Wms?oc=5",
+      "source": "팍스경제TV",
+      "pubDate": "2026-08-10T02:34:50+00:00",
+      "query": "HLB제넥스"
+    },
+    {
+      "title": "HLB제약, 네이버 브랜드스토어 관심고객 10만명 돌파 감사제 - v.daum.net",
+      "link": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE14dkJfTUx5Zmp0dl9CTmJMajhacWx0cUJiWGE3dEZzOEZNTHQxLXVSS0hUNVdYVU1wVGNWT3cyZUFtUVdoZ2lWY0ZNVFhNUXM?oc=5",
+      "source": "v.daum.net",
+      "pubDate": "2026-08-10T00:55:56+00:00",
       "query": "HLB제약"
     },
     {
-      "title": "국산 항암 신약 후보, ESMO서 임상 데이터 공개…에이비엘·HLB 주목 - sentv.co.kr",
+      "title": "제로쿠폰 시대 역주행…HLB, 이자 붙인 300억 CB 발행 - numbers.co.kr",
+      "link": "https://news.google.com/rss/articles/CBMia0FVX3lxTFB3XzNVYkd0QnQ5MEVnUURnc2h2Q0pVTmpzalQzOG5LeEFsa2V1aWs1ZmdlZHZPeWZXNTBEWHd3STByakFYczJvajNZRVZsTDA3UkdzOTBrdUh4RkFTbjA4MExvMS1EZkV3REI0?oc=5",
+      "source": "numbers.co.kr",
+      "pubDate": "2026-08-10T00:54:38+00:00",
+      "query": "HLB 신약"
+    },
+    {
+      "title": "HLB 베리스모, 혈액암 CAR-T 임상 용량 더 높인다…효능 검증 극대화 - press9.kr",
+      "link": "https://news.google.com/rss/articles/CBMiZEFVX3lxTFBSUGlTVVVuTi10bm9PNjdRdjFwSDdRLVlsZmE1U0M4c0lUNzdtcEZvbV9ReF9Ya2E4OWhsR0dILTBaMUxzOUh2bEhCVzN3YXdJc2p2TUx2YXI5MlRxcWM2NUpWakM?oc=5",
+      "source": "press9.kr",
+      "pubDate": "2026-08-10T00:49:07+00:00",
+      "query": "HLB 임상"
+    },
+    {
+      "title": "특징주, HLB이노베이션-반도체 재료/부품 테마 상승세에 5.26% ↑ - 매일경제 마켓",
+      "link": "https://news.google.com/rss/articles/CBMiUkFVX3lxTFBXMTMtY1ltRjhnZ3BMRGFtQTh4aXh3QmFSM3hPU1lVNVFubWhiNTRWRUJfUl9xTkpQbV9CZHlIN3V0TExFVWxSOVQ0MC1XOWE4RWc?oc=5",
+      "source": "매일경제 마켓",
+      "pubDate": "2026-08-10T00:44:24+00:00",
+      "query": "HLB이노베이션"
+    },
+    {
+      "title": "국산 항암 신약 후보, ESMO서 임상 데이터 공개…에이비엘·HLB 주목 - 서울경제TV",
       "link": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE1HQU1lOGVLclFtVUQ2ZWpSUEdLVEdvSlNsUFBBdEN5MVd3YnRuTHNTQndic2Uyejc3X1dLTklnOVNoY2poZERmOFFkYTJOd1k3SWhoc3dIT3FsTFd1bWNNazR0TXc?oc=5",
-      "source": "sentv.co.kr",
+      "source": "서울경제TV",
       "pubDate": "2026-08-07T23:00:05+00:00",
       "query": "HLB 신약"
     },
@@ -36,10 +64,10 @@
       "query": "프레시코"
     },
     {
-      "title": "HLB테라퓨틱스, HLB 보유 CB 110억 사실상 출자전환 - v.daum.net",
-      "link": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE1rVk1KTWZjV29NdDVTWjJtOUM2eXU0S21xMzZjdzR1ZFdRaV9pWDZ1djlLa2VzdVpSOFllanhoX0s1QW5GWldYaU50NGhvR1E?oc=5",
-      "source": "v.daum.net",
-      "pubDate": "2026-08-07T02:02:09+00:00",
+      "title": "HLB테라퓨틱스, HLB 보유 CB 110억 사실상 출자전환 - 비즈워치",
+      "link": "https://news.google.com/rss/articles/CBMib0FVX3lxTE85ZmJ3UmwwY2xxR0J3dzctdkZNUUdabDU2RjE0TlNTXzJBSC0xXzNVSVZfcU9wVUt4LWxQZ2k4N3YtcFYxUC04X0VqdEM2VkVJZVZkQktvekp2SGx5cGtQU1BYcHRFZFlYMDluRXRGcw?oc=5",
+      "source": "비즈워치",
+      "pubDate": "2026-08-07T02:01:03+00:00",
       "query": "HLB테라퓨틱스"
     },
     {
@@ -50,18 +78,18 @@
       "query": "HLB테라퓨틱스"
     },
     {
+      "title": "112억 빚, 주식으로 갚는 HLB테라퓨틱스…재무개선 대가는 지분 희석 - 서울경제TV",
+      "link": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE04Q3l3dDlGaFhVQU5lQUhVdDNuTGN0UmQ4UEJONXlUY01lUFpwdGx5UEtZR0NSeVM2cjg5S0RXei05UmkyUGZneHozSDJJT1Z1VFN1NVQ0a0RybXdzcmNvQWIwaGQ?oc=5",
+      "source": "서울경제TV",
+      "pubDate": "2026-08-07T01:02:39+00:00",
+      "query": "HLB테라퓨틱스"
+    },
+    {
       "title": "HLB이노베이션, 투자경고종목 지정예고 - 톱스타뉴스",
       "link": "https://news.google.com/rss/articles/CBMickFVX3lxTE9qcm02aU43ajh1cEg5X0pZZ0hiX1dvNGd3ZGhPNktUa3JMQ3hNOFQ5TnFjNXFRQmdfc3A4a3VKVEkyZDBPMEpPcUFRMUxiY1BoT3h6ZFRfb3BlV0cyTTNCYWNocERwX2ZZei1qbE9MMU9KZw?oc=5",
       "source": "톱스타뉴스",
       "pubDate": "2026-08-06T11:29:04+00:00",
       "query": "HLB이노베이션"
-    },
-    {
-      "title": "특징주, HLB바이오스텝-대마 테마 상승세에 5.25% ↑ - 매일경제 마켓",
-      "link": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE9RRXpZUkNoeVFwclFwTUt5MlkweWFER0tMbGl0Y0Jfa0tkOEpldGsyMXlTSGxPai15RkMycFZiSFJEYnVjbFF5dzhwTW1PNDRtelE?oc=5",
-      "source": "매일경제 마켓",
-      "pubDate": "2026-08-06T05:33:30+00:00",
-      "query": "HLB바이오스텝"
     },
     {
       "title": "HLB, 5년 7600억 조달…FDA 불발에 '시장 피로감' - 데일리팜",
@@ -85,6 +113,6 @@
       "query": "HLB 계약"
     }
   ],
-  "fetchedAt": "2026-08-10T00:38:16.121068+00:00",
-  "count": 12
+  "fetchedAt": "2026-08-10T03:01:04.514317+00:00",
+  "count": 16
 }
