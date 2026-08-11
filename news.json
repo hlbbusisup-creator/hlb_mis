@@ -15,13 +15,6 @@
       "query": "HLB제약"
     },
     {
-      "title": "HLB이노베이션(024850) - 씽크풀 AI",
-      "link": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE1VZmhWRXI5UUZvTUhUYjN4b21iVGQ4NDJrajZOelpzRDZYSUtaTEVDN0c0X2Z6NGRUbUp4cFlDZWVvdktSbjdGdWVGYW4wZml3Vm5iUTRhb3ZPM0gzN0MyVA?oc=5",
-      "source": "씽크풀 AI",
-      "pubDate": "2026-08-10T04:31:00+00:00",
-      "query": "HLB이노베이션"
-    },
-    {
       "title": "HLB테라퓨틱스, RGN-259 제조공정 유럽 특허 확보 - 약업신문",
       "link": "https://news.google.com/rss/articles/CBMib0FVX3lxTE5oU2sxV21Ob0pPeFFEbnRVYzlUQno2TmtUVHhqajVKQ3drX1RKVXAtTmViRjU2S0haQmRHWUJyQ21rRzVraWVTblJoRm11aEdXTkZCclo5RmRMN0pHVGpBX1Q2eHliTWV4cFRkYWRQRQ?oc=5",
       "source": "약업신문",
@@ -41,6 +34,13 @@
       "source": "PRESS9",
       "pubDate": "2026-08-10T00:49:07+00:00",
       "query": "HLB 임상"
+    },
+    {
+      "title": "HLB이노베이션(024850) - 씽크풀 AI",
+      "link": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE9qMzhwVzFLV1llR3l1Zlh2N3dwLWJHbGhVd015UGZvMGlRTlF6RzRLeWNxUkRKb0tfeFVVNDVTa3FERDlBZzl3S2w1QUFRb2JWOHFjYzVqV2pjeUtMLTViRw?oc=5",
+      "source": "씽크풀 AI",
+      "pubDate": "2026-08-10T00:44:00+00:00",
+      "query": "HLB이노베이션"
     },
     {
       "title": "FDA, HLB '리보세라닙+캄렐리주맙' CRL 정식 공개 - 약업신문",
@@ -120,13 +120,13 @@
       "query": "HLB라이프케어"
     },
     {
-      "title": "HLB파나진, 글로벌 제약사 계열 신약연구소와 동남아 PNA 유통 독점 계약 - 뉴스1",
-      "link": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE5MTFdHUUhDYlRCMGZKTk5lMW1pM3lqRzQ4UVNMSENQWHZRd08ybEI3RkJadEVWbV9oZVRmS2VTOUVFdTZabUFxSm1MU3ROTlp2anp4bEV6NUxHQ2d6Z3FzRg?oc=5",
-      "source": "뉴스1",
-      "pubDate": "2026-08-05T07:05:52+00:00",
-      "query": "HLB파나진"
+      "title": "HLB파나진, 싱가포르 PNA 유통 독점 계약 - MEDI:GATE NEWS",
+      "link": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE1FNTA1akpsa2lSQlhEUS1QUm5mbkFPa1N1U2xsNEdCT1ZtNkpiWklnN2hkYmlfd3k1NEVaWVV3Wkd0ai05cXVJdW1qY0FYYW1uMlk0Zw?oc=5",
+      "source": "MEDI:GATE NEWS",
+      "pubDate": "2026-08-05T07:00:00+00:00",
+      "query": "HLB 계약"
     }
   ],
-  "fetchedAt": "2026-08-11T04:00:34.467657+00:00",
+  "fetchedAt": "2026-08-11T05:19:26.160301+00:00",
   "count": 18
 }
