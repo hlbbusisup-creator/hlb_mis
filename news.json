@@ -1,18 +1,32 @@
 {
   "news": [
     {
-      "title": "HLB제넥스, 26년 상반기 매출 230억원 기록...안정적 흑자 기조 유지 - paxetv.com",
-      "link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTFBUZWx5clhmMnFMYTRCZHlWNk4xYkVGbldVQUNDQ0RrelNmWFFUZ3Y2bGdCQWZPX1NpZ3VRbjRZWVU5d3dfWkNxS3VyV2VER1FoM2xPRTFfNzBwZFpEVHNjblctXzVOcGM?oc=5",
-      "source": "paxetv.com",
+      "title": "HLB제약, 상반기 영업이익 10억원…매출 역대 최대 - 매일경제 마켓",
+      "link": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE5lQnhUVTg4cjd1ckowd013R3lMM29QcjM4UUlPbTVvNEtfUVJnOWxLNWVIenp6UVA5aWVXcXRvc1d1VHpiQWI3UHZmUG54ams0MEE?oc=5",
+      "source": "매일경제 마켓",
+      "pubDate": "2026-08-13T23:45:30+00:00",
+      "query": "HLB제약"
+    },
+    {
+      "title": "HLB이노베이션, 상반기 매출 199억원 달성...반도체 업황 회복에 따른 실적 성장 - 팍스경제TV",
+      "link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE8wMmdxMVFfT2tLX1Q0b1NrN2JldWlhcVUwUnNfclhqUWhaUVdLOTdUSGQ1by12c0dEa2VmdVE4V0FKbXp6VjRyNU0zaHFfNm1wWS05Q29hUldTZzJsdXI4V2lLeUg2MGM?oc=5",
+      "source": "팍스경제TV",
       "pubDate": "2026-08-13T10:52:30+00:00",
+      "query": "HLB이노베이션"
+    },
+    {
+      "title": "HLB제넥스, 상반기 매출 230억 돌파… 전년 대비 11%↑ - 머니투데이",
+      "link": "https://news.google.com/rss/articles/CBMiaEFVX3lxTFBvODRET1VJZk04U1NSMlFWVFR3dDBUeEJ3X0FEb0U3ZFBfZW5xQlp2QUowR3JnaEVFT3RDT0phU0QxdjB2UHlxMUdzcnZJQWNGZ2NGVlBqc2w0a1hORGdpV1VYSFp0am9D?oc=5",
+      "source": "머니투데이",
+      "pubDate": "2026-08-13T08:15:27+00:00",
       "query": "HLB제넥스"
     },
     {
-      "title": "HLB이노베이션, AI 반도체 훈풍에 본업 성장…상반기 매출 21%↑ - 머니투데이 - 머니투데이",
-      "link": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE1NMWozTWU0RnBqMWVzRnJGbDZHaUo5ZEF5WVV0UjZwMkJnQ0xFZ1RyemRFTXRUUWloc0JxVEJWQjdYb3JyS0xrOHpCaVprT29WQlpWOUpxNlUyS1ZaMDF6eWp0Tld4UHQw0gFuQVVfeXFMUEdwUnpsdmgzNzNod0xSeHBVa2F1MkxNeUJ5WVNleTZFNmh2bUd2LW5leXZZNzFUcDZGNC1pSmM0bmluaVJud1VIRWw5TThfa1VkRUhoRlZTejFJZEN6b3RnZkZVT0ZLcFFma1VQVFE?oc=5",
-      "source": "머니투데이",
-      "pubDate": "2026-08-13T08:13:58+00:00",
-      "query": "HLB이노베이션"
+      "title": "HLB제넥스, 2026년 2분기 매출 113억원…영업익 9.6억으로 흑자 유지 - 중소기업신문",
+      "link": "https://news.google.com/rss/articles/CBMibkFVX3lxTE5lM0FrU2FkNHFzUW1oUXVzaENxalpFd1F6SjRKcFh6T2RLYmRfMk9ncnVCNEJHNVFyY2Jqemhad1Q3Sm1zYy1OcjZvX05SSEJVZllndDNIYWRtQXRmRjhLa2tpX0VkaUxwaFFFWVlB?oc=5",
+      "source": "중소기업신문",
+      "pubDate": "2026-08-13T07:58:03+00:00",
+      "query": "HLB제넥스"
     },
     {
       "title": "[HLB그룹 톺아보기] 아직 끝나지 않았다...'리보세라닙' 허가 재신청 잰걸음 : 네이버 블로그 - Naver Blog",
@@ -22,9 +36,9 @@
       "query": "HLB FDA"
     },
     {
-      "title": "HLB 그룹, 고형암 CAR-T 난제에 도전…베리스모 ‘SynKIR-110’ 임상 신호 확인 - cbci.co.kr",
+      "title": "HLB 그룹, 고형암 CAR-T 난제에 도전…베리스모 ‘SynKIR-110’ 임상 신호 확인 - CBC뉴스",
       "link": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE9JUHAwbnh1SjBlR1pWVWNzb05pRTIwWTA4Zk1nWTBmRnRpWERlZlNLWURlTFZNdy1VU29zWE54RVdGcDc4UFFLOXBFNTdRR3VvbVJhU2RHZVJxUmlmZkdkVTdnQ0NlcHhm?oc=5",
-      "source": "cbci.co.kr",
+      "source": "CBC뉴스",
       "pubDate": "2026-08-13T02:54:29+00:00",
       "query": "HLB 임상"
     },
@@ -50,9 +64,9 @@
       "query": "HLB 신약"
     },
     {
-      "title": "셀트리온·HLB파나진, 유럽·미국서 글로벌 사업 확대 - news2day.co.kr",
+      "title": "셀트리온·HLB파나진, 유럽·미국서 글로벌 사업 확대 - 뉴스투데이",
       "link": "https://news.google.com/rss/articles/CBMiXkFVX3lxTFBSTUlRdlR3WmV6RkdyWkJUN3QyRE1mVm9tUnZLTmNreHloMW53MFVuZXlMSnd4U1RTa1VtcU1tdlY4Um8xa0JvNnkxZlFLcG5DRW1JYjFPMUxFSXhhc2c?oc=5",
-      "source": "news2day.co.kr",
+      "source": "뉴스투데이",
       "pubDate": "2026-08-12T07:10:00+00:00",
       "query": "HLB파나진"
     },
@@ -71,18 +85,18 @@
       "query": "HLB테라퓨틱스"
     },
     {
-      "title": "HLB제약, 네이버 브랜드스토어 관심고객 10만명 감사제 - 데일리팜",
-      "link": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE0ycVY3SWNBUF9uenBnazFHNDc5Zk5YWDUtYWtmamJ5YzUwdFh6cktOd08wRVQxdzlBN1JLZzJvS0FtS2VIRTA0NWRCVmNnMXlUOXYzcHZB?oc=5",
-      "source": "데일리팜",
-      "pubDate": "2026-08-10T05:30:12+00:00",
-      "query": "HLB제약"
-    },
-    {
       "title": "HLB테라퓨틱스, RGN-259 제조공정 유럽 특허 확보 - 약업닷컴",
       "link": "https://news.google.com/rss/articles/CBMib0FVX3lxTE5oU2sxV21Ob0pPeFFEbnRVYzlUQno2TmtUVHhqajVKQ3drX1RKVXAtTmViRjU2S0haQmRHWUJyQ21rRzVraWVTblJoRm11aEdXTkZCclo5RmRMN0pHVGpBX1Q2eHliTWV4cFRkYWRQRQ?oc=5",
       "source": "약업닷컴",
       "pubDate": "2026-08-10T04:09:45+00:00",
       "query": "HLB테라퓨틱스"
+    },
+    {
+      "title": "HLB제약, 네이버 브랜드스토어 관심고객 10만명 돌파 감사제 - 뉴스1",
+      "link": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE1Tbk5XSk5Tc3RBWGFySXM3X3BwUnh0bVcxMjhleUw5eGhBOUpJeVRDWEw5X1NVTll1ckZSV1pkN0VuNG03aUVZczlwLXVJaEYzd0RiZ3NqUENYRTQ5MFlLag?oc=5",
+      "source": "뉴스1",
+      "pubDate": "2026-08-10T00:54:33+00:00",
+      "query": "HLB제약"
     },
     {
       "title": "국산 항암 신약 후보, ESMO서 임상 데이터 공개…에이비엘·HLB 주목 - 서울경제TV",
@@ -99,6 +113,6 @@
       "query": "프레시코"
     }
   ],
-  "fetchedAt": "2026-08-13T23:11:14.621661+00:00",
-  "count": 14
+  "fetchedAt": "2026-08-14T00:07:24.811164+00:00",
+  "count": 16
 }
