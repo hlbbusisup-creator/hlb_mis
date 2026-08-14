@@ -1,37 +1,23 @@
 {
   "news": [
     {
-      "title": "HLB파나진, 상반기 매출 68억원·영업익 5억원 달성 - MEDI:GATE NEWS",
-      "link": "https://news.google.com/rss/articles/CBMiV0FVX3lxTE5zaUs2YlNyenVTZ3ZLNzAtbTZfOERXUnJfZ29idVF4RTl3ZzdDWGhfeXJnekRGOHRYUGl0VjBWei1Ecm1sVmMxYVNfaHd6Q0RGWmtQNEZkaw?oc=5",
+      "title": "HLB제약, 상반기 매출 1279억원…역대 최대 반기 실적 달성 - MEDI:GATE NEWS",
+      "link": "https://news.google.com/rss/articles/CBMiV0FVX3lxTE5laVp6OUJkV2llZnJWNGpNbWVXb0R2MVJRNnpNSU1DTGV0dy1EeHB5Rm1zVDBFRVBWU1c1WDh3bE1UNTd1MVZOSjd3QmU0ZHVKUEZIR3FJSQ?oc=5",
       "source": "MEDI:GATE NEWS",
       "pubDate": "2026-08-14T13:38:00+00:00",
+      "query": "HLB제약"
+    },
+    {
+      "title": "HLB파나진, 상반기 영업익 5억2600만원…3년째 흑자 기조 - 뉴스핌",
+      "link": "https://news.google.com/rss/articles/CBMiXEFVX3lxTFA2LV9hWWxhamxwYS13TUIzMzFWSDBZcDF3WWZ5cjJCNS1XSERNaERfaDctUGdnN19aN2FSanJmMlpIaEVNZnhITzJFNERGelJRTUxreV91UHJkcnMx?oc=5",
+      "source": "뉴스핌",
+      "pubDate": "2026-08-14T11:19:00+00:00",
       "query": "HLB파나진"
     },
     {
-      "title": "HLB제넥스, 200억원 규모 CB 선제 취득…오버행 부담 낮춘다 - 더바이오",
-      "link": "https://news.google.com/rss/articles/CBMicEFVX3lxTFBKY3UyUVRqMnRVY0pUa0RPaDVsN3pvT1hwbGtLM01URGExTnlSSTEybnhON3A5Y3pXWmgwUHhGRE0xOGF0YjZuTzF0NWdrUGJmOFNXRzRwYWczcEhSeXVCcmRWdndQRGw4akU1QkI3WXXSAXBBVV95cUxQSmN1MlFUajJ0VWNKVGtET2g1bDd6b09YcGxrSzNNVERhMU55UkkxMm54TjdwOWN6V1poMFB4RkRNMThhdGI2bk8xdDVna1BiZjhTV0c0cGFnM3BIUnl1QnJkVnZ3UERsOGpFNUJCN1l1?oc=5",
-      "source": "더바이오",
-      "pubDate": "2026-08-14T10:16:56+00:00",
-      "query": "HLB제넥스"
-    },
-    {
-      "title": "HLB제약, 반기 매출 1279억 역대 최대…전년비 57% 증가 - 데일리팜",
-      "link": "https://news.google.com/rss/articles/CBMiUEFVX3lxTE55WHYwX0gySFNaSXczN3c3ZmtxeTdpOG5BUDhucVBvUnhnMGZBeVUxQ19DQzVzV3lxVUE4eC1aLVFHSllRd2JmRENiNVQxQ2Zm?oc=5",
-      "source": "데일리팜",
-      "pubDate": "2026-08-14T09:20:15+00:00",
-      "query": "HLB제약"
-    },
-    {
-      "title": "HLB제약, 상반기 매출 1279억원···전년 比 56.8%↑ - seoulfn.com",
-      "link": "https://news.google.com/rss/articles/CBMiakFVX3lxTE5SZ1FGOUZqcVZhWmpGZ3oxTTZOSWZBd05CMkxxTUpPZnZkV0toSlNhZEtMOHBqS3lUcUx3Z1czeXZuSjRwbkVIdU9iTTdPOExyV2ppYjQ2MTkzYzZqakRMaVlkWFZwdlFsWkE?oc=5",
-      "source": "seoulfn.com",
-      "pubDate": "2026-08-14T07:54:28+00:00",
-      "query": "HLB제약"
-    },
-    {
-      "title": "“AI 반도체 타고 날았다”… HLB이노베이션, 상반기 매출 21% 껑충 - geconomy.co.kr",
+      "title": "“AI 반도체 타고 날았다”… HLB이노베이션, 상반기 매출 21% 껑충 - 지이코노미",
       "link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE5hN3FSNmxvazdKd3NYSWZfQjVhWlIwT01kUkxCRVRfR3p0d2Z1RUZmWjRiSmpxOV85RHpIVXhKX2M0RGs0d09wWVpEeFFYa095SGpIM2lYQlVEYnI4WGMtbWhldGpieTg?oc=5",
-      "source": "geconomy.co.kr",
+      "source": "지이코노미",
       "pubDate": "2026-08-14T05:48:26+00:00",
       "query": "HLB이노베이션"
     },
@@ -40,6 +26,13 @@
       "link": "https://news.google.com/rss/articles/CBMifEFVX3lxTFBFMWxCa0FZUkVGYmdqaDNxWVRCRG8zUW1hX2M3dllvMS1pOFdHdzFobVg3b2hsODFqb0t4QkFKMXVRNXhjV2lIc3ZRTnk4LXRYSnQ4eHlnMTU0UHZkWmRQLTA2aDRLYk13Z1QtcU10azladkYxdGhuS0VETE8?oc=5",
       "source": "한국금융신문",
       "pubDate": "2026-08-14T05:40:37+00:00",
+      "query": "HLB제넥스"
+    },
+    {
+      "title": "HLB제넥스, 200억원 규모 전환사채 선제 취득 - 연합뉴스",
+      "link": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE9kdGZCSE1KNnpLNFZLZXpfYzJnSVJJeWFhWGpBTmVWWTFLeXk1M3dkc0FUdHFCOXVWZUtha3d2TWJTVjJmbVVjeVRob24wc29FT3RzMzl3TlZyM2vSAWBBVV95cUxQZ0dTbVlrd2ltRjkxSVU5NGlIX1FiUE1ZUHNqaVAtbjAxalp4bUx6aHNTdk1ldjd2MXFNcXNxTHNBeXo1MVBqb3Y2R1hiMWdwTFIxWWtvd0VvNFNuUXM1Z2k?oc=5",
+      "source": "연합뉴스",
+      "pubDate": "2026-08-14T04:47:45+00:00",
       "query": "HLB제넥스"
     },
     {
@@ -71,16 +64,16 @@
       "query": "HLB 임상"
     },
     {
-      "title": "HLB 그룹, 고형암 CAR-T 난제에 도전…베리스모 ‘SynKIR-110’ 임상 신호 확인 - cbci.co.kr",
+      "title": "HLB 그룹, 고형암 CAR-T 난제에 도전…베리스모 ‘SynKIR-110’ 임상 신호 확인 - CBC뉴스",
       "link": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE9JUHAwbnh1SjBlR1pWVWNzb05pRTIwWTA4Zk1nWTBmRnRpWERlZlNLWURlTFZNdy1VU29zWE54RVdGcDc4UFFLOXBFNTdRR3VvbVJhU2RHZVJxUmlmZkdkVTdnQ0NlcHhm?oc=5",
-      "source": "cbci.co.kr",
+      "source": "CBC뉴스",
       "pubDate": "2026-08-13T02:54:29+00:00",
       "query": "HLB 임상"
     },
     {
-      "title": "HLB테라퓨틱스, 특정계좌 매매관여 과다로 투자주의종목 지정 - topstarnews.net",
+      "title": "HLB테라퓨틱스, 특정계좌 매매관여 과다로 투자주의종목 지정 - 톱스타뉴스",
       "link": "https://news.google.com/rss/articles/CBMickFVX3lxTE5ibERPcFdVbDdNUDlqQm9HS2VaRlVXMjhobjh3V1RsYkZySFhrZDB2UmtFSHFrcnh6ZVJZZkVyVWxXY3V3dDA4Z3J6cnoxMTdGWGU3SFRxVEJxQmdIbzNWRGRIQVd4bGItTDJqNUp5NUtuUQ?oc=5",
-      "source": "topstarnews.net",
+      "source": "톱스타뉴스",
       "pubDate": "2026-08-12T11:45:47+00:00",
       "query": "HLB테라퓨틱스"
     },
@@ -99,20 +92,20 @@
       "query": "HLB 신약"
     },
     {
-      "title": "셀트리온·HLB파나진, 유럽·미국서 글로벌 사업 확대 - news2day.co.kr",
+      "title": "셀트리온·HLB파나진, 유럽·미국서 글로벌 사업 확대 - 뉴스투데이",
       "link": "https://news.google.com/rss/articles/CBMiXkFVX3lxTFBSTUlRdlR3WmV6RkdyWkJUN3QyRE1mVm9tUnZLTmNreHloMW53MFVuZXlMSnd4U1RTa1VtcU1tdlY4Um8xa0JvNnkxZlFLcG5DRW1JYjFPMUxFSXhhc2c?oc=5",
-      "source": "news2day.co.kr",
+      "source": "뉴스투데이",
       "pubDate": "2026-08-12T07:10:00+00:00",
       "query": "HLB파나진"
     },
     {
-      "title": "HLB파나진, 미국 올리고·펩타이드 전문 컨퍼런스서 개막 기조발표 - 아시아경제",
-      "link": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE5RS0VQODJpb0U5aUoyTkJ1TGZMV1ZwYld4SFkzS2ZCaHJ6TFRwOGNPdUlSQmoxTjFjdDBkUExDT3lLWDdIUDJzTnJ1alV4SmtvYlB1RTkwZlR0MWh0VDBuaw?oc=5",
-      "source": "아시아경제",
-      "pubDate": "2026-08-11T23:55:20+00:00",
-      "query": "HLB파나진"
+      "title": "HLB, 미국 애보트와 185억 규모 공급 계약 체결 - 히트뉴스",
+      "link": "https://news.google.com/rss/articles/CBMia0FVX3lxTE1FTXdTNjItLTNsNTBoWmZWRlQ1VWY1U1FEa05yNzZmLWhqRDJ4bElWOTlSMWQ2akNrdGNnUGNRZGlNQjgtcTFvYWItTFlkQUVmeWh4SUhaX200dVo5c0VHMFh6TkpnR2ZOVHhN?oc=5",
+      "source": "히트뉴스",
+      "pubDate": "2026-08-10T07:00:00+00:00",
+      "query": "HLB 계약"
     }
   ],
-  "fetchedAt": "2026-08-14T16:04:22.284256+00:00",
-  "count": 16
+  "fetchedAt": "2026-08-14T17:08:43.523407+00:00",
+  "count": 15
 }
