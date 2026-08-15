@@ -15,10 +15,10 @@
       "query": "HLB제약"
     },
     {
-      "title": "HLB파나진, 상반기 영업익 5억2600만원…3년째 흑자 기조 - 뉴스핌",
-      "link": "https://news.google.com/rss/articles/CBMiXEFVX3lxTFA2LV9hWWxhamxwYS13TUIzMzFWSDBZcDF3WWZ5cjJCNS1XSERNaERfaDctUGdnN19aN2FSanJmMlpIaEVNZnhITzJFNERGelJRTUxreV91UHJkcnMx?oc=5",
-      "source": "뉴스핌",
-      "pubDate": "2026-08-14T11:19:00+00:00",
+      "title": "HLB파나진, 상반기 영업익 5억…2년 연속 영업흑자 - v.daum.net",
+      "link": "https://news.google.com/rss/articles/CBMiS0FVX3lxTE5QZXFsMl9TX2M1bkxXTVRvR0JEUXlDeWJ3T3ZZbmg2ZVpITl9wNnYwOWYteGtmd0FJdzU2VnRUTG5GcGJvMmFaUzZnWQ?oc=5",
+      "source": "v.daum.net",
+      "pubDate": "2026-08-14T07:14:49+00:00",
       "query": "HLB파나진"
     },
     {
@@ -48,13 +48,6 @@
       "source": "Naver Blog",
       "pubDate": "2026-08-14T03:20:36+00:00",
       "query": "HLB FDA"
-    },
-    {
-      "title": "HLB제약, 영업익 10억원…전년보다 414% 증가 - v.daum.net",
-      "link": "https://news.google.com/rss/articles/CBMiT0FVX3lxTFBHdmxvbDFtZnp0ZU5HM2hpeGRtdU5BM2p1SG1jb0FZMGFNSDFpME5RdHRLSngxNFBQYkNzak1neG1iRTV6R2FIVE9Yd2dRS28?oc=5",
-      "source": "v.daum.net",
-      "pubDate": "2026-08-14T01:41:36+00:00",
-      "query": "HLB제약"
     },
     {
       "title": "HLB이노베이션, ‘반도체 사업’ 성장세 지속…‘CAR-T’ 임상 개발도 순항 - 더바이오",
@@ -106,6 +99,13 @@
       "query": "HLB 신약"
     },
     {
+      "title": "HLB파나진, 미국 올리고·펩타이드 전문 컨퍼런스서 개막 기조발표 - 머니투데이 - 머니투데이",
+      "link": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE9PMTJRbXBieS1Eb19tX09hSW1YWlQ4Rk9HYXpSNXdYcjRhVzlrLWpZVnNRN0gyQXBVN3FhbHVpOXpWNnZTVmttcGtWV3hSSzVrMDdKZ1hGS3JRenpCNlVuVG1kUURja01p0gFuQVVfeXFMTmdYRnAyekFhQU4zVTJwamduSVNlUEJuOTJmeExRTVVqcXNwVW9ja18zQVI5SzV3MTVsTHM3RHVDaHA0MGFIZXowVDlvcmpxNzdUMGIwTzJoYmJ3d3BGMjAxbGx5eDBKVko3WnVFNVE?oc=5",
+      "source": "머니투데이",
+      "pubDate": "2026-08-11T23:47:25+00:00",
+      "query": "HLB파나진"
+    },
+    {
       "title": "HLB바이오스텝, 소수계좌 거래집중으로 투자주의종목 지정 - 톱스타뉴스",
       "link": "https://news.google.com/rss/articles/CBMickFVX3lxTE5hbWNOa0JTYUJnZ2cyR0lXZHRIS0RyR2hKS1haMUVmOF9uQmVSeV9kLTE2Y0hSTnlYYWVfc2gtVUJnUzVQQV9VUUlDZ0hLbTJTS1VfOTcxT0JMTDlUbWVrOW9mTk5oZXVmTy1uSHZhdW11QQ?oc=5",
       "source": "톱스타뉴스",
@@ -120,6 +120,6 @@
       "query": "HLB 계약"
     }
   ],
-  "fetchedAt": "2026-08-15T23:01:08.116510+00:00",
+  "fetchedAt": "2026-08-15T23:31:32.387894+00:00",
   "count": 17
 }
