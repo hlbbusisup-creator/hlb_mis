@@ -92,13 +92,6 @@
       "query": "HLB 임상"
     },
     {
-      "title": "HLB테라퓨틱스, 특정계좌 매매관여 과다로 투자주의종목 지정 - 톱스타뉴스",
-      "link": "https://news.google.com/rss/articles/CBMickFVX3lxTE5ibERPcFdVbDdNUDlqQm9HS2VaRlVXMjhobjh3V1RsYkZySFhrZDB2UmtFSHFrcnh6ZVJZZkVyVWxXY3V3dDA4Z3J6cnoxMTdGWGU3SFRxVEJxQmdIbzNWRGRIQVd4bGItTDJqNUp5NUtuUQ?oc=5",
-      "source": "톱스타뉴스",
-      "pubDate": "2026-08-12T11:45:47+00:00",
-      "query": "HLB테라퓨틱스"
-    },
-    {
       "title": "HLB펩, 제3회차 전환사채 전환청구권 행사로 신주 20만549주 발행 - 디지털투데이",
       "link": "https://news.google.com/rss/articles/CBMic0FVX3lxTE9VcXMyV3I5R1FIay0ya3l5YnpSc2taRmxJQlhmenhVLVBKaU12c1JXM3pzbHRkaDBtOF90dHBWdENRZjVjTkR0S3lfMEJFTTQwOVgwVzV4eEtQVXRscXRwaTR0UHEtUTRLRHE1OHU0SXU0Sk0?oc=5",
       "source": "디지털투데이",
@@ -106,16 +99,16 @@
       "query": "HLB펩"
     },
     {
-      "title": "HLB파나진, 美 올리고·펩타이드 컨퍼런스서 개막 기조발표 - dailypharm.com",
+      "title": "HLB파나진, 美 올리고·펩타이드 컨퍼런스서 개막 기조발표 - 데일리팜",
       "link": "https://news.google.com/rss/articles/CBMiUEFVX3lxTE5LRFF6Z3VUQV9jNFFPX2dDUkRjMUhlcF9xckFqRTR5eUFwc2JpZmtMWWJSMWp2VVlweEgxRlk2ekpYcmNNRjczc3k1SUJ2X0lM?oc=5",
-      "source": "dailypharm.com",
+      "source": "데일리팜",
       "pubDate": "2026-08-12T09:05:09+00:00",
       "query": "HLB파나진"
     },
     {
-      "title": "HLB파나진, 美 신약개발 컨퍼런스서 PNA 기술력 알린다 - 약사공론",
+      "title": "HLB파나진, 美 신약개발 컨퍼런스서 PNA 기술력 알린다 - kpanews.co.kr",
       "link": "https://news.google.com/rss/articles/CBMibEFVX3lxTE1ZT1NOMnpBdGFENXFuU1BRMENZcVVUN1ZpYklCMHFhbG9vcVNTbk1GTGZjc0pGVE94NlRUak12UjhCeXRfbEVMckZGdzFtaVJHaW5pa2VaazVVXzFDRnozTHNoVmlaeDNBUUhwMQ?oc=5",
-      "source": "약사공론",
+      "source": "kpanews.co.kr",
       "pubDate": "2026-08-12T07:28:31+00:00",
       "query": "HLB 신약"
     },
@@ -127,6 +120,13 @@
       "query": "HLB파나진"
     },
     {
+      "title": "HLB바이오스텝, 소수계좌 거래집중으로 투자주의종목 지정 - 톱스타뉴스",
+      "link": "https://news.google.com/rss/articles/CBMickFVX3lxTE5hbWNOa0JTYUJnZ2cyR0lXZHRIS0RyR2hKS1haMUVmOF9uQmVSeV9kLTE2Y0hSTnlYYWVfc2gtVUJnUzVQQV9VUUlDZ0hLbTJTS1VfOTcxT0JMTDlUbWVrOW9mTk5oZXVmTy1uSHZhdW11QQ?oc=5",
+      "source": "톱스타뉴스",
+      "pubDate": "2026-08-11T11:35:28+00:00",
+      "query": "HLB바이오스텝"
+    },
+    {
       "title": "HLB, 미국 애보트와 185억 규모 공급 계약 체결 - 히트뉴스",
       "link": "https://news.google.com/rss/articles/CBMia0FVX3lxTE1FTXdTNjItLTNsNTBoWmZWRlQ1VWY1U1FEa05yNzZmLWhqRDJ4bElWOTlSMWQ2akNrdGNnUGNRZGlNQjgtcTFvYWItTFlkQUVmeWh4SUhaX200dVo5c0VHMFh6TkpnR2ZOVHhN?oc=5",
       "source": "히트뉴스",
@@ -134,6 +134,6 @@
       "query": "HLB 계약"
     }
   ],
-  "fetchedAt": "2026-08-15T15:32:15.708946+00:00",
+  "fetchedAt": "2026-08-15T16:00:05.912706+00:00",
   "count": 19
 }
