@@ -8,13 +8,6 @@
       "query": "HLB제넥스"
     },
     {
-      "title": "HLB 엘레바, ‘리라푸그라티닙’ 암종불문 임상 2상 첫 환자 투약 - 쿠키뉴스",
-      "link": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE9aczlnRWZDMkNqWXM5SVVpRzdPaUxJaFlsX3o0TWdzSXZHRXplTzJqUWZROTMxcWc0WVVIbE43TmpKM1AyQmtkSTlsQllNTlEzYkhJNXhEbF9UZVRBVUpDaGt3TQ?oc=5",
-      "source": "쿠키뉴스",
-      "pubDate": "2026-08-17T02:35:30+00:00",
-      "query": "HLB 임상"
-    },
-    {
       "title": "HLB, 간암 신약 또 FDA 문턱 못 넘어…제조시설 문제로 ‘보완 요구’ - 쿠키뉴스",
       "link": "https://news.google.com/rss/articles/CBMiY0FVX3lxTFB6d08yY20yY3ZJZDhxUjJHUFhaQ0dnVEdlTzA2Qnd2U3B3MFNsSS1mZ0NFNExFMkJ1R2pmNi1SQVRqTGdKUUNSWlBkbUg0YTNtVFdVVG9sNXdwRTh0a0ZaVHNwVQ?oc=5",
       "source": "쿠키뉴스",
@@ -54,6 +47,13 @@
       "link": "https://news.google.com/rss/articles/CBMibEFVX3lxTE5aMmtUWVR0ZEtJV2tpa1VJVW9UTE16U1FmeWVXNWw3T0cxZ1k2eTd4M1FwYkxVT3hudFNDb2V2ZTZsbUd2bTNKZERxbWRhcU9pandhSHZrdkZSOFhVVFpvRFVNWkpsVE9MNEE3TNIBcEFVX3lxTE1QMl9yVy1PZl9fWEZRQWlZeWd1ZjdUWi1faU5FdVZXT19RREh5M2pZS0FBa2xtM2RzZ2hsZUpQSHQwZ0NDNE8xUzNmckhNSThoTm9vSmpfanpBeHIxRWpXeWVEeTM3Y0pGSEE1bFRvOGU?oc=5",
       "source": "더바이오",
       "pubDate": "2026-08-14T01:35:28+00:00",
+      "query": "HLB 임상"
+    },
+    {
+      "title": "HLB 엘레바, ‘리라푸그라티닙’ 암종불문 임상 2상 첫 환자 투약 - 쿠키뉴스",
+      "link": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE9aczlnRWZDMkNqWXM5SVVpRzdPaUxJaFlsX3o0TWdzSXZHRXplTzJqUWZROTMxcWc0WVVIbE43TmpKM1AyQmtkSTlsQllNTlEzYkhJNXhEbF9UZVRBVUpDaGt3TQ?oc=5",
+      "source": "쿠키뉴스",
+      "pubDate": "2026-08-13T14:51:11+00:00",
       "query": "HLB 임상"
     },
     {
@@ -99,6 +99,6 @@
       "query": "HLB 허가"
     }
   ],
-  "fetchedAt": "2026-08-17T19:36:57.703631+00:00",
+  "fetchedAt": "2026-08-17T20:03:25.876749+00:00",
   "count": 14
 }
