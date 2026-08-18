@@ -1,6 +1,13 @@
 {
   "news": [
     {
+      "title": "HLB이노베이션, AI 반도체 수요 확대 \"컨택핀·리드프레임 성장\" - 뉴스핌",
+      "link": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE82S1gzLVkyYXBwZDhMOXdKTGZzU1ZfOFkxQ3hyeUVIMHdYOWlnOTAwTXdHVU4wczJpV3VITTJQckdxWGhpX2VfS29sYVhJTEppVUtQYU0zUTdCNmRr?oc=5",
+      "source": "뉴스핌",
+      "pubDate": "2026-08-18T00:30:00+00:00",
+      "query": "HLB이노베이션"
+    },
+    {
       "title": "HLB제약 '나티아 제주말차', 홈쇼핑 첫 방송서 106만3560포 판매 - PRESS9",
       "link": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE8tbWhCQVlnTU0xQXpRUE9Mdi05Mjk2XzRQTEhmdDJWOFlJemV2b3JvWEE5OUFPdS1DbnpHS2I1OW5FMTJpbW8waTJsTmlzNXZZR1NrRzNIbTRSR1pGUXZiTlhFb1U?oc=5",
       "source": "PRESS9",
@@ -13,6 +20,13 @@
       "source": "Naver Blog",
       "pubDate": "2026-08-17T22:31:27+00:00",
       "query": "HLB제넥스"
+    },
+    {
+      "title": "HLB 엘레바, ‘리라푸그라티닙’ 암종불문 임상 2상 첫 환자 투약 - 쿠키뉴스",
+      "link": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE9aczlnRWZDMkNqWXM5SVVpRzdPaUxJaFlsX3o0TWdzSXZHRXplTzJqUWZROTMxcWc0WVVIbE43TmpKM1AyQmtkSTlsQllNTlEzYkhJNXhEbF9UZVRBVUpDaGt3TQ?oc=5",
+      "source": "쿠키뉴스",
+      "pubDate": "2026-08-17T02:35:30+00:00",
+      "query": "HLB 임상"
     },
     {
       "title": "HLB, 간암 신약 또 FDA 문턱 못 넘어…제조시설 문제로 ‘보완 요구’ - 쿠키뉴스",
@@ -36,6 +50,13 @@
       "query": "HLB파나진"
     },
     {
+      "title": "‘9500억시장 공략’ HLB 이뮤노믹, 일본삼나무 알레르기 치료백신 日임상1상 승인 - catchnews.kr",
+      "link": "https://news.google.com/rss/articles/CBMia0FVX3lxTFBrZ0Eyb2RFdWlLeXZfYmhFOEZVa1VJT2RkQU1WRVRhUkNxbTN4UXdkV0hTeHZ5bVZhSUZWUU83djJTeVVQWEhZd3NUZ0JqMU1lcUtsaFlGZkhDOEdXTjNQVEkxSDdNVXFiU3NZ0gFvQVVfeXFMUEY2Um53Q3ptWHhMYnJ3N0I4RDhTUXFoVEdVb285WW5UUklwWm1pVTUtcm0wbVI0X0h4cTUyclBVSDdyc0NFd3NfSzJueWlPREZWRTBVdUFqZ0t4T0ZNZ2dOVXI5b0tzOFd1VEpROVVF?oc=5",
+      "source": "catchnews.kr",
+      "pubDate": "2026-08-14T07:00:00+00:00",
+      "query": "HLB 임상"
+    },
+    {
       "title": "‘상온보관·4주투여’ HLB테라퓨틱스, NK치료제 글로벌 3상 환자모집 완료 - catchnews.kr",
       "link": "https://news.google.com/rss/articles/CBMia0FVX3lxTE94U0dlTFR1Z3RDdnlfdmlUelNsSUFldHNPM3FQT1o1ZUJHUllBb0k4Z3d1a0FnMzV1dU1NY05TdW1GeXB4dnYzMGp4XzhrbE9tN2tZTWlsbGgzdndpcjluNnIzVERFNFN3cDhB0gFvQVVfeXFMTWhVMnkzc2J0cmV5UkRXanUwb1Y0cmo3c3UxbWNSaEZJUG1ZYmFKRDBvOG5VVXYwdjFyU0VtcEJGNUtscFRmSHZrZFQwcThWV1BHV2pSLWROMlNaVnFKdHo3ZVJvYWUzWk5uZEV3aXNJ?oc=5",
       "source": "catchnews.kr",
@@ -50,25 +71,11 @@
       "query": "HLB펩"
     },
     {
-      "title": "HLB이노베이션, ‘반도체 사업’ 성장세 지속…‘CAR-T’ 임상 개발도 순항 - thebionews.net",
+      "title": "HLB이노베이션, ‘반도체 사업’ 성장세 지속…‘CAR-T’ 임상 개발도 순항 - 더바이오",
       "link": "https://news.google.com/rss/articles/CBMibEFVX3lxTE5aMmtUWVR0ZEtJV2tpa1VJVW9UTE16U1FmeWVXNWw3T0cxZ1k2eTd4M1FwYkxVT3hudFNDb2V2ZTZsbUd2bTNKZERxbWRhcU9pandhSHZrdkZSOFhVVFpvRFVNWkpsVE9MNEE3TNIBcEFVX3lxTE1QMl9yVy1PZl9fWEZRQWlZeWd1ZjdUWi1faU5FdVZXT19RREh5M2pZS0FBa2xtM2RzZ2hsZUpQSHQwZ0NDNE8xUzNmckhNSThoTm9vSmpfanpBeHIxRWpXeWVEeTM3Y0pGSEE1bFRvOGU?oc=5",
-      "source": "thebionews.net",
+      "source": "더바이오",
       "pubDate": "2026-08-14T01:35:28+00:00",
       "query": "HLB 임상"
-    },
-    {
-      "title": "HLB 엘레바, ‘리라푸그라티닙’ 암종불문 임상 2상 첫 환자 투약 - 쿠키뉴스",
-      "link": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE9aczlnRWZDMkNqWXM5SVVpRzdPaUxJaFlsX3o0TWdzSXZHRXplTzJqUWZROTMxcWc0WVVIbE43TmpKM1AyQmtkSTlsQllNTlEzYkhJNXhEbF9UZVRBVUpDaGt3TQ?oc=5",
-      "source": "쿠키뉴스",
-      "pubDate": "2026-08-13T14:51:11+00:00",
-      "query": "HLB 임상"
-    },
-    {
-      "title": "HLB이노베이션, AI 반도체 수요 확대에 상반기 매출 21% 증가 - 뉴스1",
-      "link": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE5Ta05NN2o1WlVlTHV4dDB1LTVYNURhOE1oN0s3WVdXMnIyMFNNcm9hY2dFQ0FuLTBYQUJrRTJ5dnZLTU9zdlJFY1dCRjN5MldySWtyUTVCN1hfZW5kRHJOMdIBZkFVX3lxTE54TzZ1d1pGYWFtMHlNU0NkOWRlNEp6VWxETEFXSl93NXNlWElKaFp1SHp6LUpiOHF2UGUwaG12bFpRR25JSklGN3BFbWxyOE5Za041UGNUVDFvay1OWlB0OHUxWE5kZw?oc=5",
-      "source": "뉴스1",
-      "pubDate": "2026-08-13T08:04:55+00:00",
-      "query": "HLB이노베이션"
     },
     {
       "title": "HLB제넥스, 상반기 매출 230억…건기식·효소 성장에 11%↑ - 비즈워치",
@@ -92,13 +99,13 @@
       "query": "HLB 신약"
     },
     {
-      "title": "[HLB그룹 톺아보기] 아직 끝나지 않았다...'리보세라닙' 허가 재신청 잰걸음 - dealsite.co.kr",
+      "title": "[HLB그룹 톺아보기] 아직 끝나지 않았다...'리보세라닙' 허가 재신청 잰걸음 - 딜사이트",
       "link": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE14Z3YzMXlxQm1nN1ZnWFpjMWRUTFhYNVVsMFRCS1JWRVNLZGlWYkN0dUQ5OUVOeXdZZ2M3dy14QWlTTzRDQnE1aEUyNW41VlE?oc=5",
-      "source": "dealsite.co.kr",
+      "source": "딜사이트",
       "pubDate": "2026-08-11T22:00:00+00:00",
       "query": "HLB 허가"
     }
   ],
-  "fetchedAt": "2026-08-18T00:01:15.002886+00:00",
-  "count": 14
+  "fetchedAt": "2026-08-18T01:47:37.946677+00:00",
+  "count": 15
 }
