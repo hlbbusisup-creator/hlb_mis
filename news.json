@@ -1,6 +1,13 @@
 {
   "news": [
     {
+      "title": "HLB 담관암 약 FDA 허가 발표 임박···간암약 악재 극복 기로 - 더팩트",
+      "link": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE93akNVTzNPUzE2MXhvMUpuWkhQakxSNUwxa3d2SVBkSzhwOTZRS01RWEV0eTA4TGJ4dlJtZVZJVENCNmJEd3dYaEM0bHFiaEZ1SlhsNUtmV2FYd9IBVEFVX3lxTE84TGxqSTVMY19Ca3kybmhuZkdzVVd6VEdLWHVYSE8yMjl3SEVCQjVtNE1JNExJZzVBbW5Da3FFV05WeEhfMVREeWpCNDh1YndOYmM3Zw?oc=5",
+      "source": "더팩트",
+      "pubDate": "2026-08-18T06:00:02+00:00",
+      "query": "HLB 신약"
+    },
+    {
       "title": "첫 AOC 신약 허가 경쟁...HLB파나진 등 국내 기업들도 개발 속도 - PRESS9",
       "link": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE52b3BDS1R2VEx3aXdEZGRVbHV0RHYxTFVuTVEybGpzVzZGT0hHU3kzNnl6ekJnMndSaUQ4YkNCNTBtVUZXbmtGcGtUREZfWFBySVRuU0pTR3B2QlFuT1NteDJDNnc?oc=5",
       "source": "PRESS9",
@@ -99,6 +106,6 @@
       "query": "HLB펩"
     }
   ],
-  "fetchedAt": "2026-08-18T05:41:48.799386+00:00",
-  "count": 14
+  "fetchedAt": "2026-08-18T06:16:27.408279+00:00",
+  "count": 15
 }
