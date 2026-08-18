@@ -57,10 +57,17 @@
       "query": "HLB 임상"
     },
     {
-      "title": "HLB파나진, 상반기 매출 68억원·영업익 5억원 달성 - MEDI:GATE NEWS",
-      "link": "https://news.google.com/rss/articles/CBMiV0FVX3lxTE5zaUs2YlNyenVTZ3ZLNzAtbTZfOERXUnJfZ29idVF4RTl3ZzdDWGhfeXJnekRGOHRYUGl0VjBWei1Ecm1sVmMxYVNfaHd6Q0RGWmtQNEZkaw?oc=5",
+      "title": "HLB제약, 상반기 매출 1279억원…역대 최대 반기 실적 달성 - MEDI:GATE NEWS",
+      "link": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE5LYUxfQlFzX0VWMFJkV0w4bEh6c0t1QXRoZjhIVUZpaTFzaWhXX25hNGJFaTN6U3FocTAwTkY5aVRIS1VLVzBNVEdqQXZ4eWlEeG1UNg?oc=5",
       "source": "MEDI:GATE NEWS",
       "pubDate": "2026-08-14T13:38:00+00:00",
+      "query": "HLB제약"
+    },
+    {
+      "title": "HLB파나진, 상반기 영업익 5억2600만원…3년째 흑자 기조 - 뉴스핌",
+      "link": "https://news.google.com/rss/articles/CBMiXEFVX3lxTFA2LV9hWWxhamxwYS13TUIzMzFWSDBZcDF3WWZ5cjJCNS1XSERNaERfaDctUGdnN19aN2FSanJmMlpIaEVNZnhITzJFNERGelJRTUxreV91UHJkcnMx?oc=5",
+      "source": "뉴스핌",
+      "pubDate": "2026-08-14T11:19:00+00:00",
       "query": "HLB파나진"
     },
     {
@@ -85,20 +92,20 @@
       "query": "HLB펩"
     },
     {
-      "title": "HLB이노베이션, ‘반도체 사업’ 성장세 지속…‘CAR-T’ 임상 개발도 순항 - thebionews.net",
+      "title": "HLB이노베이션, ‘반도체 사업’ 성장세 지속…‘CAR-T’ 임상 개발도 순항 - 더바이오",
       "link": "https://news.google.com/rss/articles/CBMibEFVX3lxTE5aMmtUWVR0ZEtJV2tpa1VJVW9UTE16U1FmeWVXNWw3T0cxZ1k2eTd4M1FwYkxVT3hudFNDb2V2ZTZsbUd2bTNKZERxbWRhcU9pandhSHZrdkZSOFhVVFpvRFVNWkpsVE9MNEE3TNIBcEFVX3lxTE1QMl9yVy1PZl9fWEZRQWlZeWd1ZjdUWi1faU5FdVZXT19RREh5M2pZS0FBa2xtM2RzZ2hsZUpQSHQwZ0NDNE8xUzNmckhNSThoTm9vSmpfanpBeHIxRWpXeWVEeTM3Y0pGSEE1bFRvOGU?oc=5",
-      "source": "thebionews.net",
+      "source": "더바이오",
       "pubDate": "2026-08-14T01:35:28+00:00",
       "query": "HLB 임상"
     },
     {
-      "title": "HLB제약, 상반기 매출 1279억원…역대 최대 - 비즈워치",
-      "link": "https://news.google.com/rss/articles/CBMib0FVX3lxTFBiOHVvenh5c2pPTzk5OHplOGZYYnRhbWEyeUFMNXBfYXlNWEROdkNTQmxmdldNbXNqSzF2dWMxdHZ6VUF6bS05N3Nkc1htVU55WFRKcXQzUHZZNUxvTTQtTnktTmp1cE44MURGRnZqUQ?oc=5",
+      "title": "HLB제넥스, 상반기 매출 230억…건기식·효소 성장에 11%↑ - 비즈워치",
+      "link": "https://news.google.com/rss/articles/CBMib0FVX3lxTE1RNVJyTW5qZWVndlNZTFdKMS1qVU9BbnROcXBxMUJySTdJQkxGS0ZMLUVwSjIwa09kSmRCZ1o1UGhqQ2RQUGctcjZzeHJrbk53QWdkWDBlcWQ1dEd5bDlGRk1tejZiOEN5a29oUElYOA?oc=5",
       "source": "비즈워치",
-      "pubDate": "2026-08-14T00:44:04+00:00",
-      "query": "HLB제약"
+      "pubDate": "2026-08-13T07:57:10+00:00",
+      "query": "HLB제넥스"
     }
   ],
-  "fetchedAt": "2026-08-18T15:43:22.628268+00:00",
-  "count": 14
+  "fetchedAt": "2026-08-18T16:12:48.544525+00:00",
+  "count": 15
 }
