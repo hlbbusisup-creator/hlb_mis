@@ -536,6 +536,15 @@ tbody tr.row-flash td:first-child{ box-shadow:inset 3px 0 0 var(--cp); }
   .tslbl{font-size:11px;margin:14px 0 7px;}
   /* 자료실 카드도 같은 이유로 2열 */
   .libgrid{grid-template-columns:repeat(2,1fr)!important;}
+  /* 계열사 현황 타일 — 최소폭 168px 이라 폰에서 1열로 떨어졌다 */
+  .cg-grid{grid-template-columns:repeat(2,1fr)!important;gap:7px!important;}
+  .cg{padding:9px 10px!important;}
+  .cg .nm{font-size:11.5px!important;}
+  .cg .v.rev{font-size:14px!important;}
+  .cg .v.op{font-size:12.5px!important;}
+  .cg .k{font-size:9.5px!important;}
+  .cg .pc{font-size:10px!important;min-width:26px!important;}
+  #coGridBody{padding:12px 12px 14px!important;}
 }
 </style>
 </head>
@@ -2590,9 +2599,17 @@ async function abFetchAI(roleKey){
 }
 
 /* 화면에 이미 규칙 기반 문장이 떠 있는 상태에서, AI 문장이 오면 부드럽게 교체 */
+/* 문장이 끝까지 왔는지 검사. 모델 응답이 토큰 한도에서 잘리면
+   "…46.4%로 경" 처럼 반토막이 화면에 뜬다. 그럴 바엔 규칙 기반 문장을 두는 게 낫다. */
+function abComplete(t){
+  var s=String(t||'').trim();
+  if(s.length<40) return false;
+  return /(다|요)\.$|[.!?]$/.test(s);
+}
 function abApplyAI(roleKey){
   abFetchAI(roleKey).then(function(t){
     if(!t) return;
+    if(!abComplete(t)){ console.warn('[AI] 잘린 응답이라 표시하지 않음:', t); return; }
     if(AB_ROLES[_abIdx].k!==roleKey) return;        // 그새 발언자가 넘어갔으면 버림
     var sy=document.getElementById('abSay'); if(!sy) return;
     sy.style.transition='opacity .2s'; sy.style.opacity='0';
