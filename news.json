@@ -1,6 +1,13 @@
 {
   "news": [
     {
+      "title": "HLB바이오스텝, '한·일 비임상시험 사업 협력' 업무협약 - v.daum.net",
+      "link": "https://news.google.com/rss/articles/CBMiT0FVX3lxTFA3RVVnSEFQaWtmVko2Tkpjbl9INUpaUUhzMEhFcm5RY3VKckJHVmlIWXVCSUw3SmxuSHhoQ0V1WFhmYXVTN0dmcThYLTQtWlk?oc=5",
+      "source": "v.daum.net",
+      "pubDate": "2026-08-19T23:10:41+00:00",
+      "query": "HLB 임상"
+    },
+    {
       "title": "HLB생명과학,주사기 제조업무 정지 처분 - 약업신문",
       "link": "https://news.google.com/rss/articles/CBMi4AFBVV95cUxPbXlEQ0hyNmZRVFctWkhnVnVIRlp5Y0tuRWxnM3prbTZaTk9LWHZ6bUwyenh4TjRkMTBHLU0tUUVqWGRmd1d5MTM0WEtEVmY0VE83SnBDN0gwYnB5bzZjZmxsc09Bd2h2WDVNeWJzOWFLMEEzWUZINGk3LTRFSmcxYWdNeG9JUFFKaFJrWDUxaHlNbXJHYXBnNkhKSWFlVTVmYnNVeERYQzhUQUhIeWdHRkVHczRRREZLMFpqZHVtQzFoSEtFc09PaDlLRUJhajhVLTNfN0p4TVhfRHlyMUZNdw?oc=5",
       "source": "약업신문",
@@ -64,9 +71,9 @@
       "query": "HLB 임상"
     },
     {
-      "title": "HLB제약, 상반기 매출 1279억원…역대 최대 반기 실적 달성 - MEDI:GATE NEWS",
+      "title": "HLB제약, 상반기 매출 1279억원…역대 최대 반기 실적 달성 - medigatenews.com",
       "link": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE5LYUxfQlFzX0VWMFJkV0w4bEh6c0t1QXRoZjhIVUZpaTFzaWhXX25hNGJFaTN6U3FocTAwTkY5aVRIS1VLVzBNVEdqQXZ4eWlEeG1UNg?oc=5",
-      "source": "MEDI:GATE NEWS",
+      "source": "medigatenews.com",
       "pubDate": "2026-08-14T13:38:00+00:00",
       "query": "HLB제약"
     },
@@ -92,6 +99,6 @@
       "query": "HLB 임상"
     }
   ],
-  "fetchedAt": "2026-08-19T23:04:07.739098+00:00",
-  "count": 13
+  "fetchedAt": "2026-08-19T23:33:55.425196+00:00",
+  "count": 14
 }
