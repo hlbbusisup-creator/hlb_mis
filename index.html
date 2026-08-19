@@ -30,9 +30,10 @@
   if (window._libMissing.length) {
     document.addEventListener('DOMContentLoaded', function(){
       var b=document.createElement('div');
-      b.style.cssText='position:fixed;left:12px;bottom:12px;z-index:9999;background:#FFFAEB;'
+      var _mb = window.matchMedia('(max-width:768px)').matches ? 76 : 12;
+      b.style.cssText='position:fixed;left:12px;right:12px;bottom:'+_mb+'px;z-index:9999;background:#FFFAEB;'
         +'border:1px solid #E8D88A;color:#7A5C00;border-radius:6px;padding:8px 12px;'
-        +'font-size:12px;line-height:1.6;box-shadow:0 2px 8px rgba(0,0,0,.08);max-width:320px';
+        +'font-size:12px;line-height:1.6;box-shadow:0 2px 8px rgba(0,0,0,.08);max-width:340px';
       b.innerHTML='차트 라이브러리를 불러오지 못했습니다 ('+window._libMissing.join(', ')+').<br>'
         +'숫자와 표는 정상입니다. 네트워크 확인 후 새로고침하면 그래프가 나옵니다.'
         +'<span style="float:right;cursor:pointer;font-weight:700;margin-left:8px" onclick="this.parentNode.remove()">×</span>';
@@ -352,7 +353,7 @@ tbody tr:hover td{background:#F7F9FF;}
   .dash-hero-stat:nth-child(3n){border-right:none;}
 }
 @media(max-width:400px){
-  .sstrip{grid-template-columns:1fr;}.trow{grid-template-columns:1fr;}.libgrid{grid-template-columns:1fr;}
+  .sstrip{grid-template-columns:1fr;}
 }
 
 
@@ -521,6 +522,20 @@ tbody tr.row-flash td:first-child{ box-shadow:inset 3px 0 0 var(--cp); }
   .uchip{padding:0;border:none;background:none;}
   .hrgt{flex-shrink:0;gap:4px;}
   .hbtn{padding:3px 7px!important;font-size:11px!important;white-space:nowrap!important;}
+
+  /* 타일은 좁은 폰에서도 2열 유지. 1열로 떨어뜨리면 스크롤만 길어지고
+     한 화면에 들어오는 정보가 절반으로 준다. 대신 안쪽을 줄인다. */
+  .trow{grid-template-columns:repeat(2,1fr)!important;gap:8px!important;}
+  .tile{min-height:0!important;padding:11px 12px 10px!important;}
+  .tlbl{font-size:11.5px!important;line-height:1.35;}
+  .tv{font-size:21px!important;letter-spacing:-.5px;}
+  .tunit{font-size:10.5px!important;}
+  .tsub{font-size:10.5px!important;margin-top:1px;}
+  .tile-footer{margin-top:8px!important;}
+  .tile-badge{font-size:9.5px!important;padding:2px 6px!important;}
+  .tslbl{font-size:11px;margin:14px 0 7px;}
+  /* 자료실 카드도 같은 이유로 2열 */
+  .libgrid{grid-template-columns:repeat(2,1fr)!important;}
 }
 </style>
 </head>
@@ -831,26 +846,6 @@ tbody tr.row-flash td:first-child{ box-shadow:inset 3px 0 0 var(--cp); }
       <div class="card">
         <div class="chdr"><div><div class="ctit">전체 계열사 경영실적</div><div class="csub" id="perfWeekSub">누계 기준 · 단위: 백만원</div></div><div style="display:flex;gap:8px"><button class="btn btnsm" style="background:#4A5568;color:#fff;border:none" onclick="printPerf()">🖨️ 인쇄</button><button class="btn btng btnsm" onclick="showP('performance',null)">상세 보기 →</button></div></div>
         <div class="tw"><table><thead><tr><th>계열사</th><th class="tdr">25년 실적</th><th class="tdr">26년 목표</th><th class="tdr" id="thCumFixD" style="min-width:104px;background:#EBF4FF;color:#1A4A9C">누계 확정 (6월)</th><th class="tdr" id="thOpHD" style="min-width:110px;background:#EBF4FF;color:#1A4A9C">영업이익 (6월)</th><th class="tdr" id="thCumEstD" style="min-width:104px;background:#FFFAEB;color:#7A5C00">누계 (현시점)</th><th class="tdr">금주 실적</th><th style="min-width:180px">달성률</th></tr></thead><tbody id="dashPerf"></tbody></table></div>
-      </div>
-
-      <!-- 금주 입력 내역 -->
-      <div class="card" id="dashWeeklyCard" style="display:none">
-        <div class="chdr">
-          <div><div class="ctit">금주 실적 입력 내역</div><div class="csub" id="dashWeeklySub">최근 주간 입력 기준</div></div>
-        </div>
-        <div class="tw">
-          <table>
-            <thead><tr>
-              <th>계열사</th>
-              <th class="tdr" style="background:#FFF8E1;color:#7A5C00">금주 실적</th>
-              <th class="tdr" style="background:#EBF4FF;color:#1E40AF">당월 누적</th>
-              <th class="tdr" style="background:#F0FFF4;color:#1A6040">연 누계</th>
-              <th class="tdr">26년 목표</th>
-              <th style="min-width:140px">달성률</th>
-            </tr></thead>
-            <tbody id="dashWeeklyBody"></tbody>
-          </table>
-        </div>
       </div>
 
       <!-- 주간 뉴스 -->
@@ -3827,46 +3822,6 @@ function updateDashWeekly(){
   if(elWkNote&&S.lastWeek)elWkNote.textContent=S.lastWeek.label;
   if(elMoNote&&S.lastWeek)elMoNote.textContent=S.lastWeek.month+'월 누적';
 
-  // 금주 입력 내역 표
-  var card=document.getElementById('dashWeeklyCard');
-  var body=document.getElementById('dashWeeklyBody');
-  var sub=document.getElementById('dashWeeklySub');
-  if(!S.lastWeek||!S.weekly){if(card)card.style.display='none';return;}
-  var wkV=S.lastWeek.week;
-  var rows=[];
-  PD.forEach(function(d,i){
-    var wkKey='wk_'+i+'_'+yr+'_'+wkV;
-    var wkAmt=(S.weekly&&S.weekly[wkKey])?S.weekly[wkKey]:0;
-    if(wkAmt>0){
-      var moKey='mo_'+i+'_'+yr+'_'+mon;
-      var moAmt=(S.monthly&&S.monthly[moKey])?S.monthly[moKey]:0;
-      rows.push({d:d,wk:wkAmt,mo:moAmt});
-    }
-  });
-  if(!rows.length){if(card)card.style.display='none';return;}
-  if(card)card.style.display='';
-  if(sub)sub.textContent=S.lastWeek.label+' · 입력된 '+rows.length+'개 계열사';
-  var h='';
-  rows.forEach(function(r){
-    var d=r.d;
-    var pct=d.r!==null?(d.r*100).toFixed(1)+'%':'-';
-    var bc=d.r===null?'':d.r>=.5?'pbg':d.r>=.3?'pba':'pbr';
-    var pc=d.r===null?'var(--t4)':d.r>=.5?'var(--gn)':d.r>=.3?'#B7791F':'var(--rd)';
-    var bp=d.r!==null?Math.min(d.r*100,100):0;
-    h+='<tr>';
-    h+='<td style="font-weight:700">'+d.n+'</td>';
-    h+='<td class="tdr num" style="background:#FFFDF0;font-weight:700;color:#7A5C00">+'+r.wk.toLocaleString()+'</td>';
-    h+='<td class="tdr num" style="background:#F5F9FF;color:#1E40AF">'+(r.mo>0?r.mo.toLocaleString():'-')+'</td>';
-    h+='<td class="tdr num" style="background:#F5FFF8;font-weight:700;color:var(--gn)">'+d.a.toLocaleString()+'</td>';
-    h+='<td class="tdr num">'+(d.g>0?d.g.toLocaleString():'-')+'</td>';
-    h+='<td><div class="pbw"><div class="pbt"><div class="pbf '+bc+'" style="width:'+bp+'%"></div></div><span class="ppp" style="color:'+pc+'">'+pct+'</span></div></td>';
-    h+='</tr>';
-  });
-  // 합계행
-  var tWk=rows.reduce(function(s,r){return s+r.wk;},0);
-  var tMo=rows.reduce(function(s,r){return s+r.mo;},0);
-  h+='<tr class="str"><td>금주 입력 합계</td><td class="tdr num" style="color:#7A5C00">+'+tWk.toLocaleString()+'</td><td class="tdr num" style="color:#1E40AF">'+tMo.toLocaleString()+'</td><td colspan="3"></td></tr>';
-  if(body)body.innerHTML=h;
 }
 
 
