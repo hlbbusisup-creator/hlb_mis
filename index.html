@@ -536,6 +536,24 @@ tbody tr.row-flash td:first-child{ box-shadow:inset 3px 0 0 var(--cp); }
   .tslbl{font-size:11px;margin:14px 0 7px;}
   /* 자료실 카드도 같은 이유로 2열 */
   .libgrid{grid-template-columns:repeat(2,1fr)!important;}
+  /* 실적 표는 8열이라 폰 폭에 절대 안 들어간다. 가로 스크롤로 두면
+     경영진이 오른쪽 끝(달성률)을 못 본 채 지나친다.
+     폰에서는 판단에 쓰는 4열만 남긴다 — 계열사 · 영업이익 · 누계 · 달성률.
+     전체 열은 PC에서 본다. */
+  .mtab th:nth-child(2), .mtab td:nth-child(2),   /* 25년 실적 */
+  .mtab th:nth-child(3), .mtab td:nth-child(3),   /* 26년 목표 */
+  .mtab th:nth-child(4), .mtab td:nth-child(4),   /* 누계 확정 */
+  .mtab th:nth-child(7), .mtab td:nth-child(7),   /* 금주 실적 */
+  .mtab th:nth-child(9), .mtab td:nth-child(9){   /* 수정 버튼 */
+    display:none;
+  }
+  .mtab tr.ghdr td{display:table-cell!important;}   /* 그룹 헤더는 colspan 이라 예외 */
+  .mtab{min-width:0!important;width:100%!important;}
+  .mtab th,.mtab td{padding:8px 6px!important;font-size:11.5px!important;}
+  .mtab th[style*="min-width"]{min-width:0!important;}
+  .mtab .pbw{min-width:0!important;}
+  .mtab .pbt{display:none;}                        /* 좁아서 막대는 빼고 %만 */
+  .mtab .ppp{font-size:11.5px!important;min-width:0!important;}
   /* 계열사 현황 타일 — 최소폭 168px 이라 폰에서 1열로 떨어졌다 */
   .cg-grid{grid-template-columns:repeat(2,1fr)!important;gap:7px!important;}
   .cg{padding:9px 10px!important;}
@@ -854,7 +872,7 @@ tbody tr.row-flash td:first-child{ box-shadow:inset 3px 0 0 var(--cp); }
       </div>
       <div class="card">
         <div class="chdr"><div><div class="ctit">전체 계열사 경영실적</div><div class="csub" id="perfWeekSub">누계 기준 · 단위: 백만원</div></div><div style="display:flex;gap:8px"><button class="btn btnsm" style="background:#4A5568;color:#fff;border:none" onclick="printPerf()">🖨️ 인쇄</button><button class="btn btng btnsm" onclick="showP('performance',null)">상세 보기 →</button></div></div>
-        <div class="tw"><table><thead><tr><th>계열사</th><th class="tdr">25년 실적</th><th class="tdr">26년 목표</th><th class="tdr" id="thCumFixD" style="min-width:104px;background:#EBF4FF;color:#1A4A9C">누계 확정 (6월)</th><th class="tdr" id="thOpHD" style="min-width:110px;background:#EBF4FF;color:#1A4A9C">영업이익 (6월)</th><th class="tdr" id="thCumEstD" style="min-width:104px;background:#FFFAEB;color:#7A5C00">누계 (현시점)</th><th class="tdr">금주 실적</th><th style="min-width:180px">달성률</th></tr></thead><tbody id="dashPerf"></tbody></table></div>
+        <div class="tw"><table class="mtab"><thead><tr><th>계열사</th><th class="tdr">25년 실적</th><th class="tdr">26년 목표</th><th class="tdr" id="thCumFixD" style="min-width:104px;background:#EBF4FF;color:#1A4A9C">누계 확정 (6월)</th><th class="tdr" id="thOpHD" style="min-width:110px;background:#EBF4FF;color:#1A4A9C">영업이익 (6월)</th><th class="tdr" id="thCumEstD" style="min-width:104px;background:#FFFAEB;color:#7A5C00">누계 (현시점)</th><th class="tdr">금주 실적</th><th style="min-width:180px">달성률</th></tr></thead><tbody id="dashPerf"></tbody></table></div>
       </div>
 
       <!-- 주간 뉴스 -->
@@ -938,7 +956,7 @@ tbody tr.row-flash td:first-child{ box-shadow:inset 3px 0 0 var(--cp); }
         <div class="itab" id="catTabCore" onclick="swIT(this,'perf','core')">핵심기업 (6)</div>
         <div class="itab" id="catTabVenture" onclick="swIT(this,'perf','venture')">벤처기업 (13)</div>
       </div>
-      <div class="card"><div class="tw"><table><thead><tr><th>계열사</th><th class="tdr">25년 실적</th><th class="tdr">26년 목표</th><th class="tdr" id="thCumFixP" style="min-width:104px;background:#EBF4FF;color:#1A4A9C">누계 확정 (6월)</th><th class="tdr" id="thOpHP" style="min-width:110px;background:#EBF4FF;color:#1A4A9C">영업이익 (6월)</th><th class="tdr" id="thCumEstP" style="min-width:104px;background:#FFFAEB;color:#7A5C00">누계 (현시점)</th><th class="tdr">금주 실적</th><th style="min-width:190px">목표 달성률</th><th></th></tr></thead><tbody id="perfBody"></tbody></table></div></div>
+      <div class="card"><div class="tw"><table class="mtab"><thead><tr><th>계열사</th><th class="tdr">25년 실적</th><th class="tdr">26년 목표</th><th class="tdr" id="thCumFixP" style="min-width:104px;background:#EBF4FF;color:#1A4A9C">누계 확정 (6월)</th><th class="tdr" id="thOpHP" style="min-width:110px;background:#EBF4FF;color:#1A4A9C">영업이익 (6월)</th><th class="tdr" id="thCumEstP" style="min-width:104px;background:#FFFAEB;color:#7A5C00">누계 (현시점)</th><th class="tdr">금주 실적</th><th style="min-width:190px">목표 달성률</th><th></th></tr></thead><tbody id="perfBody"></tbody></table></div></div>
     </div>
 
     <!-- MONTHLY (경영기획팀 월간 확정실적) -->
