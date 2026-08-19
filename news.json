@@ -29,18 +29,18 @@
       "query": "HLB FDA"
     },
     {
-      "title": "HLB제약, ‘나티아 제주말차’ 롯데홈쇼핑 론칭…첫 방송서 ‘완판’ - 더바이오",
-      "link": "https://news.google.com/rss/articles/CBMibEFVX3lxTE1CWWk4enFFLTRjWFpraW51ZENVSlF3TVJWellrbjUxUkVhR3B4NmJzYTlZLWctSkhMOWhhNHBnYmtORHFTMjl1TW5ua0NaekJyX0hmYm1XRHRWQmNxajc5bDNWN0xWUldIaHRtadIBcEFVX3lxTE5HTFRLaHRtUmtGN3dNU004dldiUTFKY25pSjdIdGs1QW9kMURIVTJhdEpzME9mUFVzVjdTRW5xN25RRnZNMEhuMzExWFFPVm5TX0hicjlqRDJOWTV3eTI2aGF0NnlNV1RUT3pEZkxBSm8?oc=5",
-      "source": "더바이오",
-      "pubDate": "2026-08-18T00:34:51+00:00",
-      "query": "HLB제약"
-    },
-    {
       "title": "HLB이노베이션, AI 반도체 수요 확대 \"컨택핀·리드프레임 성장\" - 뉴스핌",
       "link": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE82S1gzLVkyYXBwZDhMOXdKTGZzU1ZfOFkxQ3hyeUVIMHdYOWlnOTAwTXdHVU4wczJpV3VITTJQckdxWGhpX2VfS29sYVhJTEppVUtQYU0zUTdCNmRr?oc=5",
       "source": "뉴스핌",
       "pubDate": "2026-08-18T00:30:00+00:00",
       "query": "HLB이노베이션"
+    },
+    {
+      "title": "HLB제약, '나티아 제주말차' 홈쇼핑 첫 방송서 완판 - asiae.co.kr",
+      "link": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE13ZlV0ckJxVHJNWVBEZlJHS25CczBlcDJ5cHBrMXBWT0p5azNZS3VWS1c1b3dOMmdzQjFnLVd6MVFPdWxPU3dIS0I2MWJOckhUVzhhZjNPVndxS2xUemRYcg?oc=5",
+      "source": "asiae.co.kr",
+      "pubDate": "2026-08-18T00:23:25+00:00",
+      "query": "HLB제약"
     },
     {
       "title": "HLB 간암 신약, 세 번째 FDA 문턱에서 또 걸렸다 - 바이오북미디어",
@@ -57,9 +57,9 @@
       "query": "HLB제넥스"
     },
     {
-      "title": "HLB 엘레바, ‘리라푸그라티닙’ 암종불문 임상 2상 첫 환자 투약 - 쿠키뉴스",
+      "title": "HLB 엘레바, ‘리라푸그라티닙’ 암종불문 임상 2상 첫 환자 투약 - kukinews.com",
       "link": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE9aczlnRWZDMkNqWXM5SVVpRzdPaUxJaFlsX3o0TWdzSXZHRXplTzJqUWZROTMxcWc0WVVIbE43TmpKM1AyQmtkSTlsQllNTlEzYkhJNXhEbF9UZVRBVUpDaGt3TQ?oc=5",
-      "source": "쿠키뉴스",
+      "source": "kukinews.com",
       "pubDate": "2026-08-17T02:35:30+00:00",
       "query": "HLB 임상"
     },
@@ -92,6 +92,6 @@
       "query": "HLB 임상"
     }
   ],
-  "fetchedAt": "2026-08-19T12:13:41.701550+00:00",
+  "fetchedAt": "2026-08-19T13:24:49.340340+00:00",
   "count": 13
 }
