@@ -1,10 +1,17 @@
 {
   "news": [
     {
-      "title": "HLB바이오스텝, '한·일 비임상시험 사업 협력' 업무협약 - v.daum.net",
-      "link": "https://news.google.com/rss/articles/CBMiT0FVX3lxTFA3RVVnSEFQaWtmVko2Tkpjbl9INUpaUUhzMEhFcm5RY3VKckJHVmlIWXVCSUw3SmxuSHhoQ0V1WFhmYXVTN0dmcThYLTQtWlk?oc=5",
-      "source": "v.daum.net",
-      "pubDate": "2026-08-19T23:10:41+00:00",
+      "title": "HLB바이오스텝, 韓·日 비임상시험 협력 MOU 체결 - 뉴스핌",
+      "link": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE45TnZUc1h1SE9GY3V4WUJmNWZvTTRuRjZ3X0RhMVZqS0Z2cVFFVHlmNkRyNnEwYkpKLUFncTluVzgzdGN5Q2g2akRMQ0Q0NWFBeGtMM2JqOVNxVDJU?oc=5",
+      "source": "뉴스핌",
+      "pubDate": "2026-08-19T23:43:00+00:00",
+      "query": "HLB 임상"
+    },
+    {
+      "title": "HLB바이오스텝, 일본 CMIC와 손잡고 영장류 GLP 해외시험 시장 공략 - PRESS9",
+      "link": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE5PUlJiMlItb1pVZjlMM2pxT2pUNHVVYWZjVncwZVdzMmtoRENwT3NUMFBaSnR3Y2NxMml6WXlPNGJJUXhXUXVRUnFLR1doeHE4MjlIYmJhWHREYmIycnRZZEc0Q0s?oc=5",
+      "source": "PRESS9",
+      "pubDate": "2026-08-19T23:33:16+00:00",
       "query": "HLB 임상"
     },
     {
@@ -71,9 +78,9 @@
       "query": "HLB 임상"
     },
     {
-      "title": "HLB제약, 상반기 매출 1279억원…역대 최대 반기 실적 달성 - medigatenews.com",
+      "title": "HLB제약, 상반기 매출 1279억원…역대 최대 반기 실적 달성 - MEDI:GATE NEWS",
       "link": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE5LYUxfQlFzX0VWMFJkV0w4bEh6c0t1QXRoZjhIVUZpaTFzaWhXX25hNGJFaTN6U3FocTAwTkY5aVRIS1VLVzBNVEdqQXZ4eWlEeG1UNg?oc=5",
-      "source": "medigatenews.com",
+      "source": "MEDI:GATE NEWS",
       "pubDate": "2026-08-14T13:38:00+00:00",
       "query": "HLB제약"
     },
@@ -90,15 +97,8 @@
       "source": "v.daum.net",
       "pubDate": "2026-08-14T04:31:50+00:00",
       "query": "HLB펩"
-    },
-    {
-      "title": "HLB이노베이션, 상반기 매출 199억원…“子 베리스모 CAR-T 임상 순항” - 더바이오",
-      "link": "https://news.google.com/rss/articles/CBMibEFVX3lxTE5fTXBwT25DUlA5anRGRS1iRklsLWFDX05lVENiekRjbXI3TWZlVER1cXVKZUVDTkk0UE1CRk96bkQ2U2pKZy1FcVE0dnllYUtQS01DRElaNUVJU2Zfb1FyWkw4aTBqd2pwbE0zRtIBcEFVX3lxTE1ZMjJtV21wenJPODZmdl9VcEx1Qlp1M2ktdWNWWV9BYjRlVEdldmpkRjVlLVM5SXBpakZmSnJqU1AybVdES3U1MUR0Ujc1b2g3VTRkTWg0eVNyOTl6dGRmX25UV3l2cEdrRHN5VTk1SUM?oc=5",
-      "source": "더바이오",
-      "pubDate": "2026-08-13T07:49:59+00:00",
-      "query": "HLB 임상"
     }
   ],
-  "fetchedAt": "2026-08-19T23:33:55.425196+00:00",
+  "fetchedAt": "2026-08-20T00:01:58.891744+00:00",
   "count": 14
 }
