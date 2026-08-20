@@ -1,6 +1,13 @@
 {
   "news": [
     {
+      "title": "진양곤 HLB그룹 의장, HLB펩 2만2000주 장내 매수 - IT타임스",
+      "link": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE53WXZsdFl3dnFTM2F4cXh4QkdOSnNocHJMYVpJQ2Q4M21TVmgzcjFYR0JpNlhEVmdURWtnbGFHQXVuOTdoT1MzendZOFJxZ1BWeGxRSHZLSXVIQmlnMG12eEx1TGZnNGY4?oc=5",
+      "source": "IT타임스",
+      "pubDate": "2026-08-20T13:56:43+00:00",
+      "query": "HLB 신약"
+    },
+    {
       "title": "HLB바이오스텝, 한·일 영장류 GLP 임상 네트워크 확대 - 데일리팜",
       "link": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE1wNHJBMUg0MUVHWTJBQWFUUXU1Sk0tS0tPZms1cFFkbWt1WWhrc0s1Uk1uUVlQTXVPZUU2LUhNeFZLa1hGTTl3Q3ZKbXlBQnotU3JiQ2lB?oc=5",
       "source": "데일리팜",
@@ -13,13 +20,6 @@
       "source": "팍스경제TV",
       "pubDate": "2026-08-20T07:46:07+00:00",
       "query": "HLB 임상"
-    },
-    {
-      "title": "진양곤 의장, HLB펩 주식 2.2만주 장내 매수 - 중소기업신문",
-      "link": "https://news.google.com/rss/articles/CBMibkFVX3lxTE10a0xoQjBRdzdnUDdPbDlOZ3pXcWZSbU9mZ0FIbHVQREVFQTVtdVRfNk90cU51U25PNEVqOUNKcUEtWHlzRHhzVFRCV3JManRkN09LSmJrNGl6Zkhsd3BXYi03Mi1TSzJCc0J4cjRR?oc=5",
-      "source": "중소기업신문",
-      "pubDate": "2026-08-20T06:12:24+00:00",
-      "query": "HLB펩"
     },
     {
       "title": "HLB 이번엔 FDA 넘을까⋯담관암 치료제 허가 갈림길 - v.daum.net",
@@ -72,7 +72,7 @@
     },
     {
       "title": "첫 AOC 신약 허가 경쟁...HLB파나진 등 국내 기업들도 개발 속도 - PRESS9",
-      "link": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE52b3BDS1R2VEx3aXdEZGRVbHV0RHYxTFVuTVEybGpzVzZGT0hHU3kzNnl6ekJnMndSaUQ4YkNCNTBtVUZXbmtGcGtUREZfWFBySVRuU0pTR3B2QlFuT1NteDJDNnc?oc=5",
+      "link": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE1pSWtYZ3R3YlBZdG83dV85cnFZelZKVHp4ZGVwWGVZeHJLLXg2M29WUG14akFUWEZYWGo4cjJhYkNsTDk4eExWcFEzR1FYUl91YmZ2YVBvOVJLVWRhTlZaN0RVT3VJZw?oc=5",
       "source": "PRESS9",
       "pubDate": "2026-08-18T03:20:03+00:00",
       "query": "HLB파나진"
@@ -103,7 +103,7 @@
       "link": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE10WW52Y1JjM2t3X0pvelluay1hSTVURXFkNnF6N1JoQ3l3czktd2FjSVdFbEsySzNoRkpZWlNZSzBWbi0tQ0p4VklHT1dWUUo2aWJnXw?oc=5",
       "source": "바이오북미디어",
       "pubDate": "2026-08-18T00:13:44+00:00",
-      "query": "HLB 신약"
+      "query": "HLB FDA"
     },
     {
       "title": "HLB제넥스, 200억 규모 CB 만기 전 취득 결정 : 네이버 블로그 - Naver Blog",
@@ -118,8 +118,15 @@
       "source": "MEDI:GATE NEWS",
       "pubDate": "2026-08-14T13:38:00+00:00",
       "query": "HLB제약"
+    },
+    {
+      "title": "HLB이노베이션, ‘반도체 사업’ 성장세 지속…‘CAR-T’ 임상 개발도 순항 - 더바이오",
+      "link": "https://news.google.com/rss/articles/CBMibEFVX3lxTE5aMmtUWVR0ZEtJV2tpa1VJVW9UTE16U1FmeWVXNWw3T0cxZ1k2eTd4M1FwYkxVT3hudFNDb2V2ZTZsbUd2bTNKZERxbWRhcU9pandhSHZrdkZSOFhVVFpvRFVNWkpsVE9MNEE3TNIBcEFVX3lxTE1QMl9yVy1PZl9fWEZRQWlZeWd1ZjdUWi1faU5FdVZXT19RREh5M2pZS0FBa2xtM2RzZ2hsZUpQSHQwZ0NDNE8xUzNmckhNSThoTm9vSmpfanpBeHIxRWpXeWVEeTM3Y0pGSEE1bFRvOGU?oc=5",
+      "source": "더바이오",
+      "pubDate": "2026-08-14T01:35:28+00:00",
+      "query": "HLB이노베이션"
     }
   ],
-  "fetchedAt": "2026-08-20T13:26:57.033233+00:00",
-  "count": 17
+  "fetchedAt": "2026-08-20T14:10:20.070015+00:00",
+  "count": 18
 }
