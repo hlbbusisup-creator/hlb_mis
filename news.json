@@ -1,6 +1,13 @@
 {
   "news": [
     {
+      "title": "[속보] HLB테라퓨틱스, 17·18회 CB 상환·유증 납입 31일로 변경 - CBC뉴스",
+      "link": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE1QNm9mZDh2cnBmdXZhN2NPRmtHZTRzLXp6eVRsd183Z0JnLVFBblNOWG1RWGdwNm56RVFCbVNkYllRVnNNYWdrLWJjVWpqemFJSGxJRW9FV1JCa0tWQUFlQnA1bXF1TmlW?oc=5",
+      "source": "CBC뉴스",
+      "pubDate": "2026-08-20T23:10:18+00:00",
+      "query": "HLB테라퓨틱스"
+    },
+    {
       "title": "진양곤 HLB그룹 의장, HLB펩 2만2000주 장내 매수 - IT타임스",
       "link": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE53WXZsdFl3dnFTM2F4cXh4QkdOSnNocHJMYVpJQ2Q4M21TVmgzcjFYR0JpNlhEVmdURWtnbGFHQXVuOTdoT1MzendZOFJxZ1BWeGxRSHZLSXVIQmlnMG12eEx1TGZnNGY4?oc=5",
       "source": "IT타임스",
@@ -57,13 +64,6 @@
       "query": "HLB생명과학"
     },
     {
-      "title": "[실적속보]HLB테라퓨틱스, 올해 2Q 매출액 126억(-20%) 영업이익 -47.3억(적자지속) (연결) - 씽크풀 AI",
-      "link": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE00UnlBUG93TGQ2Z3pHaW1rZ2lMcUdEV2g4M01ERXlLN1FKcFlkX05ieGQ1QmpUWHJmdVNySVUtX19adjI3Qnd3c0gyVmFBYkRrbENmVWc0MlVjQjVOMlVyeFVkWjBCZmI4?oc=5",
-      "source": "씽크풀 AI",
-      "pubDate": "2026-08-19T11:56:55+00:00",
-      "query": "HLB테라퓨틱스"
-    },
-    {
       "title": "HLB생명과학,주사기 제조업무 정지 처분 - 약업신문",
       "link": "https://news.google.com/rss/articles/CBMi4AFBVV95cUxPbXlEQ0hyNmZRVFctWkhnVnVIRlp5Y0tuRWxnM3prbTZaTk9LWHZ6bUwyenh4TjRkMTBHLU0tUUVqWGRmd1d5MTM0WEtEVmY0VE83SnBDN0gwYnB5bzZjZmxsc09Bd2h2WDVNeWJzOWFLMEEzWUZINGk3LTRFSmcxYWdNeG9JUFFKaFJrWDUxaHlNbXJHYXBnNkhKSWFlVTVmYnNVeERYQzhUQUhIeWdHRkVHczRRREZLMFpqZHVtQzFoSEtFc09PaDlLRUJhajhVLTNfN0p4TVhfRHlyMUZNdw?oc=5",
       "source": "약업신문",
@@ -111,15 +111,8 @@
       "source": "Naver Blog",
       "pubDate": "2026-08-17T22:31:27+00:00",
       "query": "HLB제넥스"
-    },
-    {
-      "title": "HLB제약, 상반기 매출 1279억원…역대 최대 반기 실적 달성 - MEDI:GATE NEWS",
-      "link": "https://news.google.com/rss/articles/CBMiV0FVX3lxTE5laVp6OUJkV2llZnJWNGpNbWVXb0R2MVJRNnpNSU1DTGV0dy1EeHB5Rm1zVDBFRVBWU1c1WDh3bE1UNTd1MVZOSjd3QmU0ZHVKUEZIR3FJSQ?oc=5",
-      "source": "MEDI:GATE NEWS",
-      "pubDate": "2026-08-14T13:38:00+00:00",
-      "query": "HLB제약"
     }
   ],
-  "fetchedAt": "2026-08-20T23:10:48.340473+00:00",
-  "count": 17
+  "fetchedAt": "2026-08-20T23:50:16.597193+00:00",
+  "count": 16
 }
