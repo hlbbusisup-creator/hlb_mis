@@ -1,17 +1,24 @@
 {
   "news": [
     {
-      "title": "HLB바이오스텝, 한·일 비임상시험 협력...글로벌 사업 확대 - paxetv.com",
+      "title": "HLB바이오스텝, 한·일 영장류 GLP 임상 네트워크 확대 - 데일리팜",
+      "link": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE1wNHJBMUg0MUVHWTJBQWFUUXU1Sk0tS0tPZms1cFFkbWt1WWhrc0s1Uk1uUVlQTXVPZUU2LUhNeFZLa1hGTTl3Q3ZKbXlBQnotU3JiQ2lB?oc=5",
+      "source": "데일리팜",
+      "pubDate": "2026-08-20T09:25:12+00:00",
+      "query": "HLB 임상"
+    },
+    {
+      "title": "HLB바이오스텝, 한·일 비임상시험 협력...글로벌 사업 확대 - 팍스경제TV",
       "link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE0xUEdDUlZNM3NBMVJhZmVEZWZhRFpwbEszSEJLelM2dktyRFVQbm9LVEJ3TnU1TWpJMEhJamJtMDRxZk5lZXlqUE8yd3A2RVBPQWFuai1GcURHQVZ4ZGlENHVoTmJLU1U?oc=5",
-      "source": "paxetv.com",
+      "source": "팍스경제TV",
       "pubDate": "2026-08-20T07:46:07+00:00",
       "query": "HLB 임상"
     },
     {
-      "title": "HLB그룹 회장 진양곤, HLB펩 주식 2만2천 주 1억어치 장내 매수 - 비즈니스포스트",
-      "link": "https://news.google.com/rss/articles/CBMic0FVX3lxTE1Md2hUSlloZ0p4MWlhVV9QZWctUUlZUUFHYzE0Smt4Y3RyNXNyLU1fdE00ODhKc0owdzNudnF2NUpvODVuWnRhNWNrX3lyZjhFRjl2UEl1WWRpSXNUR3AyamYxYWV2Rm5QSTBXZU1qX2VwVms?oc=5",
-      "source": "비즈니스포스트",
-      "pubDate": "2026-08-20T06:06:12+00:00",
+      "title": "진양곤 의장, HLB펩 주식 2.2만주 장내 매수 - 중소기업신문",
+      "link": "https://news.google.com/rss/articles/CBMibkFVX3lxTE10a0xoQjBRdzdnUDdPbDlOZ3pXcWZSbU9mZ0FIbHVQREVFQTVtdVRfNk90cU51U25PNEVqOUNKcUEtWHlzRHhzVFRCV3JManRkN09LSmJrNGl6Zkhsd3BXYi03Mi1TSzJCc0J4cjRR?oc=5",
+      "source": "중소기업신문",
+      "pubDate": "2026-08-20T06:12:24+00:00",
       "query": "HLB펩"
     },
     {
@@ -61,7 +68,7 @@
       "link": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE52b3BDS1R2VEx3aXdEZGRVbHV0RHYxTFVuTVEybGpzVzZGT0hHU3kzNnl6ekJnMndSaUQ4YkNCNTBtVUZXbmtGcGtUREZfWFBySVRuU0pTR3B2QlFuT1NteDJDNnc?oc=5",
       "source": "PRESS9",
       "pubDate": "2026-08-18T03:20:03+00:00",
-      "query": "HLB 허가"
+      "query": "HLB파나진"
     },
     {
       "title": "오너 지배력 확대-일반 주주 지분 희석 … HLB그룹, 3번째 FDA 허가 불발의 역설 - 뉴데일리",
@@ -106,6 +113,6 @@
       "query": "HLB제약"
     }
   ],
-  "fetchedAt": "2026-08-20T08:55:02.098999+00:00",
-  "count": 15
+  "fetchedAt": "2026-08-20T09:47:10.418020+00:00",
+  "count": 16
 }
