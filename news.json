@@ -15,10 +15,10 @@
       "query": "HLB 임상"
     },
     {
-      "title": "HLB펩, 진양곤 의장 2만2000주 장내 매수 - 아시아경제",
-      "link": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE5vTEdLY2pXdWQzNzBFTzduYUU5eXE1OGF1dGJJdmZhQ3lJNTluNlVwTVpmRTJkcm9JNUNDa2k5QUZkN2plVDNOWTJRc2NDcS1IcENMN1R0WXhkWmFBQnBvVg?oc=5",
-      "source": "아시아경제",
-      "pubDate": "2026-08-20T06:06:24+00:00",
+      "title": "진양곤 의장, HLB펩 주식 2.2만주 장내 매수 - 중소기업신문",
+      "link": "https://news.google.com/rss/articles/CBMibkFVX3lxTE10a0xoQjBRdzdnUDdPbDlOZ3pXcWZSbU9mZ0FIbHVQREVFQTVtdVRfNk90cU51U25PNEVqOUNKcUEtWHlzRHhzVFRCV3JManRkN09LSmJrNGl6Zkhsd3BXYi03Mi1TSzJCc0J4cjRR?oc=5",
+      "source": "중소기업신문",
+      "pubDate": "2026-08-20T06:12:24+00:00",
       "query": "HLB펩"
     },
     {
@@ -85,18 +85,18 @@
       "query": "HLB FDA"
     },
     {
+      "title": "HLB이노베이션, AI 반도체 수요 확대 \"컨택핀·리드프레임 성장\" - 네이트",
+      "link": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE9kZFBjMTNndzNrd3I0Rm9PZHpCMzd4d193TjF3Z2xJc0JsQWMxWjJoQmo1VTM5bEVQRDhaRnZfLVdrTkF3RnpEcURLei1EbzNTY1lXNEk0NGNaVUFhT3p3Sw?oc=5",
+      "source": "네이트",
+      "pubDate": "2026-08-18T00:36:00+00:00",
+      "query": "HLB이노베이션"
+    },
+    {
       "title": "HLB제약, ‘나티아 제주말차’ 롯데홈쇼핑 론칭…첫 방송서 ‘완판’ - 더바이오",
       "link": "https://news.google.com/rss/articles/CBMibEFVX3lxTE1CWWk4enFFLTRjWFpraW51ZENVSlF3TVJWellrbjUxUkVhR3B4NmJzYTlZLWctSkhMOWhhNHBnYmtORHFTMjl1TW5ua0NaekJyX0hmYm1XRHRWQmNxajc5bDNWN0xWUldIaHRtadIBcEFVX3lxTE5HTFRLaHRtUmtGN3dNU004dldiUTFKY25pSjdIdGs1QW9kMURIVTJhdEpzME9mUFVzVjdTRW5xN25RRnZNMEhuMzExWFFPVm5TX0hicjlqRDJOWTV3eTI2aGF0NnlNV1RUT3pEZkxBSm8?oc=5",
       "source": "더바이오",
       "pubDate": "2026-08-18T00:34:51+00:00",
       "query": "HLB제약"
-    },
-    {
-      "title": "HLB이노베이션, AI 반도체 수요 확대 \"컨택핀·리드프레임 성장\" - 뉴스핌",
-      "link": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE82S1gzLVkyYXBwZDhMOXdKTGZzU1ZfOFkxQ3hyeUVIMHdYOWlnOTAwTXdHVU4wczJpV3VITTJQckdxWGhpX2VfS29sYVhJTEppVUtQYU0zUTdCNmRr?oc=5",
-      "source": "뉴스핌",
-      "pubDate": "2026-08-18T00:30:00+00:00",
-      "query": "HLB이노베이션"
     },
     {
       "title": "HLB 간암 신약, 세 번째 FDA 문턱에서 또 걸렸다 - 바이오북미디어",
@@ -120,6 +120,6 @@
       "query": "HLB제약"
     }
   ],
-  "fetchedAt": "2026-08-20T10:15:47.775443+00:00",
+  "fetchedAt": "2026-08-20T10:56:55.688772+00:00",
   "count": 17
 }
