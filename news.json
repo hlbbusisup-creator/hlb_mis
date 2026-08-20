@@ -1,5 +1,118 @@
 {
-  "news": [],
-  "fetchedAt": "2026-08-20T06:21:48.488362+00:00",
-  "count": 0
+  "news": [
+    {
+      "title": "HLB펩, 진양곤 의장 2만2000주 장내 매수 - 아시아경제",
+      "link": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE5vTEdLY2pXdWQzNzBFTzduYUU5eXE1OGF1dGJJdmZhQ3lJNTluNlVwTVpmRTJkcm9JNUNDa2k5QUZkN2plVDNOWTJRc2NDcS1IcENMN1R0WXhkWmFBQnBvVg?oc=5",
+      "source": "아시아경제",
+      "pubDate": "2026-08-20T06:06:24+00:00",
+      "query": "HLB펩"
+    },
+    {
+      "title": "HLB 이번엔 FDA 넘을까⋯담관암 치료제 허가 갈림길 - v.daum.net",
+      "link": "https://news.google.com/rss/articles/CBMiT0FVX3lxTFA1SFRyQmxOMmdoVnVTMjE4cTRBMFVSXzN5eXpjME9mN2xnQ2VVVFJEcGlCcVQ1QzlGRzdXU3RheTZTTi1udG02T0hIb2MyNFk?oc=5",
+      "source": "v.daum.net",
+      "pubDate": "2026-08-20T04:22:09+00:00",
+      "query": "HLB 신약"
+    },
+    {
+      "title": "[바이오 브리핑] 한독, HLB바이오스텝, 퓨처켐 - 신아일보",
+      "link": "https://news.google.com/rss/articles/CBMicEFVX3lxTFA3Q1JtMWh3Z2t0ZGhSQjRVUnN3cEh4X3FZSXhOZkdDQTY1ckFMWF9Va1VfZ3RrdVVXXzBQbzFnanUzNGhZTldJcW85cmpZb0JhQXFCRGd1NHNzOGRKc1Fjejg4UnA0NmJtQ19xalU0bHk?oc=5",
+      "source": "신아일보",
+      "pubDate": "2026-08-20T03:15:00+00:00",
+      "query": "HLB바이오스텝"
+    },
+    {
+      "title": "DMD 치료제 잇단 실패…HLB파나진, 'PNA-AOC'로 새 해법 도전 - news1.kr",
+      "link": "https://news.google.com/rss/articles/CBMiYEFVX3lxTFBjWGRNMzlpcHJiRGY3TktQY0N5ektITlBDemNyOVVIdWZyN1QySnRvdTRHeFh6UDhOOXB4LVNGb0xtSlV3UEV1WElXdlBlVHBpNlkxODAtSzJmeGVKdlRhLdIBZkFVX3lxTFBEaE5nZEZPRm9Fc1hIeWNmdE5sX05NbWdDYmNpeEt2cnI1ejdFcGRJQk1vY3JHYTFRaHZISlFRN2R5b0VkdjBFZ2pQTFZseE0xUjdUVXdtZVBfcE5MRk83b00tS2VUQQ?oc=5",
+      "source": "news1.kr",
+      "pubDate": "2026-08-20T02:11:24+00:00",
+      "query": "HLB 신약"
+    },
+    {
+      "title": "HLB바이오스텝, 日 시믹과 맞손…한일 비임상시장 공략 - news1.kr",
+      "link": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE9maHdtS2RKZk0wYzJmaHJWakNKc1ZXQlItY1VJRjlYclBMQ2Z0RHkxY3pRY1g3N1pfTnJuWXFOb3ZSSFdETEFDc0pWeTRDSXdMaVVXeGVIS2tkdU5WZ3BDY3lNVTZfUdIBZkFVX3lxTE9maHdtS2RKZk0wYzJmaHJWakNKc1ZXQlItY1VJRjlYclBMQ2Z0RHkxY3pRY1g3N1pfTnJuWXFOb3ZSSFdETEFDc0pWeTRDSXdMaVVXeGVIS2tkdU5WZ3BDY3lNVTZfUQ?oc=5",
+      "source": "news1.kr",
+      "pubDate": "2026-08-20T01:49:59+00:00",
+      "query": "HLB 임상"
+    },
+    {
+      "title": "HLB바이오스텝, 日 비임상시장 진출 확대…시믹·아비테라와 협력 - 서울경제",
+      "link": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE1yYjNOZXdmU2VRLVlOUXJlVkpON3lBbTBITDVFVHAtWTZnX3dOaUhlQzEwXzZsRnR6YzBkelFjLW5JTURsNDRRZVVWYloyR2ltbmc?oc=5",
+      "source": "서울경제",
+      "pubDate": "2026-08-20T01:10:57+00:00",
+      "query": "HLB 임상"
+    },
+    {
+      "title": "특징주, HLB생명과학-줄기세포 테마 상승세에 5.8% ↑ - 매일경제",
+      "link": "https://news.google.com/rss/articles/CBMiRkFVX3lxTE0tNGwwdVFuWC10bXozME81bTB3dFFQSkI2VVhoeXV2cGFUajdnankzdWxWMU1sS2hyVnZCVkR6eU93UlF4SkE?oc=5",
+      "source": "매일경제",
+      "pubDate": "2026-08-20T00:28:01+00:00",
+      "query": "HLB생명과학"
+    },
+    {
+      "title": "HLB바이오스텝, 韓·日 비임상시험 협력 MOU 체결 - 뉴스핌",
+      "link": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE45TnZUc1h1SE9GY3V4WUJmNWZvTTRuRjZ3X0RhMVZqS0Z2cVFFVHlmNkRyNnEwYkpKLUFncTluVzgzdGN5Q2g2akRMQ0Q0NWFBeGtMM2JqOVNxVDJU?oc=5",
+      "source": "뉴스핌",
+      "pubDate": "2026-08-19T23:43:00+00:00",
+      "query": "HLB 임상"
+    },
+    {
+      "title": "HLB생명과학,주사기 제조업무 정지 처분 - 약업신문",
+      "link": "https://news.google.com/rss/articles/CBMi4AFBVV95cUxPbXlEQ0hyNmZRVFctWkhnVnVIRlp5Y0tuRWxnM3prbTZaTk9LWHZ6bUwyenh4TjRkMTBHLU0tUUVqWGRmd1d5MTM0WEtEVmY0VE83SnBDN0gwYnB5bzZjZmxsc09Bd2h2WDVNeWJzOWFLMEEzWUZINGk3LTRFSmcxYWdNeG9JUFFKaFJrWDUxaHlNbXJHYXBnNkhKSWFlVTVmYnNVeERYQzhUQUhIeWdHRkVHczRRREZLMFpqZHVtQzFoSEtFc09PaDlLRUJhajhVLTNfN0p4TVhfRHlyMUZNdw?oc=5",
+      "source": "약업신문",
+      "pubDate": "2026-08-19T00:39:58+00:00",
+      "query": "HLB생명과학"
+    },
+    {
+      "title": "첫 AOC 신약 허가 경쟁...HLB파나진 등 국내 기업들도 개발 속도 - PRESS9",
+      "link": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE52b3BDS1R2VEx3aXdEZGRVbHV0RHYxTFVuTVEybGpzVzZGT0hHU3kzNnl6ekJnMndSaUQ4YkNCNTBtVUZXbmtGcGtUREZfWFBySVRuU0pTR3B2QlFuT1NteDJDNnc?oc=5",
+      "source": "PRESS9",
+      "pubDate": "2026-08-18T03:20:03+00:00",
+      "query": "HLB 허가"
+    },
+    {
+      "title": "오너 지배력 확대-일반 주주 지분 희석 … HLB그룹, 3번째 FDA 허가 불발의 역설 - 뉴데일리",
+      "link": "https://news.google.com/rss/articles/CBMie0FVX3lxTE50N2dJdWpBOWFMM2MzQVkwTzdaSzlHZFhibDBzNjkxc2J0V195XzRNWlF0R2JFbWhqX1ZyVTRmdU9tZmFFTjdtRUpMaXVWcTU4azZ2RTBnR0NKQm1vdjlmZEJPZGlCSWJqeXFTZ0VYSG9KYTJNWTdvbG1MNNIBgAFBVV95cUxOSmlJcEdmbmplMVhTXy1sNTVYZ2RiVkF6SWlQNnRQU2JIb1VqaDN1dlhfbkllUUxFSFNwZTNRRnVZN0dnZEd6bWkwZHNySkw1ZUlhTXpPTUdXYzlyQVNaVWhVMVJzVXdVd0FHQTlmaW5QU1ZUZkM4akJBcGMwaWotbg?oc=5",
+      "source": "뉴데일리",
+      "pubDate": "2026-08-18T00:58:06+00:00",
+      "query": "HLB FDA"
+    },
+    {
+      "title": "HLB이노베이션, AI 반도체 수요 확대 \"컨택핀·리드프레임 성장\" - 뉴스핌",
+      "link": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE82S1gzLVkyYXBwZDhMOXdKTGZzU1ZfOFkxQ3hyeUVIMHdYOWlnOTAwTXdHVU4wczJpV3VITTJQckdxWGhpX2VfS29sYVhJTEppVUtQYU0zUTdCNmRr?oc=5",
+      "source": "뉴스핌",
+      "pubDate": "2026-08-18T00:30:00+00:00",
+      "query": "HLB이노베이션"
+    },
+    {
+      "title": "HLB제약, '나티아 제주말차' 홈쇼핑 첫 방송서 완판 - 아시아경제",
+      "link": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE13ZlV0ckJxVHJNWVBEZlJHS25CczBlcDJ5cHBrMXBWT0p5azNZS3VWS1c1b3dOMmdzQjFnLVd6MVFPdWxPU3dIS0I2MWJOckhUVzhhZjNPVndxS2xUemRYcg?oc=5",
+      "source": "아시아경제",
+      "pubDate": "2026-08-18T00:23:25+00:00",
+      "query": "HLB제약"
+    },
+    {
+      "title": "HLB 간암 신약, 세 번째 FDA 문턱에서 또 걸렸다 - 바이오북미디어",
+      "link": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE10WW52Y1JjM2t3X0pvelluay1hSTVURXFkNnF6N1JoQ3l3czktd2FjSVdFbEsySzNoRkpZWlNZSzBWbi0tQ0p4VklHT1dWUUo2aWJnXw?oc=5",
+      "source": "바이오북미디어",
+      "pubDate": "2026-08-18T00:13:44+00:00",
+      "query": "HLB 신약"
+    },
+    {
+      "title": "HLB제넥스, 200억 규모 CB 만기 전 취득 결정 : 네이버 블로그 - Naver Blog",
+      "link": "https://news.google.com/rss/articles/CBMijwFBVV95cUxQOUlIb2dBcmVuYnJLSkFLdHdBUTI2THF4dWM5eG5RSlo3bXJxSVRCNXhEMUlOczZNT1hLVzFWU2xuVmYzREl0M1lwdVRXUzA4dFExQkJZU1Q3Y3l1Y1dGNGhEa0xKRFdWVllfS0VRajdvOGNtTjgwcURNdGYxdzFWNEZ0cTU1UVhiTUJ2MHRWUQ?oc=5",
+      "source": "Naver Blog",
+      "pubDate": "2026-08-17T22:31:27+00:00",
+      "query": "HLB제넥스"
+    },
+    {
+      "title": "HLB제약, 상반기 매출 1279억원…역대 최대 반기 실적 달성 - MEDI:GATE NEWS",
+      "link": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE5LYUxfQlFzX0VWMFJkV0w4bEh6c0t1QXRoZjhIVUZpaTFzaWhXX25hNGJFaTN6U3FocTAwTkY5aVRIS1VLVzBNVEdqQXZ4eWlEeG1UNg?oc=5",
+      "source": "MEDI:GATE NEWS",
+      "pubDate": "2026-08-14T13:38:00+00:00",
+      "query": "HLB제약"
+    }
+  ],
+  "fetchedAt": "2026-08-20T07:22:55.655924+00:00",
+  "count": 16
 }
