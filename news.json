@@ -64,6 +64,13 @@
       "query": "HLB생명과학"
     },
     {
+      "title": "[실적속보]HLB테라퓨틱스, 올해 2Q 매출액 126억(-20%) 영업이익 -47.3억(적자지속) (연결) - 씽크풀 AI",
+      "link": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE00UnlBUG93TGQ2Z3pHaW1rZ2lMcUdEV2g4M01ERXlLN1FKcFlkX05ieGQ1QmpUWHJmdVNySVUtX19adjI3Qnd3c0gyVmFBYkRrbENmVWc0MlVjQjVOMlVyeFVkWjBCZmI4?oc=5",
+      "source": "씽크풀 AI",
+      "pubDate": "2026-08-19T11:56:55+00:00",
+      "query": "HLB테라퓨틱스"
+    },
+    {
       "title": "HLB생명과학,주사기 제조업무 정지 처분 - 약업신문",
       "link": "https://news.google.com/rss/articles/CBMi4AFBVV95cUxPbXlEQ0hyNmZRVFctWkhnVnVIRlp5Y0tuRWxnM3prbTZaTk9LWHZ6bUwyenh4TjRkMTBHLU0tUUVqWGRmd1d5MTM0WEtEVmY0VE83SnBDN0gwYnB5bzZjZmxsc09Bd2h2WDVNeWJzOWFLMEEzWUZINGk3LTRFSmcxYWdNeG9JUFFKaFJrWDUxaHlNbXJHYXBnNkhKSWFlVTVmYnNVeERYQzhUQUhIeWdHRkVHczRRREZLMFpqZHVtQzFoSEtFc09PaDlLRUJhajhVLTNfN0p4TVhfRHlyMUZNdw?oc=5",
       "source": "약업신문",
@@ -75,7 +82,7 @@
       "link": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE1pSWtYZ3R3YlBZdG83dV85cnFZelZKVHp4ZGVwWGVZeHJLLXg2M29WUG14akFUWEZYWGo4cjJhYkNsTDk4eExWcFEzR1FYUl91YmZ2YVBvOVJLVWRhTlZaN0RVT3VJZw?oc=5",
       "source": "PRESS9",
       "pubDate": "2026-08-18T03:20:03+00:00",
-      "query": "HLB파나진"
+      "query": "HLB 신약"
     },
     {
       "title": "HLB제약, 홈쇼핑 첫 방송서 제주말차 완판 - 뉴스핌",
@@ -113,6 +120,6 @@
       "query": "HLB제넥스"
     }
   ],
-  "fetchedAt": "2026-08-21T03:13:16.760440+00:00",
-  "count": 16
+  "fetchedAt": "2026-08-21T04:09:08.429711+00:00",
+  "count": 17
 }
