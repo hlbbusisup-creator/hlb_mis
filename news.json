@@ -8,13 +8,6 @@
       "query": "HLB테라퓨틱스"
     },
     {
-      "title": "진양곤 HLB그룹 의장, HLB펩 2만2000주 장내 매수 - IT타임스",
-      "link": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE53WXZsdFl3dnFTM2F4cXh4QkdOSnNocHJMYVpJQ2Q4M21TVmgzcjFYR0JpNlhEVmdURWtnbGFHQXVuOTdoT1MzendZOFJxZ1BWeGxRSHZLSXVIQmlnMG12eEx1TGZnNGY4?oc=5",
-      "source": "IT타임스",
-      "pubDate": "2026-08-20T13:56:43+00:00",
-      "query": "HLB 신약"
-    },
-    {
       "title": "HLB바이오스텝, 한·일 영장류 GLP 임상 네트워크 확대 - 데일리팜",
       "link": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE1wNHJBMUg0MUVHWTJBQWFUUXU1Sk0tS0tPZms1cFFkbWt1WWhrc0s1Uk1uUVlQTXVPZUU2LUhNeFZLa1hGTTl3Q3ZKbXlBQnotU3JiQ2lB?oc=5",
       "source": "데일리팜",
@@ -27,6 +20,13 @@
       "source": "팍스경제TV",
       "pubDate": "2026-08-20T07:46:07+00:00",
       "query": "HLB 임상"
+    },
+    {
+      "title": "진양곤 HLB 의장, HLB펩 주식 2만 2천 주 장내 매수 - 지이코노미",
+      "link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE1Gc1lONlduOXpsMmQxdGtxZ2xuQy1CTUcwcjlFMnF3U1o3VDdva01YSlROU2s4NkFXQ0VrWlN1Wnc5U2dEVDJqOHppQ3JxbWVDQ0p6dDRKQlI1eUlzRXhZZXN4NW8xLTg?oc=5",
+      "source": "지이코노미",
+      "pubDate": "2026-08-20T07:02:38+00:00",
+      "query": "HLB펩"
     },
     {
       "title": "HLB 이번엔 FDA 넘을까⋯담관암 치료제 허가 갈림길 - v.daum.net",
@@ -113,6 +113,6 @@
       "query": "HLB제넥스"
     }
   ],
-  "fetchedAt": "2026-08-20T23:50:16.597193+00:00",
+  "fetchedAt": "2026-08-21T01:54:39.106681+00:00",
   "count": 16
 }
