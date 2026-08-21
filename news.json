@@ -9,7 +9,7 @@
     },
     {
       "title": "매출 줄고 적자 커진 HLB테라퓨틱스…RGN-259가 돌파구 될까 - 네이트",
-      "link": "https://news.google.com/rss/articles/CBMieEFVX3lxTE9ELTZ6UXhpMHhlbmZGZTFSN0lYU0h3VUR5SUJMUGgzSFE4Q3pSbndqR21teVZGT003WVBrSUxrMTE3NDdPZ3gyLU44ZWFJa0pEZXRfOV9kcmVCRjNZUEFZM0FFSkRXVlo4NGdxcTAwRzgxc2JfYkh3Sw?oc=5",
+      "link": "https://news.google.com/rss/articles/CBMiU0FVX3lxTFBTWlRxUGt5TFlOVGpwU1d4Tk10bHFIQkVzMDlyMEVDa0lwcUdJY3A2amFoLWRnWXY5V0Z1ZmdaUndDbjZDdmd1Y1Y4Z0N0YlRSdmEw?oc=5",
       "source": "네이트",
       "pubDate": "2026-08-21T06:57:00+00:00",
       "query": "HLB테라퓨틱스"
@@ -37,10 +37,10 @@
     },
     {
       "title": "HLB바이오스텝, 한·일 비임상시험 협력...글로벌 사업 확대 - 팍스경제TV",
-      "link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE0xUEdDUlZNM3NBMVJhZmVEZWZhRFpwbEszSEJLelM2dktyRFVQbm9LVEJ3TnU1TWpJMEhJamJtMDRxZk5lZXlqUE8yd3A2RVBPQWFuai1GcURHQVZ4ZGlENHVoTmJLU1U?oc=5",
+      "link": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE8yOTNJU2FHQTZIX3o3Y2pob3htZmdNLW5RSFBHV0JfcEdiNlpjbmpDcGdpMzBsNU9CUzJsQWpDMldzOTFpYnJrM21iV2toeUJUZUJzZ0dzUW5peDh0VnBuUHVONS00Szgw?oc=5",
       "source": "팍스경제TV",
       "pubDate": "2026-08-20T07:46:07+00:00",
-      "query": "HLB바이오스텝"
+      "query": "HLB 임상"
     },
     {
       "title": "HLB그룹 회장 진양곤, HLB펩 주식 2만2천 주 1억어치 장내 매수 - 비즈니스포스트",
@@ -71,11 +71,18 @@
       "query": "HLB 임상"
     },
     {
-      "title": "특징주, HLB생명과학-줄기세포 테마 상승세에 5.8% ↑ - 매일경제",
-      "link": "https://news.google.com/rss/articles/CBMiRkFVX3lxTE0tNGwwdVFuWC10bXozME81bTB3dFFQSkI2VVhoeXV2cGFUajdnankzdWxWMU1sS2hyVnZCVkR6eU93UlF4SkE?oc=5",
-      "source": "매일경제",
-      "pubDate": "2026-08-20T00:28:01+00:00",
+      "title": "HLB생명과학(067630) - 씽크풀 AI",
+      "link": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE5BSVRBLUV4YjhkM3dWcThlQzM4aGt3bEpYOGI0ak5nQlZHV2RvQVh1SklRUFlsREpvX1pwTE9lMEs5RjdoaU9QbV8tSFNrUWNPT3MxckdSU2VtM1dYSG9WWA?oc=5",
+      "source": "씽크풀 AI",
+      "pubDate": "2026-08-20T00:27:00+00:00",
       "query": "HLB생명과학"
+    },
+    {
+      "title": "특징주, HLB파나진-유전자 치료제/분석 테마 상승세에 1.89% ↑ - 매일경제 마켓",
+      "link": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE1WZHlQdDlhZFY1T2Vhc3U0cHRFeVZRaXA0SHAydi1qNEwzWlFqX2ljVVRCS2JhMFlFNHJhX1VvVWZhWl9VWl9OSk9McUhCZndLd2c?oc=5",
+      "source": "매일경제 마켓",
+      "pubDate": "2026-08-20T00:26:42+00:00",
+      "query": "HLB파나진"
     },
     {
       "title": "HLB생명과학,주사기 제조업무 정지 처분 - 약업신문",
@@ -120,6 +127,6 @@
       "query": "HLB제넥스"
     }
   ],
-  "fetchedAt": "2026-08-21T21:36:10.655521+00:00",
-  "count": 17
+  "fetchedAt": "2026-08-21T22:02:10.191641+00:00",
+  "count": 18
 }
