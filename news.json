@@ -51,7 +51,7 @@
     },
     {
       "title": "HLB바이오스텝, 日 시믹과 맞손…한일 비임상시장 공략 - 뉴스1",
-      "link": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE9maHdtS2RKZk0wYzJmaHJWakNKc1ZXQlItY1VJRjlYclBMQ2Z0RHkxY3pRY1g3N1pfTnJuWXFOb3ZSSFdETEFDc0pWeTRDSXdMaVVXeGVIS2tkdU5WZ3BDY3lNVTZfUdIBZkFVX3lxTE9maHdtS2RKZk0wYzJmaHJWakNKc1ZXQlItY1VJRjlYclBMQ2Z0RHkxY3pRY1g3N1pfTnJuWXFOb3ZSSFdETEFDc0pWeTRDSXdMaVVXeGVIS2tkdU5WZ3BDY3lNVTZfUQ?oc=5",
+      "link": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE1WRzZRR3RQdnRzVmJmWThKdjl0NjhVQjkxOEhyQUp4TlFRcmphTFYxREVNbUdVQkdxWFdFT3FCdkpGcG9IajFMcHdyS3d5Z3kzUEJDY1JLMXBsbE5EWnBpNNIBZkFVX3lxTE9maHdtS2RKZk0wYzJmaHJWakNKc1ZXQlItY1VJRjlYclBMQ2Z0RHkxY3pRY1g3N1pfTnJuWXFOb3ZSSFdETEFDc0pWeTRDSXdMaVVXeGVIS2tkdU5WZ3BDY3lNVTZfUQ?oc=5",
       "source": "뉴스1",
       "pubDate": "2026-08-20T01:49:59+00:00",
       "query": "HLB 임상"
@@ -89,7 +89,7 @@
       "link": "https://news.google.com/rss/articles/CBMie0FVX3lxTE50N2dJdWpBOWFMM2MzQVkwTzdaSzlHZFhibDBzNjkxc2J0V195XzRNWlF0R2JFbWhqX1ZyVTRmdU9tZmFFTjdtRUpMaXVWcTU4azZ2RTBnR0NKQm1vdjlmZEJPZGlCSWJqeXFTZ0VYSG9KYTJNWTdvbG1MNNIBgAFBVV95cUxOSmlJcEdmbmplMVhTXy1sNTVYZ2RiVkF6SWlQNnRQU2JIb1VqaDN1dlhfbkllUUxFSFNwZTNRRnVZN0dnZEd6bWkwZHNySkw1ZUlhTXpPTUdXYzlyQVNaVWhVMVJzVXdVd0FHQTlmaW5QU1ZUZkM4akJBcGMwaWotbg?oc=5",
       "source": "뉴데일리",
       "pubDate": "2026-08-18T00:58:06+00:00",
-      "query": "HLB 허가"
+      "query": "HLB FDA"
     },
     {
       "title": "HLB이노베이션, AI 반도체 수요 확대 \"컨택핀·리드프레임 성장\" - 뉴스핌",
@@ -99,10 +99,10 @@
       "query": "HLB이노베이션"
     },
     {
-      "title": "HLB제약, '나티아 제주말차' 홈쇼핑 첫 방송서 완판 - 아시아경제",
-      "link": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE13ZlV0ckJxVHJNWVBEZlJHS25CczBlcDJ5cHBrMXBWT0p5azNZS3VWS1c1b3dOMmdzQjFnLVd6MVFPdWxPU3dIS0I2MWJOckhUVzhhZjNPVndxS2xUemRYcg?oc=5",
-      "source": "아시아경제",
-      "pubDate": "2026-08-18T00:23:25+00:00",
+      "title": "HLB제약 '제주말차' 홈쇼핑 첫 방송서 완판 - 뉴스1",
+      "link": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE1yWV9Fbk9jYWpqSHpsZ1JaUkdiTkJ6TU5samhTQWthRU1jdzhoWUVYM0Ztb0FpaWNtSzA1RU8xZE5rTkNMWm1FbUFaZnAybVVRb3gzQzlGSW43eVJXbllUa9IBZkFVX3lxTE9WdTBMOWFPOUluZTl1cGtVcWZ6a0RVV2Q5YkE0c2VLN1N3MmpranhNWUc4Rk4xLW1wb1ppbnpFX3E3R0MzS1loN0xOWS1ST0JvMkNkSk9HLW52VEs1RXF1SG5ReXQzdw?oc=5",
+      "source": "뉴스1",
+      "pubDate": "2026-08-17T23:28:46+00:00",
       "query": "HLB제약"
     },
     {
@@ -113,6 +113,6 @@
       "query": "HLB제넥스"
     }
   ],
-  "fetchedAt": "2026-08-22T06:56:39.479969+00:00",
+  "fetchedAt": "2026-08-22T07:41:17.729754+00:00",
   "count": 16
 }
