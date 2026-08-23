@@ -1,6 +1,13 @@
 {
   "news": [
     {
+      "title": "HLB, MSCI 8년 만에 퇴출…FDA 불발에 시총 2조 증발 - 네이트",
+      "link": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE1TZmVCejFRVjk5X1Z0dzk1c09XakNBclk5Qm0zWEtkWnlmT0pobGpGVUdDR3BOUGp5R2pTZ01maF9SdmZmVERuWWFPSVNaYklUdnFv?oc=5",
+      "source": "네이트",
+      "pubDate": "2026-08-23T06:30:00+00:00",
+      "query": "HLB FDA"
+    },
+    {
       "title": "HLB, '담관암 신약' 모멘텀 쥐고 글로벌 바이오그룹 판 짠다 - 메트로신문",
       "link": "https://news.google.com/rss/articles/CBMiYEFVX3lxTFBEOWg1ZDl4UUVxX0d5ckRxY0FjRzRWcG1tamJQSHl3aFZPNEtlRmN1VXo5RkdydHdJdHZVa01XR0xLY3VDRDBYYmJuWWp3aUhqSUllLU1oWjZWX0RvNS1ucQ?oc=5",
       "source": "메트로신문",
@@ -29,10 +36,10 @@
       "query": "HLB 임상"
     },
     {
-      "title": "HLB그룹 회장 진양곤, HLB펩 주식 2만2천 주 1억어치 장내 매수 - 비즈니스포스트",
-      "link": "https://news.google.com/rss/articles/CBMic0FVX3lxTE1Md2hUSlloZ0p4MWlhVV9QZWctUUlZUUFHYzE0Smt4Y3RyNXNyLU1fdE00ODhKc0owdzNudnF2NUpvODVuWnRhNWNrX3lyZjhFRjl2UEl1WWRpSXNUR3AyamYxYWV2Rm5QSTBXZU1qX2VwVms?oc=5",
-      "source": "비즈니스포스트",
-      "pubDate": "2026-08-20T06:06:12+00:00",
+      "title": "진양곤 의장, HLB펩 주식 2.2만주 장내 매수 - 중소기업신문",
+      "link": "https://news.google.com/rss/articles/CBMibkFVX3lxTE10a0xoQjBRdzdnUDdPbDlOZ3pXcWZSbU9mZ0FIbHVQREVFQTVtdVRfNk90cU51U25PNEVqOUNKcUEtWHlzRHhzVFRCV3JManRkN09LSmJrNGl6Zkhsd3BXYi03Mi1TSzJCc0J4cjRR?oc=5",
+      "source": "중소기업신문",
+      "pubDate": "2026-08-20T06:12:24+00:00",
       "query": "HLB펩"
     },
     {
@@ -106,13 +113,6 @@
       "query": "HLB제약"
     },
     {
-      "title": "HLB 간암 신약, 세 번째 FDA 문턱에서 또 걸렸다 - 바이오북미디어",
-      "link": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE10WW52Y1JjM2t3X0pvelluay1hSTVURXFkNnF6N1JoQ3l3czktd2FjSVdFbEsySzNoRkpZWlNZSzBWbi0tQ0p4VklHT1dWUUo2aWJnXw?oc=5",
-      "source": "바이오북미디어",
-      "pubDate": "2026-08-18T00:13:44+00:00",
-      "query": "HLB 신약"
-    },
-    {
       "title": "HLB제넥스, 200억 규모 CB 만기 전 취득 결정 : 네이버 블로그 - Naver Blog",
       "link": "https://news.google.com/rss/articles/CBMijwFBVV95cUxQOUlIb2dBcmVuYnJLSkFLdHdBUTI2THF4dWM5eG5RSlo3bXJxSVRCNXhEMUlOczZNT1hLVzFWU2xuVmYzREl0M1lwdVRXUzA4dFExQkJZU1Q3Y3l1Y1dGNGhEa0xKRFdWVllfS0VRajdvOGNtTjgwcURNdGYxdzFWNEZ0cTU1UVhiTUJ2MHRWUQ?oc=5",
       "source": "Naver Blog",
@@ -120,6 +120,6 @@
       "query": "HLB제넥스"
     }
   ],
-  "fetchedAt": "2026-08-23T06:15:28.419973+00:00",
+  "fetchedAt": "2026-08-23T07:10:16.750449+00:00",
   "count": 17
 }
