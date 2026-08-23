@@ -43,11 +43,18 @@
       "query": "HLB펩"
     },
     {
-      "title": "DMD 치료제 잇단 실패…HLB파나진, 'PNA-AOC'로 새 해법 도전 - v.daum.net",
-      "link": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE1uR3lfMFNRaHBZZ1RuLVBMQi1yUGRiekl2S25yS1N1XzJCbFBHR1dhTWpqUGN5dkNMSzRsOXRHMERhRk5sUllWRkhoaHllcmJ1SUJncg?oc=5",
-      "source": "v.daum.net",
-      "pubDate": "2026-08-20T02:12:50+00:00",
-      "query": "HLB파나진"
+      "title": "[바이오 브리핑] 한독, HLB바이오스텝, 퓨처켐 - 신아일보",
+      "link": "https://news.google.com/rss/articles/CBMicEFVX3lxTFA3Q1JtMWh3Z2t0ZGhSQjRVUnN3cEh4X3FZSXhOZkdDQTY1ckFMWF9Va1VfZ3RrdVVXXzBQbzFnanUzNGhZTldJcW85cmpZb0JhQXFCRGd1NHNzOGRKc1Fjejg4UnA0NmJtQ19xalU0bHk?oc=5",
+      "source": "신아일보",
+      "pubDate": "2026-08-20T03:15:00+00:00",
+      "query": "HLB바이오스텝"
+    },
+    {
+      "title": "DMD 치료제 잇단 실패…HLB파나진, 'PNA-AOC'로 새 해법 도전 - 뉴스1",
+      "link": "https://news.google.com/rss/articles/CBMiYEFVX3lxTFBjWGRNMzlpcHJiRGY3TktQY0N5ektITlBDemNyOVVIdWZyN1QySnRvdTRHeFh6UDhOOXB4LVNGb0xtSlV3UEV1WElXdlBlVHBpNlkxODAtSzJmeGVKdlRhLdIBZkFVX3lxTFBEaE5nZEZPRm9Fc1hIeWNmdE5sX05NbWdDYmNpeEt2cnI1ejdFcGRJQk1vY3JHYTFRaHZISlFRN2R5b0VkdjBFZ2pQTFZseE0xUjdUVXdtZVBfcE5MRk83b00tS2VUQQ?oc=5",
+      "source": "뉴스1",
+      "pubDate": "2026-08-20T02:11:24+00:00",
+      "query": "HLB 신약"
     },
     {
       "title": "HLB바이오스텝, 日 시믹과 맞손…한일 비임상시장 공략 - 뉴스1",
@@ -57,18 +64,11 @@
       "query": "HLB 임상"
     },
     {
-      "title": "HLB생명과학(067630) - 씽크풀 AI",
-      "link": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE5BSVRBLUV4YjhkM3dWcThlQzM4aGt3bEpYOGI0ak5nQlZHV2RvQVh1SklRUFlsREpvX1pwTE9lMEs5RjdoaU9QbV8tSFNrUWNPT3MxckdSU2VtM1dYSG9WWA?oc=5",
-      "source": "씽크풀 AI",
-      "pubDate": "2026-08-20T00:27:00+00:00",
-      "query": "HLB생명과학"
-    },
-    {
-      "title": "특징주, HLB파나진-유전자 치료제/분석 테마 상승세에 1.89% ↑ - 매일경제 마켓",
-      "link": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE1WZHlQdDlhZFY1T2Vhc3U0cHRFeVZRaXA0SHAydi1qNEwzWlFqX2ljVVRCS2JhMFlFNHJhX1VvVWZhWl9VWl9OSk9McUhCZndLd2c?oc=5",
+      "title": "특징주, HLB생명과학-줄기세포 테마 상승세에 5.8% ↑ - 매일경제 마켓",
+      "link": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE40NDktdUlmOUd4Z0xrc3JtMzJlUGdyZ2hxc3ZkYUZERkxvcEZuUVltTFV2WVB3RUw2NGpmZFJOcWZhLTlVTUZ6YUhJckJVYVNNTXc?oc=5",
       "source": "매일경제 마켓",
-      "pubDate": "2026-08-20T00:26:42+00:00",
-      "query": "HLB파나진"
+      "pubDate": "2026-08-20T00:27:43+00:00",
+      "query": "HLB생명과학"
     },
     {
       "title": "HLB생명과학,주사기 제조업무 정지 처분 - 약업신문",
@@ -106,6 +106,6 @@
       "query": "HLB제넥스"
     }
   ],
-  "fetchedAt": "2026-08-23T17:31:55.699624+00:00",
+  "fetchedAt": "2026-08-23T17:59:59.516100+00:00",
   "count": 15
 }
