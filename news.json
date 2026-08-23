@@ -2,9 +2,9 @@
   "news": [
     {
       "title": "HLB, MSCI 8년 만에 퇴출…FDA 불발에 시총 2조 증발 - 블로터",
-      "link": "https://news.google.com/rss/articles/CBMibEFVX3lxTFB6RkIydEVRTTFqT3FOZFpUQmgyN052WVg0ZUNndXJ6MmdzLXZqbWpFbnV0U203bmU4dFNhN2pfMnIxRVlySFZlYUVLdDVkcjZ3ZlFUSzdzRGNpVXFtSENPbzhnSWlTR1hnOFhHQtIBbEFVX3lxTFB6RkIydEVRTTFqT3FOZFpUQmgyN052WVg0ZUNndXJ6MmdzLXZqbWpFbnV0U203bmU4dFNhN2pfMnIxRVlySFZlYUVLdDVkcjZ3ZlFUSzdzRGNpVXFtSENPbzhnSWlTR1hnOFhHQg?oc=5",
+      "link": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE9ILUc0LURpVW42RzVzTnJCSjZabC12S3BPb1p4bnlkTE5fdFNZd0FSZ2FWdlFvOHdXS2FqYzhfYmZfZ2FKeVR0OXhrMTJwdVpnZ3pSVGU3M1ZGZXVBSTd0TTVpaGhpcFhl0gFsQVVfeXFMUHpGQjJ0RVFNMWpPcU5kWlRCaDI3TnZZWDRlQ2d1cnoyZ3MtdmptakVudXRTbTduZTh0U2E3al8ycjFFWXJIVmVhRUt0NWRyNndmUVRLN3NEY2lVcW1IQ09vOGdJaVNHWGc4WEdC?oc=5",
       "source": "블로터",
-      "pubDate": "2026-08-23T06:33:08+00:00",
+      "pubDate": "2026-08-23T06:30:00+00:00",
       "query": "HLB FDA"
     },
     {
@@ -61,7 +61,7 @@
       "link": "https://news.google.com/rss/articles/CBMiYEFVX3lxTFBjWGRNMzlpcHJiRGY3TktQY0N5ektITlBDemNyOVVIdWZyN1QySnRvdTRHeFh6UDhOOXB4LVNGb0xtSlV3UEV1WElXdlBlVHBpNlkxODAtSzJmeGVKdlRhLdIBZkFVX3lxTFBEaE5nZEZPRm9Fc1hIeWNmdE5sX05NbWdDYmNpeEt2cnI1ejdFcGRJQk1vY3JHYTFRaHZISlFRN2R5b0VkdjBFZ2pQTFZseE0xUjdUVXdtZVBfcE5MRk83b00tS2VUQQ?oc=5",
       "source": "뉴스1",
       "pubDate": "2026-08-20T02:11:24+00:00",
-      "query": "HLB파나진"
+      "query": "HLB 신약"
     },
     {
       "title": "HLB바이오스텝, 日 시믹과 맞손…한일 비임상시장 공략 - 뉴스1",
@@ -120,6 +120,6 @@
       "query": "HLB제넥스"
     }
   ],
-  "fetchedAt": "2026-08-23T07:56:03.526743+00:00",
+  "fetchedAt": "2026-08-23T08:45:17.004347+00:00",
   "count": 17
 }
