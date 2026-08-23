@@ -47,7 +47,7 @@
       "link": "https://news.google.com/rss/articles/CBMiS0FVX3lxTFA2RWFTYlhicUtRc2I2QWx4aG1sZlVKaHZTMlJxR2ZieEh4Y1Fvc0VjT2xpV3gzT01ZSXM5ZDRxNi1wdXZfVDJFUktfWQ?oc=5",
       "source": "아이뉴스24",
       "pubDate": "2026-08-20T04:20:42+00:00",
-      "query": "HLB 신약"
+      "query": "HLB FDA"
     },
     {
       "title": "[바이오 브리핑] 한독, HLB바이오스텝, 퓨처켐 - 신아일보",
@@ -61,7 +61,7 @@
       "link": "https://news.google.com/rss/articles/CBMiYEFVX3lxTFBjWGRNMzlpcHJiRGY3TktQY0N5ektITlBDemNyOVVIdWZyN1QySnRvdTRHeFh6UDhOOXB4LVNGb0xtSlV3UEV1WElXdlBlVHBpNlkxODAtSzJmeGVKdlRhLdIBZkFVX3lxTFBEaE5nZEZPRm9Fc1hIeWNmdE5sX05NbWdDYmNpeEt2cnI1ejdFcGRJQk1vY3JHYTFRaHZISlFRN2R5b0VkdjBFZ2pQTFZseE0xUjdUVXdtZVBfcE5MRk83b00tS2VUQQ?oc=5",
       "source": "뉴스1",
       "pubDate": "2026-08-20T02:11:24+00:00",
-      "query": "HLB파나진"
+      "query": "HLB 신약"
     },
     {
       "title": "HLB바이오스텝, 日 시믹과 맞손…한일 비임상시장 공략 - 뉴스1",
@@ -111,8 +111,15 @@
       "source": "아시아경제",
       "pubDate": "2026-08-18T00:23:25+00:00",
       "query": "HLB제약"
+    },
+    {
+      "title": "HLB제넥스, 200억 규모 CB 만기 전 취득 결정 : 네이버 블로그 - Naver Blog",
+      "link": "https://news.google.com/rss/articles/CBMijwFBVV95cUxQOUlIb2dBcmVuYnJLSkFLdHdBUTI2THF4dWM5eG5RSlo3bXJxSVRCNXhEMUlOczZNT1hLVzFWU2xuVmYzREl0M1lwdVRXUzA4dFExQkJZU1Q3Y3l1Y1dGNGhEa0xKRFdWVllfS0VRajdvOGNtTjgwcURNdGYxdzFWNEZ0cTU1UVhiTUJ2MHRWUQ?oc=5",
+      "source": "Naver Blog",
+      "pubDate": "2026-08-17T22:31:27+00:00",
+      "query": "HLB제넥스"
     }
   ],
-  "fetchedAt": "2026-08-23T12:00:48.054078+00:00",
-  "count": 16
+  "fetchedAt": "2026-08-23T12:58:51.652712+00:00",
+  "count": 17
 }
