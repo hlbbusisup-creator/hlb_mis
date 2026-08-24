@@ -3855,6 +3855,11 @@ var _bulkMonthBase={};  // 이전 달 마지막 GAS 주 누계 (당월 누적 �
 async function loadBulkWeekData(){
   var yr=document.getElementById('bulkYear');
   var wk=document.getElementById('bulkWeek');
+  /* [중요] 주차 드롭다운이 아직 안 채워졌으면 wk.value 가 빈 문자열이라
+     아래 `if(!wkVal) return` 에서 그냥 빠져나간다. 그러면 전주 누계를 영영 못 불러오고
+     표의 '전주 누계'가 계속 '-' 로 남는다 — 금주 실적이 누계 전체로 계산되던 진짜 원인.
+     여기서 먼저 채운다. */
+  if(wk && !wk.innerHTML) { initWeekSelect(); }
   var yrVal=yr?parseInt(yr.value):2026;
   var wkVal=wk?parseInt(wk.value):0;
 
