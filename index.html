@@ -496,6 +496,19 @@ tbody tr:hover td{background:#F7F9FF;}
 tbody tr.row-flash td{ animation:rowFlash 1s ease-in-out 3; }
 tbody tr.row-flash td:first-child{ box-shadow:inset 3px 0 0 var(--cp); }
 
+/* 월별 실적 표 — 계열사 × 12개월. 열이 많아 가로 스크롤하되 계열사명은 고정한다. */
+.mogrid th,.mogrid td{padding:7px 9px;font-size:12px;white-space:nowrap;}
+.mogrid th{position:sticky;top:0;background:#F7F8FA;z-index:3;}
+.mogrid td:first-child,.mogrid th:first-child{position:sticky;left:0;background:#fff;z-index:2;font-weight:700;}
+.mogrid th:first-child{z-index:4;background:#F7F8FA;}
+.mogrid tr.ghdr td{background:#EBF4FF;color:#2B6CB0;font-weight:700;font-size:11px;}
+.mogrid .fut{color:var(--t4);}                 /* 아직 확정 안 된 달 */
+.mogrid .cum{background:#FFFDF5;font-weight:700;}
+.mogrid tr.str td{background:#E8EDF3;font-weight:800;border-top:2px solid var(--t2);}
+.mo-metric{background:#fff;border:1px solid var(--bd);color:var(--t2);}
+.mo-metric.active{background:var(--t1);color:#fff;border-color:var(--t1);}
+@media(max-width:768px){ .mogrid table{min-width:900px;} .mogrid th,.mogrid td{padding:6px 7px;font-size:11px;} }
+
 /* ── 모바일 가독성 보정 (경영진이 폰으로 자주 봄) ── */
 @media(max-width:768px){
   /* 계열사명이 한 글자씩 세로로 쪼개지던 문제 */
@@ -1053,6 +1066,26 @@ tbody tr.row-flash td:first-child{ box-shadow:inset 3px 0 0 var(--cp); }
               <th class="tdr">증감률</th>
             </tr></thead>
             <tbody id="moTbody"></tbody>
+          </table>
+        </div>
+      </div>
+
+      <!-- 계열사별 월별 표 -->
+      <div class="card">
+        <div class="chdr" style="flex-wrap:wrap;gap:10px">
+          <div><div class="ctit">계열사별 월별 실적</div>
+            <div class="csub" id="moGridSub">1~12월 · 단위: 백만원</div></div>
+          <div style="display:flex;gap:6px">
+            <button class="btn btnsm mo-metric active" data-m="rev"  onclick="swMoMetric(this,'rev')">매출</button>
+            <button class="btn btnsm mo-metric"        data-m="op"   onclick="swMoMetric(this,'op')">영업이익</button>
+            <button class="btn btnsm mo-metric"        data-m="revT" onclick="swMoMetric(this,'revT')">목표</button>
+            <button class="btn btnsm mo-metric"        data-m="revP" onclick="swMoMetric(this,'revP')">전년</button>
+          </div>
+        </div>
+        <div class="tw" style="max-height:70vh">
+          <table class="mogrid" style="min-width:1180px">
+            <thead><tr id="moGridHead"></tr></thead>
+            <tbody id="moGridBody"></tbody>
           </table>
         </div>
       </div>
@@ -4646,7 +4679,7 @@ function renderMonthlyAll(){
   }
 
   // 표/숫자는 차트 실패와 무관하게 항상 그린다 (CDN 차단·오프라인 대비)
-  var steps=[['KPI',renderMoKpi],['표',renderMoTable],['진도율',renderMoProg],
+  var steps=[['KPI',renderMoKpi],['표',renderMoTable],['월별표',renderMoGrid],['진도율',renderMoProg],
              ['추이',renderMoTrend],['매트릭스',renderMoMatrix],['랭킹',renderMoRank]];
   var failed=[];
   steps.forEach(function(st){ try{ st[1](); }catch(e){ failed.push(st[0]); console.error('[월간손익] '+st[0]+' 렌더 실패:',e); } });
@@ -4792,7 +4825,84 @@ function renderMoProg(){
 function swMoCat(el,cat){
   var ts=el.parentElement.querySelectorAll('.itab'),i;
   for(i=0;i<ts.length;i++)ts[i].classList.remove('active');
-  el.classList.add('active'); _moCat=cat; renderMoTable();
+  el.classList.add('active'); _moCat=cat; renderMoTable(); renderMoGrid();
+}
+
+/* ── 계열사별 월별 실적 표 ────────────────────────────────────────
+   마스터에 계열사별 12개월 배열이 이미 들어와 있는데 화면에는 누계만 있었다.
+   월별로 보면 어느 달에 꺾였는지가 바로 보인다 — 누계로는 안 보이는 것.
+   확정월 이후는 값이 0 이 아니라 '아직 없음'이므로 '-' 로 흐리게 둔다. */
+var _moMetric = 'rev';
+function swMoMetric(el,m){
+  var bs=document.querySelectorAll('.mo-metric'),i;
+  for(i=0;i<bs.length;i++) bs[i].classList.remove('active');
+  el.classList.add('active'); _moMetric=m; renderMoGrid();
+}
+function renderMoGrid(){
+  var head=document.getElementById('moGridHead');
+  var body=document.getElementById('moGridBody');
+  if(!head||!body||!MDM||!MDM.companies) return;
+  var n=MDM.confirmedMonth||0, i;
+
+  var h='<th style="min-width:140px">계열사</th>';
+  for(i=0;i<12;i++) h+='<th class="tdr'+(i>=n?' fut':'')+'">'+(i+1)+'월</th>';
+  h+='<th class="tdr cum">누계</th>';
+  head.innerHTML=h;
+
+  var list=MDM.companies.filter(function(c){
+    return c.cat!=='조정' && (_moCat==='all'||c.cat===_moCat);
+  });
+  var order={'상장기업':0,'핵심기업':1,'벤처기업':2};
+  list.sort(function(a,b){
+    var o=(order[a.cat]===undefined?9:order[a.cat])-(order[b.cat]===undefined?9:order[b.cat]);
+    if(o!==0) return o;
+    return (typeof coRank==='function') ? coRank(a.code)-coRank(b.code) : 0;
+  });
+
+  var neg=(_moMetric==='op');
+  var tot=[],j; for(j=0;j<12;j++) tot.push(0);
+  var totC=0, rows='', lastCat='';
+
+  list.forEach(function(c){
+    var arr=c[_moMetric]||[];
+    if(_moCat==='all' && c.cat!==lastCat){
+      rows+='<tr class="ghdr"><td colspan="14">'+c.cat+'</td></tr>'; lastCat=c.cat;
+    }
+    var r='<tr><td>'+c.name+'</td>', cum=0;
+    for(j=0;j<12;j++){
+      var v=Math.round((arr[j]||0)/1e6*1e6)/1e6;   // 이미 백만원 단위로 정규화돼 있음
+      v=Math.round(arr[j]||0);
+      var future=(j>=n);
+      /* 목표·전년은 12개월 전체가 확정값이라 미래 구간도 그대로 보여준다.
+         매출·영업이익만 확정월까지가 실적이다. */
+      var isActual=(_moMetric==='rev'||_moMetric==='op');
+      if(isActual && future){ r+='<td class="tdr fut">-</td>'; continue; }
+      cum+=v; tot[j]+=v;
+      var col = (neg && v<0) ? 'var(--rd)' : (neg && v>0 ? '#127A4E' : 'var(--t1)');
+      r+='<td class="tdr num" style="color:'+col+'">'+(v===0?'-':v.toLocaleString())+'</td>';
+    }
+    totC+=cum;
+    r+='<td class="tdr num cum" style="color:'+((neg&&cum<0)?'var(--rd)':(neg&&cum>0?'#127A4E':'var(--t1)'))+'">'
+      +(cum===0?'-':cum.toLocaleString())+'</td></tr>';
+    rows+=r;
+  });
+
+  var tr='<tr class="str"><td>합 계</td>';
+  for(j=0;j<12;j++){
+    var isActual=(_moMetric==='rev'||_moMetric==='op');
+    if(isActual && j>=n){ tr+='<td class="tdr fut">-</td>'; continue; }
+    tr+='<td class="tdr num" style="color:'+((neg&&tot[j]<0)?'var(--rd)':(neg&&tot[j]>0?'#127A4E':'var(--t1)'))+'">'
+      +(tot[j]===0?'-':tot[j].toLocaleString())+'</td>';
+  }
+  tr+='<td class="tdr num cum">'+(totC===0?'-':totC.toLocaleString())+'</td></tr>';
+  body.innerHTML=rows+tr;
+
+  var sub=document.getElementById('moGridSub');
+  if(sub){
+    var nm={rev:'매출',op:'영업이익',revT:'목표',revP:'전년 실적'}[_moMetric];
+    sub.textContent='1~12월 '+nm+' · 단위: 백만원'
+      +((_moMetric==='rev'||_moMetric==='op') ? ' · '+n+'월까지 확정, 이후는 미집계' : '');
+  }
 }
 
 function renderMoTable(){
