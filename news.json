@@ -2,7 +2,7 @@
   "news": [
     {
       "title": "[약업분석] HLB제약, 상반기 매출·영업익 증가…ROE 2.17%로 하락 - 약업신문",
-      "link": "https://news.google.com/rss/articles/CBMib0FVX3lxTE9NMWV0ckhQVWVIZlAzMXdzTDFrR3dXM3FTcG15RWI2Mm1mU3NMT01CTEd2aTBrTDd2LXRCdllaTkdiVmlJNkxLQnUxbHRJSjVCbXF3QjVJcTZFRmtyYlhHNXpPTkV6OUhhLXVHdW1haw?oc=5",
+      "link": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE1nZ2hmLW1nNHR6X0pmQ1pVS1MyZjlYdmxRMHRUd2R1eEk5Vm9PYVkxZUZwaDBXXy1BUmp2Ukc0NVpxRnhXaDZ0TEplanJ0TG9XSlEtQ1U4YzNpcDRmcUE4WFI2dFp1UQ?oc=5",
       "source": "약업신문",
       "pubDate": "2026-08-24T06:55:00+00:00",
       "query": "HLB제약"
@@ -43,10 +43,10 @@
       "query": "HLB 임상"
     },
     {
-      "title": "진양곤 HLB그룹 의장, HLB펩 2만2000주 장내 매수 - 뉴스핌",
-      "link": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE5VWWQ4b0QyLUFGdFlBODZldjE5b3hJSUhVRmN1Tlk5d0xlSVgyODNnZ3FNUkZyNGFaRWM2bmNQNGlVdzhHeWU5cFRDU25uc1NLWTFENVNNVnRvNDF5?oc=5",
-      "source": "뉴스핌",
-      "pubDate": "2026-08-20T03:47:00+00:00",
+      "title": "진양곤 의장, HLB펩 주식 2.2만주 장내 매수 - 중소기업신문",
+      "link": "https://news.google.com/rss/articles/CBMibkFVX3lxTE10a0xoQjBRdzdnUDdPbDlOZ3pXcWZSbU9mZ0FIbHVQREVFQTVtdVRfNk90cU51U25PNEVqOUNKcUEtWHlzRHhzVFRCV3JManRkN09LSmJrNGl6Zkhsd3BXYi03Mi1TSzJCc0J4cjRR?oc=5",
+      "source": "중소기업신문",
+      "pubDate": "2026-08-20T06:12:24+00:00",
       "query": "HLB펩"
     },
     {
@@ -85,6 +85,13 @@
       "query": "HLB생명과학"
     },
     {
+      "title": "HLB생명과학,주사기 제조업무 정지 처분 - 약업신문",
+      "link": "https://news.google.com/rss/articles/CBMi4AFBVV95cUxPbXlEQ0hyNmZRVFctWkhnVnVIRlp5Y0tuRWxnM3prbTZaTk9LWHZ6bUwyenh4TjRkMTBHLU0tUUVqWGRmd1d5MTM0WEtEVmY0VE83SnBDN0gwYnB5bzZjZmxsc09Bd2h2WDVNeWJzOWFLMEEzWUZINGk3LTRFSmcxYWdNeG9JUFFKaFJrWDUxaHlNbXJHYXBnNkhKSWFlVTVmYnNVeERYQzhUQUhIeWdHRkVHczRRREZLMFpqZHVtQzFoSEtFc09PaDlLRUJhajhVLTNfN0p4TVhfRHlyMUZNdw?oc=5",
+      "source": "약업신문",
+      "pubDate": "2026-08-19T00:39:58+00:00",
+      "query": "HLB생명과학"
+    },
+    {
       "title": "HLB이노베이션, AI 반도체 수요 확대 \"컨택핀·리드프레임 성장\" - 뉴스핌",
       "link": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE82S1gzLVkyYXBwZDhMOXdKTGZzU1ZfOFkxQ3hyeUVIMHdYOWlnOTAwTXdHVU4wczJpV3VITTJQckdxWGhpX2VfS29sYVhJTEppVUtQYU0zUTdCNmRr?oc=5",
       "source": "뉴스핌",
@@ -99,6 +106,6 @@
       "query": "HLB제약"
     }
   ],
-  "fetchedAt": "2026-08-24T10:10:15.359963+00:00",
-  "count": 14
+  "fetchedAt": "2026-08-24T11:01:58.387169+00:00",
+  "count": 15
 }
