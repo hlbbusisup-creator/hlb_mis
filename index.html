@@ -2361,6 +2361,7 @@ var AB_ROLES=[
 
 /* 인물 일러스트 아바타 — 실존 인물 사진이 아닌, 코드로 그린 익명 실루엣.
    av 번호마다 머리 모양·안경·넥타이 조합이 달라 열 명이 서로 구분된다. */
+
 function abAvatar(n,color){
   var hair=[
     'M22,26 Q22,12 36,12 Q50,12 50,26 L50,30 Q46,20 36,20 Q26,20 22,30 Z',           /* 1 단정 */
@@ -2415,7 +2416,24 @@ function abStats(){
   });
   var behind=PD.filter(function(d){ return d.r!==null && d.r<n/12 && mG(d)>=1000; })
                .sort(function(a,b){return a.r-b.r;});
-  return {n:n, annT:tG, cum:tA, fix:fix, rev:rev, op:op, prevOp:prevOp, prevRev:prevRev, tgtCum:tgtCum,
+  /* 회사별 전년 동기 — '매출은 느는데 이익은 나빠진다' 같은 모순을 짚으려면
+     합계가 아니라 회사 단위 대비가 있어야 한다. */
+  var pm={};
+  MDM.companies.forEach(function(c){
+    if(c.cat==='조정') return;
+    var pr=0,po=0,j;
+    for(j=0;j<n;j++){ pr+=c.revP[j]||0; po+=c.opP[j]||0; }
+    pm[c.code]={pr:pr, po:po};
+  });
+  var co=PD.map(function(d){
+    var p=pm[d.k]||{pr:0,po:0};
+    return { k:d.k, n:d.n, c:d.c, a:d.a, op:(d.op||0), g:mG(d), r:d.r,
+             pr:p.pr, po:p.po,
+             mg:(d.a>0? (d.op||0)/d.a*100 : null),
+             rg:(p.pr>0? (d.a-p.pr)/p.pr*100 : null),
+             og:(d.op||0)-p.po };
+  });
+  return {n:n, annT:tG, cum:tA, fix:fix, rev:rev, op:op, prevOp:prevOp, prevRev:prevRev, tgtCum:tgtCum, co:co,
     pace:tG>0?tA/tG*100:0, base:n/12*100, margin:rev>0?op/rev*100:0,
     prevMargin:prevRev>0?prevOp/prevRev*100:0,
     yoy:prevRev>0?(fix-prevRev)/prevRev*100:null,
@@ -2576,6 +2594,116 @@ var _abAI={};            // 역할별 AI 문장 캐시
 var _abAIOn=true;        // 실패가 반복되면 자동으로 끈다
 var _abAIFail=0;
 
+/* ── 계열사 프로필 ────────────────────────────────────────────────
+   AI 에게 이름만 주면 "HLB글로벌"이 뭘 파는 회사인지 모른 채 숫자만 본다.
+   그러면 신약개발사의 적자와 유통사의 적자를 똑같이 취급한다 — 잘못된 조언이다.
+
+   특히 '수익모델'이 중요하다.
+     R&D선투자형 : 매출 전 장기 적자가 설계된 구조. 적자 자체는 지적거리가 아니고
+                   현금소진 속도와 임상 마일스톤이 논점이다.
+     수주형       : 매출이 분기별로 튄다. 월 단위 미달은 수주 시점 문제일 수 있다.
+     유통형       : 이익률이 원래 낮다. 이익률 3%를 제조업 잣대로 보면 안 된다.
+     제조판매형   : 가동률·원가가 논점.
+
+   출처: HLB그룹 공식 홈페이지 계열사 소개, 각사 사업보고서·위키백과 (2026.08 조사).
+   확인 못 한 곳은 비워 뒀다 — 추측해서 채우면 AI가 그 추측 위에 조언을 쌓는다.
+   ──────────────────────────────────────────────────────────────── */
+var CO_PROFILE={
+  'HLB'       :{ind:'신약개발'        ,biz:'R&D선투자형'     ,d:'표적항암제 리보세라닙 개발(미국 Elevar·Immunomic) + 구명정·특수선박'},
+  'HLBLS'     :{ind:'의료기기'        ,biz:'제조판매형'       ,d:'체외진단·의약외품 OEM/ODM, 주사기 등 의료소모품'},
+  'HLBPHM'    :{ind:'제약'          ,biz:'제조판매형'       ,d:'전문의약품 제조·CMO, 건강기능식품, 장기지속형 주사제 개량신약'},
+  'HLBGL'     :{ind:'유통·커머스'      ,biz:'유통형'         ,d:'미디어커머스 자사몰, 화장품·식음료, 골재 자원환경'},
+  'HLBTR'     :{ind:'신약개발'        ,biz:'R&D선투자형'     ,d:'안과질환 RGN-259·교모세포종 OKN-007, 바이오의약품 콜드체인 물류'},
+  'HLBBS'     :{ind:'CRO'         ,biz:'수주형'         ,d:'의약품·건기식 비임상시험(CRO) 수탁'},
+  'HLBINN'    :{ind:'반도체부품'       ,biz:'제조판매형'       ,d:'반도체 패키징 리드프레임 + 미국 Verismo CAR-T 개발'},
+  'HLBPJ'     :{ind:'진단'          ,biz:'제조판매형'       ,d:'PNA 기반 암 유전자 분자진단 시약·핵산추출 장비'},
+  'HLBGX'     :{ind:'바이오소재'       ,biz:'제조판매형'       ,d:'미생물 발효 산업용 효소(식품·화장품·반도체 공정용)'},
+  'HLBPEP'    :{ind:'바이오소재'       ,biz:'제조판매형'       ,d:'펩타이드 원료의약품(API) 합성·공급, 방사성 표적항암제 연구'},
+  'HLBENG'    :{ind:'조선·해양'       ,biz:'수주형'         ,d:'구명정·진수장치·특수선박·GRP 파이프'},
+  'HLBOT'     :{ind:'조선·해양'       ,biz:'수주형'         ,d:'조선해양 기자재 제조, 해양 리프팅 솔루션'},
+  'SHWA'      :{ind:'유통·커머스'      ,biz:'유통형'         ,d:'전문의약품 도매 유통(KGSP), 약국·요양기관 공급'},
+  'FRESKO'    :{ind:'식품'          ,biz:'제조판매형'       ,d:'잼·시럽 B2B 납품, 콤부차 ’아임얼라이브’ 제조·수출'},
+  'HLBBC'     :{ind:'CRO'         ,biz:'수주형'         ,d:'GLP 독성시험 수탁(비임상)'},
+  'GFP'       :{ind:'바이오소재'       ,biz:'제조판매형'       ,d:'정밀발효 기반 세라마이드 전구체 등 고부가 소재'},
+  'HLBFNB'    :{ind:'레저·F&B'      ,biz:'서비스형'        ,d:'반포 한강 복합문화공간 ’더 리버’ 운영(다이닝·컨벤션·선착장)'},
+  'ORGARCH'   :{ind:'유통·커머스'      ,biz:'유통형'         ,d:'홈 바디케어 브랜드 ’웰247’ 미디어커머스'},
+  'BIOSQ'     :{ind:'진단'          ,biz:'R&D선투자형'     ,d:'양자점 나노기술 기반 면역진단 플랫폼 개발'},
+  'HLBLSRD'   :{ind:'신약개발'        ,biz:'R&D선투자형'     ,d:'리보세라닙·파이로티닙 국내 전용실시권 임상개발'},
+  'HLBSOL'    :{ind:'에너지·환경'      ,biz:'수주형'         ,d:'에너지효율화·신재생에너지 사업'},
+  'HLBCELL'   :{ind:'신약개발'        ,biz:'R&D선투자형'     ,d:'세포외기질(ECM) 기반 세포치료제·지혈제, 사업화 전환 중'},
+  'HLBENE'    :{ind:'에너지·환경'      ,biz:'서비스형'        ,d:'폐기물 소각 및 소각열 에너지 재이용'},
+  'TINICO'    :{ind:'의료기기'        ,biz:'제조판매형'       ,d:'니티놀 소재 제조(척추 임플란트·의료기기용)'},
+  'HLBLH'     :{ind:'화장품'         ,biz:'제조판매형'       ,d:'비건 클린뷰티 ’엘리샤코이’ 등 자체 브랜드, 20개국 수출'},
+  'JHCOS'     :{ind:'화장품'         ,biz:'제조판매형'       ,d:'화장품 제조·판매'},
+  'COABIO'    :{ind:'식품'          ,biz:'제조판매형'       ,d:'콤부차 음료 제조·판매'},
+  'HLBLC'     :{ind:'IT·서비스'      ,biz:'R&D선투자형'     ,d:'AI 만성질환 예측·관리 디지털헬스 플랫폼'},
+  'PURPLE'    :{ind:'화장품'         ,biz:'제조판매형'       ,d:'미디어커머스 색조화장품 브랜드'},
+  'MODERN'    :{ind:'교육·서비스'      ,biz:'서비스형'        ,d:'영유아 방문미술 교육(정식명 모던파파스)'},
+  'BENECURE'  :{ind:''            ,biz:'불명'          ,d:''},
+  'ELIBRAND'  :{ind:'유통·커머스'      ,biz:'유통형'         ,d:'패션잡화 도소매'},
+  'SAERON'    :{ind:'유통·커머스'      ,biz:'유통형'         ,d:'실험동물·실험사료 수입유통, 질환모델 동물 공급'},
+  'VSPHARM'   :{ind:'유통·커머스'      ,biz:'유통형'         ,d:'반려동물 의약품 유통'},
+  'HLBNET'    :{ind:'조선·해양'       ,biz:'불명'          ,d:'선박 유지보수 솔루션·기자재 판매'},
+  'HDYACHT'   :{ind:'레저'          ,biz:'제조판매형'       ,d:'요트 건조 및 해외 브랜드 수입·판매(정식명 현대요트)'},
+  'DAEHAE'    :{ind:'조선·해양'       ,biz:'수주형'         ,d:'선박 설계·엔지니어링(친환경 선박)'},
+  'PENGUIN'   :{ind:'레저'          ,biz:'서비스형'        ,d:'해양레저 플랫폼·보트 판매(정식명 펭귄오션레저)'},
+  'HELO'      :{ind:''            ,biz:'불명'          ,d:''},
+};
+
+/* ────────────────────────────────────────────────────────────────
+   조언이 나오려면 '지금 얼마'가 아니라 '어디로 가고 있나'를 줘야 한다.
+   MDM 에는 계열사별 12개월 배열이 이미 있는데 그동안 합계만 넘기고 있었다.
+   여기서 궤적을 읽어 아래 네 가지를 계산한다.
+
+     1) 연속 악화 개월수   — 나빠지는 중인가, 한 달 튄 건가
+     2) 모멘텀             — 최근 3개월이 직전 3개월보다 나은가
+     3) 연말 착지 전망     — 이 속도로 가면 얼마에 끝나는가 (run-rate)
+     4) 필요 월평균        — 목표를 맞추려면 남은 달에 월 얼마를 해야 하는가
+                             현재 월평균의 몇 배인지까지 → 가능한 목표인지 판정
+
+   4번이 핵심이다. "미달입니다"는 보고이고,
+   "남은 6개월간 월 140억씩 해야 하는데 지금 월 32억입니다"는 판단 재료다.
+   ──────────────────────────────────────────────────────────────── */
+function abTrail(){
+  if(!MDM||!MDM.companies) return null;
+  var n=MDM.confirmedMonth, rest=12-n;
+  var ok=function(v){ return Math.round(v/100); };
+  var sum=function(a,f,t){ var s=0,i; for(i=f;i<t;i++) s+=(a[i]||0); return s; };
+
+  var rows=[], gRev=[], gOp=[], i;
+  for(i=0;i<n;i++){ gRev.push(0); gOp.push(0); }
+
+  MDM.companies.forEach(function(c){
+    if(c.cat==='조정') return;
+    var rev=[],op=[];
+    for(i=0;i<n;i++){ rev.push(c.rev[i]||0); op.push(c.op[i]||0); gRev[i]+=rev[i]; gOp[i]+=op[i]; }
+
+    // 연속 악화 (직전 달보다 영업이익이 낮은 달이 몇 번 이어졌나)
+    var streak=0;
+    for(i=n-1;i>0;i--){ if(op[i]<op[i-1]) streak++; else break; }
+
+    // 모멘텀 — 최근 3개월 합 vs 직전 3개월 합
+    var m1=null,m2=null,mom=null;
+    if(n>=6){ m1=sum(op,n-3,n); m2=sum(op,n-6,n-3); mom=m1-m2; }
+
+    var cum=sum(rev,0,n), cumOp=sum(op,0,n);
+    var yTgt=0; for(i=0;i<12;i++) yTgt+=(c.revT[i]||0);
+    var avg=n>0?cum/n:0;
+    var land=avg*12;                                  // 이 속도로 갔을 때 연말
+    var need=(rest>0 && yTgt>cum)?(yTgt-cum)/rest:0;  // 목표 맞추려면 월 얼마
+    var mult=(avg>0 && need>0)?need/avg:null;         // 지금의 몇 배인가
+
+    rows.push({ code:c.code, name:c.name, cat:c.cat,
+      rev:rev, op:op, cum:cum, cumOp:cumOp, yTgt:yTgt,
+      streak:streak, mom:mom, avg:avg, land:land, need:need, mult:mult });
+  });
+
+  var gAvg=n>0?sum(gRev,0,n)/n:0;
+  return { n:n, rest:rest, rows:rows,
+    gRev:gRev, gOp:gOp, gLand:gAvg*12,
+    gOpM1:n>=6?sum(gOp,n-3,n):null, gOpM2:n>=6?sum(gOp,n-6,n-3):null };
+}
+
 function abFacts(x){
   var ok=function(v){ return Math.round(v/100); };
   return {
@@ -2593,7 +2721,128 @@ function abFacts(x){
       var c=x.byCat[k];
       return {구분:k, 회사수:c.n, 매출:ok(c.a), 영업이익:ok(c.op),
               목표진도율_퍼센트:c.g>0?+(c.a/c.g*100).toFixed(1):null};
-    })
+    }),
+
+    /* 합계만 주면 모델이 합계를 되풀이한다. 회사 단위 표와, 데이터 안의
+       '어긋난 지점'을 미리 뽑아서 같이 넘긴다. 여기서부터가 할 말이 생기는 부분. */
+    계열사표: x.co.filter(function(d){ return d.a>0 || d.op!==0; })
+      .sort(function(a,b){ return b.a-a.a; })
+      .map(function(d){
+        var pf=CO_PROFILE[d.k]||{};
+        return { 회사:d.n, 구분:d.c,
+                 업종:pf.ind||null, 수익모델:pf.biz||null, 사업:pf.d||null,
+                 매출:ok(d.a), 영업이익:ok(d.op),
+                 이익률_퍼센트: d.mg===null?null:+d.mg.toFixed(1),
+                 달성률_퍼센트: d.r===null?null:Math.round(d.r*100),
+                 전년매출:ok(d.pr), 전년영업이익:ok(d.po),
+                 매출증감_퍼센트: d.rg===null?null:+d.rg.toFixed(0),
+                 영업이익증감:ok(d.og) };
+      }),
+
+    어긋난_지점: (function(){
+      var out=[];
+      x.co.forEach(function(d){
+        if(d.rg!==null && d.rg>=10 && d.og<0)
+          out.push({유형:'매출은 늘었는데 이익은 악화', 회사:d.n,
+                    매출증감_퍼센트:+d.rg.toFixed(0), 영업이익증감:ok(d.og), 영업이익:ok(d.op)});
+        if(d.op>=0 && d.r!==null && d.r*100 < x.base - 10)
+          out.push({유형:'흑자인데 목표 진도 부진', 회사:d.n,
+                    달성률_퍼센트:Math.round(d.r*100), 영업이익:ok(d.op)});
+        if(d.op<0 && d.rg!==null && d.rg>=20)
+          out.push({유형:'적자인데 매출은 급성장', 회사:d.n,
+                    매출증감_퍼센트:+d.rg.toFixed(0), 영업이익:ok(d.op)});
+        if(d.mg!==null && d.mg<=-50 && d.a>=500)
+          out.push({유형:'매출 대비 적자 폭이 과도', 회사:d.n,
+                    이익률_퍼센트:+d.mg.toFixed(0), 매출:ok(d.a), 영업이익:ok(d.op)});
+        if(d.og>0 && d.op<0)
+          out.push({유형:'적자지만 전년 대비 개선', 회사:d.n,
+                    영업이익:ok(d.op), 개선폭:ok(d.og)});
+        if(d.g<=0 && d.a>0)
+          out.push({유형:'연간 목표 미설정', 회사:d.n, 매출:ok(d.a)});
+      });
+      return out.slice(0,20);
+    })(),
+
+    /* ── 궤적: 여기가 조언의 재료다 ───────────────────────────── */
+    궤적: (function(){
+      var t=abTrail(); if(!t) return null;
+      var ok=function(v){ return Math.round(v/100); };
+      var byRev=t.rows.slice().sort(function(a,b){ return b.cum-a.cum; });
+      return {
+        남은개월: t.rest,
+        그룹_월별매출: t.gRev.map(ok),
+        그룹_월별영업이익: t.gOp.map(ok),
+        그룹_연말착지_전망: ok(t.gLand),
+        그룹_연간목표: ok(x.annT),
+        그룹_예상미달액: ok(x.annT - t.gLand),
+        그룹_영업이익_최근3개월: t.gOpM1===null?null:ok(t.gOpM1),
+        그룹_영업이익_직전3개월: t.gOpM2===null?null:ok(t.gOpM2),
+
+        /* 목표를 맞추려면 남은 달에 월 얼마를 해야 하는가.
+           배수가 2를 넘으면 사실상 달성 불가 — 목표를 고치든 구조를 바꾸든
+           둘 중 하나를 결정해야 하는 회사다. */
+        목표_달성_난이도: byRev.filter(function(d){ return d.yTgt>0 && d.mult!==null; })
+          /* 배수로 줄 세우면 목표 3억짜리 회사가 맨 위에 온다. 배수는 크지만
+             그룹에 미치는 영향은 없다. 실제 미달 예상액(원 단위 금액)으로 정렬한다. */
+          .map(function(d){ return { d:d, gap: Math.max(0, d.yTgt - d.land) }; })
+          .sort(function(a,b){ return b.gap-a.gap; }).slice(0,8)
+          .map(function(o){
+            var d=o.d;
+            return { 회사:d.name, 예상미달액:ok(o.gap),
+                     현재_월평균:ok(d.avg), 필요_월평균:ok(d.need),
+                     배수:+d.mult.toFixed(1),
+                     판정: d.mult>=2 ? '현 속도로는 달성 불가'
+                         : d.mult>=1.3 ? '상당한 반등 필요' : '무리 없음' };
+          }),
+
+        /* 한 달 튄 것과 계속 나빠지는 것은 다르게 다뤄야 한다. */
+        영업이익_연속악화: t.rows.filter(function(d){ return d.streak>=2; })
+          .sort(function(a,b){ return b.streak-a.streak; }).slice(0,6)
+          .map(function(d){
+            return { 회사:d.name, 연속개월:d.streak,
+                     월별영업이익:d.op.map(ok) };
+          }),
+
+        모멘텀_악화: t.rows.filter(function(d){ return d.mom!==null && d.mom<0; })
+          .sort(function(a,b){ return a.mom-b.mom; }).slice(0,5)
+          .map(function(d){ return { 회사:d.name, 최근3개월대비_변화:ok(d.mom) }; }),
+
+        모멘텀_개선: t.rows.filter(function(d){ return d.mom!==null && d.mom>0; })
+          .sort(function(a,b){ return b.mom-a.mom; }).slice(0,5)
+          .map(function(d){ return { 회사:d.name, 최근3개월대비_변화:ok(d.mom) }; }),
+
+        /* 상위 6개사는 월별 흐름 자체를 보여준다. 꺾인 지점을 직접 읽으라고. */
+        주요사_월별: byRev.slice(0,6).map(function(d){
+          return { 회사:d.name, 월별매출:d.rev.map(ok), 월별영업이익:d.op.map(ok) };
+        })
+      };
+    })(),
+
+    /* 같은 '적자'라도 구조가 다르다. 이걸 안 주면 AI가 신약개발사에
+       "수익성을 개선하라"는 헛다리 조언을 한다. */
+    수익모델별_판단기준: {
+      'R&D선투자형': '매출 전 장기 적자가 설계된 구조. 적자 자체를 지적하지 말 것. ' +
+                     '논점은 현금소진 속도, 임상·허가 마일스톤, 적자 규모가 계획 대비 커졌는지.',
+      '수주형':      '매출이 프로젝트 시점에 따라 튄다. 특정 월 미달은 수주 타이밍일 수 있음. ' +
+                     '논점은 수주잔고와 분기 누적 추세이지 월별 등락이 아님.',
+      '유통형':      '이익률이 구조적으로 낮다(보통 한 자릿수). 낮은 이익률 자체를 문제 삼지 말 것. ' +
+                     '논점은 매출 성장과 운전자본.',
+      '제조판매형':  '가동률·원가·판가가 논점. 매출이 늘었는데 이익률이 떨어지면 원가나 믹스 문제.',
+      '서비스형':    '고정비 회수 구조. 매출 규모가 손익분기를 넘었는지가 논점.'
+    },
+
+    작성지침: [
+      '합계 수치를 다시 요약하지 말 것. 화면에 이미 있다.',
+      '현재 상태(적자다·미달이다)가 아니라 궤적(나빠지는 중인가·언제부터인가·이 속도면 어디로 가는가)을 말할 것.',
+      '궤적.목표_달성_난이도 의 배수, 궤적.영업이익_연속악화 의 연속개월, 궤적.그룹_예상미달액 중 하나는 반드시 인용할 것.',
+      '계열사 이름을 지목하고 그 회사 숫자 두 개를 엮을 것.',
+      '금지: 수익성 개선 필요 / 지속적 모니터링 / 전략적 검토 / 선택과 집중 / 체질 개선.',
+      '해당 계열사의 수익모델을 먼저 확인하고 그 판단기준에 맞게 논평할 것. ' +
+        'R&D선투자형 회사에 수익성 개선을 요구하는 식의 조언은 틀린 조언이다.',
+      '업계에서 통용되는 일반적 기준이나 사례를 참고해도 좋으나, 우리 데이터가 아님을 문장에서 드러낼 것. ' +
+        '(예: "통상 이 업종은 …") 외부 수치를 우리 실적처럼 단정하지 말 것.',
+      '마지막 문장은 다음 회의에서 누구에게 무엇을 물을지로 끝낼 것.'
+    ]
   };
 }
 
@@ -3754,6 +4003,8 @@ function saveBulkAll(){
   var mon=getWeekMonth(yrVal,wkVal);
   var updated=0, totalWk=0;
   var waMap={};  // 계열사코드 → 금주 실적(delta) 맵
+  var _bulkTyped={};  // 계열사코드 → 방금 입력한 누계 원본
+  var sheetEntries=[];  // 시트 전송 목록 (표 재렌더 전에 채운다)
   if(!S.weekly)S.weekly={};
   if(!S.monthly)S.monthly={};
   PD.forEach(function(d,i){
@@ -3763,10 +4014,26 @@ function saveBulkAll(){
       var prevCumul=parseInt(inp.getAttribute('data-prev'))||PD[i].a||0;
       var delta=newCumul-prevCumul;  // 금주 실적 = 새 누계 - 전주 누계
       waMap[d.k]=delta;              // 코드 기준으로 delta 보관
+      _bulkTyped[d.k]=newCumul;
+      /* [중요] 전송 목록은 여기서 만든다.
+         아래에서 renderBulkTable() 이 표를 다시 그리면 입력칸이 비워지고,
+         그 뒤에 목록을 만들면 항상 0건이 되어 시트로 아무것도 안 간다.
+         화면만 바뀌고 저장은 안 되던 원인. */
+      sheetEntries.push({
+        code:       d.k,
+        name:       d.n,
+        goal:       mG(d) || 0,
+        cumulative: newCumul,
+        weekActual: delta,
+        prevYear:   mP(d) || 0
+      });
       var wkKey='wk_'+i+'_'+yrVal+'_'+wkVal;
       S.weekly[wkKey]=delta;         // 금주 실적(차이값) 저장
       PD[i].a=newCumul;              // 누계를 새 값으로 교체
       PD[i].wa=delta;                // 금주 실적 즉시 반영
+      /* 주간 누계 원본도 같이 갱신해야 한다. 이걸 빼면 재계산(rebuildPDFromMaster)이
+         돌 때 옛 값으로 되돌아가서 "저장이 안 된다"로 보인다. */
+      _wkCum[d.k]=newCumul;
       var _g=mG(PD[i]); if(_g>0)PD[i].r=PD[i].a/_g;
       // 월별 집계: 기존 대비 delta만 반영
       var moKey='mo_'+i+'_'+yrVal+'_'+mon;
@@ -3778,28 +4045,13 @@ function saveBulkAll(){
   // 금주 전체 실적 기록 (대시보드용)
   if(updated>0){
     S.lastWeek={label:label,year:yrVal,week:wkVal,month:mon,total:totalWk,ts:Date.now()};
-    S.perf=PD;ss(S);
+    S.perf=PD; S.wkCum=_wkCum; ss(S);
     rDP();rPerf('all');renderBulkTable();renderTrend();renderPerfBar2();
     updateDashWeekly();
     showT('✔ '+updated+'개 계열사 '+label+' 실적 저장 완료','suc');
 
     // ── Google Sheets 동시 저장 ──────────────────────────────────
     if(HLB_API_URL){
-      // 입력된 계열사만 추려서 누계금액으로 전송
-      var sheetEntries=[];
-      PD.forEach(function(d,i){
-        var inp=document.getElementById('bulk_'+i);
-        if(inp&&inp.value.trim()!==''&&!isNaN(inp.value)){
-          sheetEntries.push({
-            code:       d.k,
-            name:       d.n,
-            goal:       mG(d) || 0,          // 마스터 기준 26년 목표
-            cumulative: d.a,        // 로컬 저장 후 이미 누계 반영된 값
-            weekActual: waMap[d.k] || 0,  // 금주 실적 (delta)
-            prevYear:   mP(d) || 0          // 마스터 기준 전년 실적
-          });
-        }
-      });
       if(sheetEntries.length>0){
         fetch(HLB_API_URL,{
           method:'POST',
@@ -3815,12 +4067,16 @@ function saveBulkAll(){
             delete _weekCache['__latest__'];
             delete _weekCache[isoWeek];
             loadSheetData(isoWeek).then(function(){
-              // 로컬 계산값(delta)이 항상 우선 — GAS가 wa를 반환해도 덮어씀
+              /* 서버가 방금 저장한 값을 아직 못 돌려주는 경우가 있어(쓰기 직후 읽기)
+                 방금 입력한 누계를 원본에 다시 못 박아 둔다. */
               PD.forEach(function(d){
                 if(waMap[d.k]!==undefined){
                   d.wa=waMap[d.k];
+                  var _in=_bulkTyped[d.k];
+                  if(_in!==undefined){ _wkCum[d.k]=_in; d.a=Math.max(_in, d.moRev||0); }
                 }
               });
+              S.wkCum=_wkCum; ss(S);
               rDP(); rPerf('all');
               loadWeekList();
             });
