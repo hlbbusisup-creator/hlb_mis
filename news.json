@@ -1,6 +1,13 @@
 {
   "news": [
     {
+      "title": "HLB제넥스, '비타푸드 아시아 2026' 참가…\"소디자임 소개\" - 네이트",
+      "link": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE9aV1NSLW1EVGZYMTBUWUN0TDVpWnJFanRKX0ktV0pQQks4Tm1SQk94Y3VoNmwzcVRvRzhTWW1TMDNMWE5fUktrZWZBMW41dFdJTzRJ?oc=5",
+      "source": "네이트",
+      "pubDate": "2026-08-24T23:08:00+00:00",
+      "query": "HLB제넥스"
+    },
+    {
       "title": "한 달 앞 다가온 HLB 담관암 신약 운명의 날…FDA 문턱 넘을까 - v.daum.net",
       "link": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE53dDJ6NjhlQVpnMHBldjc3Mk1oOG5oeE5WeTZIbnNvNGNPY3dMQjQ0Uks4eXhZbGNTa09zdkpvd0lDb1VjcFJ1RG0wcUlsVjg?oc=5",
       "source": "v.daum.net",
@@ -40,7 +47,7 @@
       "link": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE8yOTNJU2FHQTZIX3o3Y2pob3htZmdNLW5RSFBHV0JfcEdiNlpjbmpDcGdpMzBsNU9CUzJsQWpDMldzOTFpYnJrM21iV2toeUJUZUJzZ0dzUW5peDh0VnBuUHVONS00Szgw?oc=5",
       "source": "팍스경제TV",
       "pubDate": "2026-08-20T07:46:07+00:00",
-      "query": "HLB 임상"
+      "query": "HLB바이오스텝"
     },
     {
       "title": "HLB그룹 회장 진양곤, HLB펩 주식 2만2천 주 1억어치 장내 매수 - 비즈니스포스트",
@@ -48,6 +55,13 @@
       "source": "비즈니스포스트",
       "pubDate": "2026-08-20T06:06:12+00:00",
       "query": "HLB펩"
+    },
+    {
+      "title": "[바이오 브리핑] 한독, HLB바이오스텝, 퓨처켐 - 신아일보",
+      "link": "https://news.google.com/rss/articles/CBMicEFVX3lxTFA3Q1JtMWh3Z2t0ZGhSQjRVUnN3cEh4X3FZSXhOZkdDQTY1ckFMWF9Va1VfZ3RrdVVXXzBQbzFnanUzNGhZTldJcW85cmpZb0JhQXFCRGd1NHNzOGRKc1Fjejg4UnA0NmJtQ19xalU0bHk?oc=5",
+      "source": "신아일보",
+      "pubDate": "2026-08-20T03:15:00+00:00",
+      "query": "HLB바이오스텝"
     },
     {
       "title": "DMD 치료제 잇단 실패…HLB파나진, 'PNA-AOC'로 새 해법 도전 - 뉴스1",
@@ -76,15 +90,8 @@
       "source": "매일경제 마켓",
       "pubDate": "2026-08-20T00:27:43+00:00",
       "query": "HLB생명과학"
-    },
-    {
-      "title": "HLB바이오스텝, 日 시믹·아비테라와 MOU…영장류 GLPㆍ일본 비임상 공략 - 이투데이",
-      "link": "https://news.google.com/rss/articles/CBMiVEFVX3lxTFBpcVZfbTlZLVRCaFpZOGJxNlI0ZFVhcFJiTUxhUGJRam1jcEpWUWExNW96TTRfZ3U0aHh5dnZaOEljdG1NLTNFV3dfMHU0bE1XbS1qdQ?oc=5",
-      "source": "이투데이",
-      "pubDate": "2026-08-19T23:33:00+00:00",
-      "query": "HLB바이오스텝"
     }
   ],
-  "fetchedAt": "2026-08-24T23:06:19.083004+00:00",
-  "count": 12
+  "fetchedAt": "2026-08-24T23:33:51.585966+00:00",
+  "count": 13
 }
