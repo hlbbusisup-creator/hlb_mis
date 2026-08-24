@@ -2,7 +2,7 @@
   "news": [
     {
       "title": "[약업분석] HLB제약, 상반기 매출·영업익 증가…ROE 2.17%로 하락 - 약업신문",
-      "link": "https://news.google.com/rss/articles/CBMickFVX3lxTE5Ia1pWb1UtbVpCSnJxOG9fQzE3bnVFbHJjcy1nWkdUS3NHX3d6T284NXoyYlBsRUZUeGxyamtBV1pCN0xWcGYyTHJwbkZZcE5BQkF3RzNjRnlhb0NrT0pFY0Y4eE5lVkpDM1lzVlp1RXc5dw?oc=5",
+      "link": "https://news.google.com/rss/articles/CBMib0FVX3lxTE9NMWV0ckhQVWVIZlAzMXdzTDFrR3dXM3FTcG15RWI2Mm1mU3NMT01CTEd2aTBrTDd2LXRCdllaTkdiVmlJNkxLQnUxbHRJSjVCbXF3QjVJcTZFRmtyYlhHNXpPTkV6OUhhLXVHdW1haw?oc=5",
       "source": "약업신문",
       "pubDate": "2026-08-24T06:55:00+00:00",
       "query": "HLB제약"
@@ -71,10 +71,10 @@
       "query": "HLB 임상"
     },
     {
-      "title": "HLB바이오스텝, 日 시믹·아비테라와 맞손...비임상 네트워크 확대 - 파이낸셜뉴스",
-      "link": "https://news.google.com/rss/articles/CBMiWkFVX3lxTFBfOFQyVy1FblBSVElxSDRQMEdiOEdKV1k5c1kwT2hTUUhudlZWVjJJeTByYk41UUlKU2diNkhQZXdKYzdBYU5ybmF5ekFaTklRUTVnSnNfYkh2UQ?oc=5",
-      "source": "파이낸셜뉴스",
-      "pubDate": "2026-08-20T01:04:38+00:00",
+      "title": "HLB바이오스텝, 한·일 비임상 네트워크 확대 - 머니투데이 - 머니투데이",
+      "link": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE1YVjNCQUdiX0N3cDNCeE4xNlBEV1hDYVBTcHYyVzA5R1BvdVd3UW1IMGw4NXY2WEFpTzF5MkR2NGw3ZGlxRFlCak1QSE1xRmp4RHNLRnRxY1pPMVJUVFlzSS1sRktLV0tC0gFuQVVfeXFMT3FSSVpGM1drUVMtMU1JOVp2MHEtbkZTYVVlQ1Nob2cxVkhVX3FtaVZzUXRDQk9PWFRTcFJhVTdYS1J5bVYwZ1ljaTZ5RFZKaVo1T21vM1hXeDY5eXpmTnE2VmQyVmV5NHhmNzhTTUE?oc=5",
+      "source": "머니투데이",
+      "pubDate": "2026-08-20T01:31:20+00:00",
       "query": "HLB 임상"
     },
     {
@@ -113,6 +113,6 @@
       "query": "HLB제약"
     }
   ],
-  "fetchedAt": "2026-08-24T07:17:19.794728+00:00",
+  "fetchedAt": "2026-08-24T08:10:57.502289+00:00",
   "count": 16
 }
