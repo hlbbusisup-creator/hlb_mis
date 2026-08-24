@@ -930,15 +930,15 @@ tbody tr.row-flash td:first-child{ box-shadow:inset 3px 0 0 var(--cp); }
           </div>
         </div>
         <div style="overflow-x:auto">
-          <div style="font-size:12px;color:var(--t3);margin-bottom:6px">단위: 백만원 · <b>① 금주 실적만 입력</b>하면 ② 누계가 자동 계산됩니다 (누락 주차 보정이 필요하면 ② 를 직접 수정) · <b>26년 목표·전년 실적은 자동</b>으로 채워지므로 입력하지 않습니다.</div><div id="bulkMasterNote" style="display:none;font-size:12px;background:#FFFAEB;border:1px solid #E8D88A;border-radius:4px;padding:8px 12px;margin-bottom:8px;color:#7A5C00;line-height:1.7"></div>
+          <div style="font-size:12px;color:var(--t3);margin-bottom:6px">단위: 백만원 · <b>① 누계 매출만 입력</b>하면 ② 금주 실적이 전주 누계와의 차이로 자동 계산됩니다 (필요 시 ② 직접 수정 가능) · <b>26년 목표·전년 실적은 자동</b>으로 채워지므로 입력하지 않습니다.</div><div id="bulkMasterNote" style="display:none;font-size:12px;background:#FFFAEB;border:1px solid #E8D88A;border-radius:4px;padding:8px 12px;margin-bottom:8px;color:#7A5C00;line-height:1.7"></div>
           <table id="bulkTable" style="min-width:780px">
             <thead><tr>
               <th>계열사</th>
               <th class="tdr">26년 목표 <span style="font-weight:400;text-transform:none">(마스터)</span></th>
               <th class="tdr">전년 실적 <span style="font-weight:400;text-transform:none">(마스터)</span></th>
               <th class="tdr">전주 누계</th>
-              <th class="tdr" style="background:#FFF8E1;color:#7A5C00">① 금주 실적 ✏️</th>
-              <th class="tdr">② 누계 (자동)</th>
+              <th class="tdr" style="background:#FFF8E1;color:#7A5C00">① 누계 매출 ✏️</th>
+              <th class="tdr">② 금주 실적 (자동)</th>
               <th class="tdr" style="background:#F0FFF4;color:#1A6040">③ 당월 누적</th>
               <th class="tdr">진도율</th>
             </tr></thead>
@@ -5112,7 +5112,11 @@ function renderBulkTable(){
   PD.forEach(function(d,i){
     if(d.c!==lastCat){ h+='<tr class="ghdr"><td colspan="9">'+d.c+'</td></tr>'; lastCat=d.c; }
     var goal=mG(d), prevY=mP(d);
-    var prevCumul=(_bulkPrevData&&_bulkPrevData[d.k]>0)?_bulkPrevData[d.k]:0;
+    /* 서버에서 전주 데이터를 못 받으면 0 이 되는데, 그러면 금주 실적이 누계 전체로
+       계산되어 버린다(HLB생명과학 32,086 → 금주 실적 32,086). 화면이 이미 알고 있는
+       마지막 주간 누계를 기준선으로 쓴다. */
+    var prevCumul=(_bulkPrevData&&_bulkPrevData[d.k]>0) ? _bulkPrevData[d.k]
+                 : ((_wkCum&&_wkCum[d.k]>0) ? _wkCum[d.k] : 0);
     var savedCum =(_bulkCurrData&&_bulkCurrData[d.k]>0)?_bulkCurrData[d.k]:'';
     var savedWk  = savedCum!=='' ? (savedCum-prevCumul) : '';
     var on = savedCum!=='';
@@ -5129,12 +5133,14 @@ function renderBulkTable(){
     h+='<td class="tdr num" style="color:var(--t3)">'+(goal>0?goal.toLocaleString():'-')+'</td>';
     h+='<td class="tdr num" style="color:var(--t3)">'+(prevY>0?prevY.toLocaleString():'-')+'</td>';
     h+='<td class="tdr num" style="color:var(--t3)">'+(prevCumul>0?prevCumul.toLocaleString():'-')+'</td>';
-    h+='<td style="background:'+bg+';text-align:right"><input type="number" id="bulkw_'+i+'" placeholder="금주 실적" value="'+savedWk+'" '
-      +'style="width:104px;border:'+bd+';border-radius:4px;padding:6px 8px;font-size:13px;text-align:right;font-family:inherit;outline:none;background:'+bg+';font-weight:700" '
-      +'oninput="onWeekDelta('+i+')" data-prev="'+prevCumul+'"></td>';
-    h+='<td style="text-align:right;background:#F7F9FC"><input type="number" id="bulk_'+i+'" placeholder="자동" value="'+savedCum+'" '
+    /* 입력은 '누계'가 먼저다. 현업이 계열사에서 받는 숫자가 누계이기 때문이다.
+       금주 실적은 전주 누계와의 차이로 자동 계산된다. */
+    h+='<td style="background:'+bg+';text-align:right"><input type="number" id="bulk_'+i+'" placeholder="누계 매출" value="'+savedCum+'" '
+      +'style="width:110px;border:'+bd+';border-radius:4px;padding:6px 8px;font-size:13px;text-align:right;font-family:inherit;outline:none;background:'+bg+';font-weight:700" '
+      +'oninput="onWeekCumul('+i+')" data-prev="'+prevCumul+'" title="계열사에서 받은 누계 매출을 그대로 입력하세요."></td>';
+    h+='<td style="text-align:right;background:#F7F9FC"><input type="number" id="bulkw_'+i+'" placeholder="자동" value="'+savedWk+'" '
       +'style="width:104px;border:1px solid var(--bd);border-radius:4px;padding:6px 8px;font-size:13px;text-align:right;font-family:inherit;outline:none;background:#F7F9FC;color:var(--t2)" '
-      +'oninput="onWeekCumul('+i+')" data-prev="'+prevCumul+'" title="자동 계산됩니다. 누락 주차 보정 등 필요 시 직접 수정하세요."></td>';
+      +'oninput="onWeekDelta('+i+')" data-prev="'+prevCumul+'" title="전주 누계와의 차이로 자동 계산됩니다. 필요 시 직접 수정하세요."></td>';
     h+='<td class="tdr num" id="mo_amt_'+i+'" style="background:#F0FFF4;color:var(--gn);font-weight:700">-</td>';
     h+='<td><div class="pbw"><div class="pbt"><div class="pbf '+(pr===null?'':pr>=50?'pbg':pr>=30?'pba':'pbr')+'" style="width:'+(pr?Math.min(pr,100):0)+'%"></div></div>'
       +'<span class="ppp" style="color:'+pc+'">'+(pr===null?'-':pr.toFixed(1)+'%')+'</span></div></td>';
