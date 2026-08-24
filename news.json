@@ -50,13 +50,6 @@
       "query": "HLB펩"
     },
     {
-      "title": "[바이오 브리핑] 한독, HLB바이오스텝, 퓨처켐 - 신아일보",
-      "link": "https://news.google.com/rss/articles/CBMicEFVX3lxTFA3Q1JtMWh3Z2t0ZGhSQjRVUnN3cEh4X3FZSXhOZkdDQTY1ckFMWF9Va1VfZ3RrdVVXXzBQbzFnanUzNGhZTldJcW85cmpZb0JhQXFCRGd1NHNzOGRKc1Fjejg4UnA0NmJtQ19xalU0bHk?oc=5",
-      "source": "신아일보",
-      "pubDate": "2026-08-20T03:15:00+00:00",
-      "query": "HLB바이오스텝"
-    },
-    {
       "title": "DMD 치료제 잇단 실패…HLB파나진, 'PNA-AOC'로 새 해법 도전 - 뉴스1",
       "link": "https://news.google.com/rss/articles/CBMiYEFVX3lxTFBjWGRNMzlpcHJiRGY3TktQY0N5ektITlBDemNyOVVIdWZyN1QySnRvdTRHeFh6UDhOOXB4LVNGb0xtSlV3UEV1WElXdlBlVHBpNlkxODAtSzJmeGVKdlRhLdIBZkFVX3lxTFBEaE5nZEZPRm9Fc1hIeWNmdE5sX05NbWdDYmNpeEt2cnI1ejdFcGRJQk1vY3JHYTFRaHZISlFRN2R5b0VkdjBFZ2pQTFZseE0xUjdUVXdtZVBfcE5MRk83b00tS2VUQQ?oc=5",
       "source": "뉴스1",
@@ -83,8 +76,15 @@
       "source": "매일경제 마켓",
       "pubDate": "2026-08-20T00:27:43+00:00",
       "query": "HLB생명과학"
+    },
+    {
+      "title": "HLB바이오스텝, 日 시믹·아비테라와 MOU…영장류 GLPㆍ일본 비임상 공략 - 이투데이",
+      "link": "https://news.google.com/rss/articles/CBMiVEFVX3lxTFBpcVZfbTlZLVRCaFpZOGJxNlI0ZFVhcFJiTUxhUGJRam1jcEpWUWExNW96TTRfZ3U0aHh5dnZaOEljdG1NLTNFV3dfMHU0bE1XbS1qdQ?oc=5",
+      "source": "이투데이",
+      "pubDate": "2026-08-19T23:33:00+00:00",
+      "query": "HLB바이오스텝"
     }
   ],
-  "fetchedAt": "2026-08-24T22:40:16.430836+00:00",
+  "fetchedAt": "2026-08-24T23:06:19.083004+00:00",
   "count": 12
 }
