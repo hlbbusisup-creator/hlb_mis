@@ -43,18 +43,18 @@
       "query": "HLB 임상"
     },
     {
-      "title": "진양곤 의장, HLB펩 주식 2.2만주 장내 매수 - 중소기업신문",
-      "link": "https://news.google.com/rss/articles/CBMibkFVX3lxTE10a0xoQjBRdzdnUDdPbDlOZ3pXcWZSbU9mZ0FIbHVQREVFQTVtdVRfNk90cU51U25PNEVqOUNKcUEtWHlzRHhzVFRCV3JManRkN09LSmJrNGl6Zkhsd3BXYi03Mi1TSzJCc0J4cjRR?oc=5",
-      "source": "중소기업신문",
-      "pubDate": "2026-08-20T06:12:24+00:00",
-      "query": "HLB펩"
-    },
-    {
       "title": "HLB 이번엔 FDA 넘을까⋯담관암 치료제 허가 갈림길 - 아이뉴스24",
       "link": "https://news.google.com/rss/articles/CBMiS0FVX3lxTFA2RWFTYlhicUtRc2I2QWx4aG1sZlVKaHZTMlJxR2ZieEh4Y1Fvc0VjT2xpV3gzT01ZSXM5ZDRxNi1wdXZfVDJFUktfWQ?oc=5",
       "source": "아이뉴스24",
       "pubDate": "2026-08-20T04:20:42+00:00",
       "query": "HLB 허가"
+    },
+    {
+      "title": "진양곤 HLB그룹 의장, HLB펩 2만2000주 장내 매수 - 뉴스핌",
+      "link": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE5VWWQ4b0QyLUFGdFlBODZldjE5b3hJSUhVRmN1Tlk5d0xlSVgyODNnZ3FNUkZyNGFaRWM2bmNQNGlVdzhHeWU5cFRDU25uc1NLWTFENVNNVnRvNDF5?oc=5",
+      "source": "뉴스핌",
+      "pubDate": "2026-08-20T03:47:00+00:00",
+      "query": "HLB펩"
     },
     {
       "title": "[바이오 브리핑] 한독, HLB바이오스텝, 퓨처켐 - 신아일보",
@@ -113,6 +113,6 @@
       "query": "HLB제약"
     }
   ],
-  "fetchedAt": "2026-08-24T04:13:25.819336+00:00",
+  "fetchedAt": "2026-08-24T05:11:27.550878+00:00",
   "count": 16
 }
