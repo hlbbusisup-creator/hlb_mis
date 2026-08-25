@@ -1,10 +1,10 @@
 {
   "news": [
     {
-      "title": "HLB제넥스, '비타푸드 아시아' 참가…'소디자임' 글로벌 공략 - 메드월드뉴스",
-      "link": "https://news.google.com/rss/articles/CBMibEFVX3lxTE52bDZiVXRYcFZRMVFicU1VajZoZ0pIV3E5Q3o1LTZZVjY2YWxScVNQVnU2WVhwa2ppUmtZN3pOdzJSR0V0dVpKMzA0MHJqR3J1UXpLeE1XeGszcEstbEZzVzhkc0hYZXBpR0RZMQ?oc=5",
-      "source": "메드월드뉴스",
-      "pubDate": "2026-08-25T01:50:24+00:00",
+      "title": "HLB제넥스, 비타푸드 아시아 2026 참가…'소디자임' 글로벌 공략 - IT타임스",
+      "link": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE56NXVZZTEzcHNFSGFlakxHdW9ZODUwR3k5RjBiVzljYjMwMXlFMXctT1dxZWJnRE4xYm5LSUZsR2dXZ1ZLNkdPVlRHNWlubmVMN2RmbVNic1FHa0pwQmR1Wk50emk0UWNR?oc=5",
+      "source": "IT타임스",
+      "pubDate": "2026-08-25T03:06:57+00:00",
       "query": "HLB제넥스"
     },
     {
@@ -15,11 +15,11 @@
       "query": "HLB 신약"
     },
     {
-      "title": "한 달 앞 다가온 HLB 담관암 신약 운명의 날…FDA 문턱 넘을까 - v.daum.net",
-      "link": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE53dDJ6NjhlQVpnMHBldjc3Mk1oOG5oeE5WeTZIbnNvNGNPY3dMQjQ0Uks4eXhZbGNTa09zdkpvd0lDb1VjcFJ1RG0wcUlsVjg?oc=5",
-      "source": "v.daum.net",
-      "pubDate": "2026-08-24T20:00:13+00:00",
-      "query": "HLB FDA"
+      "title": "한 달 앞 다가온 HLB 담관암 신약 운명의 날…FDA 문턱 넘을까 - 네이트",
+      "link": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE9nQUtfN25pb3RtcU5TN3ByckRHUUNpNzNvSkE5dFVYZVRFS1NHbFRuZTdXeG1JTW1nVWtueEhxWTRWaWkzOWNmQmpjdlEwWGRET0NF?oc=5",
+      "source": "네이트",
+      "pubDate": "2026-08-24T20:01:00+00:00",
+      "query": "HLB 신약"
     },
     {
       "title": "[약업분석] HLB제약, 상반기 매출·영업익 증가…ROE 2.17%로 하락 - 약업신문",
@@ -64,6 +64,13 @@
       "query": "HLB펩"
     },
     {
+      "title": "[바이오 브리핑] 한독, HLB바이오스텝, 퓨처켐 - 신아일보",
+      "link": "https://news.google.com/rss/articles/CBMicEFVX3lxTFA3Q1JtMWh3Z2t0ZGhSQjRVUnN3cEh4X3FZSXhOZkdDQTY1ckFMWF9Va1VfZ3RrdVVXXzBQbzFnanUzNGhZTldJcW85cmpZb0JhQXFCRGd1NHNzOGRKc1Fjejg4UnA0NmJtQ19xalU0bHk?oc=5",
+      "source": "신아일보",
+      "pubDate": "2026-08-20T03:15:00+00:00",
+      "query": "HLB바이오스텝"
+    },
+    {
       "title": "DMD 치료제 잇단 실패…HLB파나진, 'PNA-AOC'로 새 해법 도전 - 뉴스1",
       "link": "https://news.google.com/rss/articles/CBMiYEFVX3lxTFBjWGRNMzlpcHJiRGY3TktQY0N5ektITlBDemNyOVVIdWZyN1QySnRvdTRHeFh6UDhOOXB4LVNGb0xtSlV3UEV1WElXdlBlVHBpNlkxODAtSzJmeGVKdlRhLdIBZkFVX3lxTFBEaE5nZEZPRm9Fc1hIeWNmdE5sX05NbWdDYmNpeEt2cnI1ejdFcGRJQk1vY3JHYTFRaHZISlFRN2R5b0VkdjBFZ2pQTFZseE0xUjdUVXdtZVBfcE5MRk83b00tS2VUQQ?oc=5",
       "source": "뉴스1",
@@ -92,6 +99,6 @@
       "query": "HLB생명과학"
     }
   ],
-  "fetchedAt": "2026-08-25T03:09:30.523378+00:00",
-  "count": 13
+  "fetchedAt": "2026-08-25T04:08:16.518382+00:00",
+  "count": 14
 }
