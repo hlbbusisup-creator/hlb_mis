@@ -1,18 +1,25 @@
 {
   "news": [
     {
+      "title": "HLB라이프케어 \"식후 15분 운동이 혈당 낮춘다\"…마이피코링 데이터 분석 결과 공개 - PRESS9",
+      "link": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE9iMG5WME9CZ2hjc1hGMmxMZUpHTTBZc3JCRTJMOXgxdEhwcmk0OGM5QU5FVld5eEduVDlUb0ZvU2xnVy1mOGFqc2FvdTIxN3ZHVGpPd0hRSUFBLV9wRG5SR1ZwSWk?oc=5",
+      "source": "PRESS9",
+      "pubDate": "2026-08-25T23:41:39+00:00",
+      "query": "HLB라이프케어"
+    },
+    {
+      "title": "HLB제넥스, 방콕 비타푸드 아시아 참가…SOD 소재 해외 공략 - PRESS9",
+      "link": "https://news.google.com/rss/articles/CBMiZEFVX3lxTFAtMHZuWUF6dG5kbDB0TkhrdkZIc1p0dXNhNkg1Y0xFS1o0NU9CSkpVNzJGZ1pNTktFSkpDRE1IYWlBMXA3bTgtaGFiOE9CcEFQOEFvd3ZYLThTSE5lcndKOVVIc0c?oc=5",
+      "source": "PRESS9",
+      "pubDate": "2026-08-25T23:33:58+00:00",
+      "query": "HLB제넥스"
+    },
+    {
       "title": "HLB, '담관암 신약' FDA 결정 임박…첫 신약 결실 맺나 - 아시아타임즈",
       "link": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE9OMWNDVzRzSHM2OUlhWm9CUGRUaGc5a2g0STI5SW5FUXAxWGp1MnhmZHc5YnBLN20yc3Vfd1J1dXBMdU84bGh0TkFkODltbkw1cEpyS2Y4dHlDbVp2Qnc?oc=5",
       "source": "아시아타임즈",
       "pubDate": "2026-08-25T11:56:00+00:00",
       "query": "HLB 신약"
-    },
-    {
-      "title": "HLB제넥스, 아시아 최대 건기식 전시회 '비타푸드 아시아' 참가...'소디자임' 전면 배치 - 팍스경제TV",
-      "link": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE5PdVNaMDVxZlBDWmY2RDI1WE1yci1mdkFpTjZJMFhnaTlEcU1FZHF3R29POUZwbWwwTlhOS29SZFlKTWFycWMwRDkzWURpQnk0bzhxZmsta1hQZGZPS3pCM0JycWkwRnJt?oc=5",
-      "source": "팍스경제TV",
-      "pubDate": "2026-08-25T09:11:31+00:00",
-      "query": "HLB제넥스"
     },
     {
       "title": "HLB제넥스, ‘소디자임’ 동남아 판로 넓힌다…태국서 신규 파트너 발굴 - 메디컬투데이",
@@ -92,6 +99,6 @@
       "query": "HLB생명과학"
     }
   ],
-  "fetchedAt": "2026-08-25T23:10:34.592807+00:00",
-  "count": 13
+  "fetchedAt": "2026-08-25T23:48:59.837008+00:00",
+  "count": 14
 }
