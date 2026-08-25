@@ -1,6 +1,13 @@
 {
   "news": [
     {
+      "title": "HLB제넥스, '비타푸드 아시아' 참가…한미약품 '에페' 다큐·유한양행 '원더씬' 첫선 - 한국면세뉴스",
+      "link": "https://news.google.com/rss/articles/CBMiakFVX3lxTFBXQUxOYmp6RlREOGMyOTNrYlNDVFpSeE5wa3g0cGlLRFl4emJMWWEzWlRsenRJWDRWUW5kbFhFcHNoRXc1aVBjcUFtTnk4bzc4RkQwanNQTWE3bXdoOFlRSVpyYXVCQjd5Ync?oc=5",
+      "source": "한국면세뉴스",
+      "pubDate": "2026-08-25T08:12:48+00:00",
+      "query": "HLB제넥스"
+    },
+    {
       "title": "HLB제넥스, 비타푸드 아시아서 '소디자임' 앞세워 동남아 공략 - ebn.co.kr",
       "link": "https://news.google.com/rss/articles/CBMiaEFVX3lxTFBhbXVXdDcyUDF2elNDSS1FSXJ1VFBuUUhIN0tnMHZjOGFrZzdhT0tYY3B4eExPOU1VYUloR3E4SG96Z2t2TnJrZUFaT2NjX19ZcXRBSWh4M2JtZlFQU3UwNThrOEQ3TjVh?oc=5",
       "source": "ebn.co.kr",
@@ -13,13 +20,6 @@
       "source": "아시아타임즈",
       "pubDate": "2026-08-25T05:50:00+00:00",
       "query": "HLB 신약"
-    },
-    {
-      "title": "HLB제넥스, 오는 9월 글로벌 B2B 전시회 ‘비타푸드 아시아’ 참가 - 더바이오",
-      "link": "https://news.google.com/rss/articles/CBMibEFVX3lxTE1JTTFKNU9nNHlhdDBrd1NnZkJNQWtOWGF6VGh4WHpmdnlqQ09GUTQ3OWJjZlVac1VmNWZOek5TZGM1LWoyb3VzbFlVUHlJZV9rQXlUTk9SbF8xWHZTS3k3YWk4eC1ac2Y0b2gyWdIBcEFVX3lxTE9GbmZQMVEwamItMGZCVFBTcFJTektDaTNiWnZ3ZHhlODV5M19oU25yRjFwb2wxSkt6X29WY3FyajRFSTNGSUlYS19ES2t6UWNBZXFZbm1Ebzc0WEVwbWFjQnlFSUpoZVdFZnpDSnhxOVE?oc=5",
-      "source": "더바이오",
-      "pubDate": "2026-08-24T23:27:25+00:00",
-      "query": "HLB제넥스"
     },
     {
       "title": "[특집 심층진단] HLB 그룹 재무·지배구조 정밀 진단 (하) - 뉴스밸류",
@@ -106,6 +106,6 @@
       "query": "HLB바이오스텝"
     }
   ],
-  "fetchedAt": "2026-08-25T08:09:11.322514+00:00",
+  "fetchedAt": "2026-08-25T09:07:53.365773+00:00",
   "count": 15
 }
