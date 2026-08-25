@@ -1,6 +1,13 @@
 {
   "news": [
     {
+      "title": "HLB, '담관암 신약' FDA 결정 임박…첫 신약 결실 맺나 - 아시아타임즈",
+      "link": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE9OMWNDVzRzSHM2OUlhWm9CUGRUaGc5a2g0STI5SW5FUXAxWGp1MnhmZHc5YnBLN20yc3Vfd1J1dXBMdU84bGh0TkFkODltbkw1cEpyS2Y4dHlDbVp2Qnc?oc=5",
+      "source": "아시아타임즈",
+      "pubDate": "2026-08-25T05:50:00+00:00",
+      "query": "HLB 신약"
+    },
+    {
       "title": "HLB제넥스, ‘소디자임’ 동남아 판로 넓힌다…태국서 신규 파트너 발굴 - 메디컬투데이",
       "link": "https://news.google.com/rss/articles/CBMibEFVX3lxTE9TazR2cHp4b3RRcnBoQTg0czlSVDVkdkZHWWVhXzFSckdWMDg5bHRmVmhNbEtzVmk2aUtPUXlEdG11eGRYSG1mTWFsTV9OYm8xM0FYVERScG16bjJHY0ZvVVNVa0EwSThlY0xIZg?oc=5",
       "source": "메디컬투데이",
@@ -8,10 +15,10 @@
       "query": "HLB제넥스"
     },
     {
-      "title": "HLB제넥스, '비타푸드 아시아' 참가…'소디자임' 글로벌 공략 - 메드월드뉴스",
-      "link": "https://news.google.com/rss/articles/CBMibkFVX3lxTE1ZUE1nSHlkdlI5dFhBOFdlS3FiVzJtRzdLd1ZZNW1pSzdZSXpjRS1JemFIbmVraHlzNi13elBTOU82bDV6X3dCV3p2Mk4xVXhDTW1BV0NscENFTVFyY0VLLTM0YlZEVmR3SGxpbzJR?oc=5",
-      "source": "메드월드뉴스",
-      "pubDate": "2026-08-25T01:50:24+00:00",
+      "title": "HLB제넥스, 비타푸드 아시아 2026 참가…'소디자임' 글로벌 공략 - IT타임스",
+      "link": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE56NXVZZTEzcHNFSGFlakxHdW9ZODUwR3k5RjBiVzljYjMwMXlFMXctT1dxZWJnRE4xYm5LSUZsR2dXZ1ZLNkdPVlRHNWlubmVMN2RmbVNic1FHa0pwQmR1Wk50emk0UWNR?oc=5",
+      "source": "IT타임스",
+      "pubDate": "2026-08-25T03:06:57+00:00",
       "query": "HLB제넥스"
     },
     {
@@ -20,13 +27,6 @@
       "source": "뉴스밸류",
       "pubDate": "2026-08-24T23:00:00+00:00",
       "query": "HLB 신약"
-    },
-    {
-      "title": "한 달 앞 다가온 HLB 담관암 신약 운명의 날…FDA 문턱 넘을까 - v.daum.net",
-      "link": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE53dDJ6NjhlQVpnMHBldjc3Mk1oOG5oeE5WeTZIbnNvNGNPY3dMQjQ0Uks4eXhZbGNTa09zdkpvd0lDb1VjcFJ1RG0wcUlsVjg?oc=5",
-      "source": "v.daum.net",
-      "pubDate": "2026-08-24T20:00:13+00:00",
-      "query": "HLB FDA"
     },
     {
       "title": "[약업분석] HLB제약, 상반기 매출·영업익 증가…ROE 2.17%로 하락 - 약업신문",
@@ -61,7 +61,7 @@
       "link": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE8yOTNJU2FHQTZIX3o3Y2pob3htZmdNLW5RSFBHV0JfcEdiNlpjbmpDcGdpMzBsNU9CUzJsQWpDMldzOTFpYnJrM21iV2toeUJUZUJzZ0dzUW5peDh0VnBuUHVONS00Szgw?oc=5",
       "source": "팍스경제TV",
       "pubDate": "2026-08-20T07:46:07+00:00",
-      "query": "HLB 임상"
+      "query": "HLB바이오스텝"
     },
     {
       "title": "진양곤 HLB그룹 의장, HLB펩 2만2000주 장내 매수 - 뉴스핌",
@@ -106,6 +106,6 @@
       "query": "HLB바이오스텝"
     }
   ],
-  "fetchedAt": "2026-08-25T05:45:17.506233+00:00",
+  "fetchedAt": "2026-08-25T06:19:55.731807+00:00",
   "count": 15
 }
