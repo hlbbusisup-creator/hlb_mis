@@ -1,10 +1,10 @@
 {
   "news": [
     {
-      "title": "HLB제넥스, '비타푸드 아시아 2026' 참가…\"소디자임 소개\" - 네이트",
-      "link": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE9aV1NSLW1EVGZYMTBUWUN0TDVpWnJFanRKX0ktV0pQQks4Tm1SQk94Y3VoNmwzcVRvRzhTWW1TMDNMWE5fUktrZWZBMW41dFdJTzRJ?oc=5",
+      "title": "HLB제넥스, 방콕 비타푸드 참가…효소 원료 '소디자임' 소개 - 네이트",
+      "link": "https://news.google.com/rss/articles/CBMieEFVX3lxTE0yOS1LMzl4VzVFVEU1blNhZ1RfOXFpeFZqekNQcmx6M0M0MUhVWFYwZmlPSm5XeFBHbG1tN0VJWVJXSXN3dmZ4cTF0NkZ0aS1qeUg5OWtfTndCUUc2Mk90dDZhMWJiWlhUMHAySEpBX2NRSGkzRW96Zg?oc=5",
       "source": "네이트",
-      "pubDate": "2026-08-24T23:08:00+00:00",
+      "pubDate": "2026-08-24T23:55:00+00:00",
       "query": "HLB제넥스"
     },
     {
@@ -47,7 +47,7 @@
       "link": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE8yOTNJU2FHQTZIX3o3Y2pob3htZmdNLW5RSFBHV0JfcEdiNlpjbmpDcGdpMzBsNU9CUzJsQWpDMldzOTFpYnJrM21iV2toeUJUZUJzZ0dzUW5peDh0VnBuUHVONS00Szgw?oc=5",
       "source": "팍스경제TV",
       "pubDate": "2026-08-20T07:46:07+00:00",
-      "query": "HLB바이오스텝"
+      "query": "HLB 임상"
     },
     {
       "title": "HLB그룹 회장 진양곤, HLB펩 주식 2만2천 주 1억어치 장내 매수 - 비즈니스포스트",
@@ -92,6 +92,6 @@
       "query": "HLB생명과학"
     }
   ],
-  "fetchedAt": "2026-08-24T23:33:51.585966+00:00",
+  "fetchedAt": "2026-08-25T00:01:48.592781+00:00",
   "count": 13
 }
