@@ -1,17 +1,10 @@
 {
   "news": [
     {
-      "title": "HLB제넥스, '비타푸드 아시아' 참가…한미약품 '에페' 다큐·유한양행 '원더씬' 첫선 - 한국면세뉴스",
-      "link": "https://news.google.com/rss/articles/CBMiakFVX3lxTFBXQUxOYmp6RlREOGMyOTNrYlNDVFpSeE5wa3g0cGlLRFl4emJMWWEzWlRsenRJWDRWUW5kbFhFcHNoRXc1aVBjcUFtTnk4bzc4RkQwanNQTWE3bXdoOFlRSVpyYXVCQjd5Ync?oc=5",
-      "source": "한국면세뉴스",
-      "pubDate": "2026-08-25T08:12:48+00:00",
-      "query": "HLB제넥스"
-    },
-    {
-      "title": "HLB제넥스, 비타푸드 아시아서 '소디자임' 앞세워 동남아 공략 - ebn.co.kr",
-      "link": "https://news.google.com/rss/articles/CBMiaEFVX3lxTFBhbXVXdDcyUDF2elNDSS1FSXJ1VFBuUUhIN0tnMHZjOGFrZzdhT0tYY3B4eExPOU1VYUloR3E4SG96Z2t2TnJrZUFaT2NjX19ZcXRBSWh4M2JtZlFQU3UwNThrOEQ3TjVh?oc=5",
-      "source": "ebn.co.kr",
-      "pubDate": "2026-08-25T06:35:30+00:00",
+      "title": "HLB제넥스, 아시아 최대 건기식 전시회 '비타푸드 아시아' 참가...'소디자임' 전면 배치 - 팍스경제TV",
+      "link": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE5PdVNaMDVxZlBDWmY2RDI1WE1yci1mdkFpTjZJMFhnaTlEcU1FZHF3R29POUZwbWwwTlhOS29SZFlKTWFycWMwRDkzWURpQnk0bzhxZmsta1hQZGZPS3pCM0JycWkwRnJt?oc=5",
+      "source": "팍스경제TV",
+      "pubDate": "2026-08-25T09:11:31+00:00",
       "query": "HLB제넥스"
     },
     {
@@ -20,6 +13,13 @@
       "source": "아시아타임즈",
       "pubDate": "2026-08-25T05:50:00+00:00",
       "query": "HLB 신약"
+    },
+    {
+      "title": "HLB제넥스, ‘소디자임’ 동남아 판로 넓힌다…태국서 신규 파트너 발굴 - 메디컬투데이",
+      "link": "https://news.google.com/rss/articles/CBMibEFVX3lxTE9TazR2cHp4b3RRcnBoQTg0czlSVDVkdkZHWWVhXzFSckdWMDg5bHRmVmhNbEtzVmk2aUtPUXlEdG11eGRYSG1mTWFsTV9OYm8xM0FYVERScG16bjJHY0ZvVVNVa0EwSThlY0xIZg?oc=5",
+      "source": "메디컬투데이",
+      "pubDate": "2026-08-25T04:16:30+00:00",
+      "query": "HLB제넥스"
     },
     {
       "title": "[특집 심층진단] HLB 그룹 재무·지배구조 정밀 진단 (하) - 뉴스밸류",
@@ -97,15 +97,8 @@
       "source": "매일경제 마켓",
       "pubDate": "2026-08-20T00:27:43+00:00",
       "query": "HLB생명과학"
-    },
-    {
-      "title": "HLB바이오스텝, 日 시믹·아비테라와 MOU…영장류 GLPㆍ일본 비임상 공략 - 이투데이",
-      "link": "https://news.google.com/rss/articles/CBMiVEFVX3lxTFBpcVZfbTlZLVRCaFpZOGJxNlI0ZFVhcFJiTUxhUGJRam1jcEpWUWExNW96TTRfZ3U0aHh5dnZaOEljdG1NLTNFV3dfMHU0bE1XbS1qdQ?oc=5",
-      "source": "이투데이",
-      "pubDate": "2026-08-19T23:33:00+00:00",
-      "query": "HLB바이오스텝"
     }
   ],
-  "fetchedAt": "2026-08-25T09:07:53.365773+00:00",
-  "count": 15
+  "fetchedAt": "2026-08-25T10:00:32.053137+00:00",
+  "count": 14
 }
