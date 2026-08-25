@@ -29,6 +29,13 @@
       "query": "HLB 신약"
     },
     {
+      "title": "[약업분석] HLB제약, 상반기 매출·영업익 증가…ROE 2.17%로 하락 - 약업신문",
+      "link": "https://news.google.com/rss/articles/CBMiekFVX3lxTE9oOGRheHctdWtWQk8xaHVOUHE2RVJrVl9WSFBNSDdnYzBKeFdUVmQ2MEdhVzJZSkRaSjVNWGFEN0pHVExMUGp3UDNuNElnZk55ZjhxUnFJcmdZLWVQY2RJNzBZaHpia2xHVS1lSFNfZndoVkhOaUhQT2R3?oc=5",
+      "source": "약업신문",
+      "pubDate": "2026-08-24T06:55:00+00:00",
+      "query": "HLB제약"
+    },
+    {
       "title": "HLB, MSCI 8년 만에 퇴출…FDA 불발에 시총 2조 증발 - 블로터",
       "link": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE9ILUc0LURpVW42RzVzTnJCSjZabC12S3BPb1p4bnlkTE5fdFNZd0FSZ2FWdlFvOHdXS2FqYzhfYmZfZ2FKeVR0OXhrMTJwdVpnZ3pSVGU3M1ZGZXVBSTd0TTVpaGhpcFhl0gFsQVVfeXFMUHpGQjJ0RVFNMWpPcU5kWlRCaDI3TnZZWDRlQ2d1cnoyZ3MtdmptakVudXRTbTduZTh0U2E3al8ycjFFWXJIVmVhRUt0NWRyNndmUVRLN3NEY2lVcW1IQ09vOGdJaVNHWGc4WEdC?oc=5",
       "source": "블로터",
@@ -41,13 +48,6 @@
       "source": "씽크풀 AI",
       "pubDate": "2026-08-23T04:53:55+00:00",
       "query": "HLB생명과학"
-    },
-    {
-      "title": "HLB제약, 신주인수권증서 26일 신규 상장 - bntnews.co.kr",
-      "link": "https://news.google.com/rss/articles/CBMiZEFVX3lxTFBCU25TVUIxYzI2UmQ5VVNVaEUyTDhjTllHV3ZWejdwSldyZFJyZVFLNkd3SEVSVURibHVrOHBwUFpabWJ0Q1A4VDJ0blRLZWNCNjNSSmYzTERDQzl1cHhvWGdvWm0?oc=5",
-      "source": "bntnews.co.kr",
-      "pubDate": "2026-08-21T06:58:21+00:00",
-      "query": "HLB제약"
     },
     {
       "title": "HLB테라퓨틱스, 전환사채 50억 원 조기상환...최대주주 Put Option 행사 - Investing.com 한국어",
@@ -99,6 +99,6 @@
       "query": "HLB생명과학"
     }
   ],
-  "fetchedAt": "2026-08-25T17:05:08.269572+00:00",
+  "fetchedAt": "2026-08-25T17:44:02.436356+00:00",
   "count": 14
 }
