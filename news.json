@@ -1,10 +1,10 @@
 {
   "news": [
     {
-      "title": "HLB라이프케어 \"식후 15분 운동이 혈당 낮춘다\"…마이피코링 데이터 분석 결과 공개 - PRESS9",
-      "link": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE9iMG5WME9CZ2hjc1hGMmxMZUpHTTBZc3JCRTJMOXgxdEhwcmk0OGM5QU5FVld5eEduVDlUb0ZvU2xnVy1mOGFqc2FvdTIxN3ZHVGpPd0hRSUFBLV9wRG5SR1ZwSWk?oc=5",
-      "source": "PRESS9",
-      "pubDate": "2026-08-25T23:41:39+00:00",
+      "title": "HLB라이프케어, ‘마이피코링 데이터’ 식후 운동 시 혈당 상승폭 감소 확인 - 팍스경제TV",
+      "link": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE92OGVHVFI2SHNubXJQX3VQM2lVcnJMN3Z4UjN0MTlVR2xqYXRQRzZYcWlvZnpmN1d2X0tjb1VMQ0YxVko2Y0FERmdfQzlLeWF5SUlaZ2lhZ1hCSmFnemJ2cmZxSmJBb2x3?oc=5",
+      "source": "팍스경제TV",
+      "pubDate": "2026-08-26T00:25:25+00:00",
       "query": "HLB라이프케어"
     },
     {
@@ -64,10 +64,10 @@
       "query": "HLB 임상"
     },
     {
-      "title": "진양곤 HLB그룹 의장, HLB펩 2만2000주 장내 매수 - 뉴스핌",
-      "link": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE5VWWQ4b0QyLUFGdFlBODZldjE5b3hJSUhVRmN1Tlk5d0xlSVgyODNnZ3FNUkZyNGFaRWM2bmNQNGlVdzhHeWU5cFRDU25uc1NLWTFENVNNVnRvNDF5?oc=5",
-      "source": "뉴스핌",
-      "pubDate": "2026-08-20T03:47:00+00:00",
+      "title": "HLB그룹 회장 진양곤, HLB펩 주식 2만2천 주 1억어치 장내 매수 - 비즈니스포스트",
+      "link": "https://news.google.com/rss/articles/CBMic0FVX3lxTE1Md2hUSlloZ0p4MWlhVV9QZWctUUlZUUFHYzE0Smt4Y3RyNXNyLU1fdE00ODhKc0owdzNudnF2NUpvODVuWnRhNWNrX3lyZjhFRjl2UEl1WWRpSXNUR3AyamYxYWV2Rm5QSTBXZU1qX2VwVms?oc=5",
+      "source": "비즈니스포스트",
+      "pubDate": "2026-08-20T06:06:12+00:00",
       "query": "HLB펩"
     },
     {
@@ -99,6 +99,6 @@
       "query": "HLB생명과학"
     }
   ],
-  "fetchedAt": "2026-08-25T23:48:59.837008+00:00",
+  "fetchedAt": "2026-08-26T01:55:10.369967+00:00",
   "count": 14
 }
