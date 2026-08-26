@@ -1,15 +1,15 @@
 {
   "news": [
     {
-      "title": "HLB테라퓨틱스, 'RGN-259' 글로벌 3상 종료…11월 톱라인 발표 - 아시아경제",
-      "link": "https://news.google.com/rss/articles/CBMiYEFVX3lxTFBaTHFBemU2d0swcWpCcEMzSzRPNS1sSTgxYW5nX0tvTHE2RklJVGZmTVVlVU9Nam9pRlg4WkZfaVo3NlNEcUdxaVJmQjFIQmtnemZQRXNMbkQtSU03ZVhSUA?oc=5",
-      "source": "아시아경제",
-      "pubDate": "2026-08-26T02:32:25+00:00",
+      "title": "HLB테라퓨틱스, 'RGN-259' 글로벌 3상 완료…11월 톱라인 발표 - IT타임스",
+      "link": "https://news.google.com/rss/articles/CBMiaEFVX3lxTFBfeDRubVh6UTZ2SEZaMjgzZTh3a18yYmxRRlJ4ZktoeGE0VXpfbjlJdWFMN3UtYzRYVDlFQzVmN3NPUC1iczA0X3hrQ2E5MzNJTTdublZhcHcwd3k0SThCLUlrRkVsTjBP?oc=5",
+      "source": "IT타임스",
+      "pubDate": "2026-08-26T03:10:07+00:00",
       "query": "HLB테라퓨틱스"
     },
     {
       "title": "HLB라이프케어, ‘마이피코링 데이터’ 식후 운동 시 혈당 상승폭 감소 확인 - 팍스경제TV",
-      "link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE1hNDdONmFFY09LN0hDNU1BZ1B2X3VZM0s0OEdudE1aR0I5OWVXOUVjdlVhd3lrM3ozUzhjdkRSdUxIeFV1MmtSUmptTF8yWTlLWDNwaS0yRHFLa292clVPM0hfZmJmNTA?oc=5",
+      "link": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE92OGVHVFI2SHNubXJQX3VQM2lVcnJMN3Z4UjN0MTlVR2xqYXRQRzZYcWlvZnpmN1d2X0tjb1VMQ0YxVko2Y0FERmdfQzlLeWF5SUlaZ2lhZ1hCSmFnemJ2cmZxSmJBb2x3?oc=5",
       "source": "팍스경제TV",
       "pubDate": "2026-08-26T00:25:25+00:00",
       "query": "HLB라이프케어"
@@ -27,13 +27,6 @@
       "source": "아시아타임즈",
       "pubDate": "2026-08-25T11:56:00+00:00",
       "query": "HLB 신약"
-    },
-    {
-      "title": "HLB제넥스, ‘소디자임’ 동남아 판로 넓힌다…태국서 신규 파트너 발굴 - 메디컬투데이",
-      "link": "https://news.google.com/rss/articles/CBMibEFVX3lxTE9TazR2cHp4b3RRcnBoQTg0czlSVDVkdkZHWWVhXzFSckdWMDg5bHRmVmhNbEtzVmk2aUtPUXlEdG11eGRYSG1mTWFsTV9OYm8xM0FYVERScG16bjJHY0ZvVVNVa0EwSThlY0xIZg?oc=5",
-      "source": "메디컬투데이",
-      "pubDate": "2026-08-25T04:16:30+00:00",
-      "query": "HLB제넥스"
     },
     {
       "title": "[약업분석] HLB제약, 상반기 매출·영업익 증가…ROE 2.17%로 하락 - 약업신문",
@@ -99,6 +92,6 @@
       "query": "HLB생명과학"
     }
   ],
-  "fetchedAt": "2026-08-26T03:15:35.896105+00:00",
-  "count": 14
+  "fetchedAt": "2026-08-26T04:09:58.292743+00:00",
+  "count": 13
 }
