@@ -12,7 +12,7 @@
       "link": "https://news.google.com/rss/articles/CBMia0FVX3lxTFBXM0VlS3UzN04yUGEyZVhTc2czNzZJRW5aYVVzT0o3bXBtX1FHMXh4UGlJMDJzWDZ5VUtKVVB3eFZ1RFBDTWxHbU1xTndKcnc5ZXNSQzVHTmVEc3A4Z0NkR21ENVU5aTY3VEx3?oc=5",
       "source": "메디칼업저버",
       "pubDate": "2026-08-26T10:02:33+00:00",
-      "query": "HLB테라퓨틱스"
+      "query": "HLB 임상"
     },
     {
       "title": "HLB이노베이션, 350억 단기차입으로 HLB셀 인수... 신사업 시너지 본격화 - 데이터투자",
@@ -71,13 +71,6 @@
       "query": "HLB 신약"
     },
     {
-      "title": "[실적속보]HLB생명과학, 올해 2Q 매출액 146억(+25%) 영업이익 -75.6억(적자지속) (연결) - 씽크풀 AI",
-      "link": "https://news.google.com/rss/articles/CBMiaEFVX3lxTFBTY1NxRUY4NGJzQVhKdTZ2UWVsWE81TkgtVk9qaEM4T0xSVk9yb0tNOWdTeVN2VTJQX3V3X1B3dFdGaGFvOGhacFhUa1ZZV3YwdTZqYm5SVVhrM2g1QndKeUJQeDN1M1At?oc=5",
-      "source": "씽크풀 AI",
-      "pubDate": "2026-08-23T04:53:55+00:00",
-      "query": "HLB생명과학"
-    },
-    {
       "title": "HLB바이오스텝, 한·일 비임상시험 협력...글로벌 사업 확대 - 팍스경제TV",
       "link": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE8yOTNJU2FHQTZIX3o3Y2pob3htZmdNLW5RSFBHV0JfcEdiNlpjbmpDcGdpMzBsNU9CUzJsQWpDMldzOTFpYnJrM21iV2toeUJUZUJzZ0dzUW5peDh0VnBuUHVONS00Szgw?oc=5",
       "source": "팍스경제TV",
@@ -85,10 +78,10 @@
       "query": "HLB바이오스텝"
     },
     {
-      "title": "HLB펩, 진양곤 의장 2만2000주 장내 매수 - v.daum.net",
-      "link": "https://news.google.com/rss/articles/CBMiS0FVX3lxTFBGSGc1S2k2b0hEQ2daWVBEUWt3MS1YM0lwazFCRy1lekRQUGh2U2pyWTA4aUx0ZTVtZWdCU2ZFYmo4bUQ0VlZIVUtqNA?oc=5",
-      "source": "v.daum.net",
-      "pubDate": "2026-08-20T06:08:51+00:00",
+      "title": "HLB그룹 회장 진양곤, HLB펩 주식 2만2천 주 1억어치 장내 매수 - 비즈니스포스트",
+      "link": "https://news.google.com/rss/articles/CBMic0FVX3lxTE1Md2hUSlloZ0p4MWlhVV9QZWctUUlZUUFHYzE0Smt4Y3RyNXNyLU1fdE00ODhKc0owdzNudnF2NUpvODVuWnRhNWNrX3lyZjhFRjl2UEl1WWRpSXNUR3AyamYxYWV2Rm5QSTBXZU1qX2VwVms?oc=5",
+      "source": "비즈니스포스트",
+      "pubDate": "2026-08-20T06:06:12+00:00",
       "query": "HLB펩"
     },
     {
@@ -120,6 +113,6 @@
       "query": "HLB생명과학"
     }
   ],
-  "fetchedAt": "2026-08-26T14:29:13.932180+00:00",
-  "count": 17
+  "fetchedAt": "2026-08-26T16:05:49.531328+00:00",
+  "count": 16
 }
