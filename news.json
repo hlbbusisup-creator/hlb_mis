@@ -1,15 +1,22 @@
 {
   "news": [
     {
+      "title": "HLB테라퓨틱스, 'RGN-259' 글로벌 3상 종료…11월 톱라인 발표 - 아시아경제",
+      "link": "https://news.google.com/rss/articles/CBMiYEFVX3lxTFBaTHFBemU2d0swcWpCcEMzSzRPNS1sSTgxYW5nX0tvTHE2RklJVGZmTVVlVU9Nam9pRlg4WkZfaVo3NlNEcUdxaVJmQjFIQmtnemZQRXNMbkQtSU03ZVhSUA?oc=5",
+      "source": "아시아경제",
+      "pubDate": "2026-08-26T02:32:25+00:00",
+      "query": "HLB테라퓨틱스"
+    },
+    {
       "title": "HLB라이프케어, ‘마이피코링 데이터’ 식후 운동 시 혈당 상승폭 감소 확인 - 팍스경제TV",
-      "link": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE92OGVHVFI2SHNubXJQX3VQM2lVcnJMN3Z4UjN0MTlVR2xqYXRQRzZYcWlvZnpmN1d2X0tjb1VMQ0YxVko2Y0FERmdfQzlLeWF5SUlaZ2lhZ1hCSmFnemJ2cmZxSmJBb2x3?oc=5",
+      "link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE1hNDdONmFFY09LN0hDNU1BZ1B2X3VZM0s0OEdudE1aR0I5OWVXOUVjdlVhd3lrM3ozUzhjdkRSdUxIeFV1MmtSUmptTF8yWTlLWDNwaS0yRHFLa292clVPM0hfZmJmNTA?oc=5",
       "source": "팍스경제TV",
       "pubDate": "2026-08-26T00:25:25+00:00",
       "query": "HLB라이프케어"
     },
     {
       "title": "HLB제넥스, 방콕 비타푸드 아시아 참가…SOD 소재 해외 공략 - PRESS9",
-      "link": "https://news.google.com/rss/articles/CBMiZEFVX3lxTFAtMHZuWUF6dG5kbDB0TkhrdkZIc1p0dXNhNkg1Y0xFS1o0NU9CSkpVNzJGZ1pNTktFSkpDRE1IYWlBMXA3bTgtaGFiOE9CcEFQOEFvd3ZYLThTSE5lcndKOVVIc0c?oc=5",
+      "link": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE5SYnFCRm4yM0FIMW5UV0RSSFQwM1pKZXdTdmZmSlgxT1NtX0NCd1dfVDFJVGszenR2bkhueEJ0bF9RU080d3JPblRWXy1jOV9uU1h2Q3RyNzdTbDhYZGRIalZVVWg0dw?oc=5",
       "source": "PRESS9",
       "pubDate": "2026-08-25T23:33:58+00:00",
       "query": "HLB제넥스"
@@ -41,13 +48,6 @@
       "source": "블로터",
       "pubDate": "2026-08-23T06:30:00+00:00",
       "query": "HLB 신약"
-    },
-    {
-      "title": "[실적속보]HLB생명과학, 올해 2Q 매출액 146억(+25%) 영업이익 -75.6억(적자지속) (연결) - 씽크풀 AI",
-      "link": "https://news.google.com/rss/articles/CBMiaEFVX3lxTFBTY1NxRUY4NGJzQVhKdTZ2UWVsWE81TkgtVk9qaEM4T0xSVk9yb0tNOWdTeVN2VTJQX3V3X1B3dFdGaGFvOGhacFhUa1ZZV3YwdTZqYm5SVVhrM2g1QndKeUJQeDN1M1At?oc=5",
-      "source": "씽크풀 AI",
-      "pubDate": "2026-08-23T04:53:55+00:00",
-      "query": "HLB생명과학"
     },
     {
       "title": "HLB테라퓨틱스, 전환사채 50억 원 조기상환...최대주주 Put Option 행사 - Investing.com 한국어",
@@ -99,6 +99,6 @@
       "query": "HLB생명과학"
     }
   ],
-  "fetchedAt": "2026-08-26T01:55:10.369967+00:00",
+  "fetchedAt": "2026-08-26T03:15:35.896105+00:00",
   "count": 14
 }
