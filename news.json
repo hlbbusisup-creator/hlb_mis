@@ -23,7 +23,7 @@
     },
     {
       "title": "HLB제넥스, 방콕 비타푸드 아시아 참가…SOD 소재 해외 공략 - PRESS9",
-      "link": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE5SYnFCRm4yM0FIMW5UV0RSSFQwM1pKZXdTdmZmSlgxT1NtX0NCd1dfVDFJVGszenR2bkhueEJ0bF9RU080d3JPblRWXy1jOV9uU1h2Q3RyNzdTbDhYZGRIalZVVWg0dw?oc=5",
+      "link": "https://news.google.com/rss/articles/CBMiZEFVX3lxTFAtMHZuWUF6dG5kbDB0TkhrdkZIc1p0dXNhNkg1Y0xFS1o0NU9CSkpVNzJGZ1pNTktFSkpDRE1IYWlBMXA3bTgtaGFiOE9CcEFQOEFvd3ZYLThTSE5lcndKOVVIc0c?oc=5",
       "source": "PRESS9",
       "pubDate": "2026-08-25T23:33:58+00:00",
       "query": "HLB제넥스"
@@ -50,17 +50,31 @@
       "query": "HLB 신약"
     },
     {
+      "title": "[실적속보]HLB생명과학, 올해 2Q 매출액 146억(+25%) 영업이익 -75.6억(적자지속) (연결) - 씽크풀 AI",
+      "link": "https://news.google.com/rss/articles/CBMiaEFVX3lxTFBTY1NxRUY4NGJzQVhKdTZ2UWVsWE81TkgtVk9qaEM4T0xSVk9yb0tNOWdTeVN2VTJQX3V3X1B3dFdGaGFvOGhacFhUa1ZZV3YwdTZqYm5SVVhrM2g1QndKeUJQeDN1M1At?oc=5",
+      "source": "씽크풀 AI",
+      "pubDate": "2026-08-23T04:53:55+00:00",
+      "query": "HLB생명과학"
+    },
+    {
+      "title": "HLB테라퓨틱스, 전환사채 50억 원 조기상환...최대주주 Put Option 행사 - Investing.com 한국어",
+      "link": "https://news.google.com/rss/articles/CBMic0FVX3lxTE9lY3NZUV9uclFmREt4WkpaN0pLRjJKaW9PaHhlT1AyMm41anZGS2w3SlZWTFRlNHdHaTNxR2oxcXRmOEh4M0pPal8wLThzaTREVU9GSW0xV0lhWkN0WDFOWkMxT3dZUXFDaFozN3pCTG8xVU0?oc=5",
+      "source": "Investing.com 한국어",
+      "pubDate": "2026-08-21T00:31:00+00:00",
+      "query": "HLB테라퓨틱스"
+    },
+    {
       "title": "HLB바이오스텝, 한·일 비임상시험 협력...글로벌 사업 확대 - 팍스경제TV",
       "link": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE8yOTNJU2FHQTZIX3o3Y2pob3htZmdNLW5RSFBHV0JfcEdiNlpjbmpDcGdpMzBsNU9CUzJsQWpDMldzOTFpYnJrM21iV2toeUJUZUJzZ0dzUW5peDh0VnBuUHVONS00Szgw?oc=5",
       "source": "팍스경제TV",
       "pubDate": "2026-08-20T07:46:07+00:00",
-      "query": "HLB 임상"
+      "query": "HLB바이오스텝"
     },
     {
-      "title": "HLB그룹 회장 진양곤, HLB펩 주식 2만2천 주 1억어치 장내 매수 - 비즈니스포스트",
-      "link": "https://news.google.com/rss/articles/CBMic0FVX3lxTE1Md2hUSlloZ0p4MWlhVV9QZWctUUlZUUFHYzE0Smt4Y3RyNXNyLU1fdE00ODhKc0owdzNudnF2NUpvODVuWnRhNWNrX3lyZjhFRjl2UEl1WWRpSXNUR3AyamYxYWV2Rm5QSTBXZU1qX2VwVms?oc=5",
-      "source": "비즈니스포스트",
-      "pubDate": "2026-08-20T06:06:12+00:00",
+      "title": "진양곤 의장, HLB펩 주식 2.2만주 장내 매수 - 중소기업신문",
+      "link": "https://news.google.com/rss/articles/CBMibkFVX3lxTE10a0xoQjBRdzdnUDdPbDlOZ3pXcWZSbU9mZ0FIbHVQREVFQTVtdVRfNk90cU51U25PNEVqOUNKcUEtWHlzRHhzVFRCV3JManRkN09LSmJrNGl6Zkhsd3BXYi03Mi1TSzJCc0J4cjRR?oc=5",
+      "source": "중소기업신문",
+      "pubDate": "2026-08-20T06:12:24+00:00",
       "query": "HLB펩"
     },
     {
@@ -92,6 +106,6 @@
       "query": "HLB생명과학"
     }
   ],
-  "fetchedAt": "2026-08-26T05:05:10.294715+00:00",
-  "count": 13
+  "fetchedAt": "2026-08-26T05:48:15.326988+00:00",
+  "count": 15
 }
