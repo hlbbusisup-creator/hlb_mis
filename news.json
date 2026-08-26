@@ -30,7 +30,7 @@
     },
     {
       "title": "HLB테라퓨틱스, ‘RGN-259’ 글로벌 3상 종료 外 - 톱데일리",
-      "link": "https://news.google.com/rss/articles/CBMiT0FVX3lxTFAzeUtZZ2JGN0FmM3NyWUUtYjRFOXBhR1FnOFBGcmtfTnhzeDVvSjdzWUZfZ3BaM2IxSjN5MllmcngzRmJhTmZDb2NVdHJhRm8?oc=5",
+      "link": "https://news.google.com/rss/articles/CBMiUEFVX3lxTFBIT0syb2hzNlFfeFY2YUY2YXg2eXd2QmFmY0pENDZ2N2V0dEJTekZjVkF2MzBpQjVzVXhZZ1FRNC0tbTZjUTVtZjg3dXBiTWY5?oc=5",
       "source": "톱데일리",
       "pubDate": "2026-08-26T06:54:00+00:00",
       "query": "HLB테라퓨틱스"
@@ -69,6 +69,13 @@
       "source": "블로터",
       "pubDate": "2026-08-23T06:30:00+00:00",
       "query": "HLB 신약"
+    },
+    {
+      "title": "[실적속보]HLB생명과학, 올해 2Q 매출액 146억(+25%) 영업이익 -75.6억(적자지속) (연결) - 씽크풀 AI",
+      "link": "https://news.google.com/rss/articles/CBMiaEFVX3lxTFBTY1NxRUY4NGJzQVhKdTZ2UWVsWE81TkgtVk9qaEM4T0xSVk9yb0tNOWdTeVN2VTJQX3V3X1B3dFdGaGFvOGhacFhUa1ZZV3YwdTZqYm5SVVhrM2g1QndKeUJQeDN1M1At?oc=5",
+      "source": "씽크풀 AI",
+      "pubDate": "2026-08-23T04:53:55+00:00",
+      "query": "HLB생명과학"
     },
     {
       "title": "HLB바이오스텝, 한·일 비임상시험 협력...글로벌 사업 확대 - 팍스경제TV",
@@ -113,6 +120,6 @@
       "query": "HLB생명과학"
     }
   ],
-  "fetchedAt": "2026-08-26T13:33:25.439046+00:00",
-  "count": 16
+  "fetchedAt": "2026-08-26T14:29:13.932180+00:00",
+  "count": 17
 }
