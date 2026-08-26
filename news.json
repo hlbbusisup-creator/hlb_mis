@@ -1,10 +1,10 @@
 {
   "news": [
     {
-      "title": "HLB제넥스, '비타푸드 아시아' 참가…'소디자임' 글로벌 공략 - 네이트",
-      "link": "https://news.google.com/rss/articles/CBMieEFVX3lxTE15VU1oTEdTN2U1Nll3ZzJIbVBTSHF4TWJMTm5BWEZ6NDdQOEI3bkUydHMtOEZydFJDTEx2bXZYUGNEVUZBbk13TmVMcGdpa2p4MXA2TEM1eWJtaDdWdG5VQm9MQ1NzMk91a09RSTVaaVRYcGt1TnNpZA?oc=5",
-      "source": "네이트",
-      "pubDate": "2026-08-26T06:59:00+00:00",
+      "title": "HLB제넥스, '비타푸드 아시아' 참가…'소디자임' 글로벌 공략 - 뉴스1",
+      "link": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE5CTHE0LUZHb3Bsay1VQ1VBaFJuMlhtalRMbDRzSkEyc3ItanF5WktDNzhDNnhDd1RlME4wMUxnU08wSHRVamFJRzBJVHc0SkpIaW1Lekxab24yYWtCY28tN9IBZkFVX3lxTE82cmR1TFpwU3ZTRmZ6bmFNa3dNdWZwOWhaWl8tbGlNRVFvcExMVzNtZ1lNamlYR3N5eWRBR1E3bGRMWFpSa2NlMl9LbmFCRFRqa1VmLTRMcmp0SXRBS1NSeGpKWlp5UQ?oc=5",
+      "source": "뉴스1",
+      "pubDate": "2026-08-26T06:58:48+00:00",
       "query": "HLB제넥스"
     },
     {
@@ -50,13 +50,6 @@
       "query": "HLB FDA"
     },
     {
-      "title": "HLB바이오스텝, 한·일 비임상시험 협력...글로벌 사업 확대 - 팍스경제TV",
-      "link": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE8yOTNJU2FHQTZIX3o3Y2pob3htZmdNLW5RSFBHV0JfcEdiNlpjbmpDcGdpMzBsNU9CUzJsQWpDMldzOTFpYnJrM21iV2toeUJUZUJzZ0dzUW5peDh0VnBuUHVONS00Szgw?oc=5",
-      "source": "팍스경제TV",
-      "pubDate": "2026-08-20T07:46:07+00:00",
-      "query": "HLB바이오스텝"
-    },
-    {
       "title": "HLB펩, 진양곤 의장 2만2000주 장내 매수 - v.daum.net",
       "link": "https://news.google.com/rss/articles/CBMiS0FVX3lxTFBGSGc1S2k2b0hEQ2daWVBEUWt3MS1YM0lwazFCRy1lekRQUGh2U2pyWTA4aUx0ZTVtZWdCU2ZFYmo4bUQ0VlZIVUtqNA?oc=5",
       "source": "v.daum.net",
@@ -85,6 +78,13 @@
       "query": "HLB바이오스텝"
     },
     {
+      "title": "HLB바이오스텝, 日 비임상시장 진출 확대…시믹·아비테라와 협력 - 서울경제",
+      "link": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE1yYjNOZXdmU2VRLVlOUXJlVkpON3lBbTBITDVFVHAtWTZnX3dOaUhlQzEwXzZsRnR6YzBkelFjLW5JTURsNDRRZVVWYloyR2ltbmc?oc=5",
+      "source": "서울경제",
+      "pubDate": "2026-08-20T01:10:57+00:00",
+      "query": "HLB바이오스텝"
+    },
+    {
       "title": "특징주, HLB생명과학-줄기세포 테마 상승세에 5.8% ↑ - 매일경제 마켓",
       "link": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE40NDktdUlmOUd4Z0xrc3JtMzJlUGdyZ2hxc3ZkYUZERkxvcEZuUVltTFV2WVB3RUw2NGpmZFJOcWZhLTlVTUZ6YUhJckJVYVNNTXc?oc=5",
       "source": "매일경제 마켓",
@@ -92,6 +92,6 @@
       "query": "HLB생명과학"
     }
   ],
-  "fetchedAt": "2026-08-26T07:05:00.928757+00:00",
+  "fetchedAt": "2026-08-26T07:57:18.299221+00:00",
   "count": 13
 }
