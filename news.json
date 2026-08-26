@@ -1,15 +1,22 @@
 {
   "news": [
     {
-      "title": "HLB테라퓨틱스, 'RGN-259' 글로벌 3상 완료…11월 톱라인 발표 - IT타임스",
-      "link": "https://news.google.com/rss/articles/CBMiaEFVX3lxTFBfeDRubVh6UTZ2SEZaMjgzZTh3a18yYmxRRlJ4ZktoeGE0VXpfbjlJdWFMN3UtYzRYVDlFQzVmN3NPUC1iczA0X3hrQ2E5MzNJTTdublZhcHcwd3k0SThCLUlrRkVsTjBP?oc=5",
-      "source": "IT타임스",
-      "pubDate": "2026-08-26T03:10:07+00:00",
-      "query": "HLB테라퓨틱스"
+      "title": "HLB테라퓨틱스, 신경영양성각막염 치료제 글로벌 3상 임상 절차 마무리 - 이투데이",
+      "link": "https://news.google.com/rss/articles/CBMiVEFVX3lxTFAzdXRodEdkUnFkS3hQal9LUFM0UlBQTEwwZjFyNHB1TFQ1QllJV2tOOUhSZjFiaV9hclhFNW5IdU1BMkxHU1c3Um1DODR2WTQ5Q09BSQ?oc=5",
+      "source": "이투데이",
+      "pubDate": "2026-08-26T05:01:00+00:00",
+      "query": "HLB 신약"
+    },
+    {
+      "title": "HLB테라퓨틱스, 안과 신약 3상 종료…\"11월 발표\" - 뉴시스",
+      "link": "https://news.google.com/rss/articles/CBMiYEFVX3lxTFBKMjh3Z21VZjYxRzlBdUxPRWk5RnRkQlN5UzN0TFVkNGxIMUVENngwMHM0MVNGa1dRUjNNZm9tWktEbWhuX0EwSWw3VFNkcWEwXzhFTlMtUHN1VXhxS2RDedIBeEFVX3lxTFAyNDdWaEtjSjllaUNVUHUwUEpyMlpBaWdhU1VPX3dabTd5dl9MYjdZcUFIQmtXNWpXekhCQVhiUlQ4WkdLSGpvYUxHNzdKSVhqMUl1MmF1dk5uUHhOVkpES1BRQUlQSWZxcDFTbGhCVkZsTGVXd2dwcQ?oc=5",
+      "source": "뉴시스",
+      "pubDate": "2026-08-26T04:37:26+00:00",
+      "query": "HLB 신약"
     },
     {
       "title": "HLB라이프케어, ‘마이피코링 데이터’ 식후 운동 시 혈당 상승폭 감소 확인 - 팍스경제TV",
-      "link": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE92OGVHVFI2SHNubXJQX3VQM2lVcnJMN3Z4UjN0MTlVR2xqYXRQRzZYcWlvZnpmN1d2X0tjb1VMQ0YxVko2Y0FERmdfQzlLeWF5SUlaZ2lhZ1hCSmFnemJ2cmZxSmJBb2x3?oc=5",
+      "link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE1hNDdONmFFY09LN0hDNU1BZ1B2X3VZM0s0OEdudE1aR0I5OWVXOUVjdlVhd3lrM3ozUzhjdkRSdUxIeFV1MmtSUmptTF8yWTlLWDNwaS0yRHFLa292clVPM0hfZmJmNTA?oc=5",
       "source": "팍스경제TV",
       "pubDate": "2026-08-26T00:25:25+00:00",
       "query": "HLB라이프케어"
@@ -43,13 +50,6 @@
       "query": "HLB 신약"
     },
     {
-      "title": "HLB테라퓨틱스, 전환사채 50억 원 조기상환...최대주주 Put Option 행사 - Investing.com 한국어",
-      "link": "https://news.google.com/rss/articles/CBMic0FVX3lxTE9lY3NZUV9uclFmREt4WkpaN0pLRjJKaW9PaHhlT1AyMm41anZGS2w3SlZWTFRlNHdHaTNxR2oxcXRmOEh4M0pPal8wLThzaTREVU9GSW0xV0lhWkN0WDFOWkMxT3dZUXFDaFozN3pCTG8xVU0?oc=5",
-      "source": "Investing.com 한국어",
-      "pubDate": "2026-08-21T00:31:00+00:00",
-      "query": "HLB테라퓨틱스"
-    },
-    {
       "title": "HLB바이오스텝, 한·일 비임상시험 협력...글로벌 사업 확대 - 팍스경제TV",
       "link": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE8yOTNJU2FHQTZIX3o3Y2pob3htZmdNLW5RSFBHV0JfcEdiNlpjbmpDcGdpMzBsNU9CUzJsQWpDMldzOTFpYnJrM21iV2toeUJUZUJzZ0dzUW5peDh0VnBuUHVONS00Szgw?oc=5",
       "source": "팍스경제TV",
@@ -75,7 +75,7 @@
       "link": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE1WRzZRR3RQdnRzVmJmWThKdjl0NjhVQjkxOEhyQUp4TlFRcmphTFYxREVNbUdVQkdxWFdFT3FCdkpGcG9IajFMcHdyS3d5Z3kzUEJDY1JLMXBsbE5EWnBpNNIBZkFVX3lxTE9maHdtS2RKZk0wYzJmaHJWakNKc1ZXQlItY1VJRjlYclBMQ2Z0RHkxY3pRY1g3N1pfTnJuWXFOb3ZSSFdETEFDc0pWeTRDSXdMaVVXeGVIS2tkdU5WZ3BDY3lNVTZfUQ?oc=5",
       "source": "뉴스1",
       "pubDate": "2026-08-20T01:49:59+00:00",
-      "query": "HLB 임상"
+      "query": "HLB바이오스텝"
     },
     {
       "title": "HLB바이오스텝, 한·일 비임상 네트워크 확대 - 머니투데이 - 머니투데이",
@@ -92,6 +92,6 @@
       "query": "HLB생명과학"
     }
   ],
-  "fetchedAt": "2026-08-26T04:09:58.292743+00:00",
+  "fetchedAt": "2026-08-26T05:05:10.294715+00:00",
   "count": 13
 }
