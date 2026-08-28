@@ -1,11 +1,18 @@
 {
   "news": [
     {
-      "title": "HLB이노베이션, HLB생명과학 대상 360억원 유상증자 결정 - edaily.co.kr",
-      "link": "https://news.google.com/rss/articles/CBMigAFBVV95cUxQNTNBa3UwNmJJdFVOOWloNEdXMHp0Y1QwVkxscmpWM3BaWm9xS0lESVJXX1N3cHNvaE1qejVMRmFRWkVSME4yUk5OcWtvaVY1aHQ5b1FKV05kZlVid1R0UE5LSmlvRkt2X2NyQkZTOUI1VDhUMUtJcWhNc28zWGcxZg?oc=5",
-      "source": "edaily.co.kr",
+      "title": "HLB셀 인수한 HLB이노베이션, 360억 다시 수혈 - 딜사이트",
+      "link": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE5Mc3MtbUtJSVZ0R2hDZ1pEYlRUWXdhVk5hSEs5d0RENkllZ3JKRHNzdzFLVlN0S2RuYzFrMFBjaUxYVXRIWlZaNldMNFBQRDg?oc=5",
+      "source": "딜사이트",
+      "pubDate": "2026-08-28T08:48:26+00:00",
+      "query": "HLB셀"
+    },
+    {
+      "title": "HLB이노베이션, HLB생명과학 대상 360억원 유상증자 결정 - 마켓인",
+      "link": "https://news.google.com/rss/articles/CBMic0FVX3lxTFBGanZoWjJwV3pINEVlM1p2UkNlQlVCdUozU0Q5MHhDREhHY3dSd2hhVzYyYUdZZk5iS1E3UDhJcFF0LTFTb0JtQ21JLXQ0VUliaWl4LVpWa2ZKY3U5R0o0UVhnSU9sNnlTQmNuNldYc01KaTg?oc=5",
+      "source": "마켓인",
       "pubDate": "2026-08-28T07:54:44+00:00",
-      "query": "HLB생명과학"
+      "query": "HLB이노베이션"
     },
     {
       "title": "HLB생명과학 \"에이치엘비이노베이션 주식 360억원에 취득\" - 연합뉴스",
@@ -29,11 +36,11 @@
       "query": "HLB파나진"
     },
     {
-      "title": "HLB ‘리보세라닙’ 임상 3상 긍정 평가 … 지나친 확대해석 경계해야 - 헬스오",
-      "link": "https://news.google.com/rss/articles/CBMid0FVX3lxTFA1WFRkSF9wLUxZUjRRTFhvNm43bmFQbVplT2xyMGx4amhtTy1GckRFaGdPcjJPblBmcDg3NTI4RDNUeGxzRmZMSklNbUxhOWcxbHExRnIxVjNTVFdMU05yWFNPdXJsRThpRzVNVnQ4RHdTcmluWjB3?oc=5",
-      "source": "헬스오",
-      "pubDate": "2026-08-27T07:40:48+00:00",
-      "query": "HLB 임상"
+      "title": "[stock-in] HLB셀 넘긴 HLB생명과학, 숨통 트였지만…HLB이노베이션은 ‘빚 부담’ - 데일리한국",
+      "link": "https://news.google.com/rss/articles/CBMib0FVX3lxTFBSNjBHQ2gzZHFEQk5yUEd1WFZDOUlOdDN0WVJNRUw2V29BNjViS015ZDNQZ0c4eGxfVndRRUNjZTJROC1EdWRPUEl6aUJkOGxBbFJkLUNHQzFJd2xvalNQVFA4aGYza2ZMMGhwcFVRY9IBc0FVX3lxTE96b2xKSGVvVDY4U2RrU3VIelJkUkVjSUpuWFIxamVYb3M3RmdFUmhoZ1N5LXFscXQ1aUExS1BMTXBjZ215c0E4Y1lCd2dpQzRPZElkVWY0eTRKX2tVUXdkWXlXanQyM2RZaEUwVGt1ak5ELVU?oc=5",
+      "source": "데일리한국",
+      "pubDate": "2026-08-27T07:07:08+00:00",
+      "query": "HLB생명과학"
     },
     {
       "title": "HLB이노베이션, HLB셀 자회사로 편입 - 메디칼업저버",
@@ -127,6 +134,6 @@
       "query": "HLB FDA"
     }
   ],
-  "fetchedAt": "2026-08-28T11:39:16.514156+00:00",
-  "count": 18
+  "fetchedAt": "2026-08-28T21:31:50.598817+00:00",
+  "count": 19
 }
