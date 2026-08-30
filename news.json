@@ -1,20 +1,6 @@
 {
   "news": [
     {
-      "title": "HLB생명과학, 360억원에 에이치엘비이노베이션 276만주 취득 결정 - 코메디닷컴",
-      "link": "https://news.google.com/rss/articles/CBMiQkFVX3lxTE51TGQ5ZTRJcEl3R0ZKU2xmVnZVTlVGd29aLXhQejYxczNIU2swNms5QWVjbUdZVUVtOWRVdnIwU3VXdw?oc=5",
-      "source": "코메디닷컴",
-      "pubDate": "2026-08-29T22:44:00+00:00",
-      "query": "HLB생명과학"
-    },
-    {
-      "title": "리보세라닙 아쉬움 씻나…HLB, 하반기 신약 반전 시험대 - 데일리팜",
-      "link": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE5iSjFUVkc4elhHVmVmQ3dNMzREaWs0SDIzWDV6VlVCSFR2dzhKREk3VzctYjljTFZ4U2QydnY4LVhna21jSVJPWjR1YlVfaXV5QWtvaWVvLThiM1BiZndwWDlTaHo?oc=5",
-      "source": "데일리팜",
-      "pubDate": "2026-08-28T22:30:08+00:00",
-      "query": "HLB 신약"
-    },
-    {
       "title": "HLB셀 인수한 HLB이노베이션, 360억 다시 수혈 - 딜사이트",
       "link": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE5Mc3MtbUtJSVZ0R2hDZ1pEYlRUWXdhVk5hSEs5d0RENkllZ3JKRHNzdzFLVlN0S2RuYzFrMFBjaUxYVXRIWlZaNldMNFBQRDg?oc=5",
       "source": "딜사이트",
@@ -27,6 +13,20 @@
       "source": "디지털투데이",
       "pubDate": "2026-08-28T08:02:02+00:00",
       "query": "HLB이노베이션"
+    },
+    {
+      "title": "HLB생명과학 \"에이치엘비이노베이션 주식 360억원에 취득\" - 연합뉴스",
+      "link": "https://news.google.com/rss/articles/CBMiYEFVX3lxTFBaX0NRUFNHMjRSdWlpaEVsX0JoSnJiQ3VYcVFYeWJuUnBQdTZadjVkMjlMeG93eWhNU2lfenY0N0FSSUxkeE9uNG11SEwxX3NpMGJCNkl5MHVyNGJ4d243cNIBYEFVX3lxTFBaX0NRUFNHMjRSdWlpaEVsX0JoSnJiQ3VYcVFYeWJuUnBQdTZadjVkMjlMeG93eWhNU2lfenY0N0FSSUxkeE9uNG11SEwxX3NpMGJCNkl5MHVyNGJ4d243cA?oc=5",
+      "source": "연합뉴스",
+      "pubDate": "2026-08-28T07:12:59+00:00",
+      "query": "HLB생명과학"
+    },
+    {
+      "title": "리보세라닙 아쉬움 씻나…HLB, 하반기 신약 반전 시험대 - 데일리팜",
+      "link": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE50M05LZ2lwU0R6b0xuUERiVVB2b25vMUxLU3FxU2pXSnFuRy1ZV2Q1SG01b082emVwYU95TUNTX1dKY0poZG1BaDFGeGVzQTdKdmRSWVdB?oc=5",
+      "source": "데일리팜",
+      "pubDate": "2026-08-28T03:04:40+00:00",
+      "query": "HLB 신약"
     },
     {
       "title": "HLB 리라푸그라티닙, 美 허가 앞두고 中 경쟁약 추가…현지 진입 속도 중요 - 메디코파마",
@@ -113,6 +113,6 @@
       "query": "HLB라이프케어"
     }
   ],
-  "fetchedAt": "2026-08-30T20:05:32.140316+00:00",
+  "fetchedAt": "2026-08-30T22:43:25.225434+00:00",
   "count": 16
 }
