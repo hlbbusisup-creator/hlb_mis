@@ -2,10 +2,10 @@
   "news": [
     {
       "title": "'3상 완료' HLB테라퓨틱스, 각막염 신약 독점구도 깰까 - v.daum.net",
-      "link": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE9lTmQ2aTZhdkZvcmt6X2RUQW1lMmlxbVowT3VUTGtNMUlnc2wyanNla2dWNERGSkxVamo3c0ktYWEwZjhqQjljVXlOSEptZEE?oc=5",
+      "link": "https://news.google.com/rss/articles/CBMiRkFVX3lxTE9ocVhUeWk5anVISDZSYkVlaEZ4WVNoUVo3bjZmTlZtbjc4VllUUmFscXo0VGpiUnpLaGdUa2dtbHljSEJReGc?oc=5",
       "source": "v.daum.net",
       "pubDate": "2026-08-31T08:14:07+00:00",
-      "query": "HLB 신약"
+      "query": "HLB테라퓨틱스"
     },
     {
       "title": "HLB셀 인수한 HLB이노베이션, 360억 다시 수혈 - 딜사이트",
@@ -64,9 +64,9 @@
       "query": "HLB생명과학"
     },
     {
-      "title": "HLB이노베이션, HLB셀 자회사로 편입 - 메디칼업저버",
+      "title": "HLB이노베이션, HLB셀 자회사로 편입 - monews.co.kr",
       "link": "https://news.google.com/rss/articles/CBMia0FVX3lxTE1OS3RKQk95Z3RKYU1WV1F4SFJyNTRtaFJFWVlqemQ1US1Pckx2NzJXeGFqMlpLNlF6VUw4S0xJQm0tcjFkVWRKMmR5WHlmYnpIQXQzQUIzLVN6VmhCWG5PSkVVZW9qNGpkVWZB?oc=5",
-      "source": "메디칼업저버",
+      "source": "monews.co.kr",
       "pubDate": "2026-08-27T05:29:06+00:00",
       "query": "HLB이노베이션"
     },
@@ -113,6 +113,6 @@
       "query": "HLB라이프케어"
     }
   ],
-  "fetchedAt": "2026-08-31T15:03:04.539788+00:00",
+  "fetchedAt": "2026-08-31T20:48:20.724205+00:00",
   "count": 16
 }
