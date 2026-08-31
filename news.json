@@ -43,13 +43,6 @@
       "query": "HLB이노베이션"
     },
     {
-      "title": "진양곤 사내이사, HLB파나진 주식 13만100주 ↑…지분율 1.30% - 데이터투자",
-      "link": "https://news.google.com/rss/articles/CBMickFVX3lxTE5OVlBOR05JVUxGZTlWZGkxMnJwaVJZX1NZTFFQbkJIbmhfUDg0SmQybDBCb1ZNbFlpYXZMZ2FTaHBaN1NWOTdXc2xURGJfRDZNbDFrOHY0aS1tMzV3Mi1kSnFWZVlXdE1IYTNFSTFsMkNCZw?oc=5",
-      "source": "데이터투자",
-      "pubDate": "2026-08-27T07:58:39+00:00",
-      "query": "HLB파나진"
-    },
-    {
       "title": "HLB ‘리보세라닙’ 임상 3상 긍정 평가 … 지나친 확대해석 경계해야 - 헬스오",
       "link": "https://news.google.com/rss/articles/CBMid0FVX3lxTFA1WFRkSF9wLUxZUjRRTFhvNm43bmFQbVplT2xyMGx4amhtTy1GckRFaGdPcjJPblBmcDg3NTI4RDNUeGxzRmZMSklNbUxhOWcxbHExRnIxVjNTVFdMU05yWFNPdXJsRThpRzVNVnQ4RHdTcmluWjB3?oc=5",
       "source": "헬스오",
@@ -78,6 +71,13 @@
       "query": "HLB셀"
     },
     {
+      "title": "문정환 부회장, HLB바이오스텝 주식 1만5194주 ↑…지분율 0.16% - 데이터투자",
+      "link": "https://news.google.com/rss/articles/CBMic0FVX3lxTFBrZWNic0xROEhYY3NyX01BQllyUHN6cmdZV0RGUEhRcU5maGJkWVBXMjRFWUpFdGNFRGxod1Rpb29nZmtyRDRPeVBRazZ1OFAzNFFXVGc5WnV1ZjZQWGVJMjR1V0c3YjVSRWJjUFBkUl9IUEk?oc=5",
+      "source": "데이터투자",
+      "pubDate": "2026-08-27T01:32:28+00:00",
+      "query": "HLB바이오스텝"
+    },
+    {
       "title": "HLB그룹 신약개발 '결실의 시간' 임박?…연말까지 '빅이벤트' 지속 - 뉴스1",
       "link": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE5sX1pOMk9uQ2RNREU1YzhEUDRYNmJTbUNDOHhjZzc0RDVIX2xXSW1sal9zY3NEQ1B6NjBYOGJRZGFGSmZPR3IwYzN5aFlCYjdoY2JlTmZDXzFkR3NoeVdETdIBZkFVX3lxTE5HMU5JZ21TTDhQOVJNWWJqQWdfRGJKYVJnM0IySklBaF9xZThEd1l3R1Y3UGVfeEdjX1ZjUVNxSzhDbkc3WmNVVnBqMWN6UUt5OF9fZVREa0VZYW1NUU5HWmVTbzAxZw?oc=5",
       "source": "뉴스1",
@@ -99,10 +99,10 @@
       "query": "HLB 임상"
     },
     {
-      "title": "HLB제넥스, '비타푸드 아시아' 참가…'소디자임' 글로벌 공략 - v.daum.net",
-      "link": "https://news.google.com/rss/articles/CBMiRkFVX3lxTE9aOXkxRzd3MkhvQ0FXMF9qMUN5aDM2RHV2d1dOZmNXNVZjTnNfYllfbGNlM0FDVjNlaE45NkNjYTVNWnl4cVE?oc=5",
-      "source": "v.daum.net",
-      "pubDate": "2026-08-26T07:00:44+00:00",
+      "title": "HLB제넥스, '비타푸드 아시아' 참가…'소디자임' 글로벌 공략 - 뉴스1",
+      "link": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE5CTHE0LUZHb3Bsay1VQ1VBaFJuMlhtalRMbDRzSkEyc3ItanF5WktDNzhDNnhDd1RlME4wMUxnU08wSHRVamFJRzBJVHc0SkpIaW1Lekxab24yYWtCY28tN9IBZkFVX3lxTE82cmR1TFpwU3ZTRmZ6bmFNa3dNdWZwOWhaWl8tbGlNRVFvcExMVzNtZ1lNamlYR3N5eWRBR1E3bGRMWFpSa2NlMl9LbmFCRFRqa1VmLTRMcmp0SXRBS1NSeGpKWlp5UQ?oc=5",
+      "source": "뉴스1",
+      "pubDate": "2026-08-26T06:58:48+00:00",
       "query": "HLB제넥스"
     },
     {
@@ -113,6 +113,6 @@
       "query": "HLB라이프케어"
     }
   ],
-  "fetchedAt": "2026-08-31T00:55:13.052917+00:00",
+  "fetchedAt": "2026-08-31T07:00:05.889173+00:00",
   "count": 16
 }
