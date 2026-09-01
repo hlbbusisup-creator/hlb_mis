@@ -2,7 +2,7 @@
   "news": [
     {
       "title": "HLB 간암신약, 연령별 분석서 일관된 치료효과 확인…ILCA 2026 발표 - v.daum.net",
-      "link": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE50dldHZ0tSRE1aREwxUXdnWmRHTG10YWFXQUJJZG84dXNQZDRrZklrRU5fZWdrUXRoVVJ1Ry0yR0tqNFdXRTNrSk96akhBM3c?oc=5",
+      "link": "https://news.google.com/rss/articles/CBMiVEFVX3lxTFBRWFZkSnVRUjVfSDY0bTZyN1ktT0hnQWhFSzRnVlZ5eV9JSS0xMFN2UF9BcXpKUGZFd3dhRk1FVkZXQ0FNQ05zUTFQZ0daN0xFZ093ZQ?oc=5",
       "source": "v.daum.net",
       "pubDate": "2026-09-01T05:45:32+00:00",
       "query": "HLB 신약"
@@ -30,7 +30,7 @@
     },
     {
       "title": "HLB테라퓨틱스, RGN-259 글로벌 3상 환자 절차 마무리…11월 톱라인 목표 - CBC뉴스",
-      "link": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE1ONEptWTQ2X2xJMXUzQlg0dUZUeWtIT2NCSS1fVWlnTkRnYlAwWWduMGFOYXp2SXF1UU1Wc0JpdTVfOTE3UmpxQUVSOHM0MUc4bzNzZzU1WktBWlZyMlZTTmFRWmxsRFgt?oc=5",
+      "link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE5NUk5GRGtrTzFFVFZYOUZyb0ptRmlhajkyQU94a0lBY0xLaDlqVnk4S0JVbmNIZGNrRWxnYlR4QXBNUkdGWTJudEpOMzl3eS1lRWliRVBDRHd0U1JjUFNtNTA2c2VlMWM?oc=5",
       "source": "CBC뉴스",
       "pubDate": "2026-09-01T01:33:53+00:00",
       "query": "HLB테라퓨틱스"
@@ -85,13 +85,6 @@
       "query": "HLB 허가"
     },
     {
-      "title": "HLB셀 인수한 HLB이노베이션, 360억 다시 수혈 - 딜사이트",
-      "link": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE5Mc3MtbUtJSVZ0R2hDZ1pEYlRUWXdhVk5hSEs5d0RENkllZ3JKRHNzdzFLVlN0S2RuYzFrMFBjaUxYVXRIWlZaNldMNFBQRDg?oc=5",
-      "source": "딜사이트",
-      "pubDate": "2026-08-28T08:48:26+00:00",
-      "query": "HLB셀"
-    },
-    {
       "title": "HLB이노베이션, 359억9999만원 규모 제3자배정 유상증자 결정…채무상환·운영자금 조달 - 디지털투데이",
       "link": "https://news.google.com/rss/articles/CBMic0FVX3lxTE9BVHVnV0JJUUFRRkUxaERxU1UxMzhVQ0ZhNXgyZVVSRzg4M3BNbWphR2V3eU81Vzg0aG5BUnYzXzg0UXlFclowOWtkaExUb0JoaTduMVpWRTNBWXJEVkNvWk53U2lhV05rOE81Vml4YnpicjQ?oc=5",
       "source": "디지털투데이",
@@ -106,9 +99,9 @@
       "query": "HLB생명과학"
     },
     {
-      "title": "HLB 리라푸그라티닙, 美 허가 앞두고 中 경쟁약 추가…현지 진입 속도 중요 - 메디코파마",
+      "title": "HLB 리라푸그라티닙, 美 허가 앞두고 中 경쟁약 추가…현지 진입 속도 중요 - medicopharma.co.kr",
       "link": "https://news.google.com/rss/articles/CBMickFVX3lxTE9MRFJVQ1lzSUM1ejhQQWFQX2hfck9UV3hvNElXWjdTeGM2QnJPMERqOVRWdEZLX0xzX3B4WGFXMGI2Mmp2TGFWU0x3MFZNZXpGeGRneUZLWnVBSjRMWWk1SXBPVWNFZTBzTGNfZGs0M3dGZw?oc=5",
-      "source": "메디코파마",
+      "source": "medicopharma.co.kr",
       "pubDate": "2026-08-27T22:46:50+00:00",
       "query": "HLB 허가"
     },
@@ -139,8 +132,15 @@
       "source": "Chosunbiz",
       "pubDate": "2026-08-26T21:00:00+00:00",
       "query": "HLB FDA"
+    },
+    {
+      "title": "HLB제넥스, '비타푸드 아시아' 참가…'소디자임' 글로벌 공략 - news1.kr",
+      "link": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE5CTHE0LUZHb3Bsay1VQ1VBaFJuMlhtalRMbDRzSkEyc3ItanF5WktDNzhDNnhDd1RlME4wMUxnU08wSHRVamFJRzBJVHc0SkpIaW1Lekxab24yYWtCY28tN9IBZkFVX3lxTE82cmR1TFpwU3ZTRmZ6bmFNa3dNdWZwOWhaWl8tbGlNRVFvcExMVzNtZ1lNamlYR3N5eWRBR1E3bGRMWFpSa2NlMl9LbmFCRFRqa1VmLTRMcmp0SXRBS1NSeGpKWlp5UQ?oc=5",
+      "source": "news1.kr",
+      "pubDate": "2026-08-26T06:58:48+00:00",
+      "query": "HLB제넥스"
     }
   ],
-  "fetchedAt": "2026-09-01T15:13:45.356303+00:00",
+  "fetchedAt": "2026-09-01T18:43:33.575862+00:00",
   "count": 20
 }
