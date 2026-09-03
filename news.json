@@ -1,10 +1,10 @@
 {
   "news": [
     {
-      "title": "HLB생명과학, 계열사 지원에 CB 상환까지…재무 부담 확대 - 네이트",
-      "link": "https://news.google.com/rss/articles/CBMiU0FVX3lxTFAzS2pVTXdKSTBpY1dTeWhETHQycjhZcllMQzdlRGpwcXl2cGtxRGlDNUVseHlCRnM4aDFBS1Y3bnVkV1JIOXNwU2xyRXJ4VndlcXBF?oc=5",
-      "source": "네이트",
-      "pubDate": "2026-09-03T08:58:00+00:00",
+      "title": "HLB생명과학, 계열사 지원에 CB 상환까지…재무 부담 확대 - 더팩트",
+      "link": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE0xel95aVZJalNuclMtUGJFckl2TG84S0VBUU9ZbjJoTW81aVFJa0ZST1I4R1RmU2JfZTIzS0JBdXZ3LVk3WmNvNUNkN1U3aUk2YUtZbUhsZzF5QdIBVEFVX3lxTE1tcEFSNi05a21Wc2k3TWFJWHpGY1R3MXVkNWZpa1BOZVljNmRnWUdKMGc0OTZwTlp3bjA5TWhGLVR0TW9kdGx4QmNvSEV3Q3VfVXVCWg?oc=5",
+      "source": "더팩트",
+      "pubDate": "2026-09-03T08:55:30+00:00",
       "query": "HLB생명과학"
     },
     {
@@ -12,14 +12,14 @@
       "link": "https://news.google.com/rss/articles/CBMiXEFVX3lxTFBLSjRrZ3BfaWpYNmxHMFcyeXM5NWN3ZnJNYXpDa1E4ZFNtUzZTbzFVVEhsVUU3VlhGQWI0cGl3aTM4YzI0U0lfNHc5aXRyeEx2cVQ0QXBUdUdBWGpO?oc=5",
       "source": "뉴스핌",
       "pubDate": "2026-09-03T05:43:00+00:00",
-      "query": "HLB바이오스텝"
+      "query": "HLB 임상"
     },
     {
-      "title": "HLB바이오스텝·넥셀 맞손…'미니 장기'로 신약 안전성 평가 - news1.kr",
+      "title": "HLB바이오스텝·넥셀 맞손…'미니 장기'로 신약 안전성 평가 - 뉴스1",
       "link": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE16Ti1iWFlYUDFwU2gtZkdDN1hERlRFS29uWUk4OWZpcXVTd0syMXYwZHV1S0JFOElKOTVNUEEtZm0yamdtZGRHWTZSUEZSSTk4RUpfVWo1U0ltY0IwNTdYUdIBZkFVX3lxTE15dTd0U3prWmYxajVFRnZZWmdVQzgwV1ktdmREU3QtT0Z4Zk5JZlJndGFETHFvZ0VFNFFjbnhoc1dqNGJOaWI5Y0RxcE53SHpJS3VBVHctZktTY2x2YThXcXY4ZE5Rdw?oc=5",
-      "source": "news1.kr",
+      "source": "뉴스1",
       "pubDate": "2026-09-03T03:03:53+00:00",
-      "query": "HLB바이오스텝"
+      "query": "HLB 신약"
     },
     {
       "title": "HLB 두 번째 기대주 ‘리라푸그라티닙’ 美 허가 운명은 [월간맥짚기] - edaily.co.kr",
@@ -40,14 +40,63 @@
       "link": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE93ekJVMExzVmZwWlBrS1hIYjByNkt1R1VycExjcHBSOGZXYVpNeUN1bVFVRUtpNXp1ZTdDSW5KUll1VG5tTExCTWdVTmdFTl9lZkRUYU1xc0RpQ1dkbUVub3V4Q0M?oc=5",
       "source": "MTN 머니투데이방송",
       "pubDate": "2026-09-02T08:33:12+00:00",
+      "query": "HLB 신약"
+    },
+    {
+      "title": "HLB제약, 5차례 정정 600억 유증 시동…대주주 절반만 청약 - 데일리팜",
+      "link": "https://news.google.com/rss/articles/CBMiU0FVX3lxTFB0UmpsUXhsaGh3ZnBrT2tlbG9pQ1dPbm9BRkh4Z1hES1NHRERfNC1OYi1xcDY5SGJyVjB5eW56eXplT0lpbmZsTFUxai1VTWJXU3pj?oc=5",
+      "source": "데일리팜",
+      "pubDate": "2026-09-01T09:06:02+00:00",
+      "query": "HLB제약"
+    },
+    {
+      "title": "HLB, '돈 버는 바이오텍' 전환 연내 가시화…신약 프로젝트 급물살 - PRESS9",
+      "link": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE1uY1RlRDJOdXpFbXlZZU8xYnpZX1FKMGZWZWc3emhhUlppMGRuOXdSbVU2a1BabnlWRXVNc1NuUU0xazUwZXNGT0FmWmxrb0Z0b3IxdXBaZjk3YmtxSHZfUlA0SU45dw?oc=5",
+      "source": "PRESS9",
+      "pubDate": "2026-09-01T04:09:33+00:00",
       "query": "HLB FDA"
     },
     {
-      "title": "HLB, 간암 병용요법 연령별 분석 공개…ILCA 발표와 FDA 허가는 별개 과제 - 한국면세뉴스",
-      "link": "https://news.google.com/rss/articles/CBMiakFVX3lxTE5jYk9HdUUxc2lDeFhHd3VxaDdTZ1p0TDNRSXVWZThIc293NUFlVU5rSnVsSmY3b1JQT2NucnRPUlNnNHlZbWdvdVYwRnpTNFc1T2ZnbWpLLUNLSWllTEFDSTN4czExTndyY2c?oc=5",
-      "source": "한국면세뉴스",
-      "pubDate": "2026-09-01T00:25:22+00:00",
-      "query": "HLB FDA"
+      "title": "HLB이노베이션, HLB셀 인수…세포치료 국내 거점 구축​ - cbci.co.kr",
+      "link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTFAtcmdZOHBuU0lZV3o5VFU2bFFYVS16a3JpWGx4OVhFbUZ5eTkyRTNIZ2dlQUpxaVBfSHlMV2RNWUthd20zTDlZVTlQdXJNWktOVll0dFN1Vk9DeUZ3TE9XWll2cDJCVWs?oc=5",
+      "source": "cbci.co.kr",
+      "pubDate": "2026-09-01T01:32:56+00:00",
+      "query": "HLB셀"
+    },
+    {
+      "title": "HLB테라퓨틱스, 111억 유상증자의 속내는 '출자전환' - 바이오북미디어",
+      "link": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE5rbmxfckc0VTgxT2thYTdPcWNuTTNUMFFtU05VVExxLWtlV0MxZFFtTkdqZGdvdDNuLVI4TFRUVEZ4MjBpbEZ6aDZaOXc4WXNIa25kaA?oc=5",
+      "source": "바이오북미디어",
+      "pubDate": "2026-09-01T00:59:58+00:00",
+      "query": "HLB테라퓨틱스"
+    },
+    {
+      "title": "[특징주] HLB제약, \"간암 신약 임상 결과 긍정적\".. '강세' - 글로벌이코노믹",
+      "link": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxOM2NnQXE3V2lDNFMzelk0X0U4MUd1VWVkSmE3WXNLQU1ydmRKVWk4eHg5WUVXbHl0VVhVYlkyT0gwbUJ2TWRwNkk4dmlMRkpXWXlUcUNMODJJX0JEdWZyb1ZiYUFSbUhBZWd0ODc5TjR0Ujl3YkNlMEdFWWVUUnpkSkJKdHJKemxL?oc=5",
+      "source": "글로벌이코노믹",
+      "pubDate": "2026-09-01T00:48:11+00:00",
+      "query": "HLB 신약"
+    },
+    {
+      "title": "HLB, 리보세라닙+캄렐리주말 '간암 신약' 연령별 분석서 일관된 치료효과 확인 - 팍스경제TV",
+      "link": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE0xWWFUXzliOE80TjlvTnJlUG13QXZqcjFLcGpvVm12Y294dGNkQnRmVTRURDNWSHFSRnVrYVhWZERHU01RZWUzSGtyUV9GTEo3VkpieHNFWVI5OWpvcVo5YnktVzlReFlr?oc=5",
+      "source": "팍스경제TV",
+      "pubDate": "2026-09-01T00:32:37+00:00",
+      "query": "HLB 신약"
+    },
+    {
+      "title": "'3상 완료' HLB테라퓨틱스, 각막염 신약 독점구도 깰까 - v.daum.net",
+      "link": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE9lTmQ2aTZhdkZvcmt6X2RUQW1lMmlxbVowT3VUTGtNMUlnc2wyanNla2dWNERGSkxVamo3c0ktYWEwZjhqQjljVXlOSEptZEE?oc=5",
+      "source": "v.daum.net",
+      "pubDate": "2026-08-31T08:14:00+00:00",
+      "query": "HLB테라퓨틱스"
+    },
+    {
+      "title": "HLB생명과학, 360억원에 에이치엘비이노베이션 276만주 취득 결정 - 코메디닷컴",
+      "link": "https://news.google.com/rss/articles/CBMiQkFVX3lxTE51TGQ5ZTRJcEl3R0ZKU2xmVnZVTlVGd29aLXhQejYxczNIU2swNms5QWVjbUdZVUVtOWRVdnIwU3VXdw?oc=5",
+      "source": "코메디닷컴",
+      "pubDate": "2026-08-29T22:44:00+00:00",
+      "query": "HLB생명과학"
     },
     {
       "title": "HLB이노베이션, 360억원 유상증자…HLB생명과학에 제3자배정 - v.daum.net",
@@ -57,6 +106,6 @@
       "query": "HLB생명과학"
     }
   ],
-  "fetchedAt": "2026-09-03T15:14:44.766522+00:00",
-  "count": 8
+  "fetchedAt": "2026-09-03T18:49:41.339821+00:00",
+  "count": 15
 }
