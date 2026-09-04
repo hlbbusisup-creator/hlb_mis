@@ -1,10 +1,45 @@
 {
   "news": [
     {
-      "title": "'CRL' HLB, 리보세라닙 재허가 정면 돌파 - 네이트",
-      "link": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE1OOGNteXlXanBSS3FhOGRuYkZoMlpYeDN3Q3BYTHlhUnpmc3VkcTRLdmJJUHo3ZllacVZCMGU3d2g2UUxJckdPY0ltc0xTZFRyVWdv?oc=5",
-      "source": "네이트",
-      "pubDate": "2026-09-04T00:46:00+00:00",
+      "title": "HLB파나진, 美 컨퍼런스서 PNA 기술력 알려…\"글로벌 기업들 관심\" - 머니투데이 - 머니투데이",
+      "link": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE5CTU1rbjBnTVR0aUo2eDFfVDhaOW5Fb0lINzZlMUlzeks0NGtzVUFqR09xVlA3dy1MeGszRlR6OTNiWmN4alRMWDRHb2pWZ0JweVhKMHVfTldwRnVvMzVxbjJsdXVWZGJ30gFuQVVfeXFMTlVqOWQyYnM1Y2ZYNE5aeVVJQVRzdHg1N29QZVJ3VHYxcW1qNC1ibGZsTTc5X29lMDR3ZHk1R2NJWXgzalI1ajN4b2tmUlp6TU5jdXpuZVlKT29VZ0lSUk9CMUhVTjE1VXc0YUZXNUE?oc=5",
+      "source": "머니투데이",
+      "pubDate": "2026-09-04T06:14:04+00:00",
+      "query": "HLB파나진"
+    },
+    {
+      "title": "HLB파나진, '올리고뉴클레오타이드·펩타이드 엑스체인지'서 'PNA' 신약개발 적용 가능성 소개 - 팍스경제TV",
+      "link": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE5iMHNZYk43NFQ4NUs5VGsxZC1fbmxTWFZaS1dIRmNmN3RQUGNKbzVxd3JFZnp5ZWxxSHlCZl9zY1BnRTluOGQwbW95ODBYR0d3amR0MEZIVEVzbTlGTm1ZMDBNbXhkbGFa?oc=5",
+      "source": "팍스경제TV",
+      "pubDate": "2026-09-04T05:24:13+00:00",
+      "query": "HLB 신약"
+    },
+    {
+      "title": "HLB, 진양곤 의장 'HLB이노베이션 주식 추가 매수'...올해 62차례 계열사 지분 확대 - 팍스경제TV",
+      "link": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE8yVHRKLUItZVJxUDhpZHdlWC13ZGtTQXZRNVhjNnpXOFFqU3ZRUmFvd3BSRWZUSlZ1b0JtaUozM19DdUNfWVlmaF84REpGcHdIemY0Tmx1UllCVzZMMW1zRGEyeW9pSmdC?oc=5",
+      "source": "팍스경제TV",
+      "pubDate": "2026-09-04T05:24:13+00:00",
+      "query": "HLB이노베이션"
+    },
+    {
+      "title": "HLB그룹 현대요트, 요트 공동소유 프로그램 첫 고객 행사 개최 - PRESS9",
+      "link": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE5VTXNiUUtwTUh2MEgtOHZ0dmxqcVNBd2xubjc0bjA0U3ZvWXJWYVVaZ3BIT3BGVDFnX2I3NkpzMHFocWxnMUhPeFQxZUM5Vk5UYWVpQVd5RU9MQXo3a095aWZnWTY?oc=5",
+      "source": "PRESS9",
+      "pubDate": "2026-09-04T01:38:35+00:00",
+      "query": "현대요트"
+    },
+    {
+      "title": "현대요트, '디스커버리 나이트' 열고 요트 공동 소유시장 공략 본격화 - 머니투데이 - 머니투데이",
+      "link": "https://news.google.com/rss/articles/CBMibkFVX3lxTE1aZmIwcEgwcFZHSnJaU2RRS3pmTG9aeHFNVkJWQ0FhOE4xTVVjUWhWTG1aWmZOQlJZNXdfaDhNUnhRazU2WmZab3AzN2VGdjV3WGhTdWt0ck02ODRodElwVGdvenZVbUxZdXdYNEJn0gFuQVVfeXFMTVpmYjBwSDBwVkdKclpTZFFLemZMb1p4cU1WQlZDQWE4TjFNVWNRaFZMbVpaZk5CUlk1d19oOE1SeFFrNTZaZlpvcDM3ZUZ2NXdYaFN1a3RyTTY4NGh0SXBUZ296dlVtTFl1d1g0Qmc?oc=5",
+      "source": "머니투데이",
+      "pubDate": "2026-09-04T01:31:15+00:00",
+      "query": "현대요트"
+    },
+    {
+      "title": "'CRL' HLB, 리보세라닙 재허가 정면 돌파 - 프라임경제",
+      "link": "https://news.google.com/rss/articles/CBMickFVX3lxTE5rMU45RnZWOWpiLWE1ZUFCMTZyZld3SUFVZUtrTzV6U3VvbEdGQk1ER3lzVWRLU1U2TWNZS2NYQVN3WDFET2lPWGVkRjhQYzlTbWc2VEhUcUdrbWRGMUI5R0ZBRENYZmhRbF8xem9Qc2pYZw?oc=5",
+      "source": "프라임경제",
+      "pubDate": "2026-09-04T00:45:11+00:00",
       "query": "HLB FDA"
     },
     {
@@ -16,24 +51,10 @@
     },
     {
       "title": "HLB생명과학, 계열사 지원에 CB 상환까지…재무 부담 확대 - v.daum.net",
-      "link": "https://news.google.com/rss/articles/CBMiS0FVX3lxTE9TQjRKNjF4TzdkcDlieHlkNVZsVDIxU29vMWU4NnZncHRCZFVIUGk2Y0xjSlUyZE9pTzNBMFFDa3EtOE1EMnZGd2x2VQ?oc=5",
+      "link": "https://news.google.com/rss/articles/CBMiRkFVX3lxTFB5ckwyVDc2TlhyV1VodFNCdlZsYjVFclpZdWZSeUtheEcyd1pfOUZsMk44OHpETnpGTFExUlFJMjJMUEdGbmc?oc=5",
       "source": "v.daum.net",
       "pubDate": "2026-09-03T08:57:49+00:00",
       "query": "HLB생명과학"
-    },
-    {
-      "title": "HLB바이오스텝, 오가노이드 대체시험 기술 접목…‘넥셀’과 맞손 - 팍스경제TV",
-      "link": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE1mNUJSamJIRmtlVVJlMUNxSllLV1JKUl9PVmFlXy1rSXRwdHRITS1Nckp0dkZwSE4tTjRldzBIaG91M0M3eTFQdHc5dEc4bk95V2ZGT21ORmNucGRBTHJzWnFqbENHRUlq?oc=5",
-      "source": "팍스경제TV",
-      "pubDate": "2026-09-03T06:39:28+00:00",
-      "query": "HLB바이오스텝"
-    },
-    {
-      "title": "HLB바이오스텝, 넥셀과 손잡고 '통합 비임상 평가 서비스' 구축 - 중소기업신문",
-      "link": "https://news.google.com/rss/articles/CBMibkFVX3lxTE9IYnFNN0QwZVpVNTlfbldSTkNqeDhoYkdIdEZfYU1zU3pLZlZUOTVyNmt4VXlwWE5aR01MM0VGSW5BelhIT0owQzlfVldNOG9lQ3J0UlRvU1lEeGhLd1A2TmhEblV5bWNuY1BhUHF3?oc=5",
-      "source": "중소기업신문",
-      "pubDate": "2026-09-03T05:54:22+00:00",
-      "query": "HLB 임상"
     },
     {
       "title": "HLB, FDA 미팅 대신 ‘리보세라닙’ 재신청 집중 - 한스경제",
@@ -43,18 +64,25 @@
       "query": "HLB FDA"
     },
     {
-      "title": "HLB 두 번째 기대주 ‘리라푸그라티닙’ 美 허가 운명은 [월간맥짚기] - edaily.co.kr",
-      "link": "https://news.google.com/rss/articles/CBMigAFBVV95cUxOVVZ1Mk5Od1VJdVUzN0s4bWZEWHNDZ2FndzBlTUVDTDFGOXd5cXA4MG0waTV2VnZCRU9RQ2pCYmt5Tm9jbkhnaFFJeFF6dXlKQzdQaV9PMThjT3RuS0NnbVdibkhuYW5mWGpPaHJWU09YZm5wYXhocFVJRmlSRUhiSA?oc=5",
-      "source": "edaily.co.kr",
-      "pubDate": "2026-09-02T22:01:03+00:00",
-      "query": "HLB FDA"
+      "title": "HLB바이오스텝-넥셀, 오가노이드·비임상 평가서비스 구축 - 히트뉴스",
+      "link": "https://news.google.com/rss/articles/CBMia0FVX3lxTE9pcy1Oay16bHNIM3RyZEIxVmVmVm5IdExIV2JNR2ZJN21QNW5WMUlCSDhmLWZHQ2FLOU9BOFNTb1RuWDdIS1JtUHpwdEJqWC1aeGYzbndvR1htTkVNV05ZWU5MWnhXWXBLUWow?oc=5",
+      "source": "히트뉴스",
+      "pubDate": "2026-09-03T02:38:19+00:00",
+      "query": "HLB 임상"
+    },
+    {
+      "title": "HLB바이오스텝, 넥셀과 업무협약…\"오가노이드·비임상시험 결합\" - 아시아경제",
+      "link": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE5Scjk5TGFncDZfMXJUNFR1bHZxeFNjRTRQajVCOVNhZXFLWGFVc25iOVBCbVhiR29ydmRwWnR4SkRfbk1hZmw0STY2RXZLbHVpdHZva2hjMnNWa3lRTjlNRA?oc=5",
+      "source": "아시아경제",
+      "pubDate": "2026-09-03T01:11:01+00:00",
+      "query": "HLB 임상"
     },
     {
       "title": "HLB '담관암 치료제' FDA 결정 임박…신약개발 결실 맺을까 - MTN 머니투데이방송",
       "link": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE93ekJVMExzVmZwWlBrS1hIYjByNkt1R1VycExjcHBSOGZXYVpNeUN1bVFVRUtpNXp1ZTdDSW5KUll1VG5tTExCTWdVTmdFTl9lZkRUYU1xc0RpQ1dkbUVub3V4Q0M?oc=5",
       "source": "MTN 머니투데이방송",
       "pubDate": "2026-09-02T08:33:12+00:00",
-      "query": "HLB 신약"
+      "query": "HLB FDA"
     },
     {
       "title": "HLB제약, 5차례 정정 600억 유증 시동…대주주 절반만 청약 - 데일리팜",
@@ -68,28 +96,21 @@
       "link": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxOM2NnQXE3V2lDNFMzelk0X0U4MUd1VWVkSmE3WXNLQU1ydmRKVWk4eHg5WUVXbHl0VVhVYlkyT0gwbUJ2TWRwNkk4dmlMRkpXWXlUcUNMODJJX0JEdWZyb1ZiYUFSbUhBZWd0ODc5TjR0Ujl3YkNlMEdFWWVUUnpkSkJKdHJKemxL?oc=5",
       "source": "글로벌이코노믹",
       "pubDate": "2026-09-01T00:48:11+00:00",
-      "query": "HLB 신약"
+      "query": "HLB 임상"
     },
     {
-      "title": "HLB, 리보세라닙+캄렐리주말 '간암 신약' 연령별 분석서 일관된 치료효과 확인 - 팍스경제TV",
-      "link": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE0xWWFUXzliOE80TjlvTnJlUG13QXZqcjFLcGpvVm12Y294dGNkQnRmVTRURDNWSHFSRnVrYVhWZERHU01RZWUzSGtyUV9GTEo3VkpieHNFWVI5OWpvcVo5YnktVzlReFlr?oc=5",
-      "source": "팍스경제TV",
-      "pubDate": "2026-09-01T00:32:37+00:00",
-      "query": "HLB 신약"
+      "title": "HLB 두 번째 기대주 ‘리라푸그라티닙’ 美 허가 운명은 [월간맥짚기] - 팜이데일리",
+      "link": "https://news.google.com/rss/articles/CBMibkFVX3lxTE9HWmY5d083eFhERHhCZ2JmSmNLa2c4RVNmcGxNVzVmYzBfYkNwLWg5WEt3TVNEaU80Y0JQbERVWTktTF9UTHdSZUh4ejItaURYa1pXTGotMzNMY181YmNrQmk4dWgzUVlIR3RndVln?oc=5",
+      "source": "팜이데일리",
+      "pubDate": "2026-08-31T22:00:04+00:00",
+      "query": "HLB FDA"
     },
     {
       "title": "'3상 완료' HLB테라퓨틱스, 각막염 신약 독점구도 깰까 - v.daum.net",
-      "link": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE9lTmQ2aTZhdkZvcmt6X2RUQW1lMmlxbVowT3VUTGtNMUlnc2wyanNla2dWNERGSkxVamo3c0ktYWEwZjhqQjljVXlOSEptZEE?oc=5",
+      "link": "https://news.google.com/rss/articles/CBMiS0FVX3lxTE9mYzFCanFuU0Jha1l3aUgteDAtQ3hJNy1oN20zdUprY0lxV0c3dzNubDZMZGxhM3daZEE4Y1RfMnhuVnY5OHdYRGxuNA?oc=5",
       "source": "v.daum.net",
-      "pubDate": "2026-08-31T08:14:00+00:00",
+      "pubDate": "2026-08-31T08:14:07+00:00",
       "query": "HLB테라퓨틱스"
-    },
-    {
-      "title": "HLB이노베이션, HLB셀 인수…영역 확장 본격화 : 네이버 블로그 - Naver Blog",
-      "link": "https://news.google.com/rss/articles/CBMif0FVX3lxTE5mTlZSOWwzbjNxQ0ZBZ0ZWdExRM0xocmVlZ3FvQzhMN2FWSDBRcjduT0ktLW05NzBmNmMxWEVRem1ZbTRjc1dnSjFQOW95TmUzcUFWRks2U0dZMkhUOE9hM1lGR1ROWndhSE4tU2czSElhUTU0ZGRYdzllaElYWkE?oc=5",
-      "source": "Naver Blog",
-      "pubDate": "2026-08-29T01:46:00+00:00",
-      "query": "HLB셀"
     },
     {
       "title": "HLB생명과학 \"에이치엘비이노베이션 주식 360억원에 취득\" - 연합뉴스",
@@ -97,15 +118,8 @@
       "source": "연합뉴스",
       "pubDate": "2026-08-28T07:12:59+00:00",
       "query": "HLB생명과학"
-    },
-    {
-      "title": "HLB이노베이션, 360억원 유상증자…HLB생명과학에 제3자배정 - 연합뉴스",
-      "link": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE0wYzNrdWZWajJUbVlHQktPcHZSQzMyZkdRZFAxeUs0QnJLazZ3MTI2dGVGaE5fdHoxZXNpakh0Rk9uemZSX0hGMVo3MkFPZ3VwR2RPcDlaN05MX3PSAWBBVV95cUxORHhWaWlPcE9qU0ZrVm9QeGRSOE5tX1EzY2hHMGM0enZUYWFLRVlTaEdxb2l1VE00dWkxWnFGV29wazNBTUtGLXJDaGxUOFRfQ2FXSFoxMXNKT1g5VnVfN1c?oc=5",
-      "source": "연합뉴스",
-      "pubDate": "2026-08-28T06:51:36+00:00",
-      "query": "HLB이노베이션"
     }
   ],
-  "fetchedAt": "2026-09-04T01:25:01.275627+00:00",
-  "count": 15
+  "fetchedAt": "2026-09-04T06:25:59.077515+00:00",
+  "count": 17
 }
