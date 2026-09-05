@@ -12,7 +12,7 @@
       "link": "https://news.google.com/rss/articles/CBMiU0FVX3lxTFBIV1BQODhxWjR3MnplbHNKaXRKbUhBcVA4Z3VfOWthSzBiRzBHMFpFeUdqbktnVkJ6eEI2MnlRTTdpbDhBOEJWTWxFTkR2SW9EbXE0?oc=5",
       "source": "네이트",
       "pubDate": "2026-09-05T00:01:00+00:00",
-      "query": "HLB 신약"
+      "query": "HLB FDA"
     },
     {
       "title": "HLB펩, 노바셀과 펩타이드 면역치료제 공동개발 MOU 체결 - 약업신문",
@@ -36,9 +36,9 @@
       "query": "HLB이노베이션"
     },
     {
-      "title": "HLB파나진, 美 컨퍼런스서 PNA 주제로 개막 기조발표 - 아시아경제",
+      "title": "HLB파나진, 美 컨퍼런스서 PNA 주제로 개막 기조발표 - asiae.co.kr",
       "link": "https://news.google.com/rss/articles/CBMid0FVX3lxTFBzLWx6MkE5QUotSDhhSDhmNVB5VDZKX3RiNmkzNEdpSE14OS05S2g3YjVfbkdQc0FTdTJmdnFRM29xNnZNQVR4QUJ4dkZzOHB6OUY3VU8wTE54OXpGZ1hKelZnX3pydVdPS1NDUjlWcnZnMGN5N0hZ?oc=5",
-      "source": "아시아경제",
+      "source": "asiae.co.kr",
       "pubDate": "2026-09-04T05:25:56+00:00",
       "query": "HLB파나진"
     },
@@ -51,7 +51,7 @@
     },
     {
       "title": "HLB파나진, '올리고뉴클레오타이드·펩타이드 엑스체인지'서 'PNA' 신약개발 적용 가능성 소개 - 팍스경제TV",
-      "link": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE5iMHNZYk43NFQ4NUs5VGsxZC1fbmxTWFZaS1dIRmNmN3RQUGNKbzVxd3JFZnp5ZWxxSHlCZl9zY1BnRTluOGQwbW95ODBYR0d3amR0MEZIVEVzbTlGTm1ZMDBNbXhkbGFa?oc=5",
+      "link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE8zX1Z5aHAwTUM3d3JRUnNHTmJzeGRsb0JGT3ZKWEpLWWZEeXBleWdoR0VWSzhCQzNYVmxSM1pNM2pEazRtMzA1d2dxcVoyWXIwMF9tRzJNa1pESGtzWTM2NEkxWmoyUzQ?oc=5",
       "source": "팍스경제TV",
       "pubDate": "2026-09-04T05:24:13+00:00",
       "query": "HLB파나진"
@@ -64,9 +64,9 @@
       "query": "HLB제약"
     },
     {
-      "title": "현대요트, '디스커버리 나이트' 열고 요트 공동 소유시장 공략 본격화 - 머니투데이 - 머니투데이",
+      "title": "현대요트, '디스커버리 나이트' 열고 요트 공동 소유시장 공략 본격화 - 머니투데이 - mt.co.kr",
       "link": "https://news.google.com/rss/articles/CBMibkFVX3lxTE1aZmIwcEgwcFZHSnJaU2RRS3pmTG9aeHFNVkJWQ0FhOE4xTVVjUWhWTG1aWmZOQlJZNXdfaDhNUnhRazU2WmZab3AzN2VGdjV3WGhTdWt0ck02ODRodElwVGdvenZVbUxZdXdYNEJn0gFuQVVfeXFMTVpmYjBwSDBwVkdKclpTZFFLemZMb1p4cU1WQlZDQWE4TjFNVWNRaFZMbVpaZk5CUlk1d19oOE1SeFFrNTZaZlpvcDM3ZUZ2NXdYaFN1a3RyTTY4NGh0SXBUZ296dlVtTFl1d1g0Qmc?oc=5",
-      "source": "머니투데이",
+      "source": "mt.co.kr",
       "pubDate": "2026-09-04T01:31:15+00:00",
       "query": "현대요트"
     },
@@ -120,6 +120,6 @@
       "query": "HLB 허가"
     }
   ],
-  "fetchedAt": "2026-09-05T18:12:55.836621+00:00",
+  "fetchedAt": "2026-09-05T20:34:51.610145+00:00",
   "count": 17
 }
