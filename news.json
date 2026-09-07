@@ -12,7 +12,7 @@
       "link": "https://news.google.com/rss/articles/CBMinAFBVV95cUxPRVM0Xzl1cTVxdVlCY1dfbFdtS05UaUk5YlBBNE9FSTFWZ2lTUkxjS09PRVZhT3ZvWFVlNjlpV0tmY3ZoMmRUbFdYc3l1Ti1XMlUzZktzcENPamg4RHlUV0locU82dnJoTE93TzBUbEZQTXp1UzdRRktGd2VJUk5FMGlGUnRWVFFmQWRvU1hiYzcxUHVObGVYNWw5WVQ?oc=5",
       "source": "약업신문",
       "pubDate": "2026-09-06T06:14:03+00:00",
-      "query": "HLB 허가"
+      "query": "HLB생명과학"
     },
     {
       "title": "HLB그룹 현대요트, 요트 공동소유 오너십 확산…첫 공식 고객 행사 개최 - IT타임스",
@@ -43,16 +43,16 @@
       "query": "HLB파나진"
     },
     {
-      "title": "HLB, 진양곤 의장 'HLB이노베이션 주식 추가 매수'...올해 62차례 계열사 지분 확대 - 팍스경제TV",
-      "link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE5md194Wml3Umc2ODk3LWI1cTI4WUZtbmpCM1A1TXROM0RyZm1hbjVvVDgzYnVUbU10Vkx6OWg0UWVtcXZ6SHZsSDI1VDVxcWJ4a01VREZFQ0NlSTByZl84YlZ0emVGeTQ?oc=5",
-      "source": "팍스경제TV",
+      "title": "HLB, 진양곤 의장 'HLB이노베이션 주식 추가 매수'...올해 62차례 계열사 지분 확대 - paxetv.com",
+      "link": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE8yVHRKLUItZVJxUDhpZHdlWC13ZGtTQXZRNVhjNnpXOFFqU3ZRUmFvd3BSRWZUSlZ1b0JtaUozM19DdUNfWVlmaF84REpGcHdIemY0Tmx1UllCVzZMMW1zRGEyeW9pSmdC?oc=5",
+      "source": "paxetv.com",
       "pubDate": "2026-09-04T05:24:13+00:00",
       "query": "HLB이노베이션"
     },
     {
-      "title": "HLB파나진, '올리고뉴클레오타이드·펩타이드 엑스체인지'서 'PNA' 신약개발 적용 가능성 소개 - 팍스경제TV",
+      "title": "HLB파나진, '올리고뉴클레오타이드·펩타이드 엑스체인지'서 'PNA' 신약개발 적용 가능성 소개 - paxetv.com",
       "link": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE5iMHNZYk43NFQ4NUs5VGsxZC1fbmxTWFZaS1dIRmNmN3RQUGNKbzVxd3JFZnp5ZWxxSHlCZl9zY1BnRTluOGQwbW95ODBYR0d3amR0MEZIVEVzbTlGTm1ZMDBNbXhkbGFa?oc=5",
-      "source": "팍스경제TV",
+      "source": "paxetv.com",
       "pubDate": "2026-09-04T05:24:13+00:00",
       "query": "HLB파나진"
     },
@@ -62,6 +62,13 @@
       "source": "MEDI:GATE NEWS",
       "pubDate": "2026-09-04T01:53:33+00:00",
       "query": "HLB제약"
+    },
+    {
+      "title": "'CRL' HLB, 리보세라닙 재허가 정면 돌파 - 네이트",
+      "link": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE1OOGNteXlXanBSS3FhOGRuYkZoMlpYeDN3Q3BYTHlhUnpmc3VkcTRLdmJJUHo3ZllacVZCMGU3d2g2UUxJckdPY0ltc0xTZFRyVWdv?oc=5",
+      "source": "네이트",
+      "pubDate": "2026-09-04T00:46:00+00:00",
+      "query": "HLB 허가"
     },
     {
       "title": "HLB생명과학, 계열사 지원에 CB 상환까지…재무 부담 확대 - v.daum.net",
@@ -106,6 +113,6 @@
       "query": "HLB 허가"
     }
   ],
-  "fetchedAt": "2026-09-06T22:52:31.961379+00:00",
-  "count": 15
+  "fetchedAt": "2026-09-07T00:57:32.673864+00:00",
+  "count": 16
 }
