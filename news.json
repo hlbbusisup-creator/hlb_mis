@@ -65,7 +65,7 @@
     },
     {
       "title": "HLB, 진양곤 의장 'HLB이노베이션 주식 추가 매수'...올해 62차례 계열사 지분 확대 - 팍스경제TV",
-      "link": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE8yVHRKLUItZVJxUDhpZHdlWC13ZGtTQXZRNVhjNnpXOFFqU3ZRUmFvd3BSRWZUSlZ1b0JtaUozM19DdUNfWVlmaF84REpGcHdIemY0Tmx1UllCVzZMMW1zRGEyeW9pSmdC?oc=5",
+      "link": "https://news.google.com/rss/articles/CBMiY0FVX3lxTFAyMkt2Wkd6cGNvRklHZDNYcnlmdmpIeXk0Y2ZkR3FkemxreDBKMk1vUVB4VzJkYlBZTmVjTGxlNjh6ZWdBVllQLUc0aGZPUTY1YU5vS2sxcTd6WV9DTGxTdDlDRQ?oc=5",
       "source": "팍스경제TV",
       "pubDate": "2026-09-04T05:24:13+00:00",
       "query": "HLB이노베이션"
@@ -83,6 +83,13 @@
       "source": "머니투데이",
       "pubDate": "2026-09-04T01:31:15+00:00",
       "query": "현대요트"
+    },
+    {
+      "title": "'CRL' HLB, 리보세라닙 재허가 정면 돌파 - newsprime.co.kr",
+      "link": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE5GUlIwbEF1cmhETDhlU013QnVTVWEtYTZTNVUtZGtQNVQ5V1BLVVoxVTFfTURHQUdYUjhRTWpxaHpGd0U3QXdSMjdEZU1IRlBxeEVRTVJ5TVNnOTJZVFpBV1RPaw?oc=5",
+      "source": "newsprime.co.kr",
+      "pubDate": "2026-09-04T00:45:11+00:00",
+      "query": "HLB 허가"
     },
     {
       "title": "HLB생명과학, 계열사 지원에 CB 상환까지…재무 부담 확대 - v.daum.net",
@@ -113,6 +120,6 @@
       "query": "HLB제약"
     }
   ],
-  "fetchedAt": "2026-09-07T21:28:28.929292+00:00",
-  "count": 16
+  "fetchedAt": "2026-09-07T23:48:06.177504+00:00",
+  "count": 17
 }
