@@ -1,6 +1,13 @@
 {
   "news": [
     {
+      "title": "한국투자증권, HLB제약 유증 주관 '실권주 리스크' 눈길 - fetv.co.kr",
+      "link": "https://news.google.com/rss/articles/CBMiaEFVX3lxTFBYdFlfcDZxMGItaXVLYmpHLUxKMHYxZ0paRmI1MTBDREM0c0VRZ0JDc0JBNnEyLWY4VG9fMVBSNnNGNjJsWUlDRkh4cGRTQUV4YVB0aHVaRXFGN3ZtUXJXT1EwYkEwUUpE?oc=5",
+      "source": "fetv.co.kr",
+      "pubDate": "2026-09-09T07:56:32+00:00",
+      "query": "HLB제약"
+    },
+    {
       "title": "HLB파나진 AOC, 노바티스 델조타 우선심사로 기대감 ↑...기전 입증 눈앞 - PRESS9",
       "link": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE5mMDJlNnB4ckkwajlRVUZoX2RVTURPc2RWZ3N1akw0bzNRX3BsR1FGWXhGRTN4cm43bHZ3bHFNdE1oR0VfQjVCQWU4SWNLZi1fR19PN2U2REFQWDlFOC1DM2xiaUk?oc=5",
       "source": "PRESS9",
@@ -29,17 +36,10 @@
       "query": "HLB제약"
     },
     {
-      "title": "[약업분석] HLB제약, 상반기 매출·영업익 증가…ROE 2.17%로 하락 - 약업신문",
-      "link": "https://news.google.com/rss/articles/CBMixAFBVV95cUxPc1d4NFRxcHM2ZGdfZXcyTExHMVpiaGpnTkh1VHZfMTVocWZ2R2lsbFFkZlVZOGx4c2NqSXQyX1pJcGJCSXRFT3FUU0d2ZEFrQjVYTlAtd05ZNjVhMGZkazBRZVB5bUY4UWJONGl1UjgwVmVwbkpJeFZ1akZpeVRFTU41VUIydjVlWE9uX29mMDU0Y2ZranplNUFRR01lUWd1LTdLU0REbXJKenR2R0ZyTUdJbEMtekxLZ20zbllzZVJGMC1D?oc=5",
-      "source": "약업신문",
-      "pubDate": "2026-09-08T09:36:24+00:00",
-      "query": "HLB제약"
-    },
-    {
       "title": "[HLB 확장의 대가]③ 신약 자금부담 지속…커진 재무조달 의존성 - 블로터",
-      "link": "https://news.google.com/rss/articles/CBMibEFVX3lxTE05WUhkNWVmbzRtSlhNX1JHcU5NaU9iaDVzVTVVdVdPUkZrazU1VWszWDNjdUtsOGFYa3N0WUlyclI5Tlh5M19uNUs5aTF2T3ZEUHA4ZXZiQWZrWU0tenU5ZTBoc2poRmVGZkN3T9IBbEFVX3lxTE05WUhkNWVmbzRtSlhNX1JHcU5NaU9iaDVzVTVVdVdPUkZrazU1VWszWDNjdUtsOGFYa3N0WUlyclI5Tlh5M19uNUs5aTF2T3ZEUHA4ZXZiQWZrWU0tenU5ZTBoc2poRmVGZkN3Tw?oc=5",
+      "link": "https://news.google.com/rss/articles/CBMiaEFVX3lxTFBZNnhNRXY0M3V4Sk5NNVNDVEVhYmNIeVZZb3Z1WGhJeTJpcmpsQmE3SU1mUnVhbWRfVXRxOW9BclRXR0JFbHBoZE95SEVrTGRHZnJDRjljYl9BXzVQXzRGeWd3YndyNFNs0gFsQVVfeXFMTTlZSGQ1ZWZvNG1KWE1fUkdxTk1pT2JoNXNVNVV1V09SRmtrNTVVazNYM2N1S2w4YVhrc3RZSXJyUjlOWHkzX241SzlpMXZPdkRQcDhldmJBZmtZTS16dTllMGhzamhGZUZmQ3dP?oc=5",
       "source": "블로터",
-      "pubDate": "2026-09-08T09:36:17+00:00",
+      "pubDate": "2026-09-08T09:30:06+00:00",
       "query": "HLB 신약"
     },
     {
@@ -64,9 +64,9 @@
       "query": "HLB 임상"
     },
     {
-      "title": "간암서 3번 미끄러진 HLB 신약, 담관암은 다를까…FDA 허가 '운명의 27일' - Nate News",
+      "title": "간암서 3번 미끄러진 HLB 신약, 담관암은 다를까…FDA 허가 '운명의 27일' - news.nate.com",
       "link": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE9XMk5FaTlDN3lvN096VElEeWVTNjFVUDM1Zl9DYkVCejlWT0x1M2pMTkF0S2VXMFZXbmRubkdRZHpDRkVFVWhRLXZld0JOdEI0S21R?oc=5",
-      "source": "Nate News",
+      "source": "news.nate.com",
       "pubDate": "2026-09-07T01:55:00+00:00",
       "query": "HLB 허가"
     },
@@ -141,6 +141,6 @@
       "query": "HLB바이오스텝"
     }
   ],
-  "fetchedAt": "2026-09-09T06:23:30.614164+00:00",
+  "fetchedAt": "2026-09-09T11:44:23.322442+00:00",
   "count": 20
 }
