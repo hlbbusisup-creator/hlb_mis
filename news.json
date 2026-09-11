@@ -1,6 +1,13 @@
 {
   "news": [
     {
+      "title": "HLB, 장중 반등했지만 3만1000원대…FDA 재도전 일정에 시선 - 잡포스트",
+      "link": "https://news.google.com/rss/articles/CBMickFVX3lxTE5xV05zX0tHaVRjQ2M4YkduUVU0bnE5UnFGOFNiNFhWT0pidnpSNkkzMENrQXlZaWZrQWZ1cVFqR215Y084M2NYUVFjTkRQSUJ0LXU1NHdtTGRwVXp2al9yV21PUnlZOVBEdHdhNzVBZ0Rxd9IBckFVX3lxTE5xV05zX0tHaVRjQ2M4YkduUVU0bnE5UnFGOFNiNFhWT0pidnpSNkkzMENrQXlZaWZrQWZ1cVFqR215Y084M2NYUVFjTkRQSUJ0LXU1NHdtTGRwVXp2al9yV21PUnlZOVBEdHdhNzVBZ0Rxdw?oc=5",
+      "source": "잡포스트",
+      "pubDate": "2026-09-11T05:44:22+00:00",
+      "query": "HLB 허가"
+    },
+    {
       "title": "HLB제약 6710원 1.67% 상승…조정 뒤 반등 시도, 미·이란 전쟁 변수도 주시 - CBC뉴스",
       "link": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE5LQzIwQ0N4eVpmaVpUZ01CTkMtVlZIUl9fTDhfZXZ2dWcwQ2FfSTZYREtnOGF6d1hwUlgwZ2g4cWlidlBsb084MzZ0NUswUlVNUkJSbXY0M1VkbXROVUJXT0N1NA?oc=5",
       "source": "CBC뉴스",
@@ -50,6 +57,13 @@
       "query": "HLB 신약"
     },
     {
+      "title": "HLB제약, 608억 규모 유상증자 최종 발행가 5650원 확정 - 데이터투자",
+      "link": "https://news.google.com/rss/articles/CBMic0FVX3lxTE9QTlZPU1pUVWhaR2pNUjZlbWItWnh4SWRxLTREQW5lckVBWXZVUFNaeGFySWl1ckFqTVpHeHZnNUtpQTIyZ3gxYnlneGdCbmJ3aGtzdEdNTW5CWTRzUGxvbjExYTItWmNYaXJSakxaV2l1SWc?oc=5",
+      "source": "데이터투자",
+      "pubDate": "2026-09-08T06:07:59+00:00",
+      "query": "HLB제약"
+    },
+    {
       "title": "HLB이노베이션, 360억 유상증자 완료∙∙∙HLB셀 품고 글로벌 세포치료제 허브 도전 - 바이오북미디어",
       "link": "https://news.google.com/rss/articles/CBMiVEFVX3lxTFA3NWdlMnFsNTU2MU5NYVJCbUFSeV9UbXBGdzQyclNuUnJrbzkxaE16cEYyd3ZQX2pQcE5PbEM1RUNWV0RWaHBOTUFJOVJNR2d4UXN4eg?oc=5",
       "source": "바이오북미디어",
@@ -57,9 +71,9 @@
       "query": "HLB셀"
     },
     {
-      "title": "에드믹바이오·HLB바이오스텝, 튜머로이드·MPS 약물평가 개발 - 머니투데이 - 머니투데이",
+      "title": "에드믹바이오·HLB바이오스텝, 튜머로이드·MPS 약물평가 개발 - 머니투데이 - mt.co.kr",
       "link": "https://news.google.com/rss/articles/CBMibEFVX3lxTE5UNEQwQXRmNzlad1RCbkotZ0l3UmhIWlFPQlY2cFAwWXlMLXNhQkNUczNoUUdZbkFRRS1RX0lMV2dBMDB3SXdUbVhIem5lOHNtcjhOczJETXB0UWZPUUVBaXpmMDZXclpzc3pSSdIBckFVX3lxTE90N0h1MTk5ZU1vU19CTDhETTBYUDQwMks3U1BFZWZQMG83c3VlSmJNRGUtNFBvNnd1MUxobWpqZjJwTE82SGluMG5XZVBFTXFidDZvUjRQMEhZWWYxTy1EZ3ZzelVpNWp1aElQOFZoc0RFQQ?oc=5",
-      "source": "머니투데이",
+      "source": "mt.co.kr",
       "pubDate": "2026-09-07T08:06:28+00:00",
       "query": "HLB바이오스텝"
     },
@@ -71,6 +85,6 @@
       "query": "현대요트"
     }
   ],
-  "fetchedAt": "2026-09-11T15:15:40.983831+00:00",
-  "count": 10
+  "fetchedAt": "2026-09-11T18:42:03.578917+00:00",
+  "count": 12
 }
