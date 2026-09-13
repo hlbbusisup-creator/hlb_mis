@@ -1,11 +1,11 @@
 {
   "news": [
     {
-      "title": "제조 리스크에 3번 발목잡힌 HLB…‘절치부심’ 담관암 신약 美 FDA 문턱넘나 - 마이데일리",
-      "link": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE1SN0lmb0M5ajl1MVEwSmplaFdVbWlSTHN2Q3djN0VBMDc0QUc3Vnd3aVlfVzZLTEZNWm1XQlB5Vk5JS0IwNUFpRjRPZlg2Y3dLY211OWhoczV1SG5hb3ZpdGVoQmtHQQ?oc=5",
-      "source": "마이데일리",
-      "pubDate": "2026-09-10T06:28:52+00:00",
-      "query": "HLB FDA"
+      "title": "HLB제약 6710원 1.67% 상승…조정 뒤 반등 시도, 미·이란 전쟁 변수도 주시 - CBC뉴스",
+      "link": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE0zOTQwMTZMUVJfV2U0ZVIwcGh3NTVfcldDRS1SaEx6R3N4OW9BU09Vd1MzS1ZlM0FlSjBDbV81UnBHQTJyZVF3MGFEUzN0cE9mVTl4dW1vT0hkM3R6LV9tTnRqU25LT2Iz?oc=5",
+      "source": "CBC뉴스",
+      "pubDate": "2026-09-11T00:42:25+00:00",
+      "query": "HLB제약"
     },
     {
       "title": "'유증 반토막' HLB제약, 향남공장 지키는 이유 - 동행미디어 시대",
@@ -48,8 +48,15 @@
       "source": "블로터",
       "pubDate": "2026-09-08T09:30:06+00:00",
       "query": "HLB 신약"
+    },
+    {
+      "title": "HLB이노베이션, 360억 유상증자 완료∙∙∙HLB셀 품고 글로벌 세포치료제 허브 도전 - 바이오북미디어",
+      "link": "https://news.google.com/rss/articles/CBMiVEFVX3lxTFA3NWdlMnFsNTU2MU5NYVJCbUFSeV9UbXBGdzQyclNuUnJrbzkxaE16cEYyd3ZQX2pQcE5PbEM1RUNWV0RWaHBOTUFJOVJNR2d4UXN4eg?oc=5",
+      "source": "바이오북미디어",
+      "pubDate": "2026-09-08T00:44:47+00:00",
+      "query": "HLB셀"
     }
   ],
-  "fetchedAt": "2026-09-13T16:32:44.600847+00:00",
-  "count": 7
+  "fetchedAt": "2026-09-13T18:59:44.218894+00:00",
+  "count": 8
 }
