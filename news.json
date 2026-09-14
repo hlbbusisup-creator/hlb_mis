@@ -1,17 +1,10 @@
 {
   "news": [
     {
-      "title": "HLB제약, 네이버 판매자 최고등급 ‘플래티넘’ 달성 - 이투데이",
-      "link": "https://news.google.com/rss/articles/CBMidEFVX3lxTE01ejVoYThIZFNTZ0tOZWNxQVdyekU5dzJtU3k1QUpEZktRTmZUVW1HdlpIUFNFWmRtVUlVcEpUcFAwTXRHWWwxbjZ5MWRPcnN6NVc1NTZGUS0yRlZKaXFFTGhrX01yMjk2bzhzamZlQ0VidE9V?oc=5",
-      "source": "이투데이",
-      "pubDate": "2026-09-13T23:16:00+00:00",
-      "query": "HLB제약"
-    },
-    {
-      "title": "'유증 반토막' HLB제약, 향남공장 지키는 이유 - 동행미디어 시대",
-      "link": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE9vbUVJR3BuZ0ZNWHRzMlBsQU5ZNkxUZ0lRdzBGRFhPZnhKUVlSQXdmdkN4UW5hM0VrajhYZFJhWjVsajBhMDUxMWdFZ3Zoc3R5TTBlNVBpOV9ORTRlb1E?oc=5",
-      "source": "동행미디어 시대",
-      "pubDate": "2026-09-10T05:53:40+00:00",
+      "title": "HLB제약, 네이버 브랜드스토어 '플래티넘' 달성 - v.daum.net",
+      "link": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE05NHRZcloyUU80WUhoSXpERTIyT0VvNHVlSk4yckdxZHZ3dWh5YjE3QnY5Z0hXS2k2QWRsTWR6WThXRkIwemdpS2tKaFg3UmM?oc=5",
+      "source": "v.daum.net",
+      "pubDate": "2026-09-14T00:28:00+00:00",
       "query": "HLB제약"
     },
     {
@@ -22,9 +15,9 @@
       "query": "HLB파나진"
     },
     {
-      "title": "HLB펩, 전환사채 82억 6,000만 원 조기상환...10월 8일 지급 예정 - Investing.com 한국어",
+      "title": "HLB펩, 전환사채 82억 6,000만 원 조기상환...10월 8일 지급 예정 - kr.investing.com",
       "link": "https://news.google.com/rss/articles/CBMic0FVX3lxTE5HMEhzVzlHOUJYTUE4MnNlcXdHajhncVdadng2eGNuNjlPTWpxeHNmc2doM3BVcVFTYUI1T3Z3eGNvUFJfSDEtLWJZNUhlaFFidUtuLS00NExPVzBkVDR3MkdIcm51QnBsZk91N0ZON1hDYjg?oc=5",
-      "source": "Investing.com 한국어",
+      "source": "kr.investing.com",
       "pubDate": "2026-09-09T00:36:00+00:00",
       "query": "HLB펩"
     },
@@ -36,6 +29,6 @@
       "query": "HLB펩"
     }
   ],
-  "fetchedAt": "2026-09-13T23:22:17.866579+00:00",
-  "count": 5
+  "fetchedAt": "2026-09-14T01:22:20.671487+00:00",
+  "count": 4
 }
