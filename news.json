@@ -1,9 +1,9 @@
 {
   "news": [
     {
-      "title": "[기자수첩] 미국 FDA 문턱 도전하는 K바이오 : 네이버 블로그 - Naver Blog",
+      "title": "[기자수첩] 미국 FDA 문턱 도전하는 K바이오 : 네이버 블로그 - blog.naver.com",
       "link": "https://news.google.com/rss/articles/CBMijwFBVV95cUxPZnNPUDdmZHp1Sk0wd3VhOFhsTjltVm9LMk9hc190VHFHUWJpYzhlMEgwWDg0RFRtbWdjVzk1RmxYNHNJTFBieXpaNFJaZFVxdnQwX2tXSGZiM29kc3gwZ2pEWWVjNXNfYmNkdVdsdnZiUWY0T2thVEZLbUQ1Z1V4QTBRd1VQVXA2YUVQdllDNA?oc=5",
-      "source": "Naver Blog",
+      "source": "blog.naver.com",
       "pubDate": "2026-09-15T19:05:04+00:00",
       "query": "HLB FDA"
     },
@@ -71,18 +71,25 @@
       "query": "HLB제넥스"
     },
     {
-      "title": "‘반쪽 참여’ 악재 넘었다…HLB제약 유증 91% 방어 - 경제타임스",
-      "link": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE1xUDdVRV9Zb2lMT0pkWTM1NmFDdklJLXRlV09ieW9oc2pJTUhQOUQwdTJ6VkpGcHhDdG5aSDcwVTJDNUJETnZpOVRHN1gtV0lWalRF?oc=5",
-      "source": "경제타임스",
-      "pubDate": "2026-09-14T06:19:39+00:00",
-      "query": "HLB제약"
-    },
-    {
       "title": "HLB제약, 네이버 브랜드스토어 '플래티넘' 달성 - 더팩트",
       "link": "https://news.google.com/rss/articles/CBMiVEFVX3lxTFBkdXVEOURCaFFlZHBRT0RWcHhPa0tiTlE0aHZhM3g3QUdSYlhUT0xGM2ZuaHM5RXFialR3OXN2d1hNX2xPZFpkeDZuX0pyelBiREtLQdIBVEFVX3lxTFBkdXVEOURCaFFlZHBRT0RWcHhPa0tiTlE0aHZhM3g3QUdSYlhUT0xGM2ZuaHM5RXFialR3OXN2d1hNX2xPZFpkeDZuX0pyelBiREtLQQ?oc=5",
       "source": "더팩트",
       "pubDate": "2026-09-14T00:27:00+00:00",
       "query": "HLB제약"
+    },
+    {
+      "title": "HLB 엘레바, ‘리라푸그라티닙’ 암종불문 임상 2상 첫 환자 투약 - 쿠키뉴스",
+      "link": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE9aczlnRWZDMkNqWXM5SVVpRzdPaUxJaFlsX3o0TWdzSXZHRXplTzJqUWZROTMxcWc0WVVIbE43TmpKM1AyQmtkSTlsQllNTlEzYkhJNXhEbF9UZVRBVUpDaGt3TQ?oc=5",
+      "source": "쿠키뉴스",
+      "pubDate": "2026-09-12T11:21:46+00:00",
+      "query": "HLB 임상"
+    },
+    {
+      "title": "HLB파나진 AOC, 노바티스 델조타 우선심사로 기대감 ↑...기전 입증 눈앞 - PRESS9",
+      "link": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE5mMDJlNnB4ckkwajlRVUZoX2RVTURPc2RWZ3N1akw0bzNRX3BsR1FGWXhGRTN4cm43bHZ3bHFNdE1oR0VfQjVCQWU4SWNLZi1fR19PN2U2REFQWDlFOC1DM2xiaUk?oc=5",
+      "source": "PRESS9",
+      "pubDate": "2026-09-09T02:29:22+00:00",
+      "query": "HLB파나진"
     },
     {
       "title": "HLB펩, 전환사채 82억 6,000만 원 조기상환...10월 8일 지급 예정 - Investing.com 한국어",
@@ -99,6 +106,6 @@
       "query": "HLB펩"
     }
   ],
-  "fetchedAt": "2026-09-15T20:13:02.716726+00:00",
-  "count": 14
+  "fetchedAt": "2026-09-15T23:03:05.833463+00:00",
+  "count": 15
 }
