@@ -1,6 +1,27 @@
 {
   "news": [
     {
+      "title": "HLB그룹주 장초반 강세…FDA 신약 허가 '기로' - 머니투데이 - 머니투데이",
+      "link": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE4xcE9Cd1A4OUU0b0ZiOFlxMVFqUGRhamZyNS1ra0twZ09lSlduLVFjcHB4eENhLTI5RUt1dFU4V2FuQW1NR0dMMWFqQlkxcjVJeFE3X1N6VmQ2Mkd3M01GR3RqaHFWMExu0gFuQVVfeXFMUGVCak93MzgtSzI5bm9mbW5GeHNnQ2JoeXllcVNhb0dMMWpDT1V4RnNNOGh1VUlpMHFRY0pBVHg2dWxGM25xRzE4bTFqX1RTOUg3QWozMGI0eEhRdW05dXVsYVR3bDllV25BTFpLTXc?oc=5",
+      "source": "머니투데이",
+      "pubDate": "2026-09-15T00:43:40+00:00",
+      "query": "HLB 신약"
+    },
+    {
+      "title": "특징주, HLB바이오스텝-대마 테마 상승세에 29.82% ↑ - 매일경제 마켓",
+      "link": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE1BZ3ByQlZ4NktVTUFzSW12QzMwM0RwemwxOWowWWU1TlNGcXI4TkNVbVEtNnppSDg1VEh3cnJfSWxoZjQ1OUtfNHJVMkQtRXBDQ0E?oc=5",
+      "source": "매일경제 마켓",
+      "pubDate": "2026-09-15T00:33:20+00:00",
+      "query": "HLB바이오스텝"
+    },
+    {
+      "title": "툴젠·HLB제약 유상증자 마무리... 이뮨온시아, IMC-002 임상에 췌장암 코호트 추가 - The Pharma",
+      "link": "https://news.google.com/rss/articles/CBMikwFBVV95cUxPREVBck43WHZmdzczU2YxV0UtdlRuUElDWUYxckxfUlJPdXM1Tm94VkprR01SdXdRVHhHZHF0Uk9jV2VFZElRU2lGZDVhYmh1X0xhOGxPLVh5NEkwLWR4N3lfSzI3Unhya1FwTlJpRGFWZ3JLbURhaF9kRTZEai1zcU5WT2QzT1JKcVRpSXNUWXFaaGc?oc=5",
+      "source": "The Pharma",
+      "pubDate": "2026-09-14T09:13:00+00:00",
+      "query": "HLB 임상"
+    },
+    {
       "title": "HLB제약, 네이버 브랜드스토어 '플래티넘' 등급 달성 - v.daum.net",
       "link": "https://news.google.com/rss/articles/CBMiT0FVX3lxTFBtOE1Pa1JMc1VlOVNKNDgxQ2pWTjZqZXJpY0wzODlYTWMwZ0lESW1yVUZlcXVkdnA4ejZPZkluVXgwRFo0aVlNbmQ5YjdKWkE?oc=5",
       "source": "v.daum.net",
@@ -22,9 +43,9 @@
       "query": "HLB제넥스"
     },
     {
-      "title": "‘반쪽 참여’ 악재 넘었다…HLB제약 유증 91% 방어 - 경제타임스",
+      "title": "‘반쪽 참여’ 악재 넘었다…HLB제약 유증 91% 방어 - ket.kr",
       "link": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE1xUDdVRV9Zb2lMT0pkWTM1NmFDdklJLXRlV09ieW9oc2pJTUhQOUQwdTJ6VkpGcHhDdG5aSDcwVTJDNUJETnZpOVRHN1gtV0lWalRF?oc=5",
-      "source": "경제타임스",
+      "source": "ket.kr",
       "pubDate": "2026-09-14T06:19:39+00:00",
       "query": "HLB제약"
     },
@@ -78,6 +99,6 @@
       "query": "HLB펩"
     }
   ],
-  "fetchedAt": "2026-09-14T22:27:05.791760+00:00",
-  "count": 11
+  "fetchedAt": "2026-09-15T00:51:27.978399+00:00",
+  "count": 14
 }
