@@ -1,16 +1,23 @@
 {
   "news": [
     {
-      "title": "HLB파나진, 면역진단 자회사 \"사업종료\"..신사업에 집중 - biospectator.com",
-      "link": "https://news.google.com/rss/articles/CBMiV0FVX3lxTE9qbmplZ0pqcXE5eFlpeTkyMGQzZENETHU0dG9FRzk0bkRvMFAxQnJLWDdGcDJPU0VueURjeVdWOVRSSlY2NlVGSTRRVjlnOHJBb29JWTdNMA?oc=5",
-      "source": "biospectator.com",
-      "pubDate": "2026-09-18T09:12:00+00:00",
+      "title": "[바이오 브리핑] 대웅제약, SK바이오팜, HLB파나진 - 신아일보",
+      "link": "https://news.google.com/rss/articles/CBMicEFVX3lxTFAxVUxZMXFVN2w1ZWpkQkp0SFBEVjFGbXdBSjFFdGVMcTBJVGlJV2RnS21lQ2J2NW9lRjJZdU1fbElaR09kZW56SUhhVjRxRXFfeUZzbW9KazI0VmsxZnB1TE16UGJnUEdEbEUxUWF3Q3I?oc=5",
+      "source": "신아일보",
+      "pubDate": "2026-09-20T04:55:21+00:00",
       "query": "HLB파나진"
     },
     {
-      "title": "HLB파나진, 사업구조 재편…‘AOC·공간단백체’ 집중 공략 - dealsite.co.kr",
+      "title": "“(주)코아바이오” 국가식품클러스터 내, 외국인투자신고 마쳐 - 데일리뉴스",
+      "link": "https://news.google.com/rss/articles/CBMijwNBVV95cUxNRVFreFhXY3lpOElyaTFILTlBQ1pvTmlRUElmdHc0WTl2X2xadEFha3g4TFhNMWFRLUk4UDhCeFBUc0hHWjJzbjZ6UjFkaGtaRXdWbDN1Q2swMk9NNGF3cDEzdUJYODlSQThETEg4eHI0X2d2ZlVKS0l2V2dhNGp0dnU1VmFKVEpzWG5YOHVTSGMxMktVdVJlUkkwNlluVTQxRWpidVdhMXBOYUhmNk54Wk5vZ3pNSGg1UU8zSmFVN1dyNUEyVVBoTWlPaGZKckdxeVFFenltcG0tUnN1OW9CUjZ0RmJ3SHZjWE5jbm1zMFoyeTdXNThPQ2NNVkVCbmR2NWJFbmxqSE1YYXZWX0xXTV9mUTdtYWZPRXZGeEJlcElUVWI2UkEwVlpQZ0xaZG9zak8zcVFQZHVtLXFzbmNPNmtHUXJtZjU3YXliX1JtN2wxdEo2QnNsa3d0bG85TjhaUUJ1cTNnV1VCQWVqdlF1eV90cnhCUHdHMnRhSl9jbV9ib0FYUzZTUlVKcHY0N2c?oc=5",
+      "source": "데일리뉴스",
+      "pubDate": "2026-09-18T17:42:00+00:00",
+      "query": "코아바이오"
+    },
+    {
+      "title": "HLB파나진, 사업구조 재편…‘AOC·공간단백체’ 집중 공략 - 딜사이트",
       "link": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE9odGprQnRMTHFPVExzS2p0ZU9pb3FlR01abS1Ha2hQaS1nNjRKOFV5enRJZ1MwLUROeVZOM2cyVDBUUmhTZW54X2hQWEFkVmc?oc=5",
-      "source": "dealsite.co.kr",
+      "source": "딜사이트",
       "pubDate": "2026-09-18T08:31:57+00:00",
       "query": "HLB파나진"
     },
@@ -19,13 +26,6 @@
       "link": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE5Zdy16X2xYMzJNLXpSa3RkcFd6Snc3OEtKUENOTFRxWVh6R3ZGTkVGczZSQV9FOHhiS0gwc3RQLTdjdHBDNEVFRExyT1dCUkgzUDhzNGQ3WUN6RzRaeXc?oc=5",
       "source": "동행미디어 시대",
       "pubDate": "2026-09-18T04:13:51+00:00",
-      "query": "HLB FDA"
-    },
-    {
-      "title": "HLB제약 유상증자 일반공모 청약률 2880%, FDA 허가 앞두고 투자 심리 폭발 - 바이오북미디어",
-      "link": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE9DZ1pxUnJIM0dKODFSTXRic1NIb2pUbVJaR2hJcFQ1dF9rUVdYbXYwRmlYSzNYWDRhT3UtbDd6VGhsSXlaaEN6b3ZDUV9FaXRMaDBtdw?oc=5",
-      "source": "바이오북미디어",
-      "pubDate": "2026-09-18T00:43:00+00:00",
       "query": "HLB FDA"
     },
     {
@@ -41,6 +41,13 @@
       "source": "팍스경제TV",
       "pubDate": "2026-09-17T15:03:06+00:00",
       "query": "HLB라이프케어"
+    },
+    {
+      "title": "동국대, HLB제넥스와 규제과학 산학협력 - 매일일보",
+      "link": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE51cllqSkJWQ2VqNHRsVkpWdmFwcXJlQzhaMGdocGhRU1A2UTd6VUNIa0VreWZUMlJiSmNiOHg2ZElLSTBwLV80SjNacUtrX21RTU9pd3pCV213d1ZtU2RNaXZsOUrSAWhBVV95cUxOWF9KN2pKa1BXLS1ETURpb2h0M1NUSzA1a1RVZ1BiUC1KREZqcmczbk5QX0VZYW9pRmRnQW5Sa3Nkd05xYTg0elZKc1lXRjVEazg1VDNleFdhUGFILWEtZUNDVjduR1FWdg?oc=5",
+      "source": "매일일보",
+      "pubDate": "2026-09-17T07:42:44+00:00",
+      "query": "HLB제넥스"
     },
     {
       "title": "HLB 등, HLB이노베이션 지분 41.72%로 확대 - 데이터투자",
@@ -106,6 +113,6 @@
       "query": "HLB제약"
     }
   ],
-  "fetchedAt": "2026-09-20T00:26:27.901656+00:00",
-  "count": 15
+  "fetchedAt": "2026-09-20T05:19:09.256732+00:00",
+  "count": 16
 }
