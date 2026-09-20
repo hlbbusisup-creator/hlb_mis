@@ -1,9 +1,9 @@
 {
   "news": [
     {
-      "title": "[바이오 브리핑] 대웅제약, SK바이오팜, HLB파나진 - 신아일보",
+      "title": "[바이오 브리핑] 대웅제약, SK바이오팜, HLB파나진 - shinailbo.co.kr",
       "link": "https://news.google.com/rss/articles/CBMicEFVX3lxTFAxVUxZMXFVN2w1ZWpkQkp0SFBEVjFGbXdBSjFFdGVMcTBJVGlJV2RnS21lQ2J2NW9lRjJZdU1fbElaR09kZW56SUhhVjRxRXFfeUZzbW9KazI0VmsxZnB1TE16UGJnUEdEbEUxUWF3Q3I?oc=5",
-      "source": "신아일보",
+      "source": "shinailbo.co.kr",
       "pubDate": "2026-09-20T04:55:21+00:00",
       "query": "HLB파나진"
     },
@@ -13,13 +13,6 @@
       "source": "데일리뉴스",
       "pubDate": "2026-09-18T17:42:00+00:00",
       "query": "코아바이오"
-    },
-    {
-      "title": "HLB파나진, 면역진단 개발 사업 접는다…체질 개선 위한 전략 - ebn.co.kr",
-      "link": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE5paHhpQmFvbm9tbU1tOGdoNVk3UzdhUlVtWldQUG91T1kzTkZHeWhZSGNJLVRLN0c2Vk90d09yRDEySTBhcEdsZGdSX2NPSFNCUVpxQUJFNURONFV2WTNwdEhCTUZYYmc2?oc=5",
-      "source": "ebn.co.kr",
-      "pubDate": "2026-09-18T10:04:41+00:00",
-      "query": "HLB파나진"
     },
     {
       "title": "HLB파나진, 사업구조 재편…‘AOC·공간단백체’ 집중 공략 - 딜사이트",
@@ -127,6 +120,6 @@
       "query": "HLB제약"
     }
   ],
-  "fetchedAt": "2026-09-20T17:34:26.283922+00:00",
-  "count": 18
+  "fetchedAt": "2026-09-20T19:49:02.130459+00:00",
+  "count": 17
 }
