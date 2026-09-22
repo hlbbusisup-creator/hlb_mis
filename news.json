@@ -1,11 +1,11 @@
 {
   "news": [
     {
-      "title": "美 FDA, HLB '담관암 신약' 제품명 조건부 수용 - 데일리안",
-      "link": "https://news.google.com/rss/articles/CBMi2AFBVV95cUxNTENja25xSndBRjd0dE9CRFhZTFdhaW1pM0UzeEVEWDEwVGFkUklXNXgzSGpjMHBtckVUeFhFUmFQbWdadGNVSHc3RUx3MnJ6cGx2ZmRCbFZRdEpINUlzcXNwcU9oUjJZZXZLMWFtaTNGYWN6OHlsVlFZT1RGZTBUUlFkZmpPd1QybjNqRFEwTnpKdFVSYjNpYlBmeXdiblh1MzVqN1Nuc3RNcWRGeWszV1YwZGhBTHVBdnV0emFueVhyUndsVU1FbDRhamxUSmE0WWYtMTA0ZXI?oc=5",
-      "source": "데일리안",
-      "pubDate": "2026-09-21T09:29:00+00:00",
-      "query": "HLB FDA"
+      "title": "HLB 담관암 신약 FDA 결정 D-3…\"현재까지 추가 심사 이슈 없어\" - v.daum.net",
+      "link": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE45OUNfXy13RXdsaEViZkx1UWY4WUdCSFlGU1EyLUdFVVRaVGNKOThyUVB5UVBHWWdicUpUeTR0U3ZhRy1uZWxQcmhDN1FKSFE?oc=5",
+      "source": "v.daum.net",
+      "pubDate": "2026-09-21T21:21:31+00:00",
+      "query": "HLB 신약"
     },
     {
       "title": "HLB파나진, 190억 쏟은 진단사업 2년 만에 철수 - 서울경제TV",
@@ -19,13 +19,6 @@
       "link": "https://news.google.com/rss/articles/CBMickFVX3lxTE9aRUZQdzltSU1TeE9xVXVod29GZ0RYNTJVbU1qVUJnckM3SW9MekVnTzZWYml2ZTRwcTU0UHJoSDNTMGlnbEU3WmpERDJQMnNiLTB4bFlrX01SX0VDYUNEZGNMUl9KRVFEaV9MQTBYNF9ad9IBckFVX3lxTE9aRUZQdzltSU1TeE9xVXVod29GZ0RYNTJVbU1qVUJnckM3SW9MekVnTzZWYml2ZTRwcTU0UHJoSDNTMGlnbEU3WmpERDJQMnNiLTB4bFlrX01SX0VDYUNEZGNMUl9KRVFEaV9MQTBYNF9adw?oc=5",
       "source": "잡포스트",
       "pubDate": "2026-09-21T06:00:08+00:00",
-      "query": "HLB제약"
-    },
-    {
-      "title": "HLB제약, 의료 취약 계층 위해 4000만원 상당 일반의약품 기부 - 약업신문",
-      "link": "https://news.google.com/rss/articles/CBMingFBVV95cUxNVUtIY3Z2Z2lKZ0VPb0w0R09JUFlycFdhTjQwUTdBS3doMUh4d3NlV29EZmo3T01uQm5DYWxPVUJ4Y0RPRS1SZ1JlRDlkZHlZWnRQazV5THNqaXpEdE0wQWotTF96ajEyUnVuSDdJUm93ZmU2bldPQS1LdWhtV3oyOXY1UUlnRkVXQmdMSEFBdk4xcmltamxJVUMxaUE4dw?oc=5",
-      "source": "약업신문",
-      "pubDate": "2026-09-21T05:56:21+00:00",
       "query": "HLB제약"
     },
     {
@@ -85,9 +78,9 @@
       "query": "HLB라이프케어"
     },
     {
-      "title": "동국대, HLB제넥스와 규제과학 산학협력 - m-i.kr",
+      "title": "동국대, HLB제넥스와 규제과학 산학협력 - 매일일보",
       "link": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE51cllqSkJWQ2VqNHRsVkpWdmFwcXJlQzhaMGdocGhRU1A2UTd6VUNIa0VreWZUMlJiSmNiOHg2ZElLSTBwLV80SjNacUtrX21RTU9pd3pCV213d1ZtU2RNaXZsOUrSAWhBVV95cUxOWF9KN2pKa1BXLS1ETURpb2h0M1NUSzA1a1RVZ1BiUC1KREZqcmczbk5QX0VZYW9pRmRnQW5Sa3Nkd05xYTg0elZKc1lXRjVEazg1VDNleFdhUGFILWEtZUNDVjduR1FWdg?oc=5",
-      "source": "m-i.kr",
+      "source": "매일일보",
       "pubDate": "2026-09-17T07:42:44+00:00",
       "query": "HLB제넥스"
     },
@@ -120,6 +113,6 @@
       "query": "HLB 임상"
     }
   ],
-  "fetchedAt": "2026-09-21T21:01:17.413331+00:00",
-  "count": 17
+  "fetchedAt": "2026-09-22T00:02:55.833333+00:00",
+  "count": 16
 }
