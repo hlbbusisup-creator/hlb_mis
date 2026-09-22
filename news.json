@@ -1,11 +1,18 @@
 {
   "news": [
     {
-      "title": "HLB, 담관암 신약 ‘이름표’ 붙었다…FDA 문턱 넘을까 - 한국금융신문",
-      "link": "https://news.google.com/rss/articles/CBMifEFVX3lxTE1nSFI3RmpqYlVhWkFET1JrbVpyLTZtRldmQ3A5bW5qdnR3UXFKa0FvMi1SUnY0ZHREVlI3SWYwZnM1MmR3Tl9XeWRkcWd0QkM2MnF1UElYWDRRQzd1bTE0b2dDT2F6eUFRVnNvSE02bmNoV2d4QThtMG9oaWQ?oc=5",
-      "source": "한국금융신문",
-      "pubDate": "2026-09-22T02:06:43+00:00",
-      "query": "HLB 신약"
+      "title": "’리픽투’ 이름은 달았는데...HLB 담관암 신약, ’FDA 결승선’ 넘을까 By EBN - Investing.com 한국어",
+      "link": "https://news.google.com/rss/articles/CBMicEFVX3lxTE16R0Z3NGVNS0ZZVENCaUtsMFJKdjM0WFJYdHBZaGQyNk9yRy1tVmY2cnRXZU9hVnpPSjZIUlNHMUZacFpndjQ3aVpoYVRyaTZMalVTSTdkVDYyd29NTkgzMkJoekpXbG1uU0pfamg4Wmw?oc=5",
+      "source": "Investing.com 한국어",
+      "pubDate": "2026-09-22T08:42:00+00:00",
+      "query": "HLB FDA"
+    },
+    {
+      "title": "이번엔 담관암…25일 미국 FDA 관문 뚫을까 - 톱데일리",
+      "link": "https://news.google.com/rss/articles/CBMiUEFVX3lxTFBYWG1rZU9pV29MaHdiY0xLTlMtcmR3Nk1QOGw4RGdQMXNYNms3UmJibkgtc1llSm13TTZDU3ZiVmtaYjd2c3VyV21Id2ZyQms1?oc=5",
+      "source": "톱데일리",
+      "pubDate": "2026-09-22T04:55:00+00:00",
+      "query": "HLB FDA"
     },
     {
       "title": "HLB파나진, 190억 쏟은 진단사업 2년 만에 철수 - 서울경제TV",
@@ -19,7 +26,7 @@
       "link": "https://news.google.com/rss/articles/CBMia0FVX3lxTFBjb0NHZVZiMy1wVjVZdkNocFJKMkhyQ2hUU3RPbmdBYlZod29OOEtURG4wUDRiZnlKeHctbGk5MXF6ckUwMmlEV0pzT1IxdktYZHZ4UWdydGRtLVJWRWdBcTJQSnVyelBmWWtj?oc=5",
       "source": "메디파나뉴스",
       "pubDate": "2026-09-21T03:05:00+00:00",
-      "query": "HLB 신약"
+      "query": "HLB 임상"
     },
     {
       "title": "줄기세포 관련주 장중 희비…HLB생명과학 7%대 급등, 이엔셀은 9%대↓ - CBC뉴스",
@@ -78,9 +85,9 @@
       "query": "HLB제넥스"
     },
     {
-      "title": "HLB 등, HLB이노베이션 지분 41.72%로 확대 - datatooza.com",
+      "title": "HLB 등, HLB이노베이션 지분 41.72%로 확대 - 데이터투자",
       "link": "https://news.google.com/rss/articles/CBMic0FVX3lxTFBMckwzdS1WRzR2NUtvb3EwM0ZtdXlFVnNraTBRdVF2dENBNlpUOENlVDZaRTNKU2NpUWZ4bUFmekxNMHRsdzJTSGdySmNra1l3ZVMyRWtJU2IyekcwR1B3UHR6eFkwSDZWTk9rdnZKYnc4dDA?oc=5",
-      "source": "datatooza.com",
+      "source": "데이터투자",
       "pubDate": "2026-09-17T07:10:01+00:00",
       "query": "HLB이노베이션"
     },
@@ -104,15 +111,8 @@
       "source": "뉴스핌",
       "pubDate": "2026-09-16T05:23:00+00:00",
       "query": "HLB제넥스"
-    },
-    {
-      "title": "셀트리온·HLB, 美·유럽서 신약 경쟁력 확대...임상·허가 속도 - news2day.co.kr",
-      "link": "https://news.google.com/rss/articles/CBMiXkFVX3lxTFBwS1hRTm9xX2QyRmJIVGRfY3ROdWpnTWM1VEYyQ1ZRYkw1ZURlcy1NSnlPelZubzR0UkpOUHBWRW02eUlzX2trSUVYZ0ZtR2MxeWlxc3dscjRqc2w2cGc?oc=5",
-      "source": "news2day.co.kr",
-      "pubDate": "2026-09-15T08:25:00+00:00",
-      "query": "HLB 임상"
     }
   ],
-  "fetchedAt": "2026-09-22T04:47:52.701459+00:00",
+  "fetchedAt": "2026-09-22T09:53:41.018857+00:00",
   "count": 16
 }
