@@ -1,18 +1,46 @@
 {
   "news": [
     {
-      "title": "HLB, FDA 문턱 넘었다⋯담관암 신약 '리픽투' 첫 허가 - 아이뉴스24",
-      "link": "https://news.google.com/rss/articles/CBMiS0FVX3lxTE84MnV2VUI3VXZyTVJIWFpxZkdoY0xPOFpWeWNTNDBNdUdRX09mbG9vMl96ZWpERVNoYnlaWTdSdkdQMjYyYUFnRkgzbw?oc=5",
-      "source": "아이뉴스24",
-      "pubDate": "2026-09-24T06:34:39+00:00",
-      "query": "HLB 신약"
+      "title": "스마트 계약 취약점 : 위험 피하기와 최적화 - 실용적인 접근법 - Histoire pour tous",
+      "link": "https://news.google.com/rss/articles/CBMiwAJBVV95cUxPRWZ5XzdrLTBjOXNaZUctRE1LNXRyT3N5X0hiNmxFYU9CVnlxSjRQeG90bUg1R09hRG1GaXJXSklWM0hYWlJEc0NRMkpDSTVhM0VJRC1QNXdjbmVwbnZiSkNQdExlUzlwU3p5dnVESkdJNEVhSjdXem1QWmRmQktzcXA0cF9ncXJvdzJCTW1PaEZaelpQb3lsQW40OENhN3dKcFRnX2NwNXBycW9wVXpJT25OVDZ2d3dBeHM5dk95SDh0Q3h1bEFxRUZmNGdVNDJoaUtWc3ZOdnlZdnEwdk5DV3BTbzNlX011SVRROXRlY2ttY1l3QV9pVG8wQ3ppUWVCdHhqcFVIWHJSclMxMlhWWnkzNldFSXpkOGNMcHV2c0JTRGZzZEk0YWFqOUh2WXNidkhOd2NucW9HR1VqUmtxcQ?oc=5",
+      "source": "Histoire pour tous",
+      "pubDate": "2026-09-24T05:46:29+00:00",
+      "query": "HLB 계약"
     },
     {
-      "title": "HLB 리라푸그라티닙, 25일 美 FDA 결정…\"현재까지 변동 없어\" - hitnews.co.kr",
-      "link": "https://news.google.com/rss/articles/CBMia0FVX3lxTE9zODFEeFh3eXQzb3JEQkV2a0d3cElnVG5HREZ1NjNPbE1VdkkxVWw5YnJYYVhHZHphT2tsWFJSQ0JiRTV3a0YyVGEtQ3FFVmVyWHZocXRuYl9JV0VGSnZ0b0VQV2FHdHBYazRr?oc=5",
-      "source": "hitnews.co.kr",
-      "pubDate": "2026-09-23T21:28:00+00:00",
+      "title": "진양곤 HLB 의장 “리픽투 승인은 시작”…간암·CAR-T 신약 후속 - press9.kr",
+      "link": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE9pajNlNEJScU9RYzdEc1o1RmFuR1FSLWozWm41RjdYQ2tBaXlFYkd2S1ctX2tOOEs0TjFldkdCNDR2alVHTHZQbmdzY0NwUVVFeTRXNW9VLWtTSXBlcmV4Mm9fYWxidw?oc=5",
+      "source": "press9.kr",
+      "pubDate": "2026-09-24T05:43:23+00:00",
       "query": "HLB 임상"
+    },
+    {
+      "title": "HLB ‘리픽투’ 美 FDA 허가…리보세라닙보다 먼저 관문 넘었다 - 한국경제",
+      "link": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE9ja0xMMzUzbnBFZVp3dVZmMS1HTGlmbkk2ZFByVnBJalp5MkhlQU5YQWtkMHVVWk8yY1FiRXFMS2xEYW9QeWhCckhOS2YwVEczNGNTZ1pFMDJDdw?oc=5",
+      "source": "한국경제",
+      "pubDate": "2026-09-24T05:38:42+00:00",
+      "query": "HLB 임상"
+    },
+    {
+      "title": "HLB 엘레바 '리라푸그라티닙' FDA 승인…미국 담관암 시장 진출 - 히트뉴스",
+      "link": "https://news.google.com/rss/articles/CBMia0FVX3lxTFA0RnU5OVlLZF9hZDBZNndaYzhuNEluTEVSZmhrODdkUHNUT3g0d3I0WXBCNjNEZDBpcmpReTVkNG9SVFY0NVhERFIzajdOSzFZeXVYNFZHWURtYzh3c1ZZdFh0UlhvWExPS2VN?oc=5",
+      "source": "히트뉴스",
+      "pubDate": "2026-09-23T23:19:48+00:00",
+      "query": "HLB FDA"
+    },
+    {
+      "title": "[증시키워드] '음주 해고' SK하이닉스·신약 허가 눈앞 HLB...현대차, 美 로봇센터 가동 - 이투데이",
+      "link": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE1CMWZacjVBV1l4RWhOdk5jQTk1dDZBZnhfRmxLZXZDdEVDZ1V1YVhNQUhzcVpiNjNXakRIVm03ekhkWXRzbXNSOTktOHNCM2pfSmNxdA?oc=5",
+      "source": "이투데이",
+      "pubDate": "2026-09-22T23:03:00+00:00",
+      "query": "HLB 허가"
+    },
+    {
+      "title": "HLB제약, 의료 취약 계층 위해 4000만원 상당 일반의약품 기부 - 약업신문",
+      "link": "https://news.google.com/rss/articles/CBMioAFBVV95cUxOclJpczdYVmZUSmFLa2UtTjFUU2p5SGhVSzVyb2VVY3RiVUNtSVhQTE5IUzQ1QkJxSHpTU0lIT2E3SHJ0TV9pdi1TWThUb1dCandjXzY3YkRuLTREM0lsR0txaUg0NFR1ZlZzcDVhdnIxYmpkWHl1Nmx3Sy1sV291RDhrNFFPV3NwZFpJVTlOX3RLUWhvZGVWTUFfTjgzSWFD?oc=5",
+      "source": "약업신문",
+      "pubDate": "2026-09-22T06:56:30+00:00",
+      "query": "HLB제약"
     },
     {
       "title": "HLB파나진, 190억 쏟은 진단사업 2년 만에 철수 - 서울경제TV",
@@ -22,9 +50,9 @@
       "query": "HLB파나진"
     },
     {
-      "title": "HLB바이오스텝, 日 시믹·아비테라와 - etoday.co.kr",
+      "title": "HLB바이오스텝, 日 시믹·아비테라와 - 이투데이",
       "link": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE1aTkpPcUFodU5NMjV1Rm16cDRyVkxYOVJxUXhobHpMd2hoaHJyYkpvaTdKZ2FaQUlXcUdxTE1JRmRLQ0lmaS1oQ21EWWJVQ0hWVVAtVVVqYkFiQjFTOEFzYnA1OGxQczJi?oc=5",
-      "source": "etoday.co.kr",
+      "source": "이투데이",
       "pubDate": "2026-09-20T19:46:34+00:00",
       "query": "HLB바이오스텝"
     },
@@ -50,34 +78,13 @@
       "query": "HLB파나진"
     },
     {
-      "title": "HLB파나진, 사업구조 재편…AOC·공간단백체 신사업 집중 - 머니투데이 - 머니투데이",
-      "link": "https://news.google.com/rss/articles/CBMiaEFVX3lxTFB1Y3ZOZFpMUmc2RTlDN3BtMzR6TUNpbDNmTWt1WjdhMWZoekhWazN5MFhrNkxZeEIzVHZyMEVuWnM4Q3ZtREd0cW9HcUdIaW5jazl2SVRYUHFnVWpkbjh3ZEhVcnJFOFlS0gFuQVVfeXFMTWRMMkZjMjJndWxveVVNdklRRWhVV2VfbUwtUXAzekZjX0NDWGhzai1xbDAyYWRfandUbS1BTnl6SHVzdnA4bnp3d0tpb2lhcEwzZVI1cnNEREVBdWdGejF4MlZtRVI0VnFjWkpKUmc?oc=5",
-      "source": "머니투데이",
-      "pubDate": "2026-09-18T07:47:13+00:00",
-      "query": "HLB파나진"
-    },
-    {
-      "title": "[리포트 브리핑]HLB이노베이션, 'ASH를 기다리며' 목표가 24,300원 - 현대차증권 - newspim.com",
+      "title": "[리포트 브리핑]HLB이노베이션, 'ASH를 기다리며' 목표가 24,300원 - 현대차증권 - 뉴스핌",
       "link": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE1YVVVvQVE5dmp1ZkI2b0FUbDVwQjVMY2xjbF81N2J6b005MThXOHJYVGNRcTJ6ZnFWTVVpcE02SktNX3ZTa1Z5ampfSkpFdnFtNDl2TFFLX3pzSmVs?oc=5",
-      "source": "newspim.com",
+      "source": "뉴스핌",
       "pubDate": "2026-09-18T00:43:00+00:00",
       "query": "HLB이노베이션"
-    },
-    {
-      "title": "HLB라이프케어, 라이프케어 사업 영역 확대...‘식전당부·밀당솥밥’ 출시 - 팍스경제TV",
-      "link": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE5JYW4zLTcyUGlvVXMwdmNMY09LLXlITkh1a01VMHNHdXdzZllvQ2JMUXQ1UEwwcWJMUHpUNWF4OUQ4dWY3emJSZGRBN2E1RS1vZEZScnR0RlI0ZHpUb2c1Rmgzd09YSGhx?oc=5",
-      "source": "팍스경제TV",
-      "pubDate": "2026-09-17T15:03:06+00:00",
-      "query": "HLB라이프케어"
-    },
-    {
-      "title": "HLB라이프케어, 식생활 관리 제품 2종 출시 - 로이슈",
-      "link": "https://news.google.com/rss/articles/CBMiekFVX3lxTFA5akF5RkpZcGNZb3dzY1dVN1owbDJoZVlQZWVzMTFRWmtwSXp6WnhmbXNGT09RaGtMMGdKaXdsblBxeHgxTjdOcGM5WVIyYmNxRUoybzhmcWQ3Q01wQmRRb1R1ZDdCYnZRUEpVSlRtYkJnd21Nb3p4V0d3?oc=5",
-      "source": "로이슈",
-      "pubDate": "2026-09-17T14:19:19+00:00",
-      "query": "HLB라이프케어"
     }
   ],
-  "fetchedAt": "2026-09-24T10:31:58.233819+00:00",
-  "count": 11
+  "fetchedAt": "2026-09-24T15:30:57.049780+00:00",
+  "count": 12
 }
