@@ -1,10 +1,24 @@
 {
   "news": [
     {
+      "title": "K-바이오, 유럽서 '항암 신약' 성과 뽐낸다 - MTN 머니투데이방송",
+      "link": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE9fZ2d6d2tQTTVPbXhIS21iY0VaWU5IOGx0Nnc4RWdITUlQcnFRYTV6R0IyOVgzc3Zxd0dtQnI3VUhLWGg2ejF6c0I3THl3R3JpalNBYlBOeTE0YTI4VWxzNGsxMVo?oc=5",
+      "source": "MTN 머니투데이방송",
+      "pubDate": "2026-09-25T21:04:01+00:00",
+      "query": "HLB 신약"
+    },
+    {
+      "title": "‘3전4기’ 진양곤 HLB그룹 의장, 세 번 고배 끝에 美 FDA 신약 품다[화제의 바이오人] - 팜이데일리",
+      "link": "https://news.google.com/rss/articles/CBMibkFVX3lxTFBxNE9OamdXbE1YTXI1T1RLTEtfZ3JyRENqWHc0TndrRDBPRF9PaVpNaV91X2h4bVdSLWoyd0RaMmt6a21uOUw2RkNJaDBVR3BsYUExRkNDdG9UbEhIaGFKMEtiMGNnVmM1LUpVeHpB?oc=5",
+      "source": "팜이데일리",
+      "pubDate": "2026-09-25T21:00:07+00:00",
+      "query": "HLB 신약"
+    },
+    {
       "title": "HLB ‘리픽투’, FDA 허가 넘어 상업화로...4분기 美 출시 - 뉴스투데이",
       "link": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE84d0tNZ3NfS0xmTDZma3F2SmF6VG13UE5uYU4zdjJtcmJoTVQtbW1MQ09Oa19QOFFtcVEzTllIU2VZUDlOZTJvbzZ2bzRoWTRwZ1hlNnRiOFBncy1DNEE?oc=5",
       "source": "뉴스투데이",
-      "pubDate": "2026-09-25T19:57:45+00:00",
+      "pubDate": "2026-09-25T19:58:39+00:00",
       "query": "HLB 신약"
     },
     {
@@ -22,6 +36,13 @@
       "query": "HLB 임상"
     },
     {
+      "title": "HLB제약, 의료 취약 계층 위해 4000만원 상당 일반의약품 기부 - 약업신문",
+      "link": "https://news.google.com/rss/articles/CBMioAFBVV95cUxOclJpczdYVmZUSmFLa2UtTjFUU2p5SGhVSzVyb2VVY3RiVUNtSVhQTE5IUzQ1QkJxSHpTU0lIT2E3SHJ0TV9pdi1TWThUb1dCandjXzY3YkRuLTREM0lsR0txaUg0NFR1ZlZzcDVhdnIxYmpkWHl1Nmx3Sy1sV291RDhrNFFPV3NwZFpJVTlOX3RLUWhvZGVWTUFfTjgzSWFD?oc=5",
+      "source": "약업신문",
+      "pubDate": "2026-09-22T06:56:30+00:00",
+      "query": "HLB제약"
+    },
+    {
       "title": "HLB파나진, 190억 쏟은 진단사업 2년 만에 철수 - 서울경제TV",
       "link": "https://news.google.com/rss/articles/CBMiZEFVX3lxTFBqOUJ3WXNaUTdfbFJVX3Fscmdlb2FYalI4Nk0xUXRFNVRQSk5oaC1JZS1ubzJlekpCS0RiZzcwbGZQY09CdXVHLUhDai1JcHVHcXZvU1N3YlhZZkxWS3JYeVlFME4?oc=5",
       "source": "서울경제TV",
@@ -36,6 +57,6 @@
       "query": "HLB파나진"
     }
   ],
-  "fetchedAt": "2026-09-25T20:29:04.704215+00:00",
-  "count": 5
+  "fetchedAt": "2026-09-25T23:36:45.864863+00:00",
+  "count": 8
 }
