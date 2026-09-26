@@ -1,5 +1,62 @@
 {
-  "news": [],
-  "fetchedAt": "2026-09-26T12:33:29.340435+00:00",
-  "count": 0
+  "news": [
+    {
+      "title": "19년 '뚝심' HLB, 첫 FDA 신약 결실…간암 등 후속 모멘텀 대기 - v.daum.net",
+      "link": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE8tTDVZSnRRSC05RjlHakgtMG9HYVpybDVGczVsRzVLN1J6SlQ2TTVRendSMmRxNTZLdGZ3RHlMaWc2Y050R1dVa21qSzZ2VUU?oc=5",
+      "source": "v.daum.net",
+      "pubDate": "2026-09-26T05:26:50+00:00",
+      "query": "HLB FDA"
+    },
+    {
+      "title": "美 FDA 뚫은 HLB '리픽투'… 페마자이레·리트고비 넘고 FGFR2 2차 시장 정조준 - 머니투데이 - 머니투데이",
+      "link": "https://news.google.com/rss/articles/CBMiaEFVX3lxTFBTM0VqY0g4OExkNEhmZ3NIVmFiRnltbTU1em9nS3JEUHBZMDZJUTVFTktKVEo4THQtLU9NSXpMdXdSZ21ZdG9ZSXRtUGpibldZT2xZUFlaem00ejctdllGOHdxWkxYZXQ50gFuQVVfeXFMTklNUWhGU0pnaXVWT1paNFlER1J1RE9JQ2d1b2otY0tpS09aeC1GamY3cnFGRVF6MzJQMWRXcGFlVnFQVTFRcXZQUFdUUGE0bXJIVE9UTmlBeEh0NDVTeDc3T01ZLWhrQ3V6SHB4Z2c?oc=5",
+      "source": "머니투데이",
+      "pubDate": "2026-09-26T00:00:00+00:00",
+      "query": "HLB FDA"
+    },
+    {
+      "title": "‘3전4기’ 진양곤 HLB그룹 의장, 세 번 고배 끝에 美 FDA 신약 품다[화제의 바이오人] - 팜이데일리",
+      "link": "https://news.google.com/rss/articles/CBMibkFVX3lxTFBxNE9OamdXbE1YTXI1T1RLTEtfZ3JyRENqWHc0TndrRDBPRF9PaVpNaV91X2h4bVdSLWoyd0RaMmt6a21uOUw2RkNJaDBVR3BsYUExRkNDdG9UbEhIaGFKMEtiMGNnVmM1LUpVeHpB?oc=5",
+      "source": "팜이데일리",
+      "pubDate": "2026-09-25T21:00:07+00:00",
+      "query": "HLB FDA"
+    },
+    {
+      "title": "스마트 계약 취약점 : 위험 피하기와 최적화 - 실용적인 접근법 - histoire-pour-tous.fr",
+      "link": "https://news.google.com/rss/articles/CBMiwAJBVV95cUxPRWZ5XzdrLTBjOXNaZUctRE1LNXRyT3N5X0hiNmxFYU9CVnlxSjRQeG90bUg1R09hRG1GaXJXSklWM0hYWlJEc0NRMkpDSTVhM0VJRC1QNXdjbmVwbnZiSkNQdExlUzlwU3p5dnVESkdJNEVhSjdXem1QWmRmQktzcXA0cF9ncXJvdzJCTW1PaEZaelpQb3lsQW40OENhN3dKcFRnX2NwNXBycW9wVXpJT25OVDZ2d3dBeHM5dk95SDh0Q3h1bEFxRUZmNGdVNDJoaUtWc3ZOdnlZdnEwdk5DV3BTbzNlX011SVRROXRlY2ttY1l3QV9pVG8wQ3ppUWVCdHhqcFVIWHJSclMxMlhWWnkzNldFSXpkOGNMcHV2c0JTRGZzZEk0YWFqOUh2WXNidkhOd2NucW9HR1VqUmtxcQ?oc=5",
+      "source": "histoire-pour-tous.fr",
+      "pubDate": "2026-09-24T05:46:29+00:00",
+      "query": "HLB 계약"
+    },
+    {
+      "title": "HLB 리라푸그라티닙, 25일 美 FDA 결정…\"현재까지 변동 없어\" - 히트뉴스",
+      "link": "https://news.google.com/rss/articles/CBMia0FVX3lxTE9zODFEeFh3eXQzb3JEQkV2a0d3cElnVG5HREZ1NjNPbE1VdkkxVWw5YnJYYVhHZHphT2tsWFJSQ0JiRTV3a0YyVGEtQ3FFVmVyWHZocXRuYl9JV0VGSnZ0b0VQV2FHdHBYazRr?oc=5",
+      "source": "히트뉴스",
+      "pubDate": "2026-09-23T21:28:00+00:00",
+      "query": "HLB 임상"
+    },
+    {
+      "title": "간암서 세 번 막힌 HLB, 이번엔 담관암… FDA 허가 꿈 이뤄내나 - IT조선",
+      "link": "https://news.google.com/rss/articles/CBMicEFVX3lxTE90cElkTWk1dU9MejlqcXN6TFljSUhlZ1hCWUljM0dXcWZkdVR2OGxjNGR4ZzQtTTFrUEp1MzQxM0tMSUYzdy11N2h3anNEYUpfcFVGN1JYYnA5Y0RzMjFVTlpkX0hyUklIS1ZySWNQMmfSAXRBVV95cUxNZlNhWmM4dkdKc0U3SFUwaFlfQV9zOW1mUVV1VlRWb182ZlRsTy0zWm9hcDVzaXQyVHlHNUNpUzRPdUFmU0dGOFBSX3R1dEJETFJuTUZqbXZ0eFpTdVVsZERrNlZob1RlRW5YaWR6VVg5TnQzYg?oc=5",
+      "source": "IT조선",
+      "pubDate": "2026-09-22T21:00:00+00:00",
+      "query": "HLB 신약"
+    },
+    {
+      "title": "HLB파나진, 190억 쏟은 진단사업 2년 만에 철수 - 서울경제TV",
+      "link": "https://news.google.com/rss/articles/CBMiZEFVX3lxTFBqOUJ3WXNaUTdfbFJVX3Fscmdlb2FYalI4Nk0xUXRFNVRQSk5oaC1JZS1ubzJlekpCS0RiZzcwbGZQY09CdXVHLUhDai1JcHVHcXZvU1N3YlhZZkxWS3JYeVlFME4?oc=5",
+      "source": "서울경제TV",
+      "pubDate": "2026-09-21T09:06:19+00:00",
+      "query": "HLB파나진"
+    },
+    {
+      "title": "[바이오 브리핑] 대웅제약, SK바이오팜, HLB파나진 - 신아일보",
+      "link": "https://news.google.com/rss/articles/CBMicEFVX3lxTFAxVUxZMXFVN2w1ZWpkQkp0SFBEVjFGbXdBSjFFdGVMcTBJVGlJV2RnS21lQ2J2NW9lRjJZdU1fbElaR09kZW56SUhhVjRxRXFfeUZzbW9KazI0VmsxZnB1TE16UGJnUEdEbEUxUWF3Q3I?oc=5",
+      "source": "신아일보",
+      "pubDate": "2026-09-20T04:55:21+00:00",
+      "query": "HLB파나진"
+    }
+  ],
+  "fetchedAt": "2026-09-26T16:47:15.735325+00:00",
+  "count": 8
 }
