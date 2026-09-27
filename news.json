@@ -1,18 +1,11 @@
 {
   "news": [
     {
-      "title": "HLB, 간암 신약 좌절 딛고 美 FDA 허가…'리픽투'로 결실 - 아시아타임즈",
-      "link": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE5pS2s5RGU2WXpkZWtaNTRQSmtUUmhZSmZLQjA4a3pmRzNoLWVDbW5aNkdudXktdlp0R0QzdTY0ZUtYN1lyUk5WYkZndkNTV0VlRHJJeXF2c0dyTl9XU0E?oc=5",
-      "source": "아시아타임즈",
-      "pubDate": "2026-09-27T03:11:00+00:00",
+      "title": "HLB, 담관암 신약 ‘리픽투’ 美 FDA 승인 결실 - Naver Blog",
+      "link": "https://news.google.com/rss/articles/CBMijwFBVV95cUxOTHJnbmJWQTdTSUZYdWpMazVFaTNmZWwxc2otT2ZCLWxvNFV5V2lTRHRROTY4SmtJVG51R0Z4V0tYdFlHVC12akw1TmJSbE8wOGxhbnJkZmg5YkhJVXBjWHp0T3IyaW83cmhmRENPcm0zZnVEZXhzOXRfU1BFbjVOZU5uNjJiUzZud2Rtc045VQ?oc=5",
+      "source": "Naver Blog",
+      "pubDate": "2026-09-27T11:14:21+00:00",
       "query": "HLB 신약"
-    },
-    {
-      "title": "간암보다 담관암 먼저 뚫었다…HLB, FDA 항암제 첫 승인 - v.daum.net",
-      "link": "https://news.google.com/rss/articles/CBMiT0FVX3lxTFBJQXFSeF91UG9RYTNvOFBJMThsckNXZ1BaZ1o2MERwc3FQQmluSHdseENXQVpIUnlPOWVBdkQteENxTWJ3azVHZnRZTWRYb3c?oc=5",
-      "source": "v.daum.net",
-      "pubDate": "2026-09-27T01:38:13+00:00",
-      "query": "HLB FDA"
     },
     {
       "title": "‘3전4기’ 진양곤 HLB그룹 의장, 세 번 고배 끝에 美 FDA 신약 품다[화제의 바이오人] - 팜이데일리",
@@ -50,6 +43,6 @@
       "query": "HLB파나진"
     }
   ],
-  "fetchedAt": "2026-09-27T05:52:58.467517+00:00",
-  "count": 7
+  "fetchedAt": "2026-09-27T11:56:41.773854+00:00",
+  "count": 6
 }
