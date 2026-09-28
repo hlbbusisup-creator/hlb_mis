@@ -1,5 +1,76 @@
 {
-  "news": [],
-  "fetchedAt": "2026-09-28T16:08:20.687779+00:00",
-  "count": 0
+  "news": [
+    {
+      "title": "HLB '리픽투' 가세한 담관암 FGFR2 3파전…임상적 가치는 - 청년의사",
+      "link": "https://news.google.com/rss/articles/CBMicEFVX3lxTFBUMG1yYnY0RUppcTdOcmJTRlM0SzZEdDBxN29QQWM3V0FnVE5uYVlQTWcyQ2x3eG9pVnZkdkt2RUNmajhQa1ZiZzZVeUp5SzRjZG82WmVTY0Y4cWJqbEh4T0t1OElRcktfM1JnQ1N6RmfSAXNBVV95cUxNd3JvUWk4aXhtMEhCQTQ3ZWdBcVJTNU5iUUtzblhqYzRZdXV1ZzRGUHhKUWdCNDZvbnJjQnVjbWhuOEItVlczQmEwQW9TclZ2SXB0SFhNQ1NSdDBzRW95cldsNWRUZ3VveGdBbVg2YVFxSGxB?oc=5",
+      "source": "청년의사",
+      "pubDate": "2026-09-28T21:31:02+00:00",
+      "query": "HLB 임상"
+    },
+    {
+      "title": "HLB 항암신약 美 뚫었다...'K-바이오' 글로벌 시장 '활짝' - newstree.kr",
+      "link": "https://news.google.com/rss/articles/CBMiXEFVX3lxTFBRWGJkQmdjdk44d2tldWpTQ2E3OHhjU0tpTUN1MnRvOWdrTk9UX1Z2akxCVmlhcnVkNlBrMWE4b1hYbnZvNjc5RVYxd0M4VHFhMlE0VTR6c0xpM0RL?oc=5",
+      "source": "newstree.kr",
+      "pubDate": "2026-09-28T08:29:42+00:00",
+      "query": "HLB 임상"
+    },
+    {
+      "title": "HLB생명과학 등, HLB제약 지분율 18.97%로 하락 - 데이터투자",
+      "link": "https://news.google.com/rss/articles/CBMic0FVX3lxTE5jc0ZlZENscjlaQTBBVGM1MnRLQ2FvNHBMTkQzR1BmZ0dWTmw0LTdEQlM0UEQzaGV6QTJZUFpkRGVHMnB6RDNjcGdWRWNXMHNSbGlsWU5lWjU4SDg2MXVkNlVseDh2dGZZVG4teXJxNDE3cVU?oc=5",
+      "source": "데이터투자",
+      "pubDate": "2026-09-28T07:45:02+00:00",
+      "query": "HLB생명과학"
+    },
+    {
+      "title": "HLB, 세 번 고배 끝 FDA 신약 확보…주인공은 ‘2년 전 사온 담관암 치료제’ - 조선일보",
+      "link": "https://news.google.com/rss/articles/CBMigwFBVV95cUxQMXlaSzg0OXFVQzVxOExCVnYyZXlfV1gxMndfWEpMUWNmM0x5UTVlc1RBUk5IVnFEUHB4eWE1MGFJcTRpQXU5NHJvMG0tVUFPeEI4QUdRaG50UXFNTzdOcFItSlNSQmxCTkVhSEZQUWw0dWRxanZseHd4LWxhaXRTYmU1dw?oc=5",
+      "source": "조선일보",
+      "pubDate": "2026-09-28T07:14:38+00:00",
+      "query": "HLB 신약"
+    },
+    {
+      "title": "최초 '직허가' 뚫은 진양곤의 HLB···美 직판·범고형암 영토 확장 관건 - 뉴스웨이",
+      "link": "https://news.google.com/rss/articles/CBMiakFVX3lxTE5SN1hmN1dUZTczWWduclF1X0JYVXBvbXJ2RkNCWFpOMm1GTDB3WDdZaUxDY2dVNmh0NUhSUG91bXBCaXQxTWg0U0NHWmw5M1pZN1dYRGRZcjl6b2J5TWJfV21PTVgzTndac2c?oc=5",
+      "source": "뉴스웨이",
+      "pubDate": "2026-09-28T05:32:45+00:00",
+      "query": "HLB 허가"
+    },
+    {
+      "title": "HLB그룹, 리픽투 FDA 승인 기념 계열사 7곳 할인 행사 - 뉴스1",
+      "link": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE50NlZPelBRcHZMcHU0RFJ5akEtM3VyNHZQdjdvcTdiUE1Qb1B1am00VTNVRWFPdEpqaW1BcUlxdHhVTEhTR3EwOEFvOFR2d1RfcEFjN1VhTkdLeXFpNmNyY9IBZkFVX3lxTE8wRWV3RjZieEdvYVdZeGV4bmF6ZUVjNmN5bDFhMDFENF9NYUtlc1d5VVpTdGp0MTRFYkY0b2VzOEJaX2JqMkZHTDdzU2d6Ynl3ejIxMDIyQzdDYk44XzlDYWd0TGpEUQ?oc=5",
+      "source": "뉴스1",
+      "pubDate": "2026-09-28T05:20:57+00:00",
+      "query": "HLB FDA"
+    },
+    {
+      "title": "[오늘Who] HLB '리픽투' 허가로 신약 사업 확장 시동, 진양곤 계열사 늘린 전략 탄력 받나 - 비즈니스포스트",
+      "link": "https://news.google.com/rss/articles/CBMic0FVX3lxTFBnd3VRNkNBeUp2WDc1QjdleFllWE9kVWhpWXZaX0x1My1Sd21xYjE2VzBOaVZKY3BsZDJUVDJRMUlRdXVwTVIxX09odTFEeURIVGttbXZrWFRIS29TbGxPX2c2MnkxQjFHaXVHb3pVNi1kalU?oc=5",
+      "source": "비즈니스포스트",
+      "pubDate": "2026-09-28T05:08:41+00:00",
+      "query": "HLB 임상"
+    },
+    {
+      "title": "HLB, 신약개발 역량 불신 넘어섰다…'넥스트 스텝'에 재평가 달려 - v.daum.net",
+      "link": "https://news.google.com/rss/articles/CBMiVEFVX3lxTFBJdUtocXFYZHBjZkw2bGxucmY3aXZwaVY5ZDlLWXVCcHlVNi1OLWtoMjVqWGJzX1ZZcHRtWkJWd2haZTJfRGVsN3BxWU42bGlqLTNjWg?oc=5",
+      "source": "v.daum.net",
+      "pubDate": "2026-09-28T03:50:00+00:00",
+      "query": "HLB 신약"
+    },
+    {
+      "title": "HLB, 담관암으로 FDA 문턱 넘었다…'암종불문'으로 확대하고 빅파마 병용개발 추진 - MEDI:GATE NEWS",
+      "link": "https://news.google.com/rss/articles/CBMiV0FVX3lxTE1TUEJNaUlBRFpycVFKX0NxRFpFdkxxSGUzLXVUZUxub1ZldV9kbEdsb3p0YmRXa1lnWkRxVGx3MXNNNUZvRkpZRk92LUUxZ3QyZ0Q2YV9URQ?oc=5",
+      "source": "MEDI:GATE NEWS",
+      "pubDate": "2026-09-28T03:39:00+00:00",
+      "query": "HLB 신약"
+    },
+    {
+      "title": "스마트 계약 취약점 : 위험 피하기와 최적화 - 실용적인 접근법 - Histoire pour tous",
+      "link": "https://news.google.com/rss/articles/CBMiwAJBVV95cUxPRWZ5XzdrLTBjOXNaZUctRE1LNXRyT3N5X0hiNmxFYU9CVnlxSjRQeG90bUg1R09hRG1GaXJXSklWM0hYWlJEc0NRMkpDSTVhM0VJRC1QNXdjbmVwbnZiSkNQdExlUzlwU3p5dnVESkdJNEVhSjdXem1QWmRmQktzcXA0cF9ncXJvdzJCTW1PaEZaelpQb3lsQW40OENhN3dKcFRnX2NwNXBycW9wVXpJT25OVDZ2d3dBeHM5dk95SDh0Q3h1bEFxRUZmNGdVNDJoaUtWc3ZOdnlZdnEwdk5DV3BTbzNlX011SVRROXRlY2ttY1l3QV9pVG8wQ3ppUWVCdHhqcFVIWHJSclMxMlhWWnkzNldFSXpkOGNMcHV2c0JTRGZzZEk0YWFqOUh2WXNidkhOd2NucW9HR1VqUmtxcQ?oc=5",
+      "source": "Histoire pour tous",
+      "pubDate": "2026-09-24T05:46:29+00:00",
+      "query": "HLB 계약"
+    }
+  ],
+  "fetchedAt": "2026-09-28T21:57:17.739617+00:00",
+  "count": 10
 }
