@@ -1,39 +1,46 @@
 {
   "news": [
     {
-      "title": "K-바이오, 운명 갈린 추석…HLB 웃고, 한올 울고 - 뉴시스",
-      "link": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE9FX05qcXg1V0ZYX0gzU3Y4Zk5meXBZYW9IdmE5blRkN0NYWVozWXUtNHRBUEhuVHZkMmtnWGpLWWg3WXFyUHlyVHFhaU0ya1ZhS1g5YlduZ1JpOW9vUUtidNIBeEFVX3lxTE9waXN1ckl3aDM0dlFuQ21fbF85S0dacjlNaThTazBLQVk3MWcyNlRXX1F2SHgxMDd3VWVhazdOZEZEOHVfZ3RFdnpaNXpXbE05NE9Pc3JjZWNCbmJMYzhWbXVZWHlFOXhUS3BjNGJreTJZdjc2ZnR5aQ?oc=5",
-      "source": "뉴시스",
-      "pubDate": "2026-09-28T01:23:47+00:00",
+      "title": "HLB, 세 번 고배 끝 FDA 신약 확보…주인공은 ‘2년 전 사온 담관암 치료제’ - 조선일보",
+      "link": "https://news.google.com/rss/articles/CBMigwFBVV95cUxQMXlaSzg0OXFVQzVxOExCVnYyZXlfV1gxMndfWEpMUWNmM0x5UTVlc1RBUk5IVnFEUHB4eWE1MGFJcTRpQXU5NHJvMG0tVUFPeEI4QUdRaG50UXFNTzdOcFItSlNSQmxCTkVhSEZQUWw0dWRxanZseHd4LWxhaXRTYmU1dw?oc=5",
+      "source": "조선일보",
+      "pubDate": "2026-09-28T06:02:00+00:00",
+      "query": "HLB 신약"
+    },
+    {
+      "title": "최초 '직허가' 뚫은 진양곤의 HLB···美 직판·범고형암 영토 확장 관건 - newsway.co.kr",
+      "link": "https://news.google.com/rss/articles/CBMiakFVX3lxTE5SN1hmN1dUZTczWWduclF1X0JYVXBvbXJ2RkNCWFpOMm1GTDB3WDdZaUxDY2dVNmh0NUhSUG91bXBCaXQxTWg0U0NHWmw5M1pZN1dYRGRZcjl6b2J5TWJfV21PTVgzTndac2c?oc=5",
+      "source": "newsway.co.kr",
+      "pubDate": "2026-09-28T05:32:45+00:00",
+      "query": "HLB 허가"
+    },
+    {
+      "title": "[오늘Who] HLB '리픽투' 허가로 신약사업 확장 시동, 진양곤 계열사 늘린 전략 탄력 받나 - 비즈니스포스트",
+      "link": "https://news.google.com/rss/articles/CBMic0FVX3lxTFBnd3VRNkNBeUp2WDc1QjdleFllWE9kVWhpWXZaX0x1My1Sd21xYjE2VzBOaVZKY3BsZDJUVDJRMUlRdXVwTVIxX09odTFEeURIVGttbXZrWFRIS29TbGxPX2c2MnkxQjFHaXVHb3pVNi1kalU?oc=5",
+      "source": "비즈니스포스트",
+      "pubDate": "2026-09-28T05:08:41+00:00",
       "query": "HLB 임상"
     },
     {
-      "title": "HLB ‘리픽투’, 美 승인 후 처방 정교하게…동반진단·용량 최적화 - PRESS9",
+      "title": "HLB, 담관암으로 FDA 문턱 넘었다…'암종불문'으로 확대하고 빅파마 병용개발 추진 - MEDI:GATE NEWS",
+      "link": "https://news.google.com/rss/articles/CBMiV0FVX3lxTE1TUEJNaUlBRFpycVFKX0NxRFpFdkxxSGUzLXVUZUxub1ZldV9kbEdsb3p0YmRXa1lnWkRxVGx3MXNNNUZvRkpZRk92LUUxZ3QyZ0Q2YV9URQ?oc=5",
+      "source": "MEDI:GATE NEWS",
+      "pubDate": "2026-09-28T03:39:00+00:00",
+      "query": "HLB 신약"
+    },
+    {
+      "title": "K-바이오, 추석 연휴 희비…HLB FDA 승인·한올바이오파마 임상 중단 - 와이드경제",
+      "link": "https://news.google.com/rss/articles/CBMibEFVX3lxTE41Y2ZRai16SXZlVGlMVHl2UUZySVZVdVhBTVFLVnRuRkZ1NVJ0OTNtdnZyU243dy1yRmhsV1RINHM2aUJXdFUyX01wSWsyU25TZjdxc05kUGFpQlc5ckJTLXA0MkNNXzdDZkVnTA?oc=5",
+      "source": "와이드경제",
+      "pubDate": "2026-09-28T02:10:00+00:00",
+      "query": "HLB 임상"
+    },
+    {
+      "title": "HLB ‘리픽투’, 美 승인 후 처방 정교하게…동반진단·용량 최적화 - press9.kr",
       "link": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE9ydDVKT00xbk5uTnNibEJjOTMxTk50OUZzWllMVHBUbTBTa1lIRkFXRWNHNG91b0JHYk5NM0VrR2RoSXB3MlpkWVRhOFdJQ2FGSE1yS2RKUEFqVEFoZEpxamFWXzk?oc=5",
-      "source": "PRESS9",
+      "source": "press9.kr",
       "pubDate": "2026-09-28T01:14:42+00:00",
       "query": "HLB 임상"
-    },
-    {
-      "title": "19년 숙원 푼 HLB 신약 FDA 승인…'유증 반토막' HLB제약 기사회생할까 - 리드경제",
-      "link": "https://news.google.com/rss/articles/CBMib0FVX3lxTE9icHRzOG5HbVdjZUJsTjEzQ3JkZno4OWEyQXdZamtqS1VVeWxiZktfNHJxZTdBaUJpOWdRdXdfQkluWml2ajZSMHpPSnk1NHM3ME1CSm82emxXR21hQXhaa2dvb3Uyb1o1WGxLNW9sbw?oc=5",
-      "source": "리드경제",
-      "pubDate": "2026-09-28T01:13:22+00:00",
-      "query": "HLB제약"
-    },
-    {
-      "title": "FDA 허가는 시작일 뿐…HLB ‘리픽투’ 좁은 담관암 시장 넘을 묘수는? - 팜이데일리",
-      "link": "https://news.google.com/rss/articles/CBMibkFVX3lxTE9oXzV4blNhT3FFYkctX3ZxZkV1Yl9jRDJZZG9wNzdiWVJkSUtmb0VDN1dYSEViQ1UzN2lqcFMxdnRob0lfUVhOYk1MX3pNSERTbDRaNS0yTW9XODJGQXZXNDl2R2hKWGprM09GMS1R?oc=5",
-      "source": "팜이데일리",
-      "pubDate": "2026-09-27T23:45:03+00:00",
-      "query": "HLB FDA"
-    },
-    {
-      "title": "HLB 담관암 신약 직접 허가…적응증 확대 시험대 올라 - 서울경제",
-      "link": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE52NDFneWFXQjhtN2dkOWk4amc5a1JYT3pyNkh4OC1aWTJSdGxabWZuVTM0TlJUSVVEOGg1M1ZlbTRSYnRqLW5XUVJuaEMzbEM1ZFHSAVNBVV95cUxOVXFyMndYclFqRTE2U2dwUGNMVWhYVy1kcTk5WkhXM2VPMDVPVFpTY05yRkM0RVRQTExSX0FZTVZVWGVOQTJWbzJEWERhdEFLdnZSUQ?oc=5",
-      "source": "서울경제",
-      "pubDate": "2026-09-27T22:01:00+00:00",
-      "query": "HLB 허가"
     },
     {
       "title": "스마트 계약 취약점 : 위험 피하기와 최적화 - 실용적인 접근법 - Histoire pour tous",
@@ -41,15 +48,8 @@
       "source": "Histoire pour tous",
       "pubDate": "2026-09-24T05:46:29+00:00",
       "query": "HLB 계약"
-    },
-    {
-      "title": "HLB 리라푸그라티닙, 25일 美 FDA 결정…\"현재까지 변동 없어\" - 히트뉴스",
-      "link": "https://news.google.com/rss/articles/CBMia0FVX3lxTE9zODFEeFh3eXQzb3JEQkV2a0d3cElnVG5HREZ1NjNPbE1VdkkxVWw5YnJYYVhHZHphT2tsWFJSQ0JiRTV3a0YyVGEtQ3FFVmVyWHZocXRuYl9JV0VGSnZ0b0VQV2FHdHBYazRr?oc=5",
-      "source": "히트뉴스",
-      "pubDate": "2026-09-23T21:28:00+00:00",
-      "query": "HLB 임상"
     }
   ],
-  "fetchedAt": "2026-09-28T01:36:27.059922+00:00",
+  "fetchedAt": "2026-09-28T07:43:48.661565+00:00",
   "count": 7
 }
