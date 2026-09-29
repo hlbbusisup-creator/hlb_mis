@@ -1,11 +1,18 @@
 {
   "news": [
     {
+      "title": "HLB, '내부 개발' 대신 'M&A 승부수' 통했다…FDA 신약 확보의 빛과 그림자 - 데일리연합",
+      "link": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE9jVmVfMU1FVlRWcHBkdkhaNXV6LVNGUS16S3FVVV9hWElENXRvcVU1UWJyU0ktdmxBRUhLc3FBNzV2X0FSd1k3bnNYU0RoekJNaXp5ek9HQmtmUQ?oc=5",
+      "source": "데일리연합",
+      "pubDate": "2026-09-29T11:50:02+00:00",
+      "query": "HLB 신약"
+    },
+    {
       "title": "HLB, 리픽투 FDA 승인 기념…글로벌 상업화 ‘첫발’ - 팜이데일리",
       "link": "https://news.google.com/rss/articles/CBMibkFVX3lxTFBBYW9LUm5Oc1c2Rk03MWJMd3NpOEJoVkk5T1RLTlVDeTc2YldsRm82b19vaVNIN2NVYVY0dTRUeUhGWEdMTERaMU5XbXRKMmkxaXoxb0pQV1NMSm9DZXBpZEhaU1gweHlOUmJKaWZB?oc=5",
       "source": "팜이데일리",
       "pubDate": "2026-09-29T10:14:05+00:00",
-      "query": "HLB FDA"
+      "query": "HLB 신약"
     },
     {
       "title": "[인기검색TOP5] HLB제약, 테라뷰, 뷰노, MDS테크, 한미반도체 - 매일경제 마켓",
@@ -36,20 +43,6 @@
       "query": "HLB 임상"
     },
     {
-      "title": "HLB생명과학 7.49% 상승…360억원 계열 지분 취득 영향 점검 - 잡포스트",
-      "link": "https://news.google.com/rss/articles/CBMickFVX3lxTE53dU9HNExSb1djZFFmbnl0U21Ldnd2YktSM25wbmRsQkptUnA4VF92MjNxZ0JTbTJtcTVBX0xyZmtXdjBHWWVHaGxObC1BNV9kYl9FTDZfb3FkVzRHZ0xibEtZN1JLRllGTm9iajBCb2NaUdIBckFVX3lxTE53dU9HNExSb1djZFFmbnl0U21Ldnd2YktSM25wbmRsQkptUnA4VF92MjNxZ0JTbTJtcTVBX0xyZmtXdjBHWWVHaGxObC1BNV9kYl9FTDZfb3FkVzRHZ0xibEtZN1JLRllGTm9iajBCb2NaUQ?oc=5",
-      "source": "잡포스트",
-      "pubDate": "2026-09-29T05:40:47+00:00",
-      "query": "HLB생명과학"
-    },
-    {
-      "title": "[이슈] HLB, 리픽투로 ‘FDA 허가 경험’ 확보...간암 신약 재신청도 ‘탄력’ 받는다 - 팍스경제TV",
-      "link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTFBTV0JLeVpXQXNVc2dJaEtRSFZDLXctN1MzQlExVXlqYndxYlBjWUt1TE5TLThRV0JpMy0wblJBeVgwWmJwdXU1ekFwd05hWGNlZ2ktU1BjTWc4bDVtMWd6cjAwTHVnb28?oc=5",
-      "source": "팍스경제TV",
-      "pubDate": "2026-09-29T05:37:19+00:00",
-      "query": "HLB 임상"
-    },
-    {
       "title": "[특징주] HLB그룹주, 담관암 치료제 FDA 허가.. 이틀째 '급등' - 글로벌이코노믹",
       "link": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxNOEtRME5nMHVMUVZ2UnlVaEJkQ1VaOUcyNEt6X0Z2UURsaGlET1dVVTBuMm96Ty1OdXo1cFdwQ2NvNFJtb0FUN0hLRS03dnlXNUkwQ3dBNXB6SUFsOFpfQmFweXhXN29uSkZvVWFOS2RaVEVDTzd3akZOVUpsdEV1WkFaUm5SZ0pp?oc=5",
       "source": "글로벌이코노믹",
@@ -57,25 +50,32 @@
       "query": "HLB 허가"
     },
     {
-      "title": "[속보] HLB 일부 그룹주 장초반 급등…HLB이노베이션은 약세 - cbci.co.kr",
+      "title": "[속보] HLB 일부 그룹주 장초반 급등…HLB이노베이션은 약세 - CBC뉴스",
       "link": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE8wRnlQTmZOOU9xMlR5ckdtUVFpb1BrR0J3N0dWcGRIU2pSZFhLdnczVlVTLUgzUGtpbkJYLXNhNmp5cGtDWTFuNzloWDhMRUx6cF9TVzZmNGxsd3pMTmlTZHBjOF9GWnZw?oc=5",
-      "source": "cbci.co.kr",
+      "source": "CBC뉴스",
       "pubDate": "2026-09-29T00:04:43+00:00",
       "query": "HLB이노베이션"
     },
     {
-      "title": "HLB생명과학 등, HLB제약 지분율 18.97%로 하락 - datatooza.com",
+      "title": "HLB '리픽투' 가세한 담관암 FGFR2 3파전…임상적 가치는 - 청년의사",
+      "link": "https://news.google.com/rss/articles/CBMic0FVX3lxTE13cm9RaThpeG0wSEJBNDdlZ0FxUlM1TmJRS3NuWGpjNFl1dXVnNEZQeEpRZ0I0Nm9ucmNCdWNtaG44Qi1WVzNCYTBBb1NyVnZJcHRIWE1DU1J0MHNFb3lyV2w1ZFRndW94Z0FtWDZhUXFIbEHSAXNBVV95cUxNd3JvUWk4aXhtMEhCQTQ3ZWdBcVJTNU5iUUtzblhqYzRZdXV1ZzRGUHhKUWdCNDZvbnJjQnVjbWhuOEItVlczQmEwQW9TclZ2SXB0SFhNQ1NSdDBzRW95cldsNWRUZ3VveGdBbVg2YVFxSGxB?oc=5",
+      "source": "청년의사",
+      "pubDate": "2026-09-28T21:47:41+00:00",
+      "query": "HLB 임상"
+    },
+    {
+      "title": "HLB생명과학 등, HLB제약 지분율 18.97%로 하락 - 데이터투자",
       "link": "https://news.google.com/rss/articles/CBMic0FVX3lxTE5jc0ZlZENscjlaQTBBVGM1MnRLQ2FvNHBMTkQzR1BmZ0dWTmw0LTdEQlM0UEQzaGV6QTJZUFpkRGVHMnB6RDNjcGdWRWNXMHNSbGlsWU5lWjU4SDg2MXVkNlVseDh2dGZZVG4teXJxNDE3cVU?oc=5",
-      "source": "datatooza.com",
+      "source": "데이터투자",
       "pubDate": "2026-09-28T07:45:02+00:00",
       "query": "HLB생명과학"
     },
     {
-      "title": "HLB, 신약개발 역량 불신 넘어섰다…'넥스트 스텝'에 재평가 달려 - 아이뉴스24",
-      "link": "https://news.google.com/rss/articles/CBMiS0FVX3lxTE0wUFBUUEJyem1OSnN5OTVjNC0zai0tTi16OWlHcng3R1JMZkN2QVZEeEJzSmJXSkxmZ2ttSml2dkZXODlMQklBZlp0aw?oc=5",
-      "source": "아이뉴스24",
-      "pubDate": "2026-09-28T03:48:49+00:00",
-      "query": "HLB 신약"
+      "title": "최초 '직허가' 뚫은 진양곤의 HLB···美 직판·범고형암 영토 확장 관건 - 뉴스웨이",
+      "link": "https://news.google.com/rss/articles/CBMiakFVX3lxTE5SN1hmN1dUZTczWWduclF1X0JYVXBvbXJ2RkNCWFpOMm1GTDB3WDdZaUxDY2dVNmh0NUhSUG91bXBCaXQxTWg0U0NHWmw5M1pZN1dYRGRZcjl6b2J5TWJfV21PTVgzTndac2c?oc=5",
+      "source": "뉴스웨이",
+      "pubDate": "2026-09-28T05:32:45+00:00",
+      "query": "HLB 허가"
     },
     {
       "title": "스마트 계약 취약점 : 위험 피하기와 최적화 - 실용적인 접근법 - Histoire pour tous",
@@ -85,6 +85,6 @@
       "query": "HLB 계약"
     }
   ],
-  "fetchedAt": "2026-09-29T14:58:24.887216+00:00",
+  "fetchedAt": "2026-09-29T19:57:33.956382+00:00",
   "count": 12
 }
