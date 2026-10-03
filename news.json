@@ -43,17 +43,17 @@
       "query": "HLB제약"
     },
     {
+      "title": "[HIT알공] HLB제약, 향남 신공장에 550억원 투자키로 - 히트뉴스",
+      "link": "https://news.google.com/rss/articles/CBMia0FVX3lxTE9meExmNHZWS2V3UHpPU0xrSEtJTkxneUVOLUoyTjhhTldhdW1PdkxuZkFVeWE4TmQ3SzQ5LTROcUNRZi1MLTM0RUQwaUVCVVltLU91Wi1nRnBhbWtnVDk3UW9UcEhCdVlLT0dF?oc=5",
+      "source": "히트뉴스",
+      "pubDate": "2026-10-01T09:06:06+00:00",
+      "query": "HLB제약"
+    },
+    {
       "title": "HLB 리픽투, ‘적응증 확대·용량 최적화’ 과제 - 데일리메디",
       "link": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE1BRlNteUZiTDNrMGZ6RWdfNTFjZTRYWUkzN1VSNkpkTk1pU25XWk12YkR1bmZGQTNIZm9ydm4wUnYxWUlyYnUxMXJ6TEZyVnJ4Vm5FQ0RuY0stcWdsQTFib3p1bXpra2F1?oc=5",
       "source": "데일리메디",
       "pubDate": "2026-09-30T23:41:00+00:00",
-      "query": "HLB FDA"
-    },
-    {
-      "title": "리픽투 FDA 승인 HLB, ‘제2의 창업’ 선언 - 약사공론",
-      "link": "https://news.google.com/rss/articles/CBMibEFVX3lxTFAzX3FSOGtCMFA1ZHczbU12OXBCVmNYUmM3U3Vua3ltOFZXR2FSU2RKSU5RdEJzVmFrRW45TW03cTNhOWxaUzZQSEdLWGU1dlhfZFdmSHp0Q1kxU2JHUkFLenU4ZUE4ODRoOG5Beg?oc=5",
-      "source": "약사공론",
-      "pubDate": "2026-09-30T01:01:43+00:00",
       "query": "HLB FDA"
     },
     {
@@ -64,11 +64,18 @@
       "query": "HLB 신약"
     },
     {
-      "title": "[종목+] HLB, 리픽투 '일반승인'…\"확증임상 없이 美 시장 진입\" - 뉴스핌",
+      "title": "[종목+] HLB, 리픽투 '일반승인'…\"확증임상 없이 美 시장 진입\" - newspim.com",
       "link": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE1OY0NjQllnWDVrWHVpbXRtQ1JfYjF5amRBQnFkNHA0VDVFRlpNcTVITjBId09sN1hBbHIzdHRFTXdLT1B3eXNDSUZsZXR5NlVBMzNEZGN2eUR2V045?oc=5",
-      "source": "뉴스핌",
+      "source": "newspim.com",
       "pubDate": "2026-09-29T06:59:00+00:00",
       "query": "HLB 임상"
+    },
+    {
+      "title": "'리픽투' FDA 승인 효과 이틀째…HLB제약 上·생명과학 22%↑[핫종목] - 뉴스1",
+      "link": "https://news.google.com/rss/articles/CBMiW0FVX3lxTFB0ZlBRSjlQSTlnUEplRi1kTUFxeGRDdEFXQi1yWk03TThMc1lXOWNHSjV4eHI4RkFwY3haakR1dTJSX2RHSFpQWTF4dmM2WlQzanZsWlVfQjlXcXPSAWBBVV95cUxONS1JZ2VtRzRkTjduZWRTeUI3RVNPRWhuOXlESVJZTXczbGFSODVMcWJRZTR4Nnp3cGVGeklScXR1S3AyMmo5ZHJIZE9ubDVGQkdaUWo1YU1SQ3dlNEZWSE8?oc=5",
+      "source": "뉴스1",
+      "pubDate": "2026-09-29T02:16:26+00:00",
+      "query": "HLB제약"
     },
     {
       "title": "HLB '리픽투' 가세한 담관암 FGFR2 3파전…임상적 가치는 - 청년의사",
@@ -92,6 +99,6 @@
       "query": "HLB 신약"
     }
   ],
-  "fetchedAt": "2026-10-03T05:11:15.975262+00:00",
-  "count": 13
+  "fetchedAt": "2026-10-03T10:31:26.586489+00:00",
+  "count": 14
 }
