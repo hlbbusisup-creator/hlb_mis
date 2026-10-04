@@ -1,6 +1,13 @@
 {
   "news": [
     {
+      "title": "[HLB 변곡점] ③허가 이후 내다본 조직재편, 신약사업 체질 바꿨다 - fetv.co.kr",
+      "link": "https://news.google.com/rss/articles/CBMiaEFVX3lxTFBNNk5KNjJ0eDdqVlo0MFhaaFlGNW8xTFBwb0JjNmNMaUVqbE1UX0NxVmx3bENmWUktVGE0b2xyMnZGUUFEZ1oyM3BHcGd1M3lmWlpfbE1JMnQtQ1FLVTFRcWNQbkw1SjFM?oc=5",
+      "source": "fetv.co.kr",
+      "pubDate": "2026-10-03T22:00:00+00:00",
+      "query": "HLB 신약"
+    },
+    {
       "title": "InvestingPro 적정가치 신호 후 HLB생명과학 96% 급등 By Investing.com - Investing.com 한국어",
       "link": "https://news.google.com/rss/articles/CBMidkFVX3lxTE1sS0VEUWEwaDZLcDdGLTRyR1AxUXU1VERwaHZ1ZDRwQWg2dVNvX0J2akN1ZkZKSmJuS3U4RWQ1ek9mUzdWazZlQW5icVZkTVhFVEYxSlZKZDU3RlppbUIwc2lURV8zVTllWHBDbkdlZEpPbmZncnc?oc=5",
       "source": "Investing.com 한국어",
@@ -13,13 +20,6 @@
       "source": "파이낸스스코프",
       "pubDate": "2026-10-02T03:35:00+00:00",
       "query": "HLB이노베이션"
-    },
-    {
-      "title": "HLB제약, 장 초반 7%대 급락..사흘째 부진 지속[종목NOW] - fnnews.com",
-      "link": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE42WkxwbDNIY2xiaXZOYlRTWjExc1NUQ1RMQjZWbnpBVDRpS0p0amdCUVV5U3BxYnE1YlB3bWJBTk5yek5jbUVHa3lRcWc2RnJnaFEtSUtUcjBEQQ?oc=5",
-      "source": "fnnews.com",
-      "pubDate": "2026-10-02T00:31:45+00:00",
-      "query": "HLB제약"
     },
     {
       "title": "HLB펩 항바이러스제 AGM-380, 기존 약물 내성 극복...전임상 데이터 공개 - PRESS9",
@@ -40,6 +40,13 @@
       "link": "https://news.google.com/rss/articles/CBMia0FVX3lxTE9meExmNHZWS2V3UHpPU0xrSEtJTkxneUVOLUoyTjhhTldhdW1PdkxuZkFVeWE4TmQ3SzQ5LTROcUNRZi1MLTM0RUQwaUVCVVltLU91Wi1nRnBhbWtnVDk3UW9UcEhCdVlLT0dF?oc=5",
       "source": "히트뉴스",
       "pubDate": "2026-10-01T09:06:06+00:00",
+      "query": "HLB제약"
+    },
+    {
+      "title": "HLB 그룹주, 10월 첫 거래일 동반 약세…HLB·HLB제약 5%대↓ - CBC뉴스",
+      "link": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE1SSHhUYzdPLWJCcEpXcjRRUkhObzdSQXJ1OW02bEFtRnZyMFdISF9nODJzR0FHNHJkUDByS042SlVMMU5WekZ1ZXZmLUczeU9jeWxKUGhhQ1RIU1U5Qi1Rd2ZTblV2TU9E?oc=5",
+      "source": "CBC뉴스",
+      "pubDate": "2026-10-01T00:26:16+00:00",
       "query": "HLB제약"
     },
     {
@@ -71,13 +78,6 @@
       "query": "HLB FDA"
     },
     {
-      "title": "[종목+] HLB, 리픽투 '일반승인'…\"확증임상 없이 美 시장 진입\" - 뉴스핌",
-      "link": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE1OY0NjQllnWDVrWHVpbXRtQ1JfYjF5amRBQnFkNHA0VDVFRlpNcTVITjBId09sN1hBbHIzdHRFTXdLT1B3eXNDSUZsZXR5NlVBMzNEZGN2eUR2V045?oc=5",
-      "source": "뉴스핌",
-      "pubDate": "2026-09-29T06:59:00+00:00",
-      "query": "HLB 임상"
-    },
-    {
       "title": "경쟁약은 확증임상 난항, HLB 리픽투는 정식승인…FDA 판단 배경은 - 팜이데일리",
       "link": "https://news.google.com/rss/articles/CBMibkFVX3lxTFBhVVJyM0d4QU9RRTFoQkdpcVBTSFpaM3RJQWJLRGdzcS1UR0RRMGNkNXhVUGpiak5GNm9zWElLVTJ3MXlZeVp0SDF3aG81UXhwNW12R05pYjJ0VmhmUVhCS2x4YVdObzhvbUFEWUhB?oc=5",
       "source": "팜이데일리",
@@ -106,6 +106,6 @@
       "query": "HLB 신약"
     }
   ],
-  "fetchedAt": "2026-10-03T21:49:22.763419+00:00",
+  "fetchedAt": "2026-10-04T00:33:44.647210+00:00",
   "count": 15
 }
