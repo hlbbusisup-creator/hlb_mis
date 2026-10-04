@@ -43,18 +43,18 @@
       "query": "HLB제약"
     },
     {
-      "title": "HLB 그룹주, 10월 첫 거래일 동반 약세…HLB·HLB제약 5%대↓ - CBC뉴스",
-      "link": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE1SSHhUYzdPLWJCcEpXcjRRUkhObzdSQXJ1OW02bEFtRnZyMFdISF9nODJzR0FHNHJkUDByS042SlVMMU5WekZ1ZXZmLUczeU9jeWxKUGhhQ1RIU1U5Qi1Rd2ZTblV2TU9E?oc=5",
-      "source": "CBC뉴스",
-      "pubDate": "2026-10-01T00:26:16+00:00",
-      "query": "HLB제약"
-    },
-    {
       "title": "아리바이오 합병 철회에 홀딩스 급락…HLB제약 이틀 새 63%↑[바이오맥짚기] - edaily.co.kr",
       "link": "https://news.google.com/rss/articles/CBMigAFBVV95cUxOc1FObDRvT1dXNjVVOWJtTVhKS1NZU2JJWUVjNGlPbTlGVVZqU2lCUjZrNm9rVzllSXhzYnJqSFYzYUpPV0R4ajZYUkQ5a0IxYWY5eTNFSW5mS21Jank5Tl92TUdHSzZkcHFsb0U0N1BPWndoYUhJTWtwc1AzcXlRZA?oc=5",
       "source": "edaily.co.kr",
       "pubDate": "2026-09-30T21:41:02+00:00",
       "query": "HLB제약"
+    },
+    {
+      "title": "기술수출 넘어 허가·판매까지…HLB ‘리픽투’가 연 K바이오 새 길 - 팜이데일리",
+      "link": "https://news.google.com/rss/articles/CBMibkFVX3lxTE5fdnl2Z3JRbHpVNXB1T0F0UnlDM1V0Wm9SU0ZFOWtwOEtEUEd6X2hjYW10V0VtU3N3Zjlwc0hzZlE1RlhYT0IwR0hvX0pzdzdiSG1weXI4V1pOY2o5SnEzeDJUZTFxOF9fcTNzWi1n?oc=5",
+      "source": "팜이데일리",
+      "pubDate": "2026-09-29T22:00:05+00:00",
+      "query": "HLB 신약"
     },
     {
       "title": "해외 신약 도입해 미국 FDA 허가·상업화 추진한 HLB - 주간동아",
@@ -92,9 +92,9 @@
       "query": "HLB 임상"
     },
     {
-      "title": "HLB생명과학 등, HLB제약 지분율 18.97%로 하락 - 데이터투자",
+      "title": "HLB생명과학 등, HLB제약 지분율 18.97%로 하락 - datatooza.com",
       "link": "https://news.google.com/rss/articles/CBMic0FVX3lxTE5jc0ZlZENscjlaQTBBVGM1MnRLQ2FvNHBMTkQzR1BmZ0dWTmw0LTdEQlM0UEQzaGV6QTJZUFpkRGVHMnB6RDNjcGdWRWNXMHNSbGlsWU5lWjU4SDg2MXVkNlVseDh2dGZZVG4teXJxNDE3cVU?oc=5",
-      "source": "데이터투자",
+      "source": "datatooza.com",
       "pubDate": "2026-09-28T07:45:02+00:00",
       "query": "HLB생명과학"
     },
@@ -103,9 +103,9 @@
       "link": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE03NlA2cldVV0NpMF9QaG04R3V1TDZLTzVuNlVKaVdkVFp3c1FyTlJkN0w3Yzg4dFFhdE5NeFhWclhiTHpkSXc0TjBjQUNDanhEVEE?oc=5",
       "source": "MEDI:GATE NEWS",
       "pubDate": "2026-09-28T03:39:00+00:00",
-      "query": "HLB 신약"
+      "query": "HLB FDA"
     }
   ],
-  "fetchedAt": "2026-10-04T00:33:44.647210+00:00",
+  "fetchedAt": "2026-10-04T06:24:53.027150+00:00",
   "count": 15
 }
