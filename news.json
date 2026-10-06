@@ -1,6 +1,13 @@
 {
   "news": [
     {
+      "title": "[애프터마켓 리뷰] HLB그룹주, 간암 신약 허가 ‘청신호’ 소식에 급등 - Daum",
+      "link": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE9RRUZZdzNLME5LT2NvX0NKZk8zcnF2S0FlMHQ0b0d0bUE4NnZ2MEJIRldCa0ctQTUyVFRHT3RBbW54T2Z5VTdkdkJ0YnlqZFk?oc=5",
+      "source": "Daum",
+      "pubDate": "2026-10-06T22:51:10+00:00",
+      "query": "HLB 신약"
+    },
+    {
       "title": "리보세라닙 제조시설 FDA 실사 VAI 종결, HLB 허가 재신청 속도 - 약사공론",
       "link": "https://news.google.com/rss/articles/CBMibEFVX3lxTFBkM0xNdndKSGhZN3llZEZIdzlxdXZyaF9rbklBY0Z3NUlZRDBaRDhGV0lWSFhJVUVFLURqQUt3MGZZNE9tTVVramwwX3J1Vm51SFhQODNkQXRlTGxoSWktZmNhQXBnZG9Hdy16cw?oc=5",
       "source": "약사공론",
@@ -92,6 +99,6 @@
       "query": "HLB 임상"
     }
   ],
-  "fetchedAt": "2026-10-06T19:42:40.330965+00:00",
-  "count": 13
+  "fetchedAt": "2026-10-06T23:20:57.060809+00:00",
+  "count": 14
 }
