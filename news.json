@@ -1,6 +1,13 @@
 {
   "news": [
     {
+      "title": "ESMO 무대 오르는 K-바이오…에이비엘·HLB 구두 발표 관심 - 청년의사",
+      "link": "https://news.google.com/rss/articles/CBMicEFVX3lxTFBYZXo0WmxTenBVN2pDR0dxUTZnRzNGd3VDWmduMlZUQWhvVTM0SEJDZlRCdlBSNW9FMTNDdnJMVEVKdHhzbnM5NkJMWHNOb2l5OXhXdS0xVDh1YlFEd18tZGJwcmtwX0ExR2Q4WDRHNkvSAXNBVV95cUxNVElzSXRTcXhIeHJNUUxkRkVKQThmX1FaTVdKaEgzdTRIUmdKcERGcFREMzIwbUtHLWV3UUhfSzQwREJ4azN0MlNsNU9MaG5hUFAxclc5eXZwcGJEXzdDSWlKOTFzUkczbHMzc1ZvaVhQRG5V?oc=5",
+      "source": "청년의사",
+      "pubDate": "2026-10-07T21:09:41+00:00",
+      "query": "HLB 임상"
+    },
+    {
       "title": "27년 단백질 연구 결실… HLB펩 ‘랩센’, 루마니아 품고 유럽 진출 - 지이코노미",
       "link": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE5oRV9kN3IzeVdod2NiaFJrTVFMRTVNNWRzemx2ZVFHT2htbjBjbVh3b3VDcVFrUVQzLVlnVFI2R1BLWU02UjUtbkRuMHI3WEFRNVoyN2U1QTN2WnZKWmx6TjAtNmg?oc=5",
       "source": "지이코노미",
@@ -134,6 +141,6 @@
       "query": "HLB이노베이션"
     }
   ],
-  "fetchedAt": "2026-10-07T16:47:37.729076+00:00",
-  "count": 19
+  "fetchedAt": "2026-10-07T21:57:18.231388+00:00",
+  "count": 20
 }
