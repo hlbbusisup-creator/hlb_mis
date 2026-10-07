@@ -1,18 +1,39 @@
 {
   "news": [
     {
-      "title": "[애프터마켓 리뷰] HLB그룹주, 간암 신약 허가 ‘청신호’ 소식에 급등 - Daum",
-      "link": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE9RRUZZdzNLME5LT2NvX0NKZk8zcnF2S0FlMHQ0b0d0bUE4NnZ2MEJIRldCa0ctQTUyVFRHT3RBbW54T2Z5VTdkdkJ0YnlqZFk?oc=5",
+      "title": "HLB '담관암 신약' 유럽 허가 본심사 착수…글로벌 공략 가속 - Daum",
+      "link": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE5uUUhNbmtnc181TG1hNVNEOUwyaTVqaTJxV1hTeWp2XzFhQzJ5VUFuUGpGSkdRSGpzbDc5bVRDNnN5aTZfU0NfV2t3aTBtMFk?oc=5",
       "source": "Daum",
-      "pubDate": "2026-10-06T22:51:10+00:00",
-      "query": "HLB 신약"
+      "pubDate": "2026-10-07T01:48:00+00:00",
+      "query": "HLB 허가"
     },
     {
-      "title": "리보세라닙 제조시설 FDA 실사 VAI 종결, HLB 허가 재신청 속도 - 약사공론",
-      "link": "https://news.google.com/rss/articles/CBMibEFVX3lxTFBkM0xNdndKSGhZN3llZEZIdzlxdXZyaF9rbklBY0Z3NUlZRDBaRDhGV0lWSFhJVUVFLURqQUt3MGZZNE9tTVVramwwX3J1Vm51SFhQODNkQXRlTGxoSWktZmNhQXBnZG9Hdy16cw?oc=5",
-      "source": "약사공론",
-      "pubDate": "2026-10-06T08:54:48+00:00",
-      "query": "HLB 허가"
+      "title": "[속보] HLB바이오스텝, 하락 동적VI 뒤 상승 정적VI 두 차례 발동 - CBC뉴스",
+      "link": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE1YOU9zUy1lQ0ZGamdtWjF5MmY0bHNxNjNMRnlyMi1uN3h5SEtVUXBvVnN1SUJuRlJRM1dyNVhUVnRMRnJ3NFR5dmhHWkctSnI4Qnc2bFRxbXJCOWR6RW5UZm9BOXJtb2Ju?oc=5",
+      "source": "CBC뉴스",
+      "pubDate": "2026-10-07T00:18:09+00:00",
+      "query": "HLB바이오스텝"
+    },
+    {
+      "title": "HLB's Liver Cancer Drug Rivoseranib: FDA's VAI Classification Sparks NDA Resubmission Plans - 뉴스1",
+      "link": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE16eFhlNGZ4eEdEa0hQeTNwLVV5VHpJWEtlRGpGcWhCUHFkVGJyX2JvRjlwLXlHUk81WFloVFVUUU8tdXlmUFUyUXJ2MXhDSVhkemtDZW1ldUN0UkVNWjM5WdIBZkFVX3lxTFBZanlXU2lqaWVkYkFhVExqSm1ZSDZkZUVQb25Yc0xJU2JzOTdHeVdLa3R2MTRibWwwQzQzdGU1S0pEakRLaFRkaTYzLWo5a2VsRHlmeEVjcGFsY2RxcVpTWnk2X1FsQQ?oc=5",
+      "source": "뉴스1",
+      "pubDate": "2026-10-06T23:58:56+00:00",
+      "query": "HLB FDA"
+    },
+    {
+      "title": "HLB제약, 유증 신주 1076만주 상장에 프리마켓 약세[특징주] - Daum",
+      "link": "https://news.google.com/rss/articles/CBMiT0FVX3lxTFAxN3NzQzZKY0t6OF9FVC1ERlRVMkFhekFNeEZwdWJWLUJFUjVZalBfMWVTUWVQRm05Vjhzb3FtcG5uRFlTaU9LTW5WYzdHRTQ?oc=5",
+      "source": "Daum",
+      "pubDate": "2026-10-06T23:31:07+00:00",
+      "query": "HLB제약"
+    },
+    {
+      "title": "HLB 간암약 FDA 재도전 속도…중국 제조시설 기준 부합 주목 - Daum",
+      "link": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE1WZm1WTnpFMEhNTmdocGpER2lwRUFfX09nTnUwUU45d1VPQTYybmp5ajhnbHp2S3VoOUZqTnJWX2F3Y3RMWDRKd05sdkNaRnM?oc=5",
+      "source": "Daum",
+      "pubDate": "2026-10-06T06:33:59+00:00",
+      "query": "HLB FDA"
     },
     {
       "title": "HLB테라퓨틱스 20% 솟구쳤다… 콜드체인 테마 러브콜 봇물 - 핀포인트뉴스",
@@ -43,13 +64,6 @@
       "query": "HLB 임상"
     },
     {
-      "title": "HLB가 던지는 메시지 \"특정 신약 좌절이 R&D 역량 상실 아니다\" - 히트뉴스",
-      "link": "https://news.google.com/rss/articles/CBMia0FVX3lxTE9FQnRDaWQzNS1KNzBJM21qcEJFaS0wa3g0bUlUQllhZUxiZzNpMVZFdjBfcGhwV1VNcUdmUlpqTmZRNHBKbmVHNDhWQmZiU00zcE5xTEJLMHNocnRMREtQNVN5NWVwdUZ0d1Nj?oc=5",
-      "source": "히트뉴스",
-      "pubDate": "2026-10-04T21:01:00+00:00",
-      "query": "HLB 신약"
-    },
-    {
       "title": "HLB파나진, 세계 최대 진단기기 전시회서 판로 확장 추진 - 약업닷컴",
       "link": "https://news.google.com/rss/articles/CBMioAFBVV95cUxPMzAtY1B0Ym92WEJTd0l6YkljeUdYdnJvYVpWMTVlemdrRDNmN1dOSG84aTIyLVo4dFBlT0RNay1hWEtsVzV5S3V1S1hoSzVTVDhkQzhsb2I3YmpQZlhNODhIXzBZbWhRdXN5aklEWkppVEVKMWVxeThZYUJXZ1NBbnctVkRnNm9DVjV4Q3ZzRE5lMUtXaFFDc0dldXpfN21m?oc=5",
       "source": "약업닷컴",
@@ -69,13 +83,6 @@
       "source": "CatchNews",
       "pubDate": "2026-10-02T07:00:00+00:00",
       "query": "HLB라이프케어"
-    },
-    {
-      "title": "진양곤 의장, HLB 계열사株 또 샀다…38억원 규모 - 조선비즈 - Chosunbiz",
-      "link": "https://news.google.com/rss/articles/CBMihwFBVV95cUxNR1A4Y1JMYVNCamkyVWtIOWRfbjRjbDcwdXNJWk4tQ2ltajhPWU9URVk4Q1JOY05tbzFpVTBGUlhZRzFQamdHNXZvaElhNENlSU1HS0tIUUN5dXNuVlVJeU42emtFY1k0aWpkaUZXTDJRM3FUZnlDdFFVWm5xRjVvVExmS3J4ZjDSAZsBQVVfeXFMT1E3QV95cTVwaEtScEdZSWtZbzZlbHBtekI0ZkRTWEo0azdrSE1MVUFMb2FWZlZxbWdzTklXUS1WdUw4MGgybVdKOGxXU1RkS1BENm8yeG9vX2Q3dGpnczM1UTJwdHhCak5UUHI1VzFlYWI5bFZPSEFMWUN4S3IwSFNETUJDelV1RlBGYnJkWGJ4ZkxxeUpYTDJ1bXM?oc=5",
-      "source": "Chosunbiz",
-      "pubDate": "2026-10-02T04:47:00+00:00",
-      "query": "HLB 임상"
     },
     {
       "title": "진양곤 HLB그룹 의장, 개인 법인 통해 HLB이노베이션·HLB테라퓨틱스 지분 확대 - 파이낸스스코프",
@@ -99,6 +106,6 @@
       "query": "HLB 임상"
     }
   ],
-  "fetchedAt": "2026-10-06T23:20:57.060809+00:00",
-  "count": 14
+  "fetchedAt": "2026-10-07T02:35:55.824781+00:00",
+  "count": 15
 }
