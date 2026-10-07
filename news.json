@@ -1,32 +1,53 @@
 {
   "news": [
     {
-      "title": "HLB '담관암 신약' 유럽 허가 본심사 착수…글로벌 공략 가속 - Daum",
-      "link": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE5uUUhNbmtnc181TG1hNVNEOUwyaTVqaTJxV1hTeWp2XzFhQzJ5VUFuUGpGSkdRSGpzbDc5bVRDNnN5aTZfU0NfV2t3aTBtMFk?oc=5",
-      "source": "Daum",
-      "pubDate": "2026-10-07T01:48:00+00:00",
-      "query": "HLB 허가"
-    },
-    {
-      "title": "[속보] HLB바이오스텝, 하락 동적VI 뒤 상승 정적VI 두 차례 발동 - CBC뉴스",
-      "link": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE1YOU9zUy1lQ0ZGamdtWjF5MmY0bHNxNjNMRnlyMi1uN3h5SEtVUXBvVnN1SUJuRlJRM1dyNVhUVnRMRnJ3NFR5dmhHWkctSnI4Qnc2bFRxbXJCOWR6RW5UZm9BOXJtb2Ju?oc=5",
-      "source": "CBC뉴스",
-      "pubDate": "2026-10-07T00:18:09+00:00",
-      "query": "HLB바이오스텝"
-    },
-    {
-      "title": "HLB's Liver Cancer Drug Rivoseranib: FDA's VAI Classification Sparks NDA Resubmission Plans - 뉴스1",
-      "link": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE16eFhlNGZ4eEdEa0hQeTNwLVV5VHpJWEtlRGpGcWhCUHFkVGJyX2JvRjlwLXlHUk81WFloVFVUUU8tdXlmUFUyUXJ2MXhDSVhkemtDZW1ldUN0UkVNWjM5WdIBZkFVX3lxTFBZanlXU2lqaWVkYkFhVExqSm1ZSDZkZUVQb25Yc0xJU2JzOTdHeVdLa3R2MTRibWwwQzQzdGU1S0pEakRLaFRkaTYzLWo5a2VsRHlmeEVjcGFsY2RxcVpTWnk2X1FsQQ?oc=5",
-      "source": "뉴스1",
-      "pubDate": "2026-10-06T23:58:56+00:00",
+      "title": "FDA 승인받은 HLB 담관암 신약 ‘리라푸그라티닙’, 유럽서도 허가심사 시작 - www.dt.co.kr",
+      "link": "https://news.google.com/rss/articles/CBMiTkFVX3lxTFBDUzZjN1oxaVZHV1VwbEtUQlNzN0hUaDN4azJnT2l0VGxsU0gyUmZXVktpYS1pdFd6ZE0xS0pZWEJxaGY5eEdRX3RsY19CZw?oc=5",
+      "source": "www.dt.co.kr",
+      "pubDate": "2026-10-07T08:03:47+00:00",
       "query": "HLB FDA"
     },
     {
+      "title": "HLB펩 ‘랩센’, 루마니아에 스킨케어 4종 수출 - 메디포뉴스",
+      "link": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE5tWjM2UjhjT2pMVjU1NmkxNy05RHViZ01nUEp1NzA5X2xEVHc1ZklId3VVWmttMVMxcUJPMUFvOGhNX0NEMWlsTGl2NURZbEJsSnBUelRKcVhCS2xfcWMzMzZnNWk?oc=5",
+      "source": "메디포뉴스",
+      "pubDate": "2026-10-07T07:48:24+00:00",
+      "query": "HLB펩"
+    },
+    {
+      "title": "HLB펩, '랩센' 유럽시장 첫 진출…\"글로벌 시장 공략 본격화\" - 아시아경제",
+      "link": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE5jdi16ZHFtMnFvM1NXZjJ1M1FRM0NwX0lNWVR0azNETW8za0I2X1p1Z1RhV19uUU1CQXU3RlhjTnpjbFJGR2RxUTFFbHRqVUkybXFVa244Zk41bDRudTA3NQ?oc=5",
+      "source": "아시아경제",
+      "pubDate": "2026-10-07T06:20:08+00:00",
+      "query": "HLB펩"
+    },
+    {
+      "title": "HLB그룹주 엇갈린 흐름…HLB·HLB제약 약세, HLB바이오스텝은 19%대 급등 - CBC뉴스",
+      "link": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE1YUUZrd25TbDhaRG9leXFfc01LcFB5YlZxRUNJMHJWZUQ1S1g5SVFuRzRjSnRXRzM0dHQ0cnQ5YUlXdnoxclpNWjl1dDNDYXhtYzZlQU1iQkxoeHRTLWNUNVZTNnRIZXc5?oc=5",
+      "source": "CBC뉴스",
+      "pubDate": "2026-10-07T04:46:16+00:00",
+      "query": "HLB제약"
+    },
+    {
+      "title": "HLB, ‘리라푸그라티닙’ 유럽 허가 \"본심사 착수\" - 바이오스펙테이터",
+      "link": "https://news.google.com/rss/articles/CBMiV0FVX3lxTE8yclVFeW9rOFRUa1Q5bWphWmItby11cE92MmV3cTM5UmlvVmc3Q0RkRFNDYmtkSXQwSVctRFEzN0MxRXN2QVd2bDNkVXpLUGJobzZIZ0Jicw?oc=5",
+      "source": "바이오스펙테이터",
+      "pubDate": "2026-10-07T00:31:00+00:00",
+      "query": "HLB 허가"
+    },
+    {
       "title": "HLB제약, 유증 신주 1076만주 상장에 프리마켓 약세[특징주] - Daum",
-      "link": "https://news.google.com/rss/articles/CBMiT0FVX3lxTFAxN3NzQzZKY0t6OF9FVC1ERlRVMkFhekFNeEZwdWJWLUJFUjVZalBfMWVTUWVQRm05Vjhzb3FtcG5uRFlTaU9LTW5WYzdHRTQ?oc=5",
+      "link": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE5kSDBqakg1akpUbG9TOHpRTjN2Nk8wT3BJTkkxUlU2ZDlzVENzQUNaX19qeTNXbXFYUFEwLUF4Q2NQbHEyaTBrc1I4ZFpiZ3IwVGlhamM1YVlyM29E?oc=5",
       "source": "Daum",
       "pubDate": "2026-10-06T23:31:07+00:00",
       "query": "HLB제약"
+    },
+    {
+      "title": "HLB, '리보세라닙·캄렐리주맙·TACE' 中 허가심사 진전 - 메디코파마",
+      "link": "https://news.google.com/rss/articles/CBMickFVX3lxTE1hNjVxcUxCcGhtUHRDbzI5b0w0cEdOYm45WmluSjllRWxra20yV00wcUhaUHV3RVlKZGpoNnpQNU5hVXQ1NXJkb19ubDZiTHNNZ2w5Ty1nS3I4Ym9MMEQ3ZkpoaXpzb1JqbzJocmdRTkVXUQ?oc=5",
+      "source": "메디코파마",
+      "pubDate": "2026-10-06T21:50:00+00:00",
+      "query": "HLB 임상"
     },
     {
       "title": "HLB 간암약 FDA 재도전 속도…중국 제조시설 기준 부합 주목 - Daum",
@@ -34,6 +55,20 @@
       "source": "Daum",
       "pubDate": "2026-10-06T06:33:59+00:00",
       "query": "HLB FDA"
+    },
+    {
+      "title": "HLB바이오스텝 29.91% 급등…비임상 CRO 수주 회복이 관건 - 잡포스트",
+      "link": "https://news.google.com/rss/articles/CBMibkFVX3lxTE5fdExfZTVuR09RWkVTWHJHWm8xaXN1UTVhejNSc3RPUlFXQVR0aGNyUmJWVWFCaVA5TWM2LUpSWVBub0FGMTlxQ2pWb2J6cFJoWWdSMlVBcVkyekFUTXdOVVcydk5NckNlVGZka2RB0gFyQVVfeXFMT0dFYWFuMUNfTUR0ODREMkI4OVc4M21LZU5LTThRWVBCRFdCVzZ3aEJYOVRaOXFzcjdPckVwZjE0TWdsOTVuS1NVWjdRN0lIdW5rX2pSMkJKdVpQZU1IZktJdk5OblA1c19OcG01ZDBHdW9B?oc=5",
+      "source": "잡포스트",
+      "pubDate": "2026-10-06T06:06:02+00:00",
+      "query": "HLB바이오스텝"
+    },
+    {
+      "title": "HLB 신약 ‘리보세라닙’ 미국 허가 절차 재시동 - 이뉴스투데이",
+      "link": "https://news.google.com/rss/articles/CBMicEFVX3lxTE5CZnVUZkJuVldYTjN3dWVLR3pKT3psbUdiM1YtckNSd0tscTNGS1g1dS1MTk1SNF9acmM0eThOa21oMTBETFNVY2RRckZDb1FTRHA4b2dRZ0dTN1VPaXAzV19jcFhwWWZKTVliM2I3ckXSAXRBVV95cUxNVTJyeUktSTJlLVZkdWlVMnRpbmMydVRvMEI2NVJPRG1ETThqZXRIMFpIdEFObXBsTjJyS3J5Yk9mOWJmcGYxdkNMek1SSHozX01PMnhiUXR0czdtZElOWUVBLV9yeXU0MllILTE2eWhHZ1Y3aA?oc=5",
+      "source": "이뉴스투데이",
+      "pubDate": "2026-10-06T05:14:13+00:00",
+      "query": "HLB 허가"
     },
     {
       "title": "HLB테라퓨틱스 20% 솟구쳤다… 콜드체인 테마 러브콜 봇물 - 핀포인트뉴스",
@@ -55,6 +90,13 @@
       "source": "매일경제 마켓",
       "pubDate": "2026-10-06T00:25:24+00:00",
       "query": "HLB생명과학"
+    },
+    {
+      "title": "HLB, 리보세라닙 공장 FDA 실사 마무리…NDA 재제출 준비 - 한국경제",
+      "link": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE1PTVp0U0lTSmJPR2Uxd0ZJczVzTHZmeVB5R0FvbU92MjJpVVc4MW1wcThoYTVTS2FRcmVFbUkwbzdTcHFCZHJjaEF5S0ZNbGZJaGZwWTN0cXhVQQ?oc=5",
+      "source": "한국경제",
+      "pubDate": "2026-10-06T00:17:10+00:00",
+      "query": "HLB FDA"
     },
     {
       "title": "[HLB 변곡점] ③허가 이후 내다본 조직재편, 신약사업 체질 바꿨다 - FETV",
@@ -89,23 +131,9 @@
       "link": "https://news.google.com/rss/articles/CBMiakFVX3lxTE5adHFpX3FiRjFXT1FaRXNLcEVZeDZQZTVSLTdqSzNnbHdFeGxiVkFFeE9VLXludkVKZF9HQWVWckxIRm8xaF9LdUNleXlDV2hRcGJNT0htaDBGd0NfUUlpOTRodE0zTzBlRXc?oc=5",
       "source": "파이낸스스코프",
       "pubDate": "2026-10-02T03:35:00+00:00",
-      "query": "HLB이노베이션"
-    },
-    {
-      "title": "HLB펩 항바이러스제 AGM-380, 기존 약물 내성 극복...전임상 데이터 공개 - PRESS9",
-      "link": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE9HWWtma2pLUFp2dXN4eTZiRS10bzFqdjd3Z1lwRGdtX01tY2pYeXZBcDBSbGRiQ1N6UlNEelVZYVEtMG9SWFNHb2NYVkNVSDVocjFvM2ZBb0QzbzVLdnhNMUR4c0x4UQ?oc=5",
-      "source": "PRESS9",
-      "pubDate": "2026-10-01T23:51:34+00:00",
-      "query": "HLB펩"
-    },
-    {
-      "title": "경쟁약은 확증임상 난항, HLB 리픽투는 정식승인…FDA 판단 배경은 - 이데일리",
-      "link": "https://news.google.com/rss/articles/CBMigAFBVV95cUxQSGtib1dqY3U3WHpuZFlYS2l1QWVrbW0wYVcxMUdJdGhUVmNCR1IyNmpSNHhwUGI0WmFiVEJjYnpDOUp4bE1TTGdHSEtKdktEUlkxMEZwaFJYaERNOE9GWlNYWkNMdUpmajgtWFJ2ZmIwcDRtNUVSY0RFelJkN1RILQ?oc=5",
-      "source": "이데일리",
-      "pubDate": "2026-10-01T23:07:02+00:00",
-      "query": "HLB 임상"
+      "query": "HLB테라퓨틱스"
     }
   ],
-  "fetchedAt": "2026-10-07T02:35:55.824781+00:00",
-  "count": 15
+  "fetchedAt": "2026-10-07T09:22:39.820151+00:00",
+  "count": 19
 }
