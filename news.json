@@ -1,11 +1,53 @@
 {
   "news": [
     {
+      "title": "HLB바이오스텝, 12일 투자경고종목 지정 - CBC뉴스",
+      "link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTFBaUEt1LWZEZ29YMFplR3BTQkhsNldNYzdmRUJnRERTVTItd0NxRzExOFNVamk1dlVuTDlUWUxsaDIzZnR6NUNibnZSRHQ1U2xrRVBYSWpLMVdNcTQ5QWtLZDlSQ2kyT1E?oc=5",
+      "source": "CBC뉴스",
+      "pubDate": "2026-10-09T01:12:20+00:00",
+      "query": "HLB바이오스텝"
+    },
+    {
+      "title": "HLB테라퓨틱스, 단기과열종목 지정…12일부터 3거래일간 단일가매매 적용 - CBC뉴스",
+      "link": "https://news.google.com/rss/articles/CBMiaEFVX3lxTFBQR3UtUklKX3ZGRzZTRnBCcGtMaHdIcnE5M2twQ2tOT3ZPc2p6emt6SHFJTUFZcmhHWklSZ2FWSGRCOVQ4Nkpqblg3TWpLb3BRSXJ5c3BDMlRWYUIxUlJpU0xHemcxRF9M?oc=5",
+      "source": "CBC뉴스",
+      "pubDate": "2026-10-09T01:10:55+00:00",
+      "query": "HLB테라퓨틱스"
+    },
+    {
+      "title": "리픽투로 FDA 뚫은 HLB, 진짜 승부는 '간암 신약' 재도전 - 뉴스1",
+      "link": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE9iT3o5ZzljX1NOZnNSRW5HVUlpTlg0RXZ6anI1T05nckNRQVllOE1KbXNqQmd6STlhaEVYS1I2LTNoakJXcmhpdzdabU1ZbGFyMGdNUUJtRnZoOEJYOUllTQ?oc=5",
+      "source": "뉴스1",
+      "pubDate": "2026-10-08T21:20:00+00:00",
+      "query": "HLB 신약"
+    },
+    {
       "title": "현대요트, '2027 윈터 디스카운트' 행사 진행 - 로이슈",
       "link": "https://news.google.com/rss/articles/CBMiekFVX3lxTE1TQnJZTDcyXy1CNlNSSzh0VFhzMU5ZZ2NhTFI1RXZTbERGcHRSdm1VZnVhc0VCUnJjQnZGSTdtUHgtQm9zT3pjVlczM2V2Rkw3MFVCZ3RTYmhRcDJxNk1yMU5Xa0VRUndINUh1UmxoSjVwY2RjZTYtTjhB?oc=5",
       "source": "로이슈",
       "pubDate": "2026-10-08T08:28:05+00:00",
       "query": "현대요트"
+    },
+    {
+      "title": "HLB펩 '랩센' 루마니아 수출…유럽시장 첫 진출 - 데일리팜",
+      "link": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE9Teno2Nk9OTHJuR1czTFZJejR0bF9nNnlubzJ5WUN0Z3ZuRlFQRFpCOHZOMWxIZnRGLU9KaFZoenpVWC1DX0p2bkxEYTFXcVNLZ0pv?oc=5",
+      "source": "데일리팜",
+      "pubDate": "2026-10-08T08:20:10+00:00",
+      "query": "HLB펩"
+    },
+    {
+      "title": "HLB생명과학 7.89% 상승…그룹 신약 기대와 자체 재무 구분 - 잡포스트",
+      "link": "https://news.google.com/rss/articles/CBMickFVX3lxTFByU3ZQVVhtVWRIVzVfTGdHd0RGcEdTMnVnY3d4Q3ItWVFfOTFIaGg2Szd5VVowVFI5Wlp1Z2huR29FRlNSZWgteUV4UklDSEg3Q202QnRvd2VaaC12S3k4UkNoQl9laWkxdVhwUGtCSEk1QdIBckFVX3lxTFByU3ZQVVhtVWRIVzVfTGdHd0RGcEdTMnVnY3d4Q3ItWVFfOTFIaGg2Szd5VVowVFI5Wlp1Z2huR29FRlNSZWgteUV4UklDSEg3Q202QnRvd2VaaC12S3k4UkNoQl9laWkxdVhwUGtCSEk1QQ?oc=5",
+      "source": "잡포스트",
+      "pubDate": "2026-10-08T05:49:09+00:00",
+      "query": "HLB생명과학"
+    },
+    {
+      "title": "632만주 손바뀐 HLB제약…유상증자 이후 본업 현금흐름 점검 - 잡포스트",
+      "link": "https://news.google.com/rss/articles/CBMickFVX3lxTE1GOEhTRDF4OGtzV2pNVWVCYXUxRDk1Vlg4eUV5dFRRRmxGSF9ocTIyQnJidDRhbHpPRzZNWGtzODE2b3FnMTF4QURCdnBuVnpjNThfSFp4dGVRbWg1aTNYdjBiRDNfR1RjS2R0VW1lZ2xYUdIBckFVX3lxTE1GOEhTRDF4OGtzV2pNVWVCYXUxRDk1Vlg4eUV5dFRRRmxGSF9ocTIyQnJidDRhbHpPRzZNWGtzODE2b3FnMTF4QURCdnBuVnpjNThfSFp4dGVRbWg1aTNYdjBiRDNfR1RjS2R0VW1lZ2xYUQ?oc=5",
+      "source": "잡포스트",
+      "pubDate": "2026-10-08T05:18:04+00:00",
+      "query": "HLB제약"
     },
     {
       "title": "HLB파나진, PNA 기반 신약 개발 기대에 급등 - 한국경제",
@@ -43,20 +85,6 @@
       "query": "HLB 임상"
     },
     {
-      "title": "HLB펩 ‘랩센’, 루마니아에 스킨케어 4종 수출 - 메디포뉴스",
-      "link": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE5tWjM2UjhjT2pMVjU1NmkxNy05RHViZ01nUEp1NzA5X2xEVHc1ZklId3VVWmttMVMxcUJPMUFvOGhNX0NEMWlsTGl2NURZbEJsSnBUelRKcVhCS2xfcWMzMzZnNWk?oc=5",
-      "source": "메디포뉴스",
-      "pubDate": "2026-10-07T07:48:24+00:00",
-      "query": "HLB펩"
-    },
-    {
-      "title": "HLB펩 '랩센', 루마니아 수출로 유럽 첫 진출 - 뉴스1",
-      "link": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE5CZnJzcDRoa2FWby1Qb0M4LU1jVVM0UTJVZWNvYXRVdFVHRENHd182QmR5STZKWTg5SlhtV0tCOFRoWnFfbGFMUW82LXU1THh2WV9xNFVCOGhRellYbVkydQ?oc=5",
-      "source": "뉴스1",
-      "pubDate": "2026-10-07T07:08:14+00:00",
-      "query": "HLB펩"
-    },
-    {
       "title": "HLB제약, 유증 신주 1076만주 상장에 프리마켓 약세[특징주] - Daum",
       "link": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE5kSDBqakg1akpUbG9TOHpRTjN2Nk8wT3BJTkkxUlU2ZDlzVENzQUNaX19qeTNXbXFYUFEwLUF4Q2NQbHEyaTBrc1I4ZFpiZ3IwVGlhamM1YVlyM29E?oc=5",
       "source": "Daum",
@@ -76,20 +104,6 @@
       "source": "약사공론",
       "pubDate": "2026-10-06T08:54:48+00:00",
       "query": "HLB 허가"
-    },
-    {
-      "title": "재심사 만료 앞둔 '아펙손' 후발약 개발 시동…동광·HLB제약 도전 - 메디팜스투데이",
-      "link": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE5QVEhJWEpJd0d1bFZtX29xS19rWUpJYl9jWnZGZEpjZVpPTFQ2enhJYmo1WUpVWEtoRUduVEptVWdvWG9hZDhSaGdKMlUyWXJjbVVQa0tTa0FRLWN2OGk5R2hod0M0QnZW?oc=5",
-      "source": "메디팜스투데이",
-      "pubDate": "2026-10-06T07:00:00+00:00",
-      "query": "HLB제약"
-    },
-    {
-      "title": "HLB그룹주 연일 강세…리픽투 FDA 품목허가 효과 - 머니투데이 - 머니투데이",
-      "link": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE54X3pzb0VSaVVZQXdNSHMyN1NZUFFPQXlRVl9CTWpDYkptREVfa09wMlhSSlFndlhMcmpuNEIwd3lBNlV6LTJKLWJJRFdDdXpBNVZpY0xNVVFQbUdOY3ZDN25hNEVQeUk10gFuQVVfeXFMUHhHbjJFSV9NTGhZZkIwOWpBTHA4V3ZpYW5ZcFpRVEhEWlk2ajJFRG1YbEFiOG5tUDdFVVlEcDZUMTdqMG5rUnlHWDQ1WTBfTElGUlZFbmtyT3hISHg5aXFYalJOekJiSFNOcU5kbGc?oc=5",
-      "source": "머니투데이",
-      "pubDate": "2026-10-06T00:41:20+00:00",
-      "query": "HLB FDA"
     },
     {
       "title": "특징주, HLB생명과학-줄기세포 테마 상승세에 19.58% ↑ - 매일경제 마켓",
@@ -120,20 +134,13 @@
       "query": "HLB생명과학"
     },
     {
-      "title": "“식후 15분내 운동, 혈당 상승폭 33% 낮아” HLB라이프케어, 2만건 식사데이터 분석공개 - CatchNews",
-      "link": "https://news.google.com/rss/articles/CBMia0FVX3lxTE1qdE5saUdmcldKUTJZaHpGbmU4WFlzRTdqM2FrekVGNlA5RWZqcHhjM2xhdERDLUFRMjA4NDhnWXJjbkM1SWJCcjRORUdtMUZwNkVnRjYwczlrbUJFLS1oOFZzN3FpQVRQTzE40gFvQVVfeXFMTjhmXy1semFYcG1HZmprUVA0RWsyeHNXclgweE9fTGtoN211YXV3NkdMeG5oczAwNkxiYTJXcmN6NzJWY2ZXanBsQ2ViczJtRG9yYkxZQ0hNckVKa3dNdHZNMXBzZWVYbUNnRW1lTzZn?oc=5",
-      "source": "CatchNews",
-      "pubDate": "2026-10-02T07:00:00+00:00",
-      "query": "HLB라이프케어"
-    },
-    {
-      "title": "진양곤 HLB그룹 의장, 개인 법인 통해 HLB이노베이션·HLB테라퓨틱스 지분 확대 - 파이낸스스코프",
-      "link": "https://news.google.com/rss/articles/CBMiakFVX3lxTE5adHFpX3FiRjFXT1FaRXNLcEVZeDZQZTVSLTdqSzNnbHdFeGxiVkFFeE9VLXludkVKZF9HQWVWckxIRm8xaF9LdUNleXlDV2hRcGJNT0htaDBGd0NfUUlpOTRodE0zTzBlRXc?oc=5",
-      "source": "파이낸스스코프",
-      "pubDate": "2026-10-02T03:35:00+00:00",
+      "title": "HLB 등, HLB이노베이션 지분 42.32%로 확대 - 데이터투자",
+      "link": "https://news.google.com/rss/articles/CBMickFVX3lxTE5xdFdsOFF3VmhmbTZvMVI3Uy0zUmNXNTYtQVZxUW5qcUVLWE41cEhpdndVbDd4SWgzVDhONE54SUhjSGlfU0xYV0Z1TW5uMEZNVFRCZFhqVWtnWG0xMEdXcW1lWW10WjZ4M1g5c3ZWMzN0QQ?oc=5",
+      "source": "데이터투자",
+      "pubDate": "2026-10-02T02:05:35+00:00",
       "query": "HLB이노베이션"
     }
   ],
-  "fetchedAt": "2026-10-08T21:27:04.043638+00:00",
-  "count": 19
+  "fetchedAt": "2026-10-09T01:22:02.376714+00:00",
+  "count": 20
 }
