@@ -36,13 +36,6 @@
       "query": "HLB제넥스"
     },
     {
-      "title": "632만주 손바뀐 HLB제약…유상증자 이후 본업 현금흐름 점검 - 잡포스트",
-      "link": "https://news.google.com/rss/articles/CBMickFVX3lxTE1GOEhTRDF4OGtzV2pNVWVCYXUxRDk1Vlg4eUV5dFRRRmxGSF9ocTIyQnJidDRhbHpPRzZNWGtzODE2b3FnMTF4QURCdnBuVnpjNThfSFp4dGVRbWg1aTNYdjBiRDNfR1RjS2R0VW1lZ2xYUdIBckFVX3lxTE1GOEhTRDF4OGtzV2pNVWVCYXUxRDk1Vlg4eUV5dFRRRmxGSF9ocTIyQnJidDRhbHpPRzZNWGtzODE2b3FnMTF4QURCdnBuVnpjNThfSFp4dGVRbWg1aTNYdjBiRDNfR1RjS2R0VW1lZ2xYUQ?oc=5",
-      "source": "잡포스트",
-      "pubDate": "2026-10-08T05:18:04+00:00",
-      "query": "HLB제약"
-    },
-    {
       "title": "HLB파나진, PNA 기반 신약 개발 기대에 급등 - 한국경제",
       "link": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE13YzlSQmlnX0lkUzMzbXY3Ti1FcTdHMm9MLTBIbW9ITTJ3c0lXVi1GaXZUYktCcWVPNHJja1F1SjRRSi0tbHFiSmFvSFZHRlJNWHU0clp5eGVsQQ?oc=5",
       "source": "한국경제",
@@ -55,6 +48,13 @@
       "source": "톱데일리",
       "pubDate": "2026-10-08T05:13:00+00:00",
       "query": "HLB 허가"
+    },
+    {
+      "title": "HLB 그룹주 흐름은?…HLB바이오스텝 29%대 급등, HLB글로벌·HLB파나진도 상승 - CBC뉴스",
+      "link": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE9fei12NmIyYnkwZEZ6SzNtbmg2RzBpYklsdldqZVl6anBrdE14STE5RkpxSzlZVFdVTzYxUFc1X3JWa3pDYjEwMHQtcG81ODdXcFVfbGo3Sk5sN3lPd3hqc3p6OUttUVVV?oc=5",
+      "source": "CBC뉴스",
+      "pubDate": "2026-10-08T01:56:03+00:00",
+      "query": "HLB파나진"
     },
     {
       "title": "현대요트 프리미엄 요트 프로모션 실시 - 중소기업신문",
@@ -78,6 +78,13 @@
       "query": "HLB펩"
     },
     {
+      "title": "HLB제약, 유증 신주 1076만주 상장에 프리마켓 약세 - 뉴스웨이",
+      "link": "https://news.google.com/rss/articles/CBMiakFVX3lxTE5LeDZGc0V4eF92OFE1aTlDWExuWlZIdjh5MERzSGdQM1RJcGkzTUtaSHV4aEdUUkc0bFFYRlc5a0JuRnUwX3N5REMta25ITkhKSllDaFFnRkd4RXRXSWRIeVBJNFUwdmUyaFE?oc=5",
+      "source": "뉴스웨이",
+      "pubDate": "2026-10-06T23:30:44+00:00",
+      "query": "HLB제약"
+    },
+    {
       "title": "HLB, '리보세라닙·캄렐리주맙·TACE' 中 허가심사 진전 - 메디코파마",
       "link": "https://news.google.com/rss/articles/CBMickFVX3lxTE1hNjVxcUxCcGhtUHRDbzI5b0w0cEdOYm45WmluSjllRWxra20yV00wcUhaUHV3RVlKZGpoNnpQNU5hVXQ1NXJkb19ubDZiTHNNZ2w5Ty1nS3I4Ym9MMEQ3ZkpoaXpzb1JqbzJocmdRTkVXUQ?oc=5",
       "source": "메디코파마",
@@ -89,7 +96,7 @@
       "link": "https://news.google.com/rss/articles/CBMibEFVX3lxTFBkM0xNdndKSGhZN3llZEZIdzlxdXZyaF9rbklBY0Z3NUlZRDBaRDhGV0lWSFhJVUVFLURqQUt3MGZZNE9tTVVramwwX3J1Vm51SFhQODNkQXRlTGxoSWktZmNhQXBnZG9Hdy16cw?oc=5",
       "source": "약사공론",
       "pubDate": "2026-10-06T08:54:48+00:00",
-      "query": "HLB 허가"
+      "query": "HLB FDA"
     },
     {
       "title": "재심사 만료 앞둔 '아펙손' 후발약 개발 시동…동광·HLB제약 도전 - 메디팜스투데이",
@@ -113,6 +120,6 @@
       "query": "HLB 신약"
     }
   ],
-  "fetchedAt": "2026-10-10T23:42:50.409642+00:00",
-  "count": 16
+  "fetchedAt": "2026-10-11T02:15:10.448301+00:00",
+  "count": 17
 }
