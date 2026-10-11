@@ -1,6 +1,13 @@
 {
   "news": [
     {
+      "title": "HLB바이오스텝, 바스젠바이오와 AI - 이투데이",
+      "link": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE1hMUk3TC1wYVN4bW9RZmpXVHVucExwb2RXSW5MQkd2Q09uYl8xTGUzd1dCblNRQmUwWG82Q012ZUl5WGt5MFdSbnB3NFVscU94UlhjQTFRU0JPakhaMm9iUkRqRlBYZE1j?oc=5",
+      "source": "이투데이",
+      "pubDate": "2026-10-11T06:49:21+00:00",
+      "query": "HLB바이오스텝"
+    },
+    {
       "title": "HLB펩, 스킨케어 브랜드 '랩센' 루마니아 수출 - FETV",
       "link": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE1nTjI3bEJvQUlXTC1PVUdsRHBkQjBER2hsZ0VjcUxONUtheVBkOVppZ1NfTkphUmt1VGpxbV9FaUlENUtxcHlTVkx5UV91N1BJSDZOVmpZaXpteVFfX2hxVGdvbmI1RDlw?oc=5",
       "source": "FETV",
@@ -57,6 +64,13 @@
       "query": "현대요트"
     },
     {
+      "title": "HLB 간암신약, 추가 확장성 보인다…中서 TACE 병용 허가심사 진전 - 이투데이",
+      "link": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE8wNEFfazA0cVJ6Y092THRqRkRmLVl5cEJZZ1g3cjd4VWZiUVNBMHhLM3YxUVExaGFmUWJhS0lPVzN2RnV4Z3A0b0NKSnBvRkE4bXBYTQ?oc=5",
+      "source": "이투데이",
+      "pubDate": "2026-10-08T01:13:00+00:00",
+      "query": "HLB 허가"
+    },
+    {
       "title": "ESMO 무대 오르는 K-바이오…에이비엘·HLB 구두 발표 관심 - 청년의사",
       "link": "https://news.google.com/rss/articles/CBMib0FVX3lxTFBzb0JOOG5ELUN6eXpETEJyNTdIM004VnRoQWFxdnZ2cUlENjVOMDRub1p2RXJHM21RbndVVlNVY3J0X1diT3lXRTZXbmVBM0tLQ2ZIczdwQko2cmhCVllya3c2cUZ3cHI0eFBSWnRmVdIBc0FVX3lxTE1USXNJdFNxeEh4ck1RTGRGRUpBOGZfUVpNV0poSDN1NEhSZ0pwREZwVEQzMjBtS0ctZXdRSF9LNDBEQnhrM3QyU2w1T0xobmFQUDFyVzl5dnBwYkRfN0NJaUo5MXNSRzNsczNzVm9pWFBEblU?oc=5",
       "source": "청년의사",
@@ -76,20 +90,6 @@
       "source": "아시아경제",
       "pubDate": "2026-10-07T06:20:08+00:00",
       "query": "HLB펩"
-    },
-    {
-      "title": "HLB, '리보세라닙·캄렐리주맙·TACE' 中 허가심사 진전 - 메디코파마",
-      "link": "https://news.google.com/rss/articles/CBMickFVX3lxTE1hNjVxcUxCcGhtUHRDbzI5b0w0cEdOYm45WmluSjllRWxra20yV00wcUhaUHV3RVlKZGpoNnpQNU5hVXQ1NXJkb19ubDZiTHNNZ2w5Ty1nS3I4Ym9MMEQ3ZkpoaXpzb1JqbzJocmdRTkVXUQ?oc=5",
-      "source": "메디코파마",
-      "pubDate": "2026-10-06T21:50:00+00:00",
-      "query": "HLB 임상"
-    },
-    {
-      "title": "재심사 만료 앞둔 '아펙손' 후발약 개발 시동…동광·HLB제약 도전 - 메디팜스투데이",
-      "link": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE5QVEhJWEpJd0d1bFZtX29xS19rWUpJYl9jWnZGZEpjZVpPTFQ2enhJYmo1WUpVWEtoRUduVEptVWdvWG9hZDhSaGdKMlUyWXJjbVVQa0tTa0FRLWN2OGk5R2hod0M0QnZW?oc=5",
-      "source": "메디팜스투데이",
-      "pubDate": "2026-10-06T07:00:00+00:00",
-      "query": "HLB제약"
     },
     {
       "title": "HLB 간암신약도 청신호…완제의약품 제조시설 실사 '자발적 조치' 분류 - 머니투데이 - 머니투데이",
@@ -113,6 +113,6 @@
       "query": "HLB 신약"
     }
   ],
-  "fetchedAt": "2026-10-11T15:52:25.436916+00:00",
+  "fetchedAt": "2026-10-11T20:12:41.884781+00:00",
   "count": 16
 }
