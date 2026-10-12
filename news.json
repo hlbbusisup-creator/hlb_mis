@@ -1,11 +1,32 @@
 {
   "news": [
     {
-      "title": "HLB, 리보세라닙·캄렐리주맙 ‘간암 1차 치료제’ FDA 재신청 - Chosunbiz",
-      "link": "https://news.google.com/rss/articles/CBMihwFBVV95cUxOc01LYnZldXdfX3JFam03cThoR0VQR1FaU3ZLd2lzeTNyVHF0alR0NGtSLTAzLVh0eV9FdjdJNVlOdm92UTc1SE1fakNLU1NpZmRSTlYwdW9SeFRMSlhPLUlKemM1WkhQMy1ibHVIb2JOZVVYS1RYM1BmRmJBQm5PZGN4cFVFREE?oc=5",
-      "source": "Chosunbiz",
-      "pubDate": "2026-10-11T23:39:00+00:00",
+      "title": "HLB, 리픽투 이어 간암까지…'FDA 승인 신약사'로 체질 전환 추진 - 뉴스핌",
+      "link": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE81djJaSlVTZ19ZSExRVGxaSklpWUZWZlgxU2FtRVI5TnB5VnhEb2VJclJXcDFpWERaTW9WOS0xNkszb1ZzRmtNUzA1THJfdlMyNnBCTkZyaVc1cVQ4?oc=5",
+      "source": "뉴스핌",
+      "pubDate": "2026-10-12T01:57:00+00:00",
       "query": "HLB FDA"
+    },
+    {
+      "title": "식품진흥원, ‘프레시코’ 기술 지원 대기업 납품 결실 - 식품저널 foodnews",
+      "link": "https://news.google.com/rss/articles/CBMibEFVX3lxTE9UVE9CQW56UlpSNC1DeXBBa0F6WV94c1pPQ3NFUUZyeE5ucDAzdldvMk9MMHR4bk1rQnV6QVRBajJDNlpGTVhJcDc0cHRCNFNJWUdqeHluN2pnMkUyWHVkajY2bkpIWmE5cFo2Tw?oc=5",
+      "source": "식품저널 foodnews",
+      "pubDate": "2026-10-12T01:56:59+00:00",
+      "query": "프레시코"
+    },
+    {
+      "title": "[대전상장기업지수] 10월 8일 시총 57조 규모…HLB파나진·HLB제넥스·안지오랩 강세 - 금강일보",
+      "link": "https://news.google.com/rss/articles/CBMiakFVX3lxTE1pZDAwSlVPZlhEMG5obW9Mb190VGhLNVJINkJldEZPWUI2eFJQQUlfd1hoTXpFcFAySlJ1RkVMWnFscm41ZzlhUTNXYzVoLWRtUWNQM010bmZ4eWJQeHJ1MXJZV1RBeTNLR2c?oc=5",
+      "source": "금강일보",
+      "pubDate": "2026-10-12T00:41:26+00:00",
+      "query": "HLB파나진"
+    },
+    {
+      "title": "HLB, 간암 신약 FDA 허가 재신청 완료 - FETV",
+      "link": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE5NcmlUemFMTHlwN1h5aElTSVFKSUwxNUVzNXhVNnZQM2tfZlRhOGtYRmdOTTZheG5rYXZabnlURWV5aHlXN3FWVjZiSEhNQkdxeTZFdGF5SFd5WGM2R0xLRFVTYmdDam13?oc=5",
+      "source": "FETV",
+      "pubDate": "2026-10-12T00:06:15+00:00",
+      "query": "HLB 허가"
     },
     {
       "title": "HLB바이오스텝, 바스젠바이오와 AI - 이투데이",
@@ -92,6 +113,6 @@
       "query": "HLB생명과학"
     }
   ],
-  "fetchedAt": "2026-10-11T23:50:13.828664+00:00",
-  "count": 13
+  "fetchedAt": "2026-10-12T05:48:47.581231+00:00",
+  "count": 16
 }
