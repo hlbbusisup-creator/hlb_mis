@@ -1,32 +1,39 @@
 {
   "news": [
     {
-      "title": "HLB, 리픽투 이어 간암까지…'FDA 승인 신약사'로 체질 전환 추진 - 뉴스핌",
-      "link": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE81djJaSlVTZ19ZSExRVGxaSklpWUZWZlgxU2FtRVI5TnB5VnhEb2VJclJXcDFpWERaTW9WOS0xNkszb1ZzRmtNUzA1THJfdlMyNnBCTkZyaVc1cVQ4?oc=5",
-      "source": "뉴스핌",
-      "pubDate": "2026-10-12T01:57:00+00:00",
+      "title": "HLB, 간암 신약 FDA 허가 재신청...제조시설 실사 마무리 - 뉴스투데이",
+      "link": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE9pS3ByQmpHU2hPQjlTdXRRNlpiU0F0bEpSYTliQlFfaU9BZUpsNFk3ZTNXNXBzRExWa2FxU2N1bHBLQ28tVlNlTkZvSUlVVy1XY3RSb19WTTNicmF6c0E?oc=5",
+      "source": "뉴스투데이",
+      "pubDate": "2026-10-12T09:01:00+00:00",
+      "query": "HLB 허가"
+    },
+    {
+      "title": "HLB그룹, 15일 통합 IR…첫 신약 승인 이후 성장전략 공개 - 서울경제TV",
+      "link": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE1xWk1MT2cyc2xvOVVPWkdZNlBsTGg4bXgyVm5GS2xZZXZvU3dkU2cyZXBwTVVMX1h4VHdQNWtOZ0xuOGQ1b25uNUFKNkRSZkIxa0cyWDAwZm95elVwZEV1QmFQUS0?oc=5",
+      "source": "서울경제TV",
+      "pubDate": "2026-10-12T07:49:19+00:00",
+      "query": "HLB 신약"
+    },
+    {
+      "title": "’리픽투’로 FDA 뚫은 HLB…’리보세라닙’으로 3배 큰 시장까지 넘본다 By EBN - Investing.com 한국어",
+      "link": "https://news.google.com/rss/articles/CBMicEFVX3lxTE0ycmhoekE0bWJKUXBJSXVjY3p3d0hYNVNCWDNNN1N2YlIyYTc3SlNwZ210QnNNeTlHanBULXJDRlNCdjJJNnRBNF8ydU95UUVSdHhvZkNUOV82QTc4eGlfOUlULWd6UFcwOVhZclJxNFQ?oc=5",
+      "source": "Investing.com 한국어",
+      "pubDate": "2026-10-12T06:11:00+00:00",
       "query": "HLB FDA"
     },
     {
+      "title": "HLB제약 7.84% 하락, 1만2100원…본업과 파이프라인 동시 점검 - 잡포스트",
+      "link": "https://news.google.com/rss/articles/CBMickFVX3lxTE1ocW9NRkllU085UHRwR0ltcTRzeFkweC1zVnR6ZHNDZmp5bmhFSGY4TFVRdUhMX3JnbEd3U0dMbFY3TnE0Q2FHOXBlYkl3SC1vZDgyZDB6c0QySl8wdGtaVHVtM2VIN1FUMnNwejdzSVFmd9IBckFVX3lxTE1ocW9NRkllU085UHRwR0ltcTRzeFkweC1zVnR6ZHNDZmp5bmhFSGY4TFVRdUhMX3JnbEd3U0dMbFY3TnE0Q2FHOXBlYkl3SC1vZDgyZDB6c0QySl8wdGtaVHVtM2VIN1FUMnNwejdzSVFmdw?oc=5",
+      "source": "잡포스트",
+      "pubDate": "2026-10-12T05:54:12+00:00",
+      "query": "HLB제약"
+    },
+    {
       "title": "식품진흥원, ‘프레시코’ 기술 지원 대기업 납품 결실 - 식품저널 foodnews",
-      "link": "https://news.google.com/rss/articles/CBMibEFVX3lxTE9UVE9CQW56UlpSNC1DeXBBa0F6WV94c1pPQ3NFUUZyeE5ucDAzdldvMk9MMHR4bk1rQnV6QVRBajJDNlpGTVhJcDc0cHRCNFNJWUdqeHluN2pnMkUyWHVkajY2bkpIWmE5cFo2Tw?oc=5",
+      "link": "https://news.google.com/rss/articles/CBMibkFVX3lxTFBvdkx5OVdQbFlBLV94OHdYMk5mZDQ3ZHNVdkQ5SlJpdUlLaF9MeDBEOGF1ZEhXYllNWndud0FYNGVPNzQySl8tbjBkcUNILURVd3FjaTFsUHRYQ2tfUDQxSGpiN1lmbmhTTkczMWx3?oc=5",
       "source": "식품저널 foodnews",
       "pubDate": "2026-10-12T01:56:59+00:00",
       "query": "프레시코"
-    },
-    {
-      "title": "[대전상장기업지수] 10월 8일 시총 57조 규모…HLB파나진·HLB제넥스·안지오랩 강세 - 금강일보",
-      "link": "https://news.google.com/rss/articles/CBMiakFVX3lxTE1pZDAwSlVPZlhEMG5obW9Mb190VGhLNVJINkJldEZPWUI2eFJQQUlfd1hoTXpFcFAySlJ1RkVMWnFscm41ZzlhUTNXYzVoLWRtUWNQM010bmZ4eWJQeHJ1MXJZV1RBeTNLR2c?oc=5",
-      "source": "금강일보",
-      "pubDate": "2026-10-12T00:41:26+00:00",
-      "query": "HLB파나진"
-    },
-    {
-      "title": "HLB, 간암 신약 FDA 허가 재신청 완료 - FETV",
-      "link": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE5NcmlUemFMTHlwN1h5aElTSVFKSUwxNUVzNXhVNnZQM2tfZlRhOGtYRmdOTTZheG5rYXZabnlURWV5aHlXN3FWVjZiSEhNQkdxeTZFdGF5SFd5WGM2R0xLRFVTYmdDam13?oc=5",
-      "source": "FETV",
-      "pubDate": "2026-10-12T00:06:15+00:00",
-      "query": "HLB 허가"
     },
     {
       "title": "HLB바이오스텝, 바스젠바이오와 AI - 이투데이",
@@ -50,13 +57,6 @@
       "query": "HLB바이오스텝"
     },
     {
-      "title": "HLB제약, 단기과열종목 지정예고…요건 충족 시 3거래일간 단일가매매 - CBC뉴스",
-      "link": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE1GM01JUlVwRHUyeTRzSXlpZVM2YldpNVg1eFRhZUg5WGpZNlhsSnYxUXJ4bW9ZdTcxNm1NVExUdmxla2Z5WDNWUFlYNk01NUpVQ2VBa3NPelEzSHVVYnktc19JeGVqSXVj?oc=5",
-      "source": "CBC뉴스",
-      "pubDate": "2026-10-09T01:09:54+00:00",
-      "query": "HLB제약"
-    },
-    {
       "title": "HLB그룹, 간암신약 美 재도전·임상 발표…연말·연초 성장 시험대 - 전자신문",
       "link": "https://news.google.com/rss/articles/CBMiTkFVX3lxTE5PSFpnSWFwTjlDdzNvMUVZX1JkRVNqQkdxOUFRam1Tc3RWa0pTNkpNQ29WbkxpcGhRWThTVC1BSGpFaElVeXE2WG9JdW5EQQ?oc=5",
       "source": "전자신문",
@@ -69,13 +69,6 @@
       "source": "로이슈",
       "pubDate": "2026-10-08T08:28:05+00:00",
       "query": "현대요트"
-    },
-    {
-      "title": "HLB제넥스 27% 상승…특수효소·반도체 공정 매출 주시 - 잡포스트",
-      "link": "https://news.google.com/rss/articles/CBMickFVX3lxTFBiTFFuWUNUWFNsdjduSlZYZkxlU1RBZFh0Y0V0MnFGTWJmc3JsVUc0QkZuYmw2amo4aEhpRzA4bF9VM0t6YWQxQjBqZ3d1cnZON29xN0QxYjllcGF1Sm1adjNBTGROeWM4UUd6TGZzdFRlQdIBckFVX3lxTFBiTFFuWUNUWFNsdjduSlZYZkxlU1RBZFh0Y0V0MnFGTWJmc3JsVUc0QkZuYmw2amo4aEhpRzA4bF9VM0t6YWQxQjBqZ3d1cnZON29xN0QxYjllcGF1Sm1adjNBTGROeWM4UUd6TGZzdFRlQQ?oc=5",
-      "source": "잡포스트",
-      "pubDate": "2026-10-08T06:03:23+00:00",
-      "query": "HLB제넥스"
     },
     {
       "title": "HLB파나진, PNA 기반 신약 개발 기대에 급등 - 한국경제",
@@ -113,6 +106,6 @@
       "query": "HLB생명과학"
     }
   ],
-  "fetchedAt": "2026-10-12T05:48:47.581231+00:00",
-  "count": 16
+  "fetchedAt": "2026-10-12T15:13:55.852429+00:00",
+  "count": 15
 }
