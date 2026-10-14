@@ -1,11 +1,25 @@
 {
   "news": [
     {
-      "title": "HLB파나진, 덴버 학회서 AOC 플랫폼 핵심기술 공개 - 뉴스핌",
-      "link": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE9FZ1UxT0dwZlZEUC1UQkY4SFNhUUpyYUlQTkFuMldzQlpXYTdQNG1Ta29iX1BYMW9yVFY3b1ZKTWhmX1hYUTNoZFhVelZudE5Dc0ZmY1lRX0FlcEwt?oc=5",
-      "source": "뉴스핌",
-      "pubDate": "2026-10-14T06:11:00+00:00",
+      "title": "HLB 간암藥, 허가 불발에 경쟁구도 변화···美시장 입지 부담 - 시사저널e",
+      "link": "https://news.google.com/rss/articles/CBMidkFVX3lxTFBpb2hqWGIwd1J0RVVEX3cyY01WNGRyYm9tLXltenJlaFRzUjhPYllBWHhPSEtMUXNmWHlOckdEbzBYTnBoLU5sS1RqTXd2cENuVFM5SWtSRjhabF9ubF9FYlZFOXFGd1B4ZEZBY1NxSmdnUVg0TVHSAXZBVV95cUxQaW9oalhiMHdSdEVVRF93MmNNVjRkcmJvbS15bXpyZWhUc1I4T2JZQVh4T0hLTFFzZlh5TnJHRG8wWE5waC1ObEtUak13dnBDblRTOUlrUkY4WmxfbmxfRWJWRTlxRndQeGRGQWNTcUpnZ1FYNE1R?oc=5",
+      "source": "시사저널e",
+      "pubDate": "2026-10-14T09:47:33+00:00",
+      "query": "HLB 허가"
+    },
+    {
+      "title": "HLB파나진, 국제학회서 AOC 핵심 PNA 기술 공개 - 데일리팜",
+      "link": "https://news.google.com/rss/articles/CBMiVkFVX3lxTFBhSWRjVU9mc3RJVGhfYjhSbVJnaEEydG9vRVVIOEFhLXlFa0VSUGNOUk16M195MWNJSXJuVDd2WVplbGM1bVNmSVl3aGVUOEh4RDYycmVB?oc=5",
+      "source": "데일리팜",
+      "pubDate": "2026-10-14T06:35:14+00:00",
       "query": "HLB파나진"
+    },
+    {
+      "title": "HLB테라퓨틱스 3상 결과 앞둔 NK 시장…최대 1.1억달러 기술거래 - 메디코파마",
+      "link": "https://news.google.com/rss/articles/CBMickFVX3lxTE5qV3kxRjZMZm9qYmtoTVM0QlNVaFQ5S2F2UmVfbTFSU0ZjOE5vV0JaRDlub25najEwTVJIdjFZaFlPeGozcjc2czNkc0w5VjAyYW02SFZ4VWcySWhneWI3SXNJS1hKd0VEeTRna0wtVzNwZw?oc=5",
+      "source": "메디코파마",
+      "pubDate": "2026-10-14T04:53:51+00:00",
+      "query": "HLB 신약"
     },
     {
       "title": "HLB바이오스텝, AI 기반 비임상 CRO…국책과제 참여 - 데일리팜",
@@ -26,14 +40,7 @@
       "link": "https://news.google.com/rss/articles/CBMib0FVX3lxTFA1SURLa1M5VVViQTVTZkxmLUMxb2FpVnVwMFA0ZHQ4Y0lPU0ZLY1VUZUVFa0lEd3lsb0VRcFl6M1c4cFRfYTgwN0pHMGhVMkNncUVmTE1EUG5rMXNadVZMaEZ3emljMFVIN0hDZ29qaw?oc=5",
       "source": "이코노미사이언스",
       "pubDate": "2026-10-14T01:23:06+00:00",
-      "query": "HLB 신약"
-    },
-    {
-      "title": "HLB파나진, 'OTS 2026'서 'PNA 페이로드 최적화' 연구 성과 공개 - 아시아경제",
-      "link": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE5vYU91UUJfVFp2RGg4em14UVUteWhHTl9UNFhfWVEyLUs1V0NjUHBuRkx1elFsVDhHZVVHTTh6ZkFySXJWYTk2MUxRSklmYWVYT2pYaXYwWXNMa1lidlRzQQ?oc=5",
-      "source": "아시아경제",
-      "pubDate": "2026-10-14T00:49:42+00:00",
-      "query": "HLB파나진"
+      "query": "HLB 허가"
     },
     {
       "title": "HLB Wins FDA Approval for Riptivo, but Real Test Is Another Bid for Liver Cancer Drug - 뉴스1",
@@ -50,8 +57,15 @@
       "query": "HLB생명과학"
     },
     {
+      "title": "’리픽투’로 FDA 뚫은 HLB…’리보세라닙’으로 3배 큰 시장까지 넘본다 By EBN - Investing.com 한국어",
+      "link": "https://news.google.com/rss/articles/CBMicEFVX3lxTE0ycmhoekE0bWJKUXBJSXVjY3p3d0hYNVNCWDNNN1N2YlIyYTc3SlNwZ210QnNNeTlHanBULXJDRlNCdjJJNnRBNF8ydU95UUVSdHhvZkNUOV82QTc4eGlfOUlULWd6UFcwOVhZclJxNFQ?oc=5",
+      "source": "Investing.com 한국어",
+      "pubDate": "2026-10-12T06:11:00+00:00",
+      "query": "HLB FDA"
+    },
+    {
       "title": "HLB제약 7.84% 하락, 1만2100원…본업과 파이프라인 동시 점검 - 잡포스트",
-      "link": "https://news.google.com/rss/articles/CBMickFVX3lxTE1ocW9NRkllU085UHRwR0ltcTRzeFkweC1zVnR6ZHNDZmp5bmhFSGY4TFVRdUhMX3JnbEd3U0dMbFY3TnE0Q2FHOXBlYkl3SC1vZDgyZDB6c0QySl8wdGtaVHVtM2VIN1FUMnNwejdzSVFmd9IBckFVX3lxTE1ocW9NRkllU085UHRwR0ltcTRzeFkweC1zVnR6ZHNDZmp5bmhFSGY4TFVRdUhMX3JnbEd3U0dMbFY3TnE0Q2FHOXBlYkl3SC1vZDgyZDB6c0QySl8wdGtaVHVtM2VIN1FUMnNwejdzSVFmdw?oc=5",
+      "link": "https://news.google.com/rss/articles/CBMibkFVX3lxTFBySl9HRTV2aGw0XzJ6cUxlMDE5MG5pNUROQUdMN0E2RUZEcFJYM0RScUE4QndZR0hBOXhYV1U1R2RtMVl5dmYzSVFiLVZsbExjVDBRaDcxSU1xSG4yczFTSWFiSHUyelFkMlNEQXdn0gFyQVVfeXFMTWhxb01GSWVTTzlQdHBHSW1xNHN4WTB4LXNWdHpkc0NmanluaEVIZjhMVVF1SExfcmdsR3dTR0xsVjdOcTRDYUc5cGViSXdILW9kODJkMHpzRDJKXzB0a1pUdW0zZUg3UVQyc3B6N3NJUWZ3?oc=5",
       "source": "잡포스트",
       "pubDate": "2026-10-12T05:54:12+00:00",
       "query": "HLB제약"
@@ -62,13 +76,6 @@
       "source": "식품저널 foodnews",
       "pubDate": "2026-10-12T01:56:59+00:00",
       "query": "프레시코"
-    },
-    {
-      "title": "HLB, '리보세라닙' 간암 1차 \"FDA 허가 재신청\" - 바이오스펙테이터",
-      "link": "https://news.google.com/rss/articles/CBMiV0FVX3lxTE1ObC1QNEIwTWRJVnZ4S2lHRG9KYl9nc2RRd3otamowU0Jid3JEdVE0Yk1GSGZSNmxOdDBZSUhKb0RDc2dPUmJJMmNjQ1BneEZHZ2g0ZVNVTQ?oc=5",
-      "source": "바이오스펙테이터",
-      "pubDate": "2026-10-11T23:49:00+00:00",
-      "query": "HLB 허가"
     },
     {
       "title": "HLB펩, 스킨케어 브랜드 '랩센' 루마니아 수출 - FETV",
@@ -85,6 +92,6 @@
       "query": "현대요트"
     }
   ],
-  "fetchedAt": "2026-10-14T07:31:09.138067+00:00",
-  "count": 12
+  "fetchedAt": "2026-10-14T13:06:38.976742+00:00",
+  "count": 13
 }
