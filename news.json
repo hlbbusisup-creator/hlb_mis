@@ -1,10 +1,17 @@
 {
   "news": [
     {
-      "title": "HLB 바이오스텝, AI-NAMs 국책과제 참여...AI 비임상 CRO 사업화 속도 - 팍스경제TV",
-      "link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE9EdTdYakozTEVZWWNES25ZYlJvNC1iWkN4c05qSURkU2JVSnZtVTM1Rk1Zd096dmRELUhlYk1SMkZKUHM2X1VlVTdDTWhXMUF5MWpwQzBJOHZMcEROWmJZVVpsNDhCQTA?oc=5",
-      "source": "팍스경제TV",
-      "pubDate": "2026-10-13T14:49:50+00:00",
+      "title": "HLB파나진, 美 OTS서 PNA 최적화 연구 발표…AOC 치료제 개발에 활용 - 메디컬투데이",
+      "link": "https://news.google.com/rss/articles/CBMibEFVX3lxTE5IV1lyNHVFLU5BRkZIa2pSSmxpRjVhU2N1c0JLcndoNlZ2OVlaMHZLRUNMQlpOcUo3aXRrS1E1SjIzZXBwQWFzMEVHLUQ2VGM5ak5GYlBQU3hKb1hxZTFBR3BaLTIxQ2pHOVFwaQ?oc=5",
+      "source": "메디컬투데이",
+      "pubDate": "2026-10-14T01:11:21+00:00",
+      "query": "HLB파나진"
+    },
+    {
+      "title": "HLB바이오스텝, AI-NAMs 국책과제 참여…디지털 비임상 CRO 사업화 추진 - MEDI:GATE NEWS",
+      "link": "https://news.google.com/rss/articles/CBMiV0FVX3lxTFBkbkduSXlGdEYxYnFTWEVIc3h6YTJCMHRsaDkyaE9KeUhVNk5RZHFUV0U5eGNCNDFfZWhMYWNHRVFDajZmTDV1VDlFY01YdnlDRTBKcnBUWQ?oc=5",
+      "source": "MEDI:GATE NEWS",
+      "pubDate": "2026-10-13T22:30:00+00:00",
       "query": "HLB 임상"
     },
     {
@@ -85,6 +92,6 @@
       "query": "HLB파나진"
     }
   ],
-  "fetchedAt": "2026-10-13T23:00:06.865808+00:00",
-  "count": 12
+  "fetchedAt": "2026-10-14T01:50:46.969694+00:00",
+  "count": 13
 }
