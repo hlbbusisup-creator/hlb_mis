@@ -26,7 +26,7 @@
       "link": "https://news.google.com/rss/articles/CBMiV0FVX3lxTE4xY0lzV2p6Ykd5emhVWFh5ODcyRGRCV2ktcTduZ2ltME1qM1RqN1g1LWNSNzVaMllReHJZQTI2eGxQMlIzR1NJYWpXUnpaR0FUYjY5NmY1TQ?oc=5",
       "source": "바이오스펙테이터",
       "pubDate": "2026-10-15T23:23:00+00:00",
-      "query": "HLB 신약"
+      "query": "HLB 허가"
     },
     {
       "title": "[HLB 리픽투 승부수③] 고형암으로 확장…美 환자 최대 3.5만명 - 메디코파마",
@@ -51,7 +51,7 @@
     },
     {
       "title": "김태한 HLB 회장 \"리보세라닙 생산시설 이슈 해소… FDA 통과 확신\" - 머니투데이 - 머니투데이",
-      "link": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE83dDhZWTBRYnpoM3Z0aVpMdy1XQnZYVVFxdFhKRDVZODJKem1QUy1TekhHYUNxdVZTWEZkRXdFTko4ZnN2Qzc5eXdqbzJSRGRDVjJzNDdXU0h1bDJONlZBOXJ6bV9TbTNu0gFuQVVfeXFMUHlqOGR2aUVpRlNCODZxMnVRYmRCVDRvajlVVHJMWlhVcUlhLTVPd3dKUmZDNkdnLVRoMTJjMS1nNWd3aFBzVXB6ZkJYSHN3eWw4cXNENjFLblZIZFEwNDZoWUdYQXVzMWhxeTJRalE?oc=5",
+      "link": "https://news.google.com/rss/articles/CBMidkFVX3lxTE5FLTE1UVlFdjJhYTFfb1V2VFBoeEt2M3A1XzJEb2lDN2tJaDdmUXdKa2JBSzVKSDFUU3hBT05mX2dJZzdkNTRwOUNHYWZETkk5YXpFMXNEbUNzdmpWX3MwUVZteUd1dmlMY1dZeUJQTTkwRGFKS3fSAXtBVV95cUxNdzRLamN4aDY3VGthU1lGOE5GU2N6Q0Nfb3YwRWdKcU54VjRsSTZZTnNBb0hZbVgtOFhyN3VsOWcwQmd0ZGdWSGpPeWVLc0d6c0VVVGUwUE9aQUd1MzVPOElaeGZtR29vQk02Nk1rRF8tWkNlWU02RUswQzQ?oc=5",
       "source": "머니투데이",
       "pubDate": "2026-10-15T08:53:30+00:00",
       "query": "HLB FDA"
@@ -99,13 +99,6 @@
       "query": "HLB 허가"
     },
     {
-      "title": "HLB파나진, 덴버 학회서 AOC 플랫폼 핵심기술 공개 - 뉴스핌",
-      "link": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE9FZ1UxT0dwZlZEUC1UQkY4SFNhUUpyYUlQTkFuMldzQlpXYTdQNG1Ta29iX1BYMW9yVFY3b1ZKTWhmX1hYUTNoZFhVelZudE5Dc0ZmY1lRX0FlcEwt?oc=5",
-      "source": "뉴스핌",
-      "pubDate": "2026-10-14T06:11:00+00:00",
-      "query": "HLB파나진"
-    },
-    {
       "title": "HLB테라퓨틱스 3상 결과 앞둔 NK 시장…최대 1.1억달러 기술거래 - 메디코파마",
       "link": "https://news.google.com/rss/articles/CBMickFVX3lxTE5qV3kxRjZMZm9qYmtoTVM0QlNVaFQ5S2F2UmVfbTFSU0ZjOE5vV0JaRDlub25najEwTVJIdjFZaFlPeGozcjc2czNkc0w5VjAyYW02SFZ4VWcySWhneWI3SXNJS1hKd0VEeTRna0wtVzNwZw?oc=5",
       "source": "메디코파마",
@@ -141,6 +134,6 @@
       "query": "프레시코"
     }
   ],
-  "fetchedAt": "2026-10-17T15:58:13.742142+00:00",
-  "count": 20
+  "fetchedAt": "2026-10-17T18:26:08.912960+00:00",
+  "count": 19
 }
