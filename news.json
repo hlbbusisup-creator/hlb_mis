@@ -1,18 +1,11 @@
 {
   "news": [
     {
-      "title": "HLB이노베이션 베리스모, SITC서 CAR-T 전임상 발표 - 메디포뉴스",
-      "link": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE9pcHlJUXNVb2dBLTdBVzVxR0ExYThfWlNLX1pTMHhwdnpoeDFJLXprb0twTVFUS1JTWUgzd1p4c3YtVVpZRVRULTFwWHkxRHAzUF9pQXJFUS1ld19NakdXbTE5d2Q?oc=5",
-      "source": "메디포뉴스",
-      "pubDate": "2026-10-16T11:46:32+00:00",
+      "title": "HLB이노베이션 자회사 베리스모, SITC서 차세대 CAR-T 고형암 연구 결과 발표 - 더퍼스트미디어",
+      "link": "https://news.google.com/rss/articles/CBMidEFVX3lxTE03dzI4ZUx6LXFmUG5QZGVodmJIcXM2a2lhWElzQUFOTXJJSW9aSllYZWRnZlhHNEVDWUlVNEFCS3RtYVlDb2Z1M1c3aHYwTV80bkstZUpwbjlhTmhtYnRuZmlBY1pGc1FjbE9kRUdUcEZ0NGlt0gF0QVVfeXFMTTd3MjhlTHotcWZQblBkZWh2YkhxczZraWFYSXNBQU5NcklJb1pKWVhlZGdmWEc0RUNZSVU0QUJLdG1hWUNvZnUzVzdodjBNXzRuSy1lSnBuOWFOaG1idG5maUFjWkZzUWNsT2RFR1RwRnQ0aW0?oc=5",
+      "source": "더퍼스트미디어",
+      "pubDate": "2026-10-17T09:15:42+00:00",
       "query": "HLB이노베이션"
-    },
-    {
-      "title": "반도체 생산 늘며 수처리 부각…HLB제넥스, 공정용 효소 수요 확대 기대 - 뉴스핌",
-      "link": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE1ONW12M3M2T1BRcEdPSjl3RmxaS2xfN19zRzNNTy1zMDQ5UFpZQmViQVNFdUF0RmhrSFZMOXI4b3ZRNVJ3V1dTV0FMaGNETUJ2U3lEcUU2TWtuLTVx?oc=5",
-      "source": "뉴스핌",
-      "pubDate": "2026-10-16T05:17:00+00:00",
-      "query": "HLB제넥스"
     },
     {
       "title": "HLB, 간암 신약 연내 FDA 승인 도전…항암 신약 2종 확보 추진 By EBN - Investing.com 한국어",
@@ -78,10 +71,10 @@
       "query": "HLB펩"
     },
     {
-      "title": "진양곤 HLB 의장, 개인 법인 '에포케' 통해 HLB제넥스 20만주 장내 매수 - 약사공론",
-      "link": "https://news.google.com/rss/articles/CBMibEFVX3lxTE85T3Nnc3licVpPVmtKdUx1aENuVF9na0lxTWlzX0RnNG9BY0lydm1BSzlNbUxaNklmaWJyYkdoemU4WUZwaWhrUE5MWW0xcVlraTNLZXJ6UXFfV0pJcmRFSUt1RTdMeE5aNDU4VQ?oc=5",
-      "source": "약사공론",
-      "pubDate": "2026-10-15T04:32:36+00:00",
+      "title": "HLB그룹, 진양곤 의장 HLB제넥스 지분 매수 - 아시아경제",
+      "link": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE1UV0lOSTNKbDRNcXRodkVqNlZCZ2xXODVQeWliRHliVzJyMjhFU3hBWDZJcDMzZGd5bXE5WDZ3Y09KZU5TT0ppc2tDc2lxaUd4V3lpS1BiejZPLVZLZ2hoSA?oc=5",
+      "source": "아시아경제",
+      "pubDate": "2026-10-15T06:21:47+00:00",
       "query": "HLB제넥스"
     },
     {
@@ -139,8 +132,15 @@
       "source": "히트뉴스",
       "pubDate": "2026-10-12T21:01:00+00:00",
       "query": "HLB생명과학"
+    },
+    {
+      "title": "식품진흥원, ‘프레시코’ 기술 지원 대기업 납품 결실 - 식품저널 foodnews",
+      "link": "https://news.google.com/rss/articles/CBMibkFVX3lxTFBvdkx5OVdQbFlBLV94OHdYMk5mZDQ3ZHNVdkQ5SlJpdUlLaF9MeDBEOGF1ZEhXYllNWndud0FYNGVPNzQySl8tbjBkcUNILURVd3FjaTFsUHRYQ2tfUDQxSGpiN1lmbmhTTkczMWx3?oc=5",
+      "source": "식품저널 foodnews",
+      "pubDate": "2026-10-12T01:56:59+00:00",
+      "query": "프레시코"
     }
   ],
-  "fetchedAt": "2026-10-17T12:28:19.827456+00:00",
+  "fetchedAt": "2026-10-17T15:58:13.742142+00:00",
   "count": 20
 }
