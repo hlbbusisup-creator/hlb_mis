@@ -57,11 +57,11 @@
       "query": "HLB생명과학"
     },
     {
-      "title": "HLB그룹, FDA 후속 신약·신사업 성장 전략 공개 - 데일리팜",
-      "link": "https://news.google.com/rss/articles/CBMiVkFVX3lxTFA2STRzcFJSb2VBd3p4dHNNTjNiMU9HM3Z2S0tIZEFHUVA1NEdXUDJma2xfMHh1a3FfQ21ZZTl3ZFhHNHk3Z0R2a1lLeWxyQzVKdlV3Zmhn?oc=5",
-      "source": "데일리팜",
-      "pubDate": "2026-10-15T09:00:24+00:00",
-      "query": "HLB FDA"
+      "title": "HLB 신약 리픽투 美약가 경쟁사 대비 20% 프리미엄 기대 [현장+] - Daum",
+      "link": "https://news.google.com/rss/articles/CBMiRkFVX3lxTE5mZVBwTjFZeVVzTHliRlRrNVQyb25JMU5EbVk1UEN3alpQLWZKS0JEVVJvYVdEWGVBanNzVk9FOGpDeHllRVE?oc=5",
+      "source": "Daum",
+      "pubDate": "2026-10-15T09:39:11+00:00",
+      "query": "HLB 임상"
     },
     {
       "title": "진양곤 HLB 의장 “리보세라닙 FDA 허가 여부, 이르면 연내 결정” - 한국경제",
@@ -113,18 +113,18 @@
       "query": "HLB테라퓨틱스"
     },
     {
-      "title": "HLB 바이오스텝, AI-NAMs 국책과제 참여...AI 비임상 CRO 사업화 속도 - 팍스경제TV",
-      "link": "https://news.google.com/rss/articles/CBMiaEFVX3lxTFA4N3BvWDIxcDhjS1FQaDZkQk14Q2sxQmRHb2NDQUxaME0yVUpMX0VqcHd5WmRPWlQ4NHNJbGhaWUt6RGZ5SGtWbnZUVl9pZ0tFT2ZMOW55VXdUS1U4alJIZE1BLXZoYlJV?oc=5",
-      "source": "팍스경제TV",
-      "pubDate": "2026-10-13T14:49:50+00:00",
-      "query": "HLB 임상"
-    },
-    {
       "title": "식품진흥원 기술지원 받은 프레시코, 대기업 공급망 진입 - 한국농업신문",
       "link": "https://news.google.com/rss/articles/CBMibEFVX3lxTE05ajZkZTdHM1JiU1dmTjBGOVNnQTh1QVRfRm83YTRxWTdqclpDZmhCOFk2TVpOY1pYVDhDWE9GekU4UVNNdFNpMWNEbTdKTFY4bTdLUU9UdGxSTUpBSzU0aEQxeUtPcUZqLTkzV9IBcEFVX3lxTE55V0IwMkVRckV2Z1NleFRCeE9vckJfYzl0djhEQTFacnl4MWtfNjFLN05HeDJzTmdMZXVSeHlLXzNiLTZ5V3loWlhkZlF1OTFLLUNkT2FiQWNEVzdTY0FrZXpRRUJ2b1FLNzNEYkZhb0E?oc=5",
       "source": "한국농업신문",
       "pubDate": "2026-10-13T14:40:24+00:00",
       "query": "프레시코"
+    },
+    {
+      "title": "HLB바이오스텝, 50억원 규모 AI 비임상 국책과제 참여 - 뉴스1",
+      "link": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE9OZ19sNTJ1SGRySlBsNEUzZENMbVdqdEtuaUgteDBwdk50cmVmMFZRRkdaYm00UnBZbUFiMTlvOGZOMDFady1YbmlReFUyNHhSREtIZmNNb1hkYVgzS3p2Yg?oc=5",
+      "source": "뉴스1",
+      "pubDate": "2026-10-13T07:58:23+00:00",
+      "query": "HLB바이오스텝"
     },
     {
       "title": "[경력채용] 부광약품, 한국팜비오, HLB생명과학, 큐로셀, 신텍스제약 - 히트뉴스",
@@ -141,6 +141,6 @@
       "query": "프레시코"
     }
   ],
-  "fetchedAt": "2026-10-18T19:42:11.534566+00:00",
+  "fetchedAt": "2026-10-18T21:55:59.735906+00:00",
   "count": 20
 }
