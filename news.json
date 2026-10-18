@@ -5,7 +5,7 @@
       "link": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE96U1hPcU4wb0UxWVFXTnFvdnRYUzhZeTFuVnVjcFh1TmxfZW9xeFhxaVpfOGM3cUdfcXRBdXo3SHB0ZFIzQ2dWdXpzVDY1Y3ZLZ2N4TkZGSEJiZW9ZZDVRTzV0eGZ6TTRn?oc=5",
       "source": "CBC뉴스",
       "pubDate": "2026-10-18T01:05:00+00:00",
-      "query": "HLB 신약"
+      "query": "HLB 임상"
     },
     {
       "title": "HLB이노베이션 베리스모, SITC서 CAR-T 전임상 발표 - 메디포뉴스",
@@ -33,7 +33,7 @@
       "link": "https://news.google.com/rss/articles/CBMiV0FVX3lxTE4xY0lzV2p6Ykd5emhVWFh5ODcyRGRCV2ktcTduZ2ltME1qM1RqN1g1LWNSNzVaMllReHJZQTI2eGxQMlIzR1NJYWpXUnpaR0FUYjY5NmY1TQ?oc=5",
       "source": "바이오스펙테이터",
       "pubDate": "2026-10-15T23:23:00+00:00",
-      "query": "HLB 허가"
+      "query": "HLB 신약"
     },
     {
       "title": "[HLB 리픽투 승부수③] 고형암으로 확장…美 환자 최대 3.5만명 - 메디코파마",
@@ -113,10 +113,10 @@
       "query": "HLB테라퓨틱스"
     },
     {
-      "title": "HLB바이오스텝, AI 기반 비임상 CRO…국책과제 참여 - 데일리팜",
-      "link": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE9OVTQ4WmJiVkhFT0thSFAzbDJYQnBfZjhMN25MMXV1TUJKbFRRSTFVSnlZZEJLTEdwMHowTnk0Vm5iTmlJTlRaT0JEQ2p6STRfUVlSTnFR?oc=5",
-      "source": "데일리팜",
-      "pubDate": "2026-10-14T04:45:13+00:00",
+      "title": "HLB 바이오스텝, AI-NAMs 국책과제 참여...AI 비임상 CRO 사업화 속도 - 팍스경제TV",
+      "link": "https://news.google.com/rss/articles/CBMiaEFVX3lxTFA4N3BvWDIxcDhjS1FQaDZkQk14Q2sxQmRHb2NDQUxaME0yVUpMX0VqcHd5WmRPWlQ4NHNJbGhaWUt6RGZ5SGtWbnZUVl9pZ0tFT2ZMOW55VXdUS1U4alJIZE1BLXZoYlJV?oc=5",
+      "source": "팍스경제TV",
+      "pubDate": "2026-10-13T14:49:50+00:00",
       "query": "HLB 임상"
     },
     {
@@ -141,6 +141,6 @@
       "query": "프레시코"
     }
   ],
-  "fetchedAt": "2026-10-18T14:32:03.664827+00:00",
+  "fetchedAt": "2026-10-18T17:34:31.886135+00:00",
   "count": 20
 }
