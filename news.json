@@ -22,13 +22,6 @@
       "query": "HLB 임상"
     },
     {
-      "title": "[속보] HLB 그룹주, 코스피·코스닥 동반 하락에도 일제히 상승세…HLB바이오스텝 12%대 급등 - CBC뉴스",
-      "link": "https://news.google.com/rss/articles/CBMiaEFVX3lxTFB6MzcyOHc5WnpmWkVFOTVYc1FYQ2FXdGtCemY3SFJvWUJrWUtsRXJDM3F0bnM5Uy00UnhCNGYyNWdFZGdHYS1RMW5LUURqVWZ1Qko5NFNKTVMzbEtmQ09zSUcyS2ZPdWl1?oc=5",
-      "source": "CBC뉴스",
-      "pubDate": "2026-10-19T00:30:30+00:00",
-      "query": "HLB바이오스텝"
-    },
-    {
       "title": "HLB ‘리픽투’, FDA 가속 아닌 “정식승인 가능했던” 까닭 - 바이오스펙테이터",
       "link": "https://news.google.com/rss/articles/CBMiV0FVX3lxTFBNZVJpZFc3eGR4cXNMNHV6MkVuSDhZeFZ1WXVyaHdUbmVlSWtIOVJVWmNHV01mbVBrbjJpN0hlckNOSFF0VmV6ek1yRS1qdzVhX2VUZ21QVQ?oc=5",
       "source": "바이오스펙테이터",
@@ -85,13 +78,6 @@
       "query": "HLB생명과학"
     },
     {
-      "title": "에포케, HLB제넥스 주식 20만7897주 매수 - 메디포뉴스",
-      "link": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE1DbWNCbGxMTEVtMHBVTWZMUG5Wa0dUOHJhTTRFcUJBenhURy1EWVRvZGh4LTZSOW1tRTBlMnlJYXk5M1FuUVdxNkRpSGRvUmw1T2l4SnhaMnktbURCTlg1UVVxeDk?oc=5",
-      "source": "메디포뉴스",
-      "pubDate": "2026-10-15T12:44:08+00:00",
-      "query": "HLB제넥스"
-    },
-    {
       "title": "진양곤 HLB 의장 “리보세라닙 FDA 허가 여부, 이르면 연내 결정” - 한국경제",
       "link": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE5palFFMjR2VTJUWnJrdGI0d2tacU5WNVlwb3lfaDBjNGlya2R3ZWdNc2JNNTVac215dnBnTVNWa2tSWjVpMlRSalJJdk82d2sybWNLYkZKUUxHQQ?oc=5",
       "source": "한국경제",
@@ -104,6 +90,13 @@
       "source": "메디코파마",
       "pubDate": "2026-10-15T06:45:54+00:00",
       "query": "HLB펩"
+    },
+    {
+      "title": "진양곤 의장, HLB제넥스 주식 또 샀다…개인 명의로 계열사株 62차례 매수 - 조선비즈 - Chosunbiz",
+      "link": "https://news.google.com/rss/articles/CBMihwFBVV95cUxOa1Z4NDU3a2xTYkRuNjFXT2hXUnFjM1lsc3hqZTJFX1R6d1M2YUtXVlJoTC1yMFFBVW5YNGVDTW5seXlRd0w3dHh4c0tKLUltdEdhQXZhdnNUV2VHejZvdXhnY0J6djdzOVRERWZWWThSY3pMb1dSdlZJUU81RFdfcWdFZkdLOU3SAZsBQVVfeXFMT0hYX0twZzEzdFRfcVNoVWw5WFRzdU9xQ1hjc0piRDlzV0pSR05oNGE4OUVBUmlzSzRlU3dTUHhvVHdJdU52RDFPMml2UVgybldfQWkyVTk4em02V0lQRU9RdS1LMUYwbm9tbmdUUWtWN2RzYXBfQndXR0hPR0F3bmN5blBtZlh3Yk5NZ3BGTWZZR3AwZ3ZKdEwzNEk?oc=5",
+      "source": "Chosunbiz",
+      "pubDate": "2026-10-15T02:54:00+00:00",
+      "query": "HLB제넥스"
     },
     {
       "title": "HLB테라퓨틱스, 안과 신약 톱라인 눈앞…‘신약 3호’ 오나 - PRESS9",
@@ -141,6 +134,6 @@
       "query": "프레시코"
     }
   ],
-  "fetchedAt": "2026-10-19T17:12:19.926815+00:00",
-  "count": 20
+  "fetchedAt": "2026-10-19T21:39:32.536311+00:00",
+  "count": 19
 }
