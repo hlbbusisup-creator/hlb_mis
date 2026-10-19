@@ -1,11 +1,25 @@
 {
   "news": [
     {
+      "title": "HLB, ‘리픽투 프리미엄’ 예고…환자 쟁탈전 자신감 - PRESS9",
+      "link": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE1vcms4SGxOSWpUYXBaVVItYV9CekxXeml0VXBLMjhLMDhtQkFtX0JVVUFfZjN2ak1ZT3FlN3hBZXF0QnFpbWpjNHp2cXlLYTgtb3hFQTA1eldlclRjRENmMWp0OWk?oc=5",
+      "source": "PRESS9",
+      "pubDate": "2026-10-19T02:00:00+00:00",
+      "query": "HLB 임상"
+    },
+    {
+      "title": "[속보] HLB 그룹주, 코스피·코스닥 동반 하락에도 일제히 상승세…HLB바이오스텝 12%대 급등 - CBC뉴스",
+      "link": "https://news.google.com/rss/articles/CBMiaEFVX3lxTFB6MzcyOHc5WnpmWkVFOTVYc1FYQ2FXdGtCemY3SFJvWUJrWUtsRXJDM3F0bnM5Uy00UnhCNGYyNWdFZGdHYS1RMW5LUURqVWZ1Qko5NFNKTVMzbEtmQ09zSUcyS2ZPdWl1?oc=5",
+      "source": "CBC뉴스",
+      "pubDate": "2026-10-19T00:30:30+00:00",
+      "query": "HLB바이오스텝"
+    },
+    {
       "title": "HLB ‘리픽투’, FDA 가속 아닌 “정식승인 가능했던” 까닭 - 바이오스펙테이터",
       "link": "https://news.google.com/rss/articles/CBMiV0FVX3lxTFBNZVJpZFc3eGR4cXNMNHV6MkVuSDhZeFZ1WXVyaHdUbmVlSWtIOVJVWmNHV01mbVBrbjJpN0hlckNOSFF0VmV6ek1yRS1qdzVhX2VUZ21QVQ?oc=5",
       "source": "바이오스펙테이터",
       "pubDate": "2026-10-18T22:39:00+00:00",
-      "query": "HLB FDA"
+      "query": "HLB 임상"
     },
     {
       "title": "HLB이노베이션 베리스모, SITC서 CAR-T 전임상 발표 - 메디포뉴스",
@@ -36,13 +50,6 @@
       "query": "HLB 신약"
     },
     {
-      "title": "[HLB 리픽투 승부수③] 고형암으로 확장…美 환자 최대 3.5만명 - 메디코파마",
-      "link": "https://news.google.com/rss/articles/CBMickFVX3lxTE4xV3ZyU2JnaUhEWlpuelhMdWQ3SnR0NDdMRVc5V1BTakpOVnhjRG9iTU9jaHNHeGpKdUZ6eHlieldNYmoyMWVJTkxidlo1OXBwQ3dOUUtRSms2VzlEd2gtV3FGdFhEQ01ETUMyZ01IV1JZdw?oc=5",
-      "source": "메디코파마",
-      "pubDate": "2026-10-15T23:00:00+00:00",
-      "query": "HLB 임상"
-    },
-    {
       "title": "HLB제넥스, 반도체용 효소 판가 인상 확정…미국 공급가 국내 웃돌아 - 메디코파마",
       "link": "https://news.google.com/rss/articles/CBMickFVX3lxTE5ybHpzclktdzlCWTFxNW1CVFVFN3ZPVThLNDJUMThvd2JmMVByVVpiNnp5RXJUSW1WLWJsbjVtWVpvZHBadGZiOS1wb3VHeFU1SWZWM3cwZ1FqeUlzeGZoTENRbkhKMElDUzVaQV9SU2xfZw?oc=5",
       "source": "메디코파마",
@@ -57,18 +64,18 @@
       "query": "HLB생명과학"
     },
     {
+      "title": "에포케, HLB제넥스 주식 20만7897주 매수 - 메디포뉴스",
+      "link": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE1DbWNCbGxMTEVtMHBVTWZMUG5Wa0dUOHJhTTRFcUJBenhURy1EWVRvZGh4LTZSOW1tRTBlMnlJYXk5M1FuUVdxNkRpSGRvUmw1T2l4SnhaMnktbURCTlg1UVVxeDk?oc=5",
+      "source": "메디포뉴스",
+      "pubDate": "2026-10-15T12:44:08+00:00",
+      "query": "HLB제넥스"
+    },
+    {
       "title": "HLB펩, 위고비·마운자로 성분 원료시장 진입 추진…2028년 공급 목표 - 메디코파마",
       "link": "https://news.google.com/rss/articles/CBMickFVX3lxTE5OTWh1c3lLYm1waTRmSlF5a2Z6aFpmeEUxNmt2bVAtbnFaRnJpMUVqcS1JalBNQ3FlTVdVTGxTWTJhNFAzeWRrQ0diM2dyRkR6dU4zT3RsYnMtRThLMGd0THJRQVdpM3h4LWFzMjNYbDFPQQ?oc=5",
       "source": "메디코파마",
       "pubDate": "2026-10-15T06:45:54+00:00",
       "query": "HLB펩"
-    },
-    {
-      "title": "HLB그룹, 진양곤 의장 HLB제넥스 지분 매수 - 아시아경제",
-      "link": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE1UV0lOSTNKbDRNcXRodkVqNlZCZ2xXODVQeWliRHliVzJyMjhFU3hBWDZJcDMzZGd5bXE5WDZ3Y09KZU5TT0ppc2tDc2lxaUd4V3lpS1BiejZPLVZLZ2hoSA?oc=5",
-      "source": "아시아경제",
-      "pubDate": "2026-10-15T06:21:47+00:00",
-      "query": "HLB제넥스"
     },
     {
       "title": "HLB테라퓨틱스, 안과 신약 톱라인 눈앞…‘신약 3호’ 오나 - PRESS9",
@@ -99,18 +106,25 @@
       "query": "HLB테라퓨틱스"
     },
     {
-      "title": "HLB 바이오스텝, AI-NAMs 국책과제 참여...AI 비임상 CRO 사업화 속도 - 팍스경제TV",
-      "link": "https://news.google.com/rss/articles/CBMiaEFVX3lxTFA4N3BvWDIxcDhjS1FQaDZkQk14Q2sxQmRHb2NDQUxaME0yVUpMX0VqcHd5WmRPWlQ4NHNJbGhaWUt6RGZ5SGtWbnZUVl9pZ0tFT2ZMOW55VXdUS1U4alJIZE1BLXZoYlJV?oc=5",
-      "source": "팍스경제TV",
-      "pubDate": "2026-10-13T14:49:50+00:00",
-      "query": "HLB 임상"
-    },
-    {
       "title": "식품진흥원 기술지원 받은 프레시코, 대기업 공급망 진입 - 한국농업신문",
       "link": "https://news.google.com/rss/articles/CBMibEFVX3lxTE05ajZkZTdHM1JiU1dmTjBGOVNnQTh1QVRfRm83YTRxWTdqclpDZmhCOFk2TVpOY1pYVDhDWE9GekU4UVNNdFNpMWNEbTdKTFY4bTdLUU9UdGxSTUpBSzU0aEQxeUtPcUZqLTkzV9IBcEFVX3lxTE55V0IwMkVRckV2Z1NleFRCeE9vckJfYzl0djhEQTFacnl4MWtfNjFLN05HeDJzTmdMZXVSeHlLXzNiLTZ5V3loWlhkZlF1OTFLLUNkT2FiQWNEVzdTY0FrZXpRRUJ2b1FLNzNEYkZhb0E?oc=5",
       "source": "한국농업신문",
       "pubDate": "2026-10-13T14:40:24+00:00",
       "query": "프레시코"
+    },
+    {
+      "title": "2조 매출 꿈꿨는데 세 번 퇴짜… HLB 간암 신약에 무슨 일이 - 한국일보",
+      "link": "https://news.google.com/rss/articles/CBMibkFVX3lxTE4xakxHUlp4dW5wT205VjhOT21fYW1Fc0JvanRFR1FMUU1lcGhkLXFJNWd0ZkdSeHpCaWFLc1JBcUVubzJlcHBXTDBDcjRrTnBZZ3h6X0x4SUZQeUdXUWhockl4TE9jM0c4M1RGLS1B0gFzQVVfeXFMTXBXOUd0VHBoR3NmTWptdmJkVEtpVmIwTnNYUFBnWVpxOUxRa3RhRVFfSUF6cGVwbUJTME9HcDQ0TnZ1cmt6NVNFVGVUM1BJU05xbmdiUnRRblMxU2pTX2hyeE9SWXJ4YmJlbVQxcnlkYmRoaw?oc=5",
+      "source": "한국일보",
+      "pubDate": "2026-10-13T06:11:00+00:00",
+      "query": "HLB 신약"
+    },
+    {
+      "title": "HLB바이오스텝, AI 기반 비임상 CRO…국책과제 참여 - 데일리팜",
+      "link": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE9OVTQ4WmJiVkhFT0thSFAzbDJYQnBfZjhMN25MMXV1TUJKbFRRSTFVSnlZZEJLTEdwMHowTnk0Vm5iTmlJTlRaT0JEQ2p6STRfUVlSTnFR?oc=5",
+      "source": "데일리팜",
+      "pubDate": "2026-10-13T01:08:43+00:00",
+      "query": "HLB 임상"
     },
     {
       "title": "[경력채용] 부광약품, 한국팜비오, HLB생명과학, 큐로셀, 신텍스제약 - 히트뉴스",
@@ -120,6 +134,6 @@
       "query": "HLB생명과학"
     }
   ],
-  "fetchedAt": "2026-10-19T00:11:36.539921+00:00",
-  "count": 17
+  "fetchedAt": "2026-10-19T05:04:36.846333+00:00",
+  "count": 19
 }
