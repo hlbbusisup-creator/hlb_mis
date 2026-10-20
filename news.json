@@ -57,13 +57,6 @@
       "query": "HLB 신약"
     },
     {
-      "title": "HLB 진양곤 \"꽃 피면 알게됩니다\"…'리픽투' 다음 전략은? - 비즈워치",
-      "link": "https://news.google.com/rss/articles/CBMib0FVX3lxTE04cUFSbkMwdnJDWDRqUVFLaWhLY1doY2t0YU9SbGhKejhNNlpnaDBNUnJMdmlEdFRPaWRaNlFqWFBKMTRscVBNZmotWVAyT05iNzNVMkNiSk9UazlSY3dKOF9nY1JxUUFKRk9PX0JqQQ?oc=5",
-      "source": "비즈워치",
-      "pubDate": "2026-10-15T23:30:02+00:00",
-      "query": "HLB 신약"
-    },
-    {
       "title": "HLB제넥스, 반도체용 효소 판가 인상 확정…미국 공급가 국내 웃돌아 - 메디코파마",
       "link": "https://news.google.com/rss/articles/CBMickFVX3lxTE5ybHpzclktdzlCWTFxNW1CVFVFN3ZPVThLNDJUMThvd2JmMVByVVpiNnp5RXJUSW1WLWJsbjVtWVpvZHBadGZiOS1wb3VHeFU1SWZWM3cwZ1FqeUlzeGZoTENRbkhKMElDUzVaQV9SU2xfZw?oc=5",
       "source": "메디코파마",
@@ -132,8 +125,15 @@
       "source": "한국농업신문",
       "pubDate": "2026-10-13T14:40:24+00:00",
       "query": "프레시코"
+    },
+    {
+      "title": "HLB바이오스텝, 50억원 규모 AI 비임상 국책과제 참여 - 뉴스1",
+      "link": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE9OZ19sNTJ1SGRySlBsNEUzZENMbVdqdEtuaUgteDBwdk50cmVmMFZRRkdaYm00UnBZbUFiMTlvOGZOMDFady1YbmlReFUyNHhSREtIZmNNb1hkYVgzS3p2Yg?oc=5",
+      "source": "뉴스1",
+      "pubDate": "2026-10-13T07:58:23+00:00",
+      "query": "HLB바이오스텝"
     }
   ],
-  "fetchedAt": "2026-10-19T21:39:32.536311+00:00",
+  "fetchedAt": "2026-10-20T00:43:21.503373+00:00",
   "count": 19
 }
