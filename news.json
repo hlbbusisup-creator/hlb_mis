@@ -29,18 +29,18 @@
       "query": "HLB 임상"
     },
     {
-      "title": "에이치엘비 등, HLB테라퓨틱스 지분 20.14%로 확대 - 데이터투자",
-      "link": "https://news.google.com/rss/articles/CBMic0FVX3lxTFB5a09LdTZZVUltcllRdlRmY3kyMXh2bnR2Q0pYV1FHc2xzSzEtWWkzZG92WktPbVk2QlZCQzUtRUJGT2JtOUExNGxnOWE1YkRDWkt4REtBdHhORk5CZVNHU09WRXIwS0hrT0lHZVpwVXQ1N3c?oc=5",
-      "source": "데이터투자",
-      "pubDate": "2026-10-21T01:09:53+00:00",
-      "query": "HLB테라퓨틱스"
-    },
-    {
       "title": "HLB셀, 사체 조직 한계 깬 '배양형 ECM' 승부수 - 바이오북미디어",
       "link": "https://news.google.com/rss/articles/CBMiVEFVX3lxTFBTcklnUkhGalRsSWtZUHJLQjJxdS14S2toU3pyMEIyTDBhdnNSY2JtV1VkNmhNSThtckNybV9KVl9kNVFWTUlWQWJXRVpwVmJyMlgyUQ?oc=5",
       "source": "바이오북미디어",
       "pubDate": "2026-10-21T00:33:00+00:00",
       "query": "HLB셀"
+    },
+    {
+      "title": "HLB제약, 지난해 영업이익률 1.1%·순이익률 1.5% 불과…매출比 R&D 투자도 1.7% - 약업신문",
+      "link": "https://news.google.com/rss/articles/CBMioAFBVV95cUxNZkRxQWJxZUR1RmlmdDdadmJJelFGRndMMHBJcDlYTVV2bHFaQlJuN3FJc1BvOVFORnh4TWFLbzVnaXlLU2hxRGhUeFRxc3MzMjNObGtiWkVwTmhmVkRidUN3VTRCMjRZdXJ4dk1aaTB2eTFsOTdBa2dvcGtQdkZhTng1bXNqdkYwb281YV9KZTFYa0FNT0EyRGR2dkpLX2kz?oc=5",
+      "source": "약업신문",
+      "pubDate": "2026-10-21T00:26:49+00:00",
+      "query": "HLB제약"
     },
     {
       "title": "HLB셀, 기증 사체 아닌 세포배양 스킨부스터 시동 - 비즈워치",
@@ -72,17 +72,10 @@
     },
     {
       "title": "HLB ‘리픽투’, FDA 가속 아닌 “정식승인 가능했던” 까닭 - 바이오스펙테이터",
-      "link": "https://news.google.com/rss/articles/CBMibEFVX3lxTFBWbVZ3UjBPR0E3QzRKRzczS3MtTFhlV1A5bWRHLXZ4SVgyeHVKMzkxM2RFaFJ1dl81eTN2enN1cXIwdk1GcE01SDhhZllUMVJrWnVDbVo0amRqYV9EcjFBcktLMjA3VG5LS3Frdw?oc=5",
+      "link": "https://news.google.com/rss/articles/CBMiV0FVX3lxTFBNZVJpZFc3eGR4cXNMNHV6MkVuSDhZeFZ1WXVyaHdUbmVlSWtIOVJVWmNHV01mbVBrbjJpN0hlckNOSFF0VmV6ek1yRS1qdzVhX2VUZ21QVQ?oc=5",
       "source": "바이오스펙테이터",
       "pubDate": "2026-10-18T22:39:00+00:00",
       "query": "HLB 임상"
-    },
-    {
-      "title": "반도체 생산 늘며 수처리 부각…HLB제넥스, 공정용 효소 수요 확대 기대 - 뉴스핌",
-      "link": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE1ONW12M3M2T1BRcEdPSjl3RmxaS2xfN19zRzNNTy1zMDQ5UFpZQmViQVNFdUF0RmhrSFZMOXI4b3ZRNVJ3V1dTV0FMaGNETUJ2U3lEcUU2TWtuLTVx?oc=5",
-      "source": "뉴스핌",
-      "pubDate": "2026-10-16T05:17:00+00:00",
-      "query": "HLB제넥스"
     },
     {
       "title": "HLB이노베이션, 고형암 CAR-T 전임상 성과 국제학회서 공개 - 전자신문",
@@ -106,6 +99,6 @@
       "query": "HLB펩"
     }
   ],
-  "fetchedAt": "2026-10-21T11:40:35.936085+00:00",
-  "count": 15
+  "fetchedAt": "2026-10-21T16:07:58.232887+00:00",
+  "count": 14
 }
