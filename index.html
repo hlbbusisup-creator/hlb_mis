@@ -1549,6 +1549,9 @@ var _currentWeek   = null;    // 현재 선택된 주차
 var _weekCache     = {};      // 주차별 캐시 { 'ISO-week': json } — 재선택 시 즉시 반영
 var _bulkPrevData  = {};      // 주간 실적 입력용 직전주 누계 { companyCode: cumulative }
 var _gasWeeks      = [];      // GAS에 데이터 있는 ISO 주차 목록 (오름차순)
+var _allTrendCache = null;    // getAll 응답 캐시 (계열사별 주차 추이)
+var _cwCodes       = {};      // 현재 선택 주차에 '입력이 있는' 계열사 코드
+var _cfWeek        = {};      // 이월 적용된 계열사 → 원본 입력 주차 { code: 'YYYY-Www' }
 
 // ── 캐시된 데이터를 화면에 적용 ─────────────────────────────
 function applySheetJson(json) {
@@ -1557,6 +1560,7 @@ function applySheetJson(json) {
 
   // PD를 원본 기준으로 초기화한 뒤, 시트 데이터를 코드(k) 기준으로 병합
   PD = PD_BASE.map(function(e){ return Object.assign({}, e, {wa:0, hist:[]}); });
+  _cwCodes = {};
   if (json.companies && json.companies.length > 0) {
     var lookup = {};
     json.companies.forEach(function(c) { lookup[c.c] = c; }); // c.c = 계열사코드(k)
@@ -1567,6 +1571,7 @@ function applySheetJson(json) {
       item.wa   = m.wa || 0;
       item.hist = m.hist || [];
       _wkCum[item.k] = m.a || 0;   // 주간 누계 원본은 여기서만 기록
+      if ((m.a || 0) > 0) { _cwCodes[item.k] = true; delete _cfWeek[item.k]; }
       // 목표(g)는 PD_BASE 기준값 유지 — 시트 값으로 덮어쓰지 않음
       item.r = item.g > 0 ? item.a / item.g : null;
     });
@@ -1588,6 +1593,64 @@ function applySheetJson(json) {
   updateWeekLabels(json.week);
   rDP();
   showApiStatus('ok');
+}
+
+// ── 선택 주차에 입력이 없는 계열사는 '가장 최근 입력'을 이어받는다 ──
+/* 예) HLB글로벌은 2026-W40 에만 누계 45,431 이 기록돼 있는데, 화면이 W43 을
+   보고 있으면 applySheetJson 이 이 회사를 아예 건드리지 않아 누계(현시점)가
+   마스터 월 누계(38,365)로 떨어졌다. 주간 입력은 '누계'이므로 한 번 기록되면
+   다음 입력이 들어올 때까지 유효하다 → 선택 주차 이전의 최신 입력을 끌어온다. */
+async function ensureAllTrend() {
+  if (_allTrendCache) return _allTrendCache;
+  if (!HLB_API_URL) return null;
+  try {
+    var r = await fetch(HLB_API_URL + '?action=getAll');
+    var j = await r.json();
+    if (j && !j.error && j.companyTrend) _allTrendCache = j;
+  } catch(e) {}
+  return _allTrendCache;
+}
+
+/* code 계열사의 '누계' 중 week 시점까지의 마지막 값.
+   exclusive=true 면 week 보다 앞선 주차만 본다(전주 누계용). */
+function trendCumAtOrBefore(code, week, exclusive) {
+  if (!_allTrendCache || !_allTrendCache.companyTrend) return 0;
+  var ct = null;
+  _allTrendCache.companyTrend.forEach(function(x){ if (x && x.code === code) ct = x; });
+  if (!ct) return 0;
+  var last = 0, lastWk = null;
+  (ct.trend || []).forEach(function(t) {
+    if (!t || !t.week) return;
+    if (week) { if (exclusive ? !(t.week < week) : (t.week > week)) return; }
+    if ((t.cumulative || 0) > 0) { last = t.cumulative; lastWk = t.week; }
+  });
+  trendCumAtOrBefore._week = lastWk;
+  return last;
+}
+
+async function applyCarryForward(selWeek) {
+  if (!HLB_API_URL) return;
+  try {
+    if (!await ensureAllTrend()) return;
+    var changed = false;
+    _allTrendCache.companyTrend.forEach(function(ct) {
+      if (!ct || !ct.code) return;
+      if (_cwCodes[ct.code]) return;            // 이번 주 입력이 있으면 그 값이 우선
+      var cum = trendCumAtOrBefore(ct.code, selWeek, false);
+      if (!cum) return;
+      if ((_wkCum[ct.code] || 0) === cum) return;
+      _wkCum[ct.code]  = cum;
+      _cfWeek[ct.code] = trendCumAtOrBefore._week;
+      changed = true;
+    });
+    if (changed) {
+      S.wkCum = _wkCum; ss(S);
+      if (window.MDM && MDM.companies && typeof rebuildPDFromMaster === 'function') rebuildPDFromMaster();
+      rDP();
+      if (typeof rPerf === 'function') rPerf('all');
+      if (typeof updateDashWeekly === 'function') updateDashWeekly();
+    }
+  } catch(e) {}
 }
 
 // ── 이전 ISO주차 계산 ───────────────────────────────────────
@@ -1613,6 +1676,7 @@ async function loadSheetData(week) {
   if (_weekCache[cacheKey]) {
     applySheetJson(_weekCache[cacheKey]);
     await applyPrevWeekWa(_weekCache[cacheKey]);
+    await applyCarryForward(_weekCache[cacheKey].week || week);
     return;
   }
 
@@ -1632,6 +1696,7 @@ async function loadSheetData(week) {
 
     applySheetJson(json);
     await applyPrevWeekWa(json);
+    await applyCarryForward(json.week || week);
   } catch(err) {
     showApiStatus('error', err.message);
   }
@@ -3929,6 +3994,16 @@ async function loadBulkWeekData(){
     if(prevJson&&prevJson.companies){
       prevJson.companies.forEach(function(c){ _bulkPrevData[c.c]=c.a||0; });
     }
+    /* 직전 주차에 입력이 없는 계열사(예: HLB글로벌은 W40 이 마지막)는
+       전주 누계가 0 이 되어 '금주 실적 = 누계 전체'로 잘못 계산된다.
+       → 해당 주차 앞쪽의 마지막 입력을 전주 누계로 쓴다. */
+    if(await ensureAllTrend()){
+      PD.forEach(function(d){
+        if((_bulkPrevData[d.k]||0)>0) return;
+        var c=trendCumAtOrBefore(d.k, currIso, true);
+        if(c>0) _bulkPrevData[d.k]=c;
+      });
+    }
 
     // 현재 주 데이터 (기입력값 채우기용)
     var currJson=_weekCache[currIso];
@@ -4071,7 +4146,7 @@ function saveBulkAll(){
       PD[i].wa=delta;                // 금주 실적 즉시 반영
       /* 주간 누계 원본도 같이 갱신해야 한다. 이걸 빼면 재계산(rebuildPDFromMaster)이
          돌 때 옛 값으로 되돌아가서 "저장이 안 된다"로 보인다. */
-      _wkCum[d.k]=newCumul;
+      _wkCum[d.k]=newCumul; _cwCodes[d.k]=true; delete _cfWeek[d.k];
       var _g=mG(PD[i]); if(_g>0)PD[i].r=PD[i].a/_g;
       // 월별 집계: 기존 대비 delta만 반영
       var moKey='mo_'+i+'_'+yrVal+'_'+mon;
@@ -4084,6 +4159,7 @@ function saveBulkAll(){
   if(updated>0){
     S.lastWeek={label:label,year:yrVal,week:wkVal,month:mon,total:totalWk,ts:Date.now()};
     S.perf=PD; S.wkCum=_wkCum; ss(S);
+    _allTrendCache=null;   // 저장했으니 주차 추이 캐시 폐기 (다음 로드에서 재조회)
     rDP();rPerf('all');renderBulkTable();renderTrend();renderPerfBar2();
     updateDashWeekly();
     showT('✔ '+updated+'개 계열사 '+label+' 실적 저장 완료','suc');
