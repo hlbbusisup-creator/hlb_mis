@@ -1,8 +1,22 @@
 {
   "news": [
     {
+      "title": "HLB셀, 사체 조직 한계 깬 '배양형 ECM' 승부수 - 바이오북미디어",
+      "link": "https://news.google.com/rss/articles/CBMiVEFVX3lxTFBTcklnUkhGalRsSWtZUHJLQjJxdS14S2toU3pyMEIyTDBhdnNSY2JtV1VkNmhNSThtckNybV9KVl9kNVFWTUlWQWJXRVpwVmJyMlgyUQ?oc=5",
+      "source": "바이오북미디어",
+      "pubDate": "2026-10-21T00:33:00+00:00",
+      "query": "HLB셀"
+    },
+    {
+      "title": "HLB셀, 기증 사체 아닌 세포배양 스킨부스터 시동 - 비즈워치",
+      "link": "https://news.google.com/rss/articles/CBMib0FVX3lxTFBKUkUxYWtGSG55MnVkcnVYZjQ4Rldsc0s3RWRPYS14ZzVmaG1ycGhPV1dQSG9TRmw5TDh1Smp1R3dfbExfekxMLTVOYjdlOEdEeDhwVDlWQmN3dVMzbmNnZ1RFblI5eHFFekpYeExJVQ?oc=5",
+      "source": "비즈워치",
+      "pubDate": "2026-10-20T22:50:03+00:00",
+      "query": "HLB셀"
+    },
+    {
       "title": "美 신약 허가·공장 신축…HLB그룹, 글로벌 제약사 도약 ‘광폭 행보’ - 에너지경제신문",
-      "link": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE5ZVkE0YXcyWTV5MXN2VFROMTAzXzFjamxrQ29Fbldvd0pxUUd1QjV0RWgxamwxVzBXdlYtMEZ1SWd3Q2ZKdHUtRzdtVXBkeHdXUE9aVjRyRGMwaXc?oc=5",
+      "link": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE1hZnJ6V25qaHhsMm1icXF1RnNxMWtMcDNrN0FzWmhQNnRYaExjWnN6cC1WWjI0VHlHU2N0YnN2VlNLaUJ2VXVkVGJwZnhvVElBTzBRMXZEd0s1OTVZckRTLUVqcw?oc=5",
       "source": "에너지경제신문",
       "pubDate": "2026-10-20T05:45:00+00:00",
       "query": "HLB 신약"
@@ -43,13 +57,6 @@
       "query": "HLB 임상"
     },
     {
-      "title": "HLB이노베이션 베리스모, SITC서 CAR-T 전임상 발표 - 메디포뉴스",
-      "link": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE9pcHlJUXNVb2dBLTdBVzVxR0ExYThfWlNLX1pTMHhwdnpoeDFJLXprb0twTVFUS1JTWUgzd1p4c3YtVVpZRVRULTFwWHkxRHAzUF9pQXJFUS1ld19NakdXbTE5d2Q?oc=5",
-      "source": "메디포뉴스",
-      "pubDate": "2026-10-16T11:46:32+00:00",
-      "query": "HLB이노베이션"
-    },
-    {
       "title": "반도체 생산 늘며 수처리 부각…HLB제넥스, 공정용 효소 수요 확대 기대 - 뉴스핌",
       "link": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE1ONW12M3M2T1BRcEdPSjl3RmxaS2xfN19zRzNNTy1zMDQ5UFpZQmViQVNFdUF0RmhrSFZMOXI4b3ZRNVJ3V1dTV0FMaGNETUJ2U3lEcUU2TWtuLTVx?oc=5",
       "source": "뉴스핌",
@@ -76,13 +83,6 @@
       "source": "메디코파마",
       "pubDate": "2026-10-15T21:50:00+00:00",
       "query": "HLB제넥스"
-    },
-    {
-      "title": "HLB생명과학 \"157억원 규모 교환사채(EB) 발행\" - 약업신문",
-      "link": "https://news.google.com/rss/articles/CBMitgFBVV95cUxONWg4X3dYRkhING5uV2pZeG5wemppWEFlcDlCb3Buc2txa1VQWjNKeWV2SjJ0Z3F4cjhJd2FvUnExZUZfVmh1MWgtR09hR0NGYTlGUnBSOEs1bkhHRlExTnhuT1l1SFU0TTE1SFV2SW9ZcWU3TmxfMC1GbXRFakZndGY1Mkxqd3dNVGJ1R1MxcU9za2RpWG15dHpRN3hwdjRjbDB6VnFZd1UzM19sdDRaemx0cUhNdw?oc=5",
-      "source": "약업신문",
-      "pubDate": "2026-10-15T18:08:10+00:00",
-      "query": "HLB생명과학"
     },
     {
       "title": "진양곤 HLB 의장 “리보세라닙 FDA 허가 여부, 이르면 연내 결정” - 한국경제",
@@ -120,6 +120,6 @@
       "query": "HLB테라퓨틱스"
     }
   ],
-  "fetchedAt": "2026-10-20T22:43:27.324332+00:00",
+  "fetchedAt": "2026-10-21T01:03:03.495935+00:00",
   "count": 17
 }
