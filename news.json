@@ -1,6 +1,34 @@
 {
   "news": [
     {
+      "title": "\"그룹 전체 돌격 앞으로\"⋯HLB테라퓨틱스, 내달 신약 임상 3상 갈림길 - 아이뉴스24",
+      "link": "https://news.google.com/rss/articles/CBMiR0FVX3lxTE4wVVNpTVl5REdDU2Fock1WUjlpYlhjRlZXclNMNnA1SUcwbkVVN2RkNXdMM1dLX2FnRDhRaGptbGJ5cmprMUw0?oc=5",
+      "source": "아이뉴스24",
+      "pubDate": "2026-10-21T05:54:54+00:00",
+      "query": "HLB 신약"
+    },
+    {
+      "title": "ESMO 앞둔 K바이오, 에이비엘·유한·HLB 임상 성과 주목 - 약사공론",
+      "link": "https://news.google.com/rss/articles/CBMibEFVX3lxTE81MEszUC1NdVd0NTZGeEo3bjhhdFQxdFhVYU5idkltSW9mYlRKN1daTm9nYUpudGFkWUo2WWpXMVZfSHR5MFBDZkFsM1ltUUQ4MktCb0pGc0J2YVREMkh1U3lONmQwR0VFdUxCTw?oc=5",
+      "source": "약사공론",
+      "pubDate": "2026-10-21T03:00:00+00:00",
+      "query": "HLB 임상"
+    },
+    {
+      "title": "진양곤 HLB 의장, 계열사 주식 8만주 추가 매 - 이데일리",
+      "link": "https://news.google.com/rss/articles/CBMigAFBVV95cUxOdllaOHFCemlKYm9JR3dPbmZycXhROW1Ea3BaWTEzemV6b1dCU3p3LUNvN0J3R3dBTVVuWHFWTFZNQWdRM1RRRmNpZlJJb3I1TFdPUVNIWUhvTXp1bmg4N3hTeHhkanBsSkZwSzhiUG5RRTJmZlAtaHcwelZIWDhobg?oc=5",
+      "source": "이데일리",
+      "pubDate": "2026-10-21T01:24:02+00:00",
+      "query": "HLB 임상"
+    },
+    {
+      "title": "에이치엘비 등, HLB테라퓨틱스 지분 20.14%로 확대 - 데이터투자",
+      "link": "https://news.google.com/rss/articles/CBMic0FVX3lxTFB5a09LdTZZVUltcllRdlRmY3kyMXh2bnR2Q0pYV1FHc2xzSzEtWWkzZG92WktPbVk2QlZCQzUtRUJGT2JtOUExNGxnOWE1YkRDWkt4REtBdHhORk5CZVNHU09WRXIwS0hrT0lHZVpwVXQ1N3c?oc=5",
+      "source": "데이터투자",
+      "pubDate": "2026-10-21T01:09:53+00:00",
+      "query": "HLB테라퓨틱스"
+    },
+    {
       "title": "HLB셀, 사체 조직 한계 깬 '배양형 ECM' 승부수 - 바이오북미디어",
       "link": "https://news.google.com/rss/articles/CBMiVEFVX3lxTFBTcklnUkhGalRsSWtZUHJLQjJxdS14S2toU3pyMEIyTDBhdnNSY2JtV1VkNmhNSThtckNybV9KVl9kNVFWTUlWQWJXRVpwVmJyMlgyUQ?oc=5",
       "source": "바이오북미디어",
@@ -9,31 +37,24 @@
     },
     {
       "title": "HLB셀, 기증 사체 아닌 세포배양 스킨부스터 시동 - 비즈워치",
-      "link": "https://news.google.com/rss/articles/CBMib0FVX3lxTFBKUkUxYWtGSG55MnVkcnVYZjQ4Rldsc0s3RWRPYS14ZzVmaG1ycGhPV1dQSG9TRmw5TDh1Smp1R3dfbExfekxMLTVOYjdlOEdEeDhwVDlWQmN3dVMzbmNnZ1RFblI5eHFFekpYeExJVQ?oc=5",
+      "link": "https://news.google.com/rss/articles/CBMibkFVX3lxTE9QeXRMWXB0bG94SkU0OG53QkpCeEtkSE9xbEVPSEhZUXZMRkNneXVXeEVORGp3b2xWY0FmQnVVTjVfUTFPS1IzT2xQTVo5Wnc4bUpCdFlOVVVwcW1TTkdSMTJic2djbHhUZDBBY0Fn?oc=5",
       "source": "비즈워치",
       "pubDate": "2026-10-20T22:50:03+00:00",
       "query": "HLB셀"
     },
     {
+      "title": "HLB 간암 신약 또 FDA 지적…제조소 리스크에 허가 제동 - 약업신문",
+      "link": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxPQmxTTHl3VWFia1pjS1BTa3NvdEFYcDZwakhzSlNrck82ZE14Nmp1a0tQUGlreXhTOENHYUpaT09iaVNsV1ZuLVM3UEo1V3ZiX2szWmhJNU1XOU02Y2QweGh0Wmxld2dVOHM1NC1JdVNNamxSWnZ0c3NiV3dxWFZjVWlqN3Y4ZXlKMktZXy13R2tFczFnUEk0d0UxNHpYendMMUxrdGFQczNIQ19uNmtOWDdjb2U4bWhnS3pqLUFVbklCV3dVYm9SdmhjU202SGpi?oc=5",
+      "source": "약업신문",
+      "pubDate": "2026-10-20T11:35:18+00:00",
+      "query": "HLB 허가"
+    },
+    {
       "title": "美 신약 허가·공장 신축…HLB그룹, 글로벌 제약사 도약 ‘광폭 행보’ - 에너지경제신문",
-      "link": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE1hZnJ6V25qaHhsMm1icXF1RnNxMWtMcDNrN0FzWmhQNnRYaExjWnN6cC1WWjI0VHlHU2N0YnN2VlNLaUJ2VXVkVGJwZnhvVElBTzBRMXZEd0s1OTVZckRTLUVqcw?oc=5",
+      "link": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE5ZVkE0YXcyWTV5MXN2VFROMTAzXzFjamxrQ29Fbldvd0pxUUd1QjV0RWgxamwxVzBXdlYtMEZ1SWd3Q2ZKdHUtRzdtVXBkeHdXUE9aVjRyRGMwaXc?oc=5",
       "source": "에너지경제신문",
       "pubDate": "2026-10-20T05:45:00+00:00",
       "query": "HLB 신약"
-    },
-    {
-      "title": "HLB, 간암 신약 美 허가 재신청…보완요구 3개월만 - 쿠키뉴스",
-      "link": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE5mVHNFcE5hZGFoYWNrSGQ3YS1wWGVtYUU5MFhkVUxjTnpjTVAtZ0NuSWxHYl91cXhIOTVsUDZ0Rnp6c2FTZi1lOWJYZTBuNVo4c0I4cUIyYUdUWjVsbDlOcDF6WQ?oc=5",
-      "source": "쿠키뉴스",
-      "pubDate": "2026-10-20T05:14:22+00:00",
-      "query": "HLB FDA"
-    },
-    {
-      "title": "HLB이노베이션, 고형암 CAR-T 기술 검증 확대···임상 성과 주목 - 뉴스웨이",
-      "link": "https://news.google.com/rss/articles/CBMiakFVX3lxTE1IQTZ2V0s1MXppUXVwem9XTjFfN1ZvTFVrNkg5MDlCTU1Lc2J2MWtEQ1pqTnAtVWwyRzBFYXFrMzEzYm1FelFMckxJaFlqMExiNld0NDlMLUdQVk5UdVJ5UmFobXAtbzlHaVE?oc=5",
-      "source": "뉴스웨이",
-      "pubDate": "2026-10-19T08:12:55+00:00",
-      "query": "HLB 임상"
     },
     {
       "title": "HLB바이오스텝, 장중 11%대 상승 - 비건뉴스",
@@ -41,13 +62,6 @@
       "source": "비건뉴스",
       "pubDate": "2026-10-19T05:44:00+00:00",
       "query": "HLB바이오스텝"
-    },
-    {
-      "title": "HLB, ‘리픽투 프리미엄’ 예고…환자 쟁탈전 자신감 - PRESS9",
-      "link": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE1oUWZ4TmxmR2JlYXpZNEM5QklSV3Z3bUs2RjJMTzR0V3F2d1MtZzhQRWNVbF9Jd3pWQVBaejQ0S0hkR0VKUldVeE05a1gtRDJsRUhVOVE4MElTOTlud285Rkx6YnVfdw?oc=5",
-      "source": "PRESS9",
-      "pubDate": "2026-10-19T02:00:00+00:00",
-      "query": "HLB 임상"
     },
     {
       "title": "HLB ‘리픽투’, FDA 가속 아닌 “정식승인 가능했던” 까닭 - 바이오스펙테이터",
@@ -64,32 +78,11 @@
       "query": "HLB제넥스"
     },
     {
-      "title": "HLB그룹, 신약 개발 성과 잇는다…항암제·세포치료제 사업 확대 - MEDI:GATE NEWS",
-      "link": "https://news.google.com/rss/articles/CBMiV0FVX3lxTE5DdnhGQlE0dDdxc0xGcmlYc1A0MFljd2J6T05QMXBXdW1OcVUyc0toNnBORzZlanJzNVhZNlFFanl4bnlLVEdyd2dud3NMbnZLekdWWXlDRQ?oc=5",
-      "source": "MEDI:GATE NEWS",
-      "pubDate": "2026-10-16T00:44:00+00:00",
-      "query": "HLB 신약"
-    },
-    {
-      "title": "5번 임상 고배 마신 HLB 안과 신약…11월 美 3상 결과로 반전할까 - 조선비즈 - Chosunbiz",
-      "link": "https://news.google.com/rss/articles/CBMihwFBVV95cUxPLUVZWFA1SFdybldLUGMzbWs2MEpkQ01PREk2ei1DcUFxbkpWemF1TUtUQ2t5VWJGZE5jbWVLeWRYaENnV1h3bWZMTDZLVjBzQkhHdjRPakZBbTBFSmlISTZQMEgzVkJCTkFuSl9FNktXb1ZiRF8xVXBWWnZEem9MenFHNWVHXzTSAZsBQVVfeXFMTkhrUVRlN1Z5aFN2c3NZTU1NRGZweEtrdkcxdXR2Z2ZELUNta2ZMc1VIaW0tQ2E4cXJiRjNZRnp2cC1YbGlHT1l6alR6SW5GY29SbDdxbTI1ZXdvTFhwc0VOTEdrOUY2UnJSYUxvdGxOOUFfODhrYjJZNG5hVHpFUGNIVU41cW5ITFc1WGJoOUJac3BsM3JibUs4anc?oc=5",
-      "source": "Chosunbiz",
-      "pubDate": "2026-10-16T00:10:00+00:00",
-      "query": "HLB 임상"
-    },
-    {
-      "title": "HLB제넥스, 반도체용 효소 판가 인상 확정…미국 공급가 국내 웃돌아 - 메디코파마",
-      "link": "https://news.google.com/rss/articles/CBMickFVX3lxTE5ybHpzclktdzlCWTFxNW1CVFVFN3ZPVThLNDJUMThvd2JmMVByVVpiNnp5RXJUSW1WLWJsbjVtWVpvZHBadGZiOS1wb3VHeFU1SWZWM3cwZ1FqeUlzeGZoTENRbkhKMElDUzVaQV9SU2xfZw?oc=5",
-      "source": "메디코파마",
-      "pubDate": "2026-10-15T21:50:00+00:00",
-      "query": "HLB제넥스"
-    },
-    {
-      "title": "진양곤 HLB 의장 “리보세라닙 FDA 허가 여부, 이르면 연내 결정” - 한국경제",
-      "link": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE5palFFMjR2VTJUWnJrdGI0d2tacU5WNVlwb3lfaDBjNGlya2R3ZWdNc2JNNTVac215dnBnTVNWa2tSWjVpMlRSalJJdk82d2sybWNLYkZKUUxHQQ?oc=5",
-      "source": "한국경제",
-      "pubDate": "2026-10-15T08:40:46+00:00",
-      "query": "HLB FDA"
+      "title": "HLB이노베이션, 고형암 CAR-T 전임상 성과 국제학회서 공개 - 전자신문",
+      "link": "https://news.google.com/rss/articles/CBMiTkFVX3lxTE9fTjNnbUc0TGo1a1ZON2Y2QTNWRHM4VC1PckNPMjI5ejRBSDZXd0gzQ3BYcEJ4amtzLTVIMmo0UVdrNU9SMFhPLXN1a2o2Zw?oc=5",
+      "source": "전자신문",
+      "pubDate": "2026-10-16T05:05:31+00:00",
+      "query": "HLB이노베이션"
     },
     {
       "title": "HLB펩, 위고비·마운자로 성분 원료시장 진입 추진…2028년 공급 목표 - 메디코파마",
@@ -99,27 +92,13 @@
       "query": "HLB펩"
     },
     {
-      "title": "진양곤 의장, HLB제넥스 주식 또 샀다…개인 명의로 계열사株 62차례 매수 - 조선비즈 - Chosunbiz",
-      "link": "https://news.google.com/rss/articles/CBMihwFBVV95cUxOa1Z4NDU3a2xTYkRuNjFXT2hXUnFjM1lsc3hqZTJFX1R6d1M2YUtXVlJoTC1yMFFBVW5YNGVDTW5seXlRd0w3dHh4c0tKLUltdEdhQXZhdnNUV2VHejZvdXhnY0J6djdzOVRERWZWWThSY3pMb1dSdlZJUU81RFdfcWdFZkdLOU3SAZsBQVVfeXFMT0hYX0twZzEzdFRfcVNoVWw5WFRzdU9xQ1hjc0piRDlzV0pSR05oNGE4OUVBUmlzSzRlU3dTUHhvVHdJdU52RDFPMml2UVgybldfQWkyVTk4em02V0lQRU9RdS1LMUYwbm9tbmdUUWtWN2RzYXBfQndXR0hPR0F3bmN5blBtZlh3Yk5NZ3BGTWZZR3AwZ3ZKdEwzNEk?oc=5",
-      "source": "Chosunbiz",
-      "pubDate": "2026-10-15T02:54:00+00:00",
-      "query": "HLB제넥스"
-    },
-    {
       "title": "HLB파나진, 'PNA 페이로드' 기술 \"美올리고학회 발표\" - 바이오스펙테이터",
       "link": "https://news.google.com/rss/articles/CBMiV0FVX3lxTE9GTVdsQndTa2FRYVJ3RFNoRDBfZVV2ZlJUdHBKUFdTNDZWbUo5VTFWSXlqb0ZOOFA3NG5zMVhxd0RUaERCY2Zwdk5YNE5qQ0dVUXpfYmF6cw?oc=5",
       "source": "바이오스펙테이터",
       "pubDate": "2026-10-14T10:23:00+00:00",
       "query": "HLB파나진"
-    },
-    {
-      "title": "HLB테라퓨틱스 3상 결과 앞둔 NK 시장…최대 1.1억달러 기술거래 - 메디코파마",
-      "link": "https://news.google.com/rss/articles/CBMickFVX3lxTE5qV3kxRjZMZm9qYmtoTVM0QlNVaFQ5S2F2UmVfbTFSU0ZjOE5vV0JaRDlub25najEwTVJIdjFZaFlPeGozcjc2czNkc0w5VjAyYW02SFZ4VWcySWhneWI3SXNJS1hKd0VEeTRna0wtVzNwZw?oc=5",
-      "source": "메디코파마",
-      "pubDate": "2026-10-14T04:53:51+00:00",
-      "query": "HLB테라퓨틱스"
     }
   ],
-  "fetchedAt": "2026-10-21T01:03:03.495935+00:00",
-  "count": 17
+  "fetchedAt": "2026-10-21T05:58:51.534232+00:00",
+  "count": 14
 }
