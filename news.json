@@ -1,11 +1,25 @@
 {
   "news": [
     {
+      "title": "HLB바이오스텝 13.37% 상승…비임상 CRO 전략 점검 - 잡포스트",
+      "link": "https://news.google.com/rss/articles/CBMickFVX3lxTFBTN3hTLXc0Mk1CelpfQzNybl95c3I3UjN3NUVJUDh2SnR1WG1VbjlMT0xzeTJjcUxwWUVuNTJIbGhNbG4zZVVYZHhmY2RLM3ZVMzYwdmJVUGw5MExrSFRPN3pFcEJfUUVGS3lYbDNkU0c0QdIBckFVX3lxTFBTN3hTLXc0Mk1CelpfQzNybl95c3I3UjN3NUVJUDh2SnR1WG1VbjlMT0xzeTJjcUxwWUVuNTJIbGhNbG4zZVVYZHhmY2RLM3ZVMzYwdmJVUGw5MExrSFRPN3pFcEJfUUVGS3lYbDNkU0c0QQ?oc=5",
+      "source": "잡포스트",
+      "pubDate": "2026-10-23T07:09:24+00:00",
+      "query": "HLB바이오스텝"
+    },
+    {
       "title": "HLB그룹주 8개 종목 중 6개 하락…HLB 4만원대 약세, HLB바이오스텝 2%대 상승 - CBC뉴스",
       "link": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE53TS14R0xKRVpPbEN6WWVhUG85ZF9Na2JvVWpoQTlLQXNwTGhwLUNJNmxIZlNaakJKc0dpaUwzZkRpZC1RRG43M1J3a05xR2xydWZOelNFRWRQb3lVT2pRWXdNM3Jic1dR?oc=5",
       "source": "CBC뉴스",
       "pubDate": "2026-10-23T02:37:21+00:00",
       "query": "HLB바이오스텝"
+    },
+    {
+      "title": "[K바이오 10대장 점검③] HLB, 간암藥 특허 부담···독점권 확보 과제 - 시사저널e",
+      "link": "https://news.google.com/rss/articles/CBMidkFVX3lxTE5oeUhDRzFuWHNpbVl6WG9jUFA1TzNFN1BWcUUxaHc2cmxYaFpJWjJVZTkzRHJhcjU5cGVkbUZUeEpCbEU4OHUxT3FLdVhLZGZ4Z09NWVV5SGNXYVllQ3pjaFVKYk5YSkR6WVdtb1ZvZGJ1QW84dVHSAXZBVV95cUxOaHlIQ0cxblhzaW1ZelhvY1BQNU8zRTdQVnFFMWh3NnJsWGhaSVoyVWU5M0RyYXI1OXBlZG1GVHhKQmxFODh1MU9xS3VYS2RmeGdPTVlVeUhjV2FZZUN6Y2hVSmJOWEpEellXbW9Wb2RidUFvOHVR?oc=5",
+      "source": "시사저널e",
+      "pubDate": "2026-10-23T02:02:17+00:00",
+      "query": "HLB 허가"
     },
     {
       "title": "HLB테라퓨틱스, RGN-259 ‘패키지 라이선스’ 구상…희귀안질환으로 몸값↑ - 더바이오",
@@ -76,15 +90,8 @@
       "source": "바이오스펙테이터",
       "pubDate": "2026-10-18T22:39:00+00:00",
       "query": "HLB 임상"
-    },
-    {
-      "title": "HLB이노베이션 베리스모, SITC서 CAR-T 전임상 발표 - 메디포뉴스",
-      "link": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE9pcHlJUXNVb2dBLTdBVzVxR0ExYThfWlNLX1pTMHhwdnpoeDFJLXprb0twTVFUS1JTWUgzd1p4c3YtVVpZRVRULTFwWHkxRHAzUF9pQXJFUS1ld19NakdXbTE5d2Q?oc=5",
-      "source": "메디포뉴스",
-      "pubDate": "2026-10-16T11:46:32+00:00",
-      "query": "HLB이노베이션"
     }
   ],
-  "fetchedAt": "2026-10-23T05:11:11.321412+00:00",
-  "count": 12
+  "fetchedAt": "2026-10-23T10:23:03.677337+00:00",
+  "count": 13
 }
