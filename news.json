@@ -78,13 +78,6 @@
       "query": "HLB 임상"
     },
     {
-      "title": "HLB셀, 사체 조직 한계 깬 '배양형 ECM' 승부수 - 바이오북미디어",
-      "link": "https://news.google.com/rss/articles/CBMiVEFVX3lxTFBTcklnUkhGalRsSWtZUHJLQjJxdS14S2toU3pyMEIyTDBhdnNSY2JtV1VkNmhNSThtckNybV9KVl9kNVFWTUlWQWJXRVpwVmJyMlgyUQ?oc=5",
-      "source": "바이오북미디어",
-      "pubDate": "2026-10-21T00:33:00+00:00",
-      "query": "HLB셀"
-    },
-    {
       "title": "HLB셀, 기증 사체 아닌 세포배양 스킨부스터 시동 - 비즈워치",
       "link": "https://news.google.com/rss/articles/CBMib0FVX3lxTFBKUkUxYWtGSG55MnVkcnVYZjQ4Rldsc0s3RWRPYS14ZzVmaG1ycGhPV1dQSG9TRmw5TDh1Smp1R3dfbExfekxMLTVOYjdlOEdEeDhwVDlWQmN3dVMzbmNnZ1RFblI5eHFFekpYeExJVQ?oc=5",
       "source": "비즈워치",
@@ -99,6 +92,6 @@
       "query": "HLB 신약"
     }
   ],
-  "fetchedAt": "2026-10-25T17:45:08.541696+00:00",
-  "count": 14
+  "fetchedAt": "2026-10-25T20:01:08.160481+00:00",
+  "count": 13
 }
