@@ -1,6 +1,20 @@
 {
   "news": [
     {
+      "title": "HLB생명과학 주간 거래량 136만주로 감소 - 비건뉴스",
+      "link": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE9OSnFVcWREdlRuLVQ0cF9OMlNnT0hscE83R1RMTWdzSWhKdkk4ZDRTdlBXQ2Ewc3VpanBlbXMyMHFZY1RHSnMxM2JaMDRDbmx3QUFLYzZlWWRkYUdObmlNUTBkMUp3dw?oc=5",
+      "source": "비건뉴스",
+      "pubDate": "2026-10-25T07:52:55+00:00",
+      "query": "HLB생명과학"
+    },
+    {
+      "title": "'리보세라닙'만 있는게 아니었다…HLB생명과학, 의료기기 수출 '3.7배 껑충' - 바이오북미디어",
+      "link": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE80RmYwNWdNdldraUh0Z2dsMmJYSmF4Mi1aSjYxdUlrcVd4c2ZXNk95YjRYOXNOcWVlOE5RQUw3cjNfQ0c5cEFyNTBBXzRhTU5wdXc?oc=5",
+      "source": "바이오북미디어",
+      "pubDate": "2026-10-24T12:03:35+00:00",
+      "query": "HLB생명과학"
+    },
+    {
       "title": "HLB, ‘리픽투’로 첫 FDA 신약 허가…美 상업화 시험대 - 쿠키뉴스",
       "link": "https://news.google.com/rss/articles/CBMiY0FVX3lxTFB1bS1RVkgxc1JqcHJLMlRQU1FVSmlfMldZS3RNX09jTjBZU3NiN2pZWEVsWmtPOTBEdUZaNlQzcGlUMDFQWkN1X3FhWExjRE1uZVQzeHRTRXkxNHJIVTFoWWh0NA?oc=5",
       "source": "쿠키뉴스",
@@ -36,13 +50,6 @@
       "query": "HLB 임상"
     },
     {
-      "title": "HLB그룹, 진양곤 의장 'HLB테라퓨틱스' 8만 주 추가 매수...사업화 속도 기대 - 팍스경제TV",
-      "link": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE9vX3pkNS1WUUl6eTlNcmg1RVZ3SFAtbFpkUWdMMFlfdUdUck1keExiRVhzMVRkZVFHUFZmODVLa0dNal9lb01PeFM0M29ZUXZRbmlwS3MydE1UWjRqcTZOMDVCWGxBVUI1?oc=5",
-      "source": "팍스경제TV",
-      "pubDate": "2026-10-21T12:25:49+00:00",
-      "query": "HLB테라퓨틱스"
-    },
-    {
       "title": "\"그룹 전체 돌격 앞으로\"⋯HLB테라퓨틱스, 내달 신약 임상 3상 갈림길 - 아이뉴스24",
       "link": "https://news.google.com/rss/articles/CBMiS0FVX3lxTE9yR1k0Q29HdzFhbGVZcmU4Y1BmMkJ3MnU5VnU0Z2ZLYXh1Tm1BOEg2WWF0SGJQTnR2MmpLQVNMX0VVcVNOem5lRFBsUQ?oc=5",
       "source": "아이뉴스24",
@@ -55,13 +62,6 @@
       "source": "약사공론",
       "pubDate": "2026-10-21T03:00:00+00:00",
       "query": "HLB 임상"
-    },
-    {
-      "title": "HLB셀, 사체 조직 한계 깬 '배양형 ECM' 승부수 - 바이오북미디어",
-      "link": "https://news.google.com/rss/articles/CBMiVEFVX3lxTFBTcklnUkhGalRsSWtZUHJLQjJxdS14S2toU3pyMEIyTDBhdnNSY2JtV1VkNmhNSThtckNybV9KVl9kNVFWTUlWQWJXRVpwVmJyMlgyUQ?oc=5",
-      "source": "바이오북미디어",
-      "pubDate": "2026-10-21T00:33:00+00:00",
-      "query": "HLB셀"
     },
     {
       "title": "HLB셀, 기증 사체 아닌 세포배양 스킨부스터 시동 - 비즈워치",
@@ -78,6 +78,6 @@
       "query": "HLB 신약"
     }
   ],
-  "fetchedAt": "2026-10-25T05:22:54.454458+00:00",
+  "fetchedAt": "2026-10-25T10:00:25.138198+00:00",
   "count": 11
 }
