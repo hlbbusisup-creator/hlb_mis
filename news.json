@@ -9,7 +9,7 @@
     },
     {
       "title": "HLB 리픽투, 승인 한 달 만에 ESMO행, 美 진입 시동 - PRESS9",
-      "link": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE9ZZ1o5a28yQWNvR0lsTmdJYVpWS1FjaDR4dUptbWRreG00T0xqUF9IUzdZV1ZraGdOOFh2SHctWUxEUzdHVnJyLUlRa3dWejJyVXZ1U3lsRDBrY2JFSzVDWmhHbXA?oc=5",
+      "link": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE1ScW9RdHY1VjVFYnNNeGZTeUhYRm9ST2gwN2YtemRvVXVOZV9qVlp5eUlEOE5UQS1pdHB6ZEQtNnV0azVBUHNjLUlFZ0x2NmZSUFotRkhKWUctN0U2bU5WaUxodHFoZw?oc=5",
       "source": "PRESS9",
       "pubDate": "2026-10-26T01:12:48+00:00",
       "query": "HLB 신약"
@@ -19,7 +19,7 @@
       "link": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE9TQTVMS2VxZ1Vtemg4d2pJLTFQN3hLZmRtZEppa2ZlY2JUMmdaM2Z5R2VnSEd6MDhERDRrbjZaMjd1NkNMbWdpVkl0dHppY3VqQURubzJUeFczMC1k?oc=5",
       "source": "뉴스핌",
       "pubDate": "2026-10-26T00:33:00+00:00",
-      "query": "HLB 임상"
+      "query": "HLB 신약"
     },
     {
       "title": "HLB바이오스텝 26일 종가 따라 27일 거래정지 가능 - 비건뉴스",
@@ -47,7 +47,7 @@
       "link": "https://news.google.com/rss/articles/CBMiY0FVX3lxTFB1bS1RVkgxc1JqcHJLMlRQU1FVSmlfMldZS3RNX09jTjBZU3NiN2pZWEVsWmtPOTBEdUZaNlQzcGlUMDFQWkN1X3FhWExjRE1uZVQzeHRTRXkxNHJIVTFoWWh0NA?oc=5",
       "source": "쿠키뉴스",
       "pubDate": "2026-10-23T07:36:04+00:00",
-      "query": "HLB 신약"
+      "query": "HLB FDA"
     },
     {
       "title": "HLB바이오스텝 13.37% 상승…비임상 CRO 전략 점검 - 잡포스트",
@@ -75,7 +75,7 @@
       "link": "https://news.google.com/rss/articles/CBMibEFVX3lxTFByQjY5T0V0UWpyUFh5RHU2ZHh5aW5aS2t5cmV2bW5hRTBrU1NVaWtPUkM5WGlZMVhVRGZlVW1pRWRSOVFOX2JjUld4c2Q3REhsQXFNS2JtSTM3NDR6SnRGRkEwc2VIMFdpMk1yRtIBcEFVX3lxTE82QkRWT0ZyUzZ2Vm1QX1pxNHZQTjhBVERUR3EtRDJWaVVLclVpNUtxOTlzdGppU2NQZk9Fd0lBWWY3aW9CbDFNSTk5RkdXaENzZWl5bC1Cc0ZrVHlBN003blNnYlJSRXU3d2Q4RUZwTUM?oc=5",
       "source": "더바이오",
       "pubDate": "2026-10-22T21:45:00+00:00",
-      "query": "HLB테라퓨틱스"
+      "query": "HLB 임상"
     },
     {
       "title": "HLB그룹, 진양곤 의장 'HLB테라퓨틱스' 8만 주 추가 매수...사업화 속도 기대 - 팍스경제TV",
@@ -83,6 +83,13 @@
       "source": "팍스경제TV",
       "pubDate": "2026-10-21T12:25:49+00:00",
       "query": "HLB테라퓨틱스"
+    },
+    {
+      "title": "\"그룹 전체 돌격 앞으로\"⋯HLB테라퓨틱스, 내달 신약 임상 3상 갈림길 - 아이뉴스24",
+      "link": "https://news.google.com/rss/articles/CBMiS0FVX3lxTE9yR1k0Q29HdzFhbGVZcmU4Y1BmMkJ3MnU5VnU0Z2ZLYXh1Tm1BOEg2WWF0SGJQTnR2MmpLQVNMX0VVcVNOem5lRFBsUQ?oc=5",
+      "source": "아이뉴스24",
+      "pubDate": "2026-10-21T05:54:54+00:00",
+      "query": "HLB 임상"
     },
     {
       "title": "ESMO 앞둔 K바이오, 에이비엘·유한·HLB 임상 성과 주목 - 약사공론",
@@ -113,6 +120,6 @@
       "query": "HLB 신약"
     }
   ],
-  "fetchedAt": "2026-10-26T05:27:43.918757+00:00",
-  "count": 16
+  "fetchedAt": "2026-10-26T11:34:23.873787+00:00",
+  "count": 17
 }
