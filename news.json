@@ -1,6 +1,13 @@
 {
   "news": [
     {
+      "title": "HLB 4만1700원 마감…HLB제약 15.37% 상승 - 비건뉴스",
+      "link": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE9WeGM5UUgwWm9ZT3ZFRFJDd1lnOGxKeE8wMm1Ob1lRMDg0QVA4STZKRWwwcGJGMW4xTXQ2MkZzVWJoSUgzZ1lsSGFqSnlGWnh0Zy1qQ1A5OVpOdWZ0eTFHc2d4U0Fzdw?oc=5",
+      "source": "비건뉴스",
+      "pubDate": "2026-11-02T11:17:57+00:00",
+      "query": "HLB제약"
+    },
+    {
       "title": "[바이오 마감 브리핑]HLB 계열주 강세에도 지수 하회…케어젠 FDA 의견에 급락 - 메디코파마",
       "link": "https://news.google.com/rss/articles/CBMickFVX3lxTE4xVndZME1oS0JKdGxfckdySTR5cjFGWklaajNzNXUtN1FVWkRhR2RhZTNDN0xZVWppekhmcVl0Y0lLYWtfWklLelhhNnUtTWxSUkVQWk9LSFEydlkwRTYtcDF3cXhmZVhDTzBGRk9NYmE4QQ?oc=5",
       "source": "메디코파마",
@@ -19,7 +26,7 @@
       "link": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE9DaTNoMlJYN3B4ZHRQanVOeFhOTGVnVGFXQlV5dWRCVkJEX2I3a2ZTVWJxTWkwZFkwYlZrUm9MYkVNQzV6U2gwUy1JRVdabTZVS0drYQ?oc=5",
       "source": "바이오북미디어",
       "pubDate": "2026-11-02T04:38:00+00:00",
-      "query": "HLB FDA"
+      "query": "HLB 신약"
     },
     {
       "title": "한국식품진흥원, 입주기업 코아바이오, 신제품 ‘수국차’ 생산 - 전북도민일보",
@@ -43,10 +50,10 @@
       "query": "HLB바이오스텝"
     },
     {
-      "title": "HLB제약 ‘밀키오 골드 기버터’, 홈쇼핑 첫 방송서 20분 만에 완판 - 금융신문",
-      "link": "https://news.google.com/rss/articles/CBMifEFVX3lxTFBzQThVOEdLUVprU3pkb1ROU0FSNFR3Tm9IelR2NTJaTmZCQlZEZG1KUThtU3paeHI3SWVPekNtMHl1MmdscHFrRnNlNVBTUks3ejNEdVhtSm91WTZUV3pGblA4T2NIZ3N4THladDJtQ0NDbDZhYkI4b1NqSDA?oc=5",
-      "source": "금융신문",
-      "pubDate": "2026-11-02T00:06:46+00:00",
+      "title": "HLB제약 '밀키오 골드', 첫 홈쇼핑서 20분 만에 완판…매출 4억원 - 뉴스1",
+      "link": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE82NHc1anF0RDJ4bkFUNjdPNDRub2piVXBNdDBBMGtzdzlRMzZadE1FNTE1YjJYWnBhYXdYU2haSTNvenA1VXlGRkYxckNZQUJoWlNiSFBRTll5WjRoeEdXbA?oc=5",
+      "source": "뉴스1",
+      "pubDate": "2026-11-01T23:34:52+00:00",
       "query": "HLB제약"
     },
     {
@@ -64,24 +71,17 @@
       "query": "HLB 신약"
     },
     {
-      "title": "HLB제약, 종합병원 직접 영업 확대…최대 50명 조직 구축 - 데일리팜",
-      "link": "https://news.google.com/rss/articles/CBMiUEFVX3lxTE56azZ0N0M0UVlEQlowTlFuY0tyRXB1RkpudGMwbEdpSXlvNjFjdmx6RUNYdVdsVlFQSzhpZWxhQ1BvWnNLeDBydmJwR0dLdWpG?oc=5",
+      "title": "HLB제약, 종합병원 직접 영업 신설…최대 50명 조직 구축 - 데일리팜",
+      "link": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE5tWmM5UE1pdlJyaGJOVDh4TGNyLXlxWFdaWTVnTW9TMWtoOXV0S0VBUjAxMlFZRUttbDRXNVhLWURPaUMzX3FmYlpOM3Y0ZnhBaFFscXNn?oc=5",
       "source": "데일리팜",
-      "pubDate": "2026-10-31T17:45:13+00:00",
-      "query": "HLB 신약"
+      "pubDate": "2026-10-30T21:00:52+00:00",
+      "query": "HLB제약"
     },
     {
-      "title": "HLB생명과학, 사업 포트폴리오 재편…수익성 중심 체질 개선 - 약업닷컴",
-      "link": "https://news.google.com/rss/articles/CBMi4AFBVV95cUxNaEJDOFdTRU82LUNXVlFSTS1rZnozSUVEb2ZDQmJlY2ZUSlJGQ0RVVUF0TVRuRTFpQzZtakh2Ykx2QkhyNkVmdXAtSUZEb01LVGlOanBVRlloeFlLbS1SYnp3RURoTDlDMU80amVlM05fZ0NDT0hYdVhEZUtzMWN5aEN4cjhtbjVHai0zTFZHaENBS0tFQi1nZTQzNm5qRHBXT0J2X3ZISWFtbkZ1WlVac05CVVNDbEMyaDlaRXliSUtGX1ctdkFwWm0yQlpxejlSbHpUa0p2dHk5bUZwd1B2dA?oc=5",
-      "source": "약업닷컴",
-      "pubDate": "2026-10-31T14:02:45+00:00",
-      "query": "HLB생명과학"
-    },
-    {
-      "title": "HLB라이프케어, 러닝에 혈당 데이터 접목…맞춤형 운동 관리 제시 - 메디컬투데이",
-      "link": "https://news.google.com/rss/articles/CBMibEFVX3lxTE1DRGROR0l2WHRpVEhmVkRleVNMbDFuMWdnY3J4cUV2UlpyTWJsZDBFcERZeVNCelhRZDhvUDhCQUp1SFJVYXg3MHpnSVF4SDFmMDIzSklXaHcyN1ZMLXV3dVMta1N3Q1NSQk5fZQ?oc=5",
-      "source": "메디컬투데이",
-      "pubDate": "2026-10-30T06:22:52+00:00",
+      "title": "HLB라이프케어, 러닝족 겨냥 혈당관리 체험 프로그램 선봬 - 한스경제",
+      "link": "https://news.google.com/rss/articles/CBMia0FVX3lxTE9BVGE0aC1PaHdFeGExQlpSSy1fWFB1ZHRXT1BKVjRUZElFb2tlczN0dndmOXZiU29JWTNlT1I2Zkp3TDJOMHBWeHFhYUxiVk94TDN5NVhhdHQzeTJuRlNoYnoxdXpVcS1lMEZR0gFvQVVfeXFMUFpycjJwOXFPVDQ1ZkRJQmRUOHF1QUVXbWduenNuNWJxUmNEbkZMOE1zVEJhdmxUNE1uNmhLZDdHMHZGb0Q4TmNmQjJKOTY2SGtGYU1tQ054MWc2ZmZoMjdYd0RMbF84Z25lTXN4T193?oc=5",
+      "source": "한스경제",
+      "pubDate": "2026-10-30T06:26:38+00:00",
       "query": "HLB라이프케어"
     },
     {
@@ -141,6 +141,6 @@
       "query": "현대요트"
     }
   ],
-  "fetchedAt": "2026-11-02T09:23:01.274670+00:00",
+  "fetchedAt": "2026-11-02T19:40:45.830006+00:00",
   "count": 20
 }
