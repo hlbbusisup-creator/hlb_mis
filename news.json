@@ -1,25 +1,18 @@
 {
   "news": [
     {
+      "title": "HLB이노베이션 베리스모, 'SynKIR-110' 전임상 초록 SITC서 발표 - MEDI:GATE NEWS",
+      "link": "https://news.google.com/rss/articles/CBMiV0FVX3lxTE80U0t6WDVoUzFhanZKbWNKek51Q1c0d0tOZHhaal90ekRxN2VDRG5OZ2tBYVVlTkhmVWU5MmZLSHhUMkRYa29aR3FaR2EtY2FIUU9EUVNTSQ?oc=5",
+      "source": "MEDI:GATE NEWS",
+      "pubDate": "2026-11-04T14:03:00+00:00",
+      "query": "HLB이노베이션"
+    },
+    {
       "title": "HLB 신약, 연내 승인 물건너가 - 한국경제",
       "link": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE1hNFdtV0VrTWJPNkVqSXZuWGVHNTRsS3phUW0yWFJMUkVHWU52WjI1R1FyR1RBTURITUltQUhtSzVqLUdhSEstWTFkVENNZkpkek9vN1pWQWxxQQ?oc=5",
       "source": "한국경제",
       "pubDate": "2026-11-04T08:24:19+00:00",
       "query": "HLB 신약"
-    },
-    {
-      "title": "HLB 간암 신약, 네 번째 美 허가 도전…제조시설 보완이 승부처 - 아시아투데이",
-      "link": "https://news.google.com/rss/articles/CBMibkFVX3lxTE5mOXBsYmJlSkVSd3JKZUpsR0ZXWW1WaTFGbmROY095OWJfdFhQOWVRYjA0U0M5bE83R1k2N0FFcU5TNUZGT0pVbzZpOUR6UHp4Q3QycGlReTFrYWlSXzItN3pZZUtXTFpEN1IxRHBR?oc=5",
-      "source": "아시아투데이",
-      "pubDate": "2026-11-04T07:18:16+00:00",
-      "query": "HLB 신약"
-    },
-    {
-      "title": "[마감분석] HLB제약 18.23% 하락 마감하며 8610원 기록 : 기업주식정보 - 재경일보",
-      "link": "https://news.google.com/rss/articles/CBMiS0FVX3lxTE15a000bjhUNU54NTdYNTM1VDdla0Y1NUN5ZjVYcHU2VDFMU3VMREUtU1pqU1FpX2JJUFBxbzlUTFpneEVtdldzcXhqZw?oc=5",
-      "source": "재경일보",
-      "pubDate": "2026-11-04T06:50:43+00:00",
-      "query": "HLB제약"
     },
     {
       "title": "HLB이노베이션, 고형암 CAR-T 전임상서 종양 제어·안전성 가능성 확인 - 약사공론",
@@ -36,11 +29,11 @@
       "query": "HLB제약"
     },
     {
-      "title": "HLB이노베이션 \"베리스모, 'SynKIR-110' 전임상 결과 공개\" - 뉴스핌",
-      "link": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE9IVTY1QThlRTA5Q2ltS1BLTUZuS0xtbWF5Xy1NbXRNSDR0c0dGdkN6VFRMdGtKRXQxQTFIMmVIVGdMNGFjdThvMkFmZWMycDRpY1MzMVEwUkZEVEVy?oc=5",
-      "source": "뉴스핌",
-      "pubDate": "2026-11-04T02:34:00+00:00",
-      "query": "HLB이노베이션"
+      "title": "HLB 간암 신약, FDA 본심사 착수 '내년 4월 허가 판가름' - 약사공론",
+      "link": "https://news.google.com/rss/articles/CBMibEFVX3lxTE1uWmRid2ZaRkdwcG1jTUVpZnNnUHpUaGZjV29xLS1RSEJOTWp6aFR4Q2pTNzFxUTJRYjlIMjl6eU5hbXUtb3pUS3h1SElzalIzUG5EQ1Vuc3B1RkItSHNsNVU0TDRJMEllVU9BbQ?oc=5",
+      "source": "약사공론",
+      "pubDate": "2026-11-04T04:34:47+00:00",
+      "query": "HLB 신약"
     },
     {
       "title": "[특징주] 외국인 'HLB제약·한국전력', 기관 '래블업·삼성전자·한화솔루션' 러브콜 - 뉴스티앤티",
@@ -48,20 +41,6 @@
       "source": "뉴스티앤티",
       "pubDate": "2026-11-04T02:33:17+00:00",
       "query": "HLB제약"
-    },
-    {
-      "title": "HLB, 기대보다 길어진 美FDA 심사 기간 결정되자 '급락' - 한국경제",
-      "link": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE9GeGU1R3RzMWhlN3A4TDlnLVgxZkhnNm9ZZ2FxYmhwN3Q2M2dvYzFHRGZrS2VCRkM2Nnp2djRsSTU4dkFIOG1OaHZrU2RRYnNIc2ZUeV9sQmJwUQ?oc=5",
-      "source": "한국경제",
-      "pubDate": "2026-11-04T00:24:29+00:00",
-      "query": "HLB FDA"
-    },
-    {
-      "title": "[BioS]HLB, ‘리보세라닙’ FDA 허가결정 내년 4월9일까지 - 이투데이",
-      "link": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE9IR1lMMlhpT1EwUWJ0RnhhU18yUVM2Qi1jOENKbU8wVE1wWkx4eXJMQVR4ak9iVXhhMmI0cFRIUXVCXzFQLU1OWk9lbHBBT0RBd1RwTg?oc=5",
-      "source": "이투데이",
-      "pubDate": "2026-11-04T00:10:00+00:00",
-      "query": "HLB FDA"
     },
     {
       "title": "[속보] HLB 그룹주 장초반부터 '급락'…HLB생명과학 22%↓·HLB 19%↓, 계열사 줄줄이 두 자릿수 하락 - CBC뉴스",
@@ -106,17 +85,17 @@
       "query": "HLB바이오스텝"
     },
     {
-      "title": "HLB생명과학, 사업 포트폴리오 재편…수익성 중심 체질 개선 - 약업닷컴",
-      "link": "https://news.google.com/rss/articles/CBMi4AFBVV95cUxNaEJDOFdTRU82LUNXVlFSTS1rZnozSUVEb2ZDQmJlY2ZUSlJGQ0RVVUF0TVRuRTFpQzZtakh2Ykx2QkhyNkVmdXAtSUZEb01LVGlOanBVRlloeFlLbS1SYnp3RURoTDlDMU80amVlM05fZ0NDT0hYdVhEZUtzMWN5aEN4cjhtbjVHai0zTFZHaENBS0tFQi1nZTQzNm5qRHBXT0J2X3ZISWFtbkZ1WlVac05CVVNDbEMyaDlaRXliSUtGX1ctdkFwWm0yQlpxejlSbHpUa0p2dHk5bUZwd1B2dA?oc=5",
-      "source": "약업닷컴",
-      "pubDate": "2026-10-31T14:02:45+00:00",
-      "query": "HLB생명과학"
+      "title": "HLB제약, 밀키오 골드 기버터 ‘인기’…홈쇼핑서 20분만에 완판 - 아시아경제",
+      "link": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE1FQXZPa1NGZHpRTjdXcDMxb2FXLWpJYnlVRjNralA0dXdCNlRxNG5OQWJHSmMxOEFCWnllem5rem9iMkE0d1Q4TnhheTJvRE9hQnhXSGlvTWVhU1IzQzVJTA?oc=5",
+      "source": "아시아경제",
+      "pubDate": "2026-11-01T23:08:29+00:00",
+      "query": "HLB제약"
     },
     {
-      "title": "HLB라이프케어, 러닝에 혈당 데이터 접목…맞춤형 운동 관리 제시 - 메디컬투데이",
-      "link": "https://news.google.com/rss/articles/CBMibEFVX3lxTE1DRGROR0l2WHRpVEhmVkRleVNMbDFuMWdnY3J4cUV2UlpyTWJsZDBFcERZeVNCelhRZDhvUDhCQUp1SFJVYXg3MHpnSVF4SDFmMDIzSklXaHcyN1ZMLXV3dVMta1N3Q1NSQk5fZQ?oc=5",
-      "source": "메디컬투데이",
-      "pubDate": "2026-10-30T06:22:52+00:00",
+      "title": "HLB라이프케어, 러닝족 겨냥 혈당관리 체험 프로그램 선봬 - 한스경제",
+      "link": "https://news.google.com/rss/articles/CBMia0FVX3lxTE9BVGE0aC1PaHdFeGExQlpSSy1fWFB1ZHRXT1BKVjRUZElFb2tlczN0dndmOXZiU29JWTNlT1I2Zkp3TDJOMHBWeHFhYUxiVk94TDN5NVhhdHQzeTJuRlNoYnoxdXpVcS1lMEZR0gFvQVVfeXFMUFpycjJwOXFPVDQ1ZkRJQmRUOHF1QUVXbWduenNuNWJxUmNEbkZMOE1zVEJhdmxUNE1uNmhLZDdHMHZGb0Q4TmNmQjJKOTY2SGtGYU1tQ054MWc2ZmZoMjdYd0RMbF84Z25lTXN4T193?oc=5",
+      "source": "한스경제",
+      "pubDate": "2026-10-30T06:26:38+00:00",
       "query": "HLB라이프케어"
     },
     {
@@ -141,6 +120,6 @@
       "query": "티니코"
     }
   ],
-  "fetchedAt": "2026-11-04T09:56:36.096066+00:00",
-  "count": 20
+  "fetchedAt": "2026-11-04T17:57:41.250706+00:00",
+  "count": 17
 }
