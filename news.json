@@ -1,8 +1,29 @@
 {
   "news": [
     {
+      "title": "[민주 약국] HLB이노베이션·일동헬스케어·대원제약 - 민주신문",
+      "link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE5PYTU2Q1lBaTlfdmhFY29VX3hUa0t0STBSeXBjZ1Y4RHhnYVE1QVl1Qk04YjJvOC1faG9hNzJQbHdlSjRod0w4UEdic0ZSX1BkUUgyQi16Q2pGMk1BOVRpb0puemNyejTSAWtBVV95cUxQUldRMTgwX3hmbExKR1pmbHFNa0NxUF9GZG9Za0Y3SENsZmlvUm9KUmctMmZUMzdrTFdLRElPczh4RGRWV1ZlM05SR0hKQi1CS19YUUZFMk5LSGJfdnJXYWZRbVFCT1A3RWFMcw?oc=5",
+      "source": "민주신문",
+      "pubDate": "2026-11-05T08:32:16+00:00",
+      "query": "HLB이노베이션"
+    },
+    {
+      "title": "HLB이노베이션 \"베리스모, AACR 이어 ASH서도 구두 발표\" - 뉴스핌",
+      "link": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE56Z3IxVC1Zb0NTYkdVZk45TUQ3Vk1kMXhab3JGOEk1NXM4LXRSTXJMMzJILW13OVNwUGZXdERGUS1HVllmUDROcXp5a01xRUgtamI4cExCMWlZRTFi?oc=5",
+      "source": "뉴스핌",
+      "pubDate": "2026-11-05T06:23:00+00:00",
+      "query": "HLB이노베이션"
+    },
+    {
+      "title": "HLB이노베이션, 혈액암 CAR-T 임상 1상서 객관적반응률 80% - 아이뉴스24",
+      "link": "https://news.google.com/rss/articles/CBMiS0FVX3lxTE5XOHdlUzM5TkRuVGRTbHJxN05CZ0oxRlQ4QmRMaDVRVGJMWHRkb0dEVmpPbjVhSnFkSDFMU1JBcGhrazdfelAyNEJiQQ?oc=5",
+      "source": "아이뉴스24",
+      "pubDate": "2026-11-05T06:13:56+00:00",
+      "query": "HLB 임상"
+    },
+    {
       "title": "\"클래스1 자신하더니\"⋯HLB 간암 신약 FDA 승인 올해 물건너가 - 아이뉴스24",
-      "link": "https://news.google.com/rss/articles/CBMiS0FVX3lxTFBEUjhMY2VuRWZQclUzT0MyaEwyU2dDbzJPSVlKZVl2ZUpXVFI4Zjl4VDJac1ZLRnlhM1ZJcWhvbzVQNWxEYTh3dmt4TQ?oc=5",
+      "link": "https://news.google.com/rss/articles/CBMiS0FVX3lxTFAtZm1XcXBzNnFnX3dNUWpoYWg0cjFQeHVURjREVHhYZ0g5bGJwaTVCN2tucWQwTWhadlpUUE5sN3B6X3hNcUNpQXJJQQ?oc=5",
       "source": "아이뉴스24",
       "pubDate": "2026-11-05T02:19:28+00:00",
       "query": "HLB 신약"
@@ -20,20 +41,6 @@
       "source": "팜이데일리",
       "pubDate": "2026-11-05T00:41:04+00:00",
       "query": "HLB 임상"
-    },
-    {
-      "title": "HLB이노베이션 베리스모, 'SynKIR-110' 전임상 초록 SITC서 발표 - MEDI:GATE NEWS",
-      "link": "https://news.google.com/rss/articles/CBMiV0FVX3lxTE80U0t6WDVoUzFhanZKbWNKek51Q1c0d0tOZHhaal90ekRxN2VDRG5OZ2tBYVVlTkhmVWU5MmZLSHhUMkRYa29aR3FaR2EtY2FIUU9EUVNTSQ?oc=5",
-      "source": "MEDI:GATE NEWS",
-      "pubDate": "2026-11-04T14:03:00+00:00",
-      "query": "HLB이노베이션"
-    },
-    {
-      "title": "SK바이오팜·HLB, 미국 FDA 허가 추진...신약시장 공략 속도 - 뉴스투데이",
-      "link": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE5ITTJob20zUkFMX2F2akFuVTJXdm1mR2Zfd1YyZkM0SUpCRGFJT3FDdk9XLUFIOHk4VEhlNWZrLUpVZFFsVDh6dFFqS05oRC16Y0lKMVcxRUIzV0Rpb1E?oc=5",
-      "source": "뉴스투데이",
-      "pubDate": "2026-11-04T08:50:00+00:00",
-      "query": "HLB 허가"
     },
     {
       "title": "HLB제넥스 子 지에프퍼멘텍, 태국서 발효 기반 복합 세라마이드 신제품 공개 - 더바이오",
@@ -72,7 +79,7 @@
     },
     {
       "title": "한국식품진흥원, 입주기업 코아바이오, 신제품 ‘수국차’ 생산 - 전북도민일보",
-      "link": "https://news.google.com/rss/articles/CBMiakFVX3lxTE5pYTlpNlctUUx1Y21LQTJ2VTNwZkZ3SFl0b0NOWTVMSEdDM2FGWnVrOGFvdVRFdkNkNGNQYkdaeWs3S1dKMkx3eUVhNnViRWhLelRTS3ZzQlhyNnBzRS00SGhEa29jUEVfdHc?oc=5",
+      "link": "https://news.google.com/rss/articles/CBMihwFBVV95cUxNSzg5eVpUaF9FSkkwTFpLZS1hMGwxNmlsRkttSE1pSWFPTGFhbmc5VFIzQ1FraHAzZW5iNHFOS0QyLVFkeHhXVXVWcEhwWXpQeGFOZUc5ZjVNQU9QZU9HVUR6NVh0TzBJbDJwaVd6WVNOMEU4X1hLQzZRa3MyUjY1VzVsdF9pWDg?oc=5",
       "source": "전북도민일보",
       "pubDate": "2026-11-02T04:10:00+00:00",
       "query": "코아바이오"
@@ -86,7 +93,7 @@
     },
     {
       "title": "HLB제약, 밀키오 골드 기버터 ‘인기’…홈쇼핑서 20분만에 완판 - 아시아경제",
-      "link": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE84dW9KbF90RDBRaFZudHpmMlFwVFFLdnF0bnlpcE9RM2xaTFZCTks4YmZiR0poVlQxNGZzcDlpdmpjQlNCbnE2N2JfNnRLQ0lwdElPLV9FT01KaEdtMVlKMmd3?oc=5",
+      "link": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE1FQXZPa1NGZHpRTjdXcDMxb2FXLWpJYnlVRjNralA0dXdCNlRxNG5OQWJHSmMxOEFCWnllem5rem9iMkE0d1Q4TnhheTJvRE9hQnhXSGlvTWVhU1IzQzVJTA?oc=5",
       "source": "아시아경제",
       "pubDate": "2026-11-01T23:08:29+00:00",
       "query": "HLB제약"
@@ -111,15 +118,8 @@
       "source": "아시아경제",
       "pubDate": "2026-10-30T01:26:11+00:00",
       "query": "HLB라이프케어"
-    },
-    {
-      "title": "티니코, 의료·산업용 니티놀 소재 판매 확대 - 철강금속신문",
-      "link": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE1ZMGFqc2lBYlBTR050cmJ6WXBDQWNydUlJMV9YYjlxRDJTdGs5R2NYQ1pNcFBPRXg4emRUcW5LcXIyajZNMUtvSEFaOTZQaUVldkR3cG9JeFoxWElibkRVakkzbGU?oc=5",
-      "source": "철강금속신문",
-      "pubDate": "2026-10-29T08:05:28+00:00",
-      "query": "티니코"
     }
   ],
-  "fetchedAt": "2026-11-05T03:46:05.509667+00:00",
+  "fetchedAt": "2026-11-05T11:38:43.676692+00:00",
   "count": 17
 }
