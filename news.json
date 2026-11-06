@@ -1,6 +1,20 @@
 {
   "news": [
     {
+      "title": "HLB테라퓨틱스 RGN-259, 3상 'Completed' 갱신...데이터 공개 초읽기 - PRESS9",
+      "link": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE41R3lGNGZNMjZYSy1kUXVBRkNNbkNscXBsanZDVjhjOHBLaUlReTFnNGlHWThudUhSdnFQSklaQnlfZGg3WVZGVktXQk12cGVndWxiMkJIRmNXYXI2czFldUdNaEg?oc=5",
+      "source": "PRESS9",
+      "pubDate": "2026-11-06T02:10:13+00:00",
+      "query": "HLB 임상"
+    },
+    {
+      "title": "HLB그룹주 대부분 하락…HLB바이오스텝 상승·이노베이션 6.08% 내려 - CBC뉴스",
+      "link": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE5OeTVrQTRrZ0dDQ1NXbW9sNTVaOWZWSERjYi1TdjJaMGhBNnVyaGRERWNVNE5RV2NvN3ZFc0dhdU1BXzgwZG1EMTV5ZVNDYmlvYWtETm0xenRWclZ2WElMVEg3SVlqaXdT?oc=5",
+      "source": "CBC뉴스",
+      "pubDate": "2026-11-06T01:16:54+00:00",
+      "query": "HLB바이오스텝"
+    },
+    {
       "title": "[숏폼] HLB 간암 신약, FDA 허가 재도전…4월 9일 심사 결론 - 히트뉴스",
       "link": "https://news.google.com/rss/articles/CBMia0FVX3lxTE9VcjB2dHRncUtMY3RnMlUzTWdCUEEtdnBWZVNxX1pIXzZQaXI4TVZ0ZXhfcTYtTi1hdUMwc05yU0l3RGlma2NOV2dkOXFVUXlYUjc5VUdzekcwTDdOcHNmN2VJOTBOX1N4NWxN?oc=5",
       "source": "히트뉴스",
@@ -15,20 +29,6 @@
       "query": "HLB 임상"
     },
     {
-      "title": "HLB이노베이션 \"베리스모, AACR 이어 ASH서도 구두 발표\" - 뉴스핌",
-      "link": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE56Z3IxVC1Zb0NTYkdVZk45TUQ3Vk1kMXhab3JGOEk1NXM4LXRSTXJMMzJILW13OVNwUGZXdERGUS1HVllmUDROcXp5a01xRUgtamI4cExCMWlZRTFi?oc=5",
-      "source": "뉴스핌",
-      "pubDate": "2026-11-05T06:23:00+00:00",
-      "query": "HLB이노베이션"
-    },
-    {
-      "title": "HLB이노베이션, 혈액암 CAR-T 임상 1상서 객관적반응률 80% - 아이뉴스24",
-      "link": "https://news.google.com/rss/articles/CBMiS0FVX3lxTE5XOHdlUzM5TkRuVGRTbHJxN05CZ0oxRlQ4QmRMaDVRVGJMWHRkb0dEVmpPbjVhSnFkSDFMU1JBcGhrazdfelAyNEJiQQ?oc=5",
-      "source": "아이뉴스24",
-      "pubDate": "2026-11-05T06:13:56+00:00",
-      "query": "HLB 임상"
-    },
-    {
       "title": "HLB이노베이션 美서 CAR-T 전임상 데이터 공개 - 팜이데일리",
       "link": "https://news.google.com/rss/articles/CBMibkFVX3lxTE90RnpqUXhNNDZISUlaVEhpVk14bWNWTHhXZWh1UkhHemVlSlJadDhPZERRbmFlWERNN1k5VE1jdFpDaVlXVFVqeFBaTEFLUlJwYXlzUFNqc2hESURHS01mUlJNQnRkSFdpZm5SeUFn?oc=5",
       "source": "팜이데일리",
@@ -36,11 +36,18 @@
       "query": "HLB 임상"
     },
     {
-      "title": "HLB 리보세라닙, 美 FDA 품목허가 내년 4월께 결정 - 데일리안",
-      "link": "https://news.google.com/rss/articles/CBMi1wFBVV95cUxOVW9Hb1lweVFWY0FldEZLUnhhRmhfU0tVb0hHMExHYWZ6TVBwd3VZclVRdXhxbEVBbWJkcXBQMUZyaTk2VC1NdnBSUTRlbG9HT0JSY0wtNFZZVHkwdFdkT29vOW9SZFNsYjN6Vks4bzl5RGNtbGh6amdybGRFR2VEREVJZEhaaEpzOHp4NWFSMDE4VHRVWWE4dlltTDBVSjhuTTVJbW0xNEkySzgwX1BCdmd4SC1CaTJtVDl4VTFyalZkdnFWN0lhVXNGck5YQ3pSdXFSRl91TQ?oc=5",
-      "source": "데일리안",
-      "pubDate": "2026-11-04T08:51:00+00:00",
-      "query": "HLB FDA"
+      "title": "[ASH 2026]HLB이노베이션 혈액암 CAR-T, 완전관해 60%…12개월 지속 사례 확인 - 메디코파마",
+      "link": "https://news.google.com/rss/articles/CBMickFVX3lxTE80Q3dPZjlBXzBCNENhYUVOZmVkMXZTWV9CdExFMEloenBhYjJCdmluVUFBclRCNURfeHNOYWU0UG1BOVA1N3R2bS1jeGdNeE9qQW83M2pVZnR3cnRJZ1l6d2xlbXo4ZEx6eUxnU1Jqc2hVZw?oc=5",
+      "source": "메디코파마",
+      "pubDate": "2026-11-04T21:00:00+00:00",
+      "query": "HLB이노베이션"
+    },
+    {
+      "title": "HLB이노베이션 베리스모, 'SynKIR-110' 전임상 초록 SITC서 발표 - MEDI:GATE NEWS",
+      "link": "https://news.google.com/rss/articles/CBMiV0FVX3lxTE80U0t6WDVoUzFhanZKbWNKek51Q1c0d0tOZHhaal90ekRxN2VDRG5OZ2tBYVVlTkhmVWU5MmZLSHhUMkRYa29aR3FaR2EtY2FIUU9EUVNTSQ?oc=5",
+      "source": "MEDI:GATE NEWS",
+      "pubDate": "2026-11-04T14:03:00+00:00",
+      "query": "HLB이노베이션"
     },
     {
       "title": "HLB 신약, 연내 승인 물건너가 - 한국경제",
@@ -50,18 +57,18 @@
       "query": "HLB 신약"
     },
     {
-      "title": "HLB이노베이션, 고형암 CAR-T 전임상서 종양 제어·안전성 가능성 확인 - 약사공론",
-      "link": "https://news.google.com/rss/articles/CBMibEFVX3lxTE9DZ241ZldxeE56TDdHTDA5Vm4tb2pRbjl3ZEk0YjYwTS1TVGFLVDdrWDl0YWEtbjFBdkpVYzQxYlRKQTNrVTRCbzFJYVcxNWp4QndYUnNiNDRVVHNKbUtWeTUwQVY5Z2N2SE1UQg?oc=5",
-      "source": "약사공론",
-      "pubDate": "2026-11-04T05:22:39+00:00",
-      "query": "HLB이노베이션"
-    },
-    {
       "title": "HLB제약, 종합병원 전담 영업조직 신설…CSO 구조 보완 - 데일리팜",
       "link": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE5tWmM5UE1pdlJyaGJOVDh4TGNyLXlxWFdaWTVnTW9TMWtoOXV0S0VBUjAxMlFZRUttbDRXNVhLWURPaUMzX3FmYlpOM3Y0ZnhBaFFscXNn?oc=5",
       "source": "데일리팜",
       "pubDate": "2026-11-04T05:20:14+00:00",
       "query": "HLB제약"
+    },
+    {
+      "title": "HLB, ‘리보세라닙’ FDA 허가결정 내년 4월9일까지 - 바이오스펙테이터",
+      "link": "https://news.google.com/rss/articles/CBMiV0FVX3lxTE1IV1B3LVJNWFRNTkRnN2FNeFJFWURrLVA5SGNzcGNETGhHWnBtbzRmNTUyTmo0MXMwRS1DVjhQV1lockhRU3N0V0JoZzEtMkI5amV0UHNXRQ?oc=5",
+      "source": "바이오스펙테이터",
+      "pubDate": "2026-11-04T00:06:00+00:00",
+      "query": "HLB 허가"
     },
     {
       "title": "[Who Is ?] 백윤기 HLB생명과학 대표이사 사장 - 비즈니스포스트",
@@ -85,34 +92,13 @@
       "query": "코아바이오"
     },
     {
-      "title": "HLB그룹주, 금요일 애프터마켓 급등 이어 월요일 강세…HLB바이오스텝 16%대 껑충 - CBC뉴스",
-      "link": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE1BVHpCbHM1aDY0STd4bzlQRnBWMnU2emdLYU9WUTAzcXl5TGlCYVBndVh1bWppdEVFbko4SE03V2RRNEpRdHhzTkJLWjZhZGdKSEFTMHBkMkpsU1oyVDc4NzFCaVJ1MDdB?oc=5",
-      "source": "CBC뉴스",
-      "pubDate": "2026-11-02T00:56:11+00:00",
-      "query": "HLB바이오스텝"
-    },
-    {
       "title": "HLB제약, 밀키오 골드 기버터 ‘인기’…홈쇼핑서 20분만에 완판 - 아시아경제",
       "link": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE1FQXZPa1NGZHpRTjdXcDMxb2FXLWpJYnlVRjNralA0dXdCNlRxNG5OQWJHSmMxOEFCWnllem5rem9iMkE0d1Q4TnhheTJvRE9hQnhXSGlvTWVhU1IzQzVJTA?oc=5",
       "source": "아시아경제",
       "pubDate": "2026-11-01T23:08:29+00:00",
       "query": "HLB제약"
-    },
-    {
-      "title": "러닝에도 MBTI가 있다?…HLB라이프케어, 러닝 유형별 운동법 제안 - 뉴스1",
-      "link": "https://news.google.com/rss/articles/CBMiYEFVX3lxTFBYdW9Uc3dfOFpGTXR4NGFZQVJDMHFqMGFLdWNYSlduckk2LVU1aDZuTHpDTEstdEZ4VF9kcXNIajVERFNQQklXUjR5OC1UUTZxTFlyU19UWTgyWUNDTHpQSA?oc=5",
-      "source": "뉴스1",
-      "pubDate": "2026-10-30T06:21:40+00:00",
-      "query": "HLB라이프케어"
-    },
-    {
-      "title": "HLB라이프케어, '코리아 러닝 엑스포' 참가 - 아시아경제",
-      "link": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE42cHdtYlJNMXhKMkRfM0xoc0Y4VHAxSi0yNXoteWh3RnFIaW44VF8zNmtGelZKcnFNQkpaY1FDRlBtV21GWkhBcl8tTXBVc0NJTnUyUElDclhyVUwtQ2hqYQ?oc=5",
-      "source": "아시아경제",
-      "pubDate": "2026-10-30T01:26:11+00:00",
-      "query": "HLB라이프케어"
     }
   ],
-  "fetchedAt": "2026-11-06T00:09:31.533436+00:00",
-  "count": 16
+  "fetchedAt": "2026-11-06T07:09:51.348850+00:00",
+  "count": 14
 }
