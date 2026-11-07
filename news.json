@@ -1,11 +1,18 @@
 {
   "news": [
     {
+      "title": "[바이오 브리프] 셀트리온·대웅제약·HK이노엔·HLB이노베이션 - ER 이코노믹리뷰",
+      "link": "https://news.google.com/rss/articles/CBMibEFVX3lxTE9hMHVVbGhPZ0ptbnFfTFpxZFQ3TEo3NHlnNkJpV3ZsNkxCZVBjQlYxRU1GMW0tdW1aTnMwTmRTaUJibUxWbnNkcGx2QmF4TGpMZWlhTnZnU3JOaUJ6Rm5qbmxtQ0hnXzZYc0tHNw?oc=5",
+      "source": "ER 이코노믹리뷰",
+      "pubDate": "2026-11-07T02:30:00+00:00",
+      "query": "HLB 임상"
+    },
+    {
       "title": "HLB테라퓨틱스 RGN-259, 3상 'Completed' 갱신...데이터 공개 초읽기 - PRESS9",
       "link": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE41R3lGNGZNMjZYSy1kUXVBRkNNbkNscXBsanZDVjhjOHBLaUlReTFnNGlHWThudUhSdnFQSklaQnlfZGg3WVZGVktXQk12cGVndWxiMkJIRmNXYXI2czFldUdNaEg?oc=5",
       "source": "PRESS9",
       "pubDate": "2026-11-06T02:10:13+00:00",
-      "query": "HLB 임상"
+      "query": "HLB테라퓨틱스"
     },
     {
       "title": "HLB그룹주 대부분 하락…HLB바이오스텝 상승·이노베이션 6.08% 내려 - CBC뉴스",
@@ -43,6 +50,13 @@
       "query": "HLB이노베이션"
     },
     {
+      "title": "HLB 자회사 엘레바, 간암신약 FDA 본심사 개시 : 네이버 블로그 - Naver Blog",
+      "link": "https://news.google.com/rss/articles/CBMijwFBVV95cUxQX3RmM2RiSHJ1LXcyUXdfamU4bDNGbm5pQ01aOFNYajFmWFNaVWJXemZ0dFhMZGxlR21MSW1wMHQzd2hkMmNHaTBRdEw3T3UzbDhCR1drYU9ubk9PQmFhakFIUkYtcjBMWWlLU0tBd1R1YVBnVGVzcGE2TENGY3hGRkJBbDJ6WnBQRHNlYWZFQQ?oc=5",
+      "source": "Naver Blog",
+      "pubDate": "2026-11-04T08:35:00+00:00",
+      "query": "HLB FDA"
+    },
+    {
       "title": "HLB 신약, 연내 승인 물건너가 - 한국경제",
       "link": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE1hNFdtV0VrTWJPNkVqSXZuWGVHNTRsS3phUW0yWFJMUkVHWU52WjI1R1FyR1RBTURITUltQUhtSzVqLUdhSEstWTFkVENNZkpkek9vN1pWQWxxQQ?oc=5",
       "source": "한국경제",
@@ -78,13 +92,6 @@
       "query": "HLB생명과학"
     },
     {
-      "title": "HLB \"간암신약 '리보세라닙', 美FDA 본심사 개시\" - 뉴시스",
-      "link": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE4xZ0Q2M1c5RnVUdUhnTEVVLW14N1lfQ1h3VFRzUkxkTENrN2pnT2NTMzQ0VE1NNDFyeWlHUXVnU0ZxbXoxNlY3UElFdlZTcGRhU0YzRjhjQmxvMW9EalhDStIBeEFVX3lxTE9iNGJHaGp0bVJrbzRuU203UlliWkJLaldZZjM5SlZ6NnA5S0V1TFNzM1htWWlha0lac3kzTmk1bVRKci1HVWRSb1F5NXJ1U1RJYXhRQktqckN6aTBYVm84VjdIenBIZE9xbW5RS25OVEVSUnl0ZjZ1cg?oc=5",
-      "source": "뉴시스",
-      "pubDate": "2026-11-03T23:30:03+00:00",
-      "query": "HLB FDA"
-    },
-    {
       "title": "HLB, '리보세라닙' 병용 클래스2 결정 \"내년 4월 허가여부 결정\" - 파이낸스스코프",
       "link": "https://news.google.com/rss/articles/CBMiakFVX3lxTE52SmxwUzhBRDI5Mnp1cTYtR2FqNEIwaDRrVnB5a2FoNFU2TTV1OUFDN0RGSXVwSzUzY25zMXZGTzV5bWRCclhOUFJQWVpweTYtRV9LbndtT3hhUUViaEtUXzVDc2pYRF9yNXc?oc=5",
       "source": "파이낸스스코프",
@@ -113,6 +120,6 @@
       "query": "코아바이오"
     }
   ],
-  "fetchedAt": "2026-11-07T00:52:20.053034+00:00",
-  "count": 16
+  "fetchedAt": "2026-11-07T07:03:11.168014+00:00",
+  "count": 17
 }
