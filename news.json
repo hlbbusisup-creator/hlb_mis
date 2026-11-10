@@ -1,6 +1,13 @@
 {
   "news": [
     {
+      "title": "\"FDA 허가가 끝 아니다\"…HLB, 신약개발 '허브&스포크' 모델 추진 - 뉴스1",
+      "link": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE03ZFZwRWVPNGtBd1E0RFJCRGZfekFNTTluSjRLU0piRnR1c1pHMVBHQ0hJLTlaSXRJQmxnSTN6UUxmeEsxVjN3TWVCc1lsRnZBa1ZHMjlaMV92Zzl0Y1Q1eg?oc=5",
+      "source": "뉴스1",
+      "pubDate": "2026-11-10T03:07:22+00:00",
+      "query": "HLB 신약"
+    },
+    {
       "title": "HLB이노베이션, 정부·지자체 지원사업 3건 선정...\"스마트 제조체계 구축\" - 팍스경제TV",
       "link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE1Qc3docy1vNWlTMF9LaG02WTJUaTlNRDl5S2FIQXBqVG9tZWZZbjh2aVdzTHhLak1tc3NEaThJcmRsblo3a3c1SXZaSUxLM0VUUDZmc2FIV0ZIOWNNU0JNVnIxY1dhMms?oc=5",
       "source": "팍스경제TV",
@@ -36,13 +43,6 @@
       "query": "코아바이오"
     },
     {
-      "title": "HLB이노베이션(024850) : 씽크풀 - ThinkPool",
-      "link": "https://news.google.com/rss/articles/CBMiS0FVX3lxTE1UeUcxVmoxVUJZQ2RKWThIVmkzbzN2c3hLZ3VuZmw5NGNuMmZDaHFXWkd4VlBjZ0l5SjZ4VTlLZEE1aGlzWGU5MFEwVQ?oc=5",
-      "source": "ThinkPool",
-      "pubDate": "2026-11-06T08:00:00+00:00",
-      "query": "HLB이노베이션"
-    },
-    {
       "title": "HLB테라퓨틱스 RGN-259, 3상 'Completed' 갱신...데이터 공개 초읽기 - PRESS9",
       "link": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE41R3lGNGZNMjZYSy1kUXVBRkNNbkNscXBsanZDVjhjOHBLaUlReTFnNGlHWThudUhSdnFQSklaQnlfZGg3WVZGVktXQk12cGVndWxiMkJIRmNXYXI2czFldUdNaEg?oc=5",
       "source": "PRESS9",
@@ -61,7 +61,7 @@
       "link": "https://news.google.com/rss/articles/CBMia0FVX3lxTE9VcjB2dHRncUtMY3RnMlUzTWdCUEEtdnBWZVNxX1pIXzZQaXI4TVZ0ZXhfcTYtTi1hdUMwc05yU0l3RGlma2NOV2dkOXFVUXlYUjc5VUdzekcwTDdOcHNmN2VJOTBOX1N4NWxN?oc=5",
       "source": "히트뉴스",
       "pubDate": "2026-11-05T21:01:00+00:00",
-      "query": "HLB 허가"
+      "query": "HLB 신약"
     },
     {
       "title": "HLB 베리스모, 혈액암 CAR-T 임상서 반응률 80% 확인 By EBN - Investing.com 한국어",
@@ -92,6 +92,6 @@
       "query": "HLB 신약"
     }
   ],
-  "fetchedAt": "2026-11-09T21:32:56.529526+00:00",
+  "fetchedAt": "2026-11-10T03:50:48.633437+00:00",
   "count": 13
 }
