@@ -1,6 +1,20 @@
 {
   "news": [
     {
+      "title": "HLB펩, 원료 공급 완제의약품 멕시코 품목허가 획득 - 로이슈",
+      "link": "https://news.google.com/rss/articles/CBMiekFVX3lxTE1SRTl5c003UnBYY2wzVGRud2c3em1tWjZtZTVXQ1NyS25yWGRISmZWckdnTlBjdTE1R2xVWmZoOXBpdjZ1MzZsaXF1NkJZcDEyT3VmR0xGTUw1cTNtZTdXU2RuSmpLTnhtSmZpMHFuMWFuM05oM3JzSzdB?oc=5",
+      "source": "로이슈",
+      "pubDate": "2026-11-10T09:31:15+00:00",
+      "query": "HLB펩"
+    },
+    {
+      "title": "HLB펩 \"류프로렐린 원료 의약품, 해외서 첫 허가\" - 뉴시스",
+      "link": "https://news.google.com/rss/articles/CBMiYEFVX3lxTFA1RlVRcnduSUhodTdIRTFRWkFvcE51TnJzMGotSzN6MWN3M3AteHZIRktrWHg0ZUcyQ0hEQ2xHbnlfeWdQR3N3WGp6Vm5UYlNmTjdkd1RhbTBHb1gwVXVaZdIBeEFVX3lxTE5Tcnh0anFxMm9SS2FnRFVoeFFqZTRxR3R0UzFjWXZxUVZoTUpMWUlFdTMwN0VjWlczcDJkX2U2NmVwdGxpZzBYUHpvTVFidlhsZmNUbVpUVnU4TjIzeUY1SkVQa0ZaZkNCTDJheUFhb3BZTWU5eXM5cw?oc=5",
+      "source": "뉴시스",
+      "pubDate": "2026-11-10T07:10:36+00:00",
+      "query": "HLB펩"
+    },
+    {
       "title": "\"FDA 허가가 끝 아니다\"…HLB, 신약개발 '허브&스포크' 모델 추진 - 뉴스1",
       "link": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE03ZFZwRWVPNGtBd1E0RFJCRGZfekFNTTluSjRLU0piRnR1c1pHMVBHQ0hJLTlaSXRJQmxnSTN6UUxmeEsxVjN3TWVCc1lsRnZBa1ZHMjlaMV92Zzl0Y1Q1eg?oc=5",
       "source": "뉴스1",
@@ -15,11 +29,11 @@
       "query": "HLB이노베이션"
     },
     {
-      "title": "“반도체 공정에 AI 얹는다”… HLB이노베이션, 36억 스마트제조 사업 - 지이코노미",
-      "link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE4xdTNvU1gwdWR0QlFOV0Y1U3NCc2ZteWpqc0NUOERvNUlaZUhkYjFXcXl4MTRBTWdfOWR3RnRCd0tpdG5JZ2FJTGVwRThtc2gxU1liNTU0QTJBZWhyLU5ndWxRdUIzWFk?oc=5",
-      "source": "지이코노미",
-      "pubDate": "2026-11-09T12:11:21+00:00",
-      "query": "HLB이노베이션"
+      "title": "HLB생활건강 ‘테트라포스’, 이마트 - 이투데이",
+      "link": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE13SjktVS1tZmRUZWJSQmowU2ptR3cyd0lrSGU1dGtJcHdsbGtnQnNPUEVGUVo3LVRZN0NfNTRTN20zSUhJOGNZMnNVWlRyWFIwMGdtY0IzSFZJU00wNXdRUWJFSXVISDhC?oc=5",
+      "source": "이투데이",
+      "pubDate": "2026-11-09T14:28:39+00:00",
+      "query": "HLB생활건강"
     },
     {
       "title": "HLB제약, 영업시스템 개편···지급수수료↑·판관비율과 직원 숫자↓ - 시사저널e",
@@ -27,13 +41,6 @@
       "source": "시사저널e",
       "pubDate": "2026-11-09T07:43:07+00:00",
       "query": "HLB제약"
-    },
-    {
-      "title": "HLB펩, 동적 VI 괴리율 -6.11%…발동가 3,070원 - CBC뉴스",
-      "link": "https://news.google.com/rss/articles/CBMiaEFVX3lxTFBCbDVrbTJBd1Rrb3g4WU1NSkRpaXZQRGgtVnJUejdITGR3TTdzbUMwWGF6c243Z3hCRXNkS0hRVlFkbENKSVVMYzVQVkpRdVVSY1U5c01hNVg0ekVxWEJfWVJZdFItakQy?oc=5",
-      "source": "CBC뉴스",
-      "pubDate": "2026-11-09T01:55:16+00:00",
-      "query": "HLB펩"
     },
     {
       "title": "코아바이오, 식품진흥원 공유공장서 수국차 ‘달라티’ 첫 생산 - 한국영농신문",
@@ -47,14 +54,7 @@
       "link": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE41R3lGNGZNMjZYSy1kUXVBRkNNbkNscXBsanZDVjhjOHBLaUlReTFnNGlHWThudUhSdnFQSklaQnlfZGg3WVZGVktXQk12cGVndWxiMkJIRmNXYXI2czFldUdNaEg?oc=5",
       "source": "PRESS9",
       "pubDate": "2026-11-06T02:10:13+00:00",
-      "query": "HLB테라퓨틱스"
-    },
-    {
-      "title": "HLB그룹주 대부분 하락…HLB바이오스텝 상승·이노베이션 6.08% 내려 - CBC뉴스",
-      "link": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE5OeTVrQTRrZ0dDQ1NXbW9sNTVaOWZWSERjYi1TdjJaMGhBNnVyaGRERWNVNE5RV2NvN3ZFc0dhdU1BXzgwZG1EMTV5ZVNDYmlvYWtETm0xenRWclZ2WElMVEg3SVlqaXdT?oc=5",
-      "source": "CBC뉴스",
-      "pubDate": "2026-11-06T01:16:54+00:00",
-      "query": "HLB바이오스텝"
+      "query": "HLB 임상"
     },
     {
       "title": "[숏폼] HLB 간암 신약, FDA 허가 재도전…4월 9일 심사 결론 - 히트뉴스",
@@ -92,6 +92,6 @@
       "query": "HLB 신약"
     }
   ],
-  "fetchedAt": "2026-11-10T03:50:48.633437+00:00",
+  "fetchedAt": "2026-11-10T12:31:46.498998+00:00",
   "count": 13
 }
