@@ -1,73 +1,94 @@
 {
   "news": [
     {
-      "title": "HLB제약, 550억 투자 향남공장 첫 삽…연 7억정 채울 물량 관건 - 뉴스핌",
-      "link": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE8ydVQ4SDJHZWhYVTF1bmNvN2puZEtIWTNEWUVpOEJSODRCXy1pemR2cFNuUVRHRk93SnRCdFhFVkhWM0prU0NzcThSclprUVBNdmFZbnhNbXBrdEln?oc=5",
+      "title": "HLB이노베이션, 생산 효율화에 6분기 연속 영업흑자 - 뉴스핌",
+      "link": "https://news.google.com/rss/articles/CBMiXEFVX3lxTFBDVVVjSFpPTHNpLUQ3M2RBMy1NR01lRzJYX29JLW5rSmZqR0tQQ1pKQzJvZHUxRVhVRkV1RThmX2llSDV5bkI0N29aY0VOcUh2cl9LUnAwVE9DZUo1?oc=5",
       "source": "뉴스핌",
-      "pubDate": "2026-11-12T02:42:00+00:00",
+      "pubDate": "2026-11-12T09:34:00+00:00",
+      "query": "HLB이노베이션"
+    },
+    {
+      "title": "HLB이노베이션, 3분기 매출 57.7% 성장…경영 효율화로 6개 분기 연속 영업이익 흑자 달성 - 한국경제",
+      "link": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE9aSWtETV9TRlFObTN5cDd2dzFHQWZFZENGRGlDMlJMOXBIcGlmMU9SQlhqSlQ5SUE2WHNEWUxHVHdzNkhvYUE5RHJSVk1jUTQ1SDd6T1F4dXhQdw?oc=5",
+      "source": "한국경제",
+      "pubDate": "2026-11-12T08:55:06+00:00",
+      "query": "HLB이노베이션"
+    },
+    {
+      "title": "HLB제넥스, 3분기 영업이익 14억원… 누적 영업이익 82.9%↑ - 머니투데이 - 머니투데이",
+      "link": "https://news.google.com/rss/articles/CBMidkFVX3lxTFBMMU44WDlfRnBWQldubHZQcFZaVm05OWhyeEhQSmZwYndkUEdhQWtQLUxmLTIwNnNVUjZVMjBoTFFDUlNOYnV5MkxjWnVqbXphal9aMlhfWGtKQmFKVmNDS3JrRklUajJsSmg1cUltR0d2TFB5YXfSAXtBVV95cUxPYnMzc2RZOWVtYWt3anl5YkU1eURoeGF5M0pwcFBhTUNGM3pMUEw2TDY1SXMybUpUVmhUSmdTYVRZYmM2ZEQ1Tldib0lvYWN4bldmZHlDMHNOQjB2dUpzb2RGNjhFcVhOWXZFNnNQT2ZGSUJkNzV0T2ZvY1E?oc=5",
+      "source": "머니투데이",
+      "pubDate": "2026-11-12T08:53:32+00:00",
+      "query": "HLB제넥스"
+    },
+    {
+      "title": "HLB이노베이션, HLB셀 지분 99.30% 인수...재생의학 사업 확대 - Investing.com 한국어",
+      "link": "https://news.google.com/rss/articles/CBMic0FVX3lxTE9NU1FuSUtBUTY3OVNORWhaVkFKc20ySkxjUjJhQlZtejdjNG9RUVZCeUhwYm1ia09mekI1dWVGcHRQb1llek1jX0dmUkJkUWxwTXV4YlRUTUp2V3RRM1ZObXp5NXh6N0hEMnhVTU5FTng1YVE?oc=5",
+      "source": "Investing.com 한국어",
+      "pubDate": "2026-11-12T07:51:00+00:00",
+      "query": "HLB셀"
+    },
+    {
+      "title": "HLB, 3분기 영업손실 732억…\"담관암 신약 FDA 승인\" - 바이오북미디어",
+      "link": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE82YVBVQ1k1YW9PaW8zTW9aWXpfLTYwUTlGOEduZXl3UTJ6OUpZUHk2YlBORWNhUXhJM1BOcURRZEZQSmx6RnYyN3p0bFM0dzJ3cHNtMw?oc=5",
+      "source": "바이오북미디어",
+      "pubDate": "2026-11-12T07:34:00+00:00",
+      "query": "HLB FDA"
+    },
+    {
+      "title": "HLB제약, 화성시 '향남 신공장' 기공식 개최 - 바이오스펙테이터",
+      "link": "https://news.google.com/rss/articles/CBMiV0FVX3lxTE9TNk9IdV9KSVM5MkpCOE1Qd2ZJMFpyZ3AzUFROQ0xva0dOdE9PZF9nMzZESHZmbTBELWZ6b2JqbWFTcHlUTEExeTB5Y2hjU1lTVGs5U1k5UQ?oc=5",
+      "source": "바이오스펙테이터",
+      "pubDate": "2026-11-12T06:33:00+00:00",
+      "query": "HLB 신약"
+    },
+    {
+      "title": "[바이오 브리프] 보령·대원제약·HLB제약·유유제약 - ER 이코노믹리뷰",
+      "link": "https://news.google.com/rss/articles/CBMibEFVX3lxTE9nQVF0cXQ0dXZBS3Z4TWxXUG96S0dVTjdwOEpJeDlVemU5X3hBMXBJM0pqa2k1MUR6UWNIT0diaURRZjYtc0llM3h1ZXRVNlIwdTZxRkN0VlIweWpsMUcxM2hLX2VaODg3NUdzdw?oc=5",
+      "source": "ER 이코노믹리뷰",
+      "pubDate": "2026-11-12T06:06:53+00:00",
       "query": "HLB제약"
     },
     {
-      "title": "[현장] HLB제약, 향남 신공장 첫 삽…진양곤 “‘HLB’ 또 다른 역사의 시작” - 금융신문",
-      "link": "https://news.google.com/rss/articles/CBMifEFVX3lxTFA5RkdWUHJxUFR4WFkyRlJvOVlMbnlMYWl3cjZSUVJETkhYTFBmQ3NwN1Rqcjh2VG5WOUhUNm1tYzEwUXFEV0QycklnT0NRVWNLazc2U0I3Q2VoVnptTFhTM3NTaExtZDJYVm9yS1ZvWFR4Tm5GTDVJLVN5Wm0?oc=5",
-      "source": "금융신문",
-      "pubDate": "2026-11-12T02:41:39+00:00",
+      "title": "진양곤 \"두 번째 항암신약 허가 확신\"…자체 생산 로드맵도 한창 - 톱데일리",
+      "link": "https://news.google.com/rss/articles/CBMiT0FVX3lxTFAyeFVuVURQSTI5WXlfRzBtUElhS0w0cDFDQ2R2MWgyM2ZlWWdhVVU3Q0FUZkZXOFFmY29SaTFKNFN6TDBTanNhaFZXY1lVeTQ?oc=5",
+      "source": "톱데일리",
+      "pubDate": "2026-11-12T05:30:00+00:00",
       "query": "HLB 신약"
     },
     {
-      "title": "HLB제약, 550억 들여 신공장 짓는다…매출 1조원 도전 - 매일경제 마켓",
-      "link": "https://news.google.com/rss/articles/CBMiUkFVX3lxTFAyVW9OVVliRDdLcHNiZVNqV0NXMV9tZkRKYkxBQ2JMRGtmMnRET19aYTNLOWVsczlhdGZlT20tVFlTWlpuLV85MnVWMnlYVUZxWXc?oc=5",
-      "source": "매일경제 마켓",
-      "pubDate": "2026-11-12T01:50:58+00:00",
-      "query": "HLB 신약"
-    },
-    {
-      "title": "진양곤 HLB 의장 \"두 번째 항암신약 허가 확신… 향남공장 글로벌 생산기지 육성\" - 머니투데이 - 머니투데이",
-      "link": "https://news.google.com/rss/articles/CBMiaEFVX3lxTFBxTzdGa1ZZU2NPYUZ4TmJxSkpaMUdBSUVBakh0S25PV1hZbnBzY2NlWXpmTDUtRkc3ZHJMX2tsSXlaY3YzQm9RTExGNzgwUzloM3BPbHBYT00xUDZoZmVhaGhpRGRnS2dX0gFuQVVfeXFMT3JNNC1BbGlaZ1N5Q0V0MWVlY294WUVwcGNucjhtZlctMG95Y1E4emFHYTJLa2JEWE1NYXdKdWtsclY0RGp3NExlNFRWV3lBUHp5cUpBb29HTjFpbmJPSFpwVzdXZXo0Yk1kblJ4d2c?oc=5",
-      "source": "머니투데이",
-      "pubDate": "2026-11-12T01:35:18+00:00",
-      "query": "HLB 신약"
-    },
-    {
-      "title": "HLB파나진, 3분기 영업손실 1억으로 축소…멕시코 진단제품 허가 확보 - 메디코파마",
-      "link": "https://news.google.com/rss/articles/CBMickFVX3lxTE9QYW1zQjNzMnhTVmp4cjRPel9oX0ZmTDk2OHNvd0FkMmFiVloyZS1TMWFnNzJIa2xMN3NhdUdGYlp5V0E2R19jcHBTQnZtbDBiZTN0STNXeFBSNmE2eWJrbnpRVzV6ZERKR0FRSnVwLTU3dw?oc=5",
-      "source": "메디코파마",
-      "pubDate": "2026-11-11T09:39:46+00:00",
-      "query": "HLB파나진"
+      "title": "HLB생명과학 2560원 강보합…0.20% 상승, 시장 흐름 면밀히 살펴야 - CBC뉴스",
+      "link": "https://news.google.com/rss/articles/CBMiaEFVX3lxTFB5cmItVzU5c0twNFBnbVM0bkpZWlpzZGZsdGJxRVZZRTFyejYyeDluaDYtcGdvaG5wOUJfaUJ1cjBZdFVkeHlMZ1I0cHc1bG9lVGh4aV9xUm5NZE1lX2J2d1hpWjdsWGc3?oc=5",
+      "source": "CBC뉴스",
+      "pubDate": "2026-11-12T00:49:46+00:00",
+      "query": "HLB생명과학"
     },
     {
       "title": "해명 나선 HLB…간암 신약 허가까지 넘어야 할 관문 - 프라임경제",
       "link": "https://news.google.com/rss/articles/CBMibEFVX3lxTE1vSy1rNlFZYWpJbXhYbl8tWnBrdUEyWTFMbU1TVDBsUGRvOXdidG5nVF9FODFPQ3E0TXduLUpIOFlsSE9neldPSVRXaHZBQW42cXJyVlRlVHRFY3pkSWVPYXRRWk1VMi0xdUtnYg?oc=5",
       "source": "프라임경제",
       "pubDate": "2026-11-11T08:24:02+00:00",
-      "query": "HLB 신약"
+      "query": "HLB FDA"
     },
     {
-      "title": "이원직 HLB펩 대표 “매니지먼트 변화 필요…글로벌화가 해법” - 블로터",
-      "link": "https://news.google.com/rss/articles/CBMibEFVX3lxTFBJUE5FRVZ1V09OVkJDNVRjNS1pYWdRdVhMd1Q3VElUdHA1ZkUzRm5DWnhNU05qOWpuXzlJdU5GNmxPcGNEMzRCYmFZaXU4ZENFd2UtWXlGSGtqUHdEWlJJN2tRblQ0VGNJTXotRNIBbEFVX3lxTFBJUE5FRVZ1V09OVkJDNVRjNS1pYWdRdVhMd1Q3VElUdHA1ZkUzRm5DWnhNU05qOWpuXzlJdU5GNmxPcGNEMzRCYmFZaXU4ZENFd2UtWXlGSGtqUHdEWlJJN2tRblQ0VGNJTXotRA?oc=5",
-      "source": "블로터",
-      "pubDate": "2026-11-11T07:16:46+00:00",
-      "query": "HLB펩"
-    },
-    {
-      "title": "HLB파나진, 멕시코서 HPV 진단키트 허가 - PRESS9",
-      "link": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE5HM1JNcmd3Y1NKNEFjdlJTbTc4QWNfRjNrUE1wUDRaNlQ2U2k5dzBJUFZvZzluZExQOURTOTh4LWVWeUhTekQ4d2hnZlNrVTNuT3hTVENCdTVsYnRCVy03RDZaRmo?oc=5",
-      "source": "PRESS9",
-      "pubDate": "2026-11-11T00:32:07+00:00",
-      "query": "HLB파나진"
-    },
-    {
-      "title": "HLB파나진 \"HPV 분자진단 제품 멕시코 품목허가 획득\" - 히트뉴스",
-      "link": "https://news.google.com/rss/articles/CBMia0FVX3lxTE9HMnN5azdnckRibTlURlNtSmVIdjZMOWE1NmpaREJwRmxYMlhjNEdrR25pR29nd3hXVTdMSjM5RFZFdmhVZHhGTTgxUFpBTXhNMGVCalNPbElGSGVQeEZDUy03OTFQNkZzUXVF?oc=5",
-      "source": "히트뉴스",
-      "pubDate": "2026-11-11T00:27:26+00:00",
+      "title": "HLB파나진, ‘HPV 분자진단’ 멕시코 의료기기 \"허가\" - 바이오스펙테이터",
+      "link": "https://news.google.com/rss/articles/CBMiV0FVX3lxTE9Dd3FlX1FDdFV4aHhaamNWbk43c3VrQWwyMVNENFVNbVg0YVFpbUpEenhQaG4zY2U3Qi1kbVhTcDg2aUFmRGNkWW5ZUGdUTlUzZGlHSjV4Yw?oc=5",
+      "source": "바이오스펙테이터",
+      "pubDate": "2026-11-11T02:09:00+00:00",
       "query": "HLB 허가"
     },
     {
-      "title": "HLB펩 원료 적용 의약품, 멕시코 품목허가 - 서울경제TV",
-      "link": "https://news.google.com/rss/articles/CBMiZEFVX3lxTFBqMzJXQlJKNjR6LW5sd3g3Q2x1ZllZbjBQWmk4bFl6alVqaXF6SHUzdDJZN3J3Vi13MTNYT1NaRVRBMk11azhaVTNaNzZua3dPVWl4SDZWeVJMX0huNWVnVG01bnM?oc=5",
-      "source": "서울경제TV",
-      "pubDate": "2026-11-10T08:01:51+00:00",
+      "title": "HLB펩, 원료 공급 완제의약품 멕시코 품목허가 획득 - 로이슈",
+      "link": "https://news.google.com/rss/articles/CBMiekFVX3lxTE1SRTl5c003UnBYY2wzVGRud2c3em1tWjZtZTVXQ1NyS25yWGRISmZWckdnTlBjdTE1R2xVWmZoOXBpdjZ1MzZsaXF1NkJZcDEyT3VmR0xGTUw1cTNtZTdXU2RuSmpLTnhtSmZpMHFuMWFuM05oM3JzSzdB?oc=5",
+      "source": "로이슈",
+      "pubDate": "2026-11-10T09:31:15+00:00",
+      "query": "HLB펩"
+    },
+    {
+      "title": "HLB펩 \"류프로렐린 원료 의약품, 해외서 첫 허가\" - 뉴시스",
+      "link": "https://news.google.com/rss/articles/CBMiYEFVX3lxTFA1RlVRcnduSUhodTdIRTFRWkFvcE51TnJzMGotSzN6MWN3M3AteHZIRktrWHg0ZUcyQ0hEQ2xHbnlfeWdQR3N3WGp6Vm5UYlNmTjdkd1RhbTBHb1gwVXVaZdIBeEFVX3lxTE5Tcnh0anFxMm9SS2FnRFVoeFFqZTRxR3R0UzFjWXZxUVZoTUpMWUlFdTMwN0VjWlczcDJkX2U2NmVwdGxpZzBYUHpvTVFidlhsZmNUbVpUVnU4TjIzeUY1SkVQa0ZaZkNCTDJheUFhb3BZTWU5eXM5cw?oc=5",
+      "source": "뉴시스",
+      "pubDate": "2026-11-10T07:10:36+00:00",
       "query": "HLB펩"
     },
     {
@@ -85,13 +106,6 @@
       "query": "HLB생활건강"
     },
     {
-      "title": "“반도체 공정에 AI 얹는다”… HLB이노베이션, 36억 스마트제조 사업 - 지이코노미",
-      "link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE4xdTNvU1gwdWR0QlFOV0Y1U3NCc2ZteWpqc0NUOERvNUlaZUhkYjFXcXl4MTRBTWdfOWR3RnRCd0tpdG5JZ2FJTGVwRThtc2gxU1liNTU0QTJBZWhyLU5ndWxRdUIzWFk?oc=5",
-      "source": "지이코노미",
-      "pubDate": "2026-11-09T12:11:21+00:00",
-      "query": "HLB이노베이션"
-    },
-    {
       "title": "코아바이오, 식품진흥원 공유공장서 수국차 ‘달라티’ 첫 생산 - 한국영농신문",
       "link": "https://news.google.com/rss/articles/CBMibkFVX3lxTE95dkJOR0loUTNJM0pQX2ZsVkhhMHJRR1pUTnMyMU0xUzlZZGUtUlh5NGNIbXZJR0tNR09vR2d6RkxteS14NEZHbHNNRlo3bG96U1dsTnhneTdQeFZzYmtuTzdQQWZFbmU2b1E2Wi1n?oc=5",
       "source": "한국영농신문",
@@ -106,6 +120,6 @@
       "query": "HLB테라퓨틱스"
     }
   ],
-  "fetchedAt": "2026-11-12T03:13:58.110443+00:00",
-  "count": 15
+  "fetchedAt": "2026-11-12T11:39:28.775431+00:00",
+  "count": 17
 }
