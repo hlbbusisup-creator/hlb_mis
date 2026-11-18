@@ -1,25 +1,18 @@
 {
   "news": [
     {
-      "title": "HLB펩, 롯데바이오 초대 대표 이원직 영입 - 서울경제TV",
-      "link": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE1POFNvMmNKWTBUcTdhOUtFM0N2QkVlQTFtNjliakFIQ2VtemlYMmE2YnRkc1NuQnZ4Vm5DaVI1QTBpU0pZU19HZWVlUmR4VXM0d1Y2ajhOTGFFR1VoME0tUVdWMUs?oc=5",
-      "source": "서울경제TV",
-      "pubDate": "2026-11-17T23:11:26+00:00",
-      "query": "HLB펩"
+      "title": "HLB이노베이션 베리스모, 체내 CAR-T 생성 기술 도입 - 뉴스토마토",
+      "link": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE9leGNyd3RJOFhsbjk3NTdlTGtKeWtOTVJ3ZjZ6elRFQXZKMFl1b2lyQkRQWTZGVEIzLTRnZUpacjNXU3FvbFM0ajlrNlNSRHJNMkliMzhmS3JFMVdyVzVzTg?oc=5",
+      "source": "뉴스토마토",
+      "pubDate": "2026-11-18T06:40:12+00:00",
+      "query": "HLB이노베이션"
     },
     {
       "title": "삼성바이오·롯바 초대 대표들, HLB그룹 품으로…신약 넘어 글로벌 사업 확대 - 더바이오",
       "link": "https://news.google.com/rss/articles/CBMibEFVX3lxTFBvNVh6YnkyMENJS0d6VEY5S19KbGtyMjVQWFRuZDNGd01nQ0VEMEdCUGl6Z1NHQ0VZQVBFeDl6SGdJRmtTVkQ1bnBQbHVuRjNyOUlQbC1uX0hDNXlIeU92RzEtZEx3MGZDUTA2SdIBcEFVX3lxTE9vVTRVekd3cjBUR0ppRmNvU21KbGZIbllNREVrSGxTZzVXamgxNzhpNXhnY2ZfZkFSYkRZYk9iT0FnVWdmbjZNRFV4b0NocUNqZHFJX0NKdl9IeXExUzNrSEVXVFltbndoOS16SVRZVjI?oc=5",
       "source": "더바이오",
       "pubDate": "2026-11-17T22:03:01+00:00",
-      "query": "HLB 신약"
-    },
-    {
-      "title": "HLB, 종속회사 절반이 자본잠식...내년 미국 신약 상업화에 운명 걸어 - 소비자가 만드는 신문",
-      "link": "https://news.google.com/rss/articles/CBMic0FVX3lxTE9VM3pqT05oMUI4RVFxVUllQW9BZlZrRWNnMndkdm9mZlBzN1VyQ2RNc3RlSlNYVThSMVUxeXEyTEo3eGM2VDZJMzB1dWlSU0Fpa1hSNWJ6aFpMZHNWNDYyTzk0R3d2bm9scGstLTdxcTF0Unc?oc=5",
-      "source": "소비자가 만드는 신문",
-      "pubDate": "2026-11-17T21:10:00+00:00",
-      "query": "HLB 신약"
+      "query": "HLB 허가"
     },
     {
       "title": "HLB파나진, MEDICA 2026 참가해 해외 판로 확대 추진 - 로이슈",
@@ -29,18 +22,25 @@
       "query": "HLB파나진"
     },
     {
+      "title": "HLB라이프케어-종근당, 연속혈당측정기 '피코링' 판매 계약 체결 - MEDI:GATE NEWS",
+      "link": "https://news.google.com/rss/articles/CBMiU0FVX3lxTFBnNWFEdmYzV2VQWkVEQjVBaHpnZU4yUnJPclUyWk5YZURnUHNUY0NvdVo3bjBDMjMtOWU1aWFua254VjBKNFprVkJDRXJOTXFibTA0?oc=5",
+      "source": "MEDI:GATE NEWS",
+      "pubDate": "2026-11-17T02:26:26+00:00",
+      "query": "HLB 계약"
+    },
+    {
+      "title": "아리바이오랩·코아스템켐, 동반 급등…HLB테라퓨틱스는 3상 실패에 '下'[바이오맥짚기] - 이데일리",
+      "link": "https://news.google.com/rss/articles/CBMigAFBVV95cUxQVzVubi1zZmgwdGloYVBaSmhTcFpKNDFyR3Fmd0FqZzBnNzVZX2JDWGVOZlRYTWtnSFYyMmphWHZNTHZLOU5vcG1QUTF1ejZaWE1UTzBCLWVrRlFOcVppZVNwaFRRX19DX01wM2loeVdLS2dfY1Q1YmJ6SXBMY0I2Tw?oc=5",
+      "source": "이데일리",
+      "pubDate": "2026-11-17T01:02:02+00:00",
+      "query": "HLB테라퓨틱스"
+    },
+    {
       "title": "HLB파나진, ‘메디카 2026’ 참가…글로벌 분자진단 시장 공략 박차 - 이투데이",
       "link": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE5QMlQ0dV9xbVRXdWIyVERrQnY0bG5SUEtiMUdoWjlzMGxwQV84MGRZRFdmbDBIcGsxU1dTazBUMDdXV09zMjJza0tHNmdhMEpzTGJMNA?oc=5",
       "source": "이투데이",
       "pubDate": "2026-11-17T00:54:00+00:00",
       "query": "HLB파나진"
-    },
-    {
-      "title": "HLB라이프케어-종근당, 연속혈당측정기 '피코링' 판매 계약 체결 - MEDI:GATE NEWS",
-      "link": "https://news.google.com/rss/articles/CBMiU0FVX3lxTFBnNWFEdmYzV2VQWkVEQjVBaHpnZU4yUnJPclUyWk5YZURnUHNUY0NvdVo3bjBDMjMtOWU1aWFua254VjBKNFprVkJDRXJOTXFibTA0?oc=5",
-      "source": "MEDI:GATE NEWS",
-      "pubDate": "2026-11-16T23:54:13+00:00",
-      "query": "HLB 계약"
     },
     {
       "title": "HLB 각막염 치료제 美 3상 실패…내년 간암 치료제 허가가 분수령 - 서울경제",
@@ -54,27 +54,27 @@
       "link": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE9QUk1kcm03a01tam5MeWhSUVdCQWFtYnR4SVFKVktnYy05TldBYXJaWUwwc2dSUHlJYWJKOHJwZWxicnd4b2pLUVpmTlNNd3AxM1FSMlVmUkJqX0o3UXREdjd0ZnFzcVlu?oc=5",
       "source": "데일리메디",
       "pubDate": "2026-11-16T20:15:00+00:00",
-      "query": "HLB테라퓨틱스"
-    },
-    {
-      "title": "[이슈플러스] HLB 그룹, 신약 3상 또 고배…주주 불신 커져 - 서울경제TV",
-      "link": "https://news.google.com/rss/articles/CBMiZEFVX3lxTFA0cmtCTTdiOHFjSi1xMHpydkVyNDVFTUFPdkdUWTdtSG1HYUV1b0FtVXJmdWY5ODlKbHN3R3VoUWluR1gxYUNBS3NZVWotOUNvSVRfNjJrc2RWZmhxNXY2Y0JBVHQ?oc=5",
-      "source": "서울경제TV",
-      "pubDate": "2026-11-16T09:32:12+00:00",
-      "query": "HLB 신약"
+      "query": "HLB 임상"
     },
     {
       "title": "HLB테라퓨틱스, RGN-259 미국 임상3상 실패…1차 평가변수 미충족 By EBN - Investing.com 한국어",
       "link": "https://news.google.com/rss/articles/CBMicEFVX3lxTE4tUEl6SzFGSnNxQUFNVTAtb3VTQnFWUTNBVXZhS013VWNEbnhiRWl6NDVCNGpIdWFBX2E4S2hMVU5LOWhITEg3T0tvNEVzNHZXdWxYMk9xV2dYWFZjX3RoY01MeFV0U0oyRVlHWDRBMEs?oc=5",
       "source": "Investing.com 한국어",
       "pubDate": "2026-11-16T05:37:00+00:00",
-      "query": "HLB테라퓨틱스"
+      "query": "HLB 임상"
     },
     {
       "title": "HLB제약 박재형 7년…매출 7배 눈앞·550억 투자 승부수 - 데일리팜",
       "link": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE9kT1F4SEY3ZTBNaUxSNzdIbTIySkZWZ2E4Q0lDZ0kwM0VaN2FpNFFFeV9FYUF3cEduQl9TOHlZcmgxd3NXaVlwUnkwc3FKY3AwSkRDZWdn?oc=5",
       "source": "데일리팜",
       "pubDate": "2026-11-16T03:06:32+00:00",
+      "query": "HLB제약"
+    },
+    {
+      "title": "HLB제약, 3분기 주력사업 호황에 영업익 개선 - DealSite경제TV",
+      "link": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE5NTzg5d05pOXQyd0VEclVFSU5jWjAwQWNpYjJGaklQZ1IyZVZMMGhOVDhfa00zc0JZN1JjMFZVRUxPZ3EzWkVGd0RsY2dVZDhpTnlMQUR3?oc=5",
+      "source": "DealSite경제TV",
+      "pubDate": "2026-11-13T09:52:02+00:00",
       "query": "HLB제약"
     },
     {
@@ -85,10 +85,17 @@
       "query": "HLB제약"
     },
     {
-      "title": "HLB제약, 향남 신공장 착공…생산능력 3배 확대 - 비즈워치",
-      "link": "https://news.google.com/rss/articles/CBMib0FVX3lxTFBZSnI3bVREX3JDclBINmF2dGdmOWpwY3hrLUxtd2t2NWVEcWpyT1FkNVZaazRJMExJdW9tRVFFaGpKQS1WVzQyZ1lQQ3A3Rlo0Xy1NUVdRQ2h5cTVtSWN5MVFQSi1XZDdaVzFpMXhRQQ?oc=5",
-      "source": "비즈워치",
-      "pubDate": "2026-11-12T06:23:03+00:00",
+      "title": "HLB제넥스, 3분기 누적 매출 347억…영업이익 83% 증가 - 이투데이",
+      "link": "https://news.google.com/rss/articles/CBMiVEFVX3lxTFAwbTBEQXRrYUZOT25oY25KdUhLYi04djlieVVYY0l5b1VsVkJhS3BfNjlOLUpOTUY5QkpPQjZrclZkT3gxQmtjakRxMXJabEN3Y09yVw?oc=5",
+      "source": "이투데이",
+      "pubDate": "2026-11-12T08:14:00+00:00",
+      "query": "HLB제넥스"
+    },
+    {
+      "title": "HLB제약, 화성시 '향남 신공장' 기공식 개최 - 바이오스펙테이터",
+      "link": "https://news.google.com/rss/articles/CBMiV0FVX3lxTE9TNk9IdV9KSVM5MkpCOE1Qd2ZJMFpyZ3AzUFROQ0xva0dOdE9PZF9nMzZESHZmbTBELWZ6b2JqbWFTcHlUTEExeTB5Y2hjU1lTVGs5U1k5UQ?oc=5",
+      "source": "바이오스펙테이터",
+      "pubDate": "2026-11-12T06:33:00+00:00",
       "query": "HLB제약"
     },
     {
@@ -106,6 +113,6 @@
       "query": "HLB 허가"
     }
   ],
-  "fetchedAt": "2026-11-18T00:01:38.871485+00:00",
-  "count": 15
+  "fetchedAt": "2026-11-18T07:16:00.442006+00:00",
+  "count": 16
 }
